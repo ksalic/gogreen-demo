@@ -1,0 +1,33 @@
+/**
+ * Copyright 2010-2014 Hippo B.V. (http://www.onehippo.com)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* General */
+html, body { background-color: #e8e9ec; }
+#topbar { background: url(../../images/facebook-topbar-bg.png) repeat-x; min-height: 43px; width: 100%; }
+#topbar .wrapper { background: url(../../images/facebook-topbar.png) no-repeat; width: 964px; height: 43px; margin: 0 auto; }
+#header { background: url(../../images/facebook-header.png) no-repeat; height: 358px; margin: 0 auto 0px; width: 851px; }
+#main { padding: 20px 20px; background: #fff; width: 811px; margin: 10px auto; border: 1px solid #c4cde0; border-bottom-width: 2px; -webkit-border-radius: 3px; text-align: left; }
+#main h4 { font-size: 18px; font-weight: bold; margin-bottom: 0.7em; }
+#main p { margin: 0.5em 0; }
+a { color: #3b5998; }
+
+/* Footer - disclaimer */
+#ft-disclaimer { text-align: left; margin: 17px auto 0; padding: 12px 0 10px; width: 851px; font-size: 12px; color:#9197a3; border-top: 1px solid #ccc; }
+#ft-disclaimer a { text-decoration: none; }
+#ft-disclaimer a:hover { text-decoration: underline; }
+
+/* Position content relative, neccessary to render the edit content button from the template composer in the right top corner of a detail page. */
+.editable, #content.editable { position: relative }
