@@ -1,8 +1,8 @@
 Build Instructions for Gogreen 2.0
 ==================================
--First, download the Gogreen 2.0 community edition (CE): https://svn.onehippo.org/repos/closed/sandbox/rkauffman/gogreen-2.0/
+-First, download the Gogreen 2.0 community edition (CE): https://svn.onehippo.org/repos/closed/demos/gogreen-2.0/
 -Build the Gogreen 2.0 CE using default build instructions: mvn clean install
--Next, download the Gogreen 2.0 enterprise edition (EE): https://svn.onehippo.org/repos/closed/sandbox/rkauffman/gogreen-enterprise-2.0/
+-Next, download the Gogreen 2.0 enterprise edition (EE): https://svn.onehippo.org/repos/closed/demos/gogreen-enterprise-2.0/
 -Build the Gogreen 2.0 EE using default build instructions: mvn clean install
 -You can now run the project using: mvn -P cargo.run
 
