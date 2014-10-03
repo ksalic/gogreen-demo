@@ -6646,3 +6646,14 @@ Testimonial
 /* Product categories */
 .portfolio-filter { text-align: center; }
 .portfolio-filter li { text-align: center; display: inline-block; float: none; margin: 0 0 20px 20px; }
+
+/* remove default margin Hero wrapper */
+.hero-wrapper .space-sep20 { height: 0; }
+
+/* shrink width of embedded youtube video for right column */
+.col-md-3.col-sm-3 .video object.youtube embed { width: 235px; }
+
+/* show banner collections, latest items & RSS feeds below eachother, when dragged to right small column */
+.col-md-3.col-sm-3 .col-md-3.col-sm-3,
+.col-md-3.col-sm-3 .col-md-4.col-sm-4,
+.col-md-3.col-sm-3 .col-md-6.col-sm-6 { width: 100%; margin-bottom: 2rem; }

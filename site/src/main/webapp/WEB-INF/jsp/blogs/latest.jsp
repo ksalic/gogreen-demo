@@ -20,6 +20,21 @@
 
 <c:if test="${fn:length(items) gt 0}">
 
+    <c:choose>
+        <c:when test="${fn:length(items) eq 1}">
+            <c:set var="colSize" value="12"/>
+        </c:when>
+        <c:when test="${fn:length(items) eq 2}">
+            <c:set var="colSize" value="6"/>
+        </c:when>
+        <c:when test="${fn:length(items) eq 3}">
+            <c:set var="colSize" value="4"/>
+        </c:when>
+        <c:when test="${fn:length(items) eq 4}">
+            <c:set var="colSize" value="3"/>
+        </c:when>
+    </c:choose>
+
     <div class="container">
     <c:if test="${not empty title}">
         <div class="row">
@@ -36,7 +51,7 @@
 
             <div class="row latest-items">
                 <c:forEach items="${items}" var="item">
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-${colSize} col-sm-${colSize}">
                         <hst:cmseditlink hippobean="${item}"/>
                         <div class="feature">
                               <div class="feature-image">
