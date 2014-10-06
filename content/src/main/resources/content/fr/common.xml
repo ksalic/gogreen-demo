@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="common">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="common">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:directory</sv:value>
   </sv:property>
@@ -25,7 +24,6 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>fr</sv:value>
   </sv:property>
-
   <sv:node sv:name="hippo:translation">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:translation</sv:value>
@@ -59,7 +57,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>fr</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -108,6 +105,9 @@
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/enceintes-ipod-ecologique</sv:value>
+        </sv:property>
         <sv:property sv:name="hippogogreen:title" sv:type="String">
           <sv:value>Enceintes iPod écologique</sv:value>
         </sv:property>
@@ -141,7 +141,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>fr</sv:value>
         </sv:property>
-
         <sv:node sv:name="hippogogreen:image">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogallerypicker:imagelink</sv:value>
@@ -200,6 +199,9 @@
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/tasses-plastique-recycle</sv:value>
+        </sv:property>
         <sv:property sv:name="hippogogreen:title" sv:type="String">
           <sv:value>Tasses en plastique recyclé</sv:value>
         </sv:property>
@@ -233,7 +235,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>fr</sv:value>
         </sv:property>
-
         <sv:node sv:name="hippogogreen:image">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogallerypicker:imagelink</sv:value>
@@ -278,7 +279,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>fr</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -350,10 +350,131 @@
             <sv:value>selection:listitem</sv:value>
           </sv:property>
           <sv:property sv:name="selection:key" sv:type="String">
-            <sv:value>Alimentation</sv:value>
+            <sv:value>Family</sv:value>
           </sv:property>
           <sv:property sv:name="selection:label" sv:type="String">
-            <sv:value>Alimentation</sv:value>
+            <sv:value>Famille</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Gadgets</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Gadgets</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Animal &amp; Garden</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Faune et jardin</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Health care</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Les soins de santé</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Maison</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Kitchen</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Cuisine</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Bureau</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Outdoors</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Extérieur</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Print</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Imprimer</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>École</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Solaire</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Sports</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Sports</sv:value>
           </sv:property>
         </sv:node>
         <sv:node sv:name="selection:listitem">
@@ -364,65 +485,9 @@
             <sv:value>Transport</sv:value>
           </sv:property>
           <sv:property sv:name="selection:label" sv:type="String">
-            <sv:value>Transport</sv:value>
+            <sv:value>Transports</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="selection:listitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>selection:listitem</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:key" sv:type="String">
-            <sv:value>Santé</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:label" sv:type="String">
-            <sv:value>Santé</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="selection:listitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>selection:listitem</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:key" sv:type="String">
-            <sv:value>Animaux et jardins</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:label" sv:type="String">
-            <sv:value>Animaux et jardins</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="selection:listitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>selection:listitem</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:key" sv:type="String">
-            <sv:value>Mode</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:label" sv:type="String">
-            <sv:value>Mode</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="selection:listitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>selection:listitem</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:key" sv:type="String">
-            <sv:value>Recyclage</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:label" sv:type="String">
-            <sv:value>Recyclage</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="selection:listitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>selection:listitem</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:key" sv:type="String">
-            <sv:value>Imprimer</sv:value>
-          </sv:property>
-          <sv:property sv:name="selection:label" sv:type="String">
-            <sv:value>Imprimer</sv:value>
-          </sv:property>
-        </sv:node>
-
       </sv:node>
       <sv:node sv:name="hippo:translation">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
