@@ -1055,7 +1055,7 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenu</sv:value>
       </sv:property>
-      <sv:node sv:name="News &amp; Events">
+      <sv:node sv:name="News">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
         </sv:property>
@@ -1063,12 +1063,20 @@
           <sv:value>news</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="Jobs">
+      <sv:node sv:name="Events">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
         </sv:property>
         <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-          <sv:value>jobs</sv:value>
+          <sv:value>events</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Blogs">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+          <sv:value>blogs</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="Products">
