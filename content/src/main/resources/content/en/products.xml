@@ -867,10 +867,7 @@ should have evaporated.&lt;/li&gt;
               <sv:value>2013-12-06T12:02:02.330+01:00</sv:value>
             </sv:property>
             <sv:property sv:name="brokenlinks:errorCode" sv:type="Long">
-              <sv:value>1000</sv:value>
-            </sv:property>
-            <sv:property sv:name="brokenlinks:errorMessage" sv:type="String">
-              <sv:value>org.apache.http.conn.HttpHostConnectException</sv:value>
+              <sv:value>404</sv:value>
             </sv:property>
             <sv:property sv:name="brokenlinks:excerpt" sv:type="String">
               <sv:value>&lt;a target="_blank" href ="http://slowfoodrecipes.wikia.com/index.php?title=Caster_sugar&amp;amp;action=edit&amp;amp;redlink=1"&gt;http://slowfoodrecipes.wikia.com/index.php?title=Caster_sugar&amp;amp;action=edit&amp;amp;redlink=1&lt;/a&gt;</sv:value>
@@ -955,10 +952,7 @@ should have evaporated.&lt;/li&gt;
               <sv:value>2013-12-06T12:02:02.335+01:00</sv:value>
             </sv:property>
             <sv:property sv:name="brokenlinks:errorCode" sv:type="Long">
-              <sv:value>1000</sv:value>
-            </sv:property>
-            <sv:property sv:name="brokenlinks:errorMessage" sv:type="String">
-              <sv:value>org.apache.http.conn.HttpHostConnectException</sv:value>
+              <sv:value>404</sv:value>
             </sv:property>
             <sv:property sv:name="brokenlinks:excerpt" sv:type="String">
               <sv:value>&lt;a target="_blank" href ="http://slowfoodrecipes.wikia.com/index.php?title=Parsnip&amp;amp;action=edit&amp;amp;redlink=1"&gt;http://slowfoodrecipes.wikia.com/index.php?title=Parsnip&amp;amp;action=edit&amp;amp;redlink=1&lt;/a&gt;</sv:value>
@@ -5648,7 +5642,6 @@ Made in the USA.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>brokenlinks:brokenlinks</sv:value>
             <sv:value>hippo:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -5951,26 +5944,6 @@ looks like a Prius.&lt;/p&gt;
               <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
               <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
             </sv:node>
-          </sv:node>
-          <sv:node sv:name="brokenlinks:link">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>brokenlinks:link</sv:value>
-            </sv:property>
-            <sv:property sv:name="brokenlinks:brokenSince" sv:type="Date">
-              <sv:value>2014-10-07T09:20:31.047+02:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="brokenlinks:errorCode" sv:type="Long">
-              <sv:value>1000</sv:value>
-            </sv:property>
-            <sv:property sv:name="brokenlinks:errorMessage" sv:type="String">
-              <sv:value>org.apache.http.conn.ConnectTimeoutException</sv:value>
-            </sv:property>
-            <sv:property sv:name="brokenlinks:excerpt" sv:type="String">
-              <sv:value>&lt;a target="_blank" href ="http://www.thecarconnection.com/style/hatchback"&gt;http://www.thecarconnection.com/style/hatchback&lt;/a&gt;</sv:value>
-            </sv:property>
-            <sv:property sv:name="brokenlinks:url" sv:type="String">
-              <sv:value>http://www.thecarconnection.com/style/hatchback</sv:value>
-            </sv:property>
           </sv:node>
         </sv:node>
         <sv:node sv:name="women-cruiser">

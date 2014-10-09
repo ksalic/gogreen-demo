@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>01db13a0-ec4f-4035-9732-42b9402c12fb</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>698c552c-4a05-48b3-a846-8ea0f99c9a14</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>de</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Nachrichten</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="2014">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a499388d-55fb-416e-85e5-2ffccb57a1eb</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>c27d26c4-d67e-4747-a63a-49f2c90abd91</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:node sv:name="09">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b86818f1-462e-4413-a749-c213ecb96101</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>30ac17ee-bf94-4c01-8b09-325de77d7718</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>de</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e03f39f9-4018-48bc-b84c-2ed453b6adf2</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f363e246-2dce-4a0f-ba7b-b8938ff13a1f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/09/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>GoGreen ist erfreut, seinen Vorschlag für eine Nachhaltige UNEF Business Award Anmelden</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten GoGreen für UNEF Sustainable Business-Award nominiert</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:01:21.336+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:10:54.446+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>531d3f80-a4de-48e1-8957-ea7dc8c13858</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;New York-Nairobi. GoGreen ist unter 10 globalen Unternehmen, die von Umweltfonds der Vereinten Nationen mit einer Nominierung f&amp;uuml;r den prestigetr&amp;auml;chtigen Sustainable Business Award ausgezeichnet. Laut Angaben des Sustainable Business Awards Ank&amp;uuml;ndigung hat GoGreen f&amp;uuml;r seine Nominierung &amp;quot;herausragende Beitr&amp;auml;ge zur Bek&amp;auml;mpfung des Klimawandels mit seinen weltweiten CSR-Strategie.&amp;quot;&amp;nbsp;
+&lt;br /&gt; &amp;quot;Wir sind begeistert, f&amp;uuml;r Sustainable Business Award nominiert werden&amp;quot;, sagt CEO GoGreen Robert Greene, &amp;quot;wir gr&amp;uuml;ndlich respektieren die Arbeit der UNEF und sind stolz darauf, unter solchen vision&amp;auml;ren Unternehmen angegeben werden.&amp;quot; Gewinner des Sustainable Business Award wird in bekannt gegeben eine Zeremonie in Nairobi im Dezember dieses Jahres.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten GoGreen für UNEF Sustainable Business-Award nominiert </sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>fb251365-2dcc-4ae8-bbf0-b411d3f36c53</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/09/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert[3]</sv:value>
+            <sv:value>news/2014/09/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>GoGreen ist erfreut, seinen Vorschlag für eine Nachhaltige UNEF Business Award Anmelden</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten GoGreen für UNEF Sustainable Business-Award nominiert</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:01:21.336+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:10:44.684+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>531d3f80-a4de-48e1-8957-ea7dc8c13858</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;New York-Nairobi. GoGreen ist unter 10 globalen Unternehmen, die von Umweltfonds der Vereinten Nationen mit einer Nominierung f&amp;uuml;r den prestigetr&amp;auml;chtigen Sustainable Business Award ausgezeichnet. Laut Angaben des Sustainable Business Awards Ank&amp;uuml;ndigung hat GoGreen f&amp;uuml;r seine Nominierung &amp;quot;herausragende Beitr&amp;auml;ge zur Bek&amp;auml;mpfung des Klimawandels mit seinen weltweiten CSR-Strategie.&amp;quot;&amp;nbsp;
+&lt;br /&gt; &amp;quot;Wir sind begeistert, f&amp;uuml;r Sustainable Business Award nominiert werden&amp;quot;, sagt CEO GoGreen Robert Greene, &amp;quot;wir gr&amp;uuml;ndlich respektieren die Arbeit der UNEF und sind stolz darauf, unter solchen vision&amp;auml;ren Unternehmen angegeben werden.&amp;quot; Gewinner des Sustainable Business Award wird in bekannt gegeben eine Zeremonie in Nairobi im Dezember dieses Jahres.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a392bd9a-bf91-4126-aa73-9ff439e7acc2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/09/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten-gogreen-fur-unef-sustainable-business-award-nominiert</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>GoGreen ist erfreut, seinen Vorschlag für eine Nachhaltige UNEF Business Award Anmelden</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten GoGreen für UNEF Sustainable Business-Award nominiert</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:01:21.336+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:10:54.446+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:10:56.331+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>531d3f80-a4de-48e1-8957-ea7dc8c13858</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;New York-Nairobi. GoGreen ist unter 10 globalen Unternehmen, die von Umweltfonds der Vereinten Nationen mit einer Nominierung f&amp;uuml;r den prestigetr&amp;auml;chtigen Sustainable Business Award ausgezeichnet. Laut Angaben des Sustainable Business Awards Ank&amp;uuml;ndigung hat GoGreen f&amp;uuml;r seine Nominierung &amp;quot;herausragende Beitr&amp;auml;ge zur Bek&amp;auml;mpfung des Klimawandels mit seinen weltweiten CSR-Strategie.&amp;quot;&amp;nbsp;
+&lt;br /&gt; &amp;quot;Wir sind begeistert, f&amp;uuml;r Sustainable Business Award nominiert werden&amp;quot;, sagt CEO GoGreen Robert Greene, &amp;quot;wir gr&amp;uuml;ndlich respektieren die Arbeit der UNEF und sind stolz darauf, unter solchen vision&amp;auml;ren Unternehmen angegeben werden.&amp;quot; Gewinner des Sustainable Business Award wird in bekannt gegeben eine Zeremonie in Nairobi im Dezember dieses Jahres.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="08">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>755462c4-e508-4d10-a69f-7eef9446e619</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9153ccef-321b-4b9b-882e-d9bfa4635422</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>de</sv:value>
+      </sv:property>
+      <sv:node sv:name="sonja-verde-joins-gogreen-als-vice-president-of-marketing">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3def6d1d-d34a-44de-879f-850d5e7550f0</sv:value>
+        </sv:property>
+        <sv:node sv:name="sonja-verde-joins-gogreen-als-vice-president-of-marketing">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4706eaff-a611-47a1-91d3-dfba7bb271f9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/08/sonja-verde-joins-gogreen-als-vice-president-of-marketing/sonja-verde-joins-gogreen-als-vice-president-of-marketing[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Position, um die regionale Präsenz für globale Marktführer im Bereich nachhaltigen Konsum zu stärken.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Sonja Verde Joins GoGreen als Vice President of Marketing</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:05:19.551+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:11:32.576+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>dd13a021-26b0-4e22-9095-baed130caa12</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;GoGreen freut sich Sonja Verde als neue Vice President of Global Marketing in seiner Amsterdamer B&amp;uuml;ro begr&amp;uuml;&amp;szlig;en zu d&amp;uuml;rfen. Sonja, die auf Corporate Social Responsibility an der Universit&amp;auml;t von Gr&amp;ouml;nland Vorlesungen hat, verbindet sich mit 10 Jahre Erfahrung im Management von Marketing-L&amp;ouml;sungen f&amp;uuml;r einige der weltweit f&amp;uuml;hrenden nachhaltigen Marken GOGREEN. &amp;quot;GoGreen ist ein stetiges Wachstum der letzten Jahre erlebt und sieht, diesen Trend fortsetzen&amp;quot;, sagt Pr&amp;auml;sident und Co-Gr&amp;uuml;nder, Robert Greene. &amp;quot;Erfahrung und Talent Sonja ist eine gro&amp;szlig;e Bereicherung f&amp;uuml;r unser F&amp;uuml;hrungsteam und wird uns helfen, den n&amp;auml;chsten Schritt nach vorne.&amp;quot;&amp;nbsp;
+&lt;br /&gt; &amp;quot;Ich bin begeistert, meine Leidenschaft f&amp;uuml;r Content-Marketing und Corporate Social Responsibility zu bringen, um Go Green&amp;quot;, sagt Verde. &amp;quot;Die nachhaltige Konsumg&amp;uuml;ter Bewegung gewinnt an Dynamik und die Beteiligung an einem Team, das in der Mischung so lange ist berauschend gewesen ist.&amp;quot; Verde wird Blei auf Gesch&amp;auml;fts-und Marktentwicklung zu nehmen; Marktforschung; strategische Ausrichtung f&amp;uuml;r die Promotion und Werbung; und die Richtung der Marketing-Mitarbeiter.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Sonja Verde Joins GoGreen als Vice President of Marketing </sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="sonja-verde-joins-gogreen-als-vice-president-of-marketing">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5b1eab58-6f28-406c-b618-22f3717f3647</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/08/sonja-verde-joins-gogreen-als-vice-president-of-marketing/sonja-verde-joins-gogreen-als-vice-president-of-marketing</sv:value>
+            <sv:value>news/2014/08/sonja-verde-joins-gogreen-als-vice-president-of-marketing/sonja-verde-joins-gogreen-als-vice-president-of-marketing[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Position, um die regionale Präsenz für globale Marktführer im Bereich nachhaltigen Konsum zu stärken.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Sonja Verde Joins GoGreen als Vice President of Marketing</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:05:19.551+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:11:21.775+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>dd13a021-26b0-4e22-9095-baed130caa12</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;GoGreen freut sich Sonja Verde als neue Vice President of Global Marketing in seiner Amsterdamer B&amp;uuml;ro begr&amp;uuml;&amp;szlig;en zu d&amp;uuml;rfen. Sonja, die auf Corporate Social Responsibility an der Universit&amp;auml;t von Gr&amp;ouml;nland Vorlesungen hat, verbindet sich mit 10 Jahre Erfahrung im Management von Marketing-L&amp;ouml;sungen f&amp;uuml;r einige der weltweit f&amp;uuml;hrenden nachhaltigen Marken GOGREEN. &amp;quot;GoGreen ist ein stetiges Wachstum der letzten Jahre erlebt und sieht, diesen Trend fortsetzen&amp;quot;, sagt Pr&amp;auml;sident und Co-Gr&amp;uuml;nder, Robert Greene. &amp;quot;Erfahrung und Talent Sonja ist eine gro&amp;szlig;e Bereicherung f&amp;uuml;r unser F&amp;uuml;hrungsteam und wird uns helfen, den n&amp;auml;chsten Schritt nach vorne.&amp;quot;&amp;nbsp;
+&lt;br /&gt; &amp;quot;Ich bin begeistert, meine Leidenschaft f&amp;uuml;r Content-Marketing und Corporate Social Responsibility zu bringen, um Go Green&amp;quot;, sagt Verde. &amp;quot;Die nachhaltige Konsumg&amp;uuml;ter Bewegung gewinnt an Dynamik und die Beteiligung an einem Team, das in der Mischung so lange ist berauschend gewesen ist.&amp;quot; Verde wird Blei auf Gesch&amp;auml;fts-und Marktentwicklung zu nehmen; Marktforschung; strategische Ausrichtung f&amp;uuml;r die Promotion und Werbung; und die Richtung der Marketing-Mitarbeiter.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="sonja-verde-joins-gogreen-als-vice-president-of-marketing">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>7b19601b-2d81-47d5-babf-39b7e467cfa7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/08/sonja-verde-joins-gogreen-als-vice-president-of-marketing/sonja-verde-joins-gogreen-als-vice-president-of-marketing</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Position, um die regionale Präsenz für globale Marktführer im Bereich nachhaltigen Konsum zu stärken.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Sonja Verde Joins GoGreen als Vice President of Marketing</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:05:19.551+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:11:32.576+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:11:34.237+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>dd13a021-26b0-4e22-9095-baed130caa12</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;GoGreen freut sich Sonja Verde als neue Vice President of Global Marketing in seiner Amsterdamer B&amp;uuml;ro begr&amp;uuml;&amp;szlig;en zu d&amp;uuml;rfen. Sonja, die auf Corporate Social Responsibility an der Universit&amp;auml;t von Gr&amp;ouml;nland Vorlesungen hat, verbindet sich mit 10 Jahre Erfahrung im Management von Marketing-L&amp;ouml;sungen f&amp;uuml;r einige der weltweit f&amp;uuml;hrenden nachhaltigen Marken GOGREEN. &amp;quot;GoGreen ist ein stetiges Wachstum der letzten Jahre erlebt und sieht, diesen Trend fortsetzen&amp;quot;, sagt Pr&amp;auml;sident und Co-Gr&amp;uuml;nder, Robert Greene. &amp;quot;Erfahrung und Talent Sonja ist eine gro&amp;szlig;e Bereicherung f&amp;uuml;r unser F&amp;uuml;hrungsteam und wird uns helfen, den n&amp;auml;chsten Schritt nach vorne.&amp;quot;&amp;nbsp;
+&lt;br /&gt; &amp;quot;Ich bin begeistert, meine Leidenschaft f&amp;uuml;r Content-Marketing und Corporate Social Responsibility zu bringen, um Go Green&amp;quot;, sagt Verde. &amp;quot;Die nachhaltige Konsumg&amp;uuml;ter Bewegung gewinnt an Dynamik und die Beteiligung an einem Team, das in der Mischung so lange ist berauschend gewesen ist.&amp;quot; Verde wird Blei auf Gesch&amp;auml;fts-und Marktentwicklung zu nehmen; Marktforschung; strategische Ausrichtung f&amp;uuml;r die Promotion und Werbung; und die Richtung der Marketing-Mitarbeiter.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="07">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d9221128-aecf-4f6c-82b8-efe1824cf9de</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>4b2830c1-afa0-4ffb-abf2-46499939b5eb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>de</sv:value>
+      </sv:property>
+      <sv:node sv:name="gogreen-kundigt-rekordwachstum-im-1.-halbjahr">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e4ed6b38-9a20-4d31-bb83-e8de66a3f9d5</sv:value>
+        </sv:property>
+        <sv:node sv:name="gogreen-kundigt-rekordwachstum-im-1.-halbjahr">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>be9ea36f-eb54-4849-b414-1718193a8255</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/07/gogreen-kundigt-rekordwachstum-im-1.-halbjahr/gogreen-kundigt-rekordwachstum-im-1.-halbjahr[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Nach einer historisch erfolgreichen ersten Quartal weiterhin schnelles Wachstum GoGreen in H1.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>GoGreen kündigt Rekordwachstum im 1. Halbjahr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:02:05.152+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:12:10.079+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3e7d3389-fede-422b-9f16-66f1693bb3a9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Nach einer historisch erfolgreichen ersten Quartal GoGreen hat heute eine beispiellos erfolgreiche Halb year-- mit Umsatzsteigerungen von &amp;uuml;ber 250%.&amp;nbsp;
+&lt;br /&gt; Mit einem Gro&amp;szlig;teil des Wachstums in den Vereinigten Staaten, hat gro&amp;szlig;e Fortschritte in GoGreen den nordamerikanischen Markt hergestellt, aber auch zeigen, ein solides Wachstum in anderen Zielregionen. Bemerkenswerte nordamerikanischen Standort &amp;Ouml;ffnungen sind: Los Angeles, New York, Chicago und Austin. Das Unternehmen hat auch ein Neugesch&amp;auml;ft in den Niederlanden, dem Vereinigten K&amp;ouml;nigreich, Deutschland, Belgien und Finnland.&amp;nbsp;
+&lt;br /&gt; &amp;quot;Das war eine bahnbrechende Halbjahr f&amp;uuml;r GoGreen&amp;quot;, stellt Gesch&amp;auml;ftsf&amp;uuml;hrer Robert Greene. &amp;quot;Wir sind stolz darauf, so viele Kunden erkennen ihre eigenen &amp;Ouml;ko-Werte in GoGreen-Philosophie zu sehen. Die Welt ver&amp;auml;ndert sich, und die Kunden erwarten, dass Unternehmen, die jetzt mit ihren Werten auszurichten, und mit dem Wohle des Planeten-wir sind froh zu sein, bringt nachhaltige Produkte zu diesen neuen M&amp;auml;rkten. &amp;quot;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>GoGreen kündigt Rekordwachstum im 1. Halbjahr </sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="gogreen-kundigt-rekordwachstum-im-1.-halbjahr">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a2f18e18-4d66-48da-ac28-c1818d762552</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/07/gogreen-kundigt-rekordwachstum-im-1.-halbjahr/gogreen-kundigt-rekordwachstum-im-1.-halbjahr[3]</sv:value>
+            <sv:value>news/2014/07/gogreen-kundigt-rekordwachstum-im-1.-halbjahr/gogreen-kundigt-rekordwachstum-im-1.-halbjahr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Nach einer historisch erfolgreichen ersten Quartal weiterhin schnelles Wachstum GoGreen in H1.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>GoGreen kündigt Rekordwachstum im 1. Halbjahr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:02:05.152+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:11:49.457+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3e7d3389-fede-422b-9f16-66f1693bb3a9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Nach einer historisch erfolgreichen ersten Quartal GoGreen hat heute eine beispiellos erfolgreiche Halb year-- mit Umsatzsteigerungen von &amp;uuml;ber 250%.&amp;nbsp;
+&lt;br /&gt; Mit einem Gro&amp;szlig;teil des Wachstums in den Vereinigten Staaten, hat gro&amp;szlig;e Fortschritte in GoGreen den nordamerikanischen Markt hergestellt, aber auch zeigen, ein solides Wachstum in anderen Zielregionen. Bemerkenswerte nordamerikanischen Standort &amp;Ouml;ffnungen sind: Los Angeles, New York, Chicago und Austin. Das Unternehmen hat auch ein Neugesch&amp;auml;ft in den Niederlanden, dem Vereinigten K&amp;ouml;nigreich, Deutschland, Belgien und Finnland.&amp;nbsp;
+&lt;br /&gt; &amp;quot;Das war eine bahnbrechende Halbjahr f&amp;uuml;r GoGreen&amp;quot;, stellt Gesch&amp;auml;ftsf&amp;uuml;hrer Robert Greene. &amp;quot;Wir sind stolz darauf, so viele Kunden erkennen ihre eigenen &amp;Ouml;ko-Werte in GoGreen-Philosophie zu sehen. Die Welt ver&amp;auml;ndert sich, und die Kunden erwarten, dass Unternehmen, die jetzt mit ihren Werten auszurichten, und mit dem Wohle des Planeten-wir sind froh zu sein, bringt nachhaltige Produkte zu diesen neuen M&amp;auml;rkten. &amp;quot;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="gogreen-kundigt-rekordwachstum-im-1.-halbjahr">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>14642224-bb3f-4c2c-8fbe-65e4f23e69f9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/07/gogreen-kundigt-rekordwachstum-im-1.-halbjahr/gogreen-kundigt-rekordwachstum-im-1.-halbjahr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Nach einer historisch erfolgreichen ersten Quartal weiterhin schnelles Wachstum GoGreen in H1.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>GoGreen kündigt Rekordwachstum im 1. Halbjahr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:02:05.152+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:12:10.079+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:12:12.524+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3e7d3389-fede-422b-9f16-66f1693bb3a9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Nach einer historisch erfolgreichen ersten Quartal GoGreen hat heute eine beispiellos erfolgreiche Halb year-- mit Umsatzsteigerungen von &amp;uuml;ber 250%.&amp;nbsp;
+&lt;br /&gt; Mit einem Gro&amp;szlig;teil des Wachstums in den Vereinigten Staaten, hat gro&amp;szlig;e Fortschritte in GoGreen den nordamerikanischen Markt hergestellt, aber auch zeigen, ein solides Wachstum in anderen Zielregionen. Bemerkenswerte nordamerikanischen Standort &amp;Ouml;ffnungen sind: Los Angeles, New York, Chicago und Austin. Das Unternehmen hat auch ein Neugesch&amp;auml;ft in den Niederlanden, dem Vereinigten K&amp;ouml;nigreich, Deutschland, Belgien und Finnland.&amp;nbsp;
+&lt;br /&gt; &amp;quot;Das war eine bahnbrechende Halbjahr f&amp;uuml;r GoGreen&amp;quot;, stellt Gesch&amp;auml;ftsf&amp;uuml;hrer Robert Greene. &amp;quot;Wir sind stolz darauf, so viele Kunden erkennen ihre eigenen &amp;Ouml;ko-Werte in GoGreen-Philosophie zu sehen. Die Welt ver&amp;auml;ndert sich, und die Kunden erwarten, dass Unternehmen, die jetzt mit ihren Werten auszurichten, und mit dem Wohle des Planeten-wir sind froh zu sein, bringt nachhaltige Produkte zu diesen neuen M&amp;auml;rkten. &amp;quot;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4cd178b6-ec27-4676-acc0-7a4b1b49debf</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4bf7787e-ee4b-48d6-8d16-0be517cd42d1</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/07/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>In enger Zusammenarbeit mit Hippo, GoGreen, dem weltweit ersten digital-native, globale Autorität für nachhaltige Produkte für zu Hause, Büro und im Freien hat gerade angekündigt, die Einführung eines völlig neuen GoGreen.com.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:04:19.006+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:13:09.340+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e38b8c5-e41c-48da-85dd-de0625c36d1a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Mit GoGreen CSR-Philosophie als Ausgangspunkt, setzen Sie das Team aus, um einen ganzheitlichen, hyper-Eingriff, Multi-Channel, Multi-Device-Kundenerlebnis, die Kundenbasis des Shops erweitern w&amp;uuml;rde, w&amp;auml;hrend die restlichen wesentliche Ressource f&amp;uuml;r eine nachhaltige Lebensweise zu schaffen.&amp;nbsp;
+&lt;br /&gt; &amp;quot;Solide und einfach zu integrieren Architektur Hippo gemacht diese Implementierung ein Kinderspiel&amp;quot;, sagt Joanna GoGreen CTO Groen, &amp;quot;wir waren in der Lage, zu Hippo in unserem eigenen Tempo zu migrieren, und die Arbeit mit den Werkzeugen und L&amp;ouml;sungen, die wir vertrauen. Die Ergebnisse geben uns einen beispiellosen Grad an Kontrolle &amp;uuml;ber die Kundenerfahrung, ohne dabei die Markenkonsistenz. &amp;quot;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten </sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3e854796-6ba8-4808-b95f-fdcc1bcc90ff</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/07/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten[3]</sv:value>
+            <sv:value>news/2014/07/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>In enger Zusammenarbeit mit Hippo, GoGreen, dem weltweit ersten digital-native, globale Autorität für nachhaltige Produkte für zu Hause, Büro und im Freien hat gerade angekündigt, die Einführung eines völlig neuen GoGreen.com.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:04:19.006+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:12:58.892+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e38b8c5-e41c-48da-85dd-de0625c36d1a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Mit GoGreen CSR-Philosophie als Ausgangspunkt, setzen Sie das Team aus, um einen ganzheitlichen, hyper-Eingriff, Multi-Channel, Multi-Device-Kundenerlebnis, die Kundenbasis des Shops erweitern w&amp;uuml;rde, w&amp;auml;hrend die restlichen wesentliche Ressource f&amp;uuml;r eine nachhaltige Lebensweise zu schaffen.&amp;nbsp;
+&lt;br /&gt; &amp;quot;Solide und einfach zu integrieren Architektur Hippo gemacht diese Implementierung ein Kinderspiel&amp;quot;, sagt Joanna GoGreen CTO Groen, &amp;quot;wir waren in der Lage, zu Hippo in unserem eigenen Tempo zu migrieren, und die Arbeit mit den Werkzeugen und L&amp;ouml;sungen, die wir vertrauen. Die Ergebnisse geben uns einen beispiellosen Grad an Kontrolle &amp;uuml;ber die Kundenerfahrung, ohne dabei die Markenkonsistenz. &amp;quot;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:simpledocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>273cac36-9da5-4226-9858-61d3a7af919e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2014/07/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten/hippo-und-gogreen-arbeiten-zusammen-um-eine-umfassende-website-redesign-starten</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>In enger Zusammenarbeit mit Hippo, GoGreen, dem weltweit ersten digital-native, globale Autorität für nachhaltige Produkte für zu Hause, Büro und im Freien hat gerade angekündigt, die Einführung eines völlig neuen GoGreen.com.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Hippo und GoGreen arbeiten zusammen, um eine umfassende Website Redesign starten</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2014-09-08T17:04:19.006+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:13:09.340+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2014-10-07T11:13:10.922+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e38b8c5-e41c-48da-85dd-de0625c36d1a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>de</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Mit GoGreen CSR-Philosophie als Ausgangspunkt, setzen Sie das Team aus, um einen ganzheitlichen, hyper-Eingriff, Multi-Channel, Multi-Device-Kundenerlebnis, die Kundenbasis des Shops erweitern w&amp;uuml;rde, w&amp;auml;hrend die restlichen wesentliche Ressource f&amp;uuml;r eine nachhaltige Lebensweise zu schaffen.&amp;nbsp;
+&lt;br /&gt; &amp;quot;Solide und einfach zu integrieren Architektur Hippo gemacht diese Implementierung ein Kinderspiel&amp;quot;, sagt Joanna GoGreen CTO Groen, &amp;quot;wir waren in der Lage, zu Hippo in unserem eigenen Tempo zu migrieren, und die Arbeit mit den Werkzeugen und L&amp;ouml;sungen, die wir vertrauen. Die Ergebnisse geben uns einen beispiellosen Grad an Kontrolle &amp;uuml;ber die Kundenerfahrung, ohne dabei die Markenkonsistenz. &amp;quot;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="facetednews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippofacnav:facetnavigation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:count" sv:type="Long">
+      <sv:value>17</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:docbase" sv:type="String">
+      <sv:value>01db13a0-ec4f-4035-9732-42b9402c12fb</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+      <sv:value>Dieses Jahr</sv:value>
+      <sv:value>Archivieren${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+      <sv:value>hippostdpubwf:publicationDate$[{name:'This month', resolution:'month', begin:0, end:1},&#13;
+        {name:'Last month', resolution:'month', begin:-1, end:0}, {name:'This year',&#13;
+        resolution:'year', begin:0, end:1}]</sv:value>
+      <sv:value>hippostdpubwf:publicationDate$year</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+      <sv:value>200</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
