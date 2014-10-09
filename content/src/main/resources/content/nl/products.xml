@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -21,17 +20,19 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>nl</sv:value>
   </sv:property>
-
   <sv:node sv:name="facetedproducts">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippofacnav:facetnavigation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:count" sv:type="Long">
+      <sv:value>23</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>3d647e7e-ea21-4208-90a3-a854bdb74783</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
       <sv:value>Prijs</sv:value>
-      <sv:value>Product Categorie</sv:value>
+      <sv:value>Categorie</sv:value>
       <sv:value>Score</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
@@ -79,7 +80,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>nl</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -112,7 +112,6 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>nl</sv:value>
       </sv:property>
-
       <sv:node sv:name="07">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:folder</sv:value>
@@ -134,7 +133,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>nl</sv:value>
         </sv:property>
-
         <sv:node sv:name="berkenhouten-composteerbaar-bestek">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:handle</sv:value>
@@ -163,7 +161,6 @@
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:referenceable</sv:value>
-              <sv:value>hippotranslation:translated</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>d8e2502f-1c97-43f4-8a30-73e83a2b12c0</sv:value>
@@ -171,6 +168,9 @@
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
               <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/voedsel/2010/07/berkenhouten-composteerbaar-bestek</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Voedsel</sv:value>
@@ -221,7 +221,6 @@
             <sv:property sv:name="hippotranslation:locale" sv:type="String">
               <sv:value>nl</sv:value>
             </sv:property>
-
             <sv:node sv:name="hippogogreen:description">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hippostd:html</sv:value>
@@ -382,7 +381,6 @@ rekening gebracht.&lt;/em&gt;&lt;/p&gt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>nl</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -415,7 +413,6 @@ rekening gebracht.&lt;/em&gt;&lt;/p&gt;
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>nl</sv:value>
       </sv:property>
-
       <sv:node sv:name="07">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:folder</sv:value>
@@ -437,7 +434,6 @@ rekening gebracht.&lt;/em&gt;&lt;/p&gt;
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>nl</sv:value>
         </sv:property>
-
         <sv:node sv:name="duurzaam-houten-ipod-geluidsysteem">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:handle</sv:value>
@@ -466,7 +462,6 @@ rekening gebracht.&lt;/em&gt;&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:referenceable</sv:value>
-              <sv:value>hippotranslation:translated</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>b111c3e3-24c1-4954-ba58-25b92c048ae8</sv:value>
@@ -474,6 +469,9 @@ rekening gebracht.&lt;/em&gt;&lt;/p&gt;
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
               <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/hergebruik/2010/07/duurzaam-houten-ipod-geluidsysteem</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Hergebruik</sv:value>
@@ -523,7 +521,6 @@ rekening gebracht.&lt;/em&gt;&lt;/p&gt;
             <sv:property sv:name="hippotranslation:locale" sv:type="String">
               <sv:value>nl</sv:value>
             </sv:property>
-
             <sv:node sv:name="hippogogreen:description">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hippostd:html</sv:value>
@@ -660,7 +657,6 @@ hergebruikt papier of gewoonweg verwijderd.&lt;/em&gt;&lt;/p&gt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>nl</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -693,7 +689,6 @@ hergebruikt papier of gewoonweg verwijderd.&lt;/em&gt;&lt;/p&gt;
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>nl</sv:value>
       </sv:property>
-
       <sv:node sv:name="07">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:folder</sv:value>
@@ -715,7 +710,6 @@ hergebruikt papier of gewoonweg verwijderd.&lt;/em&gt;&lt;/p&gt;
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>nl</sv:value>
         </sv:property>
-
         <sv:node sv:name="tandemfiets">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:handle</sv:value>
@@ -744,7 +738,6 @@ hergebruikt papier of gewoonweg verwijderd.&lt;/em&gt;&lt;/p&gt;
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:referenceable</sv:value>
-              <sv:value>hippotranslation:translated</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>fe179dfd-c5a0-44d1-9e4b-46039875c853</sv:value>
@@ -752,6 +745,9 @@ hergebruikt papier of gewoonweg verwijderd.&lt;/em&gt;&lt;/p&gt;
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
               <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/transport/2010/07/tandemfiets</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Transport</sv:value>
@@ -801,7 +797,6 @@ hergebruikt papier of gewoonweg verwijderd.&lt;/em&gt;&lt;/p&gt;
             <sv:property sv:name="hippotranslation:locale" sv:type="String">
               <sv:value>nl</sv:value>
             </sv:property>
-
             <sv:node sv:name="hippogogreen:description">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hippostd:html</sv:value>
@@ -881,7 +876,6 @@ en is één van de meest succesvolle leveranciers van fietsen.&lt;/em&gt;&lt;/p&
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>nl</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -914,7 +908,6 @@ en is één van de meest succesvolle leveranciers van fietsen.&lt;/em&gt;&lt;/p&
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>nl</sv:value>
       </sv:property>
-
       <sv:node sv:name="07">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:folder</sv:value>
@@ -936,7 +929,6 @@ en is één van de meest succesvolle leveranciers van fietsen.&lt;/em&gt;&lt;/p&
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>nl</sv:value>
         </sv:property>
-
         <sv:node sv:name="douchegordijn-van-hennep">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:handle</sv:value>
@@ -965,7 +957,6 @@ en is één van de meest succesvolle leveranciers van fietsen.&lt;/em&gt;&lt;/p&
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:referenceable</sv:value>
-              <sv:value>hippotranslation:translated</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>b8265d79-a3a6-4860-ae8b-351aa0d82fad</sv:value>
@@ -973,6 +964,9 @@ en is één van de meest succesvolle leveranciers van fietsen.&lt;/em&gt;&lt;/p&
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
               <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/gezondheidszorg/2010/07/douchegordijn-van-hennep</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Gezondheidszorg</sv:value>
@@ -1024,7 +1018,6 @@ Douchegordijnen van hennep zijn prachtig, zacht, subtiel aromatisch en een gezon
             <sv:property sv:name="hippotranslation:locale" sv:type="String">
               <sv:value>nl</sv:value>
             </sv:property>
-
             <sv:node sv:name="hippogogreen:description">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hippostd:html</sv:value>
@@ -1106,7 +1099,6 @@ zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.&lt;/em&gt;&
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>nl</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -1139,7 +1131,6 @@ zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.&lt;/em&gt;&
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>nl</sv:value>
       </sv:property>
-
       <sv:node sv:name="07">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:folder</sv:value>
@@ -1161,7 +1152,6 @@ zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.&lt;/em&gt;&
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>nl</sv:value>
         </sv:property>
-
         <sv:node sv:name="de-green-johanna-compostbak">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:handle</sv:value>
@@ -1190,7 +1180,6 @@ zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.&lt;/em&gt;&
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:referenceable</sv:value>
-              <sv:value>hippotranslation:translated</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>a7ab6991-120f-48bf-81a9-c866ccfcc078</sv:value>
@@ -1198,6 +1187,9 @@ zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.&lt;/em&gt;&
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
               <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/dier--tuin/2010/07/de-green-johanna-compostbak</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Dier &amp; Tuin</sv:value>
@@ -1247,7 +1239,6 @@ zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.&lt;/em&gt;&
             <sv:property sv:name="hippotranslation:locale" sv:type="String">
               <sv:value>nl</sv:value>
             </sv:property>
-
             <sv:node sv:name="hippogogreen:description">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hippostd:html</sv:value>
@@ -1381,7 +1372,6 @@ botten, melkproducten en heeft minimaal 30% extra tuinafval nodig&lt;/em&gt;&lt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>nl</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -1409,7 +1399,6 @@ botten, melkproducten en heeft minimaal 30% extra tuinafval nodig&lt;/em&gt;&lt;
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a40d4cdd-7731-4905-806b-f2eb8cc97d9c</sv:value>
@@ -1417,6 +1406,9 @@ botten, melkproducten en heeft minimaal 30% extra tuinafval nodig&lt;/em&gt;&lt;
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>products/tijdschrift/naturefriend</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
           <sv:value>Voedsel</sv:value>
@@ -1466,7 +1458,6 @@ botten, melkproducten en heeft minimaal 30% extra tuinafval nodig&lt;/em&gt;&lt;
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>nl</sv:value>
         </sv:property>
-
         <sv:node sv:name="hippogogreen:description">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
