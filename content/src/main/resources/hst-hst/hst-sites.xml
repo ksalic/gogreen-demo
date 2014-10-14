@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sites">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sites">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:sites</sv:value>
   </sv:property>
@@ -51,14 +50,6 @@
       <sv:value>/content/documents/hippogagroen</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="mobile_es">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:site</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:content" sv:type="String">
-      <sv:value>/content/documents/hipopotamo-ir-verde</sv:value>
-    </sv:property>
-  </sv:node>
   <sv:node sv:name="rest">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:site</sv:value>
@@ -73,30 +64,6 @@
     </sv:property>
     <sv:property sv:name="hst:content" sv:type="String">
       <sv:value>/content/documents/hippogogreen</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hippogogreen_ru">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:site</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:content" sv:type="String">
-      <sv:value>/content/documents/хиппо-идите-зелёный</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="mobile_ru">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:site</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:content" sv:type="String">
-      <sv:value>/content/documents/хиппо-идите-зелёный</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hippogogreen_es">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:site</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:content" sv:type="String">
-      <sv:value>/content/documents/hipopotamo-ir-verde</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="hippogogreen_zh">

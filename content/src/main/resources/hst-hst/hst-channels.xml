@@ -125,47 +125,6 @@
       </sv:property>
     </sv:node>
   </sv:node>
-  <sv:node sv:name="hippogogreen-ru">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:channel</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
-      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:devices" sv:type="String" sv:multiple="true">
-      <sv:value>desktop</sv:value>
-      <sv:value>ipad_landscape</sv:value>
-      <sv:value>ipad_portrait</sv:value>
-      <sv:value>iphone_landscape</sv:value>
-      <sv:value>iphone_portrait</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:name" sv:type="String">
-      <sv:value>Russian Website</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:type" sv:type="String">
-      <sv:value>website</sv:value>
-    </sv:property>
-    <sv:node sv:name="hst:channelinfo">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:channelinfo</sv:value>
-      </sv:property>
-      <sv:property sv:name="boxed" sv:type="Boolean">
-        <sv:value>true</sv:value>
-      </sv:property>
-      <sv:property sv:name="boxedPattern" sv:type="String">
-        <sv:value>neutral</sv:value>
-      </sv:property>
-      <sv:property sv:name="logo" sv:type="String">
-        <sv:value>/content/gallery/logos/hippo-go-green-logo---russian.png</sv:value>
-      </sv:property>
-      <sv:property sv:name="pageTitlePrefix" sv:type="String">
-        <sv:value>Хиппо идите зелёный</sv:value>
-      </sv:property>
-      <sv:property sv:name="themeCss" sv:type="String">
-        <sv:value>/content/assets/themes/css/green.css</sv:value>
-      </sv:property>
-    </sv:node>
-  </sv:node>
   <sv:node sv:name="hippogogreen-mobile">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:channel</sv:value>
@@ -265,61 +224,6 @@
       </sv:property>
     </sv:node>
   </sv:node>
-  <sv:node sv:name="hippogogreen-mobile-ru">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:channel</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
-      <sv:value>com.onehippo.gogreen.channels.MobileInfo</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:devices" sv:type="String" sv:multiple="true">
-      <sv:value>desktop</sv:value>
-      <sv:value>iphone_portrait</sv:value>
-      <sv:value>iphone_landscape</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:name" sv:type="String">
-      <sv:value>Russian Mobile Product Catalog</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:type" sv:type="String">
-      <sv:value>mobile</sv:value>
-    </sv:property>
-    <sv:node sv:name="hst:channelinfo">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:channelinfo</sv:value>
-      </sv:property>
-      <sv:property sv:name="logo" sv:type="String">
-        <sv:value>/content/gallery/logos/hippo-go-green-logo---russian.png</sv:value>
-      </sv:property>
-      <sv:property sv:name="pageTitlePrefix" sv:type="String">
-        <sv:value>Хиппо идите зелёный</sv:value>
-      </sv:property>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="hippogogreen-mobile-es">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:channel</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
-      <sv:value>com.onehippo.gogreen.channels.MobileInfo</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:name" sv:type="String">
-      <sv:value>Spanish Mobile Product Catalog</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:type" sv:type="String">
-      <sv:value>mobile</sv:value>
-    </sv:property>
-    <sv:node sv:name="hst:channelinfo">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:channelinfo</sv:value>
-      </sv:property>
-      <sv:property sv:name="logo" sv:type="String">
-        <sv:value>/content/gallery/logos/hippo-go-green-logo---spanish.png</sv:value>
-      </sv:property>
-      <sv:property sv:name="pageTitlePrefix" sv:type="String">
-        <sv:value>Hipopotamo ir verde</sv:value>
-      </sv:property>
-    </sv:node>
-  </sv:node>
   <sv:node sv:name="hippogogreen-ipad-mag">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:channel</sv:value>
@@ -347,47 +251,6 @@
       </sv:property>
       <sv:property sv:name="pageTitlePrefix" sv:type="String">
         <sv:value>GoGreen IPad Magazine</sv:value>
-      </sv:property>
-      <sv:property sv:name="themeCss" sv:type="String">
-        <sv:value>/content/assets/themes/css/green.css</sv:value>
-      </sv:property>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="hippogogreen-es">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:channel</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
-      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:devices" sv:type="String" sv:multiple="true">
-      <sv:value>desktop</sv:value>
-      <sv:value>ipad_landscape</sv:value>
-      <sv:value>ipad_portrait</sv:value>
-      <sv:value>iphone_landscape</sv:value>
-      <sv:value>iphone_portrait</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:name" sv:type="String">
-      <sv:value>Spanish Website</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:type" sv:type="String">
-      <sv:value>website</sv:value>
-    </sv:property>
-    <sv:node sv:name="hst:channelinfo">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:channelinfo</sv:value>
-      </sv:property>
-      <sv:property sv:name="boxed" sv:type="Boolean">
-        <sv:value>true</sv:value>
-      </sv:property>
-      <sv:property sv:name="boxedPattern" sv:type="String">
-        <sv:value>neutral</sv:value>
-      </sv:property>
-      <sv:property sv:name="logo" sv:type="String">
-        <sv:value>/content/gallery/logos/hippo-go-green-logo---spanish.png</sv:value>
-      </sv:property>
-      <sv:property sv:name="pageTitlePrefix" sv:type="String">
-        <sv:value>Hippo Durable</sv:value>
       </sv:property>
       <sv:property sv:name="themeCss" sv:type="String">
         <sv:value>/content/assets/themes/css/green.css</sv:value>
@@ -425,13 +288,13 @@
         <sv:value>neutral</sv:value>
       </sv:property>
       <sv:property sv:name="logo" sv:type="String">
-        <sv:value>/content/gallery/logos/hippo-go-green-logo---chinese.png</sv:value>
+        <sv:value>/content/gallery/logos/gogreenlogo2.png</sv:value>
       </sv:property>
       <sv:property sv:name="pageTitlePrefix" sv:type="String">
         <sv:value>绿色环保河马</sv:value>
       </sv:property>
       <sv:property sv:name="themeCss" sv:type="String">
-        <sv:value>/content/assets/themes/css/green.css</sv:value>
+        <sv:value>/content/assets/themes/css/hippo-green.css</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

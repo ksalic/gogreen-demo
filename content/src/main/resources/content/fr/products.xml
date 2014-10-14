@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -21,23 +20,25 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>fr</sv:value>
   </sv:property>
-
   <sv:node sv:name="facetedproducts">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippofacnav:facetnavigation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:count" sv:type="Long">
+      <sv:value>9</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>6e450630-fef8-4186-806c-4211b4c25b46</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
       <sv:value>Prix</sv:value>
-      <sv:value>Catégorie</sv:value>
       <sv:value>Note</sv:value>
+      <sv:value>Catégorie</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
       <sv:value>hippogogreen:price$[{name:'moins de 25 €', resolution:'double', end:25},{name:'25 à 50 €', resolution:'double', begin:25, end:50},{name:'50 à 100 €', resolution:'double', begin:50, end:100},{name:'100 à 250 €', resolution:'double', begin:100, end:250},{name:'250 à 500 €', resolution:'double', begin:250, end:500},{name:'plus de 500 €', resolution:'double', begin:500}]</sv:value>
-      <sv:value>hippogogreen:categories</sv:value>
       <sv:value>hippogogreen:rating$[{name:'1 étoile ou plus', resolution:'double', begin:1},{name:'2 étoiles ou plus', resolution:'double', begin:2},{name:'3 étoiles ou plus', resolution:'double', begin:3},{name:'4 étoiles ou plus', resolution:'double', begin:4},{name:'5 étoiles', resolution:'double', begin:5, end:6}]</sv:value>
+      <sv:value>hippogogreen:categories</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:limit" sv:type="Long">
       <sv:value>200</sv:value>
@@ -79,7 +80,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>fr</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -112,7 +112,6 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>fr</sv:value>
       </sv:property>
-
       <sv:node sv:name="07">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:folder</sv:value>
@@ -134,7 +133,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>fr</sv:value>
         </sv:property>
-
         <sv:node sv:name="tasses-en-plastique-recycle">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:handle</sv:value>
@@ -163,7 +161,6 @@
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:referenceable</sv:value>
-              <sv:value>hippotranslation:translated</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>54eaf368-1f92-491c-968a-097af6e67aed</sv:value>
@@ -171,6 +168,9 @@
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
               <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/alimentation/2010/07/tasses-en-plastique-recycle</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Alimentation</sv:value>
@@ -224,7 +224,6 @@
             <sv:property sv:name="hippotranslation:locale" sv:type="String">
               <sv:value>fr</sv:value>
             </sv:property>
-
             <sv:node sv:name="hippogogreen:description">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hippostd:html</sv:value>
@@ -317,7 +316,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>fr</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -350,7 +348,6 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>fr</sv:value>
       </sv:property>
-
       <sv:node sv:name="07">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:folder</sv:value>
@@ -372,7 +369,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>fr</sv:value>
         </sv:property>
-
         <sv:node sv:name="enceintes-ipod-ecologiques">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:handle</sv:value>
@@ -401,7 +397,6 @@
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:referenceable</sv:value>
-              <sv:value>hippotranslation:translated</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>519b07c3-a43e-4e28-b097-a6c070780b81</sv:value>
@@ -409,6 +404,9 @@
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
               <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/recyclage/2010/07/enceintes-ipod-ecologiques</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Recyclage</sv:value>
@@ -461,7 +459,6 @@
             <sv:property sv:name="hippotranslation:locale" sv:type="String">
               <sv:value>fr</sv:value>
             </sv:property>
-
             <sv:node sv:name="hippogogreen:description">
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hippostd:html</sv:value>

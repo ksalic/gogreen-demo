@@ -1185,20 +1185,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>31405.0</sv:value> 
     </sv:property> 
   </sv:node>
-  <sv:node sv:name="hippogogreen-zh-common"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/zh/common.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/河马转到绿</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31404.0</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
   <sv:node sv:name="hippogogreen-de-gemeinsam"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -1255,20 +1242,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>31405.2</sv:value> 
     </sv:property> 
   </sv:node>
-  <sv:node sv:name="hippogogreen-zh-events"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/zh/events.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/河马转到绿</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31404.4</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
     
   <sv:node sv:name="hippogogreen-en-blogs">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
@@ -1312,20 +1286,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>31405.3</sv:value> 
     </sv:property> 
   </sv:node>
-  <sv:node sv:name="hippogogreen-zh-blogs">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/zh/blogs.xml</sv:value>
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/河马转到绿</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31404.5</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
   <sv:node sv:name="hippogogreen-de-blogs">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -1410,48 +1371,20 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>50100.5</sv:value> 
     </sv:property> 
   </sv:node>
-  <sv:node sv:name="hippogogreen-zh-products"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/zh/products.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/河马转到绿</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31404.6</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hippogogreen-de-produkte"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/de/produkte.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/hippo-geht-gruen</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31404.5</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hippogogreen-de-about"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/de/ueber-uns.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content/documents/hippo-geht-gruen</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31404.7</sv:value> 
-    </sv:property> 
-  </sv:node>  
+  <sv:node sv:name="hippogogreen-de-products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31405.9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/de/products.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/hippo-geht-gruen</sv:value>
+    </sv:property>
+  </sv:node>
   <sv:node sv:name="hippogogreen-en-faqs"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -2109,7 +2042,21 @@ We need to use a number more than that to be able to create the default selectio
     <sv:property sv:name="hippo:sequence" sv:type="Double"> 
       <sv:value>31405.4</sv:value> 
     </sv:property> 
-  </sv:node>  
+  </sv:node>
+  <sv:node sv:name="hippogogreen-de-about">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31405.5</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/de/about.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/hippo-geht-gruen</sv:value>
+    </sv:property>
+  </sv:node>
   <sv:node sv:name="hippogogreen-en-searchfacets"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -3657,328 +3604,29 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>3.09.00</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-error"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/error.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-events-layar"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/events-layar.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-ajax-events-overview-past"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-ajax-events-overview-past.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-ajax-events-overview-upcoming"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-ajax-events-overview-upcoming.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-ajax-events-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-ajax-events-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-ajax-products-overview-popular"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-ajax-products-overview-popular.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-ajax-products-overview-recent"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-ajax-products-overview-recent.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-ajax-products-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-ajax-products-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-events-detail"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-events-detail.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-events-overview-past"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-events-overview-past.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-events-overview-upcoming"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-events-overview-upcoming.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-events-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-events-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-products-detail"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-products-detail.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-products-overview-popular"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-products-overview-popular.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-products-overview-recent"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-products-overview-recent.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-products-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-products-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-pages-mobile-standardpage"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/pages/mobile-standardpage.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-sitemap"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/sitemap.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-sitemenus"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/workspace/sitemenus.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru/hst:workspace</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_ru-hst-pages"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_ru/pages.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_ru</sv:value> 
-    </sv:property> 
-  </sv:node>
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_ru-hst-sitemap"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_ru/sitemap.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_ru</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_ru-hst-sitemenus"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_ru/workspace/sitemenus.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_ru/hst:workspace</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -4007,328 +3655,29 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/hippogogreen</sv:value> 
     </sv:property> 
   </sv:node>
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-error"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/error.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-events-layar"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/events-layar.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-ajax-events-overview-past"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-ajax-events-overview-past.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-ajax-events-overview-upcoming"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-ajax-events-overview-upcoming.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-ajax-events-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-ajax-events-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-ajax-products-overview-popular"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-ajax-products-overview-popular.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-ajax-products-overview-recent"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-ajax-products-overview-recent.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-ajax-products-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-ajax-products-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-events-detail"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-events-detail.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-events-overview-past"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-events-overview-past.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-events-overview-upcoming"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-events-overview-upcoming.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-events-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-events-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-products-detail"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-products-detail.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-products-overview-popular"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-products-overview-popular.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-products-overview-recent"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-products-overview-recent.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-products-search"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-products-search.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-pages-mobile-standardpage"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50001.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/pages/mobile-standardpage.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:pages</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-sitemap"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/sitemap.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-sitemenus"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/workspace/sitemenus.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es/hst:workspace</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_es-hst-pages"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_es/pages.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_es</sv:value> 
-    </sv:property> 
-  </sv:node>
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_es-hst-sitemap"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_es/sitemap.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_es</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_es-hst-sitemenus"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>50000.3</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_es/workspace/sitemenus.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_es/hst:workspace</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
   <!-- de -->  
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_de-hst-pages"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
@@ -4680,20 +4029,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/hippogogreen_de</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_es-hst-workspace"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>30101.1</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_es/workspace.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_es</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_fr-hst-workspace"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -4722,20 +4058,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/hippogogreen_nl</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_ru-hst-workspace"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>30101.1</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen_ru/workspace.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen_ru</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_zh-hst-workspace"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -4778,20 +4101,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/mobile</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_es-hst-workspace"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>30101.1</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_es/workspace.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_es</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
   <sv:node sv:name="hst-hst-hst-configurations-mobile_fr-hst-workspace"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -4820,20 +4130,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/mobile_nl</sv:value> 
     </sv:property> 
   </sv:node>  
-  <sv:node sv:name="hst-hst-hst-configurations-mobile_ru-hst-workspace"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>30101.1</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/mobile_ru/workspace.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/mobile_ru</sv:value> 
-    </sv:property> 
-  </sv:node>  
+    
   <sv:node sv:name="hst-hst-hst-configurations-mobile_zh-hst-workspace"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -5114,4 +4411,76 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/content/documents/hippogagroen</sv:value>
     </sv:property>
   </sv:node>
+<sv:node sv:name="content-documents-河马转到绿-common">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31401.4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/zh/common.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/河马转到绿</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="content-documents-河马转到绿-news">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31401.4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/zh/news.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/河马转到绿</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="content-documents-河马转到绿-products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31401.4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/zh/products.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/河马转到绿</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="content-documents-河马转到绿-blogs">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31401.4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/zh/blogs.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/河马转到绿</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="content-documents-河马转到绿-events">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31401.4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/zh/events.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/河马转到绿</sv:value>
+    </sv:property>
+  </sv:node>
+
+
 </sv:node>

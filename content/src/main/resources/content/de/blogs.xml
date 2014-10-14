@@ -4063,16 +4063,15 @@ Anordnung, und das kann machen den Mix besser in der Lage, Wärme zu
       <sv:value>e9e8a017-c5a7-4755-a978-b4b1a72bfd9d</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
-      <sv:value>Zeit</sv:value>
-      <sv:value>Kategorie der Blogs</sv:value>
-      <sv:value>Jahre${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+      <sv:value>Kategorie</sv:value>
+      <sv:value>Dieses Jahr</sv:value>
+      <sv:value>Archiv${sortby:'facetvalue', sortorder:'descending'}</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
-      <sv:value>hippogogreen:date$[{name:'Diese monat', resolution:'month', begin:0, end:1},
-        {name:'Vormonat', resolution:'month', begin:-1, end:0}, {name:'Dieses Jahr',
-        resolution:'year', begin:0, end:1}]
-      </sv:value>
       <sv:value>hippogogreen:categories</sv:value>
+      <sv:value>hippogogreen:date$[{name:'Diese monat', resolution:'month', begin:0, end:1},&#13;
+        {name:'Vormonat', resolution:'month', begin:-1, end:0}, {name:'Dieses Jahr',&#13;
+        resolution:'year', begin:0, end:1}]</sv:value>
       <sv:value>hippogogreen:date$year</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:limit" sv:type="Long">

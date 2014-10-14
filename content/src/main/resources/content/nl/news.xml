@@ -4,8 +4,8 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
-    <sv:value>hippo:translated</sv:value>
     <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>46ce7b28-5b99-4764-8fa2-1f4d36505087</sv:value>
@@ -933,15 +933,15 @@
       <sv:value>17</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
-      <sv:value>90fb1f31-3f44-4d05-ad56-234002d20bd8</sv:value>
+      <sv:value>46ce7b28-5b99-4764-8fa2-1f4d36505087</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
-      <sv:value>This year</sv:value>
-      <sv:value>Archive${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+      <sv:value>Dit jaar</sv:value>
+      <sv:value>Archief${sortby:'facetvalue', sortorder:'descending'}</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
-      <sv:value>hippostdpubwf:publicationDate$[{name:'This month', resolution:'month', begin:0, end:1},&#13;
-        {name:'Last month', resolution:'month', begin:-1, end:0}, {name:'This year',&#13;
+      <sv:value>hippostdpubwf:publicationDate$[{name:'Deze maand', resolution:'month', begin:0, end:1},&#13;
+        {name:'Afgelopen maand', resolution:'month', begin:-1, end:0}, {name:'Dit jaar',&#13;
         resolution:'year', begin:0, end:1}]</sv:value>
       <sv:value>hippostdpubwf:publicationDate$year</sv:value>
     </sv:property>
