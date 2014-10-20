@@ -53,6 +53,13 @@
 
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
+      <artifactId>hippogogreen-rating-plugin</artifactId>
+      <version>${project.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.gogreen</groupId>
       <artifactId>hippogogreen-content</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
