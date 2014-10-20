@@ -31,9 +31,9 @@
       <sv:value>45fa74b5-4a51-456c-893a-14b32e9da9ad</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
-      <sv:value>année${hide:'year'}</sv:value>
-      <sv:value>mois${after:'year', hide:'month'}</sv:value>
-      <sv:value>jour${after:'month'}</sv:value>
+      <sv:value>year${hide:'year'}</sv:value>
+      <sv:value>month${after:'year', hide:'month'}</sv:value>
+      <sv:value>day${after:'month'}</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
       <sv:value>hippogogreen:date$year</sv:value>
