@@ -19,11 +19,11 @@
 <%@include file="../includes/tags.jspf" %>
 
 <h1 class="h1-page-title">
-    <a href="<hst:link siteMapItemRefId="about"/>">About</a>
+    <a href="<hst:link siteMapItemRefId="about"/>"><fmt:message key="about.title"/></a>
 </h1>
 
 <h2 class="h2-page-desc">
-    Our story
+    <fmt:message key="about.subtitle"/>
 </h2>
 
 <div class="breadcrumb-container">

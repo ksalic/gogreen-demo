@@ -23,7 +23,7 @@
 </h1>
 
 <h2 class="h2-page-desc">
-    Discover
+    <fmt:message key="products.main.subtitle"/>
 </h2>
 
 <div class="breadcrumb-container">

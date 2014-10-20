@@ -23,7 +23,7 @@
 </h1>
 
 <h2 class="h2-page-desc">
-    Know
+    <fmt:message key="news.overview.content.subtitle"/>
 </h2>
 
 <div class="breadcrumb-container">

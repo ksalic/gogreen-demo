@@ -23,7 +23,7 @@
 </h1>
 
 <h2 class="h2-page-desc">
-    Inspire
+    <fmt:message key="blogs.overview.content.subtitle"/>
 </h2>
 
 <div class="breadcrumb-container">

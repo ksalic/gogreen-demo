@@ -23,7 +23,7 @@
 </h1>
 
 <h2 class="h2-page-desc">
-    Connect
+    <fmt:message key="events.overview.subtitle"/>
 </h2>
 
 <div class="breadcrumb-container">
