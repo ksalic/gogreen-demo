@@ -28,7 +28,7 @@
   <!-- //Mobile Button Menu// -->
 
   <nav>
-    <ul class="navigation">
+    <ul class="navigation" id="main-navigation">
       <c:forEach var="item" items="${menu.siteMenuItems}">
         <c:choose>
           <c:when test="${empty item.externalLink}">

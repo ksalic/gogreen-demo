@@ -327,8 +327,8 @@
         &lt;script src="${js_jQueryXDomainRequest}" type="text/javascript"&gt;&lt;/script&gt;&#13;
         &lt;@hst.link var="js_kanzi" path="/js/kanzi.js"/&gt;&#13;
         &lt;script src="${js_kanzi}" type="text/javascript"&gt;&lt;/script&gt;&#13;
-        &lt;@hst.link var="js_retina" path="/js/retina.js"/&gt;&#13;
-        &lt;script src="${js_retina}" type="text/javascript"&gt;&lt;/script&gt;&#13;
+        &lt;!--&lt;@hst.link var="js_retina" path="/js/retina.js"/&gt;&#13;
+        &lt;script src="${js_retina}" type="text/javascript"&gt;&lt;/script&gt;--&gt;&#13;
         &#13;
         &lt;@hst.headContributions categoryIncludes="scripts"/&gt;&#13;
         &lt;/body&gt;&#13;

@@ -16188,7 +16188,7 @@ jQuery(document).ready(function($) {
 
 
     /* Mobile Nav */
-    $('.header .mobile-nav ').append($('.navigation').html());
+    $('.header .mobile-nav ').append($('#main-navigation').html());
     $('.header .mobile-nav li').bind('click', function(e) {
 
         var $this = $(this);
