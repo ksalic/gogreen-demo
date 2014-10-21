@@ -19,12 +19,12 @@
 
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
-    <artifactId>hippogogreen</artifactId>
+    <artifactId>gogreen-two</artifactId>
     <version>1.01.03-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green CMS</name>
-  <artifactId>hippogogreen-cms</artifactId>
+  <artifactId>gogreen-two-cms</artifactId>
   <packaging>war</packaging>
 
   <dependencies>
@@ -53,14 +53,14 @@
 
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>hippogogreen-rating-plugin</artifactId>
+      <artifactId>gogreen-two-rating-plugin</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>
 
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>hippogogreen-content</artifactId>
+      <artifactId>gogreen-two-content</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>   

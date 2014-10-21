@@ -18,12 +18,12 @@
 
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
-    <artifactId>hippogogreen</artifactId>
+    <artifactId>gogreen-two</artifactId>
     <version>1.01.03-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green Site</name>
-  <artifactId>hippogogreen-site</artifactId>
+  <artifactId>gogreen-two-site</artifactId>
   <packaging>war</packaging>
 
   <properties>
@@ -34,7 +34,7 @@
 
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>hippogogreen-site-assembly</artifactId>
+      <artifactId>gogreen-two-site-assembly</artifactId>
       <version>${project.version}</version>
     </dependency>
 

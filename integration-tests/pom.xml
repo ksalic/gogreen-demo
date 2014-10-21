@@ -19,14 +19,14 @@
 
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
-    <artifactId>hippogogreen</artifactId>
-    <version>3.10.00-SNAPSHOT</version>
+    <artifactId>gogreen-two</artifactId>
+    <version>1.01.03-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <name>Hippo Go Green Integration Tests</name>
   <description>Hippo Go Green Integration Tests</description>
-  <artifactId>hippogogreen-integration-tests</artifactId>
+  <artifactId>gogreen-two-integration-tests</artifactId>
   <packaging>pom</packaging>
 
   <properties>
@@ -39,14 +39,14 @@
   <dependencies>
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>hippogogreen-cms</artifactId>
+      <artifactId>gogreen-two-cms</artifactId>
       <version>${project.version}</version>
       <type>war</type>
     </dependency>
 
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>hippogogreen-site</artifactId>
+      <artifactId>gogreen-two-site</artifactId>
       <version>${project.version}</version>
       <type>war</type>
     </dependency>
