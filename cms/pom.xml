@@ -131,30 +131,6 @@
     </dependency>
 
     <dependency>
-      <groupId>org.onehippo.forge</groupId>
-      <artifactId>tcmp-addon-frontend</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>org.apache.wicket</groupId>
-          <artifactId>wicket</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.apache.wicket</groupId>
-          <artifactId>wicket-extensions</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.apache.wicket</groupId>
-          <artifactId>wicket-velocity</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.forge</groupId>
-      <artifactId>tcmp-addon-repository</artifactId>
-    </dependency>
-
-    <dependency>
       <groupId>org.onehippo</groupId>
       <artifactId>taxonomy-api</artifactId>
     </dependency>
