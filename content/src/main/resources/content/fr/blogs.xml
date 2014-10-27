@@ -25,7 +25,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>40</sv:value>
+      <sv:value>41</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>51e8a589-4d50-4015-a181-cc1df366a394</sv:value>
@@ -132,15 +132,15 @@
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>959f067b-76e0-48e3-8720-434ced936eed</sv:value>
           </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/10/la-roumanie-passe-a-lheure-dhiver/la-roumanie-passe-a-lheure-dhiver[2]</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:categories" sv:type="String">
-            <sv:value>Energy Saving Modules</sv:value>
-          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2014-10-22T10:22:00.000+02:00</sv:value>
+            <sv:value>2013-10-22T10:22:00.000+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Dans l'après-midi du 30 Octobre 2005, la Roumanie avec d'autres pays de l'Europe passera à l'heure d'hiver officiel. Ainsi, de 04h00 deviendra 03h00 et sera valable jusqu'au 26 Mars 2006, lorsque l'heure d'été officiel sera de nouveau utilisé.</sv:value>
@@ -155,7 +155,7 @@
             <sv:value>published</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
+            <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
             <sv:value>Katja de Wit</sv:value>
@@ -164,13 +164,13 @@
             <sv:value>2010-07-20T14:35:00.000+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-05-23T14:05:00.000+02:00</sv:value>
+            <sv:value>2014-10-27T10:55:58.841+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-05-23T14:05:00.000+02:00</sv:value>
+            <sv:value>2014-10-27T10:56:00.742+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>0e2b21f5-1a40-434c-a2dd-becf2f45d8fb</sv:value>
@@ -267,11 +267,9 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/10/la-roumanie-passe-a-lheure-dhiver/la-roumanie-passe-a-lheure-dhiver</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:categories" sv:type="String">
-            <sv:value>Energy Saving Modules</sv:value>
-          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2014-10-22T10:22:00.000+02:00</sv:value>
+            <sv:value>2013-10-22T10:22:00.000+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Dans l'après-midi du 30 Octobre 2005, la Roumanie avec d'autres pays de l'Europe passera à l'heure d'hiver officiel. Ainsi, de 04h00 deviendra 03h00 et sera valable jusqu'au 26 Mars 2006, lorsque l'heure d'été officiel sera de nouveau utilisé.</sv:value>
@@ -283,7 +281,7 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
             <sv:value>unpublished</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
+            <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
             <sv:value>Katja de Wit</sv:value>
@@ -292,7 +290,128 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
             <sv:value>2010-07-20T14:35:00.000+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-05-23T14:05:00.000+02:00</sv:value>
+            <sv:value>2014-10-27T10:55:58.841+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e2b21f5-1a40-434c-a2dd-becf2f45d8fb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Après la décision du gouvernement roumain nb. 20 à partir de 1997, la
+Roumanie adopte l'heure d'hiver et l'heure d'été dans la même journée avec les
+Etats de l'Union européenne et d'autres pays faisant partie de cet accord. Heure
+d'hiver officiel est adoptée dans le dernier dimanche d'Octobre et de l'heure
+d'été dans le dernier dimanche de Mars.&lt;/p&gt;
+
+&lt;p&gt;Habituellement, l'heure officielle d'un pays est l'heure d'hiver. Heure d'été
+est un temps légal adopté par certains pays ou territoires au cours d'une partie
+de l'année. Heure d'été est en général une heure en face du temps de norme
+officielle.&lt;/p&gt;
+
+&lt;p&gt;Ce système est utilisé pour l'heure d'été. Pendant les mois d'été, le temps
+est déplacé vers l'avant afin de pouvoir utiliser la lumière du soleil aussi
+bien pour les activités humaines, ainsi que pour économiser de l'énergie
+électrique utilisée pour l'éclairage.&lt;/p&gt;
+
+&lt;p&gt;En Roumanie, l'heure d'été a été introduit en 1932. Jusqu'en 1939 cette année
+travaillé à partir du premier dimanche d'Avril (en 1932: 22 mai) 00:00 AM et le
+premier dimanche d'Octobre 01h00 (heure locale). A partir du 1er Avril 1940 AM
+00:00 et 2 novembre 1942 03h00, heure d'été a été permanente en Roumanie. A
+partir de 1943 l'heure d'été a été suspendue et la Roumanie utilisé juste le
+temps officiel (heure d'hiver).&lt;/p&gt;
+
+&lt;p&gt;Heure d'été a été réintroduite à partir de 1979 et guidé par deux règles
+jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
+
+&lt;p&gt;* 1979-1983: premier dimanche de Avril 00h00 - dernier dimanche de Septembre
+01:00 (exception: 1979, l'heure d'été a commencé en 27 mai);&lt;/p&gt;
+
+&lt;p&gt;* 1984-1996: dernier dimanche de Mars 00:00 - dernier dimanche de Septembre
+01:00&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Romania switches to Winter Time</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Romania_switches_to_Winter_Time</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cedd0233-40f3-4a4b-a6bf-8ae63f276d61</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="la-roumanie-passe-a-lheure-dhiver">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:blogitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a4f3496f-e498-45b2-8b9f-d4321e35d078</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>blogs/2014/10/la-roumanie-passe-a-lheure-dhiver/la-roumanie-passe-a-lheure-dhiver</sv:value>
+            <sv:value>blogs/2014/10/la-roumanie-passe-a-lheure-dhiver/la-roumanie-passe-a-lheure-dhiver[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2013-10-22T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Dans l'après-midi du 30 Octobre 2005, la Roumanie avec d'autres pays de l'Europe passera à l'heure d'hiver officiel. Ainsi, de 04h00 deviendra 03h00 et sera valable jusqu'au 26 Mars 2006, lorsque l'heure d'été officiel sera de nouveau utilisé.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>La Roumanie passe à l'heure d'hiver</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T14:35:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2014-10-27T10:55:55.384+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
