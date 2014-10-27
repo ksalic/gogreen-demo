@@ -158,16 +158,10 @@
         <sv:value>hst:sitemapitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/product-detail</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-        <sv:value>bannerlocation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-        <sv:value>common/banners/sustainable-wood-ipod-sound-system</sv:value>
+        <sv:value>hst:pages/products-detail</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>produkte/${1}</sv:value>
+        <sv:value>products/${1}</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
