@@ -1266,23 +1266,6 @@
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="brokenlinks:link">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>brokenlinks:link</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:brokenSince" sv:type="Date">
-            <sv:value>2013-12-06T12:02:01.116+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:errorCode" sv:type="Long">
-            <sv:value>404</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:excerpt" sv:type="String">
-            <sv:value>&lt;a target="_blank" href ="http://tedxwashingtoncircle.com/tedxwashingtoncircle/2011-speaker-videos/"&gt;http://tedxwashingtoncircle.com/tedxwashingtoncircle/2011-speaker-videos/&lt;/a&gt;</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:url" sv:type="String">
-            <sv:value>http://tedxwashingtoncircle.com/tedxwashingtoncircle/2011-speaker-videos/</sv:value>
-          </sv:property>
-        </sv:node>
         <sv:node sv:name="solarcooking-oktober">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -1463,6 +1446,23 @@
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
+        </sv:node>
+        <sv:node sv:name="brokenlinks:link">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>brokenlinks:link</sv:value>
+          </sv:property>
+          <sv:property sv:name="brokenlinks:brokenSince" sv:type="Date">
+            <sv:value>2013-12-06T12:02:01.116+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="brokenlinks:errorCode" sv:type="Long">
+            <sv:value>404</sv:value>
+          </sv:property>
+          <sv:property sv:name="brokenlinks:excerpt" sv:type="String">
+            <sv:value>&lt;a target="_blank" href ="http://tedxwashingtoncircle.com/tedxwashingtoncircle/2011-speaker-videos/"&gt;http://tedxwashingtoncircle.com/tedxwashingtoncircle/2011-speaker-videos/&lt;/a&gt;</sv:value>
+          </sv:property>
+          <sv:property sv:name="brokenlinks:url" sv:type="String">
+            <sv:value>http://tedxwashingtoncircle.com/tedxwashingtoncircle/2011-speaker-videos/</sv:value>
+          </sv:property>
         </sv:node>
       </sv:node>
       <sv:node sv:name="learning-at-home">
