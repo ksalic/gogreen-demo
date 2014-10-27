@@ -23,7 +23,7 @@
 <!-- lang navigation -->
 <div class="col-sm-7 langnav">
     <nav>
-        <ul class="navigation" id="language">
+        <ul class="" id="language">
 
             <%-- RK: Disabled label
             <li class="label">
@@ -35,10 +35,10 @@
                 <i class="fa fa-ellipsis-h"></i> <span><fmt:message key="${requestLanguage}"/></span>
                 <c:if test="${not empty translations}">
                     <ul>
-                        <c:forEach var="translation" items="${translations}" varStatus="status">
+                        <c:forEach var="translation" items="${translations}">
                             <hst:link var="link" link="${translation.link}" />
                             <c:set var="title"><fmt:message key="standard.header.langnav.language.${translation.language}"/></c:set>
-                            <li ${status.last ? 'class="last"' : ''}>
+                            <li>
                                 <a href="${link}"><c:out value="${title}"/></a>
                             </li>
                         </c:forEach>
