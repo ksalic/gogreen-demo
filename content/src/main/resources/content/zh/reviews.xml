@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="reviews">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="reviews">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -29,10 +28,9 @@
       <sv:value/>
     </sv:property>
     <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Reviews</sv:value>
+      <sv:value>检阅</sv:value>
     </sv:property>
   </sv:node>
-
   <sv:node sv:name="绿色约翰娜堆肥箱">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippostd:folder</sv:value>
@@ -54,7 +52,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>zh</sv:value>
     </sv:property>
-
     <sv:node sv:name="review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
@@ -90,6 +87,9 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>reviews/绿色约翰娜堆肥箱/review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:comment" sv:type="String">
           <sv:value>尼斯斌, 我想这些.</sv:value>
