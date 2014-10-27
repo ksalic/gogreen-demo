@@ -16,12 +16,10 @@
 
 package com.onehippo.gogreen.components.news;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.onehippo.gogreen.beans.Comment;
-import com.onehippo.gogreen.beans.SimpleDocument;
+import com.onehippo.gogreen.beans.NewsItem;
 import com.onehippo.gogreen.components.ComponentUtil;
 import com.onehippo.gogreen.components.TagComponent;
 import com.onehippo.gogreen.utils.Constants;
@@ -38,11 +36,9 @@ import org.hippoecm.hst.content.beans.query.filter.Filter;
 import org.hippoecm.hst.content.beans.query.filter.PrimaryNodeTypeFilterImpl;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.content.beans.standard.HippoBeanIterator;
-import org.hippoecm.hst.content.beans.standard.HippoDocumentBean;
 import org.hippoecm.hst.content.beans.standard.HippoDocumentIterator;
 import org.hippoecm.hst.content.beans.standard.HippoFacetChildNavigationBean;
 import org.hippoecm.hst.content.beans.standard.HippoFacetNavigationBean;
-import org.hippoecm.hst.content.beans.standard.HippoFolder;
 import org.hippoecm.hst.content.beans.standard.HippoResultSetBean;
 import org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetNavigation;
 import org.hippoecm.hst.core.component.HstComponentException;
@@ -69,10 +65,6 @@ import org.slf4j.LoggerFactory;
  * with the free text search in the public request parameter 'query'.</li>
  * <li>Otherwise, all available news items.</li>
  * </ol>
- * <p>
- * For each news items on the current page, the number of comments is determined. These counts are put in a list
- * in the same order as the news items, and put on the request as attribute 'commentsCountList'.
- * </p>
  * <em>Component parameters:</em>
  * <ul>
  * <li>pageSize: the number of news items per page</li>
@@ -135,7 +127,6 @@ public class NewsOverview extends TagComponent {
             final PageableCollection news = getNews(request, scope, facet, pageSize, currentPage, query);
             request.setAttribute("news", news);
 
-            updateCommentsCount(request, news);
         } catch (QueryException e) {
             throw new HstComponentException("Query error while getting news: " + e.getMessage(), e);
         }
@@ -149,10 +140,10 @@ public class NewsOverview extends TagComponent {
             return new PageableCollection((List<HippoBean>) relatedBeans, pageSize, currentPage);
         }
         final HstRequestContext ctx = request.getRequestContext();
-        final HstQuery hstQuery = ctx.getQueryManager().createQuery(scope, SimpleDocument.class);
-        final BaseFilter filter = new PrimaryNodeTypeFilterImpl("hippogogreen:simpledocument");
+        final HstQuery hstQuery = ctx.getQueryManager().createQuery(scope, NewsItem.class);
+        final BaseFilter filter = new PrimaryNodeTypeFilterImpl("hippogogreen:newsitem");
         hstQuery.setFilter(filter);
-        hstQuery.addOrderByDescending("hippostdpubwf:publicationDate");
+        hstQuery.addOrderByDescending("hippogogreen:date");
 
         if (!StringUtils.isEmpty(query)) {
             final Filter f = hstQuery.createFilter();
@@ -174,7 +165,7 @@ public class NewsOverview extends TagComponent {
                 return new PageableCollection(0, noResults);
             } else {
                 final HippoResultSetBean resultSet = facetBean.getResultSet();
-                final HippoDocumentIterator<SimpleDocument> facetIt = resultSet.getDocumentIterator(SimpleDocument.class);
+                final HippoDocumentIterator<NewsItem> facetIt = resultSet.getDocumentIterator(NewsItem.class);
                 if (hstQuery.getOffset() > 0) {
                     facetIt.skip(hstQuery.getOffset());
                 }
@@ -186,33 +177,7 @@ public class NewsOverview extends TagComponent {
         // show all news items
         final HstQueryResult result = hstQuery.execute();
         final HippoBeanIterator iterator = result.getHippoBeans();
-        return new PageableCollection<SimpleDocument>(iterator, pageSize, currentPage);
-    }
-
-    private void updateCommentsCount(HstRequest request, PageableCollection news) throws QueryException {
-        List<Integer> commentCount = new ArrayList<Integer>();
-        final HstRequestContext ctx = request.getRequestContext();
-        HippoBean siteContentBase = ctx.getSiteContentBaseBean();
-        
-        if (siteContentBase == null) {
-            log.warn("Site content base bean is not found: {}", ctx.getSiteContentBaseBean());
-            return;
-        }
-        
-        HippoFolder newsCommentFolder = siteContentBase.getBean("comments/news");
-        
-        if (newsCommentFolder == null) {
-            log.warn("News comment folder is not found: {}/comments/news. So it fails to update comments count", siteContentBase.getPath());
-            return;
-        }
-        
-        for (Object newsItem : news.getItems()) {
-            final HstQuery incomingBeansQuery = ContentBeanUtils.createIncomingBeansQuery((HippoDocumentBean) newsItem, newsCommentFolder, 4, Comment.class, false);
-            commentCount.add(incomingBeansQuery.execute().getSize());
-
-        }
-        request.setAttribute("commentsCountList", commentCount);
-
+        return new PageableCollection<NewsItem>(iterator, pageSize, currentPage);
     }
 
 

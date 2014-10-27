@@ -24,13 +24,10 @@ import com.onehippo.gogreen.utils.Constants;
 import org.hippoecm.hst.content.beans.Node;
 
 @Node(jcrType=Constants.NT_NEWSITEM)
-public class NewsItem extends ImageDocument {
+public class NewsItem extends SimpleDocument {
     
     public Calendar getDate() {
         return getProperty(Constants.PROP_DATE);
     }
 
-    public String[] getCategories() {
-        return getProperty(Constants.PROP_CATEGORIES);
-    }  
 }

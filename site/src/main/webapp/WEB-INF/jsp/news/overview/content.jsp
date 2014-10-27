@@ -45,7 +45,7 @@
             <div class="blog-post-details">
 
                 <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
-                    <fmt:formatDate value="${newsitem.publicationDate.time}" type="date" pattern="d MMMM, yyyy"/>
+                    <fmt:formatDate value="${newsitem.date.time}" type="date" pattern="d MMMM, yyyy"/>
                 </div>
 
             </div>

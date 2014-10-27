@@ -4,8 +4,8 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
-    <sv:value>hippo:translated</sv:value>
     <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>90fb1f31-3f44-4d05-ad56-234002d20bd8</sv:value>
@@ -52,7 +52,7 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>en</sv:value>
     </sv:property>
-    <sv:node sv:name="09">
+    <sv:node sv:name="10">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
@@ -86,7 +86,7 @@
         </sv:property>
         <sv:node sv:name="gogreen-nominated-for-unef-sustainable-business-award">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -100,7 +100,10 @@
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/09/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award[3]</sv:value>
+            <sv:value>news/2014/10/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-10-22T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>GoGreen is Pleased to Announce its Nomination for a UNEF Sustainable Business Award</sv:value>
@@ -158,7 +161,7 @@
         </sv:node>
         <sv:node sv:name="gogreen-nominated-for-unef-sustainable-business-award">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -169,8 +172,11 @@
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/09/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award</sv:value>
-            <sv:value>news/2014/09/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award[3]</sv:value>
+            <sv:value>news/2014/10/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award</sv:value>
+            <sv:value>news/2014/10/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-10-22T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>GoGreen is Pleased to Announce its Nomination for a UNEF Sustainable Business Award</sv:value>
@@ -214,7 +220,7 @@
         </sv:node>
         <sv:node sv:name="gogreen-nominated-for-unef-sustainable-business-award">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -227,7 +233,10 @@
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/09/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award</sv:value>
+            <sv:value>news/2014/10/gogreen-nominated-for-unef-sustainable-business-award/gogreen-nominated-for-unef-sustainable-business-award</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-10-22T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>GoGreen is Pleased to Announce its Nomination for a UNEF Sustainable Business Award</sv:value>
@@ -274,7 +283,7 @@
         </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="08">
+    <sv:node sv:name="09">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
@@ -308,7 +317,7 @@
         </sv:property>
         <sv:node sv:name="sonja-verde-joins-gogreen-as-vp-of-marketing">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -322,7 +331,10 @@
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/08/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing[3]</sv:value>
+            <sv:value>news/2014/09/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-23T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Position to strengthen regional presence for global leader in sustainable consumer goods.</sv:value>
@@ -380,7 +392,7 @@
         </sv:node>
         <sv:node sv:name="sonja-verde-joins-gogreen-as-vp-of-marketing">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -391,8 +403,11 @@
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/08/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing</sv:value>
-            <sv:value>news/2014/08/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing[3]</sv:value>
+            <sv:value>news/2014/09/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing</sv:value>
+            <sv:value>news/2014/09/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-23T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Position to strengthen regional presence for global leader in sustainable consumer goods.</sv:value>
@@ -436,7 +451,7 @@
         </sv:node>
         <sv:node sv:name="sonja-verde-joins-gogreen-as-vp-of-marketing">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -449,7 +464,10 @@
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/08/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing</sv:value>
+            <sv:value>news/2014/09/sonja-verde-joins-gogreen-as-vp-of-marketing/sonja-verde-joins-gogreen-as-vp-of-marketing</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-23T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Position to strengthen regional presence for global leader in sustainable consumer goods.</sv:value>
@@ -495,28 +513,6 @@
           </sv:node>
         </sv:node>
       </sv:node>
-    </sv:node>
-    <sv:node sv:name="07">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippostd:folder</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>mix:versionable</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>e1afc447-8ce9-44a0-aa4b-10f7c4aa4df3</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-        <sv:value>new-translated-folder</sv:value>
-        <sv:value>new-document</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>4b2830c1-afa0-4ffb-abf2-46499939b5eb</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
       <sv:node sv:name="gogreen-announces-record-growth-in-h1">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
@@ -530,7 +526,7 @@
         </sv:property>
         <sv:node sv:name="gogreen-announces-record-growth-in-h1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -544,7 +540,10 @@
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/07/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1[3]</sv:value>
+            <sv:value>news/2014/09/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-17T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>After a historically successful first quarter, GoGreen's rapid growth continues in H1.</sv:value>
@@ -603,7 +602,7 @@
         </sv:node>
         <sv:node sv:name="gogreen-announces-record-growth-in-h1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -614,8 +613,11 @@
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/07/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1</sv:value>
-            <sv:value>news/2014/07/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1[3]</sv:value>
+            <sv:value>news/2014/09/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1</sv:value>
+            <sv:value>news/2014/09/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-17T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>After a historically successful first quarter, GoGreen's rapid growth continues in H1.</sv:value>
@@ -660,7 +662,7 @@
         </sv:node>
         <sv:node sv:name="gogreen-announces-record-growth-in-h1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -673,7 +675,10 @@
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/07/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1</sv:value>
+            <sv:value>news/2014/09/gogreen-announces-record-growth-in-h1/gogreen-announces-record-growth-in-h1</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-17T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>After a historically successful first quarter, GoGreen's rapid growth continues in H1.</sv:value>
@@ -733,7 +738,7 @@
         </sv:property>
         <sv:node sv:name="hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -747,7 +752,10 @@
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/07/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[3]</sv:value>
+            <sv:value>news/2014/09/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-12T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Working closely with Hippo, GoGreen, the world’s first, digitally-native, global authority on sustainable products for the home, office and outdoors has just announced the launch of a completely new GoGreen.com.</sv:value>
@@ -805,7 +813,7 @@
         </sv:node>
         <sv:node sv:name="hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -816,8 +824,11 @@
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/07/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[3]</sv:value>
-            <sv:value>news/2014/07/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign</sv:value>
+            <sv:value>news/2014/09/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[3]</sv:value>
+            <sv:value>news/2014/09/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-12T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Working closely with Hippo, GoGreen, the world’s first, digitally-native, global authority on sustainable products for the home, office and outdoors has just announced the launch of a completely new GoGreen.com.</sv:value>
@@ -861,7 +872,7 @@
         </sv:node>
         <sv:node sv:name="hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:simpledocument</sv:value>
+            <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -874,7 +885,10 @@
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>news/2014/07/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign</sv:value>
+            <sv:value>news/2014/09/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-09-12T10:22:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:summary" sv:type="String">
             <sv:value>Working closely with Hippo, GoGreen, the world’s first, digitally-native, global authority on sustainable products for the home, office and outdoors has just announced the launch of a completely new GoGreen.com.</sv:value>
@@ -927,7 +941,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>17</sv:value>
+      <sv:value>16</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>90fb1f31-3f44-4d05-ad56-234002d20bd8</sv:value>
@@ -937,10 +951,10 @@
       <sv:value>Archive${sortby:'facetvalue', sortorder:'descending'}</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
-      <sv:value>hippostdpubwf:publicationDate$[{name:'This month', resolution:'month', begin:0, end:1},&#13;
+      <sv:value>hippogogreen:date$[{name:'This month', resolution:'month', begin:0, end:1},&#13;
         {name:'Last month', resolution:'month', begin:-1, end:0}, {name:'This year',&#13;
         resolution:'year', begin:0, end:1}]</sv:value>
-      <sv:value>hippostdpubwf:publicationDate$year</sv:value>
+      <sv:value>hippogogreen:date$year</sv:value>
     </sv:property>
     <sv:property sv:name="hippofacnav:limit" sv:type="Long">
       <sv:value>200</sv:value>
