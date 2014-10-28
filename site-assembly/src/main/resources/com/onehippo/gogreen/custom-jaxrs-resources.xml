@@ -30,6 +30,13 @@
             <bean class="com.onehippo.gogreen.jaxrs.services.TopProductsResource" />
           </constructor-arg>
         </bean>
+        <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
+          <constructor-arg>
+            <bean class="com.onehippo.gogreen.jaxrs.services.SimpleAgeServiceResource">
+              <property name="dataResourcePath" value="/WEB-INF/classes/age.properties"/>
+            </bean>
+          </constructor-arg>
+        </bean>
       </list>
     </property>
   </bean>
