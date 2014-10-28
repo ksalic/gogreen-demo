@@ -44,7 +44,7 @@
             <div class="blog-post-details-item blog-post-details-item-right">
                 <hst:link var="link" siteMapItemRefId="news"/>
                 <a href="${link}">
-                    Back to overview<i class="fa fa-chevron-right"></i>
+                    <fmt:message key="common.back.overview"/> <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
 

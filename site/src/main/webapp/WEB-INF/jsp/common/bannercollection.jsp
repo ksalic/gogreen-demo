@@ -152,7 +152,7 @@
                                     <c:if test="${not empty banner.docLink}">
                                         <div class="banner-button">
                                             <a href="<hst:link hippobean="${banner.docLink}"/>" class=" btn btn-sm">
-                                                <span>read more</span>
+                                                <span><fmt:message key="common.read.more"/></span>
                                             </a>
                                         </div>
                                     </c:if>
@@ -181,7 +181,7 @@
                                     <c:if test="${not empty banner.docLink}">
                                         <div>
                                             <a href="<hst:link hippobean="${banner.docLink}"/>" class=" btn btn-sm">
-                                                <span>read more</span>
+                                                <span><fmt:message key="common.read.more"/>read more</span>
                                             </a>
                                         </div>
                                     </c:if>
@@ -209,7 +209,7 @@
                                     <hst:cmseditlink hippobean="${banner}" />
                                     <c:if test="${not empty banner.docLink}">
                                         <a href="<hst:link hippobean="${banner.docLink}"/>" class="read-more">
-                                            <span>read more</span>
+                                            <span><fmt:message key="common.read.more"/>read more</span>
                                         </a>
                                     </c:if>
                                 </div>
@@ -285,7 +285,7 @@
                                     <c:if test="${not empty banner.docLink}">
                                         <div>
                                             <a href="<hst:link hippobean="${banner.docLink}"/>" class="read-more">
-                                                <span>Read more</span>
+                                                <span><fmt:message key="common.read.more"/>Read more</span>
                                             </a>
                                         </div>
                                     </c:if>

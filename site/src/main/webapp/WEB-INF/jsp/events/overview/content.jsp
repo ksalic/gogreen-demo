@@ -65,7 +65,7 @@
 
                 <div class="blog-post-details-item blog-post-details-item-right">
                     <a href="${link}">
-                        read more <i class="fa fa-chevron-right"></i>
+                        <fmt:message key="common.read.more"/> <i class="fa fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
