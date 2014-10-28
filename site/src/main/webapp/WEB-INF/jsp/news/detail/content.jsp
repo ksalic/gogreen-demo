@@ -26,29 +26,6 @@
 
     <div class="blog-span">
         <hst:cmseditlink hippobean="${document}" />
-        <c:set var="image" value="${document.firstImage}"/>
-        <c:if test="${image != null and image.landscapeImage != null}">
-            <div class="blog-post-featured-img img-overlay">
-                <hst:link var="src" hippobean="${image.landscapeImage}"/>
-                <hst:link var="imgOrig" hippobean="${image.original}"/>
-                <img class="img-responsive" src="${src}" alt="${fn:escapeXml(image.alt)}"/>
-                <hippo-gogreen:imagecopyright image="${image}"/>
-
-                <div class="item-img-overlay">
-                    <a class="portfolio-zoom fa fa-plus" href="${imgOrig}" data-rel="prettyPhoto[portfolio]" title="${fn:escapeXml(image.alt)}"></a>
-                    <div class="item_img_overlay_content">
-                        <div class="blog-post-details-item blog-post-details-item-left share-article">
-                            <span>Share It On</span>
-                            <a href="#" class="icon-facebook"></a>
-                            <a href="#" class="icon-twitter-alt"></a>
-                            <a href="#" class="icon-google"></a>
-                            <a href="#" class="icon-email-mail-streamline"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </c:if>
-
         <h2>
             <c:out value="${document.title}"/>
         </h2>
@@ -56,7 +33,6 @@
         <div class="blog-post-body">
             <c:out value="${document.summary}"/>
             <hst:html hippohtml="${document.description}"/>
-            <hippo-gogreen:copyright document="${document}"/>
         </div>
 
         <div class="blog-post-details">
@@ -65,29 +41,13 @@
                 <span class="date"><fmt:formatDate value="${document.date.time}" type="date" pattern="d MMMM, yyyy"/></span>
             </div>
 
-            <%--<div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags icon-files">
-                <a href="">
-                    Business
-                </a> ,
-                <a href="">
-                    Investment
-                </a> ,
-                <a href="">
-                    Freelancing
+            <div class="blog-post-details-item blog-post-details-item-right">
+                <hst:link var="link" siteMapItemRefId="news"/>
+                <a href="${link}">
+                    Back to overview<i class="fa fa-chevron-right"></i>
                 </a>
-            </div>--%>
-
-            <div class="blog-post-details-item blog-post-details-item-left blog-post-details-item-last icon-comment">
-                <c:choose>
-                    <c:when test="${commentCount gt 0}">
-                        <c:out value="${commentCount}"/>&nbsp;<fmt:message key="news.detail.content.commentsfound"/>
-                        <c:if test="${commentCount gt 1}"><fmt:message key="news.detail.content.commentsplural"/></c:if>
-                    </c:when>
-                    <c:otherwise>
-                        <fmt:message key="news.detail.content.nocomments"/>
-                    </c:otherwise>
-                </c:choose>
             </div>
+
         </div>
     </div>
 </div>

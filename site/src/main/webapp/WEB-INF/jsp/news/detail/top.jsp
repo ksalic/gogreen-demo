@@ -22,6 +22,10 @@
     <a href="<hst:link siteMapItemRefId="news"/>"><fmt:message key="news.overview.content.title"/></a>
 </h1>
 
+<h2 class="h2-page-desc">
+    <fmt:message key="news.overview.content.subtitle"/>
+</h2>
+
 <c:if test="${not empty document}">
     <h2 class="h2-page-desc">
         ${document.title}

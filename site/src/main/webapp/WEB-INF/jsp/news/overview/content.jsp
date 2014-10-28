@@ -34,7 +34,7 @@
         <div class="blog-span">
             <hst:cmseditlink hippobean="${newsitem}" />
             <h2>
-                <c:out value="${newsitem.title}"/>
+                <a href="${link}"><c:out value="${newsitem.title}"/></a>
             </h2>
 
             <div class="blog-post-body">
@@ -46,6 +46,12 @@
 
                 <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
                     <fmt:formatDate value="${newsitem.date.time}" type="date" pattern="d MMMM, yyyy"/>
+                </div>
+
+                <div class="blog-post-details-item blog-post-details-item-right">
+                    <a href="${link}">
+                        read more <i class="fa fa-chevron-right"></i>
+                    </a>
                 </div>
 
             </div>
