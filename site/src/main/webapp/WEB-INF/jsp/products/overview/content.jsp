@@ -42,10 +42,11 @@
         <c:if test="${image != null and image.largeThumbnail != null}">
             <div class="feature-image img-overlay">
                 <hst:link var="src" hippobean="${image.largeThumbnail}"/>
-                <a href="${link}" title="${product.title}">
-                    <img src="${src}" alt="${fn:escapeXml(image.alt)}" />
-                </a>
+                <img src="${src}" alt="${fn:escapeXml(image.alt)}" />
                 <div class="item-img-overlay">
+                    <div class="item_img_overlay_link">
+                      <a href="${link}" title="${product.title}"> </a>
+                    </div>
                     <div class="item_img_overlay_content">
                         <h3 class="thumb-label-item-title">
                             <%-- TODO: use label --%>
