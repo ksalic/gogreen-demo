@@ -6660,3 +6660,9 @@ Testimonial
 .col-md-3.col-sm-3 .col-md-4.col-sm-4,
 .col-md-3.col-sm-3 .col-md-6.col-sm-6 { width: 100%; margin-bottom: 2rem; }
 
+/* reduce image banner height for smaller screens */
+@media (max-width: 767px) {
+  .hero-wrapper .banner-component {
+    display: none;
+  }
+}
