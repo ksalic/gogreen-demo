@@ -17,7 +17,8 @@
 <%--@elvariable id="document" type="com.onehippo.gogreen.beans.Banner"--%>
 
 <!-- Banner -->
-<c:if test="${not empty document}">
+<c:choose>
+<c:when test="${not empty document}">
 
 <c:if test="${not empty title}">
     <div class="row">
@@ -108,7 +109,9 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
                         <div class="align-center">
-                            <img src="<hst:link hippobean="${document.image.banner}"/>" alt="<fmt:message key="document.image.alt"/>" class="img-responsive"/>
+                            <c:if test="${not empty document.image}">
+                                <img src="<hst:link hippobean="${document.image.banner}"/>" alt="<fmt:message key="document.image.alt"/>" class="img-responsive"/>
+                            </c:if>
                         </div>
                     </div>
                 </div>
@@ -128,4 +131,23 @@
     <div class="space-sep<c:out value="${separatorMargin} ${cssClass}"/>"></div>
 </c:if>
 
-</c:if>
+</c:when>
+<c:otherwise>
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <h2 class="h2-section-title">Click to configure banner</h2>
+    </div>
+  </div>
+  <div class="banner-component section-content no-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
+          <div class="align-center">
+            <p style="backround-color: grey; width: 100%; height: 100px;"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</c:otherwise>
+</c:choose>
