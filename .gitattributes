@@ -457,6 +457,8 @@ site/src/main/java/com/onehippo/gogreen/components/Feed.java -text
 site/src/main/java/com/onehippo/gogreen/components/FeedParamsInfo.java -text
 site/src/main/java/com/onehippo/gogreen/components/FeedParamsInfo_de.properties -text
 site/src/main/java/com/onehippo/gogreen/components/FooterComponent.java -text
+site/src/main/java/com/onehippo/gogreen/components/Map.java -text
+site/src/main/java/com/onehippo/gogreen/components/MapParamsInfo.java -text
 site/src/main/java/com/onehippo/gogreen/components/RelatedDocuments.java -text
 site/src/main/java/com/onehippo/gogreen/components/TagComponent.java -text
 site/src/main/java/com/onehippo/gogreen/components/blogs/JobDetail.java -text
@@ -575,6 +577,10 @@ site/src/main/resources/com/onehippo/gogreen/components/common/LatestItemsParams
 site/src/main/resources/com/onehippo/gogreen/components/common/LatestItemsParamsInfo_de.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/LatestItemsParamsInfo_fr.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/LatestItemsParamsInfo_nl.properties -text
+site/src/main/resources/com/onehippo/gogreen/components/common/MapParamsInfo.properties -text
+site/src/main/resources/com/onehippo/gogreen/components/common/MapParamsInfo_de.properties -text
+site/src/main/resources/com/onehippo/gogreen/components/common/MapParamsInfo_fr.properties -text
+site/src/main/resources/com/onehippo/gogreen/components/common/MapParamsInfo_nl.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/SimpleDocumentParamsInfo.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/SimpleDocumentParamsInfo_fr.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/SimpleDocumentParamsInfo_nl.properties -text
@@ -637,6 +643,7 @@ site/src/main/webapp/WEB-INF/jsp/common/header.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/html.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/images.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/latest.jsp -text
+site/src/main/webapp/WEB-INF/jsp/common/map.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/relateddocuments.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/separator.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/simpledocument.jsp -text
@@ -1284,6 +1291,7 @@ site/src/main/webapp/images/star-full.png -text
 site/src/main/webapp/images/star-half.png -text
 site/src/main/webapp/images/star-off.png -text
 site/src/main/webapp/images/star-on.png -text
+site/src/main/webapp/images/staticmap.png -text
 site/src/main/webapp/images/title-pattern.png -text
 site/src/main/webapp/images/title-pattern@2x.png -text
 site/src/main/webapp/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text

@@ -6662,6 +6662,13 @@ Testimonial
 .col-md-3.col-sm-3 .col-md-4.col-sm-4,
 .col-md-3.col-sm-3 .col-md-6.col-sm-6 { width: 100%; margin-bottom: 2rem; }
 
+.map-search { width: 100%; display: table; margin-bottom: 1em; }
+.map-search input { width: 90%; height: 31px; }
+.map-search button { border: none; background-color: #F7F7F7; border: 1px solid #eee; border-left: 1px solid #666666; padding: 1px 6px; }
+.map-search .textfield, .map-search .button { width: auto; display: table-cell; background-color: transparent; }
+.map-search .button i { position: relative; top: 5px; margin-right: 0; }
+.map-image { border: 1px solid #eee; }
+
 /* reduce image banner height for smaller screens */
 @media (max-width: 767px) {
   .hero-wrapper .banner-component {
