@@ -35,6 +35,9 @@
           </div>
         </li>
       </c:forEach>
+      <c:if test="${empty banners}">
+        <p>Click to configure banner carousel</p>
+      </c:if>
     </ul>
     <div class="tp-bannertimer tp-bottom"></div>
   </div>
