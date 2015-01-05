@@ -6579,6 +6579,7 @@ Testimonial
 .product-category { box-shadow: none; }
 .product-category .feature-image img { width: 100%; }
 .feature.product-category .feature-content { border-top: none; border-bottom: 2px solid #89bf84; }
+.feature.product-category .feature-image .feature-content { border-bottom: none; border-top: 2px solid #89bf84; }
 .feature-image .item_img_overlay_link { height: 100%; width: 100%; }
 .feature-image .item_img_overlay_link a { display: block; height: 100%; width: 100%; }
 .product-category h3 { text-align: center; }
@@ -6675,3 +6676,8 @@ Testimonial
     display: none;
   }
 }
+
+/* rich-text snippet component styling */
+.richtextsnippet-component h3 { text-align: justify; font-weight: normal; font-size: 18px; }
+.richtextsnippet-component img { margin: 0 15px 15px; }
+.richtextsnippet-component { margin-bottom: 20px; }

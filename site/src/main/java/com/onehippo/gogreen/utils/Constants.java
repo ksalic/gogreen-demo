@@ -44,6 +44,7 @@ public interface Constants {
     String PROP_QUESTION = "hippogogreen:question";
     String PROP_SUMMARY = "hippogogreen:summary";
     String PROP_TITLE = "hippogogreen:title";
+    String PROP_RICHTEXT = "hippogogreen:richtext";
 
     String NT_COMMENT = "hippogogreen:comment";
     String NT_COPYRIGHT = "hippogogreen:copyright";
