@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
-package com.onehippo.gogreen.components;
+package com.onehippo.gogreen.components.common;
 
+import com.onehippo.gogreen.components.BaseComponent;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.parameters.ParametersInfo;
