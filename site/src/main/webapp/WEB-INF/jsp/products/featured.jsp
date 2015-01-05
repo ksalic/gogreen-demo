@@ -20,6 +20,19 @@
 
 <c:if test="${not empty products}">
 
+  <c:if test="${not empty title}">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h2 class="h2-section-title"><c:out value="${title}"/></h2>
+        <c:if test="${not empty icon}">
+          <div class="i-section-title">
+            <i class="fa <c:out value="${icon}"/>"></i>
+          </div>
+        </c:if>
+      </div>
+    </div>
+  </c:if>
+
 <c:choose>
   <c:when test="${fn:length(products) eq 1}">
       <c:set var="colSize" value="12"/>
@@ -36,17 +49,6 @@
 </c:choose>
 
 <div class="container">
-	<div class="row">
-		<div class="col-md-12 col-sm-12 animated" data-animtype="flipInY" data-animrepeat="0" data-speed="1s" data-delay="0.5s">
-			<h2 class="h2-section-title"><c:out value="${componentTitle}"/></h2>
-			<c:if test="${not empty icon}">
-			<div class="i-section-title">
-				<i class="fa <c:out value="${icon}"/>"></i>
-			</div>
-			</c:if>
-			<div class="space-sep20"></div>
-		</div>
-	</div>
 	<div class="row">
       <%--@elvariable id="products" type="java.util.List<com.onehippo.gogreen.beans.Product>"--%>
       <c:forEach items="${products}" var="prd" varStatus="index">
