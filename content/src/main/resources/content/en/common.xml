@@ -7,6 +7,9 @@
     <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>052d5453-25ad-4cef-8816-f15d88653e34</sv:value>
+  </sv:property>
   <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
     <sv:value>live</sv:value>
     <sv:value>preview</sv:value>
@@ -41,6 +44,9 @@
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>283a9c59-c6d6-4f59-8117-f90f5cdb19ab</sv:value>
+    </sv:property>
     <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
       <sv:value>live</sv:value>
       <sv:value>preview</sv:value>
@@ -74,6 +80,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1441c921-85cb-426d-afe0-e87b913e14d8</sv:value>
+      </sv:property>
       <sv:node sv:name="hippo:translation">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:translation</sv:value>
@@ -92,6 +101,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>03c66dae-b409-4676-9f77-2c67be7506af</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -163,10 +175,13 @@
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8e777097-f81f-437f-945f-a4204ae0227e</sv:value>
+        </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>common/banners/solar-panel-product/solar-panel-product[3]</sv:value>
           <sv:value>common/banners/solar-panel-product/solar-panel-product</sv:value>
+          <sv:value>common/banners/solar-panel-product/solar-panel-product[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
           <sv:value>Your love of nature and technology can coexist. The portable Solio Magnesium Solar Charger lets you recharge your device wherever you go with energy straight from the sun.</sv:value>
@@ -228,6 +243,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4c2bdaab-515c-4ad5-a346-05cbe9013396</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
@@ -309,6 +327,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ed0ae5cb-02ca-44f8-b502-d573088ef4b4</sv:value>
+      </sv:property>
       <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
         <sv:value>new-banner-folder</sv:value>
         <sv:value>new-banner</sv:value>
@@ -337,6 +358,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a417f215-a5d7-4561-a059-8c5af4a7861e</sv:value>
+        </sv:property>
         <sv:node sv:name="products-1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -344,6 +368,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3b70e23c-0d6b-4da1-8ff7-2895cdfcfb34</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -411,6 +438,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>7d94ec4e-da3d-42ce-94f3-5366be0fc5a5</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -477,6 +507,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>b77bfe80-4968-4f96-9667-76e62dc0face</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -548,6 +581,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>afecf303-6370-416b-a8be-2dfe4f44217c</sv:value>
+        </sv:property>
         <sv:node sv:name="products-2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -556,10 +592,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0f4390b5-9e9b-49ce-a822-75257a43b23f</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/products-2/products-2[2]</sv:value>
             <sv:value>common/banners/heroes/products-2/products-2[3]</sv:value>
+            <sv:value>common/banners/heroes/products-2/products-2[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -621,6 +660,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a52eb647-6747-4289-95f7-b15d70046a99</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -688,6 +730,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8099a945-25b9-4db9-b66b-856dca64446f</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -759,6 +804,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>374a0915-5778-4ca7-9ad7-20074d6d20c1</sv:value>
+        </sv:property>
         <sv:node sv:name="products-3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -767,10 +815,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3255fb91-7497-4366-8a2b-02fe9bc78df5</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/products-3/products-3[2]</sv:value>
             <sv:value>common/banners/heroes/products-3/products-3[3]</sv:value>
+            <sv:value>common/banners/heroes/products-3/products-3[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -832,6 +883,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>87813c99-b96f-411f-bd7c-8a501058c0d7</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -899,6 +953,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>743f3ed1-3173-4747-92e9-c18ec32938df</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -970,6 +1027,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>395499c6-ceb5-469f-8663-621473890b96</sv:value>
+        </sv:property>
         <sv:node sv:name="events-1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -978,10 +1038,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4a0efde1-aec7-45a9-a048-ecadc190cf3c</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/events-1/events-1[2]</sv:value>
             <sv:value>common/banners/heroes/events-1/events-1[3]</sv:value>
+            <sv:value>common/banners/heroes/events-1/events-1[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -1043,6 +1106,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9fdbc1b3-3747-4137-8f8a-f842490f90fa</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -1110,6 +1176,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>507f6925-395f-46b0-b37a-f3400b997ab2</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -1181,6 +1250,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c68b5a54-5b37-4d87-9502-e3d208040d5c</sv:value>
+        </sv:property>
         <sv:node sv:name="blogs-2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -1189,10 +1261,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8b5f01f7-8313-4787-bb38-8ea6684d27d1</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/blogs-2/blogs-2[2]</sv:value>
             <sv:value>common/banners/heroes/blogs-2/blogs-2[3]</sv:value>
+            <sv:value>common/banners/heroes/blogs-2/blogs-2[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -1254,6 +1329,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9c9467fb-38d1-456e-b742-bce989d0509e</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -1321,6 +1399,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8f3526ee-9289-437c-9c69-7f41904b4478</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -1392,6 +1473,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3672e157-d223-4b70-bb28-114afa948062</sv:value>
+        </sv:property>
         <sv:node sv:name="blogs-3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -1399,6 +1483,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>b306a05b-f588-4062-9577-173d574d25bc</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -1466,6 +1553,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>56ce2f86-26e7-40cd-a6ce-f34a339b24b8</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -1532,6 +1622,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6b2dbfc9-aa96-413d-b892-7378df57730e</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -1603,6 +1696,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d4e57078-29e2-4ecb-9ee5-aa742dcbf7b3</sv:value>
+        </sv:property>
         <sv:node sv:name="blogs-1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -1611,10 +1707,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>89ca4b2c-beea-4e5d-a56c-bb1a195f5c5c</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/blogs-1/blogs-1[3]</sv:value>
             <sv:value>common/banners/heroes/blogs-1/blogs-1[2]</sv:value>
+            <sv:value>common/banners/heroes/blogs-1/blogs-1[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -1676,6 +1775,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2a7a0924-4260-47fd-89e1-f1d5b769d859</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -1743,6 +1845,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>99659957-4df5-4da4-8953-6e463a3e0c16</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -1814,6 +1919,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cec8662b-0972-4f13-8b92-051d516437a8</sv:value>
+        </sv:property>
         <sv:node sv:name="events-2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -1822,10 +1930,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f24177b6-bb3e-4af1-9ee9-0d82578bb612</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/events-2/events-2[3]</sv:value>
             <sv:value>common/banners/heroes/events-2/events-2[2]</sv:value>
+            <sv:value>common/banners/heroes/events-2/events-2[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -1887,6 +1998,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1ff66ede-6c20-4f0d-a3a7-3299b9c9c665</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -1954,6 +2068,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>95307464-7eeb-4032-9524-391941ff8a77</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -2025,6 +2142,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ed9824d1-cb4f-46e3-a320-aadc6d3fe84a</sv:value>
+        </sv:property>
         <sv:node sv:name="news-1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -2032,6 +2152,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>90d7a1a8-cd54-4d10-939c-6ebbc74335b8</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -2099,6 +2222,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6a8ed6d0-eb87-4ff8-aea5-307e8a4f1317</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -2165,6 +2291,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>7c8ea0e4-a8b8-4f71-a780-2590a848fb6e</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -2236,6 +2365,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f9a936c4-1f80-42e0-baae-5c0979aafffa</sv:value>
+        </sv:property>
         <sv:node sv:name="news-2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -2243,6 +2375,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>25a70eef-ac2a-41a3-9287-3db385f4b078</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -2310,6 +2445,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>06a13428-d877-4e51-a4ed-0016f7388cb1</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -2376,6 +2514,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ae10ffbc-0c0d-4645-89f8-2be4c35e4520</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -2447,6 +2588,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>743aaa9e-ceb4-48c5-bd29-fbc11275cabf</sv:value>
+        </sv:property>
         <sv:node sv:name="misc-1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -2455,10 +2599,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>cabf8d82-e7e5-4258-ac61-4d97d239f049</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/misc-1/misc-1[2]</sv:value>
             <sv:value>common/banners/heroes/misc-1/misc-1[3]</sv:value>
+            <sv:value>common/banners/heroes/misc-1/misc-1[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -2520,6 +2667,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ada97f63-213e-43fa-b30c-1384c56445ef</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -2587,6 +2737,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3bd81a71-4b6a-4594-9969-626d014ae20d</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -2658,6 +2811,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>aca68418-5eda-4474-b3b3-31f8d810aff3</sv:value>
+        </sv:property>
         <sv:node sv:name="sale-1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -2666,10 +2822,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0d820f07-874c-422d-afe2-d1f81a4df4d4</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/sale-1/sale-1[2]</sv:value>
             <sv:value>common/banners/heroes/sale-1/sale-1[3]</sv:value>
+            <sv:value>common/banners/heroes/sale-1/sale-1[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -2693,7 +2852,7 @@
             <sv:value>2014-12-29T13:54:37.580-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-12-30T14:43:27.355-05:00</sv:value>
+            <sv:value>2015-01-21T08:39:59.330-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2709,7 +2868,7 @@
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>08c51f51-06d3-41d9-9ff7-9dcd5a5c9272</sv:value>
+              <sv:value>a6822a9f-fd40-40bd-a3f4-585da4d4e42a</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2731,6 +2890,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d4f54cec-b86a-4035-a0b6-decf76f73d99</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -2760,7 +2922,7 @@
             <sv:value>2014-12-29T13:54:37.580-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-12-30T16:50:32.092-05:00</sv:value>
+            <sv:value>2015-01-21T08:40:07.218-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -2776,7 +2938,7 @@
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>08c51f51-06d3-41d9-9ff7-9dcd5a5c9272</sv:value>
+              <sv:value>a6822a9f-fd40-40bd-a3f4-585da4d4e42a</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2798,6 +2960,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5bd60d54-c990-42ef-b08b-fc9afabea8cd</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -2827,13 +2992,13 @@
             <sv:value>2014-12-29T13:54:37.580-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2014-12-30T16:50:32.092-05:00</sv:value>
+            <sv:value>2015-01-21T08:40:07.218-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2014-12-30T16:50:34.594-05:00</sv:value>
+            <sv:value>2015-01-21T08:40:08.898-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>0d6ed80d-93dc-4763-8700-247121df8ad7</sv:value>
@@ -2846,7 +3011,7 @@
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>08c51f51-06d3-41d9-9ff7-9dcd5a5c9272</sv:value>
+              <sv:value>a6822a9f-fd40-40bd-a3f4-585da4d4e42a</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -2869,6 +3034,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a706a4d1-9e3d-4fb3-9ea2-a64adc2bdae2</sv:value>
+        </sv:property>
         <sv:node sv:name="sale-2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -2877,10 +3045,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9a5d2815-f87b-40c8-915f-045c94f7aa16</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/heroes/sale-2/sale-2[3]</sv:value>
             <sv:value>common/banners/heroes/sale-2/sale-2[2]</sv:value>
+            <sv:value>common/banners/heroes/sale-2/sale-2[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -2942,6 +3113,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>10b446ba-8bd2-4535-977b-d7daca1eddfe</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
@@ -3009,6 +3183,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>e265e0d2-a921-4cb7-9f3b-f232754301c6</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -3083,6 +3260,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>40c4da53-7e00-45d5-8f81-faf8ce57cb9a</sv:value>
+      </sv:property>
       <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
         <sv:value>new-banner-folder</sv:value>
         <sv:value>new-banner</sv:value>
@@ -3112,6 +3292,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c48f97d3-42cc-4be1-a8b6-b1cb85b30212</sv:value>
+        </sv:property>
         <sv:node sv:name="10-simple-steps-to-green-your-office">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -3119,6 +3302,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5196aa46-dd53-424f-a877-4a8c67fc77a3</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -3197,6 +3383,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9ff43626-5de1-41ce-96c3-1d63ecf2e3c6</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -3263,6 +3452,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5729733f-0be8-4fbb-ac87-a3fa7d525ee6</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -3335,6 +3527,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1745848d-0ca7-4b0b-b877-a23fbf38749e</sv:value>
+        </sv:property>
         <sv:node sv:name="is-a-smart-thermostat-worth-the-investment">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -3343,10 +3538,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>df8c278c-bf3d-42b4-a827-38ac7c8eaf32</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/carousel/is-a-smart-thermostat-worth-the-investment/is-a-smart-thermostat-worth-the-investment[2]</sv:value>
             <sv:value>common/banners/carousel/is-a-smart-thermostat-worth-the-investment/is-a-smart-thermostat-worth-the-investment[3]</sv:value>
+            <sv:value>common/banners/carousel/is-a-smart-thermostat-worth-the-investment/is-a-smart-thermostat-worth-the-investment[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value>Will I really be able to save money and energy in the long run by spending hundreds of dollars now for a so-called "smart" thermostat?</sv:value>
@@ -3420,6 +3618,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>918fa1fe-c1d4-4433-a353-8b7611a0d0be</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -3486,6 +3687,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>65681d15-c7a5-41d6-bcef-15d9f9a41969</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -3558,6 +3762,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>16a52fec-f8f5-4d65-b661-39f84bf78219</sv:value>
+        </sv:property>
         <sv:node sv:name="how-to-green-your-dorm-room">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -3566,10 +3773,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>fde23b52-2d0b-4cee-96b7-d28f5e75e231</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/carousel/how-to-green-your-dorm-room/how-to-green-your-dorm-room[2]</sv:value>
             <sv:value>common/banners/carousel/how-to-green-your-dorm-room/how-to-green-your-dorm-room[3]</sv:value>
+            <sv:value>common/banners/carousel/how-to-green-your-dorm-room/how-to-green-your-dorm-room[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value>Every year, college students generate thousands of tons of garbage, because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be green has never been easier.</sv:value>
@@ -3643,6 +3853,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>e5a72082-090f-4913-a34c-066784a05768</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -3709,6 +3922,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4ee7b680-a864-4f37-a8ad-34f4b125543d</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -3783,6 +3999,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a95e5b11-1bb6-4695-b5fc-285efcabddec</sv:value>
+      </sv:property>
       <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
         <sv:value>new-banner-folder</sv:value>
         <sv:value>new-banner</sv:value>
@@ -3812,6 +4031,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7e1abd90-a06e-4a5e-a5b3-02a87778bcf0</sv:value>
+        </sv:property>
         <sv:node sv:name="hippo:translation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:translation</sv:value>
@@ -3830,6 +4052,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0a70bcf1-170e-49e8-84ef-8f911f33e0ac</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -3897,6 +4122,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2e1ec7f4-4e81-4834-bf07-be46a29c2d46</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -3963,6 +4191,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1e5ba606-9255-4e33-ade6-91f374547f4a</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -4035,6 +4266,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ead57262-8359-4447-a47a-635fa51845e5</sv:value>
+        </sv:property>
         <sv:node sv:name="what-we-stand-for-4">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -4042,6 +4276,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>192908d5-d64d-4a76-bb9b-fe1a8597e855</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -4120,6 +4357,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>13850efb-f436-4790-a21d-ab205952f02e</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -4186,6 +4426,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>823e9c54-4677-492a-9e4a-9ed2a57f5481</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -4258,6 +4501,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2b6afdb2-a3a5-43ee-95b8-ffd65b8837ce</sv:value>
+        </sv:property>
         <sv:node sv:name="what-we-stand-for-3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -4266,10 +4512,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c17759b0-e495-446c-b14a-684de700c944</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/text-banners/what-we-stand-for-3/what-we-stand-for-3[3]</sv:value>
             <sv:value>common/banners/text-banners/what-we-stand-for-3/what-we-stand-for-3[2]</sv:value>
+            <sv:value>common/banners/text-banners/what-we-stand-for-3/what-we-stand-for-3[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value>Join a community of over 100.000 customers helping make the world a better place.</sv:value>
@@ -4343,6 +4592,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>65f19d2d-517c-4fc3-9b2a-18e87ddffefd</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -4409,6 +4661,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ac774b2a-892a-4d9f-906f-636aa8b8e976</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -4481,6 +4736,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fb9affa2-6500-4e80-819c-a268495145e8</sv:value>
+        </sv:property>
         <sv:node sv:name="what-we-stand-for-2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -4488,6 +4746,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>22d60d9c-163f-4e28-8d18-5d352ee598db</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -4566,6 +4827,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>48eda3c4-bd0b-4a6d-a3db-63fac8513222</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -4632,6 +4896,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0c53263c-aac6-4cbc-88a5-be5a881676bf</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -4704,6 +4971,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9355bab3-5c12-48dc-baa7-348f3244bef7</sv:value>
+        </sv:property>
         <sv:node sv:name="value-for-shopping-1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -4712,10 +4982,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f4ef8638-4e91-4718-8d41-5bbc1cc13ec9</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/text-banners/value-for-shopping-1/value-for-shopping-1[3]</sv:value>
             <sv:value>common/banners/text-banners/value-for-shopping-1/value-for-shopping-1[2]</sv:value>
+            <sv:value>common/banners/text-banners/value-for-shopping-1/value-for-shopping-1[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value>Free shipping and delivery for all our products. Express delivery to your house within the next day.</sv:value>
@@ -4789,6 +5062,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6e04f530-0357-4ac7-ab04-8d81323102a0</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -4855,6 +5131,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8524c680-a53f-457c-b430-3e0fa0d65d44</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -4927,6 +5206,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9dc5eb04-d01c-4e53-9713-cf6c5b8eee90</sv:value>
+        </sv:property>
         <sv:node sv:name="value-for-shopping-2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -4935,10 +5217,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>101d8ce2-0384-4c2f-a492-015a27a18590</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/text-banners/value-for-shopping-2/value-for-shopping-2[3]</sv:value>
             <sv:value>common/banners/text-banners/value-for-shopping-2/value-for-shopping-2[2]</sv:value>
+            <sv:value>common/banners/text-banners/value-for-shopping-2/value-for-shopping-2[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value>Eco-conscious living is priceless, but should be kind to your wallet. Our products are fair trade and fairly priced.</sv:value>
@@ -5012,6 +5297,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>21222c68-0449-4a2e-ad6a-7b0833a976a9</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -5078,6 +5366,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f986152d-6ea8-4ebf-971e-b19c4502acbd</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -5150,6 +5441,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7edf8875-5d82-4f00-bb01-a8cdc1beae85</sv:value>
+        </sv:property>
         <sv:node sv:name="value-for-shopping-3">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -5157,6 +5451,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d551dd98-36e6-4819-a6b7-7dd97810053e</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -5235,6 +5532,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>e509d883-706b-4657-813e-3a2eea63a0cb</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -5301,6 +5601,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>13d522e2-a4a1-43e6-a48f-85af58daba25</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -5373,6 +5676,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>807bd018-870e-421a-9f5a-6bea948c5b1c</sv:value>
+        </sv:property>
         <sv:node sv:name="value-for-shopping-4">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -5381,10 +5687,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>7ec8c8ac-cd30-46f5-8603-4df753e36b84</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/text-banners/value-for-shopping-4/value-for-shopping-4[2]</sv:value>
             <sv:value>common/banners/text-banners/value-for-shopping-4/value-for-shopping-4[3]</sv:value>
+            <sv:value>common/banners/text-banners/value-for-shopping-4/value-for-shopping-4[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value>Our products are 100% organic, durable and environmentally safe.</sv:value>
@@ -5458,6 +5767,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ebf892c4-7253-4474-b12c-f3f68f0a6799</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -5524,6 +5836,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c9020a05-2550-4c57-a01c-f454ebc24487</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -5596,6 +5911,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c5b28dcd-30f9-4c68-b838-f0d18ec5630e</sv:value>
+        </sv:property>
         <sv:node sv:name="value-for-shopping-4-family">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -5603,6 +5921,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>08e65fea-2526-4772-8c7a-b02d54043b8d</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -5681,6 +6002,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4d379105-5892-41f3-af75-63f8b1c90e35</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -5747,6 +6071,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>74eedbdd-a216-4378-b90d-90c97e258531</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -5820,6 +6147,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>be834c61-7b57-4c01-bb62-844b4d052ed3</sv:value>
+        </sv:property>
         <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
           <sv:value>new-banner-folder</sv:value>
           <sv:value>new-banner</sv:value>
@@ -5849,6 +6179,9 @@
             <sv:value>mix:referenceable</sv:value>
             <sv:value>hippo:translated</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>49edb5d5-a420-4431-b9d4-c7b744a7fb1b</sv:value>
+          </sv:property>
           <sv:node sv:name="when">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:banner</sv:value>
@@ -5857,10 +6190,13 @@
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
             </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>6e466fec-ab8b-43c1-94ce-711dbb147e68</sv:value>
+            </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-              <sv:value>common/banners/text-banners/season-sale/when/when[2]</sv:value>
               <sv:value>common/banners/text-banners/season-sale/when/when[3]</sv:value>
+              <sv:value>common/banners/text-banners/season-sale/when/when[2]</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
               <sv:value>From the 27th of December until 16th of January</sv:value>
@@ -5934,6 +6270,9 @@
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:versionable</sv:value>
             </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>622d6060-ed33-4dc1-8342-d814a0bec044</sv:value>
+            </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>preview</sv:value>
             </sv:property>
@@ -6000,6 +6339,9 @@
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>47fcc483-90b4-4264-b540-f425958e293d</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
@@ -6072,6 +6414,9 @@
             <sv:value>mix:referenceable</sv:value>
             <sv:value>hippo:translated</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0bd0bd1d-1c2e-43d2-bbea-bdde2588ce7e</sv:value>
+          </sv:property>
           <sv:node sv:name="what">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:banner</sv:value>
@@ -6079,6 +6424,9 @@
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>0875ea5d-3488-4372-b43e-27049ca5ea96</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -6157,6 +6505,9 @@
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:versionable</sv:value>
             </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>c159b290-a351-4d6f-8845-8e90a723b0b4</sv:value>
+            </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>preview</sv:value>
             </sv:property>
@@ -6223,6 +6574,9 @@
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>f74188ad-1a01-46a7-8acd-880e9ab850cd</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
@@ -6295,6 +6649,9 @@
             <sv:value>mix:referenceable</sv:value>
             <sv:value>hippo:translated</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>49e8ebba-f784-451e-b1e5-88249d4ae491</sv:value>
+          </sv:property>
           <sv:node sv:name="where">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:banner</sv:value>
@@ -6302,6 +6659,9 @@
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>7ed349d3-4eaa-4430-910d-3de0142a8ae1</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -6380,6 +6740,9 @@
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:versionable</sv:value>
             </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>6f906c81-caef-49f9-9198-b017ed171591</sv:value>
+            </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>preview</sv:value>
             </sv:property>
@@ -6446,6 +6809,9 @@
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>add7e356-bdc4-46df-b60c-ec737eacaaea</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
@@ -6518,6 +6884,9 @@
             <sv:value>mix:referenceable</sv:value>
             <sv:value>hippo:translated</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6b615ef2-ddba-4357-9377-4d0223e3db73</sv:value>
+          </sv:property>
           <sv:node sv:name="and-more">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:banner</sv:value>
@@ -6526,10 +6895,13 @@
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
             </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>d6d7d8a1-700c-40ee-b546-6bb88397606c</sv:value>
+            </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-              <sv:value>common/banners/text-banners/season-sale/and-more/and-more[3]</sv:value>
               <sv:value>common/banners/text-banners/season-sale/and-more/and-more[2]</sv:value>
+              <sv:value>common/banners/text-banners/season-sale/and-more/and-more[3]</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
               <sv:value>Expect events and activities in a store near you!</sv:value>
@@ -6603,6 +6975,9 @@
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:versionable</sv:value>
             </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>7297eed0-5620-4edc-8c62-f46374dc789e</sv:value>
+            </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>preview</sv:value>
             </sv:property>
@@ -6669,6 +7044,9 @@
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>hippotranslation:translated</sv:value>
               <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>b4ef79f0-75a1-441e-abce-c3484dd3fbb7</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
               <sv:value>live</sv:value>
@@ -6744,6 +7122,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>643f2d8f-2eae-4a69-b031-39367b626138</sv:value>
+      </sv:property>
       <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
         <sv:value>new-banner-folder</sv:value>
         <sv:value>new-banner</sv:value>
@@ -6773,6 +7154,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2471e1b6-09d8-44a5-b07f-21999e803f0c</sv:value>
+        </sv:property>
         <sv:node sv:name="home-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -6781,10 +7165,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>bd59b23a-ec20-4c3b-90cf-8ee42a3a4f10</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/image-banners/home-category/home-category[2]</sv:value>
             <sv:value>common/banners/image-banners/home-category/home-category[3]</sv:value>
+            <sv:value>common/banners/image-banners/home-category/home-category[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -6858,6 +7245,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a9e103d0-1f1e-45eb-8dd7-c9f2550830e9</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -6924,6 +7314,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8ce9d5a2-a1e3-4f68-9be4-1692decb48c5</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -6996,6 +7389,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a4e8098f-67d8-4ca5-9147-018879fbd035</sv:value>
+        </sv:property>
         <sv:node sv:name="hippo:translation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:translation</sv:value>
@@ -7014,6 +7410,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4d09c447-84ae-42ec-ab7f-babf794f7b16</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -7081,6 +7480,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>e2de472b-c3f0-44b0-9189-9b5659c6b29a</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -7147,6 +7549,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6f107462-4a25-4c75-9ef3-d912f1567452</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -7219,6 +7624,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bbf78dfc-be00-4fbb-b3ff-23ce352fc0e0</sv:value>
+        </sv:property>
         <sv:node sv:name="sports-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -7227,10 +7635,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>25f50b13-0af1-4282-bb76-3604d678e737</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/image-banners/sports-category/sports-category[2]</sv:value>
             <sv:value>common/banners/image-banners/sports-category/sports-category[3]</sv:value>
+            <sv:value>common/banners/image-banners/sports-category/sports-category[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -7304,6 +7715,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a770f9e0-a3f6-4ed3-83dc-3ac133a5848f</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -7370,6 +7784,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9c3c8fe0-ea40-4f7b-8a82-4c0d292e9e58</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -7442,6 +7859,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>21228f9f-0321-4d6e-925f-0793ecd3527c</sv:value>
+        </sv:property>
         <sv:node sv:name="students-home-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -7449,6 +7869,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a9d34ec1-be42-47fb-860e-fb26b7934e3f</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -7527,6 +7950,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2f68fcbd-386d-4d42-b845-f036306c6da6</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -7593,6 +8019,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1db541db-4365-4ed1-96c7-5f5316048892</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -7665,6 +8094,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>13f76473-9f75-4008-bfef-54edcfe919bc</sv:value>
+        </sv:property>
         <sv:node sv:name="gadgets-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -7672,6 +8104,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3c92cc69-f40a-432b-bc0d-9e7f6f5510cc</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -7750,6 +8185,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c02cc312-06f3-4d84-b997-aa52e5948b67</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -7816,6 +8254,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>51c94f91-56b2-431f-8ce9-3652f7cde784</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -7888,6 +8329,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>09525f69-2756-4f07-a710-df268d9a37c2</sv:value>
+        </sv:property>
         <sv:node sv:name="outdoors-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -7896,10 +8340,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>060eea33-bffb-461f-9f4a-7d16164af66b</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/image-banners/outdoors-category/outdoors-category[3]</sv:value>
             <sv:value>common/banners/image-banners/outdoors-category/outdoors-category[2]</sv:value>
+            <sv:value>common/banners/image-banners/outdoors-category/outdoors-category[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -7973,6 +8420,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>211c65d7-b9b5-4feb-bcfc-a81f0ebb171b</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -8039,6 +8489,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f8d6a4a9-8488-4d2b-bcc8-f50df28294e7</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -8111,6 +8564,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5eec9a3a-9c5d-4913-80c0-8daf6ba6f9d3</sv:value>
+        </sv:property>
         <sv:node sv:name="solar-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -8119,10 +8575,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ad9dd864-e6c4-4804-b55f-22bc8efe6527</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/image-banners/solar-category/solar-category[2]</sv:value>
             <sv:value>common/banners/image-banners/solar-category/solar-category[3]</sv:value>
+            <sv:value>common/banners/image-banners/solar-category/solar-category[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -8196,6 +8655,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>7d9dea68-6981-48bb-9d24-e654a23dcbc2</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -8262,6 +8724,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>07abec22-0661-4cd8-96b8-dbf0abdadb9d</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -8334,6 +8799,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>30668f84-d950-476c-a591-13df91e27a5a</sv:value>
+        </sv:property>
         <sv:node sv:name="computers--electronics-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -8341,6 +8809,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d2e025ac-942c-43f4-bc90-6792e37f0d8c</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -8419,6 +8890,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>02674856-a38c-4c1e-882d-8a8fc0fc0ac8</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -8485,6 +8959,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>8b1df994-4b7d-4319-899c-0143e02d38c1</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -8557,6 +9034,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f72ddb71-e85c-41b9-b05e-9fab98c7108e</sv:value>
+        </sv:property>
         <sv:node sv:name="business-owner-office-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -8564,6 +9044,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6395540a-6d01-4c58-b189-f8fc0b8613b4</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -8642,6 +9125,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>54c30477-5749-496a-9872-ed655b0685da</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -8708,6 +9194,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>39c8aeaf-6f5a-493d-9fd5-bd412ad7bbdd</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -8780,6 +9269,9 @@
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>57b206b0-3a3c-4787-8480-b8bdc7d68424</sv:value>
+        </sv:property>
         <sv:node sv:name="family-category">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:banner</sv:value>
@@ -8788,10 +9280,13 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>242de438-3634-431f-8006-007ebcac1c0e</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>common/banners/image-banners/family-category/family-category[2]</sv:value>
             <sv:value>common/banners/image-banners/family-category/family-category[3]</sv:value>
+            <sv:value>common/banners/image-banners/family-category/family-category[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:bannertext" sv:type="String">
             <sv:value/>
@@ -8865,6 +9360,9 @@
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9593380c-601e-420e-bddb-e0651cabfce6</sv:value>
+          </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
@@ -8931,6 +9429,9 @@
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>433730b4-e90b-4d83-a643-ad4583e8fe92</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
@@ -9004,6 +9505,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ec6a7f40-e59f-4d9a-bc73-c93818a60f67</sv:value>
+      </sv:property>
       <sv:node sv:name="laptop-sleeve">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:banner</sv:value>
@@ -9011,6 +9515,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8dd31769-858d-4f40-8b32-7ccc3de42737</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -9089,6 +9596,9 @@
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:versionable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cd6542f4-6d53-4847-be27-1b736877f299</sv:value>
+        </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
         </sv:property>
@@ -9155,6 +9665,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bad8b4df-de9b-46cd-9efa-c2c2c1f68cd7</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -9227,6 +9740,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1c6f85f3-b90f-4979-93a8-3437e1a5146a</sv:value>
+      </sv:property>
       <sv:node sv:name="green-printing">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:banner</sv:value>
@@ -9234,6 +9750,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b3e2931a-69a9-4a55-bfdf-f32dea9feca8</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -9312,6 +9831,9 @@
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:versionable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bafeea3a-6a0a-481e-8747-664a23c41cbd</sv:value>
+        </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
         </sv:property>
@@ -9378,6 +9900,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1c057c07-d5fd-4741-bc35-57d367c1a029</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -9450,6 +9975,9 @@
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>mix:referenceable</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f9355935-3095-4e1d-9a32-885eae270066</sv:value>
+    </sv:property>
     <sv:node sv:name="homepage-intro">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreen:simpledocument</sv:value>
@@ -9457,6 +9985,9 @@
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>hippotranslation:translated</sv:value>
         <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fb9e85c9-bfaf-48db-9547-cbf756d3da56</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -9525,6 +10056,9 @@
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ff89117c-4b76-421d-a853-d4596e86c2e5</sv:value>
+    </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
       <sv:value>new-document</sv:value>
@@ -9548,6 +10082,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e8918015-e963-4205-8554-17327b1a82e5</sv:value>
+      </sv:property>
       <sv:node sv:name="categories">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>selection:valuelist</sv:value>
@@ -9555,6 +10092,9 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b1316748-60fe-465d-989c-bd327d1629c5</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>f958c12b-4b23-4ce6-a018-cd8daa7e3219</sv:value>
@@ -9726,12 +10266,18 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>18585c27-ba92-44b3-be51-0f079ac03178</sv:value>
+      </sv:property>
       <sv:node sv:name="employers">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>selection:valuelist</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7eafd8fa-27af-47e9-9883-deaab8b6daed</sv:value>
         </sv:property>
         <sv:node sv:name="selection:listitem">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -9954,6 +10500,9 @@
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ab17cd35-d22f-46bf-9c95-ba373f404684</sv:value>
+    </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-simple-folder</sv:value>
       <sv:value>new-simple</sv:value>
@@ -9985,6 +10534,9 @@
       <sv:value>mix:versionable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5f68ce1d-c2f0-4fab-9f32-e27b75a0053f</sv:value>
+    </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
       <sv:value>new-document</sv:value>
@@ -10014,6 +10566,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>238e2ad1-7e9c-437b-8811-bbb4a2ff26e9</sv:value>
+      </sv:property>
       <sv:node sv:name="season-sale">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:richtextsnippet</sv:value>
@@ -10021,13 +10576,13 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>eba8903e-fb38-48b9-a0f4-0753b4ce3797</sv:value>
+        </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>common/rich-text-snippets/season-sale/season-sale[2]</sv:value>
           <sv:value>common/rich-text-snippets/season-sale/season-sale[3]</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:holder" sv:type="String">
-          <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -10042,7 +10597,7 @@
           <sv:value>2015-01-02T12:48:42.717-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-01-06T10:52:27.067-05:00</sv:value>
+          <sv:value>2015-01-21T13:39:14.185-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -10058,16 +10613,16 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:smallthumbnail" /&gt;&lt;/p&gt; 
-&lt;h2&gt;Season Sale&lt;/h2&gt; 
-&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you on the right for local sales and promotions. You can also browse through our online catalog to order the promotions directly to your home.&lt;/h3&gt;</sv:value>
+            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:largethumbnail" /&gt;&lt;/p&gt; 
+&lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt; 
+&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
           </sv:property>
           <sv:node sv:name="online_shopping.jpg">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:facetselect</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>e3081c34-4f28-4608-97b4-00c6f0bab53b</sv:value>
+              <sv:value>7d5c2ba1-4b4c-401b-9cd0-f4f851bcb0a9</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -10092,7 +10647,9 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
-          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9a4bcae4-fba5-4e81-b4a2-ede35448f31d</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
@@ -10113,7 +10670,7 @@
           <sv:value>2015-01-02T12:48:42.717-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-01-05T15:21:50.093-05:00</sv:value>
+          <sv:value>2015-01-21T13:40:15.679-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -10129,16 +10686,16 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:smallthumbnail" /&gt;&lt;/p&gt; 
-&lt;h2&gt;Season Sale&lt;/h2&gt; 
-&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you on the right for local sales and promotions. You can also browse through our online catalog to order the promotions directly to your home.&lt;/h3&gt;</sv:value>
+            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:largethumbnail" /&gt;&lt;/p&gt; 
+&lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt; 
+&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
           </sv:property>
           <sv:node sv:name="online_shopping.jpg">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:facetselect</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>e3081c34-4f28-4608-97b4-00c6f0bab53b</sv:value>
+              <sv:value>7d5c2ba1-4b4c-401b-9cd0-f4f851bcb0a9</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -10152,6 +10709,9 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e4fd7112-c173-4b00-9e4b-2ff2918c4f24</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -10172,13 +10732,13 @@
           <sv:value>2015-01-02T12:48:42.717-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-01-05T15:21:50.093-05:00</sv:value>
+          <sv:value>2015-01-21T13:40:15.679-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-01-05T15:21:51.476-05:00</sv:value>
+          <sv:value>2015-01-21T13:40:17.252-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>1c7e5570-0004-444e-aa12-54c3f5dc892f</sv:value>
@@ -10191,16 +10751,16 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:smallthumbnail" /&gt;&lt;/p&gt; 
-&lt;h2&gt;Season Sale&lt;/h2&gt; 
-&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you on the right for local sales and promotions. You can also browse through our online catalog to order the promotions directly to your home.&lt;/h3&gt;</sv:value>
+            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:largethumbnail" /&gt;&lt;/p&gt; 
+&lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt; 
+&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
           </sv:property>
           <sv:node sv:name="online_shopping.jpg">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:facetselect</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>e3081c34-4f28-4608-97b4-00c6f0bab53b</sv:value>
+              <sv:value>7d5c2ba1-4b4c-401b-9cd0-f4f851bcb0a9</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -10217,6 +10777,9 @@
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0d37a1d5-f713-42e2-82a2-c3fe5508c127</sv:value>
+      </sv:property>
       <sv:node sv:name="store-locator">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:richtextsnippet</sv:value>
@@ -10224,10 +10787,13 @@
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6f15808a-6d04-4629-b1fa-8b8c80a9e9d8</sv:value>
+        </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>common/rich-text-snippets/store-locator/store-locator[3]</sv:value>
           <sv:value>common/rich-text-snippets/store-locator/store-locator[2]</sv:value>
+          <sv:value>common/rich-text-snippets/store-locator/store-locator[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -10280,7 +10846,9 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
-          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cfef7a27-9d79-47b9-ad39-80e8ad207919</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
@@ -10328,6 +10896,9 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ec4815d3-9b88-4080-b456-8c150d5df307</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
