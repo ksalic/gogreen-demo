@@ -53,25 +53,25 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12">
-        <hst:include ref="hero"/>
+        <hst:include ref="top"/>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-9 col-sm-9">
+          <hst:include ref="left1"/>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <hst:include ref="right1"/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-sm-3">
           <hst:include ref="left2"/>
         </div>
-        <div class="col-md-3 col-sm-3">
-          <hst:include ref="right2"/>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3 col-sm-3">
-          <hst:include ref="left4"/>
-        </div>
         <div class="col-md-9 col-sm-9">
-          <hst:include ref="right4"/>
+          <hst:include ref="right2"/>
         </div>
       </div>
 
