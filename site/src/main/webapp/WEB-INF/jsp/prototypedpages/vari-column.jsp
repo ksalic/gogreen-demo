@@ -58,15 +58,6 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6 col-sm-6">
-          <hst:include ref="left1"/>
-        </div>
-        <div class="col-md-6 col-sm-6">
-          <hst:include ref="right1"/>
-        </div>
-      </div>
-
-      <div class="row">
         <div class="col-md-9 col-sm-9">
           <hst:include ref="left2"/>
         </div>
@@ -76,32 +67,11 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6 col-sm-6">
-          <hst:include ref="left3"/>
-        </div>
-        <div class="col-md-6 col-sm-6">
-          <hst:include ref="right3"/>
-        </div>
-      </div>
-
-      <div class="row">
         <div class="col-md-3 col-sm-3">
           <hst:include ref="left4"/>
         </div>
         <div class="col-md-9 col-sm-9">
           <hst:include ref="right4"/>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3 col-sm-3">
-          <hst:include ref="left5"/>
-        </div>
-        <div class="col-md-6 col-sm-6">
-          <hst:include ref="center5"/>
-        </div>
-        <div class="col-md-3 col-sm-3">
-          <hst:include ref="right5"/>
         </div>
       </div>
 
