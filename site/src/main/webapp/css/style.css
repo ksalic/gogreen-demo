@@ -6684,3 +6684,17 @@ Testimonial
 
 /* vari-column page template styling */
 .vari-column h1.h1-page-title { visibility: hidden; }
+
+
+.rev-slider-banner-full{
+    min-height: 150px;
+}
+
+@media (min-width: 1070px) {
+    .boxed .rev-slider-banner-full{
+        min-height: 457px;
+    }
+    .rev-slider-banner-full{
+        min-height: 400px;
+    }
+}
