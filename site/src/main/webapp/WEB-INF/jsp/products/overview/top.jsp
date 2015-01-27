@@ -18,9 +18,11 @@
 
 <%@include file="../../includes/tags.jspf" %>
 
+<fmt:message key="products.main.title" var="title"/>
 <h1 class="h1-page-title">
-    <fmt:message key="products.main.title"/>
+    ${title}
 </h1>
+<hippo-gogreen:title title="${title}"/>
 
 <h2 class="h2-page-desc">
     <fmt:message key="products.main.subtitle"/>

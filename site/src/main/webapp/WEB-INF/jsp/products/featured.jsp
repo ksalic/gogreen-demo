@@ -58,7 +58,7 @@
           <div class="feature product-category">
             <div class="feature-image">
               <hst:cmseditlink hippobean="${prd}" />
-              <img src="${fn:escapeXml(prdImgLink)}" alt="${fn:escapeXml(prd.firstImage.alt)}"/>
+              <a href="${fn:escapeXml(prdLink)}"><img src="${fn:escapeXml(prdImgLink)}" alt="${fn:escapeXml(prd.firstImage.alt)}"/></a>
               <div class="feature-content">
                 <h3 class="h3-body-title"><a href="${fn:escapeXml(prdLink)}">
                   <c:out value="${prd.title}"/></a>

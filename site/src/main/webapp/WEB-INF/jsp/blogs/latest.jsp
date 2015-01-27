@@ -55,7 +55,7 @@
                         <hst:cmseditlink hippobean="${item}"/>
                         <div class="feature">
                               <div class="feature-image">
-                                  <img src="<hst:link hippobean="${item.firstImage.largeThumbnail}"/>" alt="${item.firstImage.alt}">
+                                  <a href="<hst:link hippobean="${item}"/>"><img src="<hst:link hippobean="${item.firstImage.largeThumbnail}"/>" alt="${item.firstImage.alt}"></a>
                               </div>
 
                             <div class="feature-content">

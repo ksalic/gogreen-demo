@@ -37,50 +37,6 @@ jQuery(document).ready(function($) {
         $('.searchbox', this).removeClass('searchbox-focus');
     });
 
-    // Clients Carousel
-    $(".clients-list").carouFredSel({
-        items: {
-            width: 170,
-            visible: {
-                min: 1,
-                max: 6
-            }
-        },
-        prev: {
-            button: function() {
-                return jQuery(this).closest('.row-fluid').find('.carousel-prev');
-            },
-            key: "left"
-        },
-        next: {
-            button: function() {
-                return jQuery(this).closest('.row-fluid').find('.carousel-next');
-            },
-            key: "right"
-        },
-        responsive: true,
-        auto: false,
-        scroll: {
-            onAfter: function() {
-                /**
-                 We have bug in chrome, and we need to force chrome to re-render specific portion of the page
-                 after it's complete the scrolling animation so this is why we add these dumb lines.
-                 */
-                if (/chrome/.test(navigator.userAgent.toLowerCase())) {
-                    this.style.display = 'none';
-                    this.offsetHeight;
-                    this.style.display = 'block';
-                }
-
-            },
-            items: 1
-        }
-
-    }, {
-        debug: false
-    });
-
-
     $('.accordion .accordion-row:first-child .title').trigger('click');
 
 
