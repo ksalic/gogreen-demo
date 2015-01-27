@@ -15,8 +15,8 @@
     limitations under the License.
 
 --%>
-
 <%@include file="../includes/tags.jspf" %>
+<hst:setBundle basename="products.facet"/>
 <c:if test="${not empty banners}">
 
 <c:if test="${not empty title}">
@@ -85,7 +85,9 @@
 <c:if test="${not empty banner.docLink}">
   <c:choose>
     <c:when test="${banner.docLink.hippoFolderBean}">
-      <c:set var="docLink" value="products/Category/${banner.docLink.localizedName}"/>
+      <fmt:message var="path" key="path"/>
+      <fmt:message var="category" key="category"/>
+      <hst:link var="docLink" path="${path}/${category}/${banner.docLink.localizedName}"/>
     </c:when>
     <c:otherwise>
       <hst:link var="docLink" hippobean="${banner.docLink}"/>
