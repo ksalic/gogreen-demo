@@ -26,8 +26,8 @@ $(document).ready(function(){
 <div class="container">
 <div class="row video">
 <c:choose>
-  <c:when test="${composermode && empty videoURL}">
-    <ul class="box-general">No content defined yet.</ul>
+  <c:when test="${preview && empty videoURL}">
+    <h2 class="not-configured">Click to configure Video component</h2>
   </c:when>
   <c:otherwise>
     <object class="youtube">

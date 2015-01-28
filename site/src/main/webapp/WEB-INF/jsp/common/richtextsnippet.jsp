@@ -33,10 +33,8 @@
 
   </c:when>
   <c:otherwise>
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <h2 class="h2-section-title">Click to configure banner</h2>
-      </div>
-    </div>
+    <c:if test="${preview}">
+      <h2 class="not-configured">Click to configure Rich text snippet</h2>
+    </c:if>
   </c:otherwise>
 </c:choose>

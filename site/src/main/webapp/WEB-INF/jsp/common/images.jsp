@@ -77,3 +77,7 @@
 </c:if>
 
 </c:if>
+
+<c:if test="${empty images and preview}">
+    <h2 class="not-configured">Click to configure Image component</h2>
+</c:if>

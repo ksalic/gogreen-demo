@@ -15,8 +15,8 @@
 --%>
 <%@include file="../includes/tags.jspf" %>
 <c:choose>
-  <c:when test="${composermode && empty htmlContent}">
-    <ul class="box-general">No content defined yet.</ul>
+  <c:when test="${preview && empty htmlContent}">
+    <h2 class="not-configured">Click to configure HTML component</h2>
   </c:when>
   <c:otherwise>${htmlContent}</c:otherwise>
 </c:choose>

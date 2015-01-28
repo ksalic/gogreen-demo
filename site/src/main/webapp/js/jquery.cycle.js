@@ -140,7 +140,7 @@
         }, getSlideIndex: function(e) {
             return this.opts().slides.index(e)
         }}, e.fn.cycle.log = function() {
-        window.console && console.log && console.log("[cycle2] " + Array.prototype.join.call(arguments, " "))
+        //window.console && console.log && console.log("[cycle2] " + Array.prototype.join.call(arguments, " "))
     }, e.fn.cycle.version = function() {
         return"Cycle2: " + i
     }, e.fn.cycle.transitions = {custom: {}, none: {before: function(e, t, i, n) {

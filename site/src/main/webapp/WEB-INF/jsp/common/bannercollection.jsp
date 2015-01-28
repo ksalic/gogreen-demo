@@ -311,4 +311,8 @@
   <div class="space-sep<c:out value="${separatorMargin} ${cssClass}"/>"></div>
 </c:if>
 
+
+</c:if>
+<c:if test="${empty banners and preview}">
+  <h2 class="not-configured">Click to configure banner collection</h2>
 </c:if>

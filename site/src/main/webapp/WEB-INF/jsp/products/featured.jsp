@@ -71,3 +71,7 @@
   </div>
 </div>
 </c:if>
+
+<c:if test="${empty products and preview}">
+  <h2 class="not-configured">Click to configure featured products</h2>
+</c:if>

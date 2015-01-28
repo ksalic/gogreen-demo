@@ -15,30 +15,34 @@
 --%>
 <%@include file="../includes/tags.jspf" %>
 
-<div class="rev-slider-full">
-  <div class="rev-slider-banner-full  rev-slider-full">
-    <ul>
-      <c:forEach items="${banners}" var="banner" varStatus="index">
-        <%--@elvariable id="banner" type="com.onehippo.gogreen.beans.Banner"--%>
-        <li data-transition="fade" data-slotamount="2" data-masterspeed="300" >
-          <img src="<hst:link hippobean="${banner.image.original}"/>"  alt="rev-full1" data-fullwidthcentering="on">
-          <hst:cmseditlink hippobean="${banner}" />
 
-          <div class="tp-caption big_white large_text sft" data-x="20" data-y="300" data-start="0" data-easing="easeOutBack" >
+<c:if test="${not empty banners}">
+  <div class="rev-slider-full">
+    <div class="rev-slider-banner-full  rev-slider-full">
+      <ul>
+        <c:forEach items="${banners}" var="banner" varStatus="index">
+          <%--@elvariable id="banner" type="com.onehippo.gogreen.beans.Banner"--%>
+          <li data-transition="fade" data-slotamount="2" data-masterspeed="300" >
+            <img src="<hst:link hippobean="${banner.image.original}"/>"  alt="rev-full1" data-fullwidthcentering="on">
+            <hst:cmseditlink hippobean="${banner}" />
+
+            <div class="tp-caption big_white large_text sft" data-x="20" data-y="300" data-start="0" data-easing="easeOutBack" >
               <c:out value="${banner.title}"/>
-          </div>
-          <div class="tp-caption revolution-subtext sfb" data-x="20" data-y="366" data-start="0" data-easing="easeOutBack" >
+            </div>
+            <div class="tp-caption revolution-subtext sfb" data-x="20" data-y="366" data-start="0" data-easing="easeOutBack" >
               <c:out value="${banner.text}"/>
-          </div>
-          <div>
+            </div>
+            <div>
               <a href="<hst:link hippobean="${banner.docLink}"/>" class="link-overlay"></a>
-          </div>
-        </li>
-      </c:forEach>
-      <c:if test="${empty banners}">
-        <p>Click to configure banner carousel</p>
-      </c:if>
-    </ul>
-    <div class="tp-bannertimer tp-bottom"></div>
+            </div>
+          </li>
+        </c:forEach>
+
+      </ul>
+      <div class="tp-bannertimer tp-bottom"></div>
+    </div>
   </div>
-</div>
+</c:if>
+<c:if test="${empty banners and preview}">
+  <h2 class="not-configured">Click to configure banner carousel</h2>
+</c:if>

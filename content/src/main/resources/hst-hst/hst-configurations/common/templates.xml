@@ -293,7 +293,7 @@
         &#13;
         &lt;@hst.headContributions categoryIncludes="jsExternal"/&gt;&#13;
         &lt;@hst.headContributions categoryIncludes="jsInternal"/&gt;&#13;
-        &lt;#if !composermode&gt;&#13;
+        &lt;#if !preview&gt;&#13;
         &lt;@ga.accountId/&gt;&#13;
         &lt;@hst.link var="googleAnalytics" path="/resources/google-analytics.js"/&gt;&#13;
         &lt;script src="${googleAnalytics}" type="text/javascript"&gt;&lt;/script&gt;&#13;
@@ -308,7 +308,7 @@
         &lt;@hst.link var="js_bootstrap" path="/js/bootstrap.min.js"/&gt;&#13;
         &lt;script src="${js_bootstrap}" type="text/javascript"&gt;&lt;/script&gt;&#13;
         &lt;@hst.link var="js_ie_fixes" path="/js/ie-fixes.js"/&gt;&#13;
-        &lt;script type="text/javascript" src="${js_ie_fixes}"&lt;/script&gt;&#13;
+        &lt;script type="text/javascript" src="${js_ie_fixes}"&gt;&lt;/script&gt;&#13;
         &lt;@hst.link var="js_jqappear" path="/js/jq.appear.js"/&gt;&#13;
         &lt;script src="${js_jqappear}" type="text/javascript"&gt;&lt;/script&gt;&#13;
         &lt;@hst.link var="js_jquerybase64" path="/js/jquery.base64.js"/&gt;&#13;
@@ -464,7 +464,7 @@
         &#13;
         &lt;@hst.headContributions categoryIncludes="jsExternal"/&gt;&#13;
         &lt;@hst.headContributions categoryIncludes="jsInternal"/&gt;&#13;
-        &lt;#if !composermode&gt;&#13;
+        &lt;#if !preview&gt;&#13;
         &lt;@ga.accountId/&gt;&#13;
         &lt;@hst.link var="googleAnalytics" path="/resources/google-analytics.js"/&gt;&#13;
         &lt;script src="${googleAnalytics}" type="text/javascript"&gt;&lt;/script&gt;&#13;

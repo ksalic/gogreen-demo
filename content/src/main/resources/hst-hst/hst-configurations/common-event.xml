@@ -395,7 +395,7 @@
 
 &lt;@hst.headContributions categoryIncludes="jsExternal"/&gt;
 &lt;@hst.headContributions categoryIncludes="jsInternal"/&gt;
-&lt;#if !composermode&gt;
+&lt;#if !preview&gt;
   &lt;@ga.accountId/&gt;
   &lt;@hst.link var="googleAnalytics" path="/resources/google-analytics.js"/&gt;
   &lt;script src="${googleAnalytics}" type="text/javascript"&gt;&lt;/script&gt;

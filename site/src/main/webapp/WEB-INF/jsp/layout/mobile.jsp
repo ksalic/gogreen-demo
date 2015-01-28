@@ -83,7 +83,7 @@
         <!-- footer -->
         <hst:include ref="footer"/>
     </div>
-  <c:if test="${not composermode}">
+  <c:if test="${not preview}">
     <ga:accountId/>
     <hst:link var="googleAnalytics" path="/resources/google-analytics.js"/>
     <script src="${googleAnalytics}" type="text/javascript"></script>

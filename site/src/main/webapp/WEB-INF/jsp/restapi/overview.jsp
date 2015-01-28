@@ -24,5 +24,6 @@
 <h2 class="h2-section-title"><c:out value="${document.title}"/></h2>
 <div class="i-section-title"></div>
 
+<hippo-gogreen:title title="${document.title}" />
 <p><c:out value="${document.summary}"/></p>
 <p><hst:html hippohtml="${document.description}"/></p>

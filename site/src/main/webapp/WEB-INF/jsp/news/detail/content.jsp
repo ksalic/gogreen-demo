@@ -18,6 +18,8 @@
 
 <%@include file="../../includes/tags.jspf" %>
 
+<hippo-gogreen:title title="${document.title}"/>
+
 <div class="blog-post">
 
     <div class="blog-post-type">

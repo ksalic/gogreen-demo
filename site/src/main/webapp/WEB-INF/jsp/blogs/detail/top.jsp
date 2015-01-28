@@ -26,6 +26,7 @@
     <h2 class="h2-page-desc">
         ${document.title}
     </h2>
+    <hippo-gogreen:title title="${document.title}"/>
 </c:if>
 
 <div class="breadcrumb-container">

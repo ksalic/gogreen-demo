@@ -32,11 +32,6 @@ public class BaseComponent extends BaseHstComponent {
         ComponentUtil.doRedirectionOnWrongLandingMount(request, response);
         
         request.setAttribute("preview", isPreview(request));
-        request.setAttribute("composermode", request.getRequestContext().getResolvedMount().getMount().isOfType("composermode"));
-        
-        String cmsApplicationUrl = request.getRequestContext().getContainerConfiguration().getString("cms.location", "/cms/");
-        request.setAttribute("cmsApplicationUrl", cmsApplicationUrl);
-        
         request.setAttribute("loggedin", request.getUserPrincipal() != null);
     }
     

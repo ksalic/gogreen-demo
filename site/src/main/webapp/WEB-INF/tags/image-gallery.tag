@@ -21,7 +21,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 
-<c:if test="${not composermode}">
+<c:if test="${not preview}">
 <hst:headContribution keyHint="jqueryEasing" category="jsInternal">
     <hst:link path="/js/galleryview-2.1.1/jquery.easing.1.3.js" var="jqEasingJs"/>
     <script type="text/javascript" src="${jqEasingJs}"></script>
@@ -89,7 +89,7 @@
 
 <div class="clear">
     <c:choose>
-       <c:when test="${composermode}">
+       <c:when test="${preview}">
            <c:forEach items="${document.images}" var="image" varStatus="status">
                <c:if test="${status.index eq 0}">
                    <hst:link hippobean="${image.largeThumbnail}" var="imgLink"/>
