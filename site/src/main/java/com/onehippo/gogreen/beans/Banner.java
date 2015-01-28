@@ -48,13 +48,13 @@ public class Banner extends HippoDocument {
     }
 
     public HippoBean getDocLink() {
-        HippoMirror mirrorBean = (HippoMirror) getBean("hippogogreen:doclink");
+        HippoMirror mirrorBean = getBean("hippogogreen:doclink");
         return mirrorBean.getReferencedBean();
     }
 
 
     public ImageSet getImage() {
-        ImageSetLink imageLink = (ImageSetLink) getBean("hippogogreen:image");
+        ImageSetLink imageLink = getBean("hippogogreen:image");
         return (ImageSet) imageLink.getReferencedBean();
     }
 
