@@ -367,7 +367,7 @@
                 <sv:value>en</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Icon class</sv:value>
+                <sv:value>Icon</sv:value>
               </sv:property>
             </sv:node>
             <sv:node sv:name="hippo:translation">
@@ -378,7 +378,7 @@
                 <sv:value>nl</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Icon klasse</sv:value>
+                <sv:value>Icon</sv:value>
               </sv:property>
             </sv:node>
             <sv:node sv:name="hippo:translation">
@@ -389,7 +389,7 @@
                 <sv:value>fr</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Icon classe</sv:value>
+                <sv:value>Icon</sv:value>
               </sv:property>
             </sv:node>
             <sv:node sv:name="hippo:translation">
@@ -400,7 +400,7 @@
                 <sv:value>de</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Icon-Klasse</sv:value>
+                <sv:value>Icon</sv:value>
               </sv:property>
             </sv:node>
           </sv:node>
@@ -471,7 +471,7 @@
                 <sv:value>en</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Document</sv:value>
+                <sv:value>Link</sv:value>
               </sv:property>
             </sv:node>
             <sv:node sv:name="hippo:translation">
@@ -482,7 +482,7 @@
                 <sv:value>nl</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Document</sv:value>
+                <sv:value>Link</sv:value>
               </sv:property>
             </sv:node>
             <sv:node sv:name="hippo:translation">
@@ -493,7 +493,7 @@
                 <sv:value>fr</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Document</sv:value>
+                <sv:value>Lien</sv:value>
               </sv:property>
             </sv:node>
             <sv:node sv:name="hippo:translation">
@@ -504,7 +504,7 @@
                 <sv:value>de</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
-                <sv:value>Dokument</sv:value>
+                <sv:value>Link</sv:value>
               </sv:property>
             </sv:node>
           </sv:node>
@@ -581,7 +581,7 @@
           <sv:value>title</sv:value>
         </sv:property>
         <sv:property sv:name="hint" sv:type="String">
-          <sv:value>Title of the banner</sv:value>
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
@@ -601,21 +601,21 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="bannertext">
+      <sv:node sv:name="image">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
-        <sv:property sv:name="caption" sv:type="String">
-          <sv:value>Text</sv:value>
-        </sv:property>
         <sv:property sv:name="field" sv:type="String">
-          <sv:value>bannertext</sv:value>
+          <sv:value>image</sv:value>
         </sv:property>
         <sv:property sv:name="hint" sv:type="String">
           <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
-          <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
+          <sv:value>org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="translator.id" sv:type="String">
+          <sv:value>${cluster.id}.translator</sv:value>
         </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.field</sv:value>
@@ -626,18 +626,53 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="image">
+      <sv:node sv:name="doclink">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
+        <sv:property sv:name="caption" sv:type="String">
+          <sv:value>Link</sv:value>
+        </sv:property>
         <sv:property sv:name="field" sv:type="String">
-          <sv:value>image</sv:value>
+          <sv:value>docLink</sv:value>
         </sv:property>
         <sv:property sv:name="hint" sv:type="String">
-          <sv:value>Image of the banner</sv:value>
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="translator.id" sv:type="String">
+          <sv:value>${cluster.id}.translator</sv:value>
+        </sv:property>
+        <sv:property sv:name="wicket.id" sv:type="String">
+          <sv:value>${cluster.id}.field</sv:value>
+        </sv:property>
+        <sv:node sv:name="cluster.options">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>frontend:pluginconfig</sv:value>
+          </sv:property>
+          <sv:property sv:name="nodetypes" sv:type="String" sv:multiple="true">
+            <sv:value>hippo:document</sv:value>
+            <sv:value>hippostd:folder</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="bannertext">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>frontend:plugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="caption" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="field" sv:type="String">
+          <sv:value>bannertext</sv:value>
+        </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="plugin.class" sv:type="String">
+          <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
         </sv:property>
         <sv:property sv:name="translator.id" sv:type="String">
           <sv:value>${cluster.id}.translator</sv:value>
@@ -656,41 +691,19 @@
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
         <sv:property sv:name="caption" sv:type="String">
-          <sv:value>Icon class</sv:value>
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="field" sv:type="String">
           <sv:value>icon</sv:value>
         </sv:property>
         <sv:property sv:name="hint" sv:type="String">
-          <sv:value>Font awesome icon class. The Banner Collection Component uses the icon if provided, otherwise the image is used as a fallback.</sv:value>
+          <sv:value>Font awesome icon class. Only used by text banners by the Banner Collection Component</sv:value>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
         </sv:property>
-        <sv:property sv:name="wicket.id" sv:type="String">
-          <sv:value>${cluster.id}.field</sv:value>
-        </sv:property>
-        <sv:node sv:name="cluster.options">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="doclink">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>frontend:plugin</sv:value>
-        </sv:property>
-        <sv:property sv:name="caption" sv:type="String">
-          <sv:value>Document</sv:value>
-        </sv:property>
-        <sv:property sv:name="field" sv:type="String">
-          <sv:value>docLink</sv:value>
-        </sv:property>
-        <sv:property sv:name="hint" sv:type="String">
-          <sv:value>Document to show when clicking on the banner, if you want to browse product categories then you need to link to a product category folder</sv:value>
-        </sv:property>
-        <sv:property sv:name="plugin.class" sv:type="String">
-          <sv:value>org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin</sv:value>
+        <sv:property sv:name="translator.id" sv:type="String">
+          <sv:value>${cluster.id}.translator</sv:value>
         </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.field</sv:value>
@@ -698,10 +711,6 @@
         <sv:node sv:name="cluster.options">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="nodetypes" sv:type="String" sv:multiple="true">
-            <sv:value>hippo:document</sv:value>
-            <sv:value>hippostd:folder</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
