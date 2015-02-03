@@ -1178,6 +1178,9 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:component</sv:value>
       </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>69a62e3a-cb9a-4424-a904-43e464127795</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:lastmodified" sv:type="Date">
         <sv:value>2015-01-21T09:07:15.548-05:00</sv:value>
       </sv:property>
@@ -1188,52 +1191,21 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:component</sv:value>
         </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5926f378-9bc1-49d3-9357-d1f7a86d4309</sv:value>
+        </sv:property>
         <sv:property sv:name="hst:componentclassname" sv:type="String">
           <sv:value>com.onehippo.gogreen.components.BaseComponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:template" sv:type="String">
           <sv:value>prototypedpages.vari-column</sv:value>
         </sv:property>
-        <sv:node sv:name="top">
+        <sv:node sv:name="left2">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:containercomponent</sv:value>
           </sv:property>
-          <sv:property sv:name="hst:lastmodified" sv:type="Date">
-            <sv:value>2015-01-21T09:44:18.379-05:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.vBox</sv:value>
-          </sv:property>
-          <sv:node sv:name="richtextsnippet">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hst:containeritemcomponent</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:componentclassname" sv:type="String">
-              <sv:value>com.onehippo.gogreen.components.common.RichTextSnippet</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:iconpath" sv:type="String">
-              <sv:value>images/catalog/component-richtextsnippet-30x30.png</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:label" sv:type="String">
-              <sv:value>Rich-text Snippet</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-              <sv:value>bannerlocation</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-              <sv:value>common/rich-text-snippets/season-sale</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:template" sv:type="String">
-              <sv:value>common.richtextsnippet</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:xtype" sv:type="String">
-              <sv:value>HST.Item</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="left1">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:containercomponent</sv:value>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>69ae4e44-79cd-4e85-8be1-c19e22c245ce</sv:value>
           </sv:property>
           <sv:property sv:name="hst:lastmodified" sv:type="Date">
             <sv:value>2015-01-21T13:37:24.459-05:00</sv:value>
@@ -1241,9 +1213,54 @@
           <sv:property sv:name="hst:xtype" sv:type="String">
             <sv:value>HST.vBox</sv:value>
           </sv:property>
+        </sv:node>
+        <sv:node sv:name="right2">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4aff63a6-5c76-4963-bb66-b836a5867b26</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:lastmodified" sv:type="Date">
+            <sv:value>2015-01-21T13:37:24.459-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.vBox</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="bottom">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>cc4d4c19-764f-441d-bd46-19884a64a26c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:lastmodified" sv:type="Date">
+            <sv:value>2015-01-21T13:37:24.459-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.vBox</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="left1">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d64477b6-e569-4f2a-8be2-d312f8b460b4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:lastmodified" sv:type="Date">
+            <sv:value>2015-02-02T10:39:50.174+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.vBox</sv:value>
+          </sv:property>
           <sv:node sv:name="bannercollection">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:containeritemcomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>ed06bb54-3241-496d-976f-1a7c03968a3e</sv:value>
             </sv:property>
             <sv:property sv:name="hst:componentclassname" sv:type="String">
               <sv:value>com.onehippo.gogreen.components.common.BannerCollection</sv:value>
@@ -1255,30 +1272,30 @@
               <sv:value>Banner Collection</sv:value>
             </sv:property>
             <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-              <sv:value>bannerBackground</sv:value>
-              <sv:value>banner4</sv:value>
-              <sv:value>bannerType</sv:value>
-              <sv:value>icon</sv:value>
-              <sv:value>separatorMargin</sv:value>
-              <sv:value>separatorBorderTop</sv:value>
               <sv:value>separatorBorderBottom</sv:value>
-              <sv:value>banner2</sv:value>
+              <sv:value>icon</sv:value>
               <sv:value>title</sv:value>
-              <sv:value>banner3</sv:value>
+              <sv:value>banner4</sv:value>
+              <sv:value>separatorBorderTop</sv:value>
+              <sv:value>bannerType</sv:value>
               <sv:value>banner1</sv:value>
+              <sv:value>banner2</sv:value>
+              <sv:value>separatorMargin</sv:value>
+              <sv:value>banner3</sv:value>
+              <sv:value>bannerBackground</sv:value>
             </sv:property>
             <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-              <sv:value>white</sv:value>
-              <sv:value/>
-              <sv:value>images</sv:value>
+              <sv:value>off</sv:value>
               <sv:value>fa-shopping-cart</sv:value>
-              <sv:value>20</sv:value>
-              <sv:value>off</sv:value>
-              <sv:value>off</sv:value>
-              <sv:value>common/banners/image-banners/office-category</sv:value>
               <sv:value>Sale categories</sv:value>
-              <sv:value>common/banners/image-banners/sports-category</sv:value>
+              <sv:value/>
+              <sv:value>off</sv:value>
+              <sv:value>images</sv:value>
               <sv:value>common/banners/image-banners/home-category</sv:value>
+              <sv:value>common/banners/image-banners/office-category</sv:value>
+              <sv:value>20</sv:value>
+              <sv:value>common/banners/image-banners/sports-category</sv:value>
+              <sv:value>white</sv:value>
             </sv:property>
             <sv:property sv:name="hst:template" sv:type="String">
               <sv:value>common.bannercollection</sv:value>
@@ -1290,6 +1307,9 @@
           <sv:node sv:name="featuredproducts">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:containeritemcomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>2698ec5c-16eb-4341-88aa-ac8d0ad01110</sv:value>
             </sv:property>
             <sv:property sv:name="hst:componentclassname" sv:type="String">
               <sv:value>com.onehippo.gogreen.components.products.FeaturedProducts</sv:value>
@@ -1330,12 +1350,58 @@
             </sv:property>
           </sv:node>
         </sv:node>
+        <sv:node sv:name="top">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>349352d7-c01c-4483-a6c2-54e35cdd10f5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:lastmodified" sv:type="Date">
+            <sv:value>2015-02-02T11:05:03.622+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.vBox</sv:value>
+          </sv:property>
+          <sv:node sv:name="richtextsnippet">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containeritemcomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>c47a6320-cf38-4d67-9881-dc4eb2c58c92</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentclassname" sv:type="String">
+              <sv:value>com.onehippo.gogreen.components.common.RichTextSnippet</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:iconpath" sv:type="String">
+              <sv:value>images/catalog/component-richtextsnippet-30x30.png</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:label" sv:type="String">
+              <sv:value>Rich-text Snippet</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+              <sv:value>bannerlocation</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+              <sv:value>common/rich-text-snippets/season-sale</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:template" sv:type="String">
+              <sv:value>common.richtextsnippet</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.Item</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
         <sv:node sv:name="right1">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:containercomponent</sv:value>
           </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>c6777080-4169-47c0-8799-366d88247cc6</sv:value>
+          </sv:property>
           <sv:property sv:name="hst:lastmodified" sv:type="Date">
-            <sv:value>2015-01-21T13:37:52.137-05:00</sv:value>
+            <sv:value>2015-02-02T11:10:49.592+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hst:xtype" sv:type="String">
             <sv:value>HST.vBox</sv:value>
@@ -1343,6 +1409,9 @@
           <sv:node sv:name="richtextsnippet1">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:containeritemcomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>094ce032-8be9-4d04-945e-5f9a395fffaf</sv:value>
             </sv:property>
             <sv:property sv:name="hst:componentclassname" sv:type="String">
               <sv:value>com.onehippo.gogreen.components.common.RichTextSnippet</sv:value>
@@ -1370,6 +1439,9 @@
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:containeritemcomponent</sv:value>
             </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>eabccf38-0de3-4e92-b247-5dc72b598450</sv:value>
+            </sv:property>
             <sv:property sv:name="hst:componentclassname" sv:type="String">
               <sv:value>com.onehippo.gogreen.components.common.Map</sv:value>
             </sv:property>
@@ -1394,39 +1466,6 @@
               <sv:value>HST.Item</sv:value>
             </sv:property>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="left2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:containercomponent</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:lastmodified" sv:type="Date">
-            <sv:value>2015-01-21T13:37:24.459-05:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.vBox</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="right2">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:containercomponent</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:lastmodified" sv:type="Date">
-            <sv:value>2015-01-21T13:37:24.459-05:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.vBox</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="bottom">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:containercomponent</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:lastmodified" sv:type="Date">
-            <sv:value>2015-01-21T13:37:24.459-05:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.vBox</sv:value>
-          </sv:property>
         </sv:node>
       </sv:node>
     </sv:node>
