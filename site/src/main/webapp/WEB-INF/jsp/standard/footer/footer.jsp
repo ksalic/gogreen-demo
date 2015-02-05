@@ -36,15 +36,14 @@
                     <div class="col-md-3 col-sm-3 footer-col">
                         <div class="footer-content">
                             <div class="footer-content-logo">
-                                <a href="http://www.onehippo.com">
+                                <a href="http://www.onehippo.com" target="_blank">
                                       <img src="<hst:link path="/images/logo-hippo.png"/>" alt="<fmt:message key="standard.footer.onehippo"/>"/>
                                 </a>
                             </div>
                             <div class="footer-content-text">
                                 <p><fmt:message key="layout.webpage.disclaimer">
-                                        <fmt:param><a href="http://www.onehippo.com/en/products/cms"></fmt:param>
-                                        <fmt:param><a href="http://www.onehippo.org/site-toolkit"></fmt:param>
-                                        <fmt:param><a href="https://issues.onehippo.com/browse/GOGREEN"></fmt:param>
+                                        <fmt:param><a href="http://www.onehippo.com/en/why-hippo-cms" target="_blank"></fmt:param>
+                                        <fmt:param><a href="https://issues.onehippo.com/browse/GOGREEN" target="_blank"></fmt:param>
                                         <fmt:param></a></fmt:param>
                                     </fmt:message>
                                 </p>
@@ -109,7 +108,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 center-text">
-                        <div class="copyright-text"><fmt:message key="standard.footer.copyright"/> | <hst:link var="termsLink" path="${termsPath}"/><a href="${termsLink}"><fmt:message key="standard.footer.termsandconditions"/></a></div>
+                        <div class="copyright-text"><fmt:message key="standard.footer.copyright"/> | <hst:link var="termsLink" path="${termsPath}" mount="site"/><a href="${termsLink}"><fmt:message key="standard.footer.termsandconditions"/></a></div>
                     </div>
 
                 </div>
