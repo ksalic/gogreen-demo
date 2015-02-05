@@ -47,7 +47,7 @@
         <sv:value>hst:pages/mobile-products-overview-recent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>productos</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="popular.ajax">
@@ -61,7 +61,7 @@
         <sv:value>hst:pages/mobile-ajax-products-overview-popular</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>productos</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="recent.ajax">
@@ -75,7 +75,7 @@
         <sv:value>hst:pages/mobile-ajax-products-overview-recent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>productos</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="popular">
@@ -89,7 +89,7 @@
         <sv:value>hst:pages/mobile-products-overview-popular</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>productos</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="search.ajax">
@@ -117,7 +117,7 @@
         <sv:value>hst:pages/mobile-products-search</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>productos</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
       <sv:node sv:name="_any_.ajax">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -130,7 +130,7 @@
           <sv:value>hst:pages/mobile-ajax-products-search</sv:value>
         </sv:property>
         <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-          <sv:value>productos/facetedproducts/${1}</sv:value>
+          <sv:value>products/facetedproducts/${1}</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="_any_">
@@ -144,7 +144,7 @@
           <sv:value>hst:pages/mobile-products-search</sv:value>
         </sv:property>
         <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-          <sv:value>productos/facetedproducts/${1}</sv:value>
+          <sv:value>products/facetedproducts/${1}</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -190,7 +190,7 @@
         <sv:value>hst:pages/mobile-events-overview-upcoming</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>eventos/facetedeventsmobile/Date/Upcoming</sv:value>
+        <sv:value>events/facetedeventsmobile/Date/Upcoming</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="past">
@@ -204,7 +204,7 @@
         <sv:value>hst:pages/mobile-events-overview-past</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>eventos/facetedeventsmobile/Date/Past</sv:value>
+        <sv:value>events/facetedeventsmobile/Date/Past</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="past.ajax">
@@ -218,7 +218,7 @@
         <sv:value>hst:pages/mobile-ajax-events-overview-past</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>eventos/facetedeventsmobile/Date/Past</sv:value>
+        <sv:value>events/facetedeventsmobile/Date/Past</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="upcoming.ajax">
@@ -232,7 +232,7 @@
         <sv:value>hst:pages/mobile-ajax-events-overview-upcoming</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>eventos/facetedeventsmobile/Date/Upcoming</sv:value>
+        <sv:value>events/facetedeventsmobile/Date/Upcoming</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="search.ajax">
@@ -246,7 +246,7 @@
         <sv:value>hst:pages/mobile-ajax-events-search</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>eventos</sv:value>
+        <sv:value>events</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="search">
@@ -260,7 +260,7 @@
         <sv:value>hst:pages/mobile-events-search</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>eventos</sv:value>
+        <sv:value>events</sv:value>
       </sv:property>
       <sv:node sv:name="_any_.ajax">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -273,7 +273,7 @@
           <sv:value>hst:pages/mobile-ajax-events-search</sv:value>
         </sv:property>
         <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-          <sv:value>eventos/facetedeventsmobile/${1}</sv:value>
+          <sv:value>events/facetedeventsmobile/${1}</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="_any_">
@@ -287,7 +287,7 @@
           <sv:value>hst:pages/mobile-events-search</sv:value>
         </sv:property>
         <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-          <sv:value>eventos/facetedeventsmobile/${1}</sv:value>
+          <sv:value>events/facetedeventsmobile/${1}</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -301,8 +301,11 @@
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
         <sv:value>hst:pages/events-layar</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:excludedforlinkrewriting" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>eventos</sv:value>
+        <sv:value>events</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
