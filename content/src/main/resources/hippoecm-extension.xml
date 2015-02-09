@@ -4466,4 +4466,15 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/content/documents/administration</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="deletenode-devPerspective">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31055</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentdelete" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-static/devPerspective</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
