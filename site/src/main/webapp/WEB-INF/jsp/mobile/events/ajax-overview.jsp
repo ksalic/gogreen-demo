@@ -19,7 +19,7 @@
 <%@include file="../../includes/tags.jspf" %>
 
 
-<c:set var="style">event-item<c:if test="${preview}"> editable</c:if></c:set>
+<c:set var="style">event-item</c:set>
 <c:forEach items="${docs.items}" var="item">
     <ul class="${style}">
         <li class="full-link"><a href="<hst:link hippobean="${item}"/>"></a></li>
@@ -33,6 +33,5 @@
             <img src="${fn:escapeXml(imageUrl)}" alt="Google Maps" />
         </a></li>
         <li class="title"><a href="<hst:link hippobean="${item}"/>"><c:out value="${item.title}"/></a></li>
-        <li><hst:cmseditlink hippobean="${item}" /></li>
     </ul>
 </c:forEach>

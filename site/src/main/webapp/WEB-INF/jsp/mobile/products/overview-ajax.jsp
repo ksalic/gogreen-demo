@@ -20,7 +20,7 @@
 
 <hst:include ref="boxes-top"/>
 
-<c:set var="style">product-item<c:if test="${preview}"> editable</c:if></c:set>
+<c:set var="style">product-item</c:set>
 <%--@elvariable id="docs" type="com.onehippo.gogreen.utils.PageableCollection"--%>
 <c:forEach items="${docs.items}" var="product">
     <hst:link var="prdlink" hippobean="${product}"/>
@@ -40,9 +40,6 @@
             </c:otherwise>
         </c:choose>
         <li class="title"><a href="${prdlink}"><c:out value="${product.title}"/></a></li>
-        <c:if test="${preview}">
-          <li><hst:cmseditlink hippobean="${product}" /></li>
-        </c:if>
         <li class="price"><span><fmt:formatNumber value="${product.price}" type="currency"/></span>|</li>
         <fmt:formatNumber value="${product.rating * 10}" var="ratingStyle" pattern="#0" />
         <li class="rating stars-${ratingStyle}"><span><c:out value="${product.rating}"/></span></li>

@@ -29,7 +29,7 @@
         <div id="events" class="results">
 
             <hst:include ref="boxes-top"/>
-            <c:set var="style">event-item<c:if test="${preview}"> editable</c:if></c:set>
+            <c:set var="style">event-item</c:set>
             <c:forEach items="${docs.items}" var="item">
 
                 <ul class="${style}">
@@ -45,9 +45,6 @@
                         <img src="${fn:escapeXml(imageUrl)}" alt="Google Maps"/>
                     </a></li>
                     <li class="title"><a href="<hst:link hippobean="${item}"/>"><c:out value="${item.title}"/></a></li>
-                    <c:if test="${preview}">
-                      <li><hst:cmseditlink hippobean="${item}" /></li>
-                    </c:if>
                 </ul>
             </c:forEach>
 

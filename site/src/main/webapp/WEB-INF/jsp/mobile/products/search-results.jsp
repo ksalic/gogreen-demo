@@ -22,15 +22,12 @@
 <div id="content">
     <div id="products" class="results">
 
-            <c:set var="style">product-item<c:if test="${preview}"> editable</c:if></c:set>
+            <c:set var="style">product-item</c:set>
             <%--@elvariable id="docs" type="com.onehippo.gogreen.utils.PageableCollection"--%>
             <c:forEach items="${docs.items}" var="product"  varStatus="status">
                 <hst:link var="prdlink" hippobean="${product}"/>
                 <ul class="${style}">
                     <li class="full-link"><a href="${fn:escapeXml(prdlink)}"></a></li>
-                    <c:if test="${preview}">
-                      <li><hst:cmseditlink hippobean="${product}" /></li>
-                    </c:if>
                     <c:choose>
                         <c:when test="${not empty product.firstImage and not empty product.firstImage.mobileThumbnail}">
                             <hst:link var="thumbnail" hippobean="${product.firstImage.mobileThumbnail}"/>
