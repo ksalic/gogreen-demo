@@ -22,7 +22,7 @@
     <div class="sidebar-content tags blog-search">
         <hst:link var="searchLink" hippobean="${facetnav}"/>
         <c:set var="formId"><hst:namespace/>facetnavsearch</c:set>
-        <form id="${formId}" action="${searchLink}" method="post" onsubmit="sanitizeRequestParam(document.forms['${formId}']['query'])">
+        <form id="${formId}" action="${searchLink}" method="get" onsubmit="sanitizeRequestParam(document.forms['${formId}']['query'])">
             <div class="input-group">
                 <input type="text" value="${query}" name="query" class="form-control blog-search-input text-input" placeholder="<fmt:message key="news.overview.facetnav.submit.label"/>...">
                 <span class="input-group-addon">
