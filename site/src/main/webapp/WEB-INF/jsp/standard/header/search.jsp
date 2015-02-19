@@ -35,24 +35,4 @@
             <input type="submit" class="searchbox-submit" value="${searchText}"/>
         </form>
     </div>
-    <div class="social-icons">
-        <ul>
-            <li>
-                <a href="#" target="_blank" class="social-media-icon facebook-icon" data-original-title="facebook">facebook</a>
-            </li>
-            <li>
-                <a href="#" target="_blank" class="social-media-icon twitter-icon" data-original-title="twitter">twitter</a>
-            </li>
-            <li>
-                <a href="#" target="_blank" class="social-media-icon googleplus-icon" data-original-title="googleplus">googleplus</a>
-            </li>
-            <li>
-                <a href="#" target="_blank" class="social-media-icon pininterest-icon" data-original-title="pininterest">pininterest</a>
-            </li>
-            <li>
-                <a href="#" target="_blank" class="social-media-icon dribble-icon" data-original-title="dribble">dribble</a>
-            </li>
-        </ul>
-
-    </div>
 </div>
