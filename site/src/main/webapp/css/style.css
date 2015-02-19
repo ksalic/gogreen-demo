@@ -4041,11 +4041,11 @@ a.portfolio-zoom icon-resize-full:hover {
 }
 
 .img-overlay img {
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 .img-overlay:hover img {
@@ -4221,6 +4221,7 @@ Pagination
     margin-bottom: 20px;
     overflow: hidden;
     text-align: center;
+    min-width: 100px; /* fix for pagination visible on products page, before isotope is loaded */
 }
 
 .pagination > li > a, .pagination > li > span {

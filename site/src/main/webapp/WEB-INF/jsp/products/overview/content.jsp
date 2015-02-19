@@ -47,12 +47,6 @@
                     <div class="item_img_overlay_link">
                       <a href="${link}" title="${product.title}"> </a>
                     </div>
-                    <div class="item_img_overlay_content">
-                        <h3 class="thumb-label-item-title">
-                            <%-- TODO: use label --%>
-                            <a href="${link}">Add to cart</a>
-                        </h3>
-                    </div>
                 </div>
             </div>
         </c:if>
