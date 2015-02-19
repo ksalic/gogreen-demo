@@ -254,7 +254,7 @@
         &#13;
         &lt;!--[if lt IE 9]&gt;&#13;
         &lt;@hst.link var="js_ie_fixes" path="/js/ie-fixes.js"/&gt;&#13;
-        &lt;script type="text/javascript" src="${js_ie_fixes}"&lt;/script&gt;&#13;
+        &lt;script type="text/javascript" src="${js_ie_fixes}"&gt;&lt;/script&gt;&#13;
         &lt;@hst.link var="css_ie_fixes" path="/css/ie-fixes.css"/&gt;&#13;
         &lt;link rel="stylesheet" href="${css_ie_fixes}"&gt;&#13;
         &lt;![endif]--&gt;&#13;

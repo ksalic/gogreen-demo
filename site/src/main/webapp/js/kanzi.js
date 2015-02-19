@@ -199,9 +199,6 @@ jQuery(document).ready(function($) {
         }
     });
 
-    /* to top button */
-    $('body').append('<div id="to-top-button"> <i class="fa fa-angle-up"></i> </div>');
-
 
     $('#to-top-button').click(function() {
         $('body,html').animate({
@@ -612,6 +609,8 @@ function zeinaAccordion(selector) {
 
 /* Sticky Menu */
 function stickyMenu() {
+    /* to top button */
+    $('body').append('<div id="to-top-button"> <i class="fa fa-angle-up"></i> </div>');
 
     $(window).scroll(function() {
         if ($(window).scrollTop() > 35) {
