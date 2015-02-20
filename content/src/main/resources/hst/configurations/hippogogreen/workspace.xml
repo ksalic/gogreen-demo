@@ -1016,6 +1016,20 @@
           <sv:value>products</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="Sale">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>subname</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value></sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+          <sv:value>sale</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="About">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
@@ -1125,14 +1139,6 @@
           <sv:value>news</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="Events">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:sitemenuitem</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-          <sv:value>events</sv:value>
-        </sv:property>
-      </sv:node>
       <sv:node sv:name="Blogs">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
@@ -1141,12 +1147,28 @@
           <sv:value>blogs</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="Events">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+          <sv:value>events</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="Products">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:sitemenuitem</sv:value>
         </sv:property>
         <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
           <sv:value>products</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Sale">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+          <sv:value>sale</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="About">
