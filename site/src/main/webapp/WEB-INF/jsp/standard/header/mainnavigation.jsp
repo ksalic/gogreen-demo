@@ -110,8 +110,9 @@
   <ul class="mobile-nav">
     <li class="responsive-searchbox">
       <!-- Responsive Nave -->
-      <form action="#" method="get">
-        <input type="text" class="searchbox-inputtext" id="searchbox-inputtext-mobile" name="s" />
+      <hst:link siteMapItemRefId="search" var="doSearch" />
+      <form action="${doSearch}" method="get">
+        <input type="text" class="searchbox-inputtext" id="searchbox-inputtext-mobile" name="query" />
         <button class="icon-search"></button>
       </form>
       <!-- //Responsive Nave// -->
