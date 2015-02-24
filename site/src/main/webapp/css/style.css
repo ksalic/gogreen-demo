@@ -1842,7 +1842,7 @@ Blog Single
 Boxed
 ****************************/
 .boxed {
-    width: 1070px;
+
     margin: auto;
 }
 
@@ -4709,12 +4709,16 @@ Revolution Slider Container
     width: 100%;
     position: relative;
     padding: 0;
-    max-height: 500px;
+    max-height: 250px;
     overflow: hidden;
     visibility: hidden;
     left: 0;
     top: 0;
     clear: both;
+}
+
+.rev-slider-full .slotholder, .rev-slider-full li{
+    max-height: 250px;
 }
 
 .rev-slider-full .button.btn-flat, .rev-slider-fixed .button.btn-flat {
@@ -6692,12 +6696,12 @@ Testimonial
     min-height: 150px;
 }
 
-@media (min-width: 1070px) {
+@media (min-width: 960px) {
     .boxed .rev-slider-banner-full{
-        min-height: 457px;
+        min-height: 250px;
     }
     .rev-slider-banner-full{
-        min-height: 400px;
+        min-height: 250px;
     }
 }
 

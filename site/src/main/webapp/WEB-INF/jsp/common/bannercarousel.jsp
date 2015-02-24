@@ -18,7 +18,7 @@
 
 <c:if test="${not empty banners}">
   <div class="rev-slider-full">
-    <div class="rev-slider-banner-full  rev-slider-full">
+    <div class="rev-slider-banner-full rev-slider-full">
       <ul>
         <c:forEach items="${banners}" var="banner" varStatus="index">
           <%--@elvariable id="banner" type="com.onehippo.gogreen.beans.Banner"--%>
@@ -26,10 +26,10 @@
             <img src="<hst:link hippobean="${banner.image.original}"/>"  alt="rev-full1" data-fullwidthcentering="on">
             <hst:cmseditlink hippobean="${banner}" />
 
-            <div class="tp-caption big_white large_text sft" data-x="20" data-y="300" data-start="0" data-easing="easeOutBack" >
+            <div class="tp-caption big_white large_text sft" data-x="38" data-y="72" data-start="0" data-easing="easeOutBack" >
               <c:out value="${banner.title}"/>
             </div>
-            <div class="tp-caption revolution-subtext sfb" data-x="20" data-y="366" data-start="0" data-easing="easeOutBack" >
+            <div class="tp-caption revolution-subtext sfb" data-x="38" data-y="136" data-start="0" data-easing="easeOutBack" >
               <c:out value="${banner.text}"/>
             </div>
             <div>
