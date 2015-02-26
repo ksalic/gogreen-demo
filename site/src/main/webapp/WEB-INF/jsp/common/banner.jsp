@@ -75,7 +75,7 @@
 
                         <div class="col-md-6 col-sm-6 animated fadeInRightBig animatedVisi" data-animtype="fadeInRightBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
                             <div class="right-image-container">
-                                <img src="<hst:link hippobean="${document.image.banner}"/>" alt="<fmt:message key="document.image.alt"/>" />
+                                <img src="<hst:link hippobean="${document.image.banner}"/>" alt="" />
                             </div>
                         </div>
                     </c:when>
