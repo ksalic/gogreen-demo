@@ -47,15 +47,16 @@
         <c:if test="${not empty document.images}">
             <div class="blog-post-featured-img img-overlay">
                 <div class="cycle-slideshow frame1" data-cycle-slides="> .slider-img" data-cycle-swipe="true" data-cycle-prev=".cycle-prev" data-cycle-next=".cycle-next" data-cycle-overlay-fx-out="slideUp" data-cycle-overlay-fx-in="slideDown" data-cycle-timeout="0">
-                    <div class="fa fa-chevron-right cycle-next"></div>
-                    <div class="fa fa-chevron-left cycle-prev"></div>
-                    <div class="cycle-pager"></div>
-
+                    <c:if test="${fn:length(document.images) > 1}">
+                      <div class="fa fa-chevron-right cycle-next"></div>
+                      <div class="fa fa-chevron-left cycle-prev"></div>
+                      <div class="cycle-pager"></div>
+                    </c:if>
                     <c:forEach items="${document.images}" var="productImage">
                         <div class="slider-img">
                             <img src="<hst:link hippobean="${productImage.largeThumbnail}"/>" alt="${fn:escapeXml(productImage.alt)}">
                             <div class="item-img-overlay">
-                                <a class="portfolio-zoom icon-zoom" href="<hst:link hippobean="${document.firstImage.original}"/>" data-rel="prettyPhoto[portfolio]" title="${document.title}"></a>
+                                <a class="portfolio-zoom icon-zoom" href="<hst:link hippobean="${productImage.original}"/>" data-rel="prettyPhoto[portfolio]" title="${document.title}"></a>
                             </div>
                         </div>
                     </c:forEach>

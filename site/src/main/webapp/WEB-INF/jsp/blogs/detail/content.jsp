@@ -36,15 +36,6 @@
 
                 <div class="item-img-overlay">
                     <a class="portfolio-zoom icon-zoom-in" href="${imgOrig}" data-rel="prettyPhoto[portfolio]" title="${fn:escapeXml(image.alt)}"></a>
-                    <div class="item_img_overlay_content">
-                        <div class="blog-post-details-item blog-post-details-item-left share-article">
-                            <span>Share It On</span>
-                            <a href="#" class="icon-facebook"></a>
-                            <a href="#" class="icon-twitter-alt"></a>
-                            <a href="#" class="icon-google"></a>
-                            <a href="#" class="icon-email-mail-streamline"></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </c:if>
