@@ -4010,7 +4010,7 @@ naturally when you present our targeted and unique brand of foliage products.
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>189</sv:value>
+      <sv:value>139</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>c3b1c420-84cb-4e65-bbeb-b43a29a5a9d7</sv:value>
@@ -14971,6 +14971,40 @@ minute squeezing gives 6-8 minutes shine time.&lt;/p&gt;
       </sv:property>
       <sv:property sv:name="hippo:message" sv:type="String">
         <sv:value>School &amp; College</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="solar">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a4678848-c945-4f25-9ce9-c9610aa0c283</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-product-folder</sv:value>
+      <sv:value>new-product</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>c5863d6c-9f24-45a9-a91b-4d87972e0a15</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Solar</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
