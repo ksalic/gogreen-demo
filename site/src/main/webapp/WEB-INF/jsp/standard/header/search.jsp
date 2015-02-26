@@ -35,4 +35,15 @@
             <input type="submit" class="searchbox-submit" value="${searchText}"/>
         </form>
     </div>
+
+  <hst:setBundle basename="social.links"/>
+  <div class="social-icons">
+    <ul>
+      <li>
+        <a href="<fmt:message key="facebook.url" />" target="_blank" class="social-media-icon facebook-icon" data-original-title="facebook">facebook</a>
+      </li>
+      <li>
+        <a href="<fmt:message key="twitter.url" />" target="_blank" class="social-media-icon twitter-icon" data-original-title="twitter">twitter</a>
+      </li>
+  </div>
 </div>
