@@ -10451,8 +10451,8 @@
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
-      <sv:value>hippo:translated</sv:value>
       <sv:value>mix:versionable</sv:value>
+      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>5f68ce1d-c2f0-4fab-9f32-e27b75a0053f</sv:value>
@@ -10503,7 +10503,7 @@
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---student/season-sale---student[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---student/season-sale---student[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>unpublished</sv:value>
@@ -10574,8 +10574,8 @@
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---student/season-sale---student[3]</sv:value>
-          <sv:value>season-sale---student/season-sale---student</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---student/season-sale---student[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---student/season-sale---student</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -10637,7 +10637,7 @@
           <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---student/season-sale---student</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---student/season-sale---student</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>
@@ -10714,7 +10714,7 @@
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---business-owner/season-sale---business-owner[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---business-owner/season-sale---business-owner[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>unpublished</sv:value>
@@ -10785,8 +10785,8 @@
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---business-owner/season-sale---business-owner</sv:value>
-          <sv:value>season-sale---business-owner/season-sale---business-owner[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---business-owner/season-sale---business-owner</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---business-owner/season-sale---business-owner[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -10848,7 +10848,7 @@
           <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---business-owner/season-sale---business-owner</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---business-owner/season-sale---business-owner</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>
@@ -10925,7 +10925,7 @@
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---family/season-sale---family[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---family/season-sale---family[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>unpublished</sv:value>
@@ -10996,8 +10996,8 @@
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---family/season-sale---family[3]</sv:value>
-          <sv:value>season-sale---family/season-sale---family</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---family/season-sale---family[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---family/season-sale---family</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -11059,7 +11059,7 @@
           <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale---family/season-sale---family</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale---family/season-sale---family</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>
@@ -11115,7 +11115,7 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
         <sv:value>hippo:translated</sv:value>
       </sv:property>
@@ -11126,16 +11126,16 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:richtextsnippet</sv:value>
         </sv:property>
-        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>eba8903e-fb38-48b9-a0f4-0753b4ce3797</sv:value>
         </sv:property>
-        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale/season-sale[2]</sv:value>
-          <sv:value>season-sale/season-sale[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale/season-sale[2]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale/season-sale[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -11150,7 +11150,7 @@
           <sv:value>2015-01-02T12:48:42.717-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-02-02T11:05:33.452+01:00</sv:value>
+          <sv:value>2015-02-26T09:47:21.431+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -11166,21 +11166,10 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping_small.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
-              &lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt;
-              &lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
+            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping_small.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt; 
+&lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt; 
+&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
           </sv:property>
-          <sv:node sv:name="online_shopping.jpg">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:facetselect</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>7d5c2ba1-4b4c-401b-9cd0-f4f851bcb0a9</sv:value>
-            </sv:property>
-            <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
-          </sv:node>
           <sv:node sv:name="online_shopping_small.jpg">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:facetselect</sv:value>
@@ -11188,9 +11177,9 @@
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>9aa4d5a1-8bbd-47b5-80bb-877e2ceb4be3</sv:value>
             </sv:property>
-            <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
       </sv:node>
@@ -11209,17 +11198,17 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:richtextsnippet</sv:value>
         </sv:property>
-        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>9a4bcae4-fba5-4e81-b4a2-ede35448f31d</sv:value>
         </sv:property>
-        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale/season-sale[3]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale/season-sale[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>unpublished</sv:value>
@@ -11234,7 +11223,7 @@
           <sv:value>2015-01-02T12:48:42.717-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-02-02T11:05:44.653+01:00</sv:value>
+          <sv:value>2015-02-26T09:47:39.049+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -11250,21 +11239,10 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:largethumbnail" /&gt;&lt;/p&gt;
-              &lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt;
-              &lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
+            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping_small.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt; 
+&lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt; 
+&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
           </sv:property>
-          <sv:node sv:name="online_shopping.jpg">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:facetselect</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>7d5c2ba1-4b4c-401b-9cd0-f4f851bcb0a9</sv:value>
-            </sv:property>
-            <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
-          </sv:node>
           <sv:node sv:name="online_shopping_small.jpg">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:facetselect</sv:value>
@@ -11272,9 +11250,9 @@
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>9aa4d5a1-8bbd-47b5-80bb-877e2ceb4be3</sv:value>
             </sv:property>
-            <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
       </sv:node>
@@ -11282,17 +11260,17 @@
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:richtextsnippet</sv:value>
         </sv:property>
-        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e4fd7112-c173-4b00-9e4b-2ff2918c4f24</sv:value>
         </sv:property>
-        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>season-sale/season-sale[2]</sv:value>
+          <sv:value>common/rich-text-snippets/season-sale/season-sale[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>
@@ -11307,13 +11285,13 @@
           <sv:value>2015-01-02T12:48:42.717-05:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-02-02T11:05:44.653+01:00</sv:value>
+          <sv:value>2015-02-26T09:47:39.049+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-02-02T11:05:49.095+01:00</sv:value>
+          <sv:value>2015-02-26T09:47:42.945+01:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>1c7e5570-0004-444e-aa12-54c3f5dc892f</sv:value>
@@ -11326,21 +11304,10 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping.jpg/{_document}/hippogogreengallery:largethumbnail" /&gt;&lt;/p&gt;
-              &lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt;
-              &lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
+            <sv:value>&lt;p&gt;&lt;img align="left" src="online_shopping_small.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt; 
+&lt;h1&gt;&lt;strong&gt;Season Sale&lt;/strong&gt;&lt;/h1&gt; 
+&lt;h3 style="text-align:justify"&gt;The largest season sale of the year will start next week!&amp;nbsp;Discounts can go up as high&amp;nbsp;as 50%!&amp;nbsp;Make&amp;nbsp;sure to drop by a&amp;nbsp;Gogreen store near you before products run out. Find a local store near you using our store locator or browse through our online catalog and get products shipped directly to your home.&lt;/h3&gt;</sv:value>
           </sv:property>
-          <sv:node sv:name="online_shopping.jpg">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:facetselect</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>7d5c2ba1-4b4c-401b-9cd0-f4f851bcb0a9</sv:value>
-            </sv:property>
-            <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
-          </sv:node>
           <sv:node sv:name="online_shopping_small.jpg">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:facetselect</sv:value>
@@ -11348,9 +11315,9 @@
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>9aa4d5a1-8bbd-47b5-80bb-877e2ceb4be3</sv:value>
             </sv:property>
-            <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
-            <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
       </sv:node>
