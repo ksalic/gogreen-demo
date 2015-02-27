@@ -75,14 +75,38 @@
           <sv:value>homepage/home-top</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="home-main">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:containercomponentreference</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:referencecomponent" sv:type="String">
-          <sv:value>homepage/home-main</sv:value>
-        </sv:property>
-      </sv:node>
+      <sv:node sv:name="home-main-left1">
+	    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+	      <sv:value>hst:containercomponentreference</sv:value>
+	    </sv:property>
+	    <sv:property sv:name="hst:referencecomponent" sv:type="String">
+	      <sv:value>homepage/home-main-left1</sv:value>
+	    </sv:property>
+	  </sv:node>
+	  <sv:node sv:name="home-main-right1">
+	    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+	      <sv:value>hst:containercomponentreference</sv:value>
+	    </sv:property>
+	    <sv:property sv:name="hst:referencecomponent" sv:type="String">
+	      <sv:value>homepage/home-main-right1</sv:value>
+	    </sv:property>
+	  </sv:node>
+	  <sv:node sv:name="home-main-top">
+	    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+	      <sv:value>hst:containercomponentreference</sv:value>
+	    </sv:property>
+	    <sv:property sv:name="hst:referencecomponent" sv:type="String">
+	      <sv:value>homepage/home-main-top</sv:value>
+	    </sv:property>
+	  </sv:node>
+	  <sv:node sv:name="home-main-bottom">
+	    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+	      <sv:value>hst:containercomponentreference</sv:value>
+	    </sv:property>
+	    <sv:property sv:name="hst:referencecomponent" sv:type="String">
+	      <sv:value>homepage/home-main-bottom</sv:value>
+	    </sv:property>
+	  </sv:node>
       <sv:node sv:name="home-bottom">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:containercomponentreference</sv:value>

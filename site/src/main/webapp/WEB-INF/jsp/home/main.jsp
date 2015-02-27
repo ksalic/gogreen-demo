@@ -30,11 +30,26 @@
   </div>
 </div>
 
-<div class="content-wrapper hide-until-loading home">
+<div class="content-wrapper hide-until-loading no-container home">
   <div class="body-wrapper">
-
+    <div class="container">
+	    <div class="row">
+	      <div class="col-md-12 col-sm-12">
+	        <hst:include ref="home-main-top"/>
+	      </div>
+	    </div>
+    
+	    <div class="row">
+	      <div class="col-md-9 col-sm-9">
+	        <hst:include ref="home-main-left1"/>
+	      </div>
+	      <div class="col-md-3 col-sm-3">
+	        <hst:include ref="home-main-right1"/>
+	      </div>
+	    </div>
+    </div>
     <!-- intro -->
-    <hst:include ref="home-main"/>
+    <hst:include ref="home-main-bottom"/>
 
     <!-- latest items -->
     <div class="section-content section-px white-text">
