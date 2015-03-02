@@ -14,12 +14,13 @@
   limitations under the License.
 --%>
 <%@include file="../includes/tags.jspf" %>
+<hst:setBundle basename="general.text"/>
 
 <div class="map-comp">
   <div class="map-search form-wrapper">
 
     <div class="textfield">
-      <input type="text" name="store_address" class="store-address" placeholder="Enter your address..."/>
+      <input type="text" name="store_address" class="store-address" placeholder="<fmt:message key="map.address.placeholder" />"/>
     </div>
     <div class="button">
       <i class="map-search-button btn btn-sm btn-default fa fa-search"></i>

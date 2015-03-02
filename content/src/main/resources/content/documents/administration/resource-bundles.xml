@@ -3,8 +3,8 @@
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>hippo:translated</sv:value>
     <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>b2a0ad7e-8280-469d-ac26-0d27ea57a167</sv:value>
@@ -449,6 +449,215 @@
       <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>https://www.facebook.com/hippocms</sv:value>
         <sv:value>https://twitter.com/onehippo</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="general">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9d31718c-26dc-4962-b2f2-004dbe67deb9</sv:value>
+    </sv:property>
+    <sv:node sv:name="general">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>367d8387-e1dc-4381-9100-e0f27e7049e8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resource-bundles/general/general[3]</sv:value>
+        <sv:value>resource-bundles/general/general[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-02T11:08:47.845+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-02T11:08:47.964+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>346c08d9-5962-49ad-88a2-9644262a39c3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>general.text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>map.address.placeholder</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>Enter your address...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
+        <sv:value>Ihre Adresse...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+        <sv:value>Entrez votre adresse...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>Voer je adres in...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+        <sv:value>输入您的地址</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="general">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c3541690-180c-46fc-8c29-5999cbea7a91</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resource-bundles/general/general[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-02T11:08:47.845+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-02T11:12:53.044+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>346c08d9-5962-49ad-88a2-9644262a39c3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>general.text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>map.address.placeholder</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>Enter your address...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
+        <sv:value>Ihre Adresse...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+        <sv:value>Entrez votre adresse...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>Voer je adres in...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+        <sv:value>输入您的地址</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="general">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5ce7eddb-fd1a-4b89-b76c-c4598748a906</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resource-bundles/general/general[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-02T11:08:47.845+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-02T11:12:53.044+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-02T11:12:54.585+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>346c08d9-5962-49ad-88a2-9644262a39c3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>general.text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>map.address.placeholder</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>Enter your address...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
+        <sv:value>Ihre Adresse...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+        <sv:value>Entrez votre adresse...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>Voer je adres in...</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+        <sv:value>输入您的地址</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
