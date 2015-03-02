@@ -3,8 +3,8 @@
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:versionable</sv:value>
     <sv:value>hippo:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>b2a0ad7e-8280-469d-ac26-0d27ea57a167</sv:value>
@@ -63,7 +63,7 @@
         <sv:value>2015-01-27T17:13:39.678+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-01-27T17:18:44.192+01:00</sv:value>
+        <sv:value>2015-03-02T10:20:26.901+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -92,6 +92,14 @@
       <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>producten</sv:value>
+        <sv:value>Categorie</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+        <sv:value>产品</sv:value>
+        <sv:value>查看产品</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="hippo:translation">
@@ -165,6 +173,14 @@
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
       </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>producten</sv:value>
+        <sv:value>Categorie</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+        <sv:value>产品</sv:value>
+        <sv:value>查看产品</sv:value>
+      </sv:property>
     </sv:node>
     <sv:node sv:name="products-facet">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -224,9 +240,21 @@
         <sv:value>products</sv:value>
         <sv:value>Category</sv:value>
       </sv:property>
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
+        <sv:value>produkte</sv:value>
+        <sv:value>Kategorie</sv:value>
+      </sv:property>
       <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>producten</sv:value>
+        <sv:value>Categorie</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+        <sv:value>产品</sv:value>
+        <sv:value>查看产品</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
