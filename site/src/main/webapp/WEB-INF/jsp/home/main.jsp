@@ -47,6 +47,14 @@
 	        <hst:include ref="home-main-right1"/>
 	      </div>
 	    </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3">
+          <hst:include ref="home-main-left2"/>
+        </div>
+        <div class="col-md-9 col-sm-9">
+          <hst:include ref="home-main-right2"/>
+        </div>
+      </div>
     </div>
     <!-- intro -->
     <hst:include ref="home-main-bottom"/>
