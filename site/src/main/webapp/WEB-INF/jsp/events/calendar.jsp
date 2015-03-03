@@ -97,7 +97,7 @@
                                     <hst:link var="eventLink" hippobean="${event}" />
                                     <div class="posts-list-thumbnail">
                                         <a href="${eventLink}">
-                                            <img src="<hst:link hippobean="${doc.firstImage.smallThumbnail}"/>" alt="${doc.firstImage.alt}" class="img-responsive" width="54"/>
+                                            <img src="<hst:link hippobean="${event.firstImage.smallThumbnail}"/>" alt="${doc.firstImage.alt}" class="img-responsive" width="54"/>
                                         </a>
                                     </div>
                                     <div class="posts-list-content">
@@ -120,21 +120,16 @@
     // Show calendar items on hover
     $(".calendar .event a").hover(function() {
         var day = $(this).attr('rel');
-        $(".calendar-item.day-" + day).clearQueue();
-        $(".calendar-item.day-" + day).finish();
-        $(".calendar-item.day-" + day).slideDown("slow");
-        //$(".calendar-item.day-" + day).show();
-    }, function() {
-        var day = $(this).attr('rel');
-        if(!$(".calendar-item.day-" + day).hasClass('on')) {
-            $(".calendar-item.day-" + day).delay(1200).animate({ height: 'toggle', opacity: 'toggle' }, 'slow');
+        var $events = $(".calendar-item.day-" + day);
+        if($events.length > 0 && !$events.hasClass('visible')){
+          $(".calendar-item").hide().removeClass('visible');
+          $events.fadeIn();
+          $events.addClass('visible');
         }
     });
 
     // Toggle calendar items on click
     $(".calendar .event a").click(function() {
         event.preventDefault();
-        var day = $(this).attr('rel');
-        $(".calendar-item.day-" + day).toggleClass('on');
     });
 </script>
