@@ -288,9 +288,6 @@
         &lt;@hst.include ref="footer"/&gt;&#13;
         &lt;/div&gt;&#13;
         &#13;
-        &lt;@hst.link var="jscommon" path="/js/js-common.js"/&gt;&#13;
-        &lt;script src="${jscommon}" type="text/javascript"&gt;&lt;/script&gt;&#13;
-        &#13;
         &lt;@hst.headContributions categoryIncludes="jsExternal"/&gt;&#13;
         &lt;@hst.headContributions categoryIncludes="jsInternal"/&gt;&#13;
         &lt;#if !preview&gt;&#13;
@@ -455,9 +452,6 @@
         &lt;@fmt.param&gt;&lt;/a&gt;&lt;/@fmt.param&gt;&#13;
         &lt;/@fmt.message&gt;&#13;
         &lt;/div&gt;&#13;
-        &#13;
-        &lt;@hst.link var="jscommon" path="/js/js-common.js"/&gt;&#13;
-        &lt;script src="${jscommon}" type="text/javascript"&gt;&lt;/script&gt;&#13;
         &#13;
         &lt;@hst.headContributions categoryIncludes="jsExternal"/&gt;&#13;
         &lt;@hst.headContributions categoryIncludes="jsInternal"/&gt;&#13;
