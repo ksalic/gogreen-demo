@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <div class="page-info">
-            <hst:include ref="top"/>
+
           </div>
         </div>
       </div>
@@ -36,18 +36,24 @@
 
   <div class="body-wrapper">
     <div class="container">
-      <c:if test="${document ne null}">
-        <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-9">
+          <c:if test="${document ne null}">
+            <hst:cmseditlink hippobean="${document}" />
+            <h2 ><c:out value="${document.title}"/></h2>
 
-          <hst:cmseditlink hippobean="${document}" />
-          <h2 ><c:out value="${document.title}"/></h2>
+            <p><c:out value="${document.summary}"/></p>
+            <p><hst:html hippohtml="${document.description}"/></p>
 
-          <p><c:out value="${document.summary}"/></p>
-          <p><hst:html hippohtml="${document.description}"/></p>
-
-          <hippo-gogreen:title title="${document.title}"/>
+            <hippo-gogreen:title title="${document.title}"/>
+          </c:if>
         </div>
-      </c:if>
+        <div class="col-md-3 col-sm-3">
+          <hst:include ref="right"/>
+        </div>
+      </div>
+
+      <hst:include ref="bottom"/>
   </div>
 </div>
 
