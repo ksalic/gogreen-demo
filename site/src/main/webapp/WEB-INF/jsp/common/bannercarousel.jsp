@@ -46,3 +46,19 @@
 <c:if test="${empty banners and preview}">
   <h2 class="not-configured">Click to configure banner carousel</h2>
 </c:if>
+
+<c:if test="${preview}">
+  <script>
+    // show slider again if component is reloaded in channel manager
+    $(document).ready(function(){
+      window.setTimeout(function(){
+        // only call slider initialization if it is not yet initialised
+        var $slider = $('.rev-slider-banner-full').not('.revslider-initialised');
+        if($slider.length > 0){
+          initializeSlider($slider);
+        }
+      }, 100)
+
+    })
+  </script>
+</c:if>
