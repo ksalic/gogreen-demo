@@ -19,7 +19,7 @@
 <%@include file="../../includes/tags.jspf" %>
 
 <h1 class="h1-page-title">
-    <fmt:message key="blogs.overview.content.title"/>
+  <a href="<hst:link siteMapItemRefId="blogs"/>"><fmt:message key="blogs.overview.content.title"/></a>
 </h1>
 
 <h2 class="h2-page-desc">
@@ -31,6 +31,6 @@
         <li>
             <a href="<hst:link siteMapItemRefId="home"/>"><fmt:message key="blogs.overview.content.location.home"/></a>
         </li>
-        <li class="active"><fmt:message key="blogs.overview.content.title"/></li>
+        <li class="active"><a href="<hst:link siteMapItemRefId="blogs"/>"><fmt:message key="blogs.overview.content.title"/></a></li>
     </ol>
 </div>

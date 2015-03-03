@@ -18,8 +18,9 @@
 
 <%@include file="../../includes/tags.jspf" %>
 
+<hst:link var="events" siteMapItemRefId="events" />
 <h1 class="h1-page-title">
-    <fmt:message key="events.overview.title"/>
+  <a href="${events}"><fmt:message key="events.overview.title"/></a>
 </h1>
 
 <h2 class="h2-page-desc">
@@ -29,8 +30,8 @@
 <div class="breadcrumb-container">
     <ol class="breadcrumb">
         <li>
-            <a href="<hst:link siteMapItemRefId="home"/>">Home</a>
+            <a href="<hst:link siteMapItemRefId="home"/>"><fmt:message key="events.overview.location.home"/></a>
         </li>
-        <li class="active"><fmt:message key="events.latest.label"/></li>
+        <li class="active"><a href="${events}"><fmt:message key="events.latest.label"/></a></li>
     </ol>
 </div>

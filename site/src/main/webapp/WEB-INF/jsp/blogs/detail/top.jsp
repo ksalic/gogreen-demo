@@ -19,7 +19,7 @@
 <%@include file="../../includes/tags.jspf" %>
 
 <h1 class="h1-page-title">
-    <a href="<hst:link siteMapItemRefId="blogs"/>">Blogs</a>
+    <a href="<hst:link siteMapItemRefId="blogs"/>"><fmt:message key="blogs.overview.content.title"/></a>
 </h1>
 
 <c:if test="${not empty document}">
@@ -34,6 +34,6 @@
         <li>
             <a href="<hst:link siteMapItemRefId="home"/>"><fmt:message key="news.overview.content.location.home"/></a>
         </li>
-        <li class="active"><a href="<hst:link siteMapItemRefId="blogs"/>">Blogs</a></li>
+        <li class="active"><a href="<hst:link siteMapItemRefId="blogs"/>"><fmt:message key="blogs.overview.content.title"/></a></li>
     </ol>
 </div>

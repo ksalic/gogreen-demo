@@ -18,9 +18,10 @@
 
 <%@include file="../../includes/tags.jspf" %>
 
+<hst:link var="products" siteMapItemRefId="products"/>
 <fmt:message key="products.main.title" var="title"/>
 <h1 class="h1-page-title">
-    ${title}
+  <a href="${products}">${title}</a>
 </h1>
 <hippo-gogreen:title title="${title}"/>
 
@@ -33,7 +34,7 @@
         <li>
             <a href="<hst:link siteMapItemRefId="home"/>"><fmt:message key="products.overview.location.home"/></a>
         </li>
-        <li class="active"><fmt:message key="products.overview.title"/></li>
+        <li class="active"><a href="${products}"><fmt:message key="products.overview.title"/></a></li>
     </ol>
 </div>
 

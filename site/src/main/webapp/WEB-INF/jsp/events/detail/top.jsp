@@ -30,9 +30,8 @@
 <div class="breadcrumb-container">
     <ol class="breadcrumb">
         <li>
-            <a href="<hst:link siteMapItemRefId="home"/>">Home</a>
+            <a href="<hst:link siteMapItemRefId="home"/>"><fmt:message key="events.overview.location.home"/></a>
         </li>
-        <li class="active">
-            <a href="${events}"><fmt:message key="events.latest.label"/></a></li>
+        <li class="active"><a href="${events}"><fmt:message key="events.latest.label"/></a></li>
     </ol>
 </div>
