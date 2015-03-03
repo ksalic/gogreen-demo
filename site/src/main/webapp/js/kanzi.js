@@ -194,7 +194,6 @@ jQuery(document).ready(function($) {
             $('#masonry-elements,.portfolio-items').isotope('reLayout');
         }, 1000);
     }
-    ;
 
     centeringBullets();
 
@@ -336,7 +335,7 @@ function easyTabsZeina(selector, options) {
 var map;
 function contactusMap() {
 
-    var myLatlng, mapOptions, marker;
+    var mapOptions, marker;
     var myLatlng = new google.maps.LatLng(-37.817590, 144.965188);
 
     mapOptions = {
