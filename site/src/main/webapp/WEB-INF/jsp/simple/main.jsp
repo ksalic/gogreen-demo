@@ -17,8 +17,40 @@
 --%>
 
 <%@include file="../includes/tags.jspf" %>
-<div id="bd" class="yui-t1">
-    <!-- content -->
-    <hst:include ref="content"/>
-    <hst:include ref="right"/>
+
+<div class="content-wrapper">
+  <div class="hero-wrapper">
+    <hst:include ref="hero"/>
+  </div>
+  <div class="top-title-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="page-info">
+            <hst:include ref="top"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="body-wrapper">
+    <div class="container">
+      <c:if test="${document ne null}">
+        <div class="container">
+
+          <hst:cmseditlink hippobean="${document}" />
+          <h2 ><c:out value="${document.title}"/></h2>
+
+          <p><c:out value="${document.summary}"/></p>
+          <p><hst:html hippohtml="${document.description}"/></p>
+
+          <hippo-gogreen:title title="${document.title}"/>
+        </div>
+      </c:if>
+  </div>
 </div>
+
+
+
+
