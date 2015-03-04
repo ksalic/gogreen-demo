@@ -16,7 +16,7 @@
 
 --%>
 <%@include file="../includes/tags.jspf" %>
-<hst:setBundle basename="products.facet"/>
+
 <c:if test="${not empty banners}">
 
 <c:if test="${not empty title}">
@@ -81,6 +81,7 @@
 <div class="row">
 <c:forEach items="${banners}" var="banner" varStatus="index">
 <%--@elvariable id="banner" type="com.onehippo.gogreen.beans.Banner"--%>
+<hst:setBundle basename="products.facet"/>
 <c:set var="docLink" value=""/>
 <c:if test="${not empty banner.docLink}">
   <c:choose>
@@ -94,7 +95,7 @@
     </c:otherwise>
   </c:choose>
 </c:if>
-
+<fmt:setBundle basename="messages" />
 <c:choose>
   <c:when test="${bannerType eq 'vertical'}">
     <c:if test="${index.first}">
@@ -194,7 +195,7 @@
           <c:if test="${not empty docLink}">
             <div>
               <a href="${docLink}" class=" btn btn-sm">
-                <span><fmt:message key="common.read.more"/>read more</span>
+                <span><fmt:message key="common.read.more"/></span>
               </a>
             </div>
           </c:if>
@@ -222,7 +223,7 @@
           <hst:cmseditlink hippobean="${banner}"/>
           <c:if test="${not empty docLink}">
             <a href="${docLink}" class="read-more">
-              <span><fmt:message key="common.read.more"/>read more</span>
+              <span><fmt:message key="common.read.more"/></span>
             </a>
           </c:if>
         </div>
@@ -287,7 +288,7 @@
           <c:if test="${not empty docLink}">
             <div>
               <a href="${docLink}" class="read-more">
-                <span><fmt:message key="common.read.more"/>Read more</span>
+                <span><fmt:message key="common.read.more"/></span>
               </a>
             </div>
           </c:if>
