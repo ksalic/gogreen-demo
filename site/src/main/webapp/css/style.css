@@ -2661,6 +2661,9 @@ Content Box
     margin: 0;
     line-height: 60px;
 }
+.content-box.style5 h4 img{
+    float: left;
+}
 .content-box.style5 h4 i {
     border: 1px solid;
     border-color: #279fbb;
@@ -2767,6 +2770,7 @@ ul.icon-content-list-container li.icon-content-single .small .content-box-text {
     font-size: 13px;
 }
 
+.right-text ul.icon-content-list-container li.icon-content-single h4 img,
 .right-text ul.icon-content-list-container li.icon-content-single h4 i {
     float: right;
     margin-left: 20px;
@@ -2789,6 +2793,12 @@ ul.icon-content-list-container li.icon-content-single .small .content-box-text {
 .content-style3:hover .content-style3-icon {
     color: #fff;
     background: #279fbb;
+}
+
+.content-style3 .content-style3-image{
+    position: absolute;
+    right: -34px;
+    top: 30px;
 }
 
 .content-style3 .content-style3-icon {
@@ -6720,3 +6730,7 @@ Testimonial
 }
 
 .map-comp { margin-top: -20px; }
+
+.icon-replacement{
+    margin: 5px;
+}

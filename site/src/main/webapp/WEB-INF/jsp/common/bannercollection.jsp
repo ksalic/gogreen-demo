@@ -151,9 +151,7 @@
             <div class="content-style3-icon ${banner.icon}"></div>
           </c:when>
           <c:otherwise>
-            <div class="content-style3-icon">
-              <img src="<hst:link hippobean="${banner.image.thumbnail}"/>" class="icon-replacement">
-            </div>
+            <img src="<hst:link hippobean="${banner.image.thumbnail}"/>" class="icon-replacement content-style3-image">
           </c:otherwise>
         </c:choose>
 
