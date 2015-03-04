@@ -6687,6 +6687,9 @@ Testimonial
 /* rich-text snippet component styling */
 .richtextsnippet-component h3 { text-align: justify; font-weight: normal; font-size: 18px; }
 .richtextsnippet-component img { margin: 0 15px 15px; max-width: 100%; }
+.richtextsnippet-component img[align=left] {
+    margin-top: 15px;
+}
 .richtextsnippet-component { margin-bottom: 20px; }
 
 /* vari-column page template styling */
