@@ -32,6 +32,6 @@ import org.hippoecm.hst.core.parameters.Parameter;
 public interface VideoParamsInfo extends BaseLayoutParamsInfo {
     String PARAM_VIDEOURL = "videoURL";
 
-    @Parameter(name = PARAM_VIDEOURL, required = true, displayName = "Video URL", defaultValue = "")
+    @Parameter(name = PARAM_VIDEOURL, required = true, displayName = "Youtube ID", defaultValue = "")
     String getVideoURL();
 }

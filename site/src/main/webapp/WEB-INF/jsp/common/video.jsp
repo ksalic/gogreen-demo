@@ -15,29 +15,29 @@
 --%>
 <%@include file="../includes/tags.jspf" %>
 
-<script>
-$(document).ready(function(){
-	  $('embed').each(function(){
-      $(this).height($(this).width()* 0.75  );
-	  });
-	});
-</script>
 
 <div class="container">
-<div class="row video">
-<c:choose>
-  <c:when test="${preview && empty videoURL}">
-    <h2 class="not-configured">Click to configure Video component</h2>
-  </c:when>
-  <c:otherwise>
-    <object class="youtube">
-      <param name="movie" value="${videoURL}"/>
-      <param name="allowFullScreen" value="true"/>
-      <param name="allowScriptAccess" value="always"/>
-      <embed src="${videoURL}" type="application/x-shockwave-flash" allowfullscreen="true"
-        allowScriptAccess="always" wmode="opaque"/>
-    </object>
-  </c:otherwise>
-</c:choose>
-</div>
+  <div class="row video">
+    <c:if test="${not empty title}">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h2 class="h2-section-title"><c:out value="${title}"/></h2>
+          <c:if test="${not empty icon}">
+            <div class="i-section-title">
+              <i class="fa <c:out value="${icon}"/>"></i>
+            </div>
+          </c:if>
+        </div>
+      </div>
+    </c:if>
+
+  <c:choose>
+    <c:when test="${preview && empty videoURL}">
+      <h2 class="not-configured">Click to configure Video component</h2>
+    </c:when>
+    <c:otherwise>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoURL}" frameborder="0" allowfullscreen></iframe>
+    </c:otherwise>
+  </c:choose>
+  </div>
 </div>
