@@ -28,9 +28,7 @@ public class BaseComponent extends BaseHstComponent {
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) {
         super.doBeforeRender(request, response);
-        
-        ComponentUtil.doRedirectionOnWrongLandingMount(request, response);
-        
+
         request.setAttribute("preview", isPreview(request));
         request.setAttribute("loggedin", request.getUserPrincipal() != null);
     }
