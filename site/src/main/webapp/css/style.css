@@ -4436,7 +4436,7 @@ Portfolio
 .portfolio-filter-container {
     clear: both;
     overflow: hidden;
-    margin: 0 0 30px 0;
+    margin: 0;
     text-align: center;
     padding: 1px 0 0 0;
 }
@@ -6483,20 +6483,20 @@ Testimonial
 .section-content.no-bottom-border { border-bottom: none; }
 
 /* language navigation */
-#language { float: left; padding: 0; margin: 0; list-style-type: none; }
+#language { float: left; padding: 0; margin: 0 0 0 10px; list-style-type: none; }
 #language .active ul { top: 34px; }
 #language i.fa { font-size: 14px; margin: 0 10px 0 5px; line-height: 37px; }
-#language li, #language a { font-size: 11px; color: #969696; }
+#language li, #language a { font-size: 12px; color: #666; }
 #language li { position: relative; }
 #language:hover ul { display: block; }
-#language ul { position: absolute; padding: 0; margin: 0; display: none; background-color: #fff; border: 1px solid #DDDDDD; border-top: 2px solid #DDD; left: -13px; }
+#language ul { position: absolute; padding: 0; margin: 0; display: none; background-color: #fff; border: 1px solid #DDDDDD; border-top: 2px solid #DDD; left: 2px; }
 #language a { text-transform: none; line-height: 35px }
 #language span, #language a { vertical-align: top; }
 #language span{
     cursor: default;
 }
 #language ul li { list-style-type: none; }
-#language ul li a { line-height: 30px; font-family: "Raleway", sans-serif; padding: 0 0 0 12px; width: 170px; display: block; }
+#language ul li a { line-height: 30px; font-family: "Raleway", sans-serif; padding: 0 0 0 26px; width: 170px; display: block; }
 #language ul li:hover > a { background-color: #f7f7f7; }
 .langnav { z-index: 1000; }
 
