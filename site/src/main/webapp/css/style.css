@@ -2729,6 +2729,7 @@ ul.icon-content-list-container li.icon-content-single {
     margin: 0 0 20px 0;
     list-style-type: none;
     width: 100%;
+    position: relative;
 }
 ul.icon-content-list-container li.icon-content-single:last-child {
     margin-bottom: 0;
@@ -6745,4 +6746,45 @@ Testimonial
 .hst-container-item{
     margin: 3px 0;
     padding: 3px 0;
+}
+
+.banner-component.section-color-dark-blue .hst-cmseditlink{
+    top: 6px;
+    right: 3px;
+}
+
+.latest-items .hst-cmseditlink {
+    right: 18px;
+    top: 6px;
+}
+
+.section-color-dark-blue .hst-cmseditlink,
+.white-text .hst-cmseditlink {
+    color: #333;
+}
+
+.footer .footer-col .footer-content .hst-cmseditmenu{
+    color: #333;
+}
+
+.edit-menu-button .hst-cmseditmenu{
+    top: 24px;
+}
+
+.hst-cmseditmenu{
+    hover: #000;
+}
+
+.body-wrapper .hst-cmseditlink:hover {
+    color: #666;
+}
+
+.rev-slider-banner-full .hst-cmseditlink{
+    top: 3px;
+    right: 3px;
+}
+
+.right-text .hst-cmseditlink{
+    right: auto;
+    left: 0;
 }
