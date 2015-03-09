@@ -913,6 +913,7 @@ textarea .white-text .feature-details a:hover {
 .cycle-slide {
     width: 100%;
     overflow: hidden;
+    max-height: 240px;
 }
 
 .cycle-next,
@@ -3942,7 +3943,7 @@ a.portfolio-zoom icon-resize-full:hover {
 .item-img-overlay .portfolio-zoom {
     position: absolute;
     top: 50%;
-    margin-top: -40px;
+    margin-top: -20px;
     right: 50%;
     margin-right: -20px;
     background-color: white;
@@ -6630,9 +6631,6 @@ Testimonial
 #masonry-elements .product-rating i { font-size: 10px; margin: 0; }
 /* product overview add to cart */
 #masonry-elements .thumb-label-item-title { line-height: 40px; }
-
-/* product detail image gallery */
-.slider-img .portfolio-zoom { top: 145px; }
 
 /* home - latest component images */
 .latest-items .feature-image img { max-width: 263px; }
