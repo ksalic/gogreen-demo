@@ -16,7 +16,7 @@
 <%@include file="../includes/tags.jspf" %>
 <%--@elvariable id="images" type="com.onehippo.gogreen.beans.ImageDocument"--%>
 
-<!-- Banner -->
+<!-- Images -->
 <c:if test="${not empty images}">
 
     <c:if test="${not empty title}">
@@ -47,7 +47,7 @@
         </c:otherwise>
     </c:choose>
 
-    <div class="container">
+    <div class="container images-component">
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <ul class="section-clients">
@@ -55,7 +55,7 @@
                         <li class="animated bounceIn animatedVisi" data-animtype="bounceIn" data-animrepeat="0" data-animdelay="0.2s" style="-webkit-animation: 0.2s;">
                             <c:set var="image" value="${doc.firstImage}"/>
                             <a href="<hst:link hippobean="${doc}"/>">
-                                <img src="<hst:link hippobean="${image.largeThumbnail}"/>" alt="${image.alt}" class="img-responsive client-image">
+                                <img src="<hst:link hippobean="${image.largeThumbnail}"/>" alt="${image.alt}">
                             </a>
                             <hst:cmseditlink hippobean="${doc}" />
                         </li>

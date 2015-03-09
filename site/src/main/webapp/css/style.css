@@ -1271,6 +1271,7 @@ Blog
     position: relative;
     margin: 0 0 20px 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .blog-post .blog-post-featured-img img:hover {
@@ -1282,6 +1283,10 @@ Blog
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.blog-post .blog-post-featured-img .slider-img img{
+    width: auto;
 }
 
 .blog-post-date {
@@ -1541,7 +1546,8 @@ Blog
 }
 
 .blog-post .cycle-slideshow {
-    height: 240px;
+    max-height: 240px;
+    height: auto;
 }
 
 .pagination {
@@ -6787,4 +6793,16 @@ Testimonial
 .right-text .hst-cmseditlink{
     right: auto;
     left: 0;
+}
+
+.images-component .section-clients li{
+    height: 208px;
+}
+
+.images-component .section-clients li img{
+    height: 100%;
+}
+
+.images-component .section-clients a:hover{
+    opacity: 0.7;
 }
