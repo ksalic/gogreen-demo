@@ -3,8 +3,8 @@
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:versionable</sv:value>
     <sv:value>hippo:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>b2a0ad7e-8280-469d-ac26-0d27ea57a167</sv:value>
@@ -658,6 +658,383 @@
       </sv:property>
       <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value>输入您的地址</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="document-type">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>62450de0-9f26-4664-bf2d-ffc7794e7149</sv:value>
+    </sv:property>
+    <sv:node sv:name="document-type">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e39d5b13-3697-4772-aa90-3bb8245c1942</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resource-bundles/document-type/document-type[3]</sv:value>
+        <sv:value>resource-bundles/document-type/document-type[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-24T11:09:49.846-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-25T08:50:12.309-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>bacca719-8671-49b3-af0e-0018225d0dc4</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value>News Document</sv:value>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>document.type</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>hippogogreen:newsitem</sv:value>
+        <sv:value>hippogogreen:blogitem</sv:value>
+        <sv:value>hippogogreen:event</sv:value>
+        <sv:value>hippogogreen:product</sv:value>
+        <sv:value>hippogogreen:simpledocument</sv:value>
+        <sv:value>hippogogreen:richtextsnippet</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>News</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Events</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_cn" sv:type="String" sv:multiple="true">
+        <sv:value>新闻</sv:value>
+        <sv:value>博客</sv:value>
+        <sv:value>事件</sv:value>
+        <sv:value>产品</sv:value>
+        <sv:value>简单的文档</sv:value>
+        <sv:value>多信息文本</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
+        <sv:value>Nachrichtenartikel</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Veranstaltungen</sv:value>
+        <sv:value>Produkt</sv:value>
+        <sv:value>Einfaches Dokument</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
+        <sv:value>News</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Events</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+        <sv:value>Actualités</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Évènements</sv:value>
+        <sv:value>Produit</sv:value>
+        <sv:value>Document simple</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>Nieuwsartikel</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Evenementen</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>document type</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="document-type">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ffd6622c-fd81-431e-a4f4-5936e72f23e1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resource-bundles/document-type/document-type[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-24T11:09:49.846-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-24T14:08:18.624-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>bacca719-8671-49b3-af0e-0018225d0dc4</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value>News Document</sv:value>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>document.type</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>hippogogreen:newsitem</sv:value>
+        <sv:value>hippogogreen:blogitem</sv:value>
+        <sv:value>hippogogreen:event</sv:value>
+        <sv:value>hippogogreen:product</sv:value>
+        <sv:value>hippogogreen:simpledocument</sv:value>
+        <sv:value>hippogogreen:richtextsnippet</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>News</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Events</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_cn" sv:type="String" sv:multiple="true">
+        <sv:value>新闻</sv:value>
+        <sv:value>博客</sv:value>
+        <sv:value>事件</sv:value>
+        <sv:value>产品</sv:value>
+        <sv:value>简单的文档</sv:value>
+        <sv:value>多信息文本</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
+        <sv:value>Nachrichtenartikel</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Veranstaltungen</sv:value>
+        <sv:value>Produkt</sv:value>
+        <sv:value>Einfaches Dokument</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
+        <sv:value>News</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Events</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+        <sv:value>Actualités</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Évènements</sv:value>
+        <sv:value>Produit</sv:value>
+        <sv:value>Document simple</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>Nieuwsartikel</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Evenementen</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="document-type">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7553be4a-ae57-473c-b7a7-652d43cacec5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resource-bundles/document-type/document-type[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-03-24T11:09:49.846-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-03-24T14:08:18.624-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-03-24T14:08:21.201-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>bacca719-8671-49b3-af0e-0018225d0dc4</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value>News Document</sv:value>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>document.type</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>hippogogreen:newsitem</sv:value>
+        <sv:value>hippogogreen:blogitem</sv:value>
+        <sv:value>hippogogreen:event</sv:value>
+        <sv:value>hippogogreen:product</sv:value>
+        <sv:value>hippogogreen:simpledocument</sv:value>
+        <sv:value>hippogogreen:richtextsnippet</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>News</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Events</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_cn" sv:type="String" sv:multiple="true">
+        <sv:value>新闻</sv:value>
+        <sv:value>博客</sv:value>
+        <sv:value>事件</sv:value>
+        <sv:value>产品</sv:value>
+        <sv:value>简单的文档</sv:value>
+        <sv:value>多信息文本</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
+        <sv:value>Nachrichtenartikel</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Veranstaltungen</sv:value>
+        <sv:value>Produkt</sv:value>
+        <sv:value>Einfaches Dokument</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
+        <sv:value>News</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Events</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+        <sv:value>Actualités</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Évènements</sv:value>
+        <sv:value>Produit</sv:value>
+        <sv:value>Document simple</sv:value>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value>Rich Text</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+        <sv:value>Nieuwsartikel</sv:value>
+        <sv:value>Blogs</sv:value>
+        <sv:value>Evenementen</sv:value>
+        <sv:value>Product</sv:value>
+        <sv:value>Simple Document</sv:value>
+        <sv:value>Rich Text</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
