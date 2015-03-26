@@ -17,7 +17,6 @@
 package com.onehippo.gogreen.beans;
 
 import java.util.Calendar;
-import java.util.List;
 
 import com.onehippo.gogreen.utils.Constants;
 
@@ -32,5 +31,9 @@ public class BlogItem extends ImageDocument {
 
     public String[] getCategories() {
         return getProperty(Constants.PROP_CATEGORIES);
+    }
+    
+     public String[] getTags() {
+        return getProperty(Constants.PROP_TAGS);
     }
 }

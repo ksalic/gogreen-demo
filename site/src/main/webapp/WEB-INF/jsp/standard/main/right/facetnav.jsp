@@ -17,7 +17,7 @@
 --%>
 
 <%@include file="../../../includes/tags.jspf"%>
-<hst:setBundle basename="document.type" />
+
 <div class="sidebar-block">
     <div class="sidebar-content tags blog-search">
         <hst:link var="searchLink" hippobean="${facetnav}" />
@@ -61,13 +61,14 @@
                     <h3 class="h3-sidebar-title sidebar-title">
                         <c:out value="${facet.name}" />
                     </h3>
+                    <hst:setBundle  basename="document.type" />
                     <c:if test="${not empty facet.folders}">
                         <div class="sidebar-content tags">
                             <c:forEach items="${facet.folders}" var="item">
                                 <!-- store facet name as "label" -->
                                 <c:set var="label" value="${item.name}" />
                                <!-- store resource bundle value for current face name as "name"-->
-                                <fmt:message key="${item.name}" var="name" />
+                               <fmt:message  key="${item.name}" var="name" />
                                 <!-- if a facet value does not start with "???" then it has to be one of the values defined in the resource bundle -->
                                 <c:if test="${!fn:startsWith(name, '???')}">
                                     <!-- use this value as label for the search result facets, stored as "label"-->
