@@ -74,5 +74,19 @@
                        value="${document.location.street}&nbsp;${document.location.number},&nbsp;${document.location.city}&nbsp;${document.location.postalCode}&nbsp;${document.location.province}"/>
             </c:if>
         </div>
+             <!-- If there are any tags for this document, then display them with links -->
+        <c:if test="${!empty document.tags}">
+            <hst:setBundle basename="general.text"/>
+            
+            <div class="tags">
+
+                <c:forEach var="tag" items="${document.tags}"> 
+                    <hst:link siteMapItemRefId="search-faceted" var="link"/>
+                    <fmt:message key="search.facet.tags" var="tagname" />
+                    <a href="${link}/${tagname}/${tag}">${tag}</a>
+                </c:forEach>
+
+            </div>
+        </c:if>
     </div>
 </div>

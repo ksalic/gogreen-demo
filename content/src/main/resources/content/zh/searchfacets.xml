@@ -13,12 +13,14 @@
     <sv:value>文档类型</sv:value>
     <sv:value>类别${sortby:'facetvalue', sortorder:'ascending'}</sv:value>
     <sv:value>日期${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+    <sv:value>标签${sortby:'facetvalue', sortorder:'descending'}</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
     <sv:value>hippogogreen:date$[{name:'这个月', resolution:'month', begin:0, end:1},{name:'上个月', resolution:'month', begin:-1, end:0}, {name:'今年', resolution:'year', begin:0, end:1}]</sv:value>
     <sv:value>jcr:primaryType</sv:value>
     <sv:value>hippogogreen:categories</sv:value>
     <sv:value>hippogogreen:date$year</sv:value>
+    <sv:value>hippostd:tags</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:filters" sv:type="String" sv:multiple="true">
     <sv:value>not(jcr:primaryType=hippogogreen:banner)</sv:value>
