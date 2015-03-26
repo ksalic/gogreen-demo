@@ -23,7 +23,7 @@ import com.onehippo.gogreen.utils.Constants;
 import org.hippoecm.hst.content.beans.Node;
 
 @Node(jcrType = "hippogogreen:event")
-public class EventDocument extends ImageDocument {
+public class EventDocument extends Document {
 
     public Calendar getDate() {
         return getProperty(Constants.PROP_DATE);

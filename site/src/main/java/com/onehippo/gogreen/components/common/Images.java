@@ -15,8 +15,8 @@
  */
 package com.onehippo.gogreen.components.common;
 
-import com.onehippo.gogreen.beans.ImageDocument;
-import com.onehippo.gogreen.components.BaseComponent;
+
+import com.onehippo.gogreen.beans.Document;
 
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
@@ -39,38 +39,38 @@ public class Images extends BaseLayout {
         super.doBeforeRender(request, response);
         final HstRequestContext ctx = request.getRequestContext();
         ImagesParamsInfo paramsInfo = getComponentParametersInfo(request);
-        List<ImageDocument> images = new ArrayList<ImageDocument>();
+        List<Document> images = new ArrayList<Document>();
         HippoBean siteContentBaseBean = ctx.getSiteContentBaseBean();
 
         String bannerBackground = paramsInfo.getBackground();
         request.setAttribute("background", bannerBackground);
 
         if(!StringUtils.isEmpty(paramsInfo.getImage1())) {
-            ImageDocument image = siteContentBaseBean.getBean(paramsInfo.getImage1());
+            Document image = siteContentBaseBean.getBean(paramsInfo.getImage1());
             if(image != null) {
                 images.add(image);
             }
         }
         if(!StringUtils.isEmpty(paramsInfo.getImage2())) {
-            ImageDocument image = siteContentBaseBean.getBean(paramsInfo.getImage2());
+            Document image = siteContentBaseBean.getBean(paramsInfo.getImage2());
             if(image != null) {
                 images.add(image);
             }
         }
         if(!StringUtils.isEmpty(paramsInfo.getImage3())) {
-            ImageDocument image = siteContentBaseBean.getBean(paramsInfo.getImage3());
+            Document image = siteContentBaseBean.getBean(paramsInfo.getImage3());
             if(image != null) {
                 images.add(image);
             }
         }
         if(!StringUtils.isEmpty(paramsInfo.getImage4())) {
-            ImageDocument image = siteContentBaseBean.getBean(paramsInfo.getImage4());
+            Document image = siteContentBaseBean.getBean(paramsInfo.getImage4());
             if(image != null) {
                 images.add(image);
             }
         }
         if(!StringUtils.isEmpty(paramsInfo.getImage5())) {
-            ImageDocument image = siteContentBaseBean.getBean(paramsInfo.getImage5());
+            Document image = siteContentBaseBean.getBean(paramsInfo.getImage5());
             if(image != null) {
                 images.add(image);
             }

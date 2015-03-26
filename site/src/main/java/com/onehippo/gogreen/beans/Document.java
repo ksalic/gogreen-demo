@@ -1,19 +1,18 @@
 /**
  * Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- *         http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
-
 package com.onehippo.gogreen.beans;
 
 import static com.onehippo.gogreen.utils.Constants.PROP_DESCRIPTION;
@@ -33,7 +32,13 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 
 import com.onehippo.gogreen.beans.compound.Copyright;
+import com.onehippo.gogreen.beans.compound.ImageSet;
 import com.onehippo.gogreen.utils.Constants;
+import java.util.ArrayList;
+import java.util.List;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
+import org.hippoecm.hst.content.beans.standard.HippoFacetSelect;
+import org.hippoecm.hst.content.beans.standard.HippoMirror;
 
 @Node(jcrType = "hippogogreen:document")
 public class Document extends BaseDocument implements ContentNodeBinder {
@@ -42,16 +47,16 @@ public class Document extends BaseDocument implements ContentNodeBinder {
     private String summary;
     private HippoHtml description;
     private String descriptionContent;
-
+    private List<ImageSet> images;
 
     public String getTitle() {
         return (title == null) ? (String) getProperty("hippogogreen:title") : title;
     }
-    
+
     public void setTitle(String title) {
         this.title = title;
     }
-    
+
     public String getSummary() {
         return (summary == null) ? (String) getProperty("hippogogreen:summary") : summary;
     }
@@ -59,10 +64,10 @@ public class Document extends BaseDocument implements ContentNodeBinder {
     public void setSummary(String summary) {
         this.summary = summary;
     }
-    
+
     public HippoHtml getDescription() {
-        if(description==null){
-            description =  getBean(PROP_DESCRIPTION);
+        if (description == null) {
+            description = getBean(PROP_DESCRIPTION);
         }
         return description;
     }
@@ -70,7 +75,7 @@ public class Document extends BaseDocument implements ContentNodeBinder {
     public void setDescriptionContent(String descriptionContent) {
         this.descriptionContent = descriptionContent;
     }
-    
+
     public String getDescriptionContent() {
         if (descriptionContent == null) {
             if (getDescription() != null) {
@@ -89,7 +94,7 @@ public class Document extends BaseDocument implements ContentNodeBinder {
             Document bean = (Document) content;
             node.setProperty("hippogogreen:title", bean.getTitle());
             node.setProperty("hippogogreen:summary", bean.getSummary());
-            
+
             if (getDescriptionContent() != null) {
                 if (node.hasNode(PROP_DESCRIPTION)) {
                     javax.jcr.Node htmlNode = node.getNode(PROP_DESCRIPTION);
@@ -120,5 +125,33 @@ public class Document extends BaseDocument implements ContentNodeBinder {
             log.error("Error binding object", e);
         }
         return true;
+    }
+
+    public List<ImageSet> getImages() {
+        if (images == null) {
+            initImages();
+        }
+        return images;
+    }
+
+    public ImageSet getFirstImage() {
+        initImages();
+        return images.isEmpty() ? null : images.get(0);
+    }
+
+    private void initImages() {
+        images = new ArrayList<ImageSet>();
+        List<HippoMirror> mirrors = getChildBeansByName(Constants.NT_IMAGE);
+        for (HippoBean mirror : mirrors) {
+            if (mirror instanceof HippoFacetSelect) {
+                HippoFacetSelect facetSelect = (HippoFacetSelect) mirror;
+                HippoBean referenced = facetSelect.getReferencedBean();
+                if (referenced instanceof ImageSet) {
+                    ImageSet image = (ImageSet) referenced;
+                    images.add(image);
+
+                }
+            }
+        }
     }
 }

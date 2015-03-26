@@ -43,13 +43,11 @@
 
 [hippogogreen:document] > hippogogreen:basedocument, hippostd:relaxed, hippotranslation:translated
 
-[hippogogreen:imagedocument] > hippogogreen:document, hippostd:relaxed, hippotranslation:translated
+[hippogogreen:event] > hippogogreen:document, relateddocs:relatabledocs
 
-[hippogogreen:event] > hippogogreen:imagedocument, relateddocs:relatabledocs
+[hippogogreen:product] > hippogogreen:document, relateddocs:relatabledocs
 
-[hippogogreen:product] > hippogogreen:imagedocument, relateddocs:relatabledocs
-
-[hippogogreen:blogitem] > hippogogreen:imagedocument, relateddocs:relatabledocs
+[hippogogreen:blogitem] > hippogogreen:document, relateddocs:relatabledocs
 
 [hippogogreen:newsitem] > hippogogreen:simpledocument
 

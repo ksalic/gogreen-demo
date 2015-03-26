@@ -33,7 +33,7 @@ import org.hippoecm.hst.content.beans.Node;
  * + hippogogreen:images (hippogallerypicker:imagelink) multiple
  */
 @Node(jcrType = "hippogogreen:product")
-public class Product extends ImageDocument {
+public class Product extends Document {
 
     private Double price;
 
