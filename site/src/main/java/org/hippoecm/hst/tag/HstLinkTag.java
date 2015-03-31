@@ -49,6 +49,9 @@ import static org.hippoecm.hst.utils.TagUtils.writeOrSetVar;
  * Abstract supporting class for Hst Link tags
  */
 
+/**
+ * // Forked 2.29.00 see todo.
+ */
 public class HstLinkTag extends ParamContainerTag {
 
     private final static Logger log = LoggerFactory.getLogger(HstLinkTag.class);
@@ -223,6 +226,7 @@ public class HstLinkTag extends ParamContainerTag {
             }
 
             if (link == null && path != null) {
+                // TODO mm: remove class after link rewriting is fixed
                 if (path.startsWith("/")) {
                     link = reqContext.getHstLinkCreator().create(path, mount, true);
                 } else {
