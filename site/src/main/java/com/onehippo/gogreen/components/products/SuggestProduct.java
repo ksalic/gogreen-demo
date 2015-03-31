@@ -82,7 +82,7 @@ public class SuggestProduct extends BaseComponent {
             wpm = getWorkflowPersistenceManager(persistableSession);
             wpm.setWorkflowCallbackHandler(new DocumentWorkflowCallbackHandler());
 
-            String siteCanonicalBasePath = request.getRequestContext().getResolvedMount().getMount().getCanonicalContentPath();
+            String siteCanonicalBasePath = request.getRequestContext().getResolvedMount().getMount().getContentPath();
 
             String productsFolderPath = siteCanonicalBasePath + "/products";
             wpm.createAndReturn(productsFolderPath, Constants.NT_PRODUCT, name, true);

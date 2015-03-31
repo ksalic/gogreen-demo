@@ -218,7 +218,7 @@ public class Comments extends DocumentComponent {
     private String createCommentFolderPath(final HstRequest request, final HippoDocumentBean document) {
         final StringBuilder builder = new StringBuilder();
 
-        final String siteCanonicalBasePath = request.getRequestContext().getResolvedMount().getMount().getCanonicalContentPath();
+        final String siteCanonicalBasePath = request.getRequestContext().getResolvedMount().getMount().getContentPath();
         builder.append(siteCanonicalBasePath);
 
         builder.append('/');

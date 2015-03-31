@@ -195,7 +195,7 @@ public class ProductDetail extends BaseComponent {
     private String createReviewFolderPath(HstRequest request, Product product) {
         StringBuilder builder = new StringBuilder();
 
-        builder.append(request.getRequestContext().getResolvedMount().getMount().getCanonicalContentPath());
+        builder.append(request.getRequestContext().getResolvedMount().getMount().getContentPath());
 
         ProductDetailParamInfo paramInfo = getComponentParametersInfo(request);
         String reviewsFolderName = paramInfo.getReviewsFolder();

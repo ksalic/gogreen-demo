@@ -21,6 +21,7 @@ import java.util.Date;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
+import org.hippoecm.hst.container.RequestContextProvider;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryManager;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
@@ -100,7 +101,7 @@ public class LatestItems extends BaseLayout {
             if (StringUtils.isEmpty(nodeType)) {
                 hstQuery = hstQueryManager.createQuery(folderBean, BaseDocument.class, true);
             } else {
-                hstQuery = hstQueryManager.createQuery(folderBean, getObjectConverter().getAnnotatedClassFor(nodeType), false);
+                hstQuery = hstQueryManager.createQuery(folderBean, RequestContextProvider.get().getContentBeansTool().getObjectConverter().getAnnotatedClassFor(nodeType), false);
             }
 
             if (ascending) {

@@ -54,7 +54,7 @@ public class RatingPlugin extends RenderPlugin {
         try {
             Node parent = productNode.getParent();
             if (parent.isNodeType("mix:referenceable")) {
-                String query = "//*[(*/@hippo:docbase = '" + parent.getUUID() + "') and (@jcr:primaryType='hippogogreen:review')]";
+                String query = "//*[(*/@hippo:docbase = '" + parent.getIdentifier() + "') and (@jcr:primaryType='hippogogreen:review')]";
 
                 QueryManager queryManager = productNode.getSession().getWorkspace().getQueryManager();
                 Query reviewsQuery = queryManager.createQuery(query, Query.XPATH);
