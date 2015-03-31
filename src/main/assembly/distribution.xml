@@ -42,8 +42,23 @@
       <outputDirectory>/conf</outputDirectory>
       <destName>log4j.dtd</destName>
     </file>
+    <file>
+      <source>conf/context.xml</source>
+      <outputDirectory>/conf</outputDirectory>
+      <destName>context.xml</destName>
+    </file>
   </files>
   <dependencySets>
+    <dependencySet>
+      <useProjectArtifact>false</useProjectArtifact>
+      <outputDirectory>/common/lib</outputDirectory>
+      <scope>provided</scope>
+      <includes>
+        <include>javax.jcr:jcr</include>
+        <include>org.apache.geronimo.specs:geronimo-jta_1.1_spec</include>
+        <include>javax.mail:mail</include>
+      </includes>
+    </dependencySet>
     <dependencySet>
       <useProjectArtifact>false</useProjectArtifact>
       <outputDirectory>/shared/lib</outputDirectory>
