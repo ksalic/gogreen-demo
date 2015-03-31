@@ -20,7 +20,7 @@
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
     <artifactId>gogreen-two</artifactId>
-    <version>1.02.06-SNAPSHOT</version>
+    <version>2.00.00-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green CMS</name>
@@ -99,61 +99,45 @@
       <artifactId>hst-addon-repository</artifactId>
     </dependency>
 
+
     <dependency>
-      <groupId>org.onehippo.addon.frontend.gallerypicker</groupId>
-      <artifactId>gallerypicker</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>org.apache.wicket</groupId>
-          <artifactId>wicket</artifactId>
-        </exclusion>
-      </exclusions>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-selections-addon-cms</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-selections-addon-repository</artifactId>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-sitemap-content</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.onehippo.forge.selectionplugins</groupId>
-      <artifactId>selectionplugins-addon-repository</artifactId>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-relateddocs</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.onehippo.forge.selectionplugins</groupId>
-      <artifactId>selectionplugins-addon-cms</artifactId>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-addon-frontend</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-addon-repository</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.onehippo.forge.sitemap</groupId>
-      <artifactId>sitemap-content</artifactId>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-dashboard-document-wizard</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.forge</groupId>
-      <artifactId>relateddocs</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo</groupId>
-      <artifactId>taxonomy-api</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo</groupId>
-      <artifactId>taxonomy-addon-frontend</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo</groupId>
-      <artifactId>taxonomy-addon-repository</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.forge</groupId>
-      <artifactId>dashboard-document-wizard</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.forge</groupId>
-      <artifactId>resource-bundle-editor-plugin</artifactId>
-    </dependency>
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
@@ -164,7 +148,20 @@
       <groupId>org.onehippo.cms7.hst.client-modules</groupId>
       <artifactId>hst-google-analytics-repository</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-gallerypicker</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-resourcebundle-editor</artifactId>
+    </dependency>
+
+
+
   </dependencies>
+
 
   <build>
 

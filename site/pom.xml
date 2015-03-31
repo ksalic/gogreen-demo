@@ -19,7 +19,7 @@
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
     <artifactId>gogreen-two</artifactId>
-    <version>1.02.06-SNAPSHOT</version>
+    <version>2.00.00-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green Site</name>
@@ -39,84 +39,80 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-essentials-plugin-sdk-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-essentials-components-hst</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.taglibs</groupId>
+      <artifactId>taglibs-standard-spec</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.taglibs</groupId>
+      <artifactId>taglibs-standard-impl</artifactId>
     </dependency>
 
     <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-server-dependencies</artifactId>
       <type>pom</type>
-      <exclusions>
-        <exclusion>
-          <artifactId>rome</artifactId>
-          <groupId>rome</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
-
     <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-spring-dependencies</artifactId>
       <type>pom</type>
     </dependency>
-
     <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-client-dependencies</artifactId>
       <type>pom</type>
     </dependency>
-
     <dependency>
-      <groupId>taglibs</groupId>
-      <artifactId>standard</artifactId>
+      <groupId>org.onehippo.cms7.hst.components</groupId>
+      <artifactId>hst-security</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-selections-hst-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7.hst</groupId>
+      <artifactId>hst-mock</artifactId>
+      <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-core</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-web</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-webmvc</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-aop</artifactId>
-    </dependency>
 
     <dependency>
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.yui</groupId>
-      <artifactId>yui-2.xx-sources</artifactId>
-    </dependency>
 
+    <!-- TODO: mm:  plugin deprectated-->
     <dependency>
       <groupId>org.onehippo.forge</groupId>
       <artifactId>tcmp-component</artifactId>
+      <version>1.09.00</version>
     </dependency>
-
-     <dependency>
-      <groupId>org.onehippo.forge.sitemap</groupId>
-      <artifactId>sitemap-component</artifactId>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-sitemap-component</artifactId>
     </dependency>
 
     <dependency>
-        <groupId>org.freemarker</groupId>
-        <artifactId>freemarker</artifactId>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
     </dependency>
-      
+
     <dependency>
       <groupId>net.java.dev.rome</groupId>
       <artifactId>rome-fetcher</artifactId>
@@ -136,19 +132,18 @@
       </exclusions>
     </dependency>
 
-    <dependency>
-      <groupId>org.onehippo</groupId>
-      <artifactId>taxonomy-api</artifactId>
-    </dependency>
 
     <dependency>
-      <groupId>org.onehippo</groupId>
-      <artifactId>taxonomy-hst-api</artifactId>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-api</artifactId>
     </dependency>
-
     <dependency>
-      <groupId>org.onehippo</groupId>
-      <artifactId>taxonomy-hstclient</artifactId>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-hst-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-taxonomy-hstclient</artifactId>
     </dependency>
 
     <dependency>
@@ -182,27 +177,29 @@
       </exclusions>
     </dependency>
 
-    <dependency>
-      <groupId>org.apache.geronimo.specs</groupId>
-      <artifactId>geronimo-annotation_1.1_spec</artifactId>
-    </dependency>
 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
-    
+
     <dependency>
       <groupId>org.easymock</groupId>
       <artifactId>easymock</artifactId>
     </dependency>
-    
+
+<!--
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <scope>test</scope>
     </dependency>
+-->
 
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-plugin-selections-hst-client</artifactId>
+    </dependency>
     <dependency>
       <groupId>org.onehippo.cms7.hst.client-modules</groupId>
       <artifactId>hst-google-analytics-hst</artifactId>
