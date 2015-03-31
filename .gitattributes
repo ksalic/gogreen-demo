@@ -2,6 +2,8 @@
 /LICENSE -text
 /NOTICE -text
 /README -text
+bootstrap/webfiles/pom.xml -text
+bootstrap/webfiles/src/main/resources/hippoecm-extension.xml -text
 cms/conf/context.xml -text
 cms/conf/log4j-dev.xml -text
 cms/conf/log4j-prod.xml -text
@@ -376,6 +378,9 @@ dist/src/overlay/tomcat/webapps/ROOT/index.html -text
 dist/src/overlay/tomcat/webapps/ROOT/js/check-cms.js -text
 dist/src/overlay/tomcat/webapps/ROOT/js/iehoverfix.js -text
 dist/src/overlay/tomcat/webapps/ROOT/walkthrough.html -text
+essentials/pom.xml -text
+essentials/src/main/resources/project-settings.xml -text
+essentials/src/main/webapp/WEB-INF/web.xml -text
 etc/dependencies/list-war-bundled-dependencies.sh -text
 etc/dependencies/war-bundled-dependencies.txt -text
 integration-tests/README.txt -text
