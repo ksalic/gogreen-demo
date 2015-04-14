@@ -25,7 +25,7 @@
               rtexprvalue="true" %>
 <%@ attribute name="queryName" required="false" type="java.lang.String" rtexprvalue="true" %>
 <%@ attribute name="queryValue" required="false" type="java.lang.String" rtexprvalue="true" %>
-
+ <hst:setBundle basename="messages,typenames"/>
 
 <%--set various pagination visible pages--%>
 <c:set var="currentpage" value="${pageableResult.currentPage}"/>
