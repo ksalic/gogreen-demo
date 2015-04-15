@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="website" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:blueprint</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:description" sv:type="String">
+    <sv:value>New Website Blueprint</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:name" sv:type="String">
+    <sv:value>Website</sv:value>
+  </sv:property>
+  <sv:node sv:name="hst:site">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hst:channel">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:devices" sv:type="String">
+      <sv:value>desktop</sv:value>
+      <sv:value>ipad_landscape</sv:value>
+      <sv:value>ipad_portrait</sv:value>
+      <sv:value>iphone_landscape</sv:value>
+      <sv:value>iphone_portrait</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>English Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/gogreenlogo2.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Go Green</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/hippo-green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hst:configuration">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:inheritsfrom" sv:type="String">
+      <sv:value>../common</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:pages">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:pages</sv:value>
+      </sv:property>
+      </sv:node>
+    <sv:node sv:name="hst:workspace">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:workspace</sv:value>
+      </sv:property>
+      <sv:node sv:name="hst:containers">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponentfolder</sv:value>
+        </sv:property>
+        <sv:node sv:name="standardpage">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="homepage">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="home-top">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-08T14:36:09.897+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="bannercarousel">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.BannerCarousel</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>banner4</sv:value>
+                <sv:value>banner5</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>banner3</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value/>
+                <sv:value/>
+                <sv:value>common/banners/carousel/10-simple-steps-to-green-your-office</sv:value>
+                <sv:value>common/banners/carousel/is-a-smart-thermostat-worth-the-investment</sv:value>
+                <sv:value>common/banners/carousel/how-to-green-your-dorm-room</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.bannercarousel</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="home-bottom">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-09-19T16:33:59.235+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="latestevents">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.LatestItems</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>limit</sv:value>
+                <sv:value>scope</sv:value>
+                <sv:value>orderBy</sv:value>
+                <sv:value>nodetype</sv:value>
+                <sv:value>sortOrder</sv:value>
+                <sv:value>constraint</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>4</sv:value>
+                <sv:value>events</sv:value>
+                <sv:value>hippogogreen:enddate</sv:value>
+                <sv:value>hippogogreen:event</sv:value>
+                <sv:value>ascending</sv:value>
+                <sv:value>upcoming</sv:value>
+                <sv:value>null</sv:value>
+                <sv:value>Upcoming events</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.latest</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="home-main">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-09-19T16:39:12.931+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="bannercollection">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.BannerCollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner-carousel.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner Collection</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>banner4</sv:value>
+                <sv:value>bannerType</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/text-banners/what-we-stand-for-4</sv:value>
+                <sv:value>vertical</sv:value>
+                <sv:value>common/banners/text-banners/what-we-stand-for-1</sv:value>
+                <sv:value>common/banners/text-banners/what-we-stand-for-2</sv:value>
+                <sv:value>common/banners/text-banners/what-we-stand-for-3</sv:value>
+                <sv:value>white</sv:value>
+                <sv:value>What we stand for</sv:value>
+                <sv:value>fa-leaf</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.bannercollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/solar-panel-product</sv:value>
+                <sv:value>blue</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>on</sv:value>
+                <sv:value>50</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="bannercollection2">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.BannerCollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner-carousel.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner Collection</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerType</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>banner4</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>images</sv:value>
+                <sv:value>common/banners/image-banners/home-category</sv:value>
+                <sv:value>common/banners/image-banners/office-category</sv:value>
+                <sv:value>common/banners/image-banners/outdoors-category</sv:value>
+                <sv:value/>
+                <sv:value>white</sv:value>
+                <sv:value>fa-leaf</sv:value>
+                <sv:value>Go Green</sv:value>
+                <sv:value>on</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>20</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.bannercollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="bannercollection3">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.BannerCollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner-carousel.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner Collection</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>banner4</sv:value>
+                <sv:value>bannerType</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/text-banners/value-for-shopping-4</sv:value>
+                <sv:value>horizontal</sv:value>
+                <sv:value>common/banners/text-banners/value-for-shopping-1</sv:value>
+                <sv:value>common/banners/text-banners/value-for-shopping-2</sv:value>
+                <sv:value>common/banners/text-banners/value-for-shopping-3</sv:value>
+                <sv:value>gray</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>on</sv:value>
+                <sv:value>on</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.bannercollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="news-overview">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/blogs-1</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="events-overview">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/events-1</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="events-detail">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/events-1</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="blogs-overview">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-28T11:35:07.233+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/misc-1</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="blogs-detail">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-28T11:35:07.233+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/blogs-1</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="products-overview">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/products-3</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="products-detail">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/products-3</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="about">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/blogs-3</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="search">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>common/banners/heroes/blogs-3</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="tagcloud">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.TagCloudComponent</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>tagCloudLocation</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>/tagclouds/searchtags</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.tagcloud</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hst:sitemenus">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenus</sv:value>
+        </sv:property>
+        <sv:node sv:name="mainnavigation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemenu</sv:value>
+          </sv:property>
+          <sv:node sv:name="Home">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>home</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="News">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:value>subname</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:value>Know</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>news</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="Blogs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:value>subname</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:value>Inspire</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>blogs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="Events">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:value>subname</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:value>Connect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>events</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="Products">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:value>subname</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:value>Discover</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>products</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="About">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:value>subname</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:value>Our story</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>about</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="FAQ">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:value>reselleronly</sv:value>
+            </sv:property>
+            <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>resellerfaq</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="aboutmenu">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemenu</sv:value>
+          </sv:property>
+          <sv:node sv:name="About">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:depth" sv:type="Long">
+              <sv:value>3</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:foldersonly" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>about</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:repobased" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="RSS">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>rss</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="API">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:depth" sv:type="Long">
+              <sv:value>3</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:foldersonly" sv:type="Boolean">
+              <sv:value>false</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>rest</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:repobased" sv:type="Boolean">
+              <sv:value>true</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="servicemenu">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemenu</sv:value>
+          </sv:property>
+          <sv:node sv:name="RSS">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>rss</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="API">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>rest</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="sectionsmenu">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemenu</sv:value>
+          </sv:property>
+          <sv:node sv:name="News &amp; Events">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>news</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="Jobs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>jobs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="Products">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>products</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="About">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>about</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="Mobile">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemenuitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountalias" sv:type="String">
+              <sv:value>mobile</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+              <sv:value>products</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hst:pages">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:pages</sv:value>
+        </sv:property>
+        </sv:node>
+      <sv:node sv:name="hst:sitemap">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemap</sv:value>
+        </sv:property>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="hst:sitemap">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemap</sv:value>
+      </sv:property>
+      <sv:node sv:name="news">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/news-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>news</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>news</sv:value>
+        </sv:property>
+        <sv:node sv:name="tags">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>tagclouds/newstags</sv:value>
+          </sv:property>
+          <sv:node sv:name="_any_">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemapitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+              <sv:value>hst:pages/news-overview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+              <sv:value>${parent}/newstags/${1}</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="faceted">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/news-overview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:refId" sv:type="String">
+            <sv:value>newsFacets</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}</sv:value>
+          </sv:property>
+          <sv:node sv:name="_any_">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemapitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+              <sv:value>hst:pages/news-overview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+              <sv:value>${parent}/${1}</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="events">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/events-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>events</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>events</sv:value>
+        </sv:property>
+        <sv:node sv:name="_any_.html">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/events-detail</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="root">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/homepage</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>home</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="importer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/importer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>importer</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="products">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/products-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>products</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>products/facetedproducts</sv:value>
+        </sv:property>
+        <sv:node sv:name="_any_">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/products-overview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="_any_.html">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/products-detail</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>products/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="blogs">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/blogs-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>blogs</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>blogs</sv:value>
+        </sv:property>
+        <sv:node sv:name="_any_.html">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/blogs-detail</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="_any_">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/blogs-overview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="search">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/search</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>search</sv:value>
+        </sv:property>
+        <sv:node sv:name="tags">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>tagclouds/searchtags</sv:value>
+          </sv:property>
+          <sv:node sv:name="_any_">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemapitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+              <sv:value>hst:pages/search</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+              <sv:value>${parent}/searchtags/${1}</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="faceted">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/search</sv:value>
+          </sv:property>
+          <sv:node sv:name="_any_">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemapitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+              <sv:value>hst:pages/search</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+              <sv:value>searchfacets/${1}</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="faq">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/faq</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>faqs</sv:value>
+        </sv:property>
+        <sv:node sv:name="_default_.html">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/faq-detail</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="_any_">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/error</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="about">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/about</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>about</sv:value>
+        </sv:property>
+        <sv:node sv:name="_any_">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/about</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="rss">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:components/rss-news</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+          <sv:value>scope</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+          <sv:value>news</sv:value>
+        </sv:property>
+        <sv:node sv:name="_any_">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:components/rss-news</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+            <sv:value>scope</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+            <sv:value>news</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="sitemap">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/sitemap</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>sitemap</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="rest">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/restapi-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:refId" sv:type="String">
+          <sv:value>restapi</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>restapi</sv:value>
+        </sv:property>
+        <sv:node sv:name="browser">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/restapi-browser</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>restapi/browser</sv:value>
+          </sv:property>
+          <sv:node sv:name="_any_.html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemapitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+              <sv:value>hst:pages/restapi-detail</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+              <sv:value>${parent}/${1}</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="documentation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/restapi-documentation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:refId" sv:type="String">
+            <sv:value>restapi-documentation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>restapi/documentation</sv:value>
+          </sv:property>
+          <sv:node sv:name="_any_.html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:sitemapitem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+              <sv:value>hst:pages/restapi-detail</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+              <sv:value>${parent}/${1}</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="resellerfaq">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:authenticated" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/faq</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>resellerfaqs</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hst:roles" sv:type="String">
+          <sv:value>reseller</sv:value>
+        </sv:property>
+        <sv:node sv:name="_default_.html">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemapitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+            <sv:value>hst:pages/faq-detail</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+            <sv:value>${parent}/${1}</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

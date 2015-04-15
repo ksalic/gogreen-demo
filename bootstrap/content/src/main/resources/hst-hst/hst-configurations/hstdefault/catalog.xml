@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="hst:catalog" h:merge="combine">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:catalog</sv:value>
+  </sv:property>
+  <sv:node sv:name="gogreen-and-mobile-catalog-items">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containeritempackage</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/catalog/component-banner-30x30.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>bannerlocation</sv:value>
+        <sv:value>bannerBackground</sv:value>
+        <sv:value>bannerIcon</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value/>
+        <sv:value>full</sv:value>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>common.banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

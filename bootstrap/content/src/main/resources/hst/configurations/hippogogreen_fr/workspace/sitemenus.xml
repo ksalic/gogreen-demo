@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sitemenus">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemenus</sv:value>
+  </sv:property>
+  <sv:node sv:name="mainnavigation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:node sv:name="Accueil">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>home</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Actualités">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>subname</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value>Savoir</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>actualites</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Blogs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>subname</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value>Inspirer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>blogs</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Évènements">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>subname</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value>Relier</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>evenements</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Produits">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>subname</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value>Découvrez</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>produits</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="À propos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>subname</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value>Notre histoire</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>a-propos</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="servicemenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:node sv:name="RSS">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>rss</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="sectionsmenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:node sv:name="Actualités">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>actualites</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Blogs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>blogs</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Évènements">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>evenements</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Produits">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>produits</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="À propos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>a-propos</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Mobile">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:mountalias" sv:type="String">
+        <sv:value>mobile-fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>produits</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="aboutmenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:node sv:name="À propos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:depth" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:foldersonly" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>a-propos</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
