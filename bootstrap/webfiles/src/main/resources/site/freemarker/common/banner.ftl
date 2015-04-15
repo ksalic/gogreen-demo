@@ -1,20 +1,20 @@
 <#include "../include/imports.ftl">
 <#if  document??>
 
-<c:if test="${not empty title}">
+<#if  title??>
   <div class="row">
     <div class="col-md-12 col-sm-12">
       <h2 class="h2-section-title">
-        <c:out value="${title}"/>
+        ${title}
       </h2>
-      <c:if test="${not empty icon}">
+      <#if  icon??>
         <div class="i-section-title">
-          <i class="fa <c:out value="${icon}"/>"></i>
+          <i class="fa  ${icon}"></i>
         </div>
-      </c:if>
+      </#if>
     </div>
   </div>
-</c:if>
+</#if>
 
 <c:choose>
   <c:when test="${bannerBackground == 'blue'}">
@@ -126,8 +126,6 @@
 <c:if test="${not empty separatorMargin or not empty cssClass}">
   <div class="space-sep<c:out value="${separatorMargin} ${cssClass}"/>"></div>
 </c:if>
-<#else>
-<c:if test="${preview}">
+<#elseif preview??>
   <h2 class="not-configured">Click to configure banner</h2>
-</c:if>
 </#if>
