@@ -8,16 +8,6 @@
         <li data-transition="fade" data-slotamount="2" data-masterspeed="300">
           <img src="<@hst.link hippobean=banner.image.original/>" alt="rev-full1" data-fullwidthcentering="on">
           <@hst.cmseditlink hippobean=banner/>
-
-          <div class="tp-caption big_white large_text sft" data-x="38" data-y="72" data-start="0" data-easing="easeOutBack">
-          <#--${banner.title}-->
-          </div>
-          <div class="tp-caption revolution-subtext sfb" data-x="38" data-y="136" data-start="0" data-easing="easeOutBack">
-          <#--${banner.text}-->
-          </div>
-          <div>
-            <a href="<@hst.link hippobean=banner.docLink/>" class="link-overlay"></a>
-          </div>
         </li>
       </#list>
 
