@@ -314,6 +314,9 @@ bootstrap/content/src/main/resources/security/user-sitewriter.xml -text
 bootstrap/pom.xml -text
 bootstrap/webfiles/pom.xml -text
 bootstrap/webfiles/src/main/resources/hippoecm-extension.xml -text
+bootstrap/webfiles/src/main/resources/site/freemarker/common/bannercarousel.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/include/imports.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/include/pagination.ftl -text
 cms/conf/context.xml -text
 cms/conf/log4j-dev.xml -text
 cms/conf/log4j-prod.xml -text
@@ -946,7 +949,6 @@ site/src/main/webapp/WEB-INF/jsp/common-events/main.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common-events/right.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common-events/simple.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/banner.jsp -text
-site/src/main/webapp/WEB-INF/jsp/common/bannercarousel.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/bannercollection.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/comments.jsp -text
 site/src/main/webapp/WEB-INF/jsp/common/detailpage-inline-edit-result.jsp -text
