@@ -16,24 +16,22 @@
   </div>
 </#if>
 
-<c:choose>
-  <c:when test="${bannerBackground == 'blue'}">
-    <c:set var="cssClasses">section-color-dark-blue white-text</c:set>
-  </c:when>
-  <c:when test="${bannerBackground == 'full'}">
-    <c:set var="imageSrc">
-      <hst:link hippobean="${document.image.original}"/>
-    </c:set>
-    <div class="banner-component section-content full-banner no-padding" style="background-image: url('${imageSrc}')">
-      <hst:cmseditlink hippobean="${document}"/>
-    </div>
-  </c:when>
-  <c:otherwise>
-    <c:set var="cssClasses">no-padding</c:set>
-  </c:otherwise>
-</c:choose>
+<#if bannerBackground??>
+  <#if bannerBackground == 'blue'>
+    <#assign cssClasses>section-color-dark-blue white-text</#assign>
+  </#if>
+  <#elseif bannerBackground == 'full'>
+  <#assign imageSrc>
+    <@hst.link hippobean=document.image.original/>
+  </#assign>
+  <div class="banner-component section-content full-banner no-padding" style="background-image: url('${imageSrc}')">
+  <@hst.cmseditlink hippobean=document/>
+  </div>
+  <#else>
+  <#assign  cssClasses>no-padding</#assign>
+</#if>
+  <#if bannerBackground??>
 
-<c:if test="${bannerBackground ne 'full'}">
   <div class="banner-component section-content <c:out value="${cssClasses}"/>">
   <div class="container">
     <div class="row">
@@ -115,7 +113,7 @@
     </c:if>
 
   </div>
-</c:if>
+</#if>
 
 <c:if test="${separatorBorderTop}">
   <c:set var="cssClass"> border-top</c:set>
