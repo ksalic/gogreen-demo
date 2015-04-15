@@ -33,7 +33,6 @@
     <#assign  cssClasses>no-padding</#assign>
   </#if>
   <#if bannerBackground??>
-
   <div class="banner-component section-content ${cssClasses}">
     <div class="container">
       <div class="row">
@@ -48,7 +47,7 @@
               </a></h2>
             <#else>
               <h2 class="h2-section-title">
-                {document.title}
+                ${document.title}
               </h2>
             </#if>
 
@@ -87,8 +86,7 @@
           <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
             <div class="align-center">
               <#if document.image??>
-                <img src="<@hst.link hippobean=document.image.banner/>" alt="
-              <@fmt.message key="document.image.alt"/>" class="img-responsive"/>
+                <img src="<@hst.link hippobean=document.image.banner/>" alt="" class="img-responsive"/>
               </#if>
             </div>
           </div>
