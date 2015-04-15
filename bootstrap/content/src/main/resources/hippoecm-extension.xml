@@ -1398,12 +1398,23 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/content/documents/hippo-geht-gruen</sv:value>
     </sv:property>
   </sv:node>
-    
-    
-    
-    
-  
-    
+
+
+  <sv:node sv:name="hippogogreen-webfiles">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>security/webfiles.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:domains</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30002</sv:value>
+    </sv:property>
+  </sv:node>
+
   <sv:node sv:name="hippogogreen-user-editor">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
