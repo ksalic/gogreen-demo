@@ -1,47 +1,47 @@
 <#include "../include/imports.ftl">
 <#if banners??>
-  <div class="rev-slider-full">
-    <div class="rev-slider-banner-full rev-slider-full">
-      <ul>
-        <#list banners as banner >
+<div class="rev-slider-full">
+  <div class="rev-slider-banner-full rev-slider-full">
+    <ul>
+      <#list banners as banner >
 
-          <li data-transition="fade" data-slotamount="2" data-masterspeed="300">
-            <img src="<@hst.link hippobean=banner.image.original/>" alt="rev-full1" data-fullwidthcentering="on">
-            <@hst.cmseditlink hippobean=banner/>
+        <li data-transition="fade" data-slotamount="2" data-masterspeed="300">
+          <img src="<@hst.link hippobean=banner.image.original/>" alt="rev-full1" data-fullwidthcentering="on">
+          <@hst.cmseditlink hippobean=banner/>
 
-            <div class="tp-caption big_white large_text sft" data-x="38" data-y="72" data-start="0" data-easing="easeOutBack">
-              <c:out value="${banner.title}"/>
-            </div>
-            <div class="tp-caption revolution-subtext sfb" data-x="38" data-y="136" data-start="0" data-easing="easeOutBack">
-              <c:out value="${banner.text}"/>
-            </div>
-            <div>
-              <a href="<@hst.link hippobean=banner.docLink/>" class="link-overlay"></a>
-            </div>
-          </li>
-        </#list>
+          <div class="tp-caption big_white large_text sft" data-x="38" data-y="72" data-start="0" data-easing="easeOutBack">
+          ${banner.title}
+          </div>
+          <div class="tp-caption revolution-subtext sfb" data-x="38" data-y="136" data-start="0" data-easing="easeOutBack">
+          ${banner.text}
+          </div>
+          <div>
+            <a href="<@hst.link hippobean=banner.docLink/>" class="link-overlay"></a>
+          </div>
+        </li>
+      </#list>
 
-      </ul>
-      <div class="tp-bannertimer tp-bottom"></div>
-    </div>
+    </ul>
+    <div class="tp-bannertimer tp-bottom"></div>
   </div>
+</div>
 </#if>
 <#if banners?? && preview??>
-  <h2 class="not-configured">Click to configure banner carousel</h2>
+<h2 class="not-configured">Click to configure banner carousel</h2>
 </#if>
 
 <#if preview??>
-  <script>
-    // show slider again if component is reloaded in channel manager
-    $(document).ready(function () {
-      window.setTimeout(function () {
-        // only call slider initialization if it is not yet initialised
-        var $slider = $('.rev-slider-banner-full').not('.revslider-initialised');
-        if ($slider.length > 0) {
-          initializeSlider($slider);
-        }
-      }, 100)
+<script>
+  // show slider again if component is reloaded in channel manager
+  $(document).ready(function () {
+    window.setTimeout(function () {
+      // only call slider initialization if it is not yet initialised
+      var $slider = $('.rev-slider-banner-full').not('.revslider-initialised');
+      if ($slider.length > 0) {
+        initializeSlider($slider);
+      }
+    }, 100)
 
-    })
-  </script>
+  })
+</script>
 </#if>
