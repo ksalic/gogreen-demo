@@ -32,10 +32,10 @@
 </#if>
   <#if bannerBackground??>
 
-  <div class="banner-component section-content <c:out value="${cssClasses}"/>">
+  <div class="banner-component section-content ${cssClasses}">
   <div class="container">
     <div class="row">
-      <hst:cmseditlink hippobean="${document}"/>
+      <@hst.cmseditlink hippobean=document/>
 
       <c:choose>
         <c:when test="${bannerBackground == 'blue'}">
@@ -44,7 +44,7 @@
 
             <c:choose>
               <c:when test="${not empty document.docLink}">
-                <h2 class="h2-section-title"><a href="<hst:link hippobean="${document.docLink}"/>">
+                <h2 class="h2-section-title"><a href="<@hst.link hippobean=document.docLink/>">
                   <c:out value="${document.title}"/>
                   </a></h2>
               </c:when>
@@ -62,7 +62,7 @@
 
           <div class="col-md-6 col-sm-6 animated fadeInRightBig animatedVisi" data-animtype="fadeInRightBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
             <div class="right-image-container">
-              <img src="<hst:link hippobean="${document.image.banner}"/>" alt="" />
+              <img src="<@hst.link hippobean=document.image.banner/>" alt="" />
             </div>
           </div>
         </c:when>
@@ -70,7 +70,7 @@
           <div class="col-md-12 col-sm-12 animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
             <c:choose>
               <c:when test="${not empty document.docLink}">
-                <h2 class="h2-section-title"><a href="<hst:link hippobean="${document.docLink}"/>">
+                <h2 class="h2-section-title"><a href="<@hst.link hippobean=document.docLink/>">
                   <c:out value="${document.title}"/>
                   </a></h2>
               </c:when>
@@ -103,9 +103,8 @@
         <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
           <div class="align-center">
             <c:if test="${not empty document.image}">
-              <img src="<hst:link hippobean="${document.image.banner}"/>" alt="
-              <fmt:message key="document.image.alt"/>
-              " class="img-responsive"/>
+              <img src="<@hst.link hippobean=document.image.banner/>" alt="
+              <@fmt.message key="document.image.alt"/>" class="img-responsive"/>
             </c:if>
           </div>
         </div>
