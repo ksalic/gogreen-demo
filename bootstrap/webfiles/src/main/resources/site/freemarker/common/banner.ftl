@@ -42,21 +42,19 @@
           <div class="col-md-6 col-sm-6 animated fadeInLeftBig animatedVisi" data-animtype="fadeInLeftBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
             <div class="space-sep100"></div>
 
-            <c:choose>
-              <c:when test="${not empty document.docLink}">
+              <#if  document.docLink??>
                 <h2 class="h2-section-title"><a href="<@hst.link hippobean=document.docLink/>">
-                  <c:out value="${document.title}"/>
+                  ${document.title}
                   </a></h2>
-              </c:when>
-              <c:otherwise>
+              <#else>
                 <h2 class="h2-section-title">
-                  <c:out value="${document.title}"/>
+                  {document.title}
                 </h2>
-              </c:otherwise>
-            </c:choose>
+              </#if>
+
 
             <h3 class="h3-section-info">
-              <c:out value="${document.text}"/>
+              ${document.text}
             </h3>
           </div>
 
@@ -71,12 +69,12 @@
             <c:choose>
               <c:when test="${not empty document.docLink}">
                 <h2 class="h2-section-title"><a href="<@hst.link hippobean=document.docLink/>">
-                  <c:out value="${document.title}"/>
+                  ${document.title}
                   </a></h2>
               </c:when>
               <c:otherwise>
                 <h2 class="h2-section-title">
-                  <c:out value="${document.title}"/>
+                  ${document.title}
                 </h2>
               </c:otherwise>
             </c:choose>
@@ -90,7 +88,7 @@
             </c:if>
 
             <h3 class="h3-section-info">
-              <c:out value="${document.text}"/>
+              ${document.text}
             </h3>
           </div>
         </c:otherwise>
@@ -121,7 +119,7 @@
   <c:set var="cssClass">${cssClass} border-bottom</c:set>
 </c:if>
 <c:if test="${not empty separatorMargin or not empty cssClass}">
-  <div class="space-sep<c:out value="${separatorMargin} ${cssClass}"/>"></div>
+  <div class="space-sep ${separatorMargin} ${cssClass}"/>"></div>
 </c:if>
 <#elseif preview??>
   <h2 class="not-configured">Click to configure banner</h2>
