@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *         http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,8 +15,6 @@
  */
 
 package com.onehippo.gogreen.components.common;
-
-import com.onehippo.gogreen.components.BaseComponent;
 
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstRequest;
@@ -36,15 +34,12 @@ public class Banner extends BaseLayout {
         super.doBeforeRender(request, response);
         final HstRequestContext ctx = request.getRequestContext();
         BannerParamsInfo paramsInfo = getComponentParametersInfo(request);
-
         String bannerLocation = paramsInfo.getBannerLocation();
-        request.setAttribute("bannerBackground", paramsInfo.getBannerBackground());
-
-        log.debug("banner location specified in hst is " + bannerLocation);
+        log.debug("banner location specified in hst is {}", bannerLocation);
 
         final HippoBean document = ctx.getSiteContentBaseBean().getBean(bannerLocation);
 
-        log.debug("banner document is " + document);
+        log.debug("banner document is {}", document);
 
         if (document == null) {
             return;

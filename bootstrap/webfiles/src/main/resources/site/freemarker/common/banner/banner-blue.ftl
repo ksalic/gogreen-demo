@@ -1,4 +1,4 @@
-<#include "../include/imports.ftl">
+<#include "../../include/imports.ftl">
 <#if  document??>
   <#if  title??>
   <div class="row">
@@ -14,33 +14,19 @@
     </div>
   </div>
   </#if>
-
-
-
-  <div class="banner-component section-content full-banner no-padding" style="background-image: url('<@hst.link hippobean=document.image.original/>')">
-    <@hst.cmseditlink hippobean=document/>
-  </div>
-
-
-  <div class="banner-component section-content">
+  <div class="banner-component section-content section-color-dark-blue white-text">
     <div class="container">
       <div class="row">
         <@hst.cmseditlink hippobean=document/>
-          <div class="col-md-12 col-sm-12 animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
-            <#if document.docLink??>
-            <h2 class="h2-section-title"><a href="<@hst.link hippobean=document.docLink/>">
-            ${document.title}
-            <#else>
-              <h2 class="h2-section-title">
-              ${document.title}
-              </h2>
-            </#if>
-            <#if bannerIcon??>
-              <div class="i-section-title"><i class="fa ${bannerIcon}"></i></div>
-            </#if>
-            <h3 class="h3-section-info">${document.text}</h3>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
+            <div class="align-center">
+              <#if document.image??>
+                <img src="<@hst.link hippobean=document.image.banner/>" alt="" class="img-responsive"/>
+              </#if>
+            </div>
           </div>
-      </div>
+        </div>
     </div>
 
   <#if separatorBorderTop>
