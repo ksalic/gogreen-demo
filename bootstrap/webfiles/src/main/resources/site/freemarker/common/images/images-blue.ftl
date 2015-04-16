@@ -38,10 +38,10 @@
     </div>
   </div>
 </div>
-  <#if test="${separatorBorderTop}">
+  <#if separatorBorderTop??>
     <#assign cssClass> border-top</#assign>
   </#if>
-  <#if test="${separatorBorderBottom}">
+  <#if separatorBorderBottom??>
     <#assign cssClass>${cssClass} border-bottom</#assign>
   </#if>
 
@@ -56,4 +56,3 @@
 <#elseif preview??>
 <h2 class="not-configured">Click to configure Image component</h2>
 </#if>
-

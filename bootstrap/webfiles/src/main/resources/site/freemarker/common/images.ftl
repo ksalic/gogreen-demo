@@ -25,8 +25,8 @@
               <a href="<@hst.link hippobean=doc/>">
                 <#if image.alt??>
                   <img src="<@hst.link hippobean=image.largeThumbnail/>" alt="${image.alt}">
-                  <#else>
-                    <img src="<@hst.link hippobean=image.largeThumbnail/>">
+                <#else>
+                  <img src="<@hst.link hippobean=image.largeThumbnail/>">
                 </#if>
               </a>
               <@hst.cmseditlink hippobean=doc/>
@@ -37,10 +37,10 @@
     </div>
   </div>
 </div>
-  <#if test="${separatorBorderTop}">
+  <#if separatorBorderTop??>
     <#assign cssClass> border-top</#assign>
   </#if>
-  <#if test="${separatorBorderBottom}">
+  <#if separatorBorderBottom??>
     <#assign cssClass>${cssClass} border-bottom</#assign>
   </#if>
 
@@ -55,4 +55,3 @@
 <#elseif preview??>
 <h2 class="not-configured">Click to configure Image component</h2>
 </#if>
-

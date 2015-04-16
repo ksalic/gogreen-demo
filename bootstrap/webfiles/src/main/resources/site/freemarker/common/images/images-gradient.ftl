@@ -37,22 +37,21 @@
     </div>
   </div>
 </div>
-  <#if test="${separatorBorderTop}">
+  <#if separatorBorderTop??>
     <#assign cssClass> border-top</#assign>
   </#if>
-  <#if test="${separatorBorderBottom}">
+  <#if separatorBorderBottom??>
     <#assign cssClass>${cssClass} border-bottom</#assign>
   </#if>
 
   <#if separatorMargin?? && cssClass??>
-    <div class="space-sep ${separatorMargin} ${cssClass}"></div>
+  <div class="space-sep ${separatorMargin} ${cssClass}"></div>
   <#elseif separatorMargin??>
-    <div class="space-sep ${separatorMargin}"></div>
+  <div class="space-sep ${separatorMargin}"></div>
   <#elseif cssClass??>
-    <div class="space-sep ${cssClass}"></div>
+  <div class="space-sep ${cssClass}"></div>
   </#if>
 
 <#elseif preview??>
-  <h2 class="not-configured">Click to configure Image component</h2>
+<h2 class="not-configured">Click to configure Image component</h2>
 </#if>
-

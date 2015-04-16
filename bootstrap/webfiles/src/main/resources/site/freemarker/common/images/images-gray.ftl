@@ -37,10 +37,10 @@
     </div>
   </div>
 </div>
-<#if test="${separatorBorderTop}">
+<#if separatorBorderTop??>
   <#assign cssClass> border-top</#assign>
 </#if>
-<#if test="${separatorBorderBottom}">
+<#if separatorBorderBottom??>
   <#assign cssClass>${cssClass} border-bottom</#assign>
 </#if>
 
