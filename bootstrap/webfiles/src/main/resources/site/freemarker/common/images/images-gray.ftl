@@ -1,4 +1,4 @@
-<#include ".../../include/imports.ftl">
+<#include "../../include/imports.ftl">
 <#if images??>
   <#if  title??>
   <div class="row">
