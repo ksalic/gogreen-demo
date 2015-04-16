@@ -201,40 +201,40 @@
       </sv:property>
       <sv:property sv:name="hst:script" sv:type="String">
         <sv:value>
-&lt;#--
+          &lt;#--
 
-    Copyright (C) 2010 Hippo B.V.
+          Copyright (C) 2010 Hippo B.V.
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
-            http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
 
---&gt;
+          --&gt;
 
-&lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
-&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+          &lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
+          &lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
 
-&lt;div id="bd" class="yui-t1"&gt;
-   
-    &lt;!-- left --&gt;
-    &lt;@hst.include ref="left"/&gt;
-    
-    &lt;!-- content --&gt;
-    &lt;@hst.include ref="content"/&gt;
-    
-    &lt;!-- right --&gt;
-    &lt;@hst.include ref="right"/&gt;
-   
-&lt;/div&gt;
-      </sv:value>
+          &lt;div id="bd" class="yui-t1"&gt;
+
+          &lt;!-- left --&gt;
+          &lt;@hst.include ref="left"/&gt;
+
+          &lt;!-- content --&gt;
+          &lt;@hst.include ref="content"/&gt;
+
+          &lt;!-- right --&gt;
+          &lt;@hst.include ref="right"/&gt;
+
+          &lt;/div&gt;
+        </sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="about.leftmenu">
@@ -262,146 +262,146 @@
       </sv:property>
       <sv:property sv:name="hst:script" sv:type="String">
         <sv:value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
-&lt;#--
+          &lt;#--
 
-    Copyright 2010-2014 Hippo B.V. (http://www.onehippo.com)
+          Copyright 2010-2014 Hippo B.V. (http://www.onehippo.com)
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
-            http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
 
---&gt;
-&lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
-&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
-&lt;#assign ga=JspTaglibs["http://www.onehippo.org/jsp/google-analytics"]&gt;
+          --&gt;
+          &lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
+          &lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+          &lt;#assign ga=JspTaglibs["http://www.onehippo.org/jsp/google-analytics"]&gt;
 
-&lt;@hst.defineObjects /&gt;
+          &lt;@hst.defineObjects /&gt;
 
-&lt;#assign lang="${hstRequest.locale.language!}" /&gt;
-&lt;#assign textSize="" /&gt;
-&lt;#if hstRequest.cookies?has_content&gt;
-  &lt;#list hstRequest.cookies as cookie&gt;
-    &lt;#if cookie.name == "fontSize"&gt;
-      &lt;#assign textSize="${cookie.value}" /&gt;
-    &lt;/#if&gt;
-  &lt;/#list&gt;
-&lt;/#if&gt;
+          &lt;#assign lang="${hstRequest.locale.language!}" /&gt;
+          &lt;#assign textSize="" /&gt;
+          &lt;#if hstRequest.cookies?has_content&gt;
+          &lt;#list hstRequest.cookies as cookie&gt;
+          &lt;#if cookie.name == "fontSize"&gt;
+          &lt;#assign textSize="${cookie.value}" /&gt;
+          &lt;/#if&gt;
+          &lt;/#list&gt;
+          &lt;/#if&gt;
 
-&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="${lang}"&gt;
-&lt;head&gt;
-    &lt;@hst.headContributions categoryExcludes="css,jsInternal,jsExternal,scripts"/&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html;charset=utf-8" /&gt;
-    &lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;
-    &lt;link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" /&gt;
-    &lt;meta name="DC.keywords" content="&lt;@fmt.message key="layout.webpage.metadckeywords"/&gt;" /&gt;
-    &lt;meta name="description" content="&lt;@fmt.message key="layout.webpage.metadescription"/&gt;" /&gt;
-    &lt;meta name="DC.type" content="webpagina" scheme="DCMIType" /&gt;
-    &lt;meta name="DCTERMS.issued" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" /&gt;
-    &lt;meta name="DCTERMS.available" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" /&gt;
-    &lt;meta name="DC.title" content="&lt;@fmt.message key="layout.webpage.metadctitle"/&gt;" /&gt;
-    &lt;meta name="DC.language" content="${lang}" scheme="DCTERMS.RFC3066" /&gt;
+          &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="${lang}"&gt;
+          &lt;head&gt;
+          &lt;@hst.headContributions categoryExcludes="css,jsInternal,jsExternal,scripts"/&gt;
+          &lt;meta http-equiv="Content-Type" content="text/html;charset=utf-8" /&gt;
+          &lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;
+          &lt;link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" /&gt;
+          &lt;meta name="DC.keywords" content="&lt;@fmt.message key="layout.webpage.metadckeywords"/&gt;" /&gt;
+          &lt;meta name="description" content="&lt;@fmt.message key="layout.webpage.metadescription"/&gt;" /&gt;
+          &lt;meta name="DC.type" content="webpagina" scheme="DCMIType" /&gt;
+          &lt;meta name="DCTERMS.issued" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" /&gt;
+          &lt;meta name="DCTERMS.available" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" /&gt;
+          &lt;meta name="DC.title" content="&lt;@fmt.message key="layout.webpage.metadctitle"/&gt;" /&gt;
+          &lt;meta name="DC.language" content="${lang}" scheme="DCTERMS.RFC3066" /&gt;
 
-    &lt;@hst.link var="yuicss" path="/css/yui-css.css"/&gt;
-    &lt;link rel="stylesheet" media="screen" type="text/css" href="${yuicss}"/&gt;
+          &lt;@hst.link var="yuicss" path="/css/yui-css.css"/&gt;
+          &lt;link rel="stylesheet" media="screen" type="text/css" href="${yuicss}"/&gt;
 
-    &lt;@hst.link var="screencss" path="/css/screen.css"/&gt;
-    &lt;link rel="stylesheet" media="screen" type="text/css" href="${screencss}"/&gt;
+          &lt;@hst.link var="screencss" path="/css/screen.css"/&gt;
+          &lt;link rel="stylesheet" media="screen" type="text/css" href="${screencss}"/&gt;
 
-    &lt;@hst.link var="themecss" path="/binaries${hstRequest.requestContext.resolvedMount.mount.channelInfo.themeCss}"/&gt;
-    &lt;link rel="stylesheet" media="screen" type="text/css" href="${themecss}"/&gt;
+          &lt;@hst.link var="themecss" path="/binaries${hstRequest.requestContext.resolvedMount.mount.channelInfo.themeCss}"/&gt;
+          &lt;link rel="stylesheet" media="screen" type="text/css" href="${themecss}"/&gt;
 
-    &lt;#if loggedin&gt;
-      &lt;@hst.link var="resellercss" path="/css/reseller.css"/&gt;
-      &lt;link rel="stylesheet" media="screen" type="text/css" href="${resellercss}"/&gt;
-    &lt;/#if&gt;
+          &lt;#if loggedin&gt;
+          &lt;@hst.link var="resellercss" path="/css/reseller.css"/&gt;
+          &lt;link rel="stylesheet" media="screen" type="text/css" href="${resellercss}"/&gt;
+          &lt;/#if&gt;
 
-    &lt;@hst.headContributions categoryIncludes="css"/&gt;
+          &lt;@hst.headContributions categoryIncludes="css"/&gt;
 
-    &lt;@hst.link var="jquery" path="/js/jquery-1.4.2.min.js"/&gt;
-    &lt;script src="${jquery}" type="text/javascript"&gt;&lt;/script&gt;
+          &lt;@hst.link var="jquery" path="/js/jquery-1.4.2.min.js"/&gt;
+          &lt;script src="${jquery}" type="text/javascript"&gt;&lt;/script&gt;
 
-    &lt;@hst.link var="favicon" path="/images/favicon.ico"/&gt;
-    &lt;link rel="icon" href="${favicon}" type="image/x-icon"/&gt;
-    &lt;link rel="shortcut icon" href="${favicon}" type="image/x-icon"/&gt;
+          &lt;@hst.link var="favicon" path="/images/favicon.ico"/&gt;
+          &lt;link rel="icon" href="${favicon}" type="image/x-icon"/&gt;
+          &lt;link rel="shortcut icon" href="${favicon}" type="image/x-icon"/&gt;
 
-    &lt;@hst.link var="appletouchicon" path="/images/apple-touch-icon.png"/&gt;
-    &lt;link rel="apple-touch-icon" href="${appletouchicon}"/&gt;
+          &lt;@hst.link var="appletouchicon" path="/images/apple-touch-icon.png"/&gt;
+          &lt;link rel="apple-touch-icon" href="${appletouchicon}"/&gt;
 
-    &lt;!--[if lte IE 7]&gt;
-       &lt;@hst.link var="ie7css" path="/css/ie7.css"/&gt;
-       &lt;link rel="stylesheet" media="screen" type="text/css" href="${ie7css}"&gt;
-       &lt;script type="text/javascript"&gt;ie7 = true;&lt;/script&gt;
-    &lt;![endif]--&gt;
+          &lt;!--[if lte IE 7]&gt;
+          &lt;@hst.link var="ie7css" path="/css/ie7.css"/&gt;
+          &lt;link rel="stylesheet" media="screen" type="text/css" href="${ie7css}"&gt;
+          &lt;script type="text/javascript"&gt;ie7 = true;&lt;/script&gt;
+          &lt;![endif]--&gt;
 
-    &lt;!--
-        &lt;@hst.link var="print" path="/css/print.css"/&gt;
-        &lt;link rel="stylesheet" media="print" type="text/css" href="${print}"&gt;
-     --&gt;
+          &lt;!--
+          &lt;@hst.link var="print" path="/css/print.css"/&gt;
+          &lt;link rel="stylesheet" media="print" type="text/css" href="${print}"&gt;
+          --&gt;
 
-    &lt;@hst.link var="rssHref" path="/rss" /&gt;
-    &lt;@fmt.message var="rssTitle" key="standard.header.rss"/&gt;
-    &lt;link rel="alternate" type="application/rss+xml" title="${rssTitle}" href="${rssHref}"/&gt;
+          &lt;@hst.link var="rssHref" path="/rss" /&gt;
+          &lt;@fmt.message var="rssTitle" key="standard.header.rss"/&gt;
+          &lt;link rel="alternate" type="application/rss+xml" title="${rssTitle}" href="${rssHref}"/&gt;
 
-&lt;/head&gt;
-&lt;body&lt;#if textSize != ""&gt; style="font-size: ${textSize}px;"&lt;/#if&gt;&gt;
-&lt;!-- document wrapper --&gt;
+          &lt;/head&gt;
+          &lt;body&lt;#if textSize != ""&gt; style="font-size: ${textSize}px;"&lt;/#if&gt;&gt;
+          &lt;!-- document wrapper --&gt;
 
-&lt;!--[if lte IE 6]&gt;
-&lt;div id="ie6-warning"&gt;
-  &lt;a href="http://www.onehippo.org/cms7"&gt;&lt;img src="&lt;@hst.link path="/images/logo-hippo2.png"/&gt;" alt="&lt;@fmt.message key="layout.webpage.hippologoalt"/&gt;" /&gt;&lt;/a&gt;
-  &lt;p&gt;&lt;@fmt.message key="layout.webpage.welcome"/&gt;&lt;/p&gt;
-  &lt;p&gt;&lt;@fmt.message key="layout.webpage.unsupportedbrowser"/&gt;&lt;/p&gt;
-  &lt;ul class="bullet-points"&gt;
-    &lt;li&gt;&lt;a href="http://getfirefox.com"&gt;&lt;@fmt.message key="layout.webpage.firefox"/&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.opera.com/download"&gt;&lt;@fmt.message key="layout.webpage.opera"/&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.google.com/chrome"&gt;&lt;@fmt.message key="layout.webpage.chrome"/&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.microsoft.com/windows/downloads/ie/getitnow.mspx"&gt;&lt;@fmt.message key="layout.webpage.ie8"/&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;![endif]--&gt;
+          &lt;!--[if lte IE 6]&gt;
+          &lt;div id="ie6-warning"&gt;
+          &lt;a href="http://www.onehippo.org/cms7"&gt;&lt;img src="&lt;@hst.link path="/images/logo-hippo2.png"/&gt;" alt="&lt;@fmt.message key="layout.webpage.hippologoalt"/&gt;" /&gt;&lt;/a&gt;
+          &lt;p&gt;&lt;@fmt.message key="layout.webpage.welcome"/&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;@fmt.message key="layout.webpage.unsupportedbrowser"/&gt;&lt;/p&gt;
+          &lt;ul class="bullet-points"&gt;
+          &lt;li&gt;&lt;a href="http://getfirefox.com"&gt;&lt;@fmt.message key="layout.webpage.firefox"/&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="http://www.opera.com/download"&gt;&lt;@fmt.message key="layout.webpage.opera"/&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="http://www.google.com/chrome"&gt;&lt;@fmt.message key="layout.webpage.chrome"/&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="http://www.microsoft.com/windows/downloads/ie/getitnow.mspx"&gt;&lt;@fmt.message key="layout.webpage.ie8"/&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;![endif]--&gt;
 
-&lt;div id="doc" class="yui-d-custom"&gt;
-    &lt;div id="wrapper"&gt;
-        &lt;div id="wrapper2"&gt;
-            &lt;!-- header --&gt;
-            &lt;@hst.include ref="header"/&gt;
+          &lt;div id="doc" class="yui-d-custom"&gt;
+          &lt;div id="wrapper"&gt;
+          &lt;div id="wrapper2"&gt;
+          &lt;!-- header --&gt;
+          &lt;@hst.include ref="header"/&gt;
 
-            &lt;!-- body / main --&gt;
-            &lt;@hst.include ref="main"/&gt;
+          &lt;!-- body / main --&gt;
+          &lt;@hst.include ref="main"/&gt;
 
-            &lt;!-- footer --&gt;
-            &lt;@hst.include ref="footer"/&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id="ft-disclaimer"&gt;
-  &lt;@fmt.message key="layout.webpage.disclaimer"&gt;
-    &lt;@fmt.param&gt;&lt;a href="http://www.onehippo.com/en/why-hippo-cms"&gt;&lt;/@fmt.param&gt;
-    &lt;@fmt.param&gt;&lt;a href="https://issues.onehippo.com/browse/GOGREEN"&gt;&lt;/@fmt.param&gt;
-    &lt;@fmt.param&gt;&lt;/a&gt;&lt;/@fmt.param&gt;
-  &lt;/@fmt.message&gt;
-&lt;/div&gt;
+          &lt;!-- footer --&gt;
+          &lt;@hst.include ref="footer"/&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div id="ft-disclaimer"&gt;
+          &lt;@fmt.message key="layout.webpage.disclaimer"&gt;
+          &lt;@fmt.param&gt;&lt;a href="http://www.onehippo.com/en/why-hippo-cms"&gt;&lt;/@fmt.param&gt;
+          &lt;@fmt.param&gt;&lt;a href="https://issues.onehippo.com/browse/GOGREEN"&gt;&lt;/@fmt.param&gt;
+          &lt;@fmt.param&gt;&lt;/a&gt;&lt;/@fmt.param&gt;
+          &lt;/@fmt.message&gt;
+          &lt;/div&gt;
 
-&lt;@hst.link var="jscommon" path="/js/js-common.js"/&gt;
-&lt;script src="${jscommon}" type="text/javascript"&gt;&lt;/script&gt;
+          &lt;@hst.link var="jscommon" path="/js/js-common.js"/&gt;
+          &lt;script src="${jscommon}" type="text/javascript"&gt;&lt;/script&gt;
 
-&lt;@hst.headContributions categoryIncludes="jsExternal"/&gt;
-&lt;@hst.headContributions categoryIncludes="jsInternal"/&gt;
-&lt;#if !preview&gt;
-  &lt;@ga.accountId/&gt;
-  &lt;@hst.link var="googleAnalytics" path="/resources/google-analytics.js"/&gt;
-  &lt;script src="${googleAnalytics}" type="text/javascript"&gt;&lt;/script&gt;
-&lt;/#if&gt;
-&lt;@hst.headContributions categoryIncludes="scripts"/&gt;
-&lt;/body&gt;
-&lt;/html&gt;</sv:value>
+          &lt;@hst.headContributions categoryIncludes="jsExternal"/&gt;
+          &lt;@hst.headContributions categoryIncludes="jsInternal"/&gt;
+          &lt;#if !preview&gt;
+          &lt;@ga.accountId/&gt;
+          &lt;@hst.link var="googleAnalytics" path="/resources/google-analytics.js"/&gt;
+          &lt;script src="${googleAnalytics}" type="text/javascript"&gt;&lt;/script&gt;
+          &lt;/#if&gt;
+          &lt;@hst.headContributions categoryIncludes="scripts"/&gt;
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="common.feed">
@@ -423,7 +423,7 @@
         <sv:value>531ac66d-be31-4967-ba0e-f4d292201718</sv:value>
       </sv:property>
       <sv:property sv:name="hst:renderpath" sv:type="String">
-        <sv:value>jsp/common/map.jsp</sv:value>
+        <sv:value>webfile:/freemarker/common/map.ftl</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="standard.header.ftl">
@@ -442,56 +442,56 @@
       </sv:property>
       <sv:property sv:name="hst:script" sv:type="String">
         <sv:value>
-&lt;#--
+          &lt;#--
 
-    Copyright (C) 2010 Hippo B.V.
+          Copyright (C) 2010 Hippo B.V.
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+          Licensed under the Apache License, Version 2.0 (the "License");
+          you may not use this file except in compliance with the License.
+          You may obtain a copy of the License at
 
-            http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See the License for the specific language governing permissions and
+          limitations under the License.
 
---&gt;
+          --&gt;
 
-&lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
-&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+          &lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
+          &lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
 
-&lt;@hst.defineObjects/&gt;
+          &lt;@hst.defineObjects/&gt;
 
-&lt;!-- header --&gt;
-&lt;div id="hd"&gt;
-    &lt;!-- top navigation --&gt;
-    &lt;@hst.include ref="topnav"/&gt;
+          &lt;!-- header --&gt;
+          &lt;div id="hd"&gt;
+          &lt;!-- top navigation --&gt;
+          &lt;@hst.include ref="topnav"/&gt;
 
-    &lt;!-- logo --&gt;
-    &lt;#assign lang=hstRequest.locale.language/&gt;
-    &lt;@hst.link var="linkHome" path="/home"/&gt;
+          &lt;!-- logo --&gt;
+          &lt;#assign lang=hstRequest.locale.language/&gt;
+          &lt;@hst.link var="linkHome" path="/home"/&gt;
 
-    &lt;#if logo??&gt;
-        &lt;@hst.link var="imgLogo" hippobean=logo.original /&gt;
-        &lt;h1&gt;&lt;a href="${linkHome}"&gt;&lt;img src="${imgLogo}" alt="${logo.alt!''}" class="logo" width="${logo.original.width}" height="${logo.original.height}" /&gt;&lt;/a&gt;&lt;/h1&gt;
-    &lt;/#if&gt;
+          &lt;#if logo??&gt;
+          &lt;@hst.link var="imgLogo" hippobean=logo.original /&gt;
+          &lt;h1&gt;&lt;a href="${linkHome}"&gt;&lt;img src="${imgLogo}" alt="${logo.alt!''}" class="logo" width="${logo.original.width}" height="${logo.original.height}" /&gt;&lt;/a&gt;&lt;/h1&gt;
+          &lt;/#if&gt;
 
-    &lt;!-- search bar --&gt;
-    &lt;@hst.include ref="search"/&gt; 
-    
-    &lt;!--  language navigation --&gt;
-    &lt;@hst.include ref="langnavigation" /&gt;
-    
-    &lt;!-- main navigation --&gt;
-    &lt;@hst.include ref="mainnavigation"/&gt;
- 
-    &lt;!-- login / registration --&gt;
-    &lt;@hst.include ref="login"/&gt;
-&lt;/div&gt;
-      </sv:value>
+          &lt;!-- search bar --&gt;
+          &lt;@hst.include ref="search"/&gt;
+
+          &lt;!-- language navigation --&gt;
+          &lt;@hst.include ref="langnavigation" /&gt;
+
+          &lt;!-- main navigation --&gt;
+          &lt;@hst.include ref="mainnavigation"/&gt;
+
+          &lt;!-- login / registration --&gt;
+          &lt;@hst.include ref="login"/&gt;
+          &lt;/div&gt;
+        </sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="standard.footer.menu">

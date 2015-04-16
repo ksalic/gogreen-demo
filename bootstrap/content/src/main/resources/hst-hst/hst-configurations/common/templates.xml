@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:templates">
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:templates">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:templates</sv:value>
   </sv:property>
@@ -8,7 +9,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String" sv:multiple="true"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/common/bannercarousel.jsp</sv:value>
+      <sv:value>webfile:/freemarker/common/bannercarousel.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="common.bannercollection">
@@ -98,7 +99,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/common/video.jsp</sv:value>
+      <sv:value>webfile:/freemarker/common/video.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="common.richtextsnippet">
@@ -114,7 +115,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/common/map.jsp</sv:value>
+      <sv:value>webfile:/freemarker/common/map.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="layout.webpage.ftl">
@@ -169,11 +170,12 @@
         &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;&#13;
         &lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;&#13;
         &lt;link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" /&gt;&#13;
-        &#13;
+        &lt;meta name="DC.keywords" content="&lt;@fmt.message key="layout.webpage.metadckeywords"/&gt;" /&gt;&#13;
+        &lt;meta name="description" content="&lt;@fmt.message key="layout.webpage.metadescription"/&gt;" /&gt;&#13;
         &lt;meta name="DC.type" content="webpagina" scheme="DCMIType" /&gt;&#13;
         &lt;meta name="DCTERMS.issued" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" /&gt;&#13;
         &lt;meta name="DCTERMS.available" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" /&gt;&#13;
-      &#13;
+        &lt;meta name="DC.title" content="&lt;@fmt.message key="layout.webpage.metadctitle"/&gt;" /&gt;&#13;
         &lt;meta name="DC.language" content="${lang}" scheme="DCTERMS.RFC3066" /&gt;&#13;
         &#13;
         &lt;@hst.link var="css_revolution" path="/css/revolution_settings.css"/&gt;&#13;
@@ -238,7 +240,7 @@
         &lt;@hst.link var="jquerymbbrowser" path="/js/jquery.mb.browser.min.js"/&gt;&#13;
         &lt;script src="${jquerymbbrowser}" type="text/javascript"&gt;&lt;/script&gt;&#13;
         &#13;
-        &lt;@hst.link  var="jqueryuicore" path="/js/jquery.ui.core.js"/&gt;&#13;
+        &lt;@hst.link var="jqueryuicore" path="/js/jquery.ui.core.js"/&gt;&#13;
         &lt;script src="${jqueryuicore}" type="text/javascript"&gt;&lt;/script&gt;&#13;
         &#13;
         &lt;@hst.link var="jqueryuidatepicker" path="/js/jquery.ui.datepicker.js"/&gt;&#13;
