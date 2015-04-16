@@ -42,9 +42,6 @@ public class Images extends BaseLayout {
         List<Document> images = new ArrayList<Document>();
         HippoBean siteContentBaseBean = ctx.getSiteContentBaseBean();
 
-        String bannerBackground = paramsInfo.getBackground();
-        request.setAttribute("background", bannerBackground);
-
         if(!StringUtils.isEmpty(paramsInfo.getImage1())) {
             Document image = siteContentBaseBean.getBean(paramsInfo.getImage1());
             if(image != null) {

@@ -20,15 +20,12 @@ import org.hippoecm.hst.core.parameters.*;
 @FieldGroupList({
         @FieldGroup(
                 titleKey = "images",
-                value = { "background", "image1", "image2", "image3", "image4", "image5" }
+                value = {"image1", "image2", "image3", "image4", "image5" }
         )
 })
 
 public interface ImagesParamsInfo extends BaseLayoutParamsInfo {
 
-    @Parameter(name = "background", required = true, defaultValue = "white")
-    @DropDownList(value= {"white", "gray", "blue", "gradient"})
-    String getBackground();
 
     @Parameter(name = "image1", required = true, displayName = "Image 1")
     @JcrPath(isRelative = true, pickerSelectableNodeTypes = {"hippogogreen:newsitem", "hippogogreen:event", "hippogogreen:product"}, pickerConfiguration = "cms-pickers/documents-only")

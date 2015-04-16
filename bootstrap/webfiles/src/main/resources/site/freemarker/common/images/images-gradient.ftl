@@ -1,4 +1,4 @@
-<#include "../include/imports.ftl">
+<#include "../../include/imports.ftl">
 <#if images??>
   <#if  title??>
   <div class="row">
@@ -14,7 +14,7 @@
     </div>
   </div>
   </#if>
-<div class="section-content">
+  <div class="section-content section-px">
   <div class="container images-component">
     <div class="row">
       <div class="col-md-12 col-sm-12">
@@ -25,8 +25,8 @@
               <a href="<@hst.link hippobean=doc/>">
                 <#if image.alt??>
                   <img src="<@hst.link hippobean=image.largeThumbnail/>" alt="${image.alt}">
-                  <#else>
-                    <img src="<@hst.link hippobean=image.largeThumbnail/>">
+                <#else>
+                  <img src="<@hst.link hippobean=image.largeThumbnail/>">
                 </#if>
               </a>
               <@hst.cmseditlink hippobean=doc/>
@@ -45,14 +45,14 @@
   </#if>
 
   <#if separatorMargin?? && cssClass??>
-  <div class="space-sep ${separatorMargin} ${cssClass}"></div>
+    <div class="space-sep ${separatorMargin} ${cssClass}"></div>
   <#elseif separatorMargin??>
-  <div class="space-sep ${separatorMargin}"></div>
+    <div class="space-sep ${separatorMargin}"></div>
   <#elseif cssClass??>
-  <div class="space-sep ${cssClass}"></div>
+    <div class="space-sep ${cssClass}"></div>
   </#if>
 
 <#elseif preview??>
-<h2 class="not-configured">Click to configure Image component</h2>
+  <h2 class="not-configured">Click to configure Image component</h2>
 </#if>
 
