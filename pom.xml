@@ -306,9 +306,9 @@
                     <tofile>context.xml</tofile>
                   </configfile>
                   <configfile>
-                    <file>${project.basedir}/conf/catalina-logging.properties</file>
+                    <file>${project.basedir}/conf/log4j-dev.xml</file>
                     <todir>conf/</todir>
-                    <tofile>logging.properties</tofile>
+                    <tofile>log4j.xml</tofile>
                   </configfile>
                 </configfiles>
               </configuration>
