@@ -16,7 +16,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/common/bannercollection.jsp</sv:value>
+      <sv:value>webfile:/freemarker/common/bannercollection.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="common.comments">
@@ -106,7 +106,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/common/richtextsnippet.jsp</sv:value>
+      <sv:value>webfile:/freemarker/common/richtextsnippet.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="common.map">

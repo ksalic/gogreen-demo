@@ -1,4 +1,4 @@
-<#include "../include/imports.ftl">
+<#include "../../include/imports.ftl">
 
 <div class="container">
   <div class="row video">
@@ -17,7 +17,7 @@
     </div>
   </#if>
   <#if videoURL??>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoURL}" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/${videoURL}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   <#elseif preview??>
     <h2 class="not-configured">Click to configure Video component</h2>
   </#if>

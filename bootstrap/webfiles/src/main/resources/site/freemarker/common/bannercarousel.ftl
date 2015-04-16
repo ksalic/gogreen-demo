@@ -25,9 +25,8 @@
     <div class="tp-bannertimer tp-bottom"></div>
   </div>
 </div>
-</#if>
-<#if banners?? && preview??>
-<h2 class="not-configured">Click to configure banner carousel</h2>
+<#elseif preview??>
+  <h2 class="not-configured">Click to configure banner carousel</h2>
 </#if>
 
 <#if preview??>
