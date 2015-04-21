@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="targeting:collectors" h:merge="combine">
+  <sv:node sv:name="referrer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.collectors.ReferrerCollector</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="returningvisitor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.collectors.ReturningVisitorCollector</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="weather">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.WeatherCollector</sv:value>
+    </sv:property>
+    <sv:property sv:name="wwoApiKey" sv:type="String">
+      <sv:value>0e015fa5de135321122709</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="dayofweek">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.collectors.DayOfWeekCollector</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="groups">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.collectors.GroupsCollector</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="documenttypes">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.collectors.DocumentTypesCollector</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="categories">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.collectors.TagsCollector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:termsProperty" sv:type="String">
+      <sv:value>hippogogreen:categories</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="agevisitor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:collector</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:className" sv:type="String">
+      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.RemoteVisitorAgeCollector</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

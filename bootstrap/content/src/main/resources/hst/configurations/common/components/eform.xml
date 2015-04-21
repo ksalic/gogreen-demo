@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="emailform">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:component</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:componentclassname" sv:type="String">
+    <sv:value>com.onehippo.cms7.eforms.hst.components.MailAndFormStoringEformComponent</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+    <sv:value>behaviors</sv:value>
+    <sv:value>eforms-mailsession</sv:value>
+    <sv:value>eforms-from-name</sv:value>
+    <sv:value>eforms-from-email</sv:value>
+    <sv:value>eforms-to-name</sv:value>
+    <sv:value>eforms-to-email</sv:value>
+    <sv:value>eforms-use-freemarker</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+    <sv:value>com.onehippo.cms7.eforms.hst.behaviors.FormIntroBehavior,com.onehippo.cms7.eforms.hst.behaviors.FormSubmissionCounterBehavior, com.onehippo.cms7.eforms.hst.behaviors.AfterProcessBehavior</sv:value>
+    <sv:value>mail/Session</sv:value>
+    <sv:value>Webmaster</sv:value>
+    <sv:value>webmaster@example.org</sv:value>
+    <sv:value>Sales Representative</sv:value>
+    <sv:value>sales@example.org</sv:value>
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:resourcetemplate" sv:type="String">
+    <sv:value>eforms.validation.default</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:template" sv:type="String">
+    <sv:value>eforms.default</sv:value>
+  </sv:property>
+</sv:node>

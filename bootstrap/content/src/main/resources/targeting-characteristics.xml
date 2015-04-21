@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="targeting:characteristics" xmlns:h="http://www.onehippo.org/jcr/xmlimport" h:merge="combine">
+  <sv:node sv:name="city" h:merge="combine">
+    <sv:node sv:name="amsterdam">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Amsterdam</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>Amsterdam</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="london-1422871767661">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>London</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>London</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="boston-1422871681988">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Boston</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>Boston</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="country" h:merge="combine">
+    <sv:node sv:name="the-netherlands">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>The Netherlands</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>NL</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="a-sunny-country">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>a sunny country</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>AU</sv:value>
+        <sv:value>MA</sv:value>
+        <sv:value>ES</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="categories">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>categories</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.scoring.VectorScorer</sv:value>
+    </sv:property>
+    <sv:node sv:name="office">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Office</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>office</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="sports">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Sports</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>sports</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="home">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Home</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>home</sv:value>
+        <sv:value>kitchen</sv:value>
+        <sv:value>garden</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="family">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Family</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>family</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="school">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>School</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>school</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="documenttype">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>documenttypes</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.scoring.VectorScorer</sv:value>
+    </sv:property>
+    <sv:node sv:name="blogs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Blogs</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="targeting:propertynames" sv:type="String">
+        <sv:value>hippogogreen:blogitem</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="products">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Products</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="targeting:propertynames" sv:type="String">
+        <sv:value>hippogogreen:product</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="events">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Events</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="targeting:propertynames" sv:type="String">
+        <sv:value>hippogogreen:event</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="dayofweek">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>dayofweek</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.scoring.DayOfWeekScorer</sv:value>
+    </sv:property>
+    <sv:node sv:name="monday-1351083125621">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Monday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>1</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="tuesday-1351083137105">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Tuesday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>2</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="wednesday-1351083315674">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Wednesday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>3</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="thursday-1351083324322">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Thursday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>4</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="friday-1351083333231">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Friday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>5</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="saterday-1351083340829">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Saturday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>6</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="sunday-1351083347651">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Sunday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>0</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="weekend-1351083366352">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Weekend</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>0</sv:value>
+        <sv:value>6</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="weekday-1351083411752">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Weekday</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>1</sv:value>
+        <sv:value>2</sv:value>
+        <sv:value>3</sv:value>
+        <sv:value>4</sv:value>
+        <sv:value>5</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="returningvisitor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>returningvisitor</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.scoring.ReturningVisitorScorer</sv:value>
+    </sv:property>
+    <sv:node sv:name="newvisitor-1351081607182">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>New visitor</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>new</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="returningvisitor-1351081617190">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Returning visitor</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>returning</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="referrer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>referrer</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.scoring.MatchesTermScorer</sv:value>
+    </sv:property>
+    <sv:node sv:name="partnersite-1351083992070">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Partner site</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>*terrafirma.com*</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="weather">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>weather</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.WeatherScorer</sv:value>
+    </sv:property>
+    <sv:node sv:name="sunnyweather-1351008022787">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Sunny weather</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>116</sv:value>
+        <sv:value>113</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="changeableweather-1351008037076">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Changeable weather</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>368</sv:value>
+        <sv:value>353</sv:value>
+        <sv:value>329</sv:value>
+        <sv:value>299</sv:value>
+        <sv:value>293</sv:value>
+        <sv:value>263</sv:value>
+        <sv:value>176</sv:value>
+        <sv:value>119</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="rainyweather-1351008048544">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Rainy weather</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>395</sv:value>
+        <sv:value>392</sv:value>
+        <sv:value>389</sv:value>
+        <sv:value>386</sv:value>
+        <sv:value>377</sv:value>
+        <sv:value>374</sv:value>
+        <sv:value>371</sv:value>
+        <sv:value>365</sv:value>
+        <sv:value>362</sv:value>
+        <sv:value>359</sv:value>
+        <sv:value>359</sv:value>
+        <sv:value>356</sv:value>
+        <sv:value>350</sv:value>
+        <sv:value>338</sv:value>
+        <sv:value>335</sv:value>
+        <sv:value>332</sv:value>
+        <sv:value>326</sv:value>
+        <sv:value>323</sv:value>
+        <sv:value>320</sv:value>
+        <sv:value>317</sv:value>
+        <sv:value>314</sv:value>
+        <sv:value>311</sv:value>
+        <sv:value>308</sv:value>
+        <sv:value>305</sv:value>
+        <sv:value>302</sv:value>
+        <sv:value>296</sv:value>
+        <sv:value>284</sv:value>
+        <sv:value>281</sv:value>
+        <sv:value>266</sv:value>
+        <sv:value>260</sv:value>
+        <sv:value>248</sv:value>
+        <sv:value>230</sv:value>
+        <sv:value>227</sv:value>
+        <sv:value>200</sv:value>
+        <sv:value>185</sv:value>
+        <sv:value>182</sv:value>
+        <sv:value>179</sv:value>
+        <sv:value>143</sv:value>
+        <sv:value>122</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="groups">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>groups</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.cms7.targeting.scoring.GroupsScorer</sv:value>
+    </sv:property>
+    <sv:node sv:name="reseller-1351771616421">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Reseller</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:propertynames" sv:type="String" sv:multiple="true">
+        <sv:value>resellers</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="agevisitor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:characteristic</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:collector" sv:type="String">
+      <sv:value>agevisitor</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:scorerClassName" sv:type="String">
+      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.AgeScorer</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

@@ -30,6 +30,11 @@
   <dependencies>
 
     <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-edition-indicator</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-repository-dependencies</artifactId>
       <type>pom</type>
@@ -62,7 +67,7 @@
       <artifactId>gogreen-two-bootstrap-configuration</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
-    </dependency>   
+    </dependency>
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-bootstrap-content</artifactId>
@@ -169,7 +174,66 @@
       <artifactId>hippo-plugin-resourcebundle-editor</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-reporting-dashboard-frontend</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-reporting-dashboard-repository</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-dependencies-cms</artifactId>
+      <type>pom</type>
+    </dependency>
 
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-advanced-search-frontend</artifactId>
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-advanced-search-repository</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-eforms-cms</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-eforms-repository</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-cms-api</artifactId>
+    </dependency>
+
+    <!-- explicitly fix utilities version; selection plugins prefer 2.18.00 -->
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-repository-utilities</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-frontend-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-api</artifactId>
+    </dependency>
 
   </dependencies>
 
@@ -192,6 +256,10 @@
         <directory>src/main/java</directory>
         <includes>
           <include>**</include>
+          <include>**/*.js</include>
+          <include>**/*.png</include>
+          <include>**/*.properties</include>
+          <include>**/*.xml</include>
         </includes>
         <excludes>
           <exclude>**/*.java</exclude>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="targeting:personas" h:merge="combine">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>targeting:personas</sv:value>
+  </sv:property>
+  <sv:node sv:name="student">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:persona</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:alterego" sv:type="String">
+      <sv:value>student-alterego</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:description" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>Simone</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:quote" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:segmentDescription" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:segmentName" sv:type="String">
+      <sv:value>Student</sv:value>
+    </sv:property>
+    <sv:node sv:name="targeting:expression">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:andexpression</sv:value>
+      </sv:property>
+      <sv:node sv:name="0000000000">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:rule</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:targetgroup" sv:type="String">
+          <sv:value>categories/school</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="parent">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:persona</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:alterego" sv:type="String">
+      <sv:value>parent-alterego</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:description" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>Peter</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:quote" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:segmentDescription" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:segmentName" sv:type="String">
+      <sv:value>Parent</sv:value>
+    </sv:property>
+    <sv:node sv:name="targeting:expression">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:andexpression</sv:value>
+      </sv:property>
+      <sv:node sv:name="0000000000">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:rule</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:targetgroup" sv:type="String">
+          <sv:value>categories/family</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="business-owner">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:persona</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:alterego" sv:type="String">
+      <sv:value>business-owner-alterego</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:description" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:name" sv:type="String">
+      <sv:value>Barry</sv:value>
+    </sv:property>
+    <sv:property sv:name="targeting:quote" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:segmentDescription" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="targeting:segmentName" sv:type="String">
+      <sv:value>Business owner</sv:value>
+    </sv:property>
+    <sv:node sv:name="targeting:expression">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:andexpression</sv:value>
+      </sv:property>
+      <sv:node sv:name="0000000000">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:rule</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:targetgroup" sv:type="String">
+          <sv:value>categories/office</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

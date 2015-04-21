@@ -28,6 +28,8 @@
 
   <properties>
     <sonar.l10n.locales>en_US,nl_NL,fr_FR</sonar.l10n.locales>
+    <json-lib.version>2.4</json-lib.version>
+    <spring.version>3.0.4.RELEASE</spring.version>
   </properties>
 
   <dependencies>
@@ -90,6 +92,11 @@
       <scope>test</scope>
     </dependency>
 
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-dependencies-site</artifactId>
+      <type>pom</type>
+    </dependency>
 
     <dependency>
       <groupId>commons-lang</groupId>
@@ -188,13 +195,13 @@
       <artifactId>easymock</artifactId>
     </dependency>
 
-<!--
-    <dependency>
+
+    <!--<dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <scope>test</scope>
-    </dependency>
--->
+    </dependency>-->
+
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
@@ -205,10 +212,91 @@
       <artifactId>hst-google-analytics-hst</artifactId>
     </dependency>
 
-    <dependency>
+    <!--<dependency>
       <groupId>org.onehippo.forge</groupId>
       <artifactId>breadcrumb</artifactId>
       <version>${forge.breadcrumb.version}</version>
+    </dependency>-->
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-repository-utilities</artifactId>
+      <version>${hippo.repository.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-eforms-hst</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-common</artifactId>
+      <version>${hippo.addon-targeting.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-state-couchbase</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-maxmind-geolite2</artifactId>
+      <version>${geolite2.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.json-lib</groupId>
+      <artifactId>json-lib</artifactId>
+      <version>${json-lib.version}</version>
+      <classifier>jdk15</classifier>
+      <exclusions>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-collectors</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-jexl</artifactId>
+      <version>2.1.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpcore</artifactId>
+      <version>4.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.3.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.webflow</groupId>
+      <artifactId>org.springframework.js</artifactId>
+      <version>${lib.spring-js.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jooq</groupId>
+      <artifactId>joox</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-asl</artifactId>
+      <version>1.9.13</version>
     </dependency>
 
   </dependencies>
@@ -222,8 +310,12 @@
         <filtering>false</filtering>
         <directory>src/main/java</directory>
         <includes>
+          <include>**</include>
           <include>**/*.properties</include>
         </includes>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
       </resource>
       <resource>
         <directory>src/main/resources</directory>

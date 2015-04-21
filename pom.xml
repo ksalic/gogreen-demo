@@ -18,8 +18,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.onehippo.cms7</groupId>
-    <artifactId>hippo-cms7-release</artifactId>
+    <groupId>com.onehippo.cms7</groupId>
+    <artifactId>hippo-cms7-enterprise-release</artifactId>
     <version>10.0.0-SNAPSHOT</version>
   </parent>
 
@@ -61,10 +61,16 @@
     <lib.json.version>20090211</lib.json.version>
     <lib.rome.version>1.0.0</lib.rome.version>
 
+    <xalan.version>2.4.1</xalan.version>
+    <xercesImpl.version>2.9.1</xercesImpl.version>
 
+    <lib.spring-js.version>2.0.5.RELEASE</lib.spring-js.version>
 
-    <easymock.version>2.4</easymock.version>
+    <geolite2.version>20140724</geolite2.version>
+
+    <!-- might be needed
     <forge.breadcrumb.version>1.02.02</forge.breadcrumb.version>
+    -->
 
     <yui.sources.version>1.01.11</yui.sources.version>
     <sonar.l10n.locales>nl,fr,it,de</sonar.l10n.locales>
@@ -182,6 +188,27 @@
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-rs-security-cors</artifactId>
         <version>${cxf.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>${lib.javax-servlet-jstl.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>xerces</groupId>
+        <artifactId>xercesImpl</artifactId>
+        <version>${xercesImpl.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>xalan</groupId>
+        <artifactId>xalan</artifactId>
+        <version>${xalan.version}</version>
+        <scope>runtime</scope>
       </dependency>
 
     </dependencies>
@@ -305,11 +332,11 @@
                     <todir>conf/</todir>
                     <tofile>context.xml</tofile>
                   </configfile>
-                  <configfile>
+                  <!--<configfile>
                     <file>${project.basedir}/conf/log4j-dev.xml</file>
                     <todir>conf/</todir>
                     <tofile>log4j.xml</tofile>
-                  </configfile>
+                  </configfile>-->
                 </configfiles>
               </configuration>
               <deployables>
@@ -341,11 +368,13 @@
               </deployables>
               <container>
                 <systemProperties>
+                  <project.basedir>${project.basedir}</project.basedir>
                   <derby.stream.error.file>${project.basedir}/target/derby.log</derby.stream.error.file>
                   <log4j.configuration>file:${project.basedir}/conf/log4j-dev.xml</log4j.configuration>
                   <rebel.log4j-plugin>true</rebel.log4j-plugin>
+                  <net.spy.log.LoggerImpl>com.onehippo.cms7.targeting.storage.couchbase.Slf4jLogger</net.spy.log.LoggerImpl>
                   <!-- enables auto export: -->
-                  <project.basedir>${project.basedir}</project.basedir>
+                  <!--<project.basedir>${project.basedir}</project.basedir>-->
                 </systemProperties>
               </container>
             </configuration>
