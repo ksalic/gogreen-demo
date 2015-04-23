@@ -955,7 +955,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/blogs/detail/content.jsp</sv:value>
+      <sv:value>webfile:/freemarker/blog/blog-content.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="blogs.detail.top">
@@ -971,7 +971,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/blogs/detail/right.jsp</sv:value>
+      <sv:value>webfile:/freemarker/blog/blog-right.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="blogs.latest">

@@ -334,6 +334,8 @@ bootstrap/pom.xml -text
 bootstrap/webfiles/pom.xml -text
 bootstrap/webfiles/src/main/resources/hippoecm-extension.xml -text
 bootstrap/webfiles/src/main/resources/site/css/style.css -text
+bootstrap/webfiles/src/main/resources/site/freemarker/blog/blog-content.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/blog/blog-right.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/banner.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/banner/banner-blue.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/banner/banner-full.ftl -text
@@ -366,6 +368,8 @@ bootstrap/webfiles/src/main/resources/site/freemarker/layout/layout.webpage.ftl 
 bootstrap/webfiles/src/main/resources/site/freemarker/layout/standard.header.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/layout/standard.header.logo.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/layout/standard.header.topbar.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/macro/macro.copyright.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/macro/macro.imagecopyright.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/standard/header/langnaviagtion.ftl -text
 bootstrap/webfiles/src/main/resources/site/test.js -text
 cms/conf/context.xml -text
@@ -751,8 +755,6 @@ site/src/main/webapp/WEB-INF/jsp/about/content.jsp -text
 site/src/main/webapp/WEB-INF/jsp/about/leftmenu.jsp -text
 site/src/main/webapp/WEB-INF/jsp/about/main.jsp -text
 site/src/main/webapp/WEB-INF/jsp/about/top.jsp -text
-site/src/main/webapp/WEB-INF/jsp/blogs/detail/content.jsp -text
-site/src/main/webapp/WEB-INF/jsp/blogs/detail/right.jsp -text
 site/src/main/webapp/WEB-INF/jsp/blogs/detail/top.jsp -text
 site/src/main/webapp/WEB-INF/jsp/blogs/latest.jsp -text
 site/src/main/webapp/WEB-INF/jsp/blogs/overview/content.jsp -text

@@ -1,0 +1,23 @@
+<#include "../include/imports.ftl">
+<#macro copyright document>
+  <#if document??>
+
+    <#assign copyright=document.copyright/>
+
+    <#if copyright?? && copyright.description?? && copyright.url??>
+    <p class="copyright">
+      &copy;
+    ${copyright.description}
+      <#if copyright.description?? || copyright.url??><br/></#if><#if copyright.url??><a href="${copyright.url}">${copyright.url}</a>
+      <#--    <@c.url var="link" value=copyright.url?html/>
+          <#if truncate?? && copyright.url?length gt truncate>
+            <@c.url var="text" value=copyright.url?substring(truncat?length)+"..."/>
+          </#if>
+        <#else>
+          <@c.url var="text" value=copyright.url/>
+          -->
+      </#if>
+    </p>
+    </#if>
+  </#if>
+</#macro>
