@@ -34,7 +34,6 @@
   <div class="row">
     <#list banners as banner>
       <@hst.setBundle basename="products.facet"/>
-      <#assign docLink=""/>
       <#if banner.docLink??>
         <#if banner.docLink.hippoFolderBean??>
           <@fmt.message var="path" key="path"/>
@@ -60,7 +59,7 @@
             </#if>
           </div>
           <div class="feature-image">
-            <hst:cmseditlink hippobean="${banner}"/>
+            <@hst.cmseditlink hippobean=banner/>
             <#if banner.image??>
               <#if docLink??>
                 <a href="${docLink}">
