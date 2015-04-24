@@ -18,16 +18,24 @@
     <div class="container">
       <div class="row">
         <@hst.cmseditlink hippobean=document/>
-        <div class="row">
-          <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
-            <div class="align-center">
-              <#if document.image??>
-                <img src="<@hst.link hippobean=document.image.banner/>" alt="" class="img-responsive"/>
-              </#if>
+          <div class="col-md-6 col-sm-6 animated fadeInLeftBig animatedVisi" data-animtype="fadeInLeftBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
+            <div class="space-sep100"></div>
+            <#if document.docLink??>
+              <h2 class="h2-section-title"><a href="<@hst.link hippobean=document.docLink/>">${document.title}</a></h2>
+            <#else>
+              <h2 class="h2-section-title">${document.title}</h2>
+            </#if>
+            <h3 class="h3-section-info">${document.text}</h3>
+          </div>
+          <div class="col-md-6 col-sm-6 animated fadeInRightBig animatedVisi" data-animtype="fadeInRightBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
+            <div class="right-image-container">
+              <img src="<@hst.link hippobean=document.image/>" height="300" alt="" />
             </div>
           </div>
-        </div>
+      </div>
     </div>
+  </div>
+
 
   <#if separatorBorderTop>
     <#assign cssClass> border-top</#assign>
