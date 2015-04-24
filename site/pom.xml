@@ -239,6 +239,7 @@
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-targeting-state-couchbase</artifactId>
       <scope>runtime</scope>
+      <version>${hippo.addon-targeting.version}</version>
     </dependency>
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
@@ -311,7 +312,6 @@
         <directory>src/main/java</directory>
         <includes>
           <include>**</include>
-          <include>**/*.properties</include>
         </includes>
         <excludes>
           <exclude>**/*.java</exclude>
@@ -319,7 +319,7 @@
       </resource>
       <resource>
         <directory>src/main/resources</directory>
-        <filtering>true</filtering>
+        <filtering>false</filtering>
         <includes>
           <include>**</include>
         </includes>

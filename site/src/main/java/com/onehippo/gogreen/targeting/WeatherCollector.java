@@ -1,7 +1,7 @@
 /**
  * Copyright 2012-2013 Hippo B.V. (http://www.onehippo.com)
  */
-package com.onehippo.hgge.targeting;
+package com.onehippo.gogreen.targeting;
 
 import java.io.IOException;
 import java.net.InetAddress;

@@ -13,31 +13,39 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.onehippo.hgge.targeting;
+package com.onehippo.gogreen.targeting;
 
-public class AgeTargetingRequestData {
 
-    protected Integer age;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.onehippo.cms7.targeting.data.AbstractTargetingData;
 
-    // Required by Jackson
+/**
+ * Returns the name
+ */
+public class AgeTargetingData extends AbstractTargetingData {
+
+    private Integer age;
+
+    // This constructor is created to be used by Jackson
+    @JsonCreator
     @SuppressWarnings("unused")
-    public AgeTargetingRequestData() {
-        this.age = -1;
-    }
-    
-    // Required by Jackson
-    @SuppressWarnings("unused")
-    public AgeTargetingRequestData(int visitorAge) {
+    public AgeTargetingData(@JsonProperty("collectorId") final String collectorId,
+                                       @JsonProperty("age") final Integer visitorAge) {
+        this(collectorId);
         this.age = visitorAge;
     }
 
+    public AgeTargetingData(final String collectorId) {
+        super(collectorId);
+        this.age = -1;
+    }
 
-    @SuppressWarnings("unused")
+    @JsonProperty("age")
     public Integer getAge() {
         return age;
     }
 
-    @SuppressWarnings("unused")
     public void setAge(int visitorAge) {
         this.age = visitorAge;
     }

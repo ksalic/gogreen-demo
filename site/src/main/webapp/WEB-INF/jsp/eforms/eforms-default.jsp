@@ -160,482 +160,396 @@
 </hst:headContribution>
 
 <script type="text/javascript">
-$(document).ready(function() {
+  $(document).ready(function() {
 
-  $('form[name="${form.name}"]').validate({errorElement:'div'});
+    $('form[name="${form.name}"]').validate({errorElement:'div'});
 
-  var resetPagesVisible = function() {
-    var allPages = $('.eforms-page.conditionally-visible');
-    var curPage = $('.eforms-page.conditionally-visible:visible:first');
-    var curIndex = -1;
+    var resetPagesVisible = function() {
+      var allPages = $('.eforms-page.conditionally-visible');
+      var curPage = $('.eforms-page.conditionally-visible:visible:first');
+      var curIndex = -1;
 
-    for (var i = 0; i < allPages.length; i++) {
-      if (allPages[i].id == curPage.attr('id')) {
-        curIndex = i;
+      for (var i = 0; i < allPages.length; i++) {
+        if (allPages[i].id == curPage.attr('id')) {
+          curIndex = i;
+        }
+      }
+
+      if (curIndex > 0) {
+        $('#previousPageButton').show();
+      }
+
+      if (curIndex < allPages.length - 1) {
+        $('#nextPageButton').show();
+        $('.eforms-buttons input[type="submit"]').each(function() {
+          $(this).hide();
+        });
+      } else if (curIndex == allPages.length - 1) {
+        $('#nextPageButton').hide();
+        $('.eforms-buttons input[type="submit"]').each(function() {
+          $(this).show();
+        });
+      }
+
+      $('#pagesTab li').hide();
+      $('#pagesTab li.conditionally-visible').show();
+    };
+
+
+    <%--
+      Function used to create parameters object containing form fields name/value pairs.
+      The params object can be posted through ajax for validation.
+      --%>
+    function addFormFieldsToParameters(fields, params) {
+      fields.each(function() {
+        if ($(this).attr('type') == 'checkbox') {
+          if (!params[$(this).attr('name')]) {
+            var checked = $('.eforms-page.conditionally-visible:visible .eforms-field *:input[name="' + $(this).attr('name') + '"]:checked');
+            if (checked.length > 0) {
+              var values = [];
+              checked.each(function(index) {
+                values[index] = $(this).val();
+              });
+              params[$(this).attr('name')] = values;
+            } else {
+              params[$(this).attr('name')] = '';
+            }
+          }
+        } else if ($(this).attr('type') == 'radio') {
+          if (!params[$(this).attr('name')]) {
+            var checked = $('.eforms-page.conditionally-visible:visible .eforms-field *:input[name="' + $(this).attr('name') + '"]:checked');
+            if (checked.length > 0) {
+              params[$(this).attr('name')] = $('.eforms-page.conditionally-visible:visible .eforms-field *:input[name="' + $(this).attr('name') + '"]:checked').val();
+            } else {
+              params[$(this).attr('name')] = '';
+            }
+          }
+        } else {
+          params[$(this).attr('name')] = $(this).val();
+        }
+      });
+    }
+
+
+    <%-- real-time ajax-based single field validation --%>
+    var fields = $('.eforms-field *:input');
+    var ajaxValidationUrl = '<hst:resourceURL escapeXml="false" resourceId="validation"/>';
+
+    $('.eforms-field *:input').blur(function() {
+      // on leaving form field, post field name/value for ajax validation
+      var params = {};
+      params[$(this).attr('name')] = $(this).val();
+      $.post(ajaxValidationUrl, params,
+        function(data) {
+          var feedbackPanel = $('#feedbackPanel');
+          var count = 0;
+          if (data) {
+            for (var fieldName in data) {
+              // get the error message
+              var errorMessage = data[fieldName];
+              // remove previous error messages from feedback panel
+              var messagesList = $('#feedbackPanel > ul');
+              messagesList.empty();
+              if (errorMessage) {
+                // add error message to feedback panel
+                messagesList.append('<li>' + errorMessage.localizedMessage + '</li>');
+                count++;
+              }
+            }
+          }
+          if (count > 0) {
+            // make feedback panel visible
+            feedbackPanel.show();
+          } else {
+            // make feedback panel invisible
+            feedbackPanel.hide();
+          }
+        }, "json");
+    });
+
+
+    <%-- Write JSON of field condition infos --%>
+    var conditions = ${form.conditionsAsJson};
+    var condFieldNames = {};
+
+    if (conditions) {
+      var items = [];
+      if (conditions['fields']) {
+        items = items.concat(conditions['fields']);
+      }
+      if (conditions['pages']) {
+        items = items.concat(conditions['pages']);
+      }
+      for (var i = 0; i < items.length; i++) {
+        var item = items[i];
+        var condFieldName = item['condname'];
+        if (!condFieldNames[condFieldName]) {
+          condFieldNames[condFieldName] = true;
+        }
       }
     }
 
-    if (curIndex > 0) {
-      $('#previousPageButton').show();
+    for (var condFieldName in condFieldNames) {
+      var condField = $('.eforms-field *[name="' + condFieldName + '"]');
+      if (condField.length == 0) continue;
+      var eventType = 'change';
+
+      condField.bind(eventType, function() {
+        if (conditions && conditions['fields']) {
+          var fields = conditions['fields'];
+
+          for (var i = 0; i < fields.length; i++) {
+            var field = fields[i];
+            var condFieldName = field['condname'];
+            if ($(this).attr('name') != condFieldName) continue;
+
+            var name = field['name'];
+            var targetField = $('.eforms-field *[name="' + name + '"]');
+            if (targetField.length == 0) {
+              targetField = $('.eforms-fieldgroup[name="' + name + '"]');
+            }
+            if (targetField.length == 0) {
+              targetField = $('.eforms-text[name="' + name + '"]');
+            }
+            if (targetField.length == 0) continue;
+
+            var targetContainer = targetField.parents('.eforms-field');
+            if (targetContainer.length == 0) {
+              targetContainer = targetField;
+            }
+
+            var type = field['condtype'];
+            var condFieldValue = field['condvalue'];
+            var condNegate = field['condnegate'];
+            var curSelectedValue = $(this).val();
+            if ($(this).is('input') && $(this).attr('type') == 'radio') {
+              curSelectedValue = $('.eforms-field *[name="' + condFieldName + '"]:radio:checked').val();
+            }
+
+            if (type == 'visibility') {
+              if ((!condNegate && condFieldValue == curSelectedValue)||(condNegate && condFieldValue != curSelectedValue)) {
+                targetContainer.show();
+              } else {
+                targetContainer.hide();
+              }
+            }
+          }
+
+          var pages = conditions['pages'];
+          for (var i = 0; i < pages.length; i++) {
+            var page = pages[i];
+            var condFieldName = page['condname'];
+            if ($(this).attr('name') != condFieldName) continue;
+
+            var pageIndex = page['index'];
+            var targetPage = $('#page' + pageIndex);
+            var type = page['condtype'];
+            var condFieldValue = page['condvalue'];
+            var condNegate = page['condnegate'];
+            var curSelectedValue = $(this).val();
+            if ($(this).is('input') && $(this).attr('type') == 'radio') {
+              curSelectedValue = $('.eforms-field *[name="' + condFieldName + '"]:radio:checked').val();
+            }
+
+            if (type == 'visibility') {
+              if ((!condNegate && condFieldValue == curSelectedValue)||(condNegate && condFieldValue != curSelectedValue)) {
+                targetPage.addClass('conditionally-visible');
+                $('#pagesTab li:nth-child(' + (pageIndex + 1) + ')').addClass('conditionally-visible');
+              } else {
+                targetPage.removeClass('conditionally-visible');
+                $('#pagesTab li:nth-child(' + (pageIndex + 1) + ')').removeClass('conditionally-visible');
+              }
+              resetPagesVisible();
+            }
+          }
+        }
+      });
+
+      condField.trigger(eventType);
     }
 
-    if (curIndex < allPages.length - 1) {
+    <%-- In order not to show page tab for script-disabled clients, show the tabs by script if exits. --%>
+    if ($('#pagesTab')) {
+      $('#pagesTab').show();
+    }
+    <%-- Hide all the pages except of the first page --%>
+    $('.eforms-page').each(function() {
+      $(this).hide();
+    });
+    if ($('.eforms-page.conditionally-visible').length) {
+      $('.eforms-page.conditionally-visible:first').show();
+    }
+
+    resetPagesVisible();
+
+    $('#previousPageButton').click(function() {
+      var curPage = $('.eforms-page.conditionally-visible:visible');
+      var prevPage = curPage.prevAll('.eforms-page.conditionally-visible:first');
+      prevPage.show();
+      curPage.hide();
+
+      var curIndex = parseInt(curPage.attr('id').replace(/^page/, ''));
+      var prevIndex = parseInt(prevPage.attr('id').replace(/^page/, ''));
+      $('#pagesTab li:nth-child(' + (curIndex + 1) + ')').removeClass('selected');
+      $('#pagesTab li:nth-child(' + (prevIndex + 1) + ')').addClass('selected');
+
+      if (prevPage.prevAll('.eforms-page.conditionally-visible:first').length == 0) {
+        $('#previousPageButton').hide();
+      }
       $('#nextPageButton').show();
       $('.eforms-buttons input[type="submit"]').each(function() {
         $(this).hide();
       });
-    } else if (curIndex == allPages.length - 1) {
-      $('#nextPageButton').hide();
-      $('.eforms-buttons input[type="submit"]').each(function() {
-        $(this).show();
-      });
-    }
 
-    $('#pagesTab li').hide();
-    $('#pagesTab li.conditionally-visible').show();
-  };
+      // remove error messages from feedback panel
+      var messagesList = $('#feedbackPanel > ul');
+      messagesList.empty();
 
+      // hide feedbackPanel
+      var feedbackPanel = $('#feedbackPanel');
+      feedbackPanel.hide();
 
-  <%--
-    Function used to create parameters object containing form fields name/value pairs.
-    The params object can be posted through ajax for validation.
-    --%>
-  function addFormFieldsToParameters(fields, params) {
-    fields.each(function() {
-      if ($(this).attr('type') == 'checkbox') {
-        if (!params[$(this).attr('name')]) {
-          var checked = $('.eforms-page.conditionally-visible:visible .eforms-field *:input[name="' + $(this).attr('name') + '"]:checked');
-          if (checked.length > 0) {
-            var values = [];
-            checked.each(function(index) {
-              values[index] = $(this).val();
-            });
-            params[$(this).attr('name')] = values;
-          } else {
-            params[$(this).attr('name')] = '';
-          }
-        }
-      } else if ($(this).attr('type') == 'radio') {
-        if (!params[$(this).attr('name')]) {
-          var checked = $('.eforms-page.conditionally-visible:visible .eforms-field *:input[name="' + $(this).attr('name') + '"]:checked');
-          if (checked.length > 0) {
-            params[$(this).attr('name')] = $('.eforms-page.conditionally-visible:visible .eforms-field *:input[name="' + $(this).attr('name') + '"]:checked').val();
-          } else {
-            params[$(this).attr('name')] = '';
-          }
-        }
-      } else {
-        params[$(this).attr('name')] = $(this).val();
-      }
-    });
-  }
-
-
-  <%-- real-time ajax-based single field validation --%>
-  var fields = $('.eforms-field *:input');
-  var ajaxValidationUrl = '<hst:resourceURL resourceId="validation"/>';
-
-  $('.eforms-field *:input').blur(function() {
-    // on leaving form field, post field name/value for ajax validation
-    var params = {};
-    params[$(this).attr('name')] = $(this).val();
-    $.post(ajaxValidationUrl, params,
-      function(data) {
-        var feedbackPanel = $('#feedbackPanel');
-        var count = 0;
-        if (data) {
-          for (var fieldName in data) {
-            // get the error message
-            var errorMessage = data[fieldName];
-            // remove previous error messages from feedback panel
-            var messagesList = $('#feedbackPanel > ul');
-            messagesList.empty();
-            if (errorMessage) {
-              // add error message to feedback panel
-              messagesList.append('<li>' + errorMessage.localizedMessage + '</li>');
-              count++;
-            }
-          }
-        }
-        if (count > 0) {
-          // make feedback panel visible
-          feedbackPanel.show();
-        } else {
-          // make feedback panel invisible
-          feedbackPanel.hide();
-        }
-      }, "json");
-  });
-
-
-  <%-- real-time ajax based validation of field groups --%>
-  var lastElementFocused = null;
-  var currentElementFocused = null;
-  $('.eforms-field *:input').focus(function(e) {
-    if (e.target) {
-      var el = $(e.target);
-      if (el && el.length > 0 && $(el[0]).attr('name')) {
-        lastElementFocused = currentElementFocused; // save last focused element
-        currentElementFocused = $(el[0]);
-
-        if (lastElementFocused) {
-          var params = {};
-
-          // post the last focused field (otherwise the field group validation may remove the error
-          // message set by the single-field validation)
-          addFormFieldsToParameters($().add(lastElementFocused), params);
-
-          // did the user leave a field group? if so, also post containing group and its other fields
-          var oldGroup = null;
-          var newGroup = null;
-
-          var list = lastElementFocused.closest('.eforms-fieldgroup');
-          if (list && list.length > 0) {
-            oldGroup = $(list[0]);
-          }
-
-          if (oldGroup) {
-            var newFocusElement = null;
-            if (currentElementFocused != null) {
-              list = $('.eforms-page.conditionally-visible:visible .eforms-field:visible *:input[name="' + currentElementFocused .attr('name') + '"]');
-              if (list && list.length > 0) {
-                newFocusElement = $(list[0]);
-              }
-            }
-
-            if (newFocusElement) {
-              var list = newFocusElement.closest('.eforms-fieldgroup');
-              if (list && list.length > 0) {
-                newGroup = $(list[0]);
-              }
-
-              if (!newGroup || (newGroup && newGroup.attr('name') && oldGroup.attr('name') && oldGroup.attr('name') != newGroup.attr('name'))) {
-
-                var fieldsInGroup = $('.eforms-page.conditionally-visible:visible .eforms-fieldgroup:visible[name="' + oldGroup.attr('name') + '"] .eforms-field:visible *:input');
-                addFormFieldsToParameters(fieldsInGroup, params);
-
-                // add an empty parameter for the old group on the current page
-                params[oldGroup.attr('name')] = '';
-              }
-            }
-          }
-
-          $.post(ajaxValidationUrl, params,
-            function(data){
-              var feedbackPanel = $('#feedbackPanel');
-              var count = 0;
-              if (data) {
-                // remove previous error messages from feedback panel
-                var messagesList = $('#feedbackPanel > ul');
-                messagesList.empty();
-
-                for (var fieldName in data) {
-                  // get the error message
-                  var errorMessage = data[fieldName];
-                  if (errorMessage) {
-                    // add error message to feedback panel
-                    messagesList.append('<li>' + errorMessage.localizedMessage + '</li>');
-                    count++;
-                  }
-                }
-              }
-              if (count > 0) {
-                  // make feedback panel visible
-                  feedbackPanel.show();
-              } else {
-                // make feedback panel invisible
-                feedbackPanel.hide();
-              }
-            }, "json");
-
-        }
-
-      }
-    }
-  });
-
-
-
-  <%-- Write JSON of field condition infos --%>
-  var conditions = ${form.conditionsAsJson};
-  var condFieldNames = {};
-
-  if (conditions) {
-    var items = [];
-    if (conditions['fields']) {
-      items = items.concat(conditions['fields']);
-    }
-    if (conditions['pages']) {
-      items = items.concat(conditions['pages']);
-    }
-    for (var i = 0; i < items.length; i++) {
-      var item = items[i];
-      var condFieldName = item['condname'];
-      if (!condFieldNames[condFieldName]) {
-        condFieldNames[condFieldName] = true;
-      }
-    }
-  }
-
-  for (var condFieldName in condFieldNames) {
-    var condField = $('.eforms-field *[name="' + condFieldName + '"]');
-    if (condField.length == 0) continue;
-    var eventType = 'change';
-
-    condField.bind(eventType, function() {
-      if (conditions && conditions['fields']) {
-        var fields = conditions['fields'];
-
-        for (var i = 0; i < fields.length; i++) {
-          var field = fields[i];
-          var condFieldName = field['condname'];
-          if ($(this).attr('name') != condFieldName) continue;
-
-          var name = field['name'];
-          var targetField = $('.eforms-field *[name="' + name + '"]');
-          if (targetField.length == 0) {
-              targetField = $('.eforms-fieldgroup[name="' + name + '"]');
-          }
-          if (targetField.length == 0) {
-              targetField = $('.eforms-text[name="' + name + '"]');
-          }
-          if (targetField.length == 0) continue;
-
-          var targetContainer = targetField.parents('.eforms-field');
-          if (targetContainer.length == 0) {
-              targetContainer = targetField;
-          }
-
-          var type = field['condtype'];
-          var condFieldValue = field['condvalue'];
-          var curSelectedValue = $(this).val();
-          if ($(this).is('input') && $(this).attr('type') == 'radio') {
-            curSelectedValue = $('.eforms-field *[name="' + condFieldName + '"]:radio:checked').val();
-          }
-
-          if (type == 'visibility') {
-            if (condFieldValue == curSelectedValue) {
-              targetContainer.show();
-            } else {
-              targetContainer.hide();
-            }
-          }
-        }
-
-        var pages = conditions['pages'];
-        for (var i = 0; i < pages.length; i++) {
-          var page = pages[i];
-          var condFieldName = page['condname'];
-          if ($(this).attr('name') != condFieldName) continue;
-
-          var pageIndex = page['index'];
-          var targetPage = $('#page' + pageIndex);
-          var type = page['condtype'];
-          var condFieldValue = page['condvalue'];
-          var curSelectedValue = $(this).val();
-          if ($(this).is('input') && $(this).attr('type') == 'radio') {
-            curSelectedValue = $('.eforms-field *[name="' + condFieldName + '"]:radio:checked').val();
-          }
-
-          if (type == 'visibility') {
-            if (condFieldValue == curSelectedValue) {
-              targetPage.addClass('conditionally-visible');
-              $('#pagesTab li:nth-child(' + (pageIndex + 1) + ')').addClass('conditionally-visible');
-            } else {
-              targetPage.removeClass('conditionally-visible');
-              $('#pagesTab li:nth-child(' + (pageIndex + 1) + ')').removeClass('conditionally-visible');
-            }
-            resetPagesVisible();
-          }
-        }
-      }
     });
 
-    condField.trigger(eventType);
-  }
+    $('#nextPageButton').click(function() {
+      var curPage = $('.eforms-page.conditionally-visible:visible');
 
-  <%-- In order not to show page tab for script-disabled clients, show the tabs by script if exits. --%>
-  if ($('#pagesTab')) {
-    $('#pagesTab').show();
-  }
-  <%-- Hide all the pages except of the first page --%>
-  $('.eforms-page').each(function() {
-    $(this).hide();
-  });
-  if ($('.eforms-page.conditionally-visible').length) {
-    $('.eforms-page.conditionally-visible:first').show();
-  }
+      // ajax based validation
+      // validate all fields on current page before going to the next
+      var params = {};
+      var fieldsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-field:visible *:input');
+      addFormFieldsToParameters(fieldsOnPage, params);
 
-  resetPagesVisible();
-
-  $('#previousPageButton').click(function() {
-    var curPage = $('.eforms-page.conditionally-visible:visible');
-    var prevPage = curPage.prevAll('.eforms-page.conditionally-visible:first');
-    prevPage.show();
-    curPage.hide();
-
-    var curIndex = parseInt(curPage.attr('id').replace(/^page/, ''));
-    var prevIndex = parseInt(prevPage.attr('id').replace(/^page/, ''));
-    $('#pagesTab li:nth-child(' + (curIndex + 1) + ')').removeClass('selected').find('span').removeClass('current');;
-    $('#pagesTab li:nth-child(' + (prevIndex + 1) + ')').addClass('selected').find('span').addClass('current');;
-
-    if (prevPage.prevAll('.eforms-page.conditionally-visible:first').length == 0) {
-      $('#previousPageButton').hide();
-    }
-    $('#nextPageButton').show();
-    $('.eforms-buttons input[type="submit"]').each(function() {
-        $(this).hide();
-      });
-
-    // remove error messages from feedback panel
-    var messagesList = $('#feedbackPanel > ul');
-    messagesList.empty();
-
-    // hide feedbackPanel
-    var feedbackPanel = $('#feedbackPanel');
-    feedbackPanel.hide();
-
-  });
-
-  $('#nextPageButton').click(function() {
-    var curPage = $('.eforms-page.conditionally-visible:visible');
-
-    // ajax based validation
-    // validate all fields on current page before going to the next
-    var params = {};
-    var fieldsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-field *:input');
-    addFormFieldsToParameters(fieldsOnPage, params);
-
-    // add an empty parameter for any group on the current page
-    var groupsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-fieldgroup');
-    groupsOnPage.each(function() {
-      params[$(this).attr('name')] = '';
-    });
-
-    // add current page index to parameters
-    params['currentPage'] = curPage.attr('id').replace(/^page/, '');
-
-    $.post(ajaxValidationUrl, params,
-      function(data){
-
-        // remove previous error messages from feedback panel
-        var messagesList = $('#feedbackPanel > ul');
-        messagesList.empty();
-
-        var count = 0;
-        if (data) {
-          for (var fieldName in data) {
-            // get the error message
-            var errorMessage = data[fieldName];
-            if (errorMessage) {
-              // add error message to feedback panel
-              messagesList.append('<li>' + errorMessage.localizedMessage + '</li>');
-              count++;
-            }
-          }
-        }
-        var feedbackPanel = $('#feedbackPanel');
-        if (count > 0) {
-            // there are validation errors
-            // make feedback panel visible
-            feedbackPanel.show();
-        } else {
-          // no error messages
-          // make feedback panel invisible
-          feedbackPanel.hide();
-
-          // go to the next page
-          var nextPage = curPage.nextAll('.eforms-page.conditionally-visible:first');
-          nextPage.show();
-          curPage.hide();
-
-          var curIndex = parseInt(curPage.attr('id').replace(/^page/, ''));
-          var nextIndex = parseInt(nextPage.attr('id').replace(/^page/, ''));
-          $('#pagesTab li:nth-child(' + (curIndex + 1) + ')').removeClass('selected').find('span').removeClass('current');
-          $('#pagesTab li:nth-child(' + (nextIndex + 1) + ')').addClass('selected').find('span').addClass('current');
-
-          $('#previousPageButton').show();
-          if (nextPage.nextAll('.eforms-page.conditionally-visible:first').length == 0) {
-            $('#nextPageButton').hide();
-            $('.eforms-buttons input[type="submit"]').each(function() {
-              $(this).show();
-            });
-          }
-
-        }
-
-      }, "json");
-
-
-  });
-
-
-  var valid = false;
-
-  // ajax page validation in case of last (or only) page
-  $('form[name="${form.name}"]').submit(function(event) {
-
-    var curPage = $('.eforms-page.conditionally-visible:visible');
-
-    // if valid flag is set, page was validated and form can be submitted
-    if (valid) {
-        return true;
-    }
-
-    var params = {};
-    var fieldsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-field:visible *:input');
-    addFormFieldsToParameters(fieldsOnPage, params);
-
-    // add an empty parameter for any visible group on the current page
-    var groupsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-fieldgroup:visible');
-    groupsOnPage.each(function() {
+      // add an empty parameter for any group on the current page
+      var groupsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-fieldgroup:visible');
+      groupsOnPage.each(function() {
         params[$(this).attr('name')] = '';
-    });
+      });
 
-    // add current page index to parameters
-    params['currentPage'] = curPage.attr('id').replace(/^page/, '');
+      // add current page index to parameters
+      params['currentPage'] = curPage.attr('id').replace(/^page/, '');
 
-    // prevent form submission as we want to do ajax validation first
-    event.preventDefault();
+      $.post(ajaxValidationUrl, params,
+        function(data){
 
-    $.post(ajaxValidationUrl, params,
-      function(data){
+          // remove previous error messages from feedback panel
+          var messagesList = $('#feedbackPanel > ul');
+          messagesList.empty();
 
-        // remove previous error messages from feedback panel
-        var messagesList = $('#feedbackPanel > ul');
-        messagesList.empty();
-
-        var count = 0;
-        if (data) {
-          for (var fieldName in data) {
-            // get the error message
-            var errorMessage = data[fieldName];
-            if (errorMessage) {
-              // add error message to feedback panel
-              messagesList.append('<li>' + errorMessage.localizedMessage + '</li>');
-              count++;
+          var count = 0;
+          if (data) {
+            for (var fieldName in data) {
+              // get the error message
+              var errorMessage = data[fieldName];
+              if (errorMessage) {
+                // add error message to feedback panel
+                messagesList.append('<li>' + errorMessage.localizedMessage + '</li>');
+                count++;
+              }
             }
           }
-        }
-        var feedbackPanel = $('#feedbackPanel');
-        if (count > 0) {
+          var feedbackPanel = $('#feedbackPanel');
+          if (count > 0) {
+            // there are validation errors
+            // make feedback panel visible
+            feedbackPanel.show();
+          } else {
+            // no error messages
+            // make feedback panel invisible
+            feedbackPanel.hide();
+
+            // go to the next page
+            var nextPage = curPage.nextAll('.eforms-page.conditionally-visible:first');
+            nextPage.show();
+            curPage.hide();
+
+            var curIndex = parseInt(curPage.attr('id').replace(/^page/, ''));
+            var nextIndex = parseInt(nextPage.attr('id').replace(/^page/, ''));
+            $('#pagesTab li:nth-child(' + (curIndex + 1) + ')').removeClass('selected');
+            $('#pagesTab li:nth-child(' + (nextIndex + 1) + ')').addClass('selected');
+
+            $('#previousPageButton').show();
+            if (nextPage.nextAll('.eforms-page.conditionally-visible:first').length == 0) {
+              $('#nextPageButton').hide();
+              $('.eforms-buttons input[type="submit"]').each(function() {
+                $(this).show();
+              });
+            }
+
+          }
+
+        }, "json");
+
+
+    });
+
+
+    var valid = false;
+
+    // ajax page validation in case of last (or only) page
+    $('form[name="${form.name}"]').submit(function(event) {
+
+      var curPage = $('.eforms-page.conditionally-visible:visible');
+
+      // if valid flag is set, page was validated and form can be submitted
+      if (valid) {
+        return true;
+      }
+
+      var params = {};
+      var fieldsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-field:visible *:input');
+      addFormFieldsToParameters(fieldsOnPage, params);
+
+      // add an empty parameter for any visible group on the current page
+      var groupsOnPage = $('.eforms-page.conditionally-visible:visible .eforms-fieldgroup:visible');
+      groupsOnPage.each(function() {
+        params[$(this).attr('name')] = '';
+      });
+
+      // add current page index to parameters
+      params['currentPage'] = curPage.attr('id').replace(/^page/, '');
+
+      // prevent form submission as we want to do ajax validation first
+      event.preventDefault();
+
+      $.post(ajaxValidationUrl, params,
+        function(data){
+
+          // remove previous error messages from feedback panel
+          var messagesList = $('#feedbackPanel > ul');
+          messagesList.empty();
+
+          var count = 0;
+          if (data) {
+            for (var fieldName in data) {
+              // get the error message
+              var errorMessage = data[fieldName];
+              if (errorMessage) {
+                // add error message to feedback panel
+                messagesList.append('<li>' + errorMessage.localizedMessage + '</li>');
+                count++;
+              }
+            }
+          }
+          var feedbackPanel = $('#feedbackPanel');
+          if (count > 0) {
             // there are validation errors
             // make feedback panel visible
             feedbackPanel.show();
 
-        } else {
-          // no error messages
-          // make feedback panel invisible
-          feedbackPanel.hide();
+          } else {
+            // no error messages
+            // make feedback panel invisible
+            feedbackPanel.hide();
 
-          // set valid flag and resubmit form
-          valid = true;
-          $('form[name="${form.name}"] input:submit').click();
-        }
+            // set valid flag and resubmit form
+            valid = true;
+            $('form[name="${form.name}"] input:submit').click();
+          }
 
-      }, "json");
+        }, "json");
+
+    });
 
   });
-
-});
 </script>
