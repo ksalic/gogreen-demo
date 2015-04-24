@@ -7,7 +7,7 @@
       <sv:value>categories</sv:value>
     </sv:property>
     <sv:property sv:name="plugin.class" sv:type="String">
-      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.CategoriesCollectorPlugin</sv:value>
+      <sv:value>com.onehippo.gogreen.targeting.CategoriesCollectorPlugin</sv:value>
     </sv:property>
     <sv:property sv:name="size" sv:type="Long">
       <sv:value>100</sv:value>
@@ -93,7 +93,7 @@
   </sv:node>
   <sv:node sv:name="visitor-details-panel" h:merge="combine">
     <sv:property sv:name="plugin.class" sv:type="String" h:merge="override">
-      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.VisitorDetailsPanel</sv:value>
+      <sv:value>com.onehippo.gogreen.targeting.VisitorDetailsPanel</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="collector-referrer">
@@ -126,7 +126,7 @@
       <sv:value>weather</sv:value>
     </sv:property>
     <sv:property sv:name="plugin.class" sv:type="String">
-      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.WeatherCollectorPlugin</sv:value>
+      <sv:value>com.onehippo.gogreen.targeting.WeatherCollectorPlugin</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="collector-geo" h:merge="combine">
@@ -146,7 +146,7 @@
       <sv:value>weather</sv:value>
     </sv:property>
     <sv:property sv:name="plugin.class" sv:type="String">
-      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.WeatherCharacteristicPlugin</sv:value>
+      <sv:value>com.onehippo.gogreen.targeting.WeatherCharacteristicPlugin</sv:value>
     </sv:property>
     <sv:property sv:name="visitor.characteristic.visible" sv:type="Boolean">
       <sv:value>true</sv:value>
@@ -163,7 +163,7 @@
       <sv:value>categories</sv:value>
     </sv:property>
     <sv:property sv:name="plugin.class" sv:type="String">
-      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.CategoriesCharacteristicPlugin</sv:value>
+      <sv:value>com.onehippo.gogreen.targeting.CategoriesCharacteristicPlugin</sv:value>
     </sv:property>
     <sv:property sv:name="visitor.characteristic.visible" sv:type="Boolean">
       <sv:value>false</sv:value>
@@ -243,7 +243,7 @@
       <sv:value>agevisitor</sv:value>
     </sv:property>
     <sv:property sv:name="plugin.class" sv:type="String">
-      <sv:value>com.onehippo.com.onehippo.gogreen.targeting.cms.plugins.AgeCharacteristicPlugin</sv:value>
+      <sv:value>com.onehippo.gogreen.targeting.AgeCharacteristicPlugin</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

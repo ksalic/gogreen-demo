@@ -385,13 +385,13 @@
       <sv:value>hippo:initializeitem</sv:value> 
     </sv:property>  
     <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst-hst/hst-configurations/hstdefault/catalog.xml</sv:value> 
+      <sv:value>hst-hst/hst-configurations/hstdefault/catalog.xml</sv:value>
     </sv:property>  
     <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hst:default</sv:value> 
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
     </sv:property>  
     <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>30101.0</sv:value> 
+      <sv:value>55101.0</sv:value>
     </sv:property> 
   </sv:node>  
   <sv:node sv:name="hstdefault-gogreen_and_mobile-hst-templates"> 
@@ -843,21 +843,7 @@
     <sv:property sv:name="hippo:sequence" sv:type="Double"> 
       <sv:value>31600.0</sv:value> 
     </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="gotoShortcut"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hippo-configuration/gotoShortcut.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-dashshortcuts</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31600.9</sv:value> 
-    </sv:property> 
-  </sv:node>  
+  </sv:node>
   <sv:node sv:name="new-blog-shortcut">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -1582,21 +1568,7 @@ We need to use a number more than that to be able to create the default selectio
     <sv:property sv:name="hippo:sequence" sv:type="Double"> 
       <sv:value>31204.4</sv:value> 
     </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hippogogreen-domain-hst-security-readonly-access"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>security/domain-hst-security-readonly-access.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hippo:configuration/hippo:domains/hst-security</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31204.4</sv:value> 
-    </sv:property> 
-  </sv:node>  
+  </sv:node>
   <sv:node sv:name="hippogogreen-group-previewusers"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -3405,39 +3377,9 @@ We need to use a number more than that to be able to create the default selectio
     <sv:property sv:name="hippo:contentroot" sv:type="String"> 
       <sv:value>/hst:hst/hst:configurations/hippogogreen_fr/hst:workspace</sv:value> 
     </sv:property> 
-  </sv:node>  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages"> 
+  </sv:node>
+
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
     </sv:property>  
@@ -3465,29 +3407,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/hippogogreen</sv:value> 
     </sv:property> 
   </sv:node>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
+
   <!-- de -->  
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_de-hst-pages"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
@@ -4417,7 +4337,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hippo:configuration/hippo:modules</sv:value>
     </sv:property>
   </sv:node>
-<sv:node sv:name="content-zh-searchfacets">
+  <sv:node sv:name="content-zh-searchfacets">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -4431,7 +4351,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/content/documents/河马转到绿</sv:value>
     </sv:property>
   </sv:node>
-<sv:node sv:name="hst-hst-hst-configurations-hst-default-hst-sitemap">
+  <sv:node sv:name="hst-hst-hst-configurations-hst-default-hst-sitemap">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -4443,6 +4363,204 @@ We need to use a number more than that to be able to create the default selectio
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/hst:hst/hst:configurations/hst:default</sv:value>
+    </sv:property>
+  </sv:node>
+
+  <!-- Enterprise Forms customizations -->
+  <sv:node sv:name="hgge-hippo-namespaces-eforms-form">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30000.3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hippo-namespaces/eforms/form.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:namespaces/eforms</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-content-documents-hippogogreen-forms">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>51011</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/en/forms.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-hst-configurations-common-hst-components-eform">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50511.03</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/components/eform.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:components</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.05</sv:value>
+    </sv:property>
+  </sv:node>
+
+  <!-- Targeting -->
+  <sv:node sv:name="hgge-targeting-collectors">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50100</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>targeting-collectors.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/targeting:targeting</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-targeting-characteristics">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50101</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>targeting-characteristics.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/targeting:targeting</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-targeting-events">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50101.1</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>targeting-events.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/targeting:targeting/targeting:experiments</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-targeting-personas">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50102</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>targeting-personas.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/targeting:targeting</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-targeting-alteregos">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50102.1</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>targeting-alteregos.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/targeting:targeting</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-targeting-frontend">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50103</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>targeting-frontend.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:frontend/cms</sv:value>
+    </sv:property>
+  </sv:node>
+
+  <!-- Advanced Search -->
+  <sv:node sv:name="hgge-adv-search-generic-filters">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>adv-search-generic-filters.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-advanced-search</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50200</sv:value>
+    </sv:property>
+  </sv:node>
+  <!--   CMS advanced search perspective loader   -->
+  <sv:node sv:name="hgge-adv-search-title-filter-translator">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>adv-search-title-filter-translator.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-advanced-search</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50201</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hgge-adv-search-title-filter">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>adv-search-title-filter.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-advanced-search</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>50201</sv:value>
+    </sv:property>
+  </sv:node>
+  <!-- /Advanced Search -->
+
+  <!-- Enterprise Forms -->
+  <sv:node sv:name="hgge-eforms-folder">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31404.9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/eforms.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

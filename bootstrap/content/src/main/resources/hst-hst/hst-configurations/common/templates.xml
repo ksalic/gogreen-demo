@@ -1162,4 +1162,28 @@
       <sv:value>jsp/prototypedpages/vari-column.jsp</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="eforms.default">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/eforms/eforms-default.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="eforms.validation.default">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/eforms/eforms-validation-default.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="contact.main.content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/contact/main/content.jsp</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
