@@ -27,6 +27,10 @@
   <artifactId>gogreen-two-cms</artifactId>
   <packaging>war</packaging>
 
+  <properties>
+    <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
+  </properties>
+
   <dependencies>
 
     <dependency>
@@ -256,10 +260,6 @@
         <directory>src/main/java</directory>
         <includes>
           <include>**</include>
-          <include>**/*.js</include>
-          <include>**/*.png</include>
-          <include>**/*.properties</include>
-          <include>**/*.xml</include>
         </includes>
         <excludes>
           <exclude>**/*.java</exclude>
@@ -276,6 +276,7 @@
             <manifestEntries>
               <Hippo-Release-Version>${hippo.release.version}</Hippo-Release-Version>
               <Project-Version>${project.version}</Project-Version>
+              <Project-Build>${buildNumber} ${maven.build.timestamp}</Project-Build>
             </manifestEntries>
           </archive>
         </configuration>

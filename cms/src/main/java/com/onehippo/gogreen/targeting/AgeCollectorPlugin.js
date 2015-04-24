@@ -1,8 +1,8 @@
 'use strict';
 
-Ext.namespace('GoGreen');
+Ext.namespace('Hippo.Targeting');
 
-GoGreen.AgeCollectorPlugin =
+Hippo.Targeting.AgeCollectorPlugin =
         Ext.extend(Hippo.Targeting.CollectorPlugin, {
             constructor: function(config) {
                 var editor;
@@ -10,7 +10,7 @@ GoGreen.AgeCollectorPlugin =
                 editor = {
                     collector: config.collector,
                     resources: config.resources,
-                    xtype: 'GoGreen.AgeTargetingDataEditor'
+                    xtype: 'Hippo.Targeting.AgeTargetingDataEditor'
                 };
                 
                 Ext.apply(config, {
@@ -18,7 +18,7 @@ GoGreen.AgeCollectorPlugin =
                             renderer: this.render
                 });
 
-                GoGreen.AgeCollectorPlugin.superclass.constructor
+                Hippo.Targeting.AgeCollectorPlugin.superclass.constructor
                         .call(this, config);
             },
             render: function(value) {
@@ -31,14 +31,14 @@ GoGreen.AgeCollectorPlugin =
             }
         });
         
-GoGreen.AgeTargetingDataEditor = Ext.extend(Ext.form.TextField, {
+Hippo.Targeting.AgeTargetingDataEditor = Ext.extend(Ext.form.TextField, {
 
         constructor: function(config) {
-            GoGreen.AgeTargetingDataEditor.superclass.constructor.call(this, config);
+            Hippo.Targeting.AgeTargetingDataEditor.superclass.constructor.call(this, config);
         },
 
         getValue: function() {            
-            var data = GoGreen.AgeTargetingDataEditor.superclass.getValue.call(this);
+            var data = Hippo.Targeting.AgeTargetingDataEditor.superclass.getValue.call(this);
                        
             return {
                 collectorId: this.collector,
@@ -47,10 +47,10 @@ GoGreen.AgeTargetingDataEditor = Ext.extend(Ext.form.TextField, {
         },
 
         setValue: function(data) {
-            GoGreen.AgeTargetingDataEditor.superclass.setValue.call(this, data.age);
+            Hippo.Targeting.AgeTargetingDataEditor.superclass.setValue.call(this, data.age);
         }
 
     });
-    Ext.reg('GoGreen.AgeTargetingDataEditor', GoGreen.AgeTargetingDataEditor);
+    Ext.reg('Hippo.Targeting.AgeTargetingDataEditor', Hippo.Targeting.AgeTargetingDataEditor);
 
-//Ext.reg('GoGreen.AgeCollectorPlugin', GoGreen.AgeCollectorPlugin);
+//Ext.reg('Hippo.Targeting.AgeCollectorPlugin', Hippo.Targeting.AgeCollectorPlugin);

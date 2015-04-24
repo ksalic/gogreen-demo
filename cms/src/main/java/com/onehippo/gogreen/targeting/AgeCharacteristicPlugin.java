@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.onehippo.gogreen.targeting.cms.plugins;
+package com.onehippo.gogreen.targeting;
 
 import org.apache.wicket.Component;
 import org.apache.wicket.markup.head.IHeaderResponse;
@@ -30,7 +30,7 @@ import com.onehippo.cms7.targeting.frontend.plugin.CharacteristicPlugin;
 /**
  * 
  */
-@ExtClass("GoGreen.AgeCharacteristicPlugin")
+@ExtClass("Hippo.Targeting.AgeCharacteristicPlugin")
 public class AgeCharacteristicPlugin extends CharacteristicPlugin {
 
     private static final long serialVersionUID = 1L;

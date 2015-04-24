@@ -1,5 +1,5 @@
 
-package com.onehippo.gogreen.targeting.cms.plugins;
+package com.onehippo.gogreen.targeting;
 
 import org.apache.wicket.Component;
 import org.apache.wicket.markup.head.IHeaderResponse;
@@ -13,7 +13,7 @@ import org.wicketstuff.js.ext.util.ExtClass;
 
 import com.onehippo.cms7.targeting.frontend.plugin.CollectorPlugin;
  
-@ExtClass("GoGreen.AgeCollectorPlugin")
+@ExtClass("Hippo.Targeting.AgeCollectorPlugin")
 @SuppressWarnings("unused")
 public class AgeCollectorPlugin extends CollectorPlugin {
     

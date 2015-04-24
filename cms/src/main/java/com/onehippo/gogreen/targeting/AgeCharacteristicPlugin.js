@@ -1,24 +1,24 @@
-Ext.namespace('GoGreen');
-GoGreen.AgeCharacteristicPlugin =
+Ext.namespace('Hippo.Targeting');
+Hippo.Targeting.AgeCharacteristicPlugin =
   Ext.extend(Hippo.Targeting.CharacteristicPlugin, {
 
     constructor: function(config) {
       Ext.apply(config, {
         visitorCharacteristic: {
-          xtype: 'GoGreen.AgeCharacteristic'
+          xtype: 'Hippo.Targeting.AgeCharacteristic'
         }
       });
 
-      GoGreen.AgeCharacteristicPlugin.superclass.constructor.call(this, config);
+        Hippo.Targeting.AgeCharacteristicPlugin.superclass.constructor.call(this, config);
     }
 
   });
 
-GoGreen.AgeCharacteristic =
+Hippo.Targeting.AgeCharacteristic =
   Ext.extend(Hippo.Targeting.VisitorCharacteristic, {
 
     constructor: function(config) {
-      GoGreen.AgeCharacteristic.superclass.constructor.call(this, config);
+        Hippo.Targeting.AgeCharacteristic.superclass.constructor.call(this, config);
     },
 
     isCollected: function(targetingData) {
@@ -43,4 +43,4 @@ GoGreen.AgeCharacteristic =
     }
   });
 
-Ext.reg('GoGreen.AgeCharacteristic', GoGreen.AgeCharacteristic);
+Ext.reg('Hippo.Targeting.AgeCharacteristic', Hippo.Targeting.AgeCharacteristic);
