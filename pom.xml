@@ -20,7 +20,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>10.0.0-SNAPSHOT</version>
+    <version>10.0.0</version>
   </parent>
 
 
@@ -43,7 +43,7 @@
     <!-- use root project name for all project modules NOTICE files, should be the same as in the root NOTICE file -->
     <notice.project.name>Hippo Go Green</notice.project.name>
 
-    <essentials.version>1.03.00-SNAPSHOT</essentials.version>
+    <!--<essentials.version>1.03.00-SNAPSHOT</essentials.version>-->
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.1</taglibs.version>
     <commons.lang.version>2.6</commons.lang.version>
@@ -101,7 +101,7 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
+     <!-- <dependency>
         <groupId>org.onehippo.cms7</groupId>
         <artifactId>hippo-essentials-plugin-sdk-api</artifactId>
         <version>${essentials.version}</version>
@@ -116,6 +116,8 @@
         <artifactId>hippo-essentials-components-hst</artifactId>
         <version>${essentials.version}</version>
       </dependency>
+
+      -->
 
       <dependency>
         <groupId>javax.servlet.jsp</groupId>
@@ -306,7 +308,7 @@
         <module>cms</module>
         <module>site</module>
         <module>site-assembly</module>
-        <module>essentials</module>
+        <!--<module>essentials</module>-->
         <!--<module>integration-tests</module>
         <module>server-config</module>-->
         <module>launcher</module>
