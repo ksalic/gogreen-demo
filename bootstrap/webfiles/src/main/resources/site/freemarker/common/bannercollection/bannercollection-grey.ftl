@@ -29,7 +29,7 @@
     <#else>
         <#assign bannerCount=(banners?size - 1.0 ) / 2.0 /></#if>
 
-<div class="section-content no-padding">
+<div class="section-content no-padding top-body">
 <#-- START MARKUP-->
     <div class="container">
         <div class="row">
@@ -46,26 +46,27 @@
                 </#if>
                 <@fmt.setBundle basename="messages"/>
             <div class="col-md-${colSize} col-sm-${colSize}">
-                <div class="content-box content-style4 medium animated fadeIn animatedVisi" data-animtype="fadeIn" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.2s" style="-webkit-animation: 1s 0.2s;">
-                    <h4 class="h4-body-title">
-                        <#if banner.icon??>
-                            <i class="${banner.icon}"></i>
-                        <#elseif banner.image??>
-                            <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="${banner.image.alt}" class="icon-replacement">
-                        </#if>
+                <div class="content-box content-style2 anim-opacity animated fadeIn animatedVisi" data-animtype="fadeIn" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.2s" style="-webkit-animation: 1s 0.2s;">
+                    <div class="feature-content">
+                        <h4 class="h4-body-title">
+                            <#if banner.icon??>
+                                <i class="fa ${banner.icon}"></i>
+                            <#elseif banner.image??>
+                                <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="${banner.image.alt}" class="icon-replacement">
+                            </#if>
                         ${banner.title}
-                    </h4>
-
-                    <div class="content-box-text">
+                        </h4>
+                        <div class="content-box-text">
                         ${banner.text}
-                        <@hst.cmseditlink hippobean=banner/>
-                        <#if docLink??>
-                            <div>
-                                <a href="${docLink}" class=" btn btn-sm">
-                                    <span><@fmt.message key="common.read.more"/></span>
-                                </a>
-                            </div>
-                        </#if>
+                            <@hst.cmseditlink hippobean=banner/>
+                            <#if docLink??>
+                                <div>
+                                    <a href="${docLink}" class="read-more">
+                                        <span><@fmt.message key="common.read.more"/></span>
+                                    </a>
+                                </div>
+                            </#if>
+                        </div>
                     </div>
                 </div>
             </div>

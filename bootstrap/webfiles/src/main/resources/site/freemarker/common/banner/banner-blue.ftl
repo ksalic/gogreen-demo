@@ -1,12 +1,12 @@
 <#include "../../include/imports.ftl">
-<#if  document??>
-  <#if  title??>
+<#if document??>
+  <#if title?? && title!=''>
   <div class="row">
     <div class="col-md-12 col-sm-12">
       <h2 class="h2-section-title">
       ${title}
       </h2>
-      <#if  icon??>
+      <#if icon??>
         <div class="i-section-title">
           <i class="fa  ${icon}"></i>
         </div>
@@ -36,23 +36,20 @@
     </div>
   </div>
 
-
-  <#if separatorBorderTop>
-    <#assign cssClass> border-top</#assign>
-  </#if>
-  <#if separatorBorderBottom>
-    <#assign cssClass>${cssClass} border-bottom</#assign>
-  </#if>
-  <#if separatorMargin??>
-  <#else>
-
-  </#if>
-  <#if separatorMargin?? && cssClass??>
+    <#if separatorBorderTop>
+        <#assign cssClass> border-top</#assign>
+    </#if>
+    <#if separatorBorderBottom>
+        <#assign cssClass>${cssClass} border-bottom</#assign>
+    </#if>
+    <#if separatorMargin?? && cssClass??>
     <div class="space-sep ${separatorMargin} ${cssClass}"></div>
-  <#elseif separatorMargin??>
-    <div class="space-sep ${separatorMargin}"></div>    <#elseif cssClass??>
+    <#elseif separatorMargin??>
+    <div class="space-sep ${separatorMargin}"></div>
+    <#elseif cssClass??>
     <div class="space-sep ${cssClass}"></div>
-  </#if>
+    </#if>
+
 <#elseif preview??>
   <h2 class="not-configured">Click to configure banner</h2>
 </#if>
