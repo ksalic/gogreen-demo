@@ -312,7 +312,10 @@
         <!--<module>integration-tests</module>
         <module>server-config</module>-->
         <module>launcher</module>
+
+        <module>relevance</module>
         <module>elasticsearch</module>
+
         <module>dist</module>
       </modules>
     </profile>
@@ -363,12 +366,21 @@
                 </deployable>
 
                 <deployable>
+                  <location>${project.basedir}/relevance/target/relevance</location>
+                  <type>war</type>
+                  <properties>
+                    <context>/relevance</context>
+                  </properties>
+                </deployable>
+
+                <deployable>
                   <location>${project.basedir}/elasticsearch/target/elasticsearch</location>
                   <type>war</type>
                   <properties>
                     <context>/elasticsearch</context>
                   </properties>
                 </deployable>
+
                 <!-- TODO add essentials -->
                 <!--
 
