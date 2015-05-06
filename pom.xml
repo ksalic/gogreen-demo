@@ -312,12 +312,17 @@
         <!--<module>integration-tests</module>
         <module>server-config</module>-->
         <module>launcher</module>
+        <module>elasticsearch</module>
         <module>dist</module>
       </modules>
     </profile>
 
     <profile>
       <id>cargo.run</id>
+      <properties>
+        <es.path>target/esdata</es.path>
+        <es.bootstrap />
+      </properties>
       <build>
         <plugins>
           <plugin>
@@ -354,6 +359,14 @@
                   <type>war</type>
                   <properties>
                     <context>/site</context>
+                  </properties>
+                </deployable>
+
+                <deployable>
+                  <location>${project.basedir}/elasticsearch/target/elasticsearch</location>
+                  <type>war</type>
+                  <properties>
+                    <context>/elasticsearch</context>
                   </properties>
                 </deployable>
                 <!-- TODO add essentials -->
