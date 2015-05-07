@@ -74,8 +74,6 @@
 
     <yui.sources.version>1.01.11</yui.sources.version>
     <sonar.l10n.locales>nl,fr,it,de</sonar.l10n.locales>
-
-    <elasticsearch-transport-wares.version>2.4.1</elasticsearch-transport-wares.version>
   </properties>
   
   <repositories>
@@ -314,21 +312,12 @@
         <!--<module>integration-tests</module>
         <module>server-config</module>-->
         <module>launcher</module>
-
-        <module>relevance</module>
-        <module>elasticsearch</module>
-	<module>data</module>
-
         <module>dist</module>
       </modules>
     </profile>
 
     <profile>
       <id>cargo.run</id>
-      <properties>
-        <es.path>target/esdata</es.path>
-        <es.bootstrap />
-      </properties>
       <build>
         <plugins>
           <plugin>
@@ -367,23 +356,6 @@
                     <context>/site</context>
                   </properties>
                 </deployable>
-
-                <deployable>
-                  <location>${project.basedir}/relevance/target/relevance</location>
-                  <type>war</type>
-                  <properties>
-                    <context>/relevance</context>
-                  </properties>
-                </deployable>
-
-                <deployable>
-                  <location>${project.basedir}/elasticsearch/target/elasticsearch</location>
-                  <type>war</type>
-                  <properties>
-                    <context>/elasticsearch</context>
-                  </properties>
-                </deployable>
-
                 <!-- TODO add essentials -->
                 <!--
 

@@ -461,9 +461,6 @@ conf/hst.properties -text
 conf/log4j-dev.xml -text
 conf/log4j-prod.xml -text
 conf/log4j.dtd -text
-data/src/main/resources/request-data.bz2 -text svneol=unset#unset
-data/src/main/resources/targeting-data.bz2 -text svneol=unset#unset
-data/src/main/resources/visit-data.bz2 -text svneol=unset#unset
 dist/pom.xml -text
 dist/src/overlay/LICENSE -text
 dist/src/overlay/NOTICE -text
@@ -502,7 +499,6 @@ dist/src/overlay/tomcat/webapps/ROOT/index.html -text
 dist/src/overlay/tomcat/webapps/ROOT/js/check-cms.js -text
 dist/src/overlay/tomcat/webapps/ROOT/js/iehoverfix.js -text
 dist/src/overlay/tomcat/webapps/ROOT/walkthrough.html -text
-elasticsearch/src/main/webapp/WEB-INF/elasticsearch.yml -text
 essentials/pom.xml -text
 essentials/src/main/resources/project-settings.xml -text
 essentials/src/main/webapp/WEB-INF/web.xml -text
