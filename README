@@ -1,21 +1,7 @@
-Build Instructions for Gogreen 2.0
-==================================
--First, download the Gogreen 2.0 community edition (CE): https://svn.onehippo.org/repos/closed/demos/gogreen-2.0/
--Build the Gogreen 2.0 CE using default build instructions: mvn clean install
--Next, download the Gogreen 2.0 enterprise edition (EE): https://svn.onehippo.org/repos/closed/demos/gogreen-enterprise-2.0/
--Build the Gogreen 2.0 EE using default build instructions: mvn clean install
--You can now run the project using: mvn -P cargo.run
-
-
-
-
-
-OLD instructions:
-
 Running locally
 ===============
 
-Hippo GoGreen uses the Maven Cargo plugin to run the CMS and site locally in Tomcat.
+Hippo Go Green uses the Maven Cargo plugin to run the CMS and site locally in Tomcat.
 From the project root folder, execute:
 
   $ mvn clean install
@@ -39,7 +25,6 @@ Creating the demo launcher
 
 The demo launcher is an archive containing an executable jar that launches a Tomcat instance containing
 the CMS and the Go Green site application.
-
 
 To create demo launcher:
   $ mvn clean install
@@ -77,5 +62,5 @@ To hot deploy, redeploy or undeploy the CMS or site:
 
 Special thanks:
 ===============
-- To the PubPig team (PugPig.com) about the help we got from them for the IPad magazine support
+- To the PugPig team (PugPig.com) about the help we got from them for the IPad magazine support
   (@see site/src/main/webapp/WEB-INF/jsp/ipadmag/events/detail.jsp)
