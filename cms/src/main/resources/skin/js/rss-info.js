@@ -66,8 +66,8 @@
     google.setOnLoadCallback(initialize);
 
     $(document).ready(function () {
-        var domain = document.location.href;
-        var addRandom = domain.indexOf('onehippo.com') > -1;
+        //var domain = document.location.href;
+        var addRandom = true;//domain.indexOf('onehippo.com') > -1;
         var randomAuthor = "author" + (addRandom ? randomWithZeros(20) : '');
         var randomEditor = "editor" + (addRandom ? randomWithZeros(20) : '');
         var randomAdmin = "admin" + (addRandom ? randomWithZeros(20) : '');
