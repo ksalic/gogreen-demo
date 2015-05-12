@@ -54,6 +54,7 @@
   <context-param>
     <param-name>hst-beans-annotated-classes</param-name>
     <param-value>classpath*:com/onehippo/gogreen/beans/**/*.class,
+                 classpath*:com/onehippo/cms7/eforms/**/*.class,
                  classpath*:org/onehippo/**/*.class
     </param-value>
   </context-param>
