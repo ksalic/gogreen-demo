@@ -104,26 +104,6 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
         return newVisit;
     }
 
-    @Override
-    public WeatherData convertJsonToTargetingData(final ObjectNode objectNode, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
-    @Override
-    public JsonNode convertTargetingDataToJson(final WeatherData weatherData, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
-    @Override
-    public Integer convertJsonToRequestData(final JsonNode jsonNode, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
-    @Override
-    public JsonNode convertRequestDataToJson(final Integer integer, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
     static Integer parseWeatherCode(String weatherData) {
         try {
             final JSONObject json = (JSONObject) JSONSerializer.toJSON(weatherData);

@@ -73,27 +73,6 @@ public class RemoteVisitorAgeCollector extends AbstractVisitorAgeCollector {
             log.error("Error ocurred while closing http client.", e);
         }
     }
-
-    @Override
-    public AgeTargetingData convertJsonToTargetingData(final ObjectNode objectNode, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
-    @Override
-    public JsonNode convertTargetingDataToJson(final AgeTargetingData ageTargetingData, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
-    @Override
-    public AgeTargetingRequestData convertJsonToRequestData(final JsonNode jsonNode, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
-    @Override
-    public JsonNode convertRequestDataToJson(final AgeTargetingRequestData ageTargetingRequestData, final ObjectMapper objectMapper) throws IOException {
-        return null;
-    }
-
     @Override
     public boolean shouldUpdate(boolean newVisitor, boolean newVisit, AgeTargetingData targetingData) {
         // For now we update every time
