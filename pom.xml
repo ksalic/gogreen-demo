@@ -74,6 +74,8 @@
 
     <yui.sources.version>1.01.11</yui.sources.version>
     <sonar.l10n.locales>nl,fr,it,de</sonar.l10n.locales>
+
+    <elasticsearch-transport-wares.version>2.4.1</elasticsearch-transport-wares.version>
   </properties>
   
   <repositories>
@@ -315,6 +317,7 @@
 
         <module>relevance</module>
         <module>elasticsearch</module>
+	<module>data</module>
 
         <module>dist</module>
       </modules>

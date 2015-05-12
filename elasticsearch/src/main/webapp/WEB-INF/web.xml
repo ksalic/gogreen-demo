@@ -19,7 +19,7 @@
   </servlet-mapping>
 
   <listener>
-    <!-- <listener-class>com.onehippo.gogreen.cms7.elasticsearch.ElasticsearchIndexCreator</listener-class> -->
+    <listener-class>com.onehippo.gogreen.elasticsearch.ElasticsearchIndexCreator</listener-class>
   </listener>
 
 </web-app>
