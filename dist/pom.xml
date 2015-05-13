@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2013 Hippo B.V. (http://www.onehippo.com)
+  ~ Copyright 2013-2015 Hippo B.V. (http://www.onehippo.com)
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -59,12 +59,6 @@
                     </untar>
                     <unzip src="${project.basedir}/../cms/target/cms.war" dest="${tomcat.target.dir}/webapps/cms" />
                     <unzip src="${project.basedir}/../site/target/site.war" dest="${tomcat.target.dir}/webapps/site" />
-                    <copy file="${tomcat.target.dir}/LICENSE" tofile="${dist.target.dir}/tomcat-LICENSE" />
-                    <copy file="${tomcat.target.dir}/NOTICE" tofile="${dist.target.dir}/tomcat-NOTICE" />
-                    <copy file="${tomcat.target.dir}/webapps/cms/META-INF/LICENSE" tofile="${dist.target.dir}/cms-LICENSE" />
-                    <copy file="${tomcat.target.dir}/webapps/cms/META-INF/NOTICE" tofile="${dist.target.dir}/cms-NOTICE" />
-                    <copy file="${tomcat.target.dir}/webapps/site/META-INF/LICENSE" tofile="${dist.target.dir}/site-LICENSE" />
-                    <copy file="${tomcat.target.dir}/webapps/site/META-INF/NOTICE" tofile="${dist.target.dir}/site-NOTICE" />
                     <copy file="${project.basedir}/../conf/context.xml" tofile="${tomcat.target.dir}/conf/context.xml" overwrite="true" />
                     <copy file="${project.basedir}/../conf/log4j-prod.xml" tofile="${tomcat.target.dir}/conf/log4j.xml" />
                     <copy file="${project.basedir}/../conf/log4j.dtd" tofile="${tomcat.target.dir}/conf/log4j.dtd" />
@@ -245,7 +239,7 @@
                   <artifactItems>
                     <artifactItem>
                       <groupId>com.onehippo.gogreen</groupId>
-                      <artifactId>hippogogreen-launcher</artifactId>
+                      <artifactId>gogreen-two-launcher</artifactId>
                       <classifier>jar-with-dependencies</classifier>
                       <version>${project.version}</version>
                       <type>jar</type>
