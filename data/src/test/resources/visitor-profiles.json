@@ -1,0 +1,42 @@
+{
+  "background-visitor": {
+    "rate": 5,
+    "ips": [],
+    "pages": [
+      "",
+      "/news",
+      "/news/2014/09/sonja-verde-joins-gogreen-as-vp-of-marketing.html",
+      "/news/2014/09/hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign.html",
+      "/blogs/2014/09/is-a-smart-thermostat-worth-the-investment.html",
+      "/blogs/2014/09/how-to-green-your-dorm-room.html",
+      "/blogs/2014/08/10-simple-steps-to-green-your-office.html",
+      "/blogs/2010/07/energy-impact-of-light-bulbs.html",
+      "/blogs/2014/03/healing-ozone-layer-may-contribute-to-global-warming.html"
+    ],
+    "frequency": {
+      "daily": [ 8, 3, 5, 9 ],
+      "weekly": [ 7, 9, 9, 6, 8, 6, 3 ]
+    }
+  },
+
+  "experiment-visitor": {
+    "rate": 25,
+    "ips": [],
+    "frequency": {
+      "daily": [ 3, 8, 10, 7 ],
+      "weekly": [ 5, 5, 3, 8, 5, 2, 2 ]
+    },
+    "pages": [
+      "/news"
+    ],
+    "conversions": [
+      {
+        "from": "/products",
+        "to": "/contact",
+        "text": "heroes/products-2",
+        "rateNoMatch": 0.2,
+        "rateMatch": 0.23
+      }
+    ]
+  }
+}
