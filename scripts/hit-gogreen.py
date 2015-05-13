@@ -4,7 +4,7 @@
 # Copyright 2012-2013 Hippo B.V. (http://www.onehippo.com)
 #
 
-import cookielib, urllib2, sys
+import urllib2, sys
 
 # the default base of all URLs of all visitors.
 DEFAULT_URL_BASE = 'http://localhost:8080/site'
@@ -83,7 +83,10 @@ class HttpBot:
         cookie_handler= urllib2.HTTPCookieProcessor()
         redirect_handler= urllib2.HTTPRedirectHandler()
         self._opener = urllib2.build_opener(redirect_handler, cookie_handler)
-        self._opener.addheaders = [('X-Forwarded-For', ip)]
+        self._opener.addheaders = [
+            ('X-Forwarded-For', ip),
+            ('User-agent', 'Hippo Gecko Hippo Hippo'),
+        ]
 
     def GET(self, url):
         return self._opener.open(url).read()
