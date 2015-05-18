@@ -207,7 +207,7 @@ public class DataGeneratorTest {
             .setMaxConnPerRoute(20)
             .build()) {
 
-            System.out.println("Generating Visits");
+            System.out.println("Generating visits");
             Semaphore semaphore = new Semaphore(0);
             int numVisits = 0;
             List<Profile> profiles = profilesJson.entrySet().stream()
@@ -223,8 +223,15 @@ public class DataGeneratorTest {
                 }
             }
 
-            System.out.println("Waiting for Visits to complete");
-            semaphore.acquire(numVisits);
+            System.out.println("Waiting for visits to complete");
+            int timeUnits = 0;
+            int timeStep = 1;
+            final TimeUnit stepUnit = TimeUnit.MINUTES;
+            do {
+                System.out.println("Completed " + semaphore.availablePermits() + "/" + numVisits
+                        + " visits in " + timeUnits + " " + stepUnit.name());
+                timeUnits += timeStep;
+            } while (!semaphore.tryAcquire(numVisits, timeStep, stepUnit));
         }
         executorService.shutdown();
     }
