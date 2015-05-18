@@ -407,7 +407,10 @@
                   <net.spy.log.LoggerImpl>com.onehippo.cms7.targeting.storage.couchbase.Slf4jLogger</net.spy.log.LoggerImpl>
                   <!-- enables auto export: -->
                   <!--<project.basedir>${project.basedir}</project.basedir>-->
+                  <es.path>${es.path}</es.path>
+                  <es.bootstrap>${es.bootstrap}</es.bootstrap>
                 </systemProperties>
+
               </container>
             </configuration>
           </plugin>
