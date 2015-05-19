@@ -34,6 +34,52 @@
       </sv:property>
     </sv:node>
   </sv:node>
+  <sv:node sv:name="targeting:experiments" esv:merge="combine">
+    <sv:node sv:name="abcdefed-cbab-cdef-edbc-babcdefedcba">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:experimentsfolder</sv:value>
+      </sv:property>
+      <sv:node sv:name="products">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:experimentsfolder</sv:value>
+        </sv:property>
+        <sv:node sv:name="targeting:conversions">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>targeting:conversions</sv:value>
+          </sv:property>
+          <sv:node sv:name="contact">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>targeting:experiment</sv:value>
+            </sv:property>
+            <sv:property sv:name="conversion" sv:type="String">
+              <sv:value>/contact</sv:value>
+            </sv:property>
+            <sv:property sv:name="lastUpdateTime" sv:type="Date">
+              <sv:value>2015-05-19T16:36:00.000+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="mu" sv:type="String">
+              <sv:value>{-1.2569737662; -0.7107939845; -0.5461797817}</sv:value>
+            </sv:property>
+            <sv:property sv:name="sigma" sv:type="String">
+              <sv:value>{{0.1672083287,-0.1662222789,-0.1665693924},{-0.1662222789,0.1681906107,0.1655871105},{-0.1665693924,0.1655871105,0.1678434971}}</sv:value>
+            </sv:property>
+            <sv:property sv:name="startTime" sv:type="Date">
+              <sv:value>2015-05-12T15:27:27.356+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="state" sv:type="String">
+              <sv:value>RUNNING</sv:value>
+            </sv:property>
+            <sv:property sv:name="user" sv:type="String">
+              <sv:value>hippo-relevance</sv:value>
+            </sv:property>
+            <sv:property sv:name="variants" sv:type="String">
+              <sv:value>{"hst:pages/products-overview/main/hero/banner":{"persona":"hippo-default","variants":["hippo-default@1432041820","hippo-default"]}}</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
   <sv:node sv:name="targeting:dataflow" esv:merge="combine">
     <sv:property sv:name="running" sv:type="Boolean" esv:merge="override">
       <sv:value>true</sv:value>
@@ -45,7 +91,7 @@
       <sv:value>120</sv:value>
     </sv:property>
     <sv:property sv:name="time" sv:type="Date">
-      <sv:value>2015-05-06T14:27:55.000+02:00</sv:value>
+      <sv:value>2015-05-19T16:22:46.556+02:00</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

@@ -10,6 +10,7 @@ import com.onehippo.cms7.targeting.experiments.repository.JcrPageExperiments;
 import com.onehippo.cms7.targeting.geo.GeoIPService;
 import com.onehippo.cms7.targeting.geo.GeoIPServiceImpl;
 import com.onehippo.cms7.targeting.geo.Location;
+
 import io.searchbox.client.JestClient;
 import io.searchbox.client.JestClientFactory;
 import io.searchbox.client.JestResult;
@@ -20,6 +21,7 @@ import io.searchbox.core.SearchResult;
 import io.searchbox.core.SearchScroll;
 import io.searchbox.indices.Refresh;
 import io.searchbox.params.SearchType;
+
 import org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
@@ -29,17 +31,22 @@ import org.apache.commons.math3.linear.RealMatrix;
 import org.apache.commons.math3.linear.RealVector;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.StatusLine;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.*;
+import org.apache.http.concurrent.FutureCallback;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.BasicCookieStore;
+import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
+import org.apache.http.impl.nio.client.HttpAsyncClientBuilder;
 import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
 import org.hippoecm.repository.HippoRepository;
@@ -51,6 +58,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
+
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.Executors;
@@ -73,11 +81,11 @@ public class DataGeneratorTest {
     //              a month can thus be simulated in 75 minutes
     // timeout = 1: simulate 30 minutes in 1 second
     //              a month can thus be simulated in 25 minutes
-    public static final int SESSION_TIMEOUT = 3;
+    public static final int SESSION_TIMEOUT = 1;
     public static final int D_HOUR_IN_MILLIS = 2 * SESSION_TIMEOUT * 1000;
     public static final int DILATION = 1800 / SESSION_TIMEOUT;
-    public static final int RATE_TO_COUNT = 1200;
-    public static final int WEEKS = 4;
+    public static final int RATE_TO_COUNT = 600;
+    public static final int WEEKS = 1;
 
     GeoIPService geoIPService = new GeoIPServiceImpl();
     List<String> randomIps = new ArrayList<>(10_000);
@@ -136,14 +144,17 @@ public class DataGeneratorTest {
                 }
             }
 
+            System.out.println("Loading HST model, populating facet navigation");
+            loadHstModelAndFacetNavRoots();
+
             System.out.println("Clearing indices");
             try (JestWrapper wrapper = new JestWrapper()) {
                 wrapper.getClient().execute(new DeleteByQuery
-                    .Builder("{ \"query\": { \"match_all\": {} } }")
-                    .addIndex("requests")
-                    .addIndex("visits")
-                    .addIndex("targeting-data")
-                    .build());
+                        .Builder("{ \"query\": { \"match_all\": {} } }")
+                        .addIndex("requests")
+                        .addIndex("visits")
+                        .addIndex("targeting-data")
+                        .build());
             }
 
             DataFlowStatus newStatus = new DataFlowStatus();
@@ -158,6 +169,34 @@ public class DataGeneratorTest {
             httpClient.execute(request).close();
         }
         return oldStatus;
+    }
+
+    private void loadHstModelAndFacetNavRoots() throws IOException, InterruptedException {
+        try (CloseableHttpAsyncClient client = HttpAsyncClientBuilder.create()
+                .setMaxConnPerRoute(20)
+                .setUserAgent("Gecko")
+                .build()) {
+            client.start();
+            Semaphore sync = new Semaphore(0);
+            HttpGet request = new HttpGet("http://localhost:8080/site/products");
+            for (int p = 0; p < 20; p++) {
+                client.execute(request, new FutureCallback<HttpResponse>() {
+                    @Override
+                    public void completed(final HttpResponse result) {
+                        sync.release();
+                    }
+
+                    @Override
+                    public void failed(final Exception ex) {
+                    }
+
+                    @Override
+                    public void cancelled() {
+                    }
+                });
+            }
+            sync.acquire(20);
+        }
     }
 
     private void updateExperiments(Session session) throws RepositoryException {
@@ -181,7 +220,7 @@ public class DataGeneratorTest {
     }
 
     private void disableWeather(Session session) throws RepositoryException {
-        session.getNode("/targeting:targeting/targeting:collectors/weather").setProperty("enabled", false);
+//        session.getNode("/targeting:targeting/targeting:collectors/weather").setProperty("enabled", false);
     }
 
     private void enablePageCache(Session session) throws RepositoryException {
@@ -202,17 +241,17 @@ public class DataGeneratorTest {
         ScheduledExecutorService executorService = Executors.newScheduledThreadPool(128);
         JsonObject profilesJson = parser.parse(profileReader).getAsJsonObject();
         try (CloseableHttpClient client = HttpClientBuilder.create()
-            .setUserAgent("Gecko")
-            .setDefaultCookieStore(new MultiThreadedCookieStore())
-            .setMaxConnPerRoute(20)
-            .build()) {
+                .setUserAgent("Gecko")
+                .setDefaultCookieStore(new MultiThreadedCookieStore())
+                .setMaxConnPerRoute(20)
+                .build()) {
 
             System.out.println("Generating visits");
             Semaphore semaphore = new Semaphore(0);
             int numVisits = 0;
             List<Profile> profiles = profilesJson.entrySet().stream()
-                .map(e -> gson.fromJson(e.getValue(), Profile.class))
-                .collect(Collectors.toList());
+                    .map(e -> gson.fromJson(e.getValue(), Profile.class))
+                    .collect(Collectors.toList());
             for (int m = 0; m < RATE_TO_COUNT; m++) {
                 for (Profile profile : profiles) {
                     for (int i = 0; i < profile.getRate(); i++) {
@@ -239,11 +278,11 @@ public class DataGeneratorTest {
     private long completeProcessing() throws Exception {
         try (JestWrapper wrapper = new JestWrapper()) {
             wrapper.getClient().execute(new Refresh
-                .Builder()
-                .addIndex("requests")
-                .addIndex("visits")
-                .addIndex("targeting-data")
-                .build());
+                    .Builder()
+                    .addIndex("requests")
+                    .addIndex("visits")
+                    .addIndex("targeting-data")
+                    .build());
         }
 
         long currentTime = System.currentTimeMillis();
@@ -299,12 +338,12 @@ public class DataGeneratorTest {
         OutputStream out = new BZip2CompressorOutputStream(new FileOutputStream(new File(outputFile)), 9);
         try (JestWrapper wrapper = new JestWrapper(); Writer writer = new OutputStreamWriter(out)) {
             SearchResult scrollResp = wrapper.getClient().execute(new Search
-                .Builder("{ \"query\": { \"match_all\": {} } }")
-                .setSearchType(SearchType.SCAN)
-                .addIndex(indexName)
-                .setParameter("size", 100)
-                .setParameter("scroll", "15m")
-                .build());
+                    .Builder("{ \"query\": { \"match_all\": {} } }")
+                    .setSearchType(SearchType.SCAN)
+                    .addIndex(indexName)
+                    .setParameter("size", 100)
+                    .setParameter("scroll", "15m")
+                    .build());
             if (!scrollResp.isSucceeded()) {
                 throw new RuntimeException("Unable to obtain scroll ID: " + scrollResp.getErrorMessage());
             }
@@ -344,13 +383,13 @@ public class DataGeneratorTest {
 
         JestWrapper() {
             final HttpClientConfig httpClientConfig = new HttpClientConfig
-                .Builder("http://localhost:8080/elasticsearch")
-                .multiThreaded(true)
-                .discoveryEnabled(false)
-                .defaultMaxTotalConnectionPerRoute(20)
-                .maxTotalConnection(20)
-                .readTimeout(10000)
-                .build();
+                    .Builder("http://localhost:8080/elasticsearch")
+                    .multiThreaded(true)
+                    .discoveryEnabled(false)
+                    .defaultMaxTotalConnectionPerRoute(20)
+                    .maxTotalConnection(20)
+                    .readTimeout(10000)
+                    .build();
 
             final JestClientFactory factory = new JestClientFactory();
             factory.setHttpClientConfig(httpClientConfig);
@@ -422,8 +461,8 @@ public class DataGeneratorTest {
             headers[0] = new BasicHeader("X-Forwarded-For", ipAddress);
 
             conversions = Optional.ofNullable(profile.getConversions())
-                .map(l -> l.stream().collect(Collectors.toMap(Conversion::getFrom, c -> c)))
-                .orElse(Collections.emptyMap());
+                    .map(l -> l.stream().collect(Collectors.toMap(Conversion::getFrom, c -> c)))
+                    .orElse(Collections.emptyMap());
         }
 
         private int sample(List<Integer> weekly) {

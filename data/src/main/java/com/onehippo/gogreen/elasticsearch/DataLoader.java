@@ -26,6 +26,7 @@ import javax.jcr.Node;
 import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
+import javax.jcr.Value;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
@@ -303,7 +304,7 @@ public class DataLoader {
         Session session = null;
         try {
             session = getSession();
-            final Node previewNode = getPreviewConfigNode(mountId, session);
+            final Node[] previewNodes = getPreviewConfigNode(mountId, session);
 
             NodeIterator nodes = session.getNode("/targeting:targeting/targeting:experiments").getNodes();
             final ObjectMapper mapper = new ObjectMapper();
@@ -312,24 +313,10 @@ public class DataLoader {
                 if ("targeting:events".equals(experimentRoot.getName())) {
                     continue;
                 }
-                session.move(experimentRoot.getPath(), experimentRoot.getParent().getPath() + "/" + mountId);
-                for (Node conversionNode : new NodeIterable(experimentRoot.getNode("targeting:conversions").getNodes())) {
-                    Calendar instance = Calendar.getInstance();
-                    instance.setTimeInMillis(getStartTime());
-                    conversionNode.setProperty("startTime", instance);
-                    final String variants = getStringProperty(conversionNode, "variants", "");
-                    final Iterator<String> fieldNames = mapper.readTree(variants).fieldNames();
-                    while (fieldNames.hasNext()) {
-                        final String containerItemPath = fieldNames.next();
-                        final String pagePath = containerItemPath.substring(0, containerItemPath.lastIndexOf('/'));
-                        final Node pageNode = session.getNode(previewNode.getPath() + "/" + pagePath);
-                        final String referenceComponent = getStringProperty(pageNode, COMPONENT_PROPERTY_REFERECENCECOMPONENT, "");
-                        final String containerPath = previewNode.getPath() + "/" + NODENAME_HST_WORKSPACE + "/" + NODENAME_HST_CONTAINERS + "/"  + referenceComponent;
-                        final Node containerNode = session.getNode(containerPath);
-                        containerNode.setProperty(GENERAL_PROPERTY_LOCKED_BY, TargetingJcrConstants.RELEVANCE_USER);
-                        containerNode.setProperty(GENERAL_PROPERTY_LOCKED_ON, instance);
-                    }
+                if (!mountId.equals(experimentRoot.getName())) {
+                    session.move(experimentRoot.getPath(), experimentRoot.getParent().getPath() + "/" + mountId);
                 }
+                updateChildExperiments(previewNodes, mapper, experimentRoot);
                 break;
             }
             session.save();
@@ -342,7 +329,52 @@ public class DataLoader {
         }
     }
 
-    private Node getPreviewConfigNode(String mountId, Session session) throws RepositoryException {
+    private void updateChildExperiments(final Node[] previewNodes, final ObjectMapper mapper, final Node experimentRoot) throws RepositoryException, IOException {
+        Session session = experimentRoot.getSession();
+        if (experimentRoot.hasNode("targeting:conversions")) {
+            for (Node conversionNode : new NodeIterable(experimentRoot.getNode("targeting:conversions").getNodes())) {
+                Calendar instance = Calendar.getInstance();
+                instance.setTimeInMillis(getStartTime());
+                conversionNode.setProperty("startTime", instance);
+                final String variants = getStringProperty(conversionNode, "variants", "");
+                final Iterator<String> fieldNames = mapper.readTree(variants).fieldNames();
+                while (fieldNames.hasNext()) {
+                    final String containerItemPath = fieldNames.next();
+                    final String pagePath = containerItemPath.substring(0, containerItemPath.lastIndexOf('/'));
+                    String referenceComponent = null;
+                    for (Node previewNode : previewNodes) {
+                        String path = previewNode.getPath() + "/" + pagePath;
+                        if (session.nodeExists(path)) {
+                            final Node pageNode = session.getNode(path);
+                            referenceComponent = getStringProperty(pageNode, COMPONENT_PROPERTY_REFERECENCECOMPONENT, "");
+                            break;
+                        }
+                    }
+                    if (referenceComponent == null) {
+                        System.err.println("Could not find reference for component " + pagePath);
+                        continue;
+                    }
+                    for (Node previewNode : previewNodes) {
+                        final String containerPath = previewNode.getPath() + "/" + NODENAME_HST_WORKSPACE + "/" + NODENAME_HST_CONTAINERS + "/" + referenceComponent;
+                        if (session.nodeExists(containerPath)) {
+                            final Node containerNode = session.getNode(containerPath);
+                            containerNode.setProperty(GENERAL_PROPERTY_LOCKED_BY, TargetingJcrConstants.RELEVANCE_USER);
+                            containerNode.setProperty(GENERAL_PROPERTY_LOCKED_ON, instance);
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        for (Node childNode : new NodeIterable(experimentRoot.getNodes())) {
+            if ("targeting:conversions".equals(childNode.getName())) {
+                continue;
+            }
+            updateChildExperiments(previewNodes, mapper, childNode);
+        }
+    }
+
+    private Node[] getPreviewConfigNode(String mountId, Session session) throws RepositoryException {
         final String mountpoint = getStringProperty(session.getNodeByIdentifier(mountId), MOUNT_PROPERTY_MOUNTPOINT, "");
         final String mountName = mountpoint.substring(mountpoint.lastIndexOf('/') + 1);
         final String liveChannel = "/hst:hst/" + NODENAME_HST_CHANNELS + "/" + mountName;
@@ -352,11 +384,25 @@ public class DataLoader {
         }
         final String liveConfig = "/hst:hst/" + NODENAME_HST_CONFIGURATIONS + "/" + mountName;
         final String previewConfig = liveConfig + "-preview";
+        Node configNode;
         if (session.nodeExists(previewConfig)) {
-            return session.getNode(previewConfig);
+            configNode = session.getNode(previewConfig);
         } else {
-            return copy(session, liveConfig, previewConfig);
+            configNode = copy(session, liveConfig, previewConfig);
         }
+        if (configNode.hasProperty("hst:inheritsfrom")) {
+            Value[] values = configNode.getProperty("hst:inheritsfrom").getValues();
+            Node[] result = new Node[values.length + 1];
+            result[0] = configNode;
+            int i = 1;
+            for (Value value : values) {
+                String relPath = value.getString();
+                Node otherNode = configNode.getNode(relPath);
+                result[i++] = otherNode;
+            }
+            return result;
+        }
+        return new Node[]{configNode};
     }
 
     private void clearIndex(String index, String type) throws Exception {
