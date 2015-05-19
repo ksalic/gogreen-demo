@@ -81,11 +81,11 @@ public class DataGeneratorTest {
     //              a month can thus be simulated in 75 minutes
     // timeout = 1: simulate 30 minutes in 1 second
     //              a month can thus be simulated in 25 minutes
-    public static final int SESSION_TIMEOUT = 1;
+    public static final int SESSION_TIMEOUT = 3;
     public static final int D_HOUR_IN_MILLIS = 2 * SESSION_TIMEOUT * 1000;
     public static final int DILATION = 1800 / SESSION_TIMEOUT;
-    public static final int RATE_TO_COUNT = 600;
-    public static final int WEEKS = 1;
+    public static final int RATE_TO_COUNT = 1200;
+    public static final int WEEKS = 4;
 
     GeoIPService geoIPService = new GeoIPServiceImpl();
     List<String> randomIps = new ArrayList<>(10_000);
