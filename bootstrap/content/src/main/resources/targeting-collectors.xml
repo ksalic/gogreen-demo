@@ -16,7 +16,7 @@
       <sv:value>com.onehippo.cms7.targeting.collectors.ReturningVisitorCollector</sv:value>
     </sv:property>
   </sv:node>
-  <!--<sv:node sv:name="weather">
+  <sv:node sv:name="weather">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>targeting:collector</sv:value>
     </sv:property>
@@ -26,7 +26,7 @@
     <sv:property sv:name="wwoApiKey" sv:type="String">
       <sv:value>588d05a7a76dbfb156158d7595987</sv:value>
     </sv:property>
-  </sv:node>-->
+  </sv:node>
   <sv:node sv:name="dayofweek">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>targeting:collector</sv:value>
@@ -62,12 +62,12 @@
       <sv:value>hippogogreen:categories</sv:value>
     </sv:property>
   </sv:node>
-  <!--<sv:node sv:name="agevisitor">
+  <sv:node sv:name="agevisitor">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>targeting:collector</sv:value>
     </sv:property>
     <sv:property sv:name="targeting:className" sv:type="String">
       <sv:value>com.onehippo.gogreen.targeting.RemoteVisitorAgeCollector</sv:value>
     </sv:property>
-  </sv:node>-->
+  </sv:node>
 </sv:node>
