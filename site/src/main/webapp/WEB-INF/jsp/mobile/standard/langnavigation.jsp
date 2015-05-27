@@ -16,13 +16,7 @@
 
 --%>
 
-<%@ page language="java" %>
-<%@ page contentType="text/html; charset=UTF-8" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/xml" prefix="x" %>
-<%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst' %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@include file="../../includes/tags.jspf" %>
 
 <c:set var="requestLanguage" value="standard.header.langnav.language.${pageContext.request.locale.language}"/>
 

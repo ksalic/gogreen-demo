@@ -16,11 +16,7 @@
 
 --%>
 
-<%@ page language="java" %>
-<%@ page contentType="text/html; charset=UTF-8" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst' %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@include file="../../includes/tags.jspf" %>
 
 <c:if test="${not empty logo and not empty logo.mobileLogo}">
     <hst:link var="logoSrc" hippobean="${logo.mobileLogo}"/>
