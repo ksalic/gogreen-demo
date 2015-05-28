@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,33 +20,33 @@
 
 <c:set var="datePattern" value="dd-MM-yyyy"/>
 
-<hippo-gogreen:title title="REST API - ${document.apiPath}"/>
+<hippo-gogreen:title title="REST API - ${requestScope.document.apiPath}"/>
 
 <hst:link var="sh" path="/js/syntaxhighlighter_3.0.83" />
 <script type="text/javascript" src="${sh}/scripts/shCore.js"></script> 
 <script type="text/javascript" src="${sh}/scripts/shBrushJScript.js"></script> 
 <link type="text/css" rel="stylesheet" href="${sh}/styles/shCoreDefault.css"/> 
 
-<h2 class="h2-section-title"><c:out value="${document.apiPath}"/></h2>
+<h2 class="h2-section-title"><c:out value="${requestScope.document.apiPath}"/></h2>
 <div class="i-section-title"></div>
 
-<div id="restapidoc" class="restapidoc-item <c:if test="${preview}">editable</c:if>">
-    <hst:cmseditlink hippobean="${document}" />
+<div id="restapidoc" class="restapidoc-item <c:if test="${requestScope.preview}">editable</c:if>">
+    <hst:cmseditlink hippobean="${requestScope.document}" />
 
     <h3><fmt:message key="restapi.detail.type" /></h3>
-    <p><c:out value="${document.type}" /></p>
+    <p><c:out value="${requestScope.document.type}" /></p>
 
     <h3><fmt:message key="restapi.detail.description" /></h3>
-    <p><c:out value="${document.summary}"/></p>
+    <p><c:out value="${requestScope.document.summary}"/></p>
 
     <h3><fmt:message key="restapi.detail.documentation" /></h3>
-    <p><hst:html hippohtml="${document.documentation}"/></p>
+    <p><hst:html hippohtml="${requestScope.document.documentation}"/></p>
 
     <h3><fmt:message key="restapi.detail.url" /></h3>
-    <p><c:out value="${document.url}"/></p>
+    <p><c:out value="${requestScope.document.url}"/></p>
 
     <h3><fmt:message key="restapi.detail.response" /></h3>
-    <pre class="brush: js"><c:out value="${document.response}"/></pre>
+    <pre class="brush: js"><c:out value="${requestScope.document.response}"/></pre>
 
 </div>
 

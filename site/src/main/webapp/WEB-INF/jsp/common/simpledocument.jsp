@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,14 +18,14 @@
 <%@include file="../includes/tags.jspf" %>
 
 <c:choose>
-  <c:when test="${not empty document}">
-    <ul class="box-general box-simple <c:if test="${preview}">editable</c:if>">
-      <c:if test="${preview}">
-        <li><hst:cmseditlink hippobean="${document}"/></li>
+  <c:when test="${not empty requestScope.document}">
+    <ul class="box-general box-simple <c:if test="${requestScope.preview}">editable</c:if>">
+      <c:if test="${requestScope.preview}">
+        <li><hst:cmseditlink hippobean="${requestScope.document}"/></li>
       </c:if>
-      <li class="title"><c:out value="${document.title}"/></li>
-      <li class="subtitle"><c:out value="${document.summary}"/></li>
-      <li class="content"><hst:html hippohtml="${document.description}"/></li>
+      <li class="title"><c:out value="${requestScope.document.title}"/></li>
+      <li class="subtitle"><c:out value="${requestScope.document.summary}"/></li>
+      <li class="content"><hst:html hippohtml="${requestScope.document.description}"/></li>
     </ul>
   </c:when>
   <c:otherwise>

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,15 +18,15 @@
 
 <%@include file="../includes/tags.jspf" %>
 
-<c:if test="${documents != null and not empty documents}">
+<c:if test="${requestScope.documents != null and not empty requestScope.documents}">
     <div class="sidebar-block">
         <h3 class="h3-sidebar-title sidebar-title">
-            <c:out value="${headline}"/>
+            <c:out value="${requestScope.headline}"/>
         </h3>
 
         <div class="sidebar-content">
             <ul class="posts-list">
-                <c:forEach items="${documents}" var="doc">
+                <c:forEach items="${requestScope.documents}" var="doc">
                     <li>
                         <hst:link var="link" hippobean="${doc}"/>
                         <c:if test="${not empty doc.firstImage}">

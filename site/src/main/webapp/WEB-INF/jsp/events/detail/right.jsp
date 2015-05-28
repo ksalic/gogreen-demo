@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@
 
 <hst:headContribution keyHint="api" element="${googleMapsApiSensor}" category="jsInternal"/>
 <hst:headContribution keyHint="maps" element="${googleMaps}" category="jsInternal"/>
-<hst:headContribution keyHint="mapsInit" element="${googleMapsInit}" category="jsInternal">
+<hst:headContribution keyHint="mapsInit" element="${requestScope.googleMapsInit}" category="jsInternal">
      <script type="text/javascript">
        initialize();
        codeAddress();

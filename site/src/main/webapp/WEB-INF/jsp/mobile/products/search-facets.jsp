@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -21,20 +21,20 @@
 <!-- search navigation -->
 <ul id="filter-by">
   <li id="search">
-    <hst:link var="searchLink" hippobean="${facetnav}"/>
+    <hst:link var="searchLink" hippobean="${requestScope.facetnav}"/>
     <form id="searchform" method="get" action="${searchLink}">
       <p>
         <!--
             Let's enable x-webkit-speech so we can use Webkit's Speech recognition in this input field
             Currently works only in Chrome
         -->
-        <input type="text" value="${query}" name="query" id="query" class="search-field gray" x-webkit-speech=""/>
+        <input type="text" value="${requestScope.query}" name="query" id="query" class="search-field gray" x-webkit-speech=""/>
         <fmt:message key="mobile.products.searchfacets.submit.label" var="submitValue"/>
         <input type="submit" value="${submitValue}" class="search-button"/>
         <!-- Begin: Design for clear search-->
         <!-- An hst link with any attribute other than var creates a link for the current matched sitemap item -->
         <hst:link var="removeLink"/>
-        <c:set var="removeTitle"><fmt:message key="mobile.products.searchfacets.clear"/><c:out value=" ${query}"/></c:set>
+        <c:set var="removeTitle"><fmt:message key="mobile.products.searchfacets.clear"/><c:out value=" ${requestScope.query}"/></c:set>
         <a class="clear" href="${removeLink}" title="${removeTitle}">&nbsp;</a>
         <!-- End: Design for clear search -->
       </p>
@@ -60,14 +60,14 @@
     input.addEventListener('webkitspeechchange', inputChange, false);
   </script>
 
-  <li${childNav ? ' class="expanded"' : ''}>
+  <li${requestScope.childNav ? ' class="expanded"' : ''}>
 
-    <span><span class="name"><c:out value="${facetnav.count} "/><fmt:message key="mobile.products.searchfacets.results"/><span class="separator"> | </span></span><a href="#"><fmt:message key="mobile.products.searchfacets.filterresults"/></a></span>
+    <span><span class="name"><c:out value="${requestScope.facetnav.count} "/><fmt:message key="mobile.products.searchfacets.results"/><span class="separator"> | </span></span><a href="#"><fmt:message key="mobile.products.searchfacets.filterresults"/></a></span>
 
 
     <c:if test="${fn:length(facetnav.folders) gt 0}">
       <ul class="subfilter">
-        <c:forEach var="facetvalue" items="${facetnav.folders}">
+        <c:forEach var="facetvalue" items="${requestScope.facetnav.folders}">
           <c:if test="${facetvalue.count > 0}">
 
             <c:set var="selectedItem" scope="page" value="${null}"/>
@@ -83,7 +83,7 @@
 
               <c:choose>
                 <c:when test="${selectedItem ne null}">
-                  <hst:facetnavigationlink remove="${selectedItem}" current="${facetnav}" var="removeLink"/>
+                  <hst:facetnavigationlink remove="${selectedItem}" current="${requestScope.facetnav}" var="removeLink"/>
                   <a class="filter" href="#">
                     <c:out value="${selectedItem.name}"/>&nbsp;(<c:out value="${selectedItem.count}"/>)
                   </a></span>
@@ -114,34 +114,34 @@
   <li id="sort-by" class="last"><span><span class="name"><fmt:message key="mobile.products.searchfacets.sortby"/></span>
   <a href="#">
     <c:choose>
-      <c:when test="${order == 'title'}"><fmt:message key="mobile.products.searchfacets.name"/></c:when>
-      <c:when test="${order == '-rating'}"><fmt:message key="mobile.products.searchfacets.mostpopular"/></c:when>
-      <c:when test="${order == '-lastModificationDate'}"><fmt:message key="mobile.products.searchfacets.mostrecent"/></c:when>
-      <c:when test="${order == '-price'}"><fmt:message key="mobile.products.searchfacets.pricehtl"/></c:when>
-      <c:when test="${order == 'price'}"><fmt:message key="mobile.products.searchfacets.pricelth"/></c:when>
+      <c:when test="${requestScope.order == 'title'}"><fmt:message key="mobile.products.searchfacets.name"/></c:when>
+      <c:when test="${requestScope.order == '-rating'}"><fmt:message key="mobile.products.searchfacets.mostpopular"/></c:when>
+      <c:when test="${requestScope.order == '-lastModificationDate'}"><fmt:message key="mobile.products.searchfacets.mostrecent"/></c:when>
+      <c:when test="${requestScope.order == '-price'}"><fmt:message key="mobile.products.searchfacets.pricehtl"/></c:when>
+      <c:when test="${requestScope.order == 'price'}"><fmt:message key="mobile.products.searchfacets.pricelth"/></c:when>
       <c:otherwise><fmt:message key="mobile.products.searchfacets.relevance"/></c:otherwise>
     </c:choose>
   </a>
   </span>
     <ul class="subsubfilter">
-      <c:if test="${order ne 'relevance'}">
-        <li><a href="?query=${query}&amp;order=relevance"><fmt:message key="mobile.products.searchfacets.relevance"/></a></li>
+      <c:if test="${requestScope.order ne 'relevance'}">
+        <li><a href="?query=${requestScope.query}&amp;order=relevance"><fmt:message key="mobile.products.searchfacets.relevance"/></a></li>
       </c:if>
-      <c:if test="${order ne 'title'}">
-        <li><a href="?query=${query}&amp;order=title"><fmt:message key="mobile.products.searchfacets.name"/></a>
+      <c:if test="${requestScope.order ne 'title'}">
+        <li><a href="?query=${requestScope.query}&amp;order=title"><fmt:message key="mobile.products.searchfacets.name"/></a>
         </li>
       </c:if>
-      <c:if test="${order ne '-rating'}">
-        <li><a href="?query=${query}&amp;order=-rating"><fmt:message key="mobile.products.searchfacets.mostpopular"/></a></li>
+      <c:if test="${requestScope.order ne '-rating'}">
+        <li><a href="?query=${requestScope.query}&amp;order=-rating"><fmt:message key="mobile.products.searchfacets.mostpopular"/></a></li>
       </c:if>
-      <c:if test="${order ne '-lastModificationDate'}">
-        <li><a href="?query=${query}&amp;order=-lastModificationDate"><fmt:message key="mobile.products.searchfacets.mostrecent"/></a></li>
+      <c:if test="${requestScope.order ne '-lastModificationDate'}">
+        <li><a href="?query=${requestScope.query}&amp;order=-lastModificationDate"><fmt:message key="mobile.products.searchfacets.mostrecent"/></a></li>
       </c:if>
-      <c:if test="${order ne '-price'}">
-        <li><a href="?query=${query}&amp;order=-price"><fmt:message key="mobile.products.searchfacets.pricehtl"/></a></li>
+      <c:if test="${requestScope.order ne '-price'}">
+        <li><a href="?query=${requestScope.query}&amp;order=-price"><fmt:message key="mobile.products.searchfacets.pricehtl"/></a></li>
       </c:if>
-      <c:if test="${order ne 'price'}">
-        <li><a href="?query=${query}&amp;order=price"><fmt:message key="mobile.products.searchfacets.pricelth"/></a></li>
+      <c:if test="${requestScope.order ne 'price'}">
+        <li><a href="?query=${requestScope.query}&amp;order=price"><fmt:message key="mobile.products.searchfacets.pricelth"/></a></li>
       </c:if>
     </ul>
   </li>

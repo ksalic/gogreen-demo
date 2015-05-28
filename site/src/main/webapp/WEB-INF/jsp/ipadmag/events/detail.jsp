@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 
 <%@include file="../../includes/tags.jspf" %>
 
-<hippo-gogreen:title title="${document.title}"/>
+<hippo-gogreen:title title="${requestScope.document.title}"/>
 
 <!doctype html>
 
@@ -70,10 +70,10 @@
 		<div id="main" role="main">
 			<article>
 				<hgroup>
-					<h1><strong><fmt:formatDate value="${document.date.time}" pattern="MMM dd, yyyy"/>: <c:out value="${document.title}"/></strong></h1>
+					<h1><strong><fmt:formatDate value="${requestScope.document.date.time}" pattern="MMM dd, yyyy"/>: <c:out value="${requestScope.document.title}"/></strong></h1>
 				</hgroup>
 				<section class="video-content">
-					<c:set var="image" value="${document.firstImage}"/>
+					<c:set var="image" value="${requestScope.document.firstImage}"/>
             		<c:if test="${image != null}">
 		                <hst:link var="src" hippobean="${image.largeThumbnail}"/>
 		                <img class="image" src="${src}" alt="${fn:escapeXml(image.alt)}"/>
@@ -83,18 +83,18 @@
 				<div class="wrap">
 				<p class="author"><span class="hidden">By </span>Arnold Ziffel</p>
 
-				<hst:html hippohtml="${document.description}"/>
+				<hst:html hippohtml="${requestScope.document.description}"/>
 
 				<aside id="anatomy">
 					<h2>Location</h2>
 					<figure>
-						<c:url var="url" value="http://maps.google.com/?q=${document.location.street} ${document.location.number}, ${document.location.city} ${document.location.postalCode} ${document.location.province}"/>
-				        <c:if test="${not empty document.location}">
+						<c:url var="url" value="http://maps.google.com/?q=${requestScope.document.location.street} ${requestScope.document.location.number}, ${requestScope.document.location.city} ${requestScope.document.location.postalCode} ${requestScope.document.location.province}"/>
+				        <c:if test="${not empty requestScope.document.location}">
 				            <input id="address" type="hidden"
 				                   value="Sofia"/>
 				        </c:if>
 
-						<figcaption><c:out value="${document.location.street}"/>&nbsp;<c:out value="${document.location.number}"/>,&nbsp;<c:out value="${document.location.city}"/>&nbsp;<c:out value="${document.location.postalCode}"/>&nbsp;<c:out value="${document.location.province}"/></figcaption>
+						<figcaption><c:out value="${requestScope.document.location.street}"/>&nbsp;<c:out value="${requestScope.document.location.number}"/>,&nbsp;<c:out value="${requestScope.document.location.city}"/>&nbsp;<c:out value="${requestScope.document.location.postalCode}"/>&nbsp;<c:out value="${requestScope.document.location.province}"/></figcaption>
 					</figure>
 				</aside>
 

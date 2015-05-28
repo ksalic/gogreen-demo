@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -38,14 +38,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 col-sm-9">
-          <c:if test="${document ne null}">
-            <hst:cmseditlink hippobean="${document}" />
-            <h2 ><c:out value="${document.title}"/></h2>
+          <c:if test="${requestScope.document ne null}">
+            <hst:cmseditlink hippobean="${requestScope.document}" />
+            <h2 ><c:out value="${requestScope.document.title}"/></h2>
 
-            <p><c:out value="${document.summary}"/></p>
-            <p><hst:html hippohtml="${document.description}"/></p>
+            <p><c:out value="${requestScope.document.summary}"/></p>
+            <p><hst:html hippohtml="${requestScope.document.description}"/></p>
 
-            <hippo-gogreen:title title="${document.title}"/>
+            <hippo-gogreen:title title="${requestScope.document.title}"/>
           </c:if>
         </div>
         <div class="col-md-3 col-sm-3">

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 
 <%@include file="../includes/tags.jspf" %>
 
-<c:if test="${not empty comments}">
+<c:if test="${not empty requestScope.comments}">
     <div class="comments">
         <div class="blog-span-bottom">
 
@@ -38,7 +38,7 @@
             </div>
 
             <ol class="comments-list">
-                <c:forEach items="${comments}" var="comment">
+                <c:forEach items="${requestScope.comments}" var="comment">
                     <li class="comment">
                         <div class="comment-content">
                             <%-- DISABLED FROM THEME: <div class="comment-author-avatar">
@@ -88,17 +88,17 @@
 
 <form action="${actionUrl}" class="form-wrapper" method="post" id="comment-form" role="form" novalidate="novalidate">
 
-    <c:if test="${not empty success}">
+    <c:if test="${not empty requestScope.success}">
         <div class="alert alert-success">
             <div class="msg"><fmt:message key="common.comments.thankyou"/></div>
             <a href="#" class="alert-remove"><i class="icon-trash"></i></a>
         </div>
     </c:if>
 
-    <c:if test="${not empty errors}">
+    <c:if test="${not empty requestScope.errors}">
         <div class="alert alert-danger">
             <div class="msg">
-                <c:forEach items="${errors}" var="error">
+                <c:forEach items="${requestScope.errors}" var="error">
                     <c:if test="${error eq 'invalid.name-label'}">
                         <span for="name" class="input_error"><fmt:message key="common.comments.name.error"/></span><br/>
                     </c:if>
@@ -120,9 +120,9 @@
                 <label for="name">
                     <fmt:message key="common.comments.name"/> *
                 </label>
-                <input type="text" id="name" name="name" value="${name}" class="form-control" data-errmsg="<fmt:message key="common.comments.name.error"/>" minlength="2" placeholder="Your Name" required="">
-                <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                <input type="text" id="name" name="name" value="${requestScope.name}" class="form-control" data-errmsg="<fmt:message key="common.comments.name.error"/>" minlength="2" placeholder="Your Name" required="">
+                <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.name-label'}">
                             <span for="name" class="input_error"><fmt:message key="common.comments.name.error"/></span><br/>
                         </c:if>
@@ -138,9 +138,9 @@
                 <label for="email">
                     <fmt:message key="common.comments.email"/> *
                 </label>
-                <input type="text" id="email" name="email" value="${email}" class="form-control" data-errmsg="<fmt:message key="common.comments.email.error"/>" minlength="2" placeholder="Your Email" required="">
-                <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                <input type="text" id="email" name="email" value="${requestScope.email}" class="form-control" data-errmsg="<fmt:message key="common.comments.email.error"/>" minlength="2" placeholder="Your Email" required="">
+                <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.email-label'}">
                             <span for="email" class="input_error"><fmt:message key="common.comments.email.error"/></span><br/>
                         </c:if>
@@ -157,9 +157,9 @@
                     <fmt:message key="common.comments.comment"/>
                 </label>
                 <textarea id="comment" name="comment" class="form-control" data-errmsg="<fmt:message key="common.comments.comment.error"/>"
-                    placeholder="Your Message" rows="3" required=""><c:if test="${not empty comment}"><c:out value="${comment}"/></c:if></textarea>
-                <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                    placeholder="Your Message" rows="3" required=""><c:if test="${not empty requestScope.comment}"><c:out value="${requestScope.comment}"/></c:if></textarea>
+                <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.comment-label'}">
                             <span for="comment" class="input_error"><fmt:message key="common.comments.comment.error"/></span><br/>
                         </c:if>
@@ -169,8 +169,8 @@
         </div>
     </div>
 
-    <c:if test="${not empty errors}">
-        <c:forEach items="${errors}" var="error">
+    <c:if test="${not empty requestScope.errors}">
+        <c:forEach items="${requestScope.errors}" var="error">
             <c:if test="${error eq 'invalid.spam-label'}">
                 <span class="form-error"><fmt:message key="common.spam.error"/></span><br/>
             </c:if>

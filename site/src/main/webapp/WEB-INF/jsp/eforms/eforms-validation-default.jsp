@@ -1,5 +1,5 @@
 <%--
-  Copyright 2014 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2014-2015 Hippo B.V. (http://www.onehippo.com)
 --%>
 <%@ page contentType="application/json" %>
-${json}
+${requestScope.json}

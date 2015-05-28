@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 
 <div id="left-nav">
   <ul>
-    <c:set var="folder" value="${menu.menuItems[0]}"/>
+    <c:set var="folder" value="${requestScope.menu.menuItems[0]}"/>
     <c:forEach var="item" items="${folder.childMenuItems}">
       <li>
         <hst:link var="link" link="${item.hstLink}"/>

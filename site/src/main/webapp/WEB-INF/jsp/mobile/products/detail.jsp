@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -21,53 +21,53 @@
 <!-- NOTE: Switch on the following variable if you want to eanble Inline Editing feature in this page. -->
 <c:set var="inlineEditingEnabled" value="true" />
 
-<c:if test="${preview}">
+<c:if test="${requestScope.preview}">
   <c:if test="${inlineEditingEnabled}">
     <jsp:include page="../../inc/inline-editing-head-contributions.jsp"/>
   </c:if>
 </c:if>
 
-<hippo-gogreen:title title="${document.title}"/>
+<hippo-gogreen:title title="${requestScope.document.title}"/>
 
 <hst:headContribution category="jsInternal">
     <hst:link var="rateJs" path="/js/mobile/rate.js"/>
     <script src="${rateJs}" type="text/javascript"></script>
 </hst:headContribution>
 
-<ga:trackDocument hippoDocumentBean="${document}"/>
+<ga:trackDocument hippoDocumentBean="${requestScope.document}"/>
     
 <!-- body / main -->
 <div id="bd">
-    <c:set var="style">detail<c:if test="${preview}"> editable</c:if></c:set>
+    <c:set var="style">detail<c:if test="${requestScope.preview}"> editable</c:if></c:set>
     <div id="content" class="${style}">
-        <h1><c:out value="${document.title}"/></h1>
-        <c:if test="${preview}">
-          <hst:cmseditlink hippobean="${document}" />
+        <h1><c:out value="${requestScope.document.title}"/></h1>
+        <c:if test="${requestScope.preview}">
+          <hst:cmseditlink hippobean="${requestScope.document}" />
         </c:if>
         <p id="product-info" class="doc-info">
-          <span class="price"><fmt:formatNumber value="${document.price}" type="currency"/></span>
+          <span class="price"><fmt:formatNumber value="${requestScope.document.price}" type="currency"/></span>
           <span class="seperator">|</span>
-          <fmt:formatNumber value="${document.rating * 10}" var="ratingStyle" pattern="#0"/>
-          <span class="rating stars-${ratingStyle}"><c:out value="${document.rating}"/></span>
+          <fmt:formatNumber value="${requestScope.document.rating * 10}" var="ratingStyle" pattern="#0"/>
+          <span class="rating stars-${ratingStyle}"><c:out value="${requestScope.document.rating}"/></span>
         </p>
         
         <!-- image gallery -->
-        <c:if test="${fn:length(document.images) > 0}">
+        <c:if test="${fn:length(requestScope.document.images) > 0}">
           <div id="gallery-container">
             <ul id="gallery">
-                <hst:link hippobean="${document.images[0].largeThumbnail}" var="imgLink"/>
-                <li><img src="${imgLink}" alt="${fn:escapeXml(document.images[0].alt)}"/></li>
+                <hst:link hippobean="${requestScope.document.images[0].largeThumbnail}" var="imgLink"/>
+                <li><img src="${imgLink}" alt="${fn:escapeXml(requestScope.document.images[0].alt)}"/></li>
             </ul>
             <p class="copyright">&lt;<fmt:message key="mobile.products.detail.imgcopyright"/>&gt;</p>
           </div>
         </c:if>
         
         <p class="date"><fmt:message key="mobile.products.detail.sampledate"/></p>
-        <p class="summary"><c:out value="${document.summary}"/></p>
+        <p class="summary"><c:out value="${requestScope.document.summary}"/></p>
         <div class="description">
-          <hst:html hippohtml="${document.description}"/>
+          <hst:html hippohtml="${requestScope.document.description}"/>
         </div>
-        <hippo-gogreen:copyright document="${document}" truncate="60"/>
+        <hippo-gogreen:copyright document="${requestScope.document}" truncate="60"/>
         
         <hst:actionURL var="actionUrl"/>
         
@@ -75,7 +75,7 @@
         <div id="review">
           <form id="frmRating" action="${actionUrl}" method="post">
             <table>
-              <c:if test="${not empty success}">
+              <c:if test="${not empty requestScope.success}">
               <tr>
                 <td colspan="2">
                   <fmt:message key="products.detail.thanksforreview"/>
@@ -84,9 +84,9 @@
               </c:if>
               <tr>
                 <td class="label"><fmt:message key="products.detail.name"/></td>
-                <td class="input"><input type="text" value="${fn:escapeXml(name)}" name="name" />
-                  <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                <td class="input"><input type="text" value="${fn:escapeXml(requestScope.name)}" name="name" />
+                  <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                       <c:if test="${error eq 'invalid.name-label'}">
                         <span class="form-error"><fmt:message key="products.detail.name.error"/></span>
                       </c:if>
@@ -96,9 +96,9 @@
               </tr>
               <tr>
                 <td class="label"><fmt:message key="products.detail.email"/></td>
-                <td class="input"><input type="text" value="${fn:escapeXml(email)}" name="email" />
-                  <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                <td class="input"><input type="text" value="${fn:escapeXml(requestScope.email)}" name="email" />
+                  <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                       <c:if test="${error eq 'invalid.email-label'}">
                         <span class="form-error"><fmt:message key="products.detail.email.error"/></span>
                       </c:if>
@@ -122,9 +122,9 @@
               <tr>
                 <td class="label vtop"><fmt:message key="products.detail.review"/></td>
                 <td class="input">
-                  <textarea name="comment" id="comment" rows="3" cols="24"><c:if test="${not empty comment}"><c:out value="${comment}"/></c:if></textarea>
-                  <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                  <textarea name="comment" id="comment" rows="3" cols="24"><c:if test="${not empty requestScope.comment}"><c:out value="${requestScope.comment}"/></c:if></textarea>
+                  <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                       <c:if test="${error eq 'invalid.comment-label'}">
                         <span class="form-error"><fmt:message key="products.detail.review.error"/></span>
                       </c:if>
@@ -133,8 +133,8 @@
                 </td>
               </tr>
 
-              <c:if test="${not empty errors}">
-                <c:forEach items="${errors}" var="error">
+              <c:if test="${not empty requestScope.errors}">
+                <c:forEach items="${requestScope.errors}" var="error">
                   <c:if test="${error eq 'invalid.spam-label'}">
                     <span class="form-error"><fmt:message key="common.spam.error"/></span><br/>
                   </c:if>

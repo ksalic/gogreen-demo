@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
 
 <div class="section-content section-tabs section-px stones-bg white-text">
     <c:choose>
-        <c:when test="${preview}">
+        <c:when test="${requestScope.preview}">
             <c:set var="cssClass">tab-container-preview</c:set>
         </c:when>
         <c:otherwise>

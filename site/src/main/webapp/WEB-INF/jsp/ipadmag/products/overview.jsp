@@ -1,5 +1,5 @@
 <%--
-  Copyright 2011-2013 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2011-2015 Hippo B.V. (http://www.onehippo.com)
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -44,7 +44,7 @@
 var products =
    [
             <%--@elvariable id="docs" type="com.onehippo.gogreen.utils.PageableCollection"--%>
-            <c:forEach items="${docs.items}" var="product">
+            <c:forEach items="${requestScope.docs.items}" var="product">
                 <hst:link var="prdlink" hippobean="${product}"/>
             
                { "image": "<c:choose><c:when test="${product.firstImage.mobileThumbnail != null}"><hst:link var="thumbnail" hippobean="${product.firstImage.largeThumbnail}"/>${thumbnail}</c:when><c:otherwise><hst:link var="thumbnail" hippobean="${product.firstImage.smallThumbnail}"/>${thumbnail}</c:otherwise></c:choose>", "name": "<c:out value="${product.title}"/>", "desc": "Rated <fmt:formatNumber value="${product.rating * 10}" var="ratingStyle" pattern="#0" /><c:out value="${product.rating}"/> stars!", "price":"<fmt:formatNumber value="${product.price}" type="currency"/>", },

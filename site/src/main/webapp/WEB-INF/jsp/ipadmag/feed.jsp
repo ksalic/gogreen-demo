@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -56,7 +56,7 @@ function createInstructions() {
 
 	text = document.createElement( 'div' );
 	text.onSelectStart = null;
-	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:28px;"><c:forEach items="${feeds}" var="feed" varStatus="loop"><c:forEach items="${feed.entries}" var="entry" end="${entriesPerFeed - 1}"><fmt:formatDate value="${entry.publishedDate}" type="date" pattern="MMM d, yyyy"/><c:out value="- ${feed.author}"/><a href="${fn:escapeXml(entry.link)}"><c:out escapeXml="true" value="${entry.title}"/></a></c:forEach></c:forEach></span>';
+	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:28px;"><c:forEach items="${requestScope.feeds}" var="feed" varStatus="loop"><c:forEach items="${feed.entries}" var="entry" end="${entriesPerFeed - 1}"><fmt:formatDate value="${entry.publishedDate}" type="date" pattern="MMM d, yyyy"/><c:out value="- ${feed.author}"/><a href="${fn:escapeXml(entry.link)}"><c:out escapeXml="true" value="${entry.title}"/></a></c:forEach></c:forEach></span>';
 	text.style.color = theme[1];
 	text.style.position = 'absolute';
 	text.style.left = '0px';

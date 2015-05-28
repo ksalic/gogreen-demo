@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,11 +24,11 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst' %>
 
-<hst:cmseditlink hippobean='${document}' var="editlink" />
+<hst:cmseditlink hippobean='${requestScope.document}' var="editlink" />
 
 <form id="editorForm" method="post" action="<hst:resourceURL resourceId='/WEB-INF/jsp/common/detailpage-inline-edit-result.jsp' />">
   <div class="yui-skin-sam">
-    <input type="hidden" name="nodepath" value="${document.path}"/>
+    <input type="hidden" name="nodepath" value="${requestScope.document.path}"/>
     <input type="hidden" name="customnodepath" value=""/>
     <input type="hidden" name="field" value=""/>
     <input type="hidden" name="workflowAction" value=""/>

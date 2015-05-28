@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -21,9 +21,9 @@
 <hst:link var="events" siteMapItemRefId="events" />
 <h1 class="h1-page-title"><a href="${events}"><fmt:message key="events.overview.title"/></a></h1>
 
-<c:if test="${not empty document}">
+<c:if test="${not empty requestScope.document}">
     <h2 class="h2-page-desc">
-        ${document.title}
+        ${requestScope.document.title}
     </h2>
 </c:if>
 

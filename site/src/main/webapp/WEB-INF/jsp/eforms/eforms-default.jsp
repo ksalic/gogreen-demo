@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2014 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,32 +18,32 @@
 <%@include file="../includes/tags.jspf" %>
 <%@ taglib prefix="tag" tagdir="/WEB-INF/tags" %>
 
-<c:if test="${not empty form.title}">
-  <h2><c:out value="${form.title}" /></h2>
-  <hippo-gogreen:title title="${form.title}"/>
+<c:if test="${not empty requestScope.form.title}">
+  <h2><c:out value="${requestScope.form.title}" /></h2>
+  <hippo-gogreen:title title="${requestScope.form.title}"/>
 </c:if>
 
-<c:if test="${not empty formIntro}">
-  <p><c:out value="${formIntro}" /></p>
+<c:if test="${not empty requestScope.formIntro}">
+  <p><c:out value="${requestScope.formIntro}" /></p>
 </c:if>
 
 <c:set var="style">
-  <c:if test="${empty eforms_errors}">display:none;</c:if>
+  <c:if test="${empty requestScope.eforms_errors}">display:none;</c:if>
 </c:set>
 <div id="feedbackPanel" class="alert alert-danger" style="${style}">
     <ul>
-        <c:forEach items="${eforms_errors}" var="error">
+        <c:forEach items="${requestScope.eforms_errors}" var="error">
             <li><c:out value="${error.value.localizedMessage}"/></li>
         </c:forEach>
     </ul>
 </div>
 
-<c:if test="${maxFormSubmissionsReached}">
+<c:if test="${requestScope.maxFormSubmissionsReached}">
     <div class="alert alert-danger">
         <div class="msg">
             <c:choose>
-                <c:when test="${not empty maxFormSubmissionsReachedText}">
-                    <p><c:out value="${maxFormSubmissionsReachedText}" /></p>
+                <c:when test="${not empty requestScope.maxFormSubmissionsReachedText}">
+                    <p><c:out value="${requestScope.maxFormSubmissionsReachedText}" /></p>
                 </c:when>
                 <c:otherwise>
                     <p>The maximum number of submission for this form has been reached</p>
@@ -53,11 +53,11 @@
     </div>
 </c:if>
 
-<c:if test="${not maxFormSubmissionsReached}">
+<c:if test="${not requestScope.maxFormSubmissionsReached}">
 
-  <form class="form form-wrapper" action="<hst:actionURL />" method="post" name="${form.name}" <c:if test="${form.multipart}">enctype="multipart/form-data"</c:if>>
+  <form class="form form-wrapper" action="<hst:actionURL />" method="post" name="${requestScope.form.name}" <c:if test="${requestScope.form.multipart}">enctype="multipart/form-data"</c:if>>
 
-    <c:set var="formPages" value="${form.pages}" />
+    <c:set var="formPages" value="${requestScope.form.pages}" />
 
     <c:if test="${fn:length(formPages) gt 1}">
       <div class="pagination-container">
@@ -111,7 +111,7 @@
     <div class="eforms-buttons">
       <input id="previousPageButton" type="button" name="previousPageButton" value="Previous" style="DISPLAY: none" />
       <input id="nextPageButton" type="button" name="nextPageButton" value="Next" style="DISPLAY: none" />
-      <c:forEach var="button" items="${form.buttons}">
+      <c:forEach var="button" items="${requestScope.form.buttons}">
         <c:choose>
           <c:when test="${button.type eq 'resetbutton'}">
             <input type="reset" name="${button.formRelativeUniqueName}" class="${button.styleClass}"
@@ -162,7 +162,7 @@
 <script type="text/javascript">
   $(document).ready(function() {
 
-    $('form[name="${form.name}"]').validate({errorElement:'div'});
+    $('form[name="${requestScope.form.name}"]').validate({errorElement:'div'});
 
     var resetPagesVisible = function() {
       var allPages = $('.eforms-page.conditionally-visible');
@@ -269,7 +269,7 @@
 
 
     <%-- Write JSON of field condition infos --%>
-    var conditions = ${form.conditionsAsJson};
+    var conditions = ${requestScope.form.conditionsAsJson};
     var condFieldNames = {};
 
     if (conditions) {
@@ -487,7 +487,7 @@
     var valid = false;
 
     // ajax page validation in case of last (or only) page
-    $('form[name="${form.name}"]').submit(function(event) {
+    $('form[name="${requestScope.form.name}"]').submit(function(event) {
 
       var curPage = $('.eforms-page.conditionally-visible:visible');
 

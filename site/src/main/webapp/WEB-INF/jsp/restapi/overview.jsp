@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,10 +20,10 @@
 
 <c:set var="resttitle"><fmt:message key="restapi.main.title"/></c:set>
 
-<hst:cmseditlink hippobean="${document}" />
-<h2 class="h2-section-title"><c:out value="${document.title}"/></h2>
+<hst:cmseditlink hippobean="${requestScope.document}" />
+<h2 class="h2-section-title"><c:out value="${requestScope.document.title}"/></h2>
 <div class="i-section-title"></div>
 
-<hippo-gogreen:title title="${document.title}" />
-<p><c:out value="${document.summary}"/></p>
-<p><hst:html hippohtml="${document.description}"/></p>
+<hippo-gogreen:title title="${requestScope.document.title}" />
+<p><c:out value="${requestScope.document.summary}"/></p>
+<p><hst:html hippohtml="${requestScope.document.description}"/></p>

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -108,7 +108,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 center-text">
-                        <div class="copyright-text"><fmt:message key="standard.footer.copyright"/> | <hst:link var="termsLink" path="${termsPath}" mount="site"/><a href="${termsLink}"><fmt:message key="standard.footer.termsandconditions"/></a></div>
+                        <div class="copyright-text"><fmt:message key="standard.footer.copyright"/> | <hst:link var="termsLink" path="${requestScope.termsPath}" mount="site"/><a href="${termsLink}"><fmt:message key="standard.footer.termsandconditions"/></a></div>
                     </div>
 
                 </div>

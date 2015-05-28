@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 
 <%@include file="../../includes/tags.jspf" %>
 
-<hippo-gogreen:title title="${document.title}"/>
+<hippo-gogreen:title title="${requestScope.document.title}"/>
 
 <div class="blog-post">
 
@@ -27,20 +27,20 @@
     </div>
 
     <div class="blog-span">
-        <hst:cmseditlink hippobean="${document}" />
+        <hst:cmseditlink hippobean="${requestScope.document}" />
         <h2>
-            <c:out value="${document.title}"/>
+            <c:out value="${requestScope.document.title}"/>
         </h2>
 
         <div class="blog-post-body">
-            <c:out value="${document.summary}"/>
-            <hst:html hippohtml="${document.description}"/>
+            <c:out value="${requestScope.document.summary}"/>
+            <hst:html hippohtml="${requestScope.document.description}"/>
         </div>
 
         <div class="blog-post-details">
 
             <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
-                <span class="date"><fmt:formatDate value="${document.date.time}" type="date" pattern="d MMMM, yyyy"/></span>
+                <span class="date"><fmt:formatDate value="${requestScope.document.date.time}" type="date" pattern="d MMMM, yyyy"/></span>
             </div>
 
             <div class="blog-post-details-item blog-post-details-item-right">

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@
 
             <hst:include ref="boxes-top"/>
             <c:set var="style">event-item</c:set>
-            <c:forEach items="${docs.items}" var="item">
+            <c:forEach items="${requestScope.docs.items}" var="item">
 
                 <ul class="${style}">
                     <li class="full-link"><a href="<hst:link hippobean="${item}"/>"></a></li>
@@ -48,18 +48,18 @@
                 </ul>
             </c:forEach>
 
-        <c:if test="${count > pageSize}">
+        <c:if test="${requestScope.count > requestScope.pageSize}">
             <div id="show-more">
                 <c:choose>
-                  <c:when test="${count - pageSize > defaultShowMore}">
-                      <c:set var="howMany" value="${defaultShowMore}" />
+                  <c:when test="${requestScope.count - requestScope.pageSize > requestScope.defaultShowMore}">
+                      <c:set var="howMany" value="${requestScope.defaultShowMore}" />
                   </c:when>
                   <c:otherwise>
-                      <c:set var="howMany" value="${count - pageSize}" />
+                      <c:set var="howMany" value="${requestScope.count - requestScope.pageSize}" />
                   </c:otherwise>
                 </c:choose>
                 <img id="load" style="float:right;display:none;" src=" <hst:link path="/images/mobile/spinner.gif"/>" alt="<fmt:message key="mobile.events.overview.loading"/>" />
-                <a class="more" href="?jsEnabled=false&amp;pageSize=${pageSize + 25}&amp;from=${pageSize}&amp;lcount=${count}">                  
+                <a class="more" href="?jsEnabled=false&amp;pageSize=${requestScope.pageSize + 25}&amp;from=${requestScope.pageSize}&amp;lcount=${requestScope.count}">
                   <fmt:message key="mobile.events.overview.showmore">
             		<fmt:param value="${howMany}"/>            		
             	  </fmt:message>   

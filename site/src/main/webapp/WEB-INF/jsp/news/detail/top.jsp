@@ -26,9 +26,9 @@
     <fmt:message key="news.overview.content.subtitle"/>
 </h2>
 
-<c:if test="${not empty document}">
+<c:if test="${not empty requestScope.document}">
     <h2 class="h2-page-desc">
-        ${document.title}
+        ${requestScope.document.title}
     </h2>
 </c:if>
 

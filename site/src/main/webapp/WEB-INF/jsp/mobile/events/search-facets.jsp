@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -29,8 +29,8 @@
 <ul id="filter-by">
     <li id="search">
         <%--<hst:link var="searchLink" hippobean="${facetnav}"/>--%>
-        <c:set value="${fn:escapeXml(query)}" var="query"/>
-        <form method="get" action="${searchLink}">
+        <c:set value="${fn:escapeXml(requestScope.query)}" var="query"/>
+        <form method="get" action="${requestScope.searchLink}">
             <p>
                 <input type="text" value="${query}" name="query" class="search-field gray" />
                 <input type="submit" value="<fmt:message key="mobile.events.searchfacets.submit.label"/>" class="search-button" />
@@ -43,18 +43,18 @@
     </li>
 
     <c:choose>
-        <c:when test="${childNav}">
+        <c:when test="${requestScope.childNav}">
             <li class="expanded">
         </c:when>
         <c:otherwise>
             <li>
         </c:otherwise>
     </c:choose>    
-        <span><span class="name"><c:out value="${facetnav.count}"/> <fmt:message key="mobile.events.searchfacets.results"/> <span class="separator">|</span></span><a href="#"><fmt:message key="mobile.events.searchfacets.filterresults"/></a></span>
-        <c:if test="${facetnav.count gt 0}">
+        <span><span class="name"><c:out value="${requestScope.facetnav.count}"/> <fmt:message key="mobile.events.searchfacets.results"/> <span class="separator">|</span></span><a href="#"><fmt:message key="mobile.events.searchfacets.filterresults"/></a></span>
+        <c:if test="${requestScope.facetnav.count gt 0}">
         
           <ul class="subfilter">          
-              <c:forEach var="facetvalue" items="${facetnav.folders}">
+              <c:forEach var="facetvalue" items="${requestScope.facetnav.folders}">
                   <c:if test="${facetvalue.count > 0}">
                   
                       <c:set var="selectedItem" scope="page" value="${null}"/>
@@ -77,7 +77,7 @@
   
                       <c:choose>
                           <c:when test="${selectedItem != null}">
-                              <hst:facetnavigationlink remove="${selectedItem}" current="${facetnav}" var="removeLink"/>
+                              <hst:facetnavigationlink remove="${selectedItem}" current="${requestScope.facetnav}" var="removeLink"/>
                               <a class="filter" href="#">
                                           <c:out value="${selectedItem.name}"/>&nbsp;(<c:out value="${selectedItem.count}"/>)
                               </a></span>
@@ -107,19 +107,19 @@
     <li id="sort-by" class="last"><span><span class="name"><fmt:message key="mobile.events.searchfacets.sortby"/></span>
     <a href="#">
         <c:choose>
-            <c:when test="${order != 'relevance'}"><fmt:message key="mobile.events.searchfacets.relevance"/></c:when>
-            <c:when test="${order == 'title'}"><fmt:message key="mobile.events.searchfacets.name"/></c:when>
-            <c:when test="${order == 'date'}"><fmt:message key="mobile.events.searchfacets.date"/></c:when>
-            <c:when test="${order == '-lastModificationDate'}"><fmt:message key="mobile.events.searchfacets.mostrecent"/></c:when>
+            <c:when test="${requestScope.order != 'relevance'}"><fmt:message key="mobile.events.searchfacets.relevance"/></c:when>
+            <c:when test="${requestScope.order == 'title'}"><fmt:message key="mobile.events.searchfacets.name"/></c:when>
+            <c:when test="${requestScope.order == 'date'}"><fmt:message key="mobile.events.searchfacets.date"/></c:when>
+            <c:when test="${requestScope.order == '-lastModificationDate'}"><fmt:message key="mobile.events.searchfacets.mostrecent"/></c:when>
             <c:otherwise><fmt:message key="mobile.events.searchfacets.relevance"/></c:otherwise>
         </c:choose>
     </a>
     </span>
         <ul class="subsubfilter">
-            <c:if test="${order != 'relevance'}"><li><a href="?query=${query}&amp;order=relevance"><fmt:message key="mobile.events.searchfacets.relevance"/></a></li></c:if>
-            <c:if test="${order != 'title'}"><li><a href="?query=${query}&amp;order=title"><fmt:message key="mobile.events.searchfacets.name"/></a></li></c:if>
-            <c:if test="${order != 'date'}"><li><a href="?query=${query}&amp;order=date"><fmt:message key="mobile.events.searchfacets.date"/></a></li></c:if>
-            <c:if test="${order != '-lastModificationDate'}"><li><a href="?query=${query}&amp;order=-lastModificationDate"><fmt:message key="mobile.events.searchfacets.mostrecent"/></a></li></c:if>
+            <c:if test="${requestScope.order != 'relevance'}"><li><a href="?query=${query}&amp;order=relevance"><fmt:message key="mobile.events.searchfacets.relevance"/></a></li></c:if>
+            <c:if test="${requestScope.order != 'title'}"><li><a href="?query=${query}&amp;order=title"><fmt:message key="mobile.events.searchfacets.name"/></a></li></c:if>
+            <c:if test="${requestScope.order != 'date'}"><li><a href="?query=${query}&amp;order=date"><fmt:message key="mobile.events.searchfacets.date"/></a></li></c:if>
+            <c:if test="${requestScope.order != '-lastModificationDate'}"><li><a href="?query=${query}&amp;order=-lastModificationDate"><fmt:message key="mobile.events.searchfacets.mostrecent"/></a></li></c:if>
         </ul>
     </li>
 </ul>

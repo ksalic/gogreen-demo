@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 
 
 <div id="left" class="yui-b">
-  <c:if test="${fn:length(facets) gt 0}">
+  <c:if test="${fn:length(requestScope.facets) gt 0}">
     <ul id="left-nav">
         <%--@elvariable id="facets" type="java.util.List<org.hippoecm.hst.content.beans.standard.HippoFolder>"--%>
         <c:forEach items="${facets}" var="facet">

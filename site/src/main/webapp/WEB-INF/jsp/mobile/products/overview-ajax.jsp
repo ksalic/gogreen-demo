@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@
 
 <c:set var="style">product-item</c:set>
 <%--@elvariable id="docs" type="com.onehippo.gogreen.utils.PageableCollection"--%>
-<c:forEach items="${docs.items}" var="product">
+<c:forEach items="${requestScope.docs.items}" var="product">
     <hst:link var="prdlink" hippobean="${product}"/>
     <ul class="${style}">
         <li class="full-link"><a href="${prdlink}"></a></li>

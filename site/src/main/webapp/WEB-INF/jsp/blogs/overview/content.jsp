@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@
 <hippo-gogreen:title title="${blogsoverviewtitle}"/>
 
 <%--@elvariable id="blogs" type="java.util.List<com.onehippo.gogreen.beans.BlogsItem>"--%>
-<c:forEach items="${blogs.items}" var="blogitem" varStatus="status">
+<c:forEach items="${requestScope.blogs.items}" var="blogitem" varStatus="status">
     <hst:link var="link" hippobean="${blogitem}"/>
     <div class="blog-post">
 
@@ -86,10 +86,10 @@
 </c:forEach>
 
 <c:choose>
-  <c:when test="${blogs.total eq 0}">
-    <p id="results"><fmt:message key="search.results.noresults"/> '${query}'</p>
+  <c:when test="${requestScope.blogs.total eq 0}">
+    <p id="results"><fmt:message key="search.results.noresults"/> '${requestScope.query}'</p>
   </c:when>
   <c:otherwise>
-    <hippo-gogreen:pagination pageableResult="${blogs}" queryName="query" queryValue="${query}"/>
+    <hippo-gogreen:pagination pageableResult="${requestScope.blogs}" queryName="query" queryValue="${requestScope.query}"/>
   </c:otherwise>
 </c:choose>

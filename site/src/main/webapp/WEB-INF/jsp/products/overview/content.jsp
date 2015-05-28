@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@
 
 <div class="isotope" id="masonry-elements">
 <%--@elvariable id="docs" type="com.onehippo.gogreen.utils.PageableCollection"--%>
-<c:forEach items="${docs.items}" var="product" varStatus="status">
+<c:forEach items="${requestScope.docs.items}" var="product" varStatus="status">
     <%--@elvariable id="product" type="com.onehippo.gogreen.beans.Product"--%>
     <hst:link var="link" hippobean="${product}"/>
     <div class="feature blog-masonry isotope-item">
@@ -74,11 +74,11 @@
 </div>
 
 <c:choose>
-  <c:when test="${docs.total eq 0}">
-    <p id="results"><fmt:message key="search.results.noresults"/> '${query}'</p>
+  <c:when test="${requestScope.docs.total eq 0}">
+    <p id="results"><fmt:message key="search.results.noresults"/> '${requestScope.query}'</p>
   </c:when>
   <c:otherwise>
-    <hippo-gogreen:pagination pageableResult="${docs}" queryName="query" queryValue="${query}"/>
+    <hippo-gogreen:pagination pageableResult="${requestScope.docs}" queryName="query" queryValue="${requestScope.query}"/>
   </c:otherwise>
 </c:choose>
 

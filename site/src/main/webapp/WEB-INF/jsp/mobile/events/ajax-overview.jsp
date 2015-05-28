@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 
 
 <c:set var="style">event-item</c:set>
-<c:forEach items="${docs.items}" var="item">
+<c:forEach items="${requestScope.docs.items}" var="item">
     <ul class="${style}">
         <li class="full-link"><a href="<hst:link hippobean="${item}"/>"></a></li>
         <li class="calendar"><img src="<hst:link path="/images/mobile/bg-calendar.png"/>" alt="" />

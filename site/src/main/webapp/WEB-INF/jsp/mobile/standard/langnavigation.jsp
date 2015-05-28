@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@
     <fmt:message key="${requestLanguage}"/>
     <span><a href="#"><fmt:message key="mobile.standard.header.edition.change"/></a></span>
   </li>
-  <c:forEach var="translation" items="${translations}">
+  <c:forEach var="translation" items="${requestScope.translations}">
     <c:set var="title"><fmt:message key="standard.header.langnav.language.${translation.language}"/></c:set>
     <hst:link var="link" link="${translation.link}"/>
     <c:choose>

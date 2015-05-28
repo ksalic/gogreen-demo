@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -17,10 +17,10 @@
 --%>
 
 <%@include file="../includes/tags.jspf" %>
-<c:if test="${separatorBorderTop}">
+<c:if test="${requestScope.separatorBorderTop}">
     <c:set var="cssClass"> border-top</c:set>
 </c:if>
-<c:if test="${separatorBorderBottom}">
+<c:if test="${requestScope.separatorBorderBottom}">
     <c:set var="cssClass">${cssClass} border-bottom</c:set>
 </c:if>
-<div class="space-sep<c:out value="${separatorMargin} ${cssClass}"/>"></div>
+<div class="space-sep<c:out value="${requestScope.separatorMargin} ${cssClass}"/>"></div>

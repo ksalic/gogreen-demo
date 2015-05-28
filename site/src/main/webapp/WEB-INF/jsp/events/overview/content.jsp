@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -75,10 +75,10 @@
 
 <c:choose>
   <c:when test="${documents.total eq 0}">
-    <p id="results"><fmt:message key="search.results.noresults"/> '${query}'</p>
+    <p id="results"><fmt:message key="search.results.noresults"/> '${requestScope.query}'</p>
   </c:when>
   <c:otherwise>
-    <hippo-gogreen:pagination pageableResult="${documents}" queryName="query" queryValue="${query}"/>
+    <hippo-gogreen:pagination pageableResult="${documents}" queryName="query" queryValue="${requestScope.query}"/>
   </c:otherwise>
 </c:choose>
 

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -28,8 +28,8 @@
       <ul class="bullet-points">
         <hst:link var="home" siteMapItemRefId="home" />
         <li><a href="${home}"><fmt:message key="search.errorright.homepagelink"/></a></li>
-        <c:if test="${parentpage ne '' and parentpage ne 'home'}" >
-          <li><a href="<hst:link path="${parentpage}"/>"><fmt:message key="search.errorright.parentlink"/></li>
+        <c:if test="${requestScope.parentpage ne '' and requestScope.parentpage ne 'home'}" >
+          <li><a href="<hst:link path="${requestScope.parentpage}"/>"><fmt:message key="search.errorright.parentlink"/></li>
         </c:if>
         <hst:link var="sitemap" siteMapItemRefId="sitemap" />
         <li><a href="${sitemap}"><fmt:message key="search.errorright.sitemaplink"/></a></li>

@@ -1,5 +1,5 @@
 <%--
-  Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -15,10 +15,10 @@
 --%>
 <%@include file="../includes/tags.jspf" %>
 <c:choose>
-  <c:when test="${preview && empty htmlContent}">
+  <c:when test="${requestScope.preview && empty requestScope.htmlContent}">
     <h2 class="not-configured">Click to configure HTML component</h2>
   </c:when>
-  <c:otherwise>${htmlContent}</c:otherwise>
+  <c:otherwise>${requestScope.htmlContent}</c:otherwise>
 </c:choose>
 
 

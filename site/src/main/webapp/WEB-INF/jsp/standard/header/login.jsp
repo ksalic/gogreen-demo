@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -26,16 +26,16 @@
 
 <!-- login -->
 <c:choose>
-  <c:when test="${loggedin}">
+  <c:when test="${requestScope.loggedin}">
     <div id="login">
       <span class="username"><fmt:message key="standard.header.login.welcome"/>
-        <c:if test="${not empty user.firstname}">,&nbsp;${user.firstname}</c:if><c:if test="${not empty user.lastname}">&nbsp;${user.lastname}</c:if>
+        <c:if test="${not empty requestScope.user.firstname}">,&nbsp;${requestScope.user.firstname}</c:if><c:if test="${not empty requestScope.user.lastname}">&nbsp;${requestScope.user.lastname}</c:if>
       </span>
       <hst:link var="logoutLink" path="/login/logout" />
       <span class="first"><a class="black" href="${logoutLink}"><fmt:message key="standard.header.login.logoutlink"/></a></span>
     </div>
   </c:when>
-  <c:when test="${login}">
+  <c:when test="${requestScope.login}">
     <hst:link var="destination" />
     <hst:link var="loginLink" path="/login/proxy" />
     <div id="login-form">
@@ -47,7 +47,7 @@
       </form>
       <p>
         <a class="minimize" href="?login=false">&nbsp;</a>
-        <c:if test="${error}">
+        <c:if test="${requestScope.error}">
           <span><fmt:message key="standard.header.login.error"/></span>
         </c:if>
       </p>

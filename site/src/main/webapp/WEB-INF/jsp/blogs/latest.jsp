@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,31 +18,31 @@
 
 <%@include file="../includes/tags.jspf" %>
 
-<c:if test="${fn:length(items) gt 0}">
+<c:if test="${fn:length(requestScope.items) gt 0}">
 
     <c:choose>
-        <c:when test="${fn:length(items) eq 1}">
+        <c:when test="${fn:length(requestScope.items) eq 1}">
             <c:set var="colSize" value="12"/>
         </c:when>
-        <c:when test="${fn:length(items) eq 2}">
+        <c:when test="${fn:length(requestScope.items) eq 2}">
             <c:set var="colSize" value="6"/>
         </c:when>
-        <c:when test="${fn:length(items) eq 3}">
+        <c:when test="${fn:length(requestScope.items) eq 3}">
             <c:set var="colSize" value="4"/>
         </c:when>
-        <c:when test="${fn:length(items) eq 4}">
+        <c:when test="${fn:length(requestScope.items) eq 4}">
             <c:set var="colSize" value="3"/>
         </c:when>
     </c:choose>
 
     <div class="container">
-    <c:if test="${not empty title}">
+    <c:if test="${not empty requestScope.title}">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <h2 class="h2-section-title"><c:out value="${title}"/></h2>
-                <c:if test="${not empty icon}">
+                <h2 class="h2-section-title"><c:out value="${requestScope.title}"/></h2>
+                <c:if test="${not empty requestScope.icon}">
                     <div class="i-section-title">
-                        <i class="fa <c:out value="${icon}"/>"></i>
+                        <i class="fa <c:out value="${requestScope.icon}"/>"></i>
                     </div>
                 </c:if>
             </div>
@@ -50,7 +50,7 @@
     </c:if>
 
             <div class="row latest-items">
-                <c:forEach items="${items}" var="item">
+                <c:forEach items="${requestScope.items}" var="item">
                     <div class="col-md-${colSize} col-sm-${colSize}">
                         <hst:cmseditlink hippobean="${item}"/>
                         <div class="feature">
@@ -71,14 +71,6 @@
                             <div class="feature-details">
                                 <i class="icon-calendar"></i>
                                 <span><fmt:formatDate value="${item.date.time}" pattern="MMMM d, YYY"/></span>
-                                <%--<span class="details-seperator"></span>
-
-                                <a href="#"><i class="icon-comment"></i><span>4</span></a>
-
-                                <div class="feature-share">
-                                    <a href="#"><i class="icon-heart"></i></a>
-                                    <a href="#"><i class="icon-facebook"></i></a>
-                                </div>--%>
                             </div>
                         </div>
                     </div>
@@ -86,13 +78,13 @@
             </div>
         </div>
 
-    <c:if test="${separatorBorderTop}">
+    <c:if test="${requestScope.separatorBorderTop}">
         <c:set var="cssClass"> border-top</c:set>
     </c:if>
-    <c:if test="${separatorBorderBottom}">
+    <c:if test="${requestScope.separatorBorderBottom}">
         <c:set var="cssClass">${cssClass} border-bottom</c:set>
     </c:if>
-    <c:if test="${not empty separatorMargin or not empty cssClass}">
-        <div class="space-sep<c:out value="${separatorMargin} ${cssClass}"/>"></div>
+    <c:if test="${not empty requestScope.separatorMargin or not empty cssClass}">
+        <div class="space-sep<c:out value="${requestScope.separatorMargin} ${cssClass}"/>"></div>
     </c:if>
 </c:if>

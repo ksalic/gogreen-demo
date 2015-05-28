@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@
 
     <!-- navigation -->
     <ul id="nav">
-      <c:forEach var="item" items="${menu.siteMenuItems}">
+      <c:forEach var="item" items="${requestScope.menu.siteMenuItems}">
         <c:choose>
           <c:when test="${empty item.externalLink}">
             <hst:link var="link" link="${item.hstLink}"/>
@@ -47,7 +47,7 @@
               <a href="${link}"><c:out value="${item.name}"/></a>
               <ul>
                 <c:choose>
-                  <c:when test="${detailPage}">
+                  <c:when test="${requestScope.detailPage}">
                     <li class="back">
                       <i class="fa fa-arrow-circle-left"></i>
                       <a href="${link}" onclick="javascript:history.back(); return false;"><c:out value="${item.name}"/></a>
@@ -64,7 +64,7 @@
                         </c:otherwise>
                       </c:choose>
                       <c:choose>
-                        <c:when test="${childItem.expanded or (menu.deepestExpandedItem == item and childItem == item.childMenuItems[0])}">
+                        <c:when test="${childItem.expanded or (requestScope.menu.deepestExpandedItem == item and childItem == item.childMenuItems[0])}">
                           <li class="active">
                             <a href="${childLink}"><c:out value="${childItem.name}"/></a>
                           </li>
@@ -92,7 +92,7 @@
       <hst:defineObjects/>
       <c:if test="${hstRequest.requestContext.preview}">
         <li class="edit-menu-button">
-          <hst:cmseditmenu menu="${menu}"/>
+          <hst:cmseditmenu menu="${requestScope.menu}"/>
         </li>
       </c:if>
     </ul>

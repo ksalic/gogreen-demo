@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,10 +24,10 @@
         <h2><fmt:message key="events.calendar.title"/></h2>
         <div class="navigation">
             <nav>
-                <h4><c:out value="${calendar.monthName}"/>&nbsp;<c:out value="${calendar.year}"/></h4>
+                <h4><c:out value="${requestScope.calendar.monthName}"/>&nbsp;<c:out value="${requestScope.calendar.year}"/></h4>
                 <hst:link var="prev">
-                    <hst:param name="month" value="${calendar.prevMonth}"/>
-                    <hst:param name="year" value="${calendar.prevMonthYear}"/>
+                    <hst:param name="month" value="${requestScope.calendar.prevMonth}"/>
+                    <hst:param name="year" value="${requestScope.calendar.prevMonthYear}"/>
                 </hst:link>
                 <span class="nav prev">
                     <a href="${prev}">
@@ -36,8 +36,8 @@
                     </a>
                 </span>
                 <hst:link var="next">
-                    <hst:param name="month" value="${calendar.nextMonth}"/>
-                    <hst:param name="year" value="${calendar.nextMonthYear}"/>
+                    <hst:param name="month" value="${requestScope.calendar.nextMonth}"/>
+                    <hst:param name="year" value="${requestScope.calendar.nextMonthYear}"/>
                 </hst:link>
                 <span class="nav next">
                     <a href="${next}">
@@ -59,7 +59,7 @@
                       <th><fmt:message key="events.calendar.sunday"/></th>
                   </tr>
             </thead>
-            <c:forEach var="week" items="${calendar.weeks}">
+            <c:forEach var="week" items="${requestScope.calendar.weeks}">
                 <tr>
                     <c:forEach var="day" items="${week.days}">
                         <c:choose>
@@ -81,14 +81,14 @@
     </div>
 </div>
 
-<c:forEach var="week" items="${calendar.weeks}">
+<c:forEach var="week" items="${requestScope.calendar.weeks}">
     <c:forEach var="day" items="${week.days}">
         <c:choose>
             <c:when test="${day.dummy}"><td class="disabled"></td></c:when>
             <c:when test="${day.numberOfEvents > 0}">
                 <div class="sidebar-block calendar-item day-<c:out value="${day.dayOfMonth}"/>">
                     <h3 class="h3-sidebar-title sidebar-title">
-                        <c:out value="${day.dayOfMonth}"/>&nbsp;<c:out value="${calendar.monthName}"/>&nbsp;<c:out value="${calendar.year}"/>
+                        <c:out value="${day.dayOfMonth}"/>&nbsp;<c:out value="${requestScope.calendar.monthName}"/>&nbsp;<c:out value="${requestScope.calendar.year}"/>
                     </h3>
                     <div class="sidebar-content">
                         <ul class="posts-list">
@@ -97,7 +97,7 @@
                                     <hst:link var="eventLink" hippobean="${event}" />
                                     <div class="posts-list-thumbnail">
                                         <a href="${eventLink}">
-                                            <img src="<hst:link hippobean="${event.firstImage.smallThumbnail}"/>" alt="${doc.firstImage.alt}" class="img-responsive" width="54"/>
+                                            <img src="<hst:link hippobean="${event.firstImage.smallThumbnail}"/>" alt="${requestScope.doc.firstImage.alt}" class="img-responsive" width="54"/>
                                         </a>
                                     </div>
                                     <div class="posts-list-content">
@@ -113,7 +113,7 @@
     </c:forEach>
 </c:forEach>
 
-<script text="text/javascript">
+<script type="text/javascript">
     // Hide all calendar items on load
     $(".calendar-item").hide();
 

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -21,12 +21,12 @@
 <c:set var="searchresultstitle"><fmt:message key="search.results.title"/></c:set>
 <hippo-gogreen:title title="${searchresultstitle}"/>
 
-<c:set var="isFound" value="${tags != null or searchResult.total > 0}"/>
-<c:set var="searched" value="'${fn:escapeXml(tag != null ? tag.label : query)}'"/>
+<c:set var="isFound" value="${requestScope.tags != null or requestScope.searchResult.total > 0}"/>
+<c:set var="searched" value="'${fn:escapeXml(requestScope.tag != null ? requestScope.tag.label : requestScope.query)}'"/>
 
 <c:choose>
     <%-- When page is not found --%>
-    <c:when test="${pagenotfound}">
+    <c:when test="${requestScope.pagenotfound}">
         <h4><fmt:message key="search.results.pagenotfound"/></h4>
         <p>
             <fmt:message key="search.results.notfounddescr"/>
@@ -46,18 +46,18 @@
     <c:otherwise>
         <h4>
             <c:choose>
-                <c:when test="${empty query}">
+                <c:when test="${empty requestScope.query}">
                     <fmt:message key="search.results.found">
-                        <fmt:param value="${searchResult.startOffset + 1}"/>
-                        <fmt:param value="${searchResult.endOffset}"/>
-                        <fmt:param value="${searchResult.total}"/>
+                        <fmt:param value="${requestScope.searchResult.startOffset + 1}"/>
+                        <fmt:param value="${requestScope.searchResult.endOffset}"/>
+                        <fmt:param value="${requestScope.searchResult.total}"/>
                     </fmt:message>
                 </c:when>
                 <c:otherwise>
                     <fmt:message key="search.results.resultsfound">
-                        <fmt:param value="${searchResult.startOffset + 1}"/>
-                        <fmt:param value="${searchResult.endOffset}"/>
-                        <fmt:param value="${searchResult.total}"/>
+                        <fmt:param value="${requestScope.searchResult.startOffset + 1}"/>
+                        <fmt:param value="${requestScope.searchResult.endOffset}"/>
+                        <fmt:param value="${requestScope.searchResult.total}"/>
                         <fmt:param value="${searched}"/>
                      </fmt:message>
                 </c:otherwise>
@@ -69,7 +69,7 @@
 <%-- if there is a result, show it --%>
 <c:if test="${isFound}">
     <div id="search-results">
-        <c:forEach items="${searchResult.items}" var="hit">
+        <c:forEach items="${requestScope.searchResult.items}" var="hit">
             <hst:link var="link" hippobean="${hit}"/>
             <c:set var="hitClassName" value="${hit['class'].simpleName}"/>
             <div class="blog-post">
@@ -126,8 +126,8 @@
 
 <%-- Show bottom pagination if it is a proper search, if it comes from pagenotfound, dont show it --%>
 <c:choose>
-    <c:when test="${not pagenotfound}">
-        <hippo-gogreen:pagination pageableResult="${searchResult}" queryName="query" queryValue="${fn:escapeXml(query)}"/>
+    <c:when test="${not requestScope.pagenotfound}">
+        <hippo-gogreen:pagination pageableResult="${requestScope.searchResult}" queryName="query" queryValue="${fn:escapeXml(requestScope.query)}"/>
     </c:when>
     <c:otherwise>
     </c:otherwise>

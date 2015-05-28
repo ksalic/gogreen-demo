@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -83,7 +83,7 @@
         <!-- footer -->
         <hst:include ref="footer"/>
     </div>
-  <c:if test="${not preview}">
+  <c:if test="${not requestScope.preview}">
     <ga:accountId/>
     <hst:link var="googleAnalytics" path="/resources/google-analytics.js"/>
     <script src="${googleAnalytics}" type="text/javascript"></script>

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@
       <description><fmt:message key="rss.news.description"/></description>
       <language><fmt:message key="rss.news.language"/></language>
       <generator><fmt:message key="rss.news.generator"/></generator>
-      <c:forEach var="item" items="${items}">
+      <c:forEach var="item" items="${requestScope.items}">
       <hst:link var="link" hippobean="${item}" fullyQualified="true" />
          <item>
             <title><c:out value="${item.title}" /></title>

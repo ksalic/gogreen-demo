@@ -1,5 +1,5 @@
 <%--
-  Copyright 2014 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2014-2015 Hippo B.V. (http://www.onehippo.com)
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -23,8 +23,8 @@
 <hst:headContribution keyHint="title"><title>ADD </title></hst:headContribution>
 
 <div id="yui-u">
-  <c:if test="${not empty message}">
-    <h2>${message}</h2>
+  <c:if test="${not empty requestScope.message}">
+    <h2>${requestScope.message}</h2>
   </c:if>
   <h1>Add Wikipedia Documents</h1>
   <hr/>

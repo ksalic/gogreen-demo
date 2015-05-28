@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 
 <c:set var="datePattern" value="dd-MM-yyyy"/>
 
-<hippo-gogreen:title title="${document.title}"/>
+<hippo-gogreen:title title="${requestScope.document.title}"/>
 
 <hst:headContribution keyHint="rateJs" category="headScripts">
     <hst:link path="/js/jquery.raty.js" var="rateJs"/>
@@ -39,20 +39,20 @@
     </div>
 
     <div class="blog-span">
-        <hst:cmseditlink hippobean="${document}" />
+        <hst:cmseditlink hippobean="${requestScope.document}" />
         <h2>
-            <c:out value="${document.title}"/>
+            <c:out value="${requestScope.document.title}"/>
         </h2>
 
-        <c:if test="${not empty document.images}">
+        <c:if test="${not empty requestScope.document.images}">
             <div class="blog-post-featured-img img-overlay">
                 <div class="cycle-slideshow frame1" data-cycle-slides="> .slider-img" data-cycle-swipe="true" data-cycle-prev=".cycle-prev" data-cycle-next=".cycle-next" data-cycle-overlay-fx-out="slideUp" data-cycle-overlay-fx-in="slideDown" data-cycle-timeout="0">
-                    <c:if test="${fn:length(document.images) > 1}">
+                    <c:if test="${fn:length(requestScope.document.images) > 1}">
                       <div class="fa fa-chevron-right cycle-next"></div>
                       <div class="fa fa-chevron-left cycle-prev"></div>
                       <div class="cycle-pager"></div>
                     </c:if>
-                    <c:forEach items="${document.images}" var="productImage">
+                    <c:forEach items="${requestScope.document.images}" var="productImage">
                         <div class="slider-img">
                             <img src="<hst:link hippobean="${productImage.largeThumbnail}"/>" alt="${fn:escapeXml(productImage.alt)}">
                             <div class="item-img-overlay">
@@ -62,27 +62,27 @@
                     </c:forEach>
                 </div>
 
-                <hippo-gogreen:imagecopyright image="${image}"/>
+                <hippo-gogreen:imagecopyright image="${requestScope.image}"/>
             </div>
         </c:if>
 
         <div class="blog-post-body">
-            <p><c:out value="${document.summary}"/></p>
-            <hst:html hippohtml="${document.description}"/>
-            <hippo-gogreen:copyright document="${document}"/>
+            <p><c:out value="${requestScope.document.summary}"/></p>
+            <hst:html hippohtml="${requestScope.document.description}"/>
+            <hippo-gogreen:copyright document="${requestScope.document}"/>
         </div>
 
         <div class="blog-post-details">
 
             <div class="blog-post-details-item blog-post-details-item-left icon-banknote">
-                <span class="${reseller ? 'nonresellerprice' : 'price'}"><fmt:formatNumber value="${document.price}" type="currency"/></span>
-                <c:if test="${reseller}">
-                    <span class="resellerprice"><fmt:message key="products.resellerprice"/>: <fmt:formatNumber value="${document.resellerPrice}" type="currency"/></span>
+                <span class="${requestScope.reseller ? 'nonresellerprice' : 'price'}"><fmt:formatNumber value="${requestScope.document.price}" type="currency"/></span>
+                <c:if test="${requestScope.reseller}">
+                    <span class="resellerprice"><fmt:message key="products.resellerprice"/>: <fmt:formatNumber value="${requestScope.document.resellerPrice}" type="currency"/></span>
                 </c:if>
             </div>
 
             <div class="blog-post-details-item blog-post-details-item-left rating-info">
-                <span id="document-rating" data-score="<c:out value="${document.rating}"/>"></span>&nbsp;(<c:out value="${votes}"/>&nbsp;<fmt:message key="products.detail.reviews"/>)
+                <span id="document-rating" data-score="<c:out value="${requestScope.document.rating}"/>"></span>&nbsp;(<c:out value="${requestScope.votes}"/>&nbsp;<fmt:message key="products.detail.reviews"/>)
             </div>
 
             <%--<div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags icon-files">
@@ -100,7 +100,7 @@
     </div>
 </div>
 
-<c:if test="${not empty reviews}">
+<c:if test="${not empty requestScope.reviews}">
     <div class="comments" id="comments">
         <div class="blog-span-bottom">
 
@@ -120,7 +120,7 @@
             </div>
 
             <ol class="comments-list">
-                <c:forEach items="${reviews}" var="review">
+                <c:forEach items="${requestScope.reviews}" var="review">
                     <li class="comment">
                         <div class="comment-content">
                             <%-- DISABLED FROM THEME: <div class="comment-author-avatar">
@@ -173,17 +173,17 @@
 
 <form action="${actionUrl}" class="form-wrapper" method="post" id="comment-form" role="form" novalidate="novalidate">
 
-    <c:if test="${not empty success}">
+    <c:if test="${not empty requestScope.success}">
         <div class="alert alert-success">
             <div class="msg"><fmt:message key="common.comments.thankyou"/></div>
             <a href="#" class="alert-remove"><i class="icon-trash"></i></a>
         </div>
     </c:if>
 
-    <c:if test="${not empty errors}">
+    <c:if test="${not empty requestScope.errors}">
         <div class="alert alert-danger">
             <div class="msg">
-                <c:forEach items="${errors}" var="error">
+                <c:forEach items="${requestScope.errors}" var="error">
                     <c:if test="${error eq 'invalid.name-label'}">
                         <span for="name" class="input_error"><fmt:message key="common.comments.name.error"/></span><br/>
                     </c:if>
@@ -205,9 +205,9 @@
                 <label for="name">
                     <fmt:message key="common.comments.name"/> *
                 </label>
-                <input type="text" id="name" name="name" value="${name}" class="form-control" data-errmsg="<fmt:message key="common.comments.name.error"/>" minlength="2" placeholder="Your Name" required="">
-                <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                <input type="text" id="name" name="name" value="${requestScope.name}" class="form-control" data-errmsg="<fmt:message key="common.comments.name.error"/>" minlength="2" placeholder="Your Name" required="">
+                <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.name-label'}">
                             <span for="name" class="input_error"><fmt:message key="common.comments.name.error"/></span><br/>
                         </c:if>
@@ -223,9 +223,9 @@
                 <label for="email">
                     <fmt:message key="common.comments.email"/> *
                 </label>
-                <input type="text" id="email" name="email" value="${email}" class="form-control" data-errmsg="<fmt:message key="common.comments.email.error"/>" minlength="2" placeholder="Your Email" required="">
-                <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                <input type="text" id="email" name="email" value="${requestScope.email}" class="form-control" data-errmsg="<fmt:message key="common.comments.email.error"/>" minlength="2" placeholder="Your Email" required="">
+                <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.email-label'}">
                             <span for="email" class="input_error"><fmt:message key="common.comments.email.error"/></span><br/>
                         </c:if>
@@ -255,9 +255,9 @@
                     <fmt:message key="common.comments.comment"/>
                 </label>
                 <textarea id="comment" name="comment" class="form-control" data-errmsg="<fmt:message key="common.comments.comment.error"/>"
-                    placeholder="Your Message" rows="3" required=""><c:if test="${not empty comment}"><c:out value="${comment}"/></c:if></textarea>
-                <c:if test="${not empty errors}">
-                    <c:forEach items="${errors}" var="error">
+                    placeholder="Your Message" rows="3" required=""><c:if test="${not empty requestScope.comment}"><c:out value="${requestScope.comment}"/></c:if></textarea>
+                <c:if test="${not empty requestScope.errors}">
+                    <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.comment-label'}">
                             <span for="comment" class="input_error"><fmt:message key="common.comments.comment.error"/></span><br/>
                         </c:if>
@@ -267,8 +267,8 @@
         </div>
     </div>
 
-    <c:if test="${not empty errors}">
-        <c:forEach items="${errors}" var="error">
+    <c:if test="${not empty requestScope.errors}">
+        <c:forEach items="${requestScope.errors}" var="error">
             <c:if test="${error eq 'invalid.spam-label'}">
                 <span class="form-error"><fmt:message key="common.spam.error"/></span><br/>
             </c:if>
@@ -319,4 +319,4 @@
     $('#rating-field').raty({targetText: 0, target: '#rating', targetType : 'score', targetKeep: true, starType : 'i'});
 </script>
 
-<ga:trackDocument hippoDocumentBean="${document}"/>
+<ga:trackDocument hippoDocumentBean="${requestScope.document}"/>

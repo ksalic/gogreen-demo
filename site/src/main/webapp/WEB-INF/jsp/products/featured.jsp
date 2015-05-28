@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,15 +18,15 @@
 
 <%@include file="../includes/tags.jspf" %>
 
-<c:if test="${not empty products}">
+<c:if test="${not empty requestScope.products}">
 
-  <c:if test="${not empty title}">
+  <c:if test="${not empty requestScope.title}">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-        <h2 class="h2-section-title"><c:out value="${title}"/></h2>
-        <c:if test="${not empty icon}">
+        <h2 class="h2-section-title"><c:out value="${requestScope.title}"/></h2>
+        <c:if test="${not empty requestScope.icon}">
           <div class="i-section-title">
-            <i class="fa <c:out value="${icon}"/>"></i>
+            <i class="fa <c:out value="${requestScope.icon}"/>"></i>
           </div>
         </c:if>
       </div>
@@ -72,6 +72,6 @@
 </div>
 </c:if>
 
-<c:if test="${empty products and preview}">
+<c:if test="${empty requestScope.products and requestScope.preview}">
   <h2 class="not-configured">Click to configure featured products</h2>
 </c:if>
