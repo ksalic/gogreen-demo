@@ -18,6 +18,12 @@ package com.onehippo.gogreen.components;
 
 import javax.jcr.Session;
 
+import com.onehippo.gogreen.beans.BlogItem;
+import com.onehippo.gogreen.beans.Comment;
+import com.onehippo.gogreen.beans.Document;
+import com.onehippo.gogreen.beans.EventDocument;
+import com.onehippo.gogreen.beans.NewsItem;
+
 import org.hippoecm.hst.content.beans.ObjectBeanPersistenceException;
 import org.hippoecm.hst.content.beans.manager.workflow.BaseWorkflowCallbackHandler;
 import org.hippoecm.hst.content.beans.manager.workflow.WorkflowPersistenceManager;
@@ -34,11 +40,6 @@ import org.hippoecm.hst.util.ContentBeanUtils;
 import org.onehippo.repository.documentworkflow.DocumentWorkflow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.onehippo.gogreen.beans.Comment;
-import com.onehippo.gogreen.beans.Document;
-import com.onehippo.gogreen.beans.EventDocument;
-import com.onehippo.gogreen.beans.NewsItem;
 
 public class Detail extends BaseComponent {
 
@@ -63,9 +64,10 @@ public class Detail extends BaseComponent {
 
         if (document instanceof NewsItem) {
             commentsFolder = ctx.getSiteContentBaseBean().getBean("comments/news");
-
         } else if (document instanceof EventDocument) {
             commentsFolder = ctx.getSiteContentBaseBean().getBean("comments/events");
+        } else if (document instanceof BlogItem) {
+            commentsFolder = ctx.getSiteContentBaseBean().getBean("comments/blogs");
         }
 
         if (commentsFolder != null) {
@@ -79,9 +81,7 @@ public class Detail extends BaseComponent {
 
         }
 
-
         request.setAttribute("commentCount", commentCount);
-
     }
 
     @Override
