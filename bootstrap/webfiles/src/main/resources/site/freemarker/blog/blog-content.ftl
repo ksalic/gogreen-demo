@@ -6,7 +6,7 @@
     <i class="icon-news"> </i>
   </div>
   <div class="blog-span">
-  <@hst.cmseditlink hippobean=document/>
+  <@hst.cmseditlink hippobean=Request.document/>
   <#assign image=document.firstImage/>
   <#if image?? && image.landscapeImage??>
     <div class="blog-post-featured-img img-overlay">
@@ -20,38 +20,39 @@
     </div>
   </#if>
 
-    <h2>${document.title}</h2>
+    <h2>${Request.document.title}</h2>
 
     <div class="blog-post-body">
-    ${document.summary}
-      <@hst.html hippohtml=document.description/>
-      <@copyright.copyright document=document/>
+    ${Request.document.summary}
+      <@hst.html hippohtml=Request.document.description/>
+      <@copyright.copyright document=Request.document/>
     </div>
 
     <div class="blog-post-details">
       <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
         <span class="date">
-        <@fmt.formatDate value=document.date.time type="date" pattern="d MMMM, yyyy"/>
+        <@fmt.formatDate value=Request.document.date.time type="date" pattern="d MMMM, yyyy"/>
         </span>
       </div>
       <div class="blog-post-details-item blog-post-details-item-left blog-post-details-item-last icon-comment">
-      <#if commentCount gt 0>
-      ${commentCount}
+      <@hst.setBundle basename="messages"/>
+      <#if Request.commentCount gt 0>
+      ${Request.commentCount}
         &nbsp;
-        <@fmt.message key="news.detail.content.commentsfound"/>
-        <#if commentCount gt 1>
-          <@fmt.message key="news.detail.content.commentsplural"/>
+        <@fmt.message key="blogs.detail.content.commentsfound"/>
+        <#if Request.commentCount gt 1>
+          <@fmt.message key="blogs.detail.content.commentsplural"/>
         </#if>
       <#else>
-        <@fmt.message key="news.detail.content.nocomments"/>
+        <@fmt.message key="blogs.detail.content.nocomments"/>
       </#if>
       </div>
     </div>
     <!-- If there are any tags for this document, then display them with links -->
-  <#if  document.tags??>
+  <#if Request.document.tags??>
     <@hst.setBundle basename="general.text"/>
     <div class="tags">
-      <#list document.tags as tag>
+      <#list Request.document.tags as tag>
         <@hst.link siteMapItemRefId="search-faceted" var="link"/>
         <@fmt.message key="search.facet.tags" var="tagname"/>
         <a href="${link}/${tagname}/${tag}">${tag}</a>
