@@ -44,7 +44,7 @@
                         <@hst.link var="docLink" hippobean=banner.docLink/>
                     </#if>
                 </#if>
-                <@fmt.setBundle basename="messages"/>
+                <@hst.setBundle basename="messages"/>
             <div class="col-md-${colSize} col-sm-${colSize}">
                 <div class="content-box content-style2 anim-opacity animated fadeIn animatedVisi" data-animtype="fadeIn" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.2s" style="-webkit-animation: 1s 0.2s;">
                     <div class="feature-content">

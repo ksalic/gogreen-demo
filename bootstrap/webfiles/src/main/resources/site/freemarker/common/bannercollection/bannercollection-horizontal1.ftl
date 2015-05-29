@@ -44,7 +44,7 @@
                         <@hst.link var="docLink" hippobean=banner.docLink/>
                     </#if>
                 </#if>
-                <@fmt.setBundle basename="messages"/>
+                <@hst.setBundle basename="messages"/>
                 <div class="col-md-${colSize} col-sm-${colSize}">
                     <div class="content-box content-style3">
                         <#if banner.icon??>
