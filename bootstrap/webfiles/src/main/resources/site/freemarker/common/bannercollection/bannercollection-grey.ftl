@@ -1,39 +1,39 @@
 <#include "../../include/imports.ftl">
-<#if banners??>
-    <#if title?? && title!=''>
+<#if Request.banners??>
+    <#if Request.title?? && Request.title!=''>
     <div class="row">
         <div class="col-md-12 col-sm-12">
             <h2 class="h2-section-title">
-            ${title}
+            ${Request.title}
             </h2>
-            <#if icon??>
+            <#if Request.icon??>
                 <div class="i-section-title">
-                    <i class="fa  ${icon}"></i>
+                    <i class="fa  ${Request.icon}"></i>
                 </div>
             </#if>
         </div>
     </div>
     </#if>
 <#-- COL SIZE-->
-    <#if banners?size == 1>
+    <#if Request.banners?size == 1>
         <#assign colSize=12/>
-    <#elseif banners?size == 2>
+    <#elseif Request.banners?size == 2>
         <#assign colSize=6/>
-    <#elseif banners?size == 3>
+    <#elseif Request.banners?size == 3>
         <#assign colSize=4/>
-    <#elseif banners?size == 4>
+    <#elseif Request.banners?size == 4>
         <#assign colSize=3/>
     </#if>
-    <#if banners?size % 2 == 0>
-        <#assign bannerCount=banners?size / 2.0 />
+    <#if Request.banners?size % 2 == 0>
+        <#assign bannerCount=Request.banners?size / 2.0 />
     <#else>
-        <#assign bannerCount=(banners?size - 1.0 ) / 2.0 /></#if>
+        <#assign bannerCount=(Request.banners?size - 1.0 ) / 2.0 /></#if>
 
 <div class="section-content no-padding top-body">
 <#-- START MARKUP-->
     <div class="container">
         <div class="row">
-            <#list banners as banner>
+            <#list Request.banners as banner>
                 <@hst.setBundle basename="products.facet"/>
                 <#if banner.docLink??>
                     <#if banner.docLink.hippoFolderBean??>
@@ -76,20 +76,20 @@
 </div>
 
 <#-- END MARKUP-->
-    <#if separatorBorderTop>
+    <#if Request.separatorBorderTop>
         <#assign cssClass> border-top</#assign>
     </#if>
-    <#if separatorBorderBottom>
+    <#if Request.separatorBorderBottom>
         <#assign cssClass>${cssClass} border-bottom</#assign>
     </#if>
-    <#if separatorMargin?? && cssClass??>
-    <div class="space-sep ${separatorMargin} ${cssClass}"></div>
+    <#if Request.separatorMargin?? && cssClass??>
+    <div class="space-sep ${Request.separatorMargin} ${cssClass}"></div>
     <#elseif separatorMargin??>
-    <div class="space-sep ${separatorMargin}"></div>
+    <div class="space-sep ${Request.separatorMargin}"></div>
     <#elseif cssClass??>
     <div class="space-sep ${cssClass}"></div>
     </#if>
 
-<#elseif preview??>
+<#elseif Request.preview??>
 <h2 class="not-configured">Click to configure banner collection</h2>
 </#if>

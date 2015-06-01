@@ -13,11 +13,11 @@
     </div>
   </div>
 
-<#if zoomlevel??>
-  <#assign zoom>&zoom=${zoomlevel}</#assign>
+<#if Request.zoomlevel??>
+  <#assign zoom>&zoom=${Request.zoomlevel}</#assign>
 </#if>
 
-  <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?center=${address}${zoom}&size=237x300&maptype=terrain&markers=color:green%7Clabel:G%7C52.3593826,4.9016225&markers=color:green%7Clabel:G%7C42.350294,-71.057129" alt="Google Maps"/>
+  <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?center=${Request.address}${zoom}&size=237x300&maptype=terrain&markers=color:green%7Clabel:G%7C52.3593826,4.9016225&markers=color:green%7Clabel:G%7C42.350294,-71.057129" alt="Google Maps"/>
 </div>
 <@hst.link path="/images/terrain.png" var="staticMap"/>
 <script type="text/javascript">

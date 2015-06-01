@@ -11,9 +11,9 @@
         <i class="fa fa-ellipsis-h"></i> <span>
         <@fmt.message key=requestLanguage/>
       </span>
-        <#if translations??>
+        <#if Request.translations??>
           <ul>
-            <#list translations as translation>
+            <#list Request.translations as translation>
               <@hst.link var="link" link=translation.link/>
               <#assign title>
                 <@fmt.message key="standard.header.langnav.language.${translation.language}"/>

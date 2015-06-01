@@ -7,7 +7,7 @@
   </div>
   <div class="blog-span">
   <@hst.cmseditlink hippobean=Request.document/>
-  <#assign image=document.firstImage/>
+  <#assign image=Request.document.firstImage/>
   <#if image?? && image.landscapeImage??>
     <div class="blog-post-featured-img img-overlay">
       <@hst.link var="src" hippobean=image.landscapeImage/>

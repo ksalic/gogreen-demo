@@ -1,15 +1,15 @@
 <#include "../../include/imports.ftl">
-<#if document??>
+<#if Request.document??>
 <div class="richtextsnippet-component">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6">
-        <@hst.cmseditlink hippobean=document/>
-          <@hst.html hippohtml=document.richText/>
+        <@hst.cmseditlink hippobean=Request.document/>
+          <@hst.html hippohtml=Request.document.richText/>
       </div>
     </div>
   </div>
 </div>
-<#elseif preview??>
+<#elseif Request.preview??>
 <h2 class="not-configured">Click to configure Rich text snippet</h2>
 </#if>

@@ -2,23 +2,23 @@
 
 <div class="container">
   <div class="row video">
-  <#if title??>
+  <#if Request.title??>
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <h2 class="h2-section-title">
-        ${title}
+        ${Request.title}
         </h2>
-        <#if icon??>
+        <#if Request.icon??>
           <div class="i-section-title">
-            <i class="fa ${icon}"></i>
+            <i class="fa ${Request.icon}"></i>
           </div>
         </#if>
       </div>
     </div>
   </#if>
-  <#if videoURL??>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoURL}" frameborder="0" allowfullscreen></iframe>
-  <#elseif preview??>
+  <#if Request.videoURL??>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/${Request.videoURL}" frameborder="0" allowfullscreen></iframe>
+  <#elseif Request.preview??>
     <h2 class="not-configured">Click to configure Video component</h2>
   </#if>
   </div>

@@ -5,9 +5,9 @@
 <#assign lang=hstRequest.locale.language/>
 <@hst.link var="linkHome" siteMapItemRefId="home"/>
 
-<#if logo??>
+<#if Request.logo??>
 <div class="col-xs-2 logo">
-  <@hst.link var="imgLogo" hippobean=logo.original />
-  <a href="${linkHome}"><img src="${imgLogo}" alt="${logo.alt!''}" height="${logo.original.height}"/></a>
+  <@hst.link var="imgLogo" hippobean=Request.logo.original />
+  <a href="${linkHome}"><img src="${imgLogo}" alt="${Request.logo.alt!''}" height="${Request.logo.original.height}"/></a>
 </div>
 </#if>

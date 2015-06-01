@@ -1,9 +1,9 @@
 <#include "../include/imports.ftl">
-<#if banners??>
+<#if Request.banners??>
 <div class="rev-slider-full">
   <div class="rev-slider-banner-full rev-slider-full">
     <ul>
-      <#list banners as banner >
+      <#list Request.banners as banner >
 
         <li data-transition="fade" data-slotamount="2" data-masterspeed="300">
           <img src="<@hst.link hippobean=banner.image.original/>" alt="rev-full1" data-fullwidthcentering="on">
@@ -25,11 +25,11 @@
     <div class="tp-bannertimer tp-bottom"></div>
   </div>
 </div>
-<#elseif preview??>
+<#elseif Request.preview??>
   <h2 class="not-configured">Click to configure banner carousel</h2>
 </#if>
 
-<#if preview??>
+<#if Request.preview??>
 <script>
   // show slider again if component is reloaded in channel manager
   $(document).ready(function () {

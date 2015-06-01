@@ -1,14 +1,14 @@
 <#include "../../include/imports.ftl">
-<#if images??>
-  <#if  title??>
+<#if Request.images??>
+  <#if  Request.title??>
   <div class="row">
     <div class="col-md-12 col-sm-12">
       <h2 class="h2-section-title">
-      ${title}
+      ${Request.title}
       </h2>
-      <#if icon??>
+      <#if Request.icon??>
         <div class="i-section-title">
-          <i class="fa ${icon}"></i>
+          <i class="fa ${Request.icon}"></i>
         </div>
       </#if>
     </div>
@@ -19,7 +19,7 @@
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <ul class="section-clients">
-          <#list images as doc>
+          <#list Request.images as doc>
             <li class="animated bounceIn animatedVisi" data-animtype="bounceIn" data-animrepeat="0" data-animdelay="0.2s" style="-webkit-animation: 0.2s;">
               <#assign image=doc.firstImage/>
               <a href="<@hst.link hippobean=doc/>">
@@ -37,21 +37,21 @@
     </div>
   </div>
 </div>
-  <#if separatorBorderTop??>
+  <#if Request.separatorBorderTop??>
     <#assign cssClass> border-top</#assign>
   </#if>
-  <#if separatorBorderBottom??>
+  <#if Request.separatorBorderBottom??>
     <#assign cssClass>${cssClass} border-bottom</#assign>
   </#if>
 
-  <#if separatorMargin?? && cssClass??>
-  <div class="space-sep ${separatorMargin} ${cssClass}"></div>
+  <#if Request.separatorMargin?? && cssClass??>
+  <div class="space-sep ${Request.separatorMargin} ${cssClass}"></div>
   <#elseif separatorMargin??>
-  <div class="space-sep ${separatorMargin}"></div>
+  <div class="space-sep ${Request.separatorMargin}"></div>
   <#elseif cssClass??>
   <div class="space-sep ${cssClass}"></div>
   </#if>
 
-<#elseif preview??>
+<#elseif Request.preview??>
 <h2 class="not-configured">Click to configure Image component</h2>
 </#if>

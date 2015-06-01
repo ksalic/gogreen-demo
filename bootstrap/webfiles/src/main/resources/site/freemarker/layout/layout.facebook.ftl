@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <#--
 
-Copyright (C) 2010 Hippo B.V.
+Copyright (C) 2010-2015 Hippo B.V.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -100,7 +100,7 @@ limitations under the License.
 
   <@hst.headContributions categoryIncludes="jsExternal"/>
   <@hst.headContributions categoryIncludes="jsInternal"/>
-  <#if !preview>
+  <#if !Request.preview>
     <@ga.accountId/>
     <@hst.link var="googleAnalytics" path="/resources/google-analytics.js"/>
     <script src="${googleAnalytics}" type="text/javascript"></script>
