@@ -16,8 +16,7 @@ On experiment nodes, remove the following properties:
 
 Running the test
 ================
-Run the test by executing
-  mvn -Pgenerate-data -pl data test
+Run the test by executing the DataGeneratorTest. You must temporarily comment out the @Ignore statement.
 
 The generated files are:
  * request-data.bz2
