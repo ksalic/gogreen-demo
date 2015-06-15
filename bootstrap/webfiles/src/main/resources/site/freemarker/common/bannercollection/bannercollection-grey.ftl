@@ -14,16 +14,9 @@
         </div>
     </div>
     </#if>
-<#-- COL SIZE-->
-    <#if Request.banners?size == 1>
-        <#assign colSize=12/>
-    <#elseif Request.banners?size == 2>
-        <#assign colSize=6/>
-    <#elseif Request.banners?size == 3>
-        <#assign colSize=4/>
-    <#elseif Request.banners?size == 4>
-        <#assign colSize=3/>
-    </#if>
+    <#-- COL SIZE-->
+    <#assign colSize = 12 / Request.banners?size/>
+
     <#if Request.banners?size % 2 == 0>
         <#assign bannerCount=Request.banners?size / 2.0 />
     <#else>

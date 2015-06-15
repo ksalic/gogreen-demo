@@ -1,17 +1,7 @@
 <#include "../include/imports.ftl">
 <#if Request.items??>
   <#if (Request.items?size > 0)>
-
-    <#if (Request.items?size == 1)>
-      <#assign colSize=12/>
-    <#elseif (Request.items?size == 2)>
-      <#assign colSize=6/>
-    <#elseif (Request.items?size == 3)>
-      <#assign colSize=4/>
-    <#elseif  (Request.items?size == 4)>
-      <#assign colSize=3/>
-    </#if>
-
+    <#assign colSize = 12 / Request.items?size/>
   <div class="container">
     <#if Request.title??>
       <div class="row">
