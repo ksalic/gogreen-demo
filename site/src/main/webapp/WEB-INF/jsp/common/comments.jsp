@@ -38,6 +38,8 @@
             </div>
 
             <ol class="comments-list">
+                <hst:setBundle basename="messages"/>
+                <fmt:message key="standard.date.format" var="dateformat"/>
                 <c:forEach items="${requestScope.comments}" var="comment">
                     <li class="comment">
                         <div class="comment-content">
@@ -57,7 +59,9 @@
                                             </c:otherwise>
                                         </c:choose>
                                     </span>
-                                    <span class="comment-date"><fmt:formatDate value="${comment.creationDate.time}" type="date" pattern="d MMMM, yyyy"/></span>
+                                    <span class="comment-date">
+                                      <fmt:formatDate value="${comment.creationDate.time}" type="date" pattern="${dateformat}"/>
+                                    </span>
                                     <%-- DISABLED FROM THEME: <a class="comment-reply" href="">(reply)</a>--%>
                                 </div>
                                 <div class="comment-body">

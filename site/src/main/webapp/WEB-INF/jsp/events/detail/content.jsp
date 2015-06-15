@@ -54,7 +54,11 @@
         <div class="blog-post-details">
 
             <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
-                <span class="date"><fmt:formatDate value="${requestScope.document.date.time}" type="date" pattern="d MMMM, yyyy"/></span>
+                <span class="date">
+                    <hst:setBundle basename="messages"/>
+                    <fmt:message key="standard.date.format" var="dateformat"/>
+                    <fmt:formatDate value="${requestScope.document.date.time}" type="date" pattern="${dateformat}"/>
+                </span>
             </div>
 
             <%--<div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags icon-files">

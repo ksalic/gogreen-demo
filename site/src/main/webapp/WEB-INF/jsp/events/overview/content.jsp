@@ -22,6 +22,8 @@
 <hippo-gogreen:title title="${overviewtitle}"/>
 
 <%--@elvariable id="documents" type="java.util.List<com.onehippo.gogreen.beans.EventDocument>"--%>
+<hst:setBundle basename="messages"/>
+<fmt:message key="standard.date.format" var="dateformat"/>
 <c:forEach items="${documents.items}" var="event" varStatus="status">
     <hst:link var="link" hippobean="${event}"/>
     <div class="blog-post">
@@ -51,7 +53,7 @@
             <div class="blog-post-details">
 
                 <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
-                    <fmt:formatDate value="${event.date.time}" type="date" pattern="d MMMM, yyyy"/>
+                    <fmt:formatDate value="${event.date.time}" type="date" pattern="${dateformat}"/>
                 </div>
 
                 <%--<div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags icon-files">

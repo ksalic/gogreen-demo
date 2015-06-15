@@ -70,7 +70,11 @@
 
                             <div class="feature-details">
                                 <i class="icon-calendar"></i>
-                                <span><fmt:formatDate value="${item.date.time}" pattern="MMMM d, YYY"/></span>
+                                <span>
+                                  <hst:setBundle basename="messages"/>
+                                  <fmt:message key="standard.date.format" var="dateformat"/>
+                                  <fmt:formatDate value="${item.date.time}" pattern="${dateformat}"/>
+                                </span>
                             </div>
                         </div>
                     </div>

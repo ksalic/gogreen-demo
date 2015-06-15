@@ -139,7 +139,11 @@
                                             </c:otherwise>
                                         </c:choose>
                                     </span>
-                                    <span class="comment-date"><fmt:formatDate value="${review.creationDate.time}" type="date" pattern="d MMMM, yyyy"/></span>
+                                    <span class="comment-date">
+                                        <hst:setBundle basename="messages"/>
+                                        <fmt:message key="standard.date.format" var="dateformat"/>
+                                        <fmt:formatDate value="${review.creationDate.time}" type="date" pattern="${dateformat}"/>
+                                    </span>
                                     <span class="comment-rating">
                                         <div data-score="${review.rating}">
                                         </div>

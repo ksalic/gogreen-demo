@@ -21,6 +21,8 @@
     </#if>
 
     <div class="row latest-items">
+      <@hst.setBundle basename="messages"/>
+      <@fmt.message key="standard.date.format" var="dateformat"/>
       <#list Request.items as item>
         <div class="col-md-${colSize} col-sm-${colSize}">
           <@hst.cmseditlink hippobean=item/>
@@ -39,7 +41,7 @@
             <div class="feature-details">
               <i class="icon-calendar"></i>
               <span>
-                <@fmt.formatDate value=item.date.time pattern="MMMM d, YYY"/>
+                <@fmt.formatDate value=item.date.time pattern=dateformat/>
               </span>
             </div>
           </div>

@@ -30,7 +30,11 @@
         </c:if>
         <p id="event-info" class="doc-info">
             <span class="location"><c:out value="${requestScope.document.location.street}"/>&nbsp;<c:out value="${requestScope.document.location.number}"/>,&nbsp;<c:out value="${requestScope.document.location.city}"/>&nbsp;<c:out value="${requestScope.document.location.postalCode}"/>&nbsp;<c:out value="${requestScope.document.location.province}"/></span>
-            <span class="date"><fmt:formatDate value="${requestScope.document.date.time}" pattern="MMM dd, yyyy"/></span>
+            <span class="date">
+                <hst:setBundle basename="messages"/>
+                <fmt:message key="standard.date.format" var="dateformat"/>
+                <fmt:formatDate value="${requestScope.document.date.time}" pattern="${dateformat}"/>
+            </span>
         </p>
         
         <div class="calendar">

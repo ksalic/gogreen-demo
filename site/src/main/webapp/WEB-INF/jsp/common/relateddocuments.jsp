@@ -26,6 +26,8 @@
 
         <div class="sidebar-content">
             <ul class="posts-list">
+                <hst:setBundle basename="messages"/>
+                <fmt:message key="standard.date.format" var="dateformat"/>
                 <c:forEach items="${requestScope.documents}" var="doc">
                     <li>
                         <hst:link var="link" hippobean="${doc}"/>
@@ -74,7 +76,7 @@
                                 </c:when>
                                 <c:otherwise>
                                     <span class="posts-list-meta">
-                                        <fmt:formatDate value="${doc.date.time}" type="date" pattern="d MMMM, yyyy"/>
+                                        <fmt:formatDate value="${doc.date.time}" type="date" pattern="${dateformat}"/>
                                     </span>
                                 </c:otherwise>
                             </c:choose>

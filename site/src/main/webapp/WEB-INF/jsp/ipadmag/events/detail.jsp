@@ -70,7 +70,13 @@
 		<div id="main" role="main">
 			<article>
 				<hgroup>
-					<h1><strong><fmt:formatDate value="${requestScope.document.date.time}" pattern="MMM dd, yyyy"/>: <c:out value="${requestScope.document.title}"/></strong></h1>
+					<h1>
+						<strong>
+							<hst:setBundle basename="messages"/>
+							<fmt:message key="standard.date.format" var="dateformat"/>
+							<fmt:formatDate value="${requestScope.document.date.time}" pattern="${dateformat}"/>: <c:out value="${requestScope.document.title}"/>
+						</strong>
+					</h1>
 				</hgroup>
 				<section class="video-content">
 					<c:set var="image" value="${requestScope.document.firstImage}"/>

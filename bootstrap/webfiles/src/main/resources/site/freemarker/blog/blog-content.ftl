@@ -31,7 +31,9 @@
     <div class="blog-post-details">
       <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
         <span class="date">
-        <@fmt.formatDate value=Request.document.date.time type="date" pattern="d MMMM, yyyy"/>
+        <@hst.setBundle basename="messages"/>
+        <@fmt.message key="standard.date.format" var="dateformat"/>
+        <@fmt.formatDate value=Request.document.date.time type="date" pattern=dateformat/>
         </span>
       </div>
       <div class="blog-post-details-item blog-post-details-item-left blog-post-details-item-last icon-comment">

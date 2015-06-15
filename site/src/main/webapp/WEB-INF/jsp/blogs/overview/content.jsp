@@ -50,7 +50,9 @@
             <div class="blog-post-details">
 
                 <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
-                    <fmt:formatDate value="${blogitem.date.time}" type="date" pattern="d MMMM, yyyy"/>
+                  <hst:setBundle basename="messages"/>
+                  <fmt:message key="standard.date.format" var="dateformat"/>
+                  <fmt:formatDate value="${blogitem.date.time}" type="date" pattern="${dateformat}"/>
                 </div>
 
                 <%--<div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags icon-files">

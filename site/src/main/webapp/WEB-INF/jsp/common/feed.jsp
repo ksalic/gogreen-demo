@@ -50,6 +50,8 @@
     </c:if>
 
     <div class="row rss-feed">
+          <hst:setBundle basename="messages"/>
+          <fmt:message key="standard.date.format" var="dateformat"/>
           <c:forEach items="${requestScope.feed.entries}" var="entry" end="${requestScope.numberOfItems - 1}" varStatus="status">
               <c:if test="${status.index eq 4}">
                 </div>
@@ -68,11 +70,9 @@
                           </p>
 
                       </div>
-
-
                       <div class="feature-details ${cssIcon}">
                           <i class="icon-calendar"></i>
-                          <span><fmt:formatDate value="${entry.publishedDate}" type="date" pattern="MMM d, yyyy"/></span>
+                          <span><fmt:formatDate value="${entry.publishedDate}" type="date" pattern="${dateformat}"/></span>
                       </div>
                   </div>
               </div>
