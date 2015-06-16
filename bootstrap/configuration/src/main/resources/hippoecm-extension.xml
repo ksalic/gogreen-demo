@@ -965,4 +965,26 @@
       <sv:value>/targeting:targeting/targeting:experiments</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="hippo-enterprise-reports-totals-website-visits-deletenode">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>70011</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentdelete" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:frontend/cms/hippo-reports/totals-website-visits</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo-enterprise-reports-totals-website-visits-translator-deletenode">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>70011</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentdelete" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:frontend/cms/hippo-reports/totals-website-visits-translator</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
