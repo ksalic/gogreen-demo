@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="hippo-targeting" h:merge="combine">
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="hippo-targeting" h:merge="combine">
   <sv:node sv:name="collector-categories">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>frontend:plugin</sv:value>
@@ -118,7 +119,7 @@
       <sv:value>com.onehippo.cms7.targeting.frontend.plugin.returningvisitor.ReturningVisitorCollectorPlugin</sv:value>
     </sv:property>
   </sv:node>
-  <!--<sv:node sv:name="collector-weather">
+  <sv:node sv:name="collector-weather">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>frontend:plugin</sv:value>
     </sv:property>
@@ -128,7 +129,7 @@
     <sv:property sv:name="plugin.class" sv:type="String">
       <sv:value>com.onehippo.gogreen.targeting.WeatherCollectorPlugin</sv:value>
     </sv:property>
-  </sv:node>-->
+  </sv:node>
   <sv:node sv:name="collector-geo" h:merge="combine">
     <sv:property sv:name="locations" sv:type="String" h:merge="override" sv:multiple="true">
       <sv:value>Amsterdam | NL | 52.350006 | 4.9167023</sv:value>
@@ -215,7 +216,18 @@
       <sv:value>true</sv:value>
     </sv:property>
   </sv:node>
-  <!--<sv:node sv:name="collector-agevisitor">
+  <sv:node sv:name="collector-agevisitor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>frontend:plugin</sv:value>
+    </sv:property>
+    <sv:property sv:name="collector" sv:type="String">
+      <sv:value>agevisitor</sv:value>
+    </sv:property>
+    <sv:property sv:name="plugin.class" sv:type="String">
+      <sv:value>com.onehippo.gogreen.targeting.AgeCollectorPlugin</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="characteristic-agevisitor">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>frontend:plugin</sv:value>
     </sv:property>
@@ -228,5 +240,19 @@
     <sv:property sv:name="plugin.class" sv:type="String">
       <sv:value>com.onehippo.gogreen.targeting.AgeCharacteristicPlugin</sv:value>
     </sv:property>
-  </sv:node>-->
+  </sv:node>
+  <sv:node sv:name="characteristic-weather">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>frontend:plugin</sv:value>
+    </sv:property>
+    <sv:property sv:name="characteristic" sv:type="String">
+      <sv:value>weather</sv:value>
+    </sv:property>
+    <sv:property sv:name="collector" sv:type="String">
+      <sv:value>weather</sv:value>
+    </sv:property>
+    <sv:property sv:name="plugin.class" sv:type="String">
+      <sv:value>com.onehippo.gogreen.targeting.WeatherCharacteristicPlugin</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
