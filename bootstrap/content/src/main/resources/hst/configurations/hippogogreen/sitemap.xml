@@ -225,6 +225,17 @@
         <sv:value>${parent}/${1}</sv:value>
       </sv:property>
     </sv:node>
+    <sv:node sv:name="integrations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/facebook-overview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>about/integrations</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
   <sv:node sv:name="rss">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">

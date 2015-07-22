@@ -28,7 +28,6 @@
 
   <properties>
     <sonar.l10n.locales>en_US,nl_NL,fr_FR</sonar.l10n.locales>
-    <json-lib.version>2.4</json-lib.version>
     <spring.version>3.0.4.RELEASE</spring.version>
   </properties>
 
@@ -159,6 +158,12 @@
     </dependency>
 
     <dependency>
+      <groupId>net.sf.json-lib</groupId>
+      <artifactId>json-lib</artifactId>
+      <classifier>jdk15</classifier>
+   </dependency>
+
+    <dependency>
       <groupId>org.onehippo.cms7.hst.client-modules</groupId>
       <artifactId>hst-cms-rest</artifactId>
     </dependency>
@@ -246,18 +251,6 @@
       <artifactId>hippo-maxmind-geolite2</artifactId>
       <version>${geolite2.version}</version>
       <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>net.sf.json-lib</groupId>
-      <artifactId>json-lib</artifactId>
-      <version>${json-lib.version}</version>
-      <classifier>jdk15</classifier>
-      <exclusions>
-        <exclusion>
-          <groupId>commons-logging</groupId>
-          <artifactId>commons-logging</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
 
     <dependency>
