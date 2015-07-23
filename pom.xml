@@ -61,7 +61,6 @@
     <lib.javax-annotation-security>1.0.1</lib.javax-annotation-security>
     <lib.javax-servlet-jstl.version>1.1.2</lib.javax-servlet-jstl.version>
     <lib.json.version>20090211</lib.json.version>
-    <json-lib.version>2.4</json-lib.version>
     <lib.rome.version>1.0.0</lib.rome.version>
 
     <xalan.version>2.4.1</xalan.version>
@@ -79,9 +78,6 @@
     <sonar.l10n.locales>nl,fr,it,de</sonar.l10n.locales>
 
     <elasticsearch-transport-wares.version>2.4.1</elasticsearch-transport-wares.version>
-
-    <facebook4j-core.version>2.3.0</facebook4j-core.version>
-    <forge.exdocpickerbase.version>2.0.6</forge.exdocpickerbase.version>
   </properties>
   
   <repositories>
@@ -104,11 +100,6 @@
         <updatePolicy>never</updatePolicy>
       </releases>
       <layout>default</layout>
-    </repository>
-    <repository>
-      <id>exdocpickerbase-maven-repo</id>
-      <name>Hippo CMS External Document Picker Base Maven 2 Repository</name>
-      <url>http://forge.onehippo.org/svn/exdocpickerbase/maven2/</url>
     </repository>
   </repositories>
 
@@ -188,19 +179,6 @@
       </dependency>
 
       <dependency>
-        <groupId>net.sf.json-lib</groupId>
-        <artifactId>json-lib</artifactId>
-        <version>${json-lib.version}</version>
-        <classifier>jdk15</classifier>
-        <exclusions>
-          <exclusion>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-
-      <dependency>
         <groupId>net.java.dev.rome</groupId>
         <artifactId>rome-fetcher</artifactId>
         <version>${lib.rome.version}</version>
@@ -237,18 +215,6 @@
         <artifactId>xalan</artifactId>
         <version>${xalan.version}</version>
         <scope>runtime</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>org.facebook4j</groupId>
-        <artifactId>facebook4j-core</artifactId>
-        <version>${facebook4j-core.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.onehippo.forge.exdocpickerbase</groupId>
-        <artifactId>exdocpickerbase-field</artifactId>
-        <version>${forge.exdocpickerbase.version}</version>
       </dependency>
 
     </dependencies>

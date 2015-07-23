@@ -3,8 +3,8 @@
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>hippotranslation:translated</sv:value>
     <sv:value>mix:referenceable</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -35,8 +35,8 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippotranslation:translated</sv:value>
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>cd22b988-c832-4443-837a-2c7ee2d05eb1</sv:value>
@@ -114,8 +114,8 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippotranslation:translated</sv:value>
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5efc7288-8ef9-4f54-a6ec-779ec9abc92e</sv:value>
@@ -186,9 +186,9 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
         <sv:value>mix:versionable</sv:value>
-        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e4016277-468e-40da-9844-45bd596ef9d2</sv:value>
@@ -261,8 +261,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippotranslation:translated</sv:value>
       <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -305,8 +305,8 @@
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>f26850d9-d664-42d5-abe7-e5d7eac02a24</sv:value>
@@ -394,8 +394,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippotranslation:translated</sv:value>
       <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -449,8 +449,8 @@
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cf3f7d60-20d8-4a3c-b72d-12c65e0e313b</sv:value>
@@ -532,8 +532,8 @@ please email us at info @ onehippo(dot)com and we will remove it.&lt;/p&gt;
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippotranslation:translated</sv:value>
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>b36e3008-5dfb-4f2c-bb98-3e1060c71e35</sv:value>
@@ -818,455 +818,5 @@ http://www.apache.org/licenses/</sv:value>
     <sv:property sv:name="hippo:message" sv:type="String">
       <sv:value>About</sv:value>
     </sv:property>
-  </sv:node>
-  <sv:node sv:name="integrations">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippostd:folder</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippotranslation:translated</sv:value>
-      <sv:value>mix:versionable</sv:value>
-      <sv:value>hippo:translated</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>3ca48844-f0b1-433b-87f6-9a656fe9b7e8</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-      <sv:value>new-translated-folder</sv:value>
-      <sv:value>new-document</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippotranslation:id" sv:type="String">
-      <sv:value>874df4b6-5f8b-484c-911e-87e0eb52d106</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippotranslation:locale" sv:type="String">
-      <sv:value>en</sv:value>
-    </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Integrations</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="facebook">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippostd:folder</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>mix:versionable</sv:value>
-        <sv:value>hippo:translated</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>e4e2b870-70a2-4172-b314-191677b2368b</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-        <sv:value>new-translated-folder</sv:value>
-        <sv:value>new-document</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>5b9a248e-a5fb-499e-845f-29cbf6a4e1f5</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Facebook</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="post01">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>c9ed2888-df09-4deb-a5bd-30c5f68d318d</sv:value>
-        </sv:property>
-        <sv:node sv:name="post01">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:facebookpost</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>e613672b-59d0-4264-8e44-6061aa90c85c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>about/integrations/facebook/post01/post01[2]</sv:value>
-            <sv:value>about/integrations/facebook/post01/post01[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2015-07-22T16:25:00.000+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:from" sv:type="String">
-            <sv:value>Hippo user</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:introexdocid" sv:type="String" sv:multiple="true">
-            <sv:value>116240758718985_116232688719792</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:link" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:post" sv:type="String">
-            <sv:value>The hippopotamus is the type genus of the family Hippopotamidae. The pygmy hippopotamus belongs to a different genus in Hippopotamidae, either Choeropsis or Hexaprotodon. Hippopotamidae are sometimes known as hippopotamids. Sometimes, the subfamily Hippopotaminae is used. Further, some taxonomists group hippopotamuses and anthracotheres in the superfamily Anthracotheroidea.[12]:39 Hippopotamidae are classified along with other even-toed ungulates in the order Artiodactyla. Other artiodactyls include camels, cattle, deer and pigs, although hippopotamuses are not closely related to these groups.</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:title" sv:type="String">
-            <sv:value>some title</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:10.320+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:11.940+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>76b8507a-86f2-4f9a-83b6-9966f00532f4</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="post01">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:facebookpost</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>1e55a9ac-9aab-477c-b3c6-0d8e84ae7431</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>about/integrations/facebook/post01/post01[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2015-07-22T16:25:00.000+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:from" sv:type="String">
-            <sv:value>Hippo user</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:introexdocid" sv:type="String" sv:multiple="true">
-            <sv:value>116240758718985_116232688719792</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:link" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:post" sv:type="String">
-            <sv:value>The hippopotamus is the type genus of the family Hippopotamidae. The pygmy hippopotamus belongs to a different genus in Hippopotamidae, either Choeropsis or Hexaprotodon. Hippopotamidae are sometimes known as hippopotamids. Sometimes, the subfamily Hippopotaminae is used. Further, some taxonomists group hippopotamuses and anthracotheres in the superfamily Anthracotheroidea.[12]:39 Hippopotamidae are classified along with other even-toed ungulates in the order Artiodactyla. Other artiodactyls include camels, cattle, deer and pigs, although hippopotamuses are not closely related to these groups.</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:title" sv:type="String">
-            <sv:value>some title</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:10.320+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:43.036+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>76b8507a-86f2-4f9a-83b6-9966f00532f4</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="post01">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:facebookpost</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>e2c8fe58-de56-4256-b7f0-a8e0e2f01709</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>about/integrations/facebook/post01/post01[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2015-07-22T16:25:00.000+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:from" sv:type="String">
-            <sv:value>Hippo user</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:introexdocid" sv:type="String" sv:multiple="true">
-            <sv:value>116240758718985_116232688719792</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:link" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:post" sv:type="String">
-            <sv:value>The hippopotamus is the type genus of the family Hippopotamidae. The pygmy hippopotamus belongs to a different genus in Hippopotamidae, either Choeropsis or Hexaprotodon. Hippopotamidae are sometimes known as hippopotamids. Sometimes, the subfamily Hippopotaminae is used. Further, some taxonomists group hippopotamuses and anthracotheres in the superfamily Anthracotheroidea.[12]:39 Hippopotamidae are classified along with other even-toed ungulates in the order Artiodactyla. Other artiodactyls include camels, cattle, deer and pigs, although hippopotamuses are not closely related to these groups.</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:title" sv:type="String">
-            <sv:value>some title</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:10.320+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:43.036+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:45.942+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>76b8507a-86f2-4f9a-83b6-9966f00532f4</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="post02">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>a2c1ab2f-06d4-40b4-8258-12a8072b6563</sv:value>
-        </sv:property>
-        <sv:node sv:name="post02">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:facebookpost</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>04b136b2-5a43-453f-971a-9abddf865dfb</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>about/integrations/facebook/post02/post02[2]</sv:value>
-            <sv:value>about/integrations/facebook/post02/post02[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2015-07-22T16:24:00.000+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:from" sv:type="String">
-            <sv:value>Hippo user</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:introexdocid" sv:type="String" sv:multiple="true">
-            <sv:value>116240758718985_116232128719848</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:link" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:post" sv:type="String">
-            <sv:value>Weather in Boston is getting better.Its spring and the hint of winter can still be felt on he air!!! but, the good news is that the weather is getting better and warmer....</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:title" sv:type="String">
-            <sv:value>some title</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:56.557+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:56.926+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>9ef57732-762d-4059-b8eb-d6bcbfcce52c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="post02">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:facebookpost</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>4c7b7b14-41e7-4196-af81-3318bbc36e0c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>about/integrations/facebook/post02/post02[3]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2015-07-22T16:24:00.000+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:from" sv:type="String">
-            <sv:value>Hippo user</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:introexdocid" sv:type="String" sv:multiple="true">
-            <sv:value>116240758718985_116232128719848</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:link" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:post" sv:type="String">
-            <sv:value>Weather in Boston is getting better.Its spring and the hint of winter can still be felt on he air!!! but, the good news is that the weather is getting better and warmer....</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:title" sv:type="String">
-            <sv:value>some title</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:56.557+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:24:11.059+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>9ef57732-762d-4059-b8eb-d6bcbfcce52c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="post02">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:facebookpost</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>aae2a68a-e878-41aa-b803-42a7b69f9436</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>about/integrations/facebook/post02/post02[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2015-07-22T16:24:00.000+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:from" sv:type="String">
-            <sv:value>Hippo user</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:introexdocid" sv:type="String" sv:multiple="true">
-            <sv:value>116240758718985_116232128719848</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:link" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:post" sv:type="String">
-            <sv:value>Weather in Boston is getting better.Its spring and the hint of winter can still be felt on he air!!! but, the good news is that the weather is getting better and warmer....</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:title" sv:type="String">
-            <sv:value>some title</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>published</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:23:56.557+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:24:11.059+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-07-22T18:24:13.542+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>9ef57732-762d-4059-b8eb-d6bcbfcce52c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-    </sv:node>
   </sv:node>
 </sv:node>
