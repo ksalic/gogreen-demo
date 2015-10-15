@@ -31,7 +31,11 @@ public abstract class AbstractVisitorAgeCollector extends AbstractCollector<AgeT
     }
 
     @Override
-    public AgeTargetingRequestData getTargetingRequestData(final HttpServletRequest request) {
+    public AgeTargetingRequestData getTargetingRequestData(final HttpServletRequest request,
+                                           final boolean newVisitor,
+                                           final boolean newVisit,
+                                           final AgeTargetingData targetingData) {
+
         final Integer age = extractAge(request);
         return new AgeTargetingRequestData(age);      
     }

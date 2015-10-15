@@ -69,7 +69,6 @@ bootstrap/configuration/src/main/resources/configuration/users/editor18.xml -tex
 bootstrap/configuration/src/main/resources/configuration/users/editor19.xml -text
 bootstrap/configuration/src/main/resources/configuration/users/editor20.xml -text
 bootstrap/configuration/src/main/resources/hippoecm-extension.xml -text
-bootstrap/configuration/src/main/resources/targeting/experiments/events.xml -text
 bootstrap/content/pom.xml -text
 bootstrap/content/src/main/resources/adv-search-generic-filters.xml -text
 bootstrap/content/src/main/resources/adv-search-title-filter-translator.xml -text
@@ -519,12 +518,6 @@ conf/hst.properties -text
 conf/log4j-dev.xml -text
 conf/log4j-prod.xml -text
 conf/log4j.dtd -text
-data/README -text
-data/src/main/resources/request-data.bz2 -text svneol=unset#unset
-data/src/main/resources/targeting-data.bz2 -text svneol=unset#unset
-data/src/main/resources/visit-data.bz2 -text svneol=unset#unset
-data/src/test/resources/gogreen-enterprise-visitor-profiles-for-reference.json -text
-data/src/test/resources/visitor-profiles.json -text
 dist/pom.xml -text
 dist/src/overlay/LICENSE -text
 dist/src/overlay/NOTICE -text
@@ -563,7 +556,9 @@ dist/src/overlay/tomcat/webapps/ROOT/index.html -text
 dist/src/overlay/tomcat/webapps/ROOT/js/check-cms.js -text
 dist/src/overlay/tomcat/webapps/ROOT/js/iehoverfix.js -text
 dist/src/overlay/tomcat/webapps/ROOT/walkthrough.html -text
-elasticsearch/src/main/webapp/WEB-INF/elasticsearch.yml -text
+embedded-elasticsearch/src/main/resources/requests-data.bz2 -text svneol=unset#unset
+embedded-elasticsearch/src/main/resources/targeting-data-data.bz2 -text svneol=unset#unset
+embedded-elasticsearch/src/main/resources/visits-data.bz2 -text svneol=unset#unset
 essentials/pom.xml -text
 essentials/src/main/resources/project-settings.xml -text
 essentials/src/main/webapp/WEB-INF/web.xml -text

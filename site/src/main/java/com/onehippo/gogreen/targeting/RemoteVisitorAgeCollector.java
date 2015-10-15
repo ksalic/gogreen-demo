@@ -22,10 +22,6 @@ import javax.jcr.RepositoryException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
 import org.apache.http.HttpEntity;
@@ -72,11 +68,6 @@ public class RemoteVisitorAgeCollector extends AbstractVisitorAgeCollector {
         } catch (IOException e) {
             log.error("Error ocurred while closing http client.", e);
         }
-    }
-    @Override
-    public boolean shouldUpdate(boolean newVisitor, boolean newVisit, AgeTargetingData targetingData) {
-        // For now we update every time
-        return true;
     }
 
     @Override

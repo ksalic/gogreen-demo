@@ -117,8 +117,19 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
     }
 
     @Override
-    public Integer getTargetingRequestData(final HttpServletRequest request) {
+    public Integer getTargetingRequestData(final HttpServletRequest request,
+                                           final boolean newVisitor,
+                                           final boolean newVisit,
+                                           final WeatherData targetingData) {
+        if (!newVisit) {
+            if (targetingData != null) {
+                return targetingData.getWeatherCode();
+            }
+            log.warn("Unexpected empty WeatherData for non new visit. Create new WeatherData");
+        }
+
         String ip = HstRequestUtils.getFarthestRemoteAddr(request);
+
         if (enabled) {
             return cache.getUnchecked(ip);
         } else {
@@ -138,11 +149,6 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
             weatherData.setWeatherCode(weatherCode);
         }
         return weatherData;
-    }
-
-    @Override
-    public boolean shouldUpdate(final boolean newVisitor, final boolean newVisit, final WeatherData targetingData) {
-        return newVisit;
     }
 
     static Integer parseWeatherCode(final String context, String weatherData) {

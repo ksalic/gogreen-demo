@@ -8,7 +8,7 @@
         <sv:value>visits</sv:value>
       </sv:property>
       <sv:property sv:name="locations" sv:type="String" sv:multiple="true">
-        <sv:value>http://localhost:8080/elasticsearch</sv:value>
+        <sv:value>http://localhost:9200</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="targeting:requestlog" esv:merge="combine">
@@ -19,7 +19,7 @@
         <sv:value>requests</sv:value>
       </sv:property>
       <sv:property sv:name="locations" sv:type="String" sv:multiple="true">
-        <sv:value>http://localhost:8080/elasticsearch</sv:value>
+        <sv:value>http://localhost:9200</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="targeting:targetingdata" esv:merge="combine">
@@ -30,68 +30,135 @@
         <sv:value>targeting-data</sv:value>
       </sv:property>
       <sv:property sv:name="locations" sv:type="String" sv:multiple="true">
-        <sv:value>http://localhost:8080/elasticsearch</sv:value>
+        <sv:value>http://localhost:9200</sv:value>
       </sv:property>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="targeting:experiments" esv:merge="combine">
-    <sv:node sv:name="abcdefed-cbab-cdef-edbc-babcdefedcba">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>targeting:experimentsfolder</sv:value>
-      </sv:property>
-      <sv:node sv:name="products">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>targeting:experimentsfolder</sv:value>
-        </sv:property>
-        <sv:node sv:name="targeting:conversions">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>targeting:conversions</sv:value>
-          </sv:property>
-          <sv:node sv:name="contact">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>targeting:experiment</sv:value>
-            </sv:property>
-            <sv:property sv:name="conversion" sv:type="String">
-              <sv:value>/contact</sv:value>
-            </sv:property>
-            <sv:property sv:name="lastUpdateTime" sv:type="Date">
-              <sv:value>2015-06-25T15:54:00.000+02:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="mu" sv:type="String">
-              <sv:value>{-1.2553702252; -0.7194299159; -0.5359403092}</sv:value>
-            </sv:property>
-            <sv:property sv:name="sigma" sv:type="String">
-              <sv:value>{{0.1674225667,-0.1653353332,-0.1672420999},{-0.1653353332,0.1695075504,0.1651571163},{-0.1672420999,0.1651571163,0.1676007837}}</sv:value>
-            </sv:property>
-            <sv:property sv:name="startTime" sv:type="Date">
-              <sv:value>2015-05-28T15:19:15.819+02:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="state" sv:type="String">
-              <sv:value>RUNNING</sv:value>
-            </sv:property>
-            <sv:property sv:name="user" sv:type="String">
-              <sv:value>hippo-relevance</sv:value>
-            </sv:property>
-            <sv:property sv:name="variants" sv:type="String">
-              <sv:value>{"hst:pages/products-overview/main/hero/banner":{"persona":"hippo-default","variants":["hippo-default@1432041820","hippo-default"]}}</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-      </sv:node>
     </sv:node>
   </sv:node>
   <sv:node sv:name="targeting:dataflow" esv:merge="combine">
-    <sv:property sv:name="running" sv:type="Boolean" esv:merge="override">
-      <sv:value>true</sv:value>
-    </sv:property>
-    <sv:property sv:name="session-timeout" sv:type="Long">
-      <sv:value>120</sv:value>
-    </sv:property>
-    <sv:property sv:name="interval" sv:type="Long" esv:merge="override">
-      <sv:value>120</sv:value>
-    </sv:property>
-    <sv:property sv:name="time" sv:type="Date">
-      <sv:value>2015-06-25T15:54:45.284+02:00</sv:value>
-    </sv:property>
+    <sv:node sv:name="modelTrainer" esv:merge="combine">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:lock</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:skipindex</sv:value>
+        </sv:property>
+        <sv:property sv:name="running" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+      <sv:property sv:name="processedUntil" sv:type="Date">
+        <sv:value>2015-10-14T12:18:41.000+02:00</sv:value>
+      </sv:property>
+    </sv:node>
+      <sv:node sv:name="visitsAggregator" esv:merge="combine">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:lock</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:skipindex</sv:value>
+        </sv:property>
+        <sv:property sv:name="running" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="processedUntil" sv:type="Date">
+          <sv:value>2015-10-14T12:18:41.000+02:00</sv:value>
+        </sv:property>
+      </sv:node>
   </sv:node>
+
+
+  <sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="targeting:trends">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>targeting:trends</sv:value>
+    </sv:property>
+    <sv:node sv:name="targeting:facets">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:facets</sv:value>
+      </sv:property>
+      <sv:node sv:name="category">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.collectorData.categories.terms</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>category</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>looks at category</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="country">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.collectorData.geo.country</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>country</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>comes from country</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="city">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.collectorData.geo.city</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>city</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>comes from city</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="automation-list">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.collectorData.automation.lists</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>marketing automation list</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>is on marketing automation list</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="converted-goals">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>convertedGoals.goalName</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>goal</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>converted goal</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="author">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.collectorData.doccreatedby.terms</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>author</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>created by</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+
 </sv:node>
