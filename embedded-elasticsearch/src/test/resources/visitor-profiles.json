@@ -1,0 +1,69 @@
+{
+
+  "en": {
+    "rate": 50,
+    "pages": [
+      "/",
+      "/products/Category/Family",
+      "/products/Category/Home",
+
+      "/blogs/facetedblogs/Category/Home",
+      "/blogs/2014/09/is-a-smart-thermostat-worth-the-investment.html",
+      "/blogs/2014/08/tips-for-ecofriendly-event-planning.html",
+
+      "/products/family/penguin-squeezy.html",
+      "/products/garden/2010/07/the-green-johanna-compost-bin.html",
+      "/products/home/eco-air-purification-device.html",
+
+      "/products/Category/School",
+      "/blogs/facetedblogs/Category/School",
+      "/products/office/post-consumer-3-ring-binder-3-in.-spine.html",
+      "/blogs/2014/09/how-to-green-your-dorm-room.html",
+      "/blogs/2014/09/what-steps-are-taken-by-universities-to-become-more-sustainable.html",
+      "/blogs/2014/10/learning-at-home.html"
+
+    ]
+  },
+
+  "student-en": {
+    "rate": 7,
+    "ips": ["131.90.99.220","198.128.97.118"],
+    "pages": [
+      "/",
+      "/products/Category/School",
+      "/blogs/facetedblogs/Category/School",
+      "/products/office/post-consumer-3-ring-binder-3-in.-spine.html",
+      "/blogs/2014/09/how-to-green-your-dorm-room.html",
+      "/blogs/2014/09/what-steps-are-taken-by-universities-to-become-more-sustainable.html",
+      "/blogs/2014/10/learning-at-home.html"
+    ],
+    "conversions": [
+      {
+        "from": "/",
+        "to": "/sale",
+        "text": "ready for school",
+        "rateNoMatch": 0.05,
+        "rateMatch": 0.10
+      }
+    ]
+  },
+
+  "parent-en": {
+    "rate": 12,
+    "ips": ["62.234.237.19", "54.94.109.84"],
+    "pages": [
+      "/",
+      "/products/Category/Family",
+      "/products/Category/Home",
+
+      "/blogs/facetedblogs/Category/Home",
+      "/blogs/2014/09/is-a-smart-thermostat-worth-the-investment.html",
+      "/blogs/2014/08/tips-for-ecofriendly-event-planning.html",
+
+      "/products/family/penguin-squeezy.html",
+      "/products/garden/2010/07/the-green-johanna-compost-bin.html",
+      "/products/home/eco-air-purification-device.html"
+    ]
+  }
+
+}

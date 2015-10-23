@@ -31,6 +31,13 @@
     </dependency>
 
     <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-maxmind-geolite2</artifactId>
+      <version>${geolite2.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-repository-connector</artifactId>
     </dependency>
@@ -40,6 +47,12 @@
       <artifactId>spring-context</artifactId>
       <scope>compile</scope>
       <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
     </dependency>
 
   </dependencies>
