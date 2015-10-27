@@ -83,6 +83,9 @@
       <id>hippo-maven2-enterprise</id>
       <name>Hippo Maven 2 Enterprise</name>
       <url>https://maven.onehippo.com/maven2-enterprise/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
       <releases>
         <updatePolicy>never</updatePolicy>
       </releases>
