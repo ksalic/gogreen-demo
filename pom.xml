@@ -20,7 +20,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>10.1.0-rc-1</version>
+    <version>10.1.0</version>
   </parent>
 
 
@@ -43,8 +43,6 @@
     <!-- use root project name for all project modules NOTICE files, should be the same as in the root NOTICE file -->
     <notice.project.name>Hippo Go Green</notice.project.name>
 
-    <!-- <hippo.addon-targeting.version>3.2.0-SNAPSHOT</hippo.addon-targeting.version> -->
-
     <!--<essentials.version>1.03.00-SNAPSHOT</essentials.version>-->
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.1</taglibs.version>
@@ -54,7 +52,6 @@
 
     <filesync.override>false</filesync.override>
     <maven.plugins.filesync.version>1.0.0</maven.plugins.filesync.version>
-
 
     <lib.commons.codec.version>1.5</lib.commons.codec.version>
     <lib.freemarker.version>2.3.18</lib.freemarker.version>
