@@ -58,9 +58,18 @@ public class ProductRepresentation extends DocumentRepresentation {
                 .create(bean.getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
                 .toUrlForm(this.requestContext, true);
 
-        this.price = bean.getPrice();
-        this.rating = bean.getRating();
-        this.votes = bean.getVotes();
+        if (bean.getPrice() != null) {
+            this.price = bean.getPrice();
+        }
+
+        if (bean.getRating() != null) {
+            this.rating = bean.getRating();
+        }
+
+        if (bean.getVotes() != null) {
+            this.votes = bean.getVotes();
+        }
+
         this.categories = (String[]) ArrayUtils.clone(bean.getCategories());
         this.image = buildImageLinkUrl(bean);
         this.images = buildImageGalleryLinks(bean);
