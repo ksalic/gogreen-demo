@@ -34,133 +34,132 @@ import com.onehippo.gogreen.beans.compound.ImageSet;
 
 @XmlRootElement(name = "product")
 public class ProductRepresentation extends DocumentRepresentation {
-    
-	private String productLink;
-	private double price;
-	private double rating;
-	private double votes;
-	private String[] categories;
-	private String image;
-	private String[] images;
-	private String smallThumbnail;
-	
-	public ProductRepresentation(){}
-	
-	public ProductRepresentation(HstRequestContext requestContext, ContentRewriter<String> contentRewriter){
-		super(requestContext, contentRewriter);
-	}
-    
+
+    private String productLink;
+    private double price;
+    private double rating;
+    private double votes;
+    private String[] categories;
+    private String image;
+    private String[] images;
+    private String smallThumbnail;
+
+    public ProductRepresentation() {
+    }
+
+    public ProductRepresentation(HstRequestContext requestContext, ContentRewriter<String> contentRewriter) {
+        super(requestContext, contentRewriter);
+    }
+
     public ProductRepresentation represent(Product bean) throws RepositoryException {
         super.represent(bean);
-        
-        this.productLink = this.requestContext
-        						.getHstLinkCreator()
-        						.create(bean.getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
-        						.toUrlForm(this.requestContext, true);
-        
+
+        this.productLink = this.requestContext.getHstLinkCreator()
+                .create(bean.getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
+                .toUrlForm(this.requestContext, true);
+
         this.price = bean.getPrice();
         this.rating = bean.getRating();
         this.votes = bean.getVotes();
-        this.categories = (String []) ArrayUtils.clone(bean.getCategories());
+        this.categories = (String[]) ArrayUtils.clone(bean.getCategories());
         this.image = buildImageLinkUrl(bean);
         this.images = buildImageGalleryLinks(bean);
         this.smallThumbnail = buildImageLinkUrl(bean, "hippogogreengallery:smallthumbnail");
-        
+
         return this;
     }
 
-    
-    @XmlElement(name="productLink")
-    public String getProductLink(){
-    	return productLink;
+    @XmlElement(name = "productLink")
+    public String getProductLink() {
+        return productLink;
     }
-    
+
     public double getPrice() {
         return price;
     }
-	public void setPrice(double price) {
+
+    public void setPrice(double price) {
         this.price = price;
     }
 
     public double getRating() {
-		return rating;
-	}
-	public void setRating(double rating) {
-		this.rating = rating;
-	}
-	
-	public double getVotes() {
-		return votes;
-	}
-	public void setVotes(double votes) {
-		this.votes = votes;
-	}
-	
-    @XmlElementWrapper(name="categories")
-    @XmlElements(@XmlElement(name="category"))
+        return rating;
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
+    }
+
+    public double getVotes() {
+        return votes;
+    }
+
+    public void setVotes(double votes) {
+        this.votes = votes;
+    }
+
+    @XmlElementWrapper(name = "categories")
+    @XmlElements(@XmlElement(name = "category"))
     public String[] getCategories() {
         return categories;
-    }    
-    
-    public String getImage(){
-    	return image;
     }
-    
+
+    public String getImage() {
+        return image;
+    }
+
     public String getSmallThumbnail() {
         return smallThumbnail;
     }
-    
-    @XmlElementWrapper(name="images")
-    @XmlElements(@XmlElement(name="image"))
+
+    @XmlElementWrapper(name = "images")
+    @XmlElements(@XmlElement(name = "image"))
     public String[] getImages() {
         return images;
-    }   
-    
-    private String buildImageLinkUrl(Product product){
+    }
+
+    private String buildImageLinkUrl(Product product) {
         if (product.getFirstImage() == null) {
             return null;
         }
-        
-    	return requestContext
-    			.getHstLinkCreator()
-    			.create(product.getFirstImage().getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
-    			.toUrlForm(this.requestContext, true);
+
+        return requestContext.getHstLinkCreator()
+                .create(product.getFirstImage().getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
+                .toUrlForm(this.requestContext, true);
     }
-    
-    private String buildImageLinkUrl(Product product, String relPath){
+
+    private String buildImageLinkUrl(Product product, String relPath) {
         ImageSet imageSet = product.getFirstImage();
-        
+
         if (imageSet == null) {
             return null;
         }
-        
+
         HippoResource imageResource = imageSet.getBean(relPath);
-        
+
         if (imageResource == null) {
             return null;
         }
-        
-        return requestContext
-                .getHstLinkCreator()
+
+        return requestContext.getHstLinkCreator()
                 .create(imageResource.getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
                 .toUrlForm(this.requestContext, true);
     }
-    
-    private String[] buildImageGalleryLinks(Product product){
-    	List<ImageSet> images = product.getImages();
-    	
-    	if (images == null) {
-    	    return null;
-    	}
-    	
-    	String[] imageUrls = new String[images.size()];
-    	for(int i=0; i<images.size(); i++) 
-    		imageUrls[i] = requestContext
-    			.getHstLinkCreator()
-    			.create(images.get(i).getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
-    			.toUrlForm(this.requestContext, true);
-    	
-    	return imageUrls; 
-    }    
-    
+
+    private String[] buildImageGalleryLinks(Product product) {
+        List<ImageSet> images = product.getImages();
+
+        if (images == null) {
+            return null;
+        }
+
+        String[] imageUrls = new String[images.size()];
+        for (int i = 0; i < images.size(); i++)
+            imageUrls[i] = requestContext.getHstLinkCreator()
+                    .create(images.get(i).getNode(), this.requestContext, ContainerConstants.MOUNT_ALIAS_SITE)
+                    .toUrlForm(this.requestContext, true);
+
+        return imageUrls;
+    }
+
 }
