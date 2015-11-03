@@ -902,6 +902,14 @@
       <sv:value>jsp/products/overview/productnav.jsp</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="products.overview.right.facetnav">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/products/overview/right/facetnav.jsp</sv:value>
+    </sv:property>
+  </sv:node>
   <sv:node sv:name="products.detail.top">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:template</sv:value>
