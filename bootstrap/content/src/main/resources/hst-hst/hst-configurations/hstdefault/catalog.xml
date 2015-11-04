@@ -1,36 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="hst:catalog" h:merge="combine">
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:catalog">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:catalog</sv:value>
   </sv:property>
-  <sv:node sv:name="gogreen-and-mobile-catalog-items">
+  <sv:node sv:name="essentials-catalog">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:containeritempackage</sv:value>
     </sv:property>
-    <sv:node sv:name="banner">
+    <sv:node sv:name="seo">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:containeritemcomponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:iconpath" sv:type="String">
-        <sv:value>images/catalog/component-banner-30x30.png</sv:value>
+        <sv:value>org.onehippo.forge.seo.support.SEOHelperComponent</sv:value>
       </sv:property>
       <sv:property sv:name="hst:label" sv:type="String">
-        <sv:value>Banner</sv:value>
+        <sv:value>SEO</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-        <sv:value>bannerlocation</sv:value>
-        <sv:value>bannerBackground</sv:value>
-        <sv:value>bannerIcon</sv:value>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/seo.png</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-        <sv:value/>
-        <sv:value>full</sv:value>
-        <sv:value/>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>menu-name</sv:value>
+        <sv:value>site-dc-copyright-link</sv:value>
+        <sv:value>template-page-title</sv:value>
+        <sv:value>dc-language</sv:value>
+        <sv:value>document-title-bean-props</sv:value>
+        <sv:value>dc-schema-link</sv:value>
+        <sv:value>site-title-in-template</sv:value>
+        <sv:value>menu-item-allow-expanded</sv:value>
+        <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+        <sv:value>site-title</sv:value>
+        <sv:value>default-meta-description</sv:value>
+        <sv:value>document-description-bean-props</sv:value>
+        <sv:value>dc-terms-link</sv:value>
+        <sv:value>enable-dc-language</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>main</sv:value>
+        <sv:value>http://www.demo.onehippo.com/about/terms--conditions</sv:value>
+        <sv:value>%(siteTitle) - %(menuItem) - %(pageTitle) : %(keywords)</sv:value>
+        <sv:value></sv:value>
+        <sv:value>title</sv:value>
+        <sv:value>http://purl.org/dc/elements/1.1/</sv:value>
+        <sv:value>true</sv:value>
+        <sv:value>false</sv:value>
+        <sv:value>false</sv:value>
+        <sv:value>Hippo Go Green</sv:value>
+        <sv:value>This website is a demo website to showcase the options with Hippo CMS.</sv:value>
+        <sv:value>descriptionContentAsText</sv:value>
+        <sv:value>http://purl.org/dc/terms/</sv:value>
+        <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>common.banner</sv:value>
+        <sv:value>seo.jsp</sv:value>
       </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>HST.Item</sv:value>

@@ -36,4 +36,12 @@
       <sv:value>jsp/common/html.jsp</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="seo.jsp">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/hstdefault/seo.jsp</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

@@ -17,6 +17,9 @@ package com.onehippo.gogreen.beans;
 
 import static com.onehippo.gogreen.utils.Constants.PROP_DESCRIPTION;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.jcr.ItemExistsException;
 import javax.jcr.PathNotFoundException;
 import javax.jcr.RepositoryException;
@@ -29,16 +32,15 @@ import javax.jcr.version.VersionException;
 import org.hippoecm.hst.content.beans.ContentNodeBinder;
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import org.hippoecm.hst.content.beans.Node;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
+import org.hippoecm.hst.content.beans.standard.HippoFacetSelect;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
+import org.hippoecm.hst.content.beans.standard.HippoMirror;
+import org.hippoecm.hst.utils.SimpleHtmlExtractor;
 
 import com.onehippo.gogreen.beans.compound.Copyright;
 import com.onehippo.gogreen.beans.compound.ImageSet;
 import com.onehippo.gogreen.utils.Constants;
-import java.util.ArrayList;
-import java.util.List;
-import org.hippoecm.hst.content.beans.standard.HippoBean;
-import org.hippoecm.hst.content.beans.standard.HippoFacetSelect;
-import org.hippoecm.hst.content.beans.standard.HippoMirror;
 
 @Node(jcrType = "hippogogreen:document")
 public class Document extends BaseDocument implements ContentNodeBinder {
@@ -47,6 +49,7 @@ public class Document extends BaseDocument implements ContentNodeBinder {
     private String summary;
     private HippoHtml description;
     private String descriptionContent;
+    private String descriptionContentAsText;
     private List<ImageSet> images;
 
     public String getTitle() {
@@ -83,6 +86,20 @@ public class Document extends BaseDocument implements ContentNodeBinder {
             }
         }
         return descriptionContent;
+    }
+
+    /**
+     * SEO Support plugin may get this property to generate 'description' meta tag.
+     * So, this method extracts only text from description markup string.
+     * @return extracted description string without any markup
+     */
+    public String getDescriptionContentAsText() {
+        if (descriptionContentAsText == null) {
+            if (getDescriptionContent() != null) {
+                descriptionContentAsText = SimpleHtmlExtractor.getText(getDescriptionContent());
+            }
+        }
+        return descriptionContentAsText;
     }
 
     public Copyright getCopyright() {

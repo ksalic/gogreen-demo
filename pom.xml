@@ -135,6 +135,18 @@
       </dependency>
 
       <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-plugin-seo-support-repository</artifactId>
+        <version>${hippo.plugin.seo-support.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-plugin-seo-support</artifactId>
+        <version>${hippo.plugin.seo-support.version}</version>
+      </dependency>
+
+      <dependency>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
         <version>${jsp-api.version}</version>
@@ -239,7 +251,6 @@
         <artifactId>httpclient</artifactId>
         <version>4.5.1</version>
       </dependency>
-
 
     </dependencies>
   </dependencyManagement>
