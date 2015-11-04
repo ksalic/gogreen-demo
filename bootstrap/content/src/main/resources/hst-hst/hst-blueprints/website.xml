@@ -98,14 +98,14 @@
               <sv:property sv:name="hst:componentclassname" sv:type="String">
                 <sv:value>com.onehippo.gogreen.components.common.BannerCarousel</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>banner4</sv:value>
                 <sv:value>banner5</sv:value>
                 <sv:value>banner1</sv:value>
                 <sv:value>banner2</sv:value>
                 <sv:value>banner3</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value/>
                 <sv:value/>
                 <sv:value>common/banners/carousel/10-simple-steps-to-green-your-office</sv:value>
@@ -137,7 +137,7 @@
               <sv:property sv:name="hst:componentclassname" sv:type="String">
                 <sv:value>com.onehippo.gogreen.components.common.LatestItems</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>limit</sv:value>
                 <sv:value>scope</sv:value>
                 <sv:value>orderBy</sv:value>
@@ -150,7 +150,7 @@
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>4</sv:value>
                 <sv:value>events</sv:value>
                 <sv:value>hippogogreen:enddate</sv:value>
@@ -171,7 +171,7 @@
               </sv:property>
             </sv:node>
           </sv:node>
-          <sv:node sv:name="home-main">
+          <sv:node sv:name="home-main-bottom">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:containercomponent</sv:value>
             </sv:property>
@@ -197,28 +197,32 @@
               <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
                 <sv:value>banner4</sv:value>
                 <sv:value>bannerType</sv:value>
-                <sv:value>banner1</sv:value>
-                <sv:value>banner2</sv:value>
-                <sv:value>banner3</sv:value>
-                <sv:value>bannerBackground</sv:value>
-                <sv:value>title</sv:value>
                 <sv:value>icon</sv:value>
-                <sv:value>separatorBorderBottom</sv:value>
-                <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
               <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
                 <sv:value>common/banners/text-banners/what-we-stand-for-4</sv:value>
                 <sv:value>vertical</sv:value>
-                <sv:value>common/banners/text-banners/what-we-stand-for-1</sv:value>
-                <sv:value>common/banners/text-banners/what-we-stand-for-2</sv:value>
-                <sv:value>common/banners/text-banners/what-we-stand-for-3</sv:value>
-                <sv:value>white</sv:value>
-                <sv:value>What we stand for</sv:value>
                 <sv:value>fa-leaf</sv:value>
-                <sv:value>off</sv:value>
-                <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>common/banners/text-banners/what-we-stand-for-2</sv:value>
+                <sv:value>What we stand for</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/banners/text-banners/what-we-stand-for-3</sv:value>
+                <sv:value>common/banners/text-banners/what-we-stand-for-1</sv:value>
+                <sv:value>white</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/bannercollection/bannercollection-vertical.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.bannercollection</sv:value>
@@ -240,74 +244,68 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternameprefixes" sv:type="String">
+                <sv:value>student@1430093718</sv:value>
+                <sv:value>student@1430093718</sv:value>
+                <sv:value>student@1430093718</sv:value>
+                <sv:value>student@1430093718</sv:value>
+                <sv:value>student@1430093718</sv:value>
+                <sv:value>student@1430093718</sv:value>
+                <sv:value>student@1430093718</sv:value>
+                <sv:value>student@1430093718</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+              </sv:property>
               <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
                 <sv:value>bannerlocation</sv:value>
-                <sv:value>bannerBackground</sv:value>
-                <sv:value>bannerIcon</sv:value>
-                <sv:value>title</sv:value>
                 <sv:value>icon</sv:value>
-                <sv:value>separatorBorderBottom</sv:value>
-                <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
               <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
-                <sv:value>common/banners/solar-panel-product</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/banners/laptop-sleeve</sv:value>
+                <sv:value/>
+                <sv:value>0</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value/>
+                <sv:value>webfile:/freemarker/common/banner/banner-blue.ftl</sv:value>
                 <sv:value>blue</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/banners/solar-panel-product</sv:value>
                 <sv:value/>
-                <sv:value/>
+                <sv:value>0</sv:value>
                 <sv:value/>
                 <sv:value>off</sv:value>
-                <sv:value>on</sv:value>
-                <sv:value>50</sv:value>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-blue.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
-              </sv:property>
-              <sv:property sv:name="hst:xtype" sv:type="String">
-                <sv:value>HST.Item</sv:value>
-              </sv:property>
-            </sv:node>
-            <sv:node sv:name="bannercollection2">
-              <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hst:containeritemcomponent</sv:value>
-              </sv:property>
-              <sv:property sv:name="hst:componentclassname" sv:type="String">
-                <sv:value>com.onehippo.gogreen.components.common.BannerCollection</sv:value>
-              </sv:property>
-              <sv:property sv:name="hst:iconpath" sv:type="String">
-                <sv:value>images/catalog/icon-banner-carousel.png</sv:value>
-              </sv:property>
-              <sv:property sv:name="hst:label" sv:type="String">
-                <sv:value>Banner Collection</sv:value>
-              </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
-                <sv:value>bannerType</sv:value>
-                <sv:value>banner1</sv:value>
-                <sv:value>banner2</sv:value>
-                <sv:value>banner3</sv:value>
-                <sv:value>banner4</sv:value>
-                <sv:value>bannerBackground</sv:value>
-                <sv:value>icon</sv:value>
-                <sv:value>title</sv:value>
-                <sv:value>separatorBorderBottom</sv:value>
-                <sv:value>separatorBorderTop</sv:value>
-                <sv:value>separatorMargin</sv:value>
-              </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
-                <sv:value>images</sv:value>
-                <sv:value>common/banners/image-banners/home-category</sv:value>
-                <sv:value>common/banners/image-banners/office-category</sv:value>
-                <sv:value>common/banners/image-banners/outdoors-category</sv:value>
-                <sv:value/>
-                <sv:value>white</sv:value>
-                <sv:value>fa-leaf</sv:value>
-                <sv:value>Go Green</sv:value>
-                <sv:value>on</sv:value>
-                <sv:value>off</sv:value>
-                <sv:value>20</sv:value>
-              </sv:property>
-              <sv:property sv:name="hst:template" sv:type="String">
-                <sv:value>common.bannercollection</sv:value>
               </sv:property>
               <sv:property sv:name="hst:xtype" sv:type="String">
                 <sv:value>HST.Item</sv:value>
@@ -329,28 +327,32 @@
               <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
                 <sv:value>banner4</sv:value>
                 <sv:value>bannerType</sv:value>
-                <sv:value>banner1</sv:value>
-                <sv:value>banner2</sv:value>
-                <sv:value>banner3</sv:value>
-                <sv:value>bannerBackground</sv:value>
                 <sv:value>icon</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>banner2</sv:value>
                 <sv:value>title</sv:value>
                 <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
-                <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
               <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
                 <sv:value>common/banners/text-banners/value-for-shopping-4</sv:value>
                 <sv:value>horizontal</sv:value>
-                <sv:value>common/banners/text-banners/value-for-shopping-1</sv:value>
-                <sv:value>common/banners/text-banners/value-for-shopping-2</sv:value>
-                <sv:value>common/banners/text-banners/value-for-shopping-3</sv:value>
-                <sv:value>gray</sv:value>
                 <sv:value/>
-                <sv:value/>
-                <sv:value>on</sv:value>
-                <sv:value>on</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>common/banners/text-banners/value-for-shopping-2</sv:value>
+                <sv:value/>
+                <sv:value>on</sv:value>
+                <sv:value>common/banners/text-banners/value-for-shopping-3</sv:value>
+                <sv:value>common/banners/text-banners/value-for-shopping-1</sv:value>
+                <sv:value>gray</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>on</sv:value>
+                <sv:value>webfile:/freemarker/common/bannercollection/bannercollection-grey.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.bannercollection</sv:value>
@@ -359,6 +361,381 @@
                 <sv:value>HST.Item</sv:value>
               </sv:property>
             </sv:node>
+          </sv:node>
+          <sv:node sv:name="home-main-top">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2015-02-02T11:05:03.622+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="home-main-left1">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2015-02-02T10:39:50.174+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="richtextsnippet">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.RichTextSnippet</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/component-richtextsnippet-30x30.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Rich-text Snippet</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternameprefixes" sv:type="String">
+                <sv:value>parent@1430094315</sv:value>
+                <sv:value>parent@1430094315</sv:value>
+                <sv:value>parent@1430094315</sv:value>
+                <sv:value>business-owner@1430094301</sv:value>
+                <sv:value>business-owner@1430094301</sv:value>
+                <sv:value>business-owner@1430094301</sv:value>
+                <sv:value>student@1430094325</sv:value>
+                <sv:value>student@1430094325</sv:value>
+                <sv:value>student@1430094325</sv:value>
+                <sv:value/>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>bannerlocation</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>off</sv:value>
+                <sv:value>common/rich-text-snippets/season-sale---family</sv:value>
+                <sv:value>webfile:/freemarker/common/richtextsnippet.ftl</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/rich-text-snippets/season-sale---business-owner</sv:value>
+                <sv:value>webfile:/freemarker/common/richtextsnippet.ftl</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/rich-text-snippets/season-sale---student</sv:value>
+                <sv:value>webfile:/freemarker/common/richtextsnippet.ftl</sv:value>
+                <sv:value>common/rich-text-snippets/season-sale</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.richtextsnippet</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="bannercollection">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.BannerCollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/component-banner-collection-30x30.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner Collection</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternameprefixes" sv:type="String">
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>parent@1430093884</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value>student@1430093921</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+                <sv:value>business-owner@1430093840</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>banner4</sv:value>
+                <sv:value>bannerType</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>banner4</sv:value>
+                <sv:value>bannerType</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>banner4</sv:value>
+                <sv:value>bannerType</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>banner4</sv:value>
+                <sv:value>bannerType</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>banner2</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>banner3</sv:value>
+                <sv:value>banner1</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value/>
+                <sv:value>images</sv:value>
+                <sv:value>fa-shopping-cart</sv:value>
+                <sv:value>20</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/banners/image-banners/family-category</sv:value>
+                <sv:value>Sale categories</sv:value>
+                <sv:value>common/banners/image-banners/outdoors-category</sv:value>
+                <sv:value>common/banners/image-banners/home-category</sv:value>
+                <sv:value>white</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/bannercollection/bannercollection-images.ftl</sv:value>
+                <sv:value/>
+                <sv:value>images</sv:value>
+                <sv:value>fa-shopping-cart</sv:value>
+                <sv:value>20</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/banners/image-banners/gadgets-category</sv:value>
+                <sv:value>Sale categories</sv:value>
+                <sv:value>common/banners/image-banners/sports-category</sv:value>
+                <sv:value>common/banners/image-banners/students-home-category</sv:value>
+                <sv:value>white</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/bannercollection/bannercollection-images.ftl</sv:value>
+                <sv:value/>
+                <sv:value>images</sv:value>
+                <sv:value>fa-shopping-cart</sv:value>
+                <sv:value>20</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>Gogreen</sv:value>
+                <sv:value>common/banners/image-banners/office-category</sv:value>
+                <sv:value>common/banners/image-banners/outdoors-category</sv:value>
+                <sv:value>common/banners/image-banners/home-category</sv:value>
+                <sv:value>white</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/bannercollection/bannercollection-images.ftl</sv:value>
+                <sv:value/>
+                <sv:value>images</sv:value>
+                <sv:value>fa-shopping-cart</sv:value>
+                <sv:value>20</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>common/banners/image-banners/computers--electronics-category</sv:value>
+                <sv:value>Sale categories</sv:value>
+                <sv:value>common/banners/image-banners/solar-category</sv:value>
+                <sv:value>common/banners/image-banners/business-owner-office-category</sv:value>
+                <sv:value>white</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/bannercollection/bannercollection-images.ftl</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.bannercollection</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="home-main-right1">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2015-02-02T11:10:49.592+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="richtextsnippet1">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.RichTextSnippet</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/component-richtextsnippet-30x30.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Rich-text Snippet</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+                <sv:value>bannerlocation</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+                <sv:value>common/rich-text-snippets/store-locator</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.richtextsnippet</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="map">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Map</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-map.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Google Map</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternameprefixes" sv:type="String">
+                <sv:value>@1430094340$["and",{"city":"boston-1422871681988"}]</sv:value>
+                <sv:value>@1430094340$["and",{"city":"boston-1422871681988"}]</sv:value>
+                <sv:value>@1430094340$["and",{"city":"boston-1422871681988"}]</sv:value>
+                <sv:value>@1430094340$["and",{"city":"boston-1422871681988"}]</sv:value>
+                <sv:value>@1430094361$["and",{"city":"london-1422871767661"}]</sv:value>
+                <sv:value>@1430094361$["and",{"city":"london-1422871767661"}]</sv:value>
+                <sv:value>@1430094361$["and",{"city":"london-1422871767661"}]</sv:value>
+                <sv:value>@1430094361$["and",{"city":"london-1422871767661"}]</sv:value>
+                <sv:value/>
+                <sv:value/>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>address</sv:value>
+                <sv:value>zoomlevel</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>address</sv:value>
+                <sv:value>zoomlevel</sv:value>
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>address</sv:value>
+                <sv:value>zoomlevel</sv:value>
+              </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+                <sv:value>745, Atlantic Avenue, Boston</sv:value>
+                <sv:value>11</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/map.ftl</sv:value>
+                <sv:value>80, Strand, London</sv:value>
+                <sv:value>11</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/map.ftl</sv:value>
+                <sv:value>11, Oosteinde, Amsterdam</sv:value>
+                <sv:value>11</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.map</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="home-main-left2">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2015-02-02T10:39:50.174+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="home-main-right2">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2015-02-02T11:10:49.592+01:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
           </sv:node>
         </sv:node>
         <sv:node sv:name="news-overview">
