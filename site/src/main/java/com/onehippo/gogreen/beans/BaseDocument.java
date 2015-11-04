@@ -70,4 +70,7 @@ public class BaseDocument extends HippoDocument {
         return getProperty("hippostdpubwf:publicationDate");
     }
 
+    public String [] getCampaigns() {
+        return getProperty("hippogogreen:campaign");
+    }
 }
