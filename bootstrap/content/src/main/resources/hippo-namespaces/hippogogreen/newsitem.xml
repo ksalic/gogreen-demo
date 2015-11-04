@@ -145,6 +145,9 @@
       <sv:property sv:name="hippogogreen:date" sv:type="Date">
         <sv:value>2015-02-22T10:22:00.000+01:00</sv:value>
       </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippogogreen:campaign" sv:type="String">
+        <sv:value/>
+      </sv:property>
       <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
         <sv:value/>
       </sv:property>
@@ -633,6 +636,31 @@
         </sv:property>
         <sv:property sv:name="translator.id" sv:type="String">
           <sv:value>${cluster.id}.translator</sv:value>
+        </sv:property>
+        <sv:property sv:name="wicket.id" sv:type="String">
+          <sv:value>${cluster.id}.right.item</sv:value>
+        </sv:property>
+        <sv:node sv:name="cluster.options">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>frontend:pluginconfig</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="campaign">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>frontend:plugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="caption" sv:type="String">
+          <sv:value>Campaign</sv:value>
+        </sv:property>
+        <sv:property sv:name="field" sv:type="String">
+          <sv:value>campaign</sv:value>
+        </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="plugin.class" sv:type="String">
+          <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
         </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.right.item</sv:value>
