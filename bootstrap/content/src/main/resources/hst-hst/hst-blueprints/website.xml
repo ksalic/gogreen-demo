@@ -765,7 +765,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>icon</sv:value>
@@ -773,8 +773,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/blogs-1</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -782,6 +783,71 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:template" sv:type="String">
+                <sv:value>common.banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:xtype" sv:type="String">
+                <sv:value>HST.Item</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="boxes-right">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="news-detail">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containercomponentfolder</sv:value>
+          </sv:property>
+          <sv:node sv:name="hero">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2014-08-27T16:24:45.019+02:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+            <sv:node sv:name="banner">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hst:containeritemcomponent</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:componentclassname" sv:type="String">
+                <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:iconpath" sv:type="String">
+                <sv:value>images/catalog/icon-banner.png</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:label" sv:type="String">
+                <sv:value>Banner</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+              </sv:property>
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+                <sv:value>common/banners/heroes/blogs-1</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -827,7 +893,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>bannerIcon</sv:value>
@@ -836,8 +902,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/events-1</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -846,6 +913,7 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -891,7 +959,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>bannerIcon</sv:value>
@@ -900,8 +968,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/events-1</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -910,6 +979,7 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -955,7 +1025,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>bannerIcon</sv:value>
@@ -964,8 +1034,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/misc-1</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -974,6 +1045,7 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -1019,7 +1091,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>bannerIcon</sv:value>
@@ -1028,8 +1100,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/blogs-1</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -1038,6 +1111,7 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -1074,6 +1148,9 @@
               <sv:property sv:name="jcr:primaryType" sv:type="Name">
                 <sv:value>hst:containeritemcomponent</sv:value>
               </sv:property>
+              <sv:property sv:name="jcr:uuid" sv:type="String">
+                <sv:value>0ba61100-87b0-48ef-bbf2-57a8cec6f0d4</sv:value>
+              </sv:property>
               <sv:property sv:name="hst:componentclassname" sv:type="String">
                 <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
               </sv:property>
@@ -1083,25 +1160,62 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
+              <sv:property sv:multiple="true" sv:name="hst:parameternameprefixes" sv:type="String">
+                <sv:value>@1432041820</sv:value>
+                <sv:value>@1432041820</sv:value>
+                <sv:value>@1432041820</sv:value>
+                <sv:value>@1432041820</sv:value>
+                <sv:value>@1432041820</sv:value>
+                <sv:value>@1432041820</sv:value>
+                <sv:value>@1432041820</sv:value>
+                <sv:value>@1432041820</sv:value>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+                <sv:value/>
+              </sv:property>
               <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+                <sv:value>com.onehippo.cms7.targeting.TargetingParameterUtil.hide</sv:value>
                 <sv:value>bannerlocation</sv:value>
-                <sv:value>bannerBackground</sv:value>
-                <sv:value>bannerIcon</sv:value>
-                <sv:value>title</sv:value>
                 <sv:value>icon</sv:value>
-                <sv:value>separatorBorderBottom</sv:value>
-                <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+                <sv:value>bannerBackground</sv:value>
+                <sv:value>bannerlocation</sv:value>
+                <sv:value>icon</sv:value>
+                <sv:value>separatorMargin</sv:value>
+                <sv:value>bannerIcon</sv:value>
+                <sv:value>separatorBorderTop</sv:value>
+                <sv:value>title</sv:value>
+                <sv:value>separatorBorderBottom</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
               <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
-                <sv:value>common/banners/heroes/products-3</sv:value>
-                <sv:value>full</sv:value>
-                <sv:value/>
-                <sv:value/>
-                <sv:value/>
                 <sv:value>off</sv:value>
-                <sv:value>off</sv:value>
+                <sv:value>common/banners/heroes/products-2</sv:value>
+                <sv:value/>
                 <sv:value>0</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value>off</sv:value>
+                <sv:value/>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
+                <sv:value>full</sv:value>
+                <sv:value>common/banners/heroes/products-3</sv:value>
+                <sv:value/>
+                <sv:value>0</sv:value>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value/>
+                <sv:value>off</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -1147,7 +1261,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>bannerIcon</sv:value>
@@ -1156,8 +1270,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/products-3</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -1166,6 +1281,7 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -1211,7 +1327,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>bannerIcon</sv:value>
@@ -1220,8 +1336,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/blogs-3</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -1230,6 +1347,7 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -1267,7 +1385,7 @@
               <sv:property sv:name="hst:label" sv:type="String">
                 <sv:value>Banner</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>bannerlocation</sv:value>
                 <sv:value>bannerBackground</sv:value>
                 <sv:value>bannerIcon</sv:value>
@@ -1276,8 +1394,9 @@
                 <sv:value>separatorBorderBottom</sv:value>
                 <sv:value>separatorBorderTop</sv:value>
                 <sv:value>separatorMargin</sv:value>
+                <sv:value>org.hippoecm.hst.core.component.template</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>common/banners/heroes/blogs-3</sv:value>
                 <sv:value>full</sv:value>
                 <sv:value/>
@@ -1286,6 +1405,7 @@
                 <sv:value>off</sv:value>
                 <sv:value>off</sv:value>
                 <sv:value>0</sv:value>
+                <sv:value>webfile:/freemarker/common/banner/banner-full.ftl</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
                 <sv:value>common.banner</sv:value>
@@ -1309,10 +1429,10 @@
               <sv:property sv:name="hst:componentclassname" sv:type="String">
                 <sv:value>com.onehippo.gogreen.components.common.TagCloudComponent</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+              <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
                 <sv:value>tagCloudLocation</sv:value>
               </sv:property>
-              <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+              <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
                 <sv:value>/tagclouds/searchtags</sv:value>
               </sv:property>
               <sv:property sv:name="hst:template" sv:type="String">
