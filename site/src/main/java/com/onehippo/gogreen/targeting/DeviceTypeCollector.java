@@ -1,18 +1,13 @@
 package com.onehippo.gogreen.targeting;
 
 import com.onehippo.cms7.targeting.collectors.AbstractCollector;
-import com.onehippo.cms7.targeting.data.TargetingData;
 import org.apache.commons.lang.StringUtils;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.hippoecm.repository.util.JcrUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import javax.servlet.http.HttpServletRequest;
-import java.io.IOException;
 
 /**
  * Created by charliechen on 11/16/15.
