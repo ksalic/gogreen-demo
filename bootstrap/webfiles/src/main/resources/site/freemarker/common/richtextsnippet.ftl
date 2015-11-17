@@ -10,6 +10,6 @@
     </div>
   </div>
 </div>
-<#elseif Request.preview??>
+<#elseif Request.preview>
 <h2 class="not-configured">Click to configure Rich text snippet</h2>
 </#if>
