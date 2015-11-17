@@ -459,6 +459,11 @@ cms/src/main/java/com/onehippo/gogreen/targeting/AgeCollectorPlugin.js -text
 cms/src/main/java/com/onehippo/gogreen/targeting/AutomationCharacteristicPlugin.js -text
 cms/src/main/java/com/onehippo/gogreen/targeting/CategoriesCharacteristicPlugin.java -text
 cms/src/main/java/com/onehippo/gogreen/targeting/CategoriesCollectorPlugin.java -text
+cms/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeCharacteristicPlugin.java -text
+cms/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeCharacteristicPlugin.js -text
+cms/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeCollectorPlugin.java -text
+cms/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeCollectorPlugin.js -text
+cms/src/main/java/com/onehippo/gogreen/targeting/DeviceTypes.java -text
 cms/src/main/java/com/onehippo/gogreen/targeting/VisitorDetailsPanel.java -text
 cms/src/main/java/com/onehippo/gogreen/targeting/VisitorDetailsPanel.js -text
 cms/src/main/java/com/onehippo/gogreen/targeting/WeatherCharacteristicPlugin.java -text
@@ -479,6 +484,9 @@ cms/src/main/resources/com/onehippo/gogreen/targeting/CategoriesCollectorPlugin.
 cms/src/main/resources/com/onehippo/gogreen/targeting/CategoriesCollectorPlugin_de.properties -text
 cms/src/main/resources/com/onehippo/gogreen/targeting/CategoriesCollectorPlugin_fr.properties -text
 cms/src/main/resources/com/onehippo/gogreen/targeting/CategoriesCollectorPlugin_nl.properties -text
+cms/src/main/resources/com/onehippo/gogreen/targeting/DeviceTypeCharacteristicPlugin.properties -text
+cms/src/main/resources/com/onehippo/gogreen/targeting/DeviceTypeCollectorPlugin.properties -text
+cms/src/main/resources/com/onehippo/gogreen/targeting/DeviceTypes.properties -text
 cms/src/main/resources/com/onehippo/gogreen/targeting/VisitorDetailsPanel.properties -text
 cms/src/main/resources/com/onehippo/gogreen/targeting/VisitorDetailsPanel_de.properties -text
 cms/src/main/resources/com/onehippo/gogreen/targeting/VisitorDetailsPanel_fr.properties -text
@@ -735,6 +743,11 @@ site/src/main/java/com/onehippo/gogreen/targeting/AbstractVisitorAgeCollector.ja
 site/src/main/java/com/onehippo/gogreen/targeting/AgeScorer.java -text
 site/src/main/java/com/onehippo/gogreen/targeting/AgeTargetingData.java -text
 site/src/main/java/com/onehippo/gogreen/targeting/AgeTargetingRequestData.java -text
+site/src/main/java/com/onehippo/gogreen/targeting/DeviceType.java -text
+site/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeCollector.java -text
+site/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeRequestData.java -text
+site/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeScorer.java -text
+site/src/main/java/com/onehippo/gogreen/targeting/DeviceTypeTargetingData.java -text
 site/src/main/java/com/onehippo/gogreen/targeting/RemoteVisitorAgeCollector.java -text
 site/src/main/java/com/onehippo/gogreen/targeting/TagsQuerystringCollector.java -text
 site/src/main/java/com/onehippo/gogreen/targeting/WeatherCollector.java -text

@@ -255,4 +255,29 @@
       <sv:value>com.onehippo.gogreen.targeting.WeatherCharacteristicPlugin</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="collector-devicetype">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>frontend:plugin</sv:value>
+    </sv:property>
+    <sv:property sv:name="collector" sv:type="String">
+      <sv:value>devicetype</sv:value>
+    </sv:property>
+    <sv:property sv:name="plugin.class" sv:type="String">
+      <sv:value>com.onehippo.gogreen.targeting.DeviceTypeCollectorPlugin</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="characteristic-devicetype">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>frontend:plugin</sv:value>
+    </sv:property>
+    <sv:property sv:name="characteristic" sv:type="String">
+      <sv:value>devicetype</sv:value>
+    </sv:property>
+    <sv:property sv:name="collector" sv:type="String">
+      <sv:value>devicetype</sv:value>
+    </sv:property>
+    <sv:property sv:name="plugin.class" sv:type="String">
+      <sv:value>com.onehippo.gogreen.targeting.DeviceTypeCharacteristicPlugin</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
