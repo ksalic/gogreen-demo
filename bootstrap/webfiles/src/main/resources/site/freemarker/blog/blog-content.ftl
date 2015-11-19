@@ -24,7 +24,25 @@
 
     <div class="blog-post-body">
     ${Request.document.summary}
-      <@hst.html hippohtml=Request.document.description/>
+      <#if Request.document.description??>
+        <@hst.html hippohtml=Request.document.description/>
+      <#elseif Request.document.contentBlocks??>
+        <#list Request.document.contentBlocks as block>
+          <#if block.type = 'quote'>
+            <div class="quote ${block.alignment?html?lower_case}">${block.quote}</div>
+          <#elseif block.type = 'image'>
+            <@hst.link var="img" hippobean=block.image.original/>
+            <figure class="${block.alignment?html?lower_case}">
+              <img src="${img}" title="${block.image.fileName?html}"
+                   alt="${block.image.fileName?html}"/>
+              <#if block.image.description??><figcaption>${block.image.description?html}</figcaption></#if>
+            </figure>
+          <#elseif block.type = 'paragraph'>
+            <h2>${block.header?html}</h2>
+            <p>${block.text?html}</p>
+          </#if>
+        </#list>
+      </#if>
       <@copyright.copyright document=Request.document/>
     </div>
 

@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import com.onehippo.gogreen.beans.BlogItemContentBlocks;
 import com.onehippo.gogreen.beans.Comment;
 import com.onehippo.gogreen.beans.BlogItem;
 import com.onehippo.gogreen.components.ComponentUtil;
@@ -132,8 +133,8 @@ public class Overview extends TagComponent {
             return new PageableCollection((List<HippoBean>) relatedBeans, pageSize, currentPage);
         }
         final HstRequestContext ctx = request.getRequestContext();
-        final HstQuery hstQuery = ctx.getQueryManager().createQuery(ctx.getSiteContentBaseBean(), BlogItem.class);
-        final BaseFilter filter = new PrimaryNodeTypeFilterImpl("hippogogreen:blogitem");
+        final HstQuery hstQuery = ctx.getQueryManager().createQuery(ctx.getSiteContentBaseBean(), BlogItem.class, BlogItemContentBlocks.class);
+        final BaseFilter filter = new PrimaryNodeTypeFilterImpl(new String[]{"hippogogreen:blogitem", "hippogogreen:blogitemcb"});
         hstQuery.setFilter(filter);
         hstQuery.addOrderByDescending("hippogogreen:date");
 
