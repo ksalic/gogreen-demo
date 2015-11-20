@@ -130,12 +130,11 @@ public class Overview extends TagComponent {
 
         if (!relatedBeans.isEmpty()) {
             // only show tagged blogs items
-            return new PageableCollection((List<HippoBean>) relatedBeans, pageSize, currentPage);
+            return new PageableCollection(relatedBeans, pageSize, currentPage);
         }
         final HstRequestContext ctx = request.getRequestContext();
         final HstQuery hstQuery = ctx.getQueryManager().createQuery(ctx.getSiteContentBaseBean(), BlogItem.class, BlogItemContentBlocks.class);
-        final BaseFilter filter = new PrimaryNodeTypeFilterImpl(new String[]{"hippogogreen:blogitem", "hippogogreen:blogitemcb"});
-        hstQuery.setFilter(filter);
+
         hstQuery.addOrderByDescending("hippogogreen:date");
 
         if (!StringUtils.isEmpty(query)) {
@@ -165,12 +164,12 @@ public class Overview extends TagComponent {
                 final int facetCount = facetBean.getCount().intValue();
                 return new PageableCollection(facetIt, facetCount, pageSize, currentPage);
             }
+        } else {
+            // show all blogs items
+            final HstQueryResult result = hstQuery.execute();
+            final HippoBeanIterator iterator = result.getHippoBeans();
+            return new PageableCollection<BlogItem>(iterator, pageSize, currentPage);
         }
-
-        // show all blogs items
-        final HstQueryResult result = hstQuery.execute();
-        final HippoBeanIterator iterator = result.getHippoBeans();
-        return new PageableCollection<BlogItem>(iterator, pageSize, currentPage);
     }
 
     private void updateCommentsCount(HstRequest request, PageableCollection blogs) throws QueryException {
