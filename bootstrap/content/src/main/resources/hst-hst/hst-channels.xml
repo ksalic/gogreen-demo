@@ -17,7 +17,7 @@
       <sv:value>iphone_portrait</sv:value>
     </sv:property>
     <sv:property sv:name="hst:name" sv:type="String">
-      <sv:value>English Website</sv:value>
+      <sv:value>US Website</sv:value>
     </sv:property>
     <sv:property sv:name="hst:type" sv:type="String">
       <sv:value>website</sv:value>
@@ -125,6 +125,47 @@
       </sv:property>
     </sv:node>
   </sv:node>
+  <sv:node sv:name="hippogogreen-uk">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:devices" sv:type="String" sv:multiple="true">
+      <sv:value>desktop</sv:value>
+      <sv:value>ipad_landscape</sv:value>
+      <sv:value>ipad_portrait</sv:value>
+      <sv:value>iphone_landscape</sv:value>
+      <sv:value>iphone_portrait</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>UK Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="boxed" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="boxedPattern" sv:type="String">
+        <sv:value>neutral</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/gogreenlogo2.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Go Green</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/hippo-green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
   <sv:node sv:name="hippogogreen-mobile">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:channel</sv:value>
@@ -138,7 +179,7 @@
       <sv:value>iphone_landscape</sv:value>
     </sv:property>
     <sv:property sv:name="hst:name" sv:type="String">
-      <sv:value>English Mobile Product Catalog</sv:value>
+      <sv:value>US Mobile Product Catalog</sv:value>
     </sv:property>
     <sv:property sv:name="hst:type" sv:type="String">
       <sv:value>mobile</sv:value>
@@ -353,6 +394,39 @@
       </sv:property>
       <sv:property sv:name="pageTitlePrefix" sv:type="String">
         <sv:value>绿色环保河马</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-mobile-uk">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.MobileInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:devices" sv:type="String" sv:multiple="true">
+      <sv:value>desktop</sv:value>
+      <sv:value>iphone_portrait</sv:value>
+      <sv:value>iphone_landscape</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>UK Mobile Product Catalog</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>mobile</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/gogreenlogo2.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Go Green</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

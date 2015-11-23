@@ -18,7 +18,7 @@
 
 <%@include file="../../includes/tags.jspf" %>
 
-<c:set var="requestLanguage" value="standard.header.langnav.language.${pageContext.request.locale.language}"/>
+<c:set var="requestLanguage" value="standard.header.langnav.language.${requestScope.currentLocale}"/>
 
 <!-- lang navigation -->
 <div class="col-sm-7 langnav">

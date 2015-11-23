@@ -16,17 +16,16 @@
 
 package com.onehippo.gogreen.components.common;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.onehippo.gogreen.components.BaseComponent;
-
 import org.hippoecm.hst.content.beans.standard.HippoAvailableTranslationsBean;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.linking.HstLink;
 import org.hippoecm.hst.core.request.HstRequestContext;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class LanguageComponent extends BaseComponent {
 
@@ -66,14 +65,26 @@ public class LanguageComponent extends BaseComponent {
         final HippoBean contentBean = ctx.getContentBean();
         final HippoAvailableTranslationsBean<HippoBean> availableContentTranslations = contentBean == null ? null : contentBean.getAvailableTranslations();
 
-        final String requestLocale = request.getLocale().getLanguage();
+        final String requestLocaleLang = request.getLocale().getLanguage();
+        final String requestLocaleCountry = request.getLocale().getCountry() == null ? "" : request.getLocale().getCountry().toLowerCase();
         final HstRequestContext requestContext = request.getRequestContext();
 
         final List<Translation> translations = new ArrayList<Translation>();
 
+        String currentLocale = "";
+        for (String baseLocale : availableBaseTranslations.getAvailableLocales()) {
+            if (baseLocale.equals(requestLocaleLang + "-" + requestLocaleCountry)) { //exact match
+                currentLocale = baseLocale;
+                break;
+            } else if (baseLocale.equals(requestLocaleLang)) { //partial match
+                currentLocale = baseLocale;
+            }
+        }
+
         for (String baseLocale : availableBaseTranslations.getAvailableLocales()) {
             // skip the current locale
-            if (baseLocale.equals(requestLocale)) {
+            if (baseLocale.equals(currentLocale)) {
+                request.setAttribute("currentLocale", baseLocale);
                 continue;
             }
 
