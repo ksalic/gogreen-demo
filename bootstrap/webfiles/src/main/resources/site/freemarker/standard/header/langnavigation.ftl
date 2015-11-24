@@ -1,6 +1,5 @@
 <#include "../../include/imports.ftl">
-
-<#--<#assign requestLanguage="standard.header.langnav.language." + pageContext.request.locale.language />-->
+<@hst.setBundle basename="messages,typenames"/>
 
 <!-- lang navigation -->
 <div class="col-sm-7 langnav">
@@ -8,9 +7,7 @@
     <ul class="" id="language">
 
       <li class="active">
-        <i class="fa fa-ellipsis-h"></i> <span>
-        <@fmt.message key=requestLanguage/>
-      </span>
+        <i class="fa fa-ellipsis-h"></i> <span><@fmt.message key="standard.header.langnav.language.${Request.currentLocale}"/></span>
         <#if Request.translations??>
           <ul>
             <#list Request.translations as translation>

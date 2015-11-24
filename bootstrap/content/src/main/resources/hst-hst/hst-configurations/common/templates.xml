@@ -609,7 +609,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String" sv:multiple="true"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>jsp/standard/header/langnavigation.jsp</sv:value>
+      <sv:value>webfile:/freemarker/standard/header/langnavigation.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="standard.header.search">
