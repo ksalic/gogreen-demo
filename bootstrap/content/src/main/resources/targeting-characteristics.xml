@@ -476,5 +476,38 @@
     <sv:property sv:name="targeting:scorerClassName" sv:type="String">
       <sv:value>com.onehippo.gogreen.targeting.DeviceTypeScorer</sv:value>
     </sv:property>
+    <sv:node sv:name="desktop-1448448545307">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Desktop</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="targeting:propertynames" sv:type="String">
+        <sv:value>DESKTOP</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="phone-1448463041306">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Phone</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="targeting:propertynames" sv:type="String">
+        <sv:value>PHONE</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="tablet-1448464338381">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:targetgroup</sv:value>
+      </sv:property>
+      <sv:property sv:name="targeting:name" sv:type="String">
+        <sv:value>Tablet</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="targeting:propertynames" sv:type="String">
+        <sv:value>TABLET</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>
