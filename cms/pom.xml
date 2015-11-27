@@ -98,7 +98,7 @@
     </dependency>
 
     <!-- compile dependencies -->
-    
+
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-cms-gallery-frontend</artifactId>
@@ -248,8 +248,19 @@
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-content-blocks</artifactId>
     </dependency>
-  </dependencies>
 
+    <dependency>
+      <groupId>org.onehippo.forge.urlrewriter</groupId>
+      <artifactId>urlrewriter-module-cms</artifactId>
+      <version>${forge.urlrewriter.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.forge.urlrewriter</groupId>
+      <artifactId>urlrewriter-module-repository</artifactId>
+      <version>${forge.urlrewriter.version}</version>
+    </dependency>
+  </dependencies>
 
   <build>
 
