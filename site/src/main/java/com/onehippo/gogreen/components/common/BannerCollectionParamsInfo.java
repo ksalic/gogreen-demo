@@ -19,23 +19,11 @@ import org.hippoecm.hst.core.parameters.*;
 
 @FieldGroupList({
         @FieldGroup(
-                titleKey = "layout",
-                value = { "bannerType", "bannerBackground" }
-        ),
-        @FieldGroup(
                 titleKey = "banners",
                 value = { "banner1", "banner2", "banner3", "banner4" }
         )
 })
 public interface BannerCollectionParamsInfo extends BaseLayoutParamsInfo {
-
-    @Parameter(name = "bannerType", required = true, defaultValue = "horizontaldefault")
-    @DropDownList(value= {"horizontaldefault", "horizontal1", "horizontal2", "horizontal3", "vertical", "images"})
-    String getBannerType();
-
-    @Parameter(name = "bannerBackground", required = true, defaultValue = "white")
-    @DropDownList(value= {"white", "gray", "blue", "gradient"})
-    String getBannerBackground();
 
     @Parameter(name = "banner1", required = true, displayName = "Banner 1")
     @JcrPath(isRelative = true, pickerInitialPath = "common/banners", pickerSelectableNodeTypes = {"hippogogreen:banner"}, pickerConfiguration = "cms-pickers/documents-only")

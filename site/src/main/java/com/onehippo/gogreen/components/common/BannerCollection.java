@@ -44,11 +44,6 @@ public class BannerCollection extends BaseLayout {
         List<Banner> banners = new ArrayList<Banner>();
         HippoBean siteContentBaseBean = ctx.getSiteContentBaseBean();
 
-        String bannerType = paramsInfo.getBannerType();
-        String bannerBackground = paramsInfo.getBannerBackground();
-        request.setAttribute("bannerType", bannerType);
-        request.setAttribute("bannerBackground", bannerBackground);
-
         Banner banner = null;
         if(!StringUtils.isEmpty(paramsInfo.getBanner1())) {
             banner = siteContentBaseBean.getBean(paramsInfo.getBanner1());
