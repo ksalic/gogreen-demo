@@ -6808,3 +6808,16 @@ Testimonial
 .images-component .section-clients a:hover{
     opacity: 0.7;
 }
+
+.quote {
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    margin: 0 0 20px 0;
+    line-height: 26px;
+    color: #4b4b4b;
+}
+.quote.left { text-align: left; }
+.quote.right { text-align: right; }
+
+.body-wrapper figure.left { float: left; margin: 0 10px 10px 0; }
+.body-wrapper figure.right { float: right; margin: 0 0 10px 10px; }
