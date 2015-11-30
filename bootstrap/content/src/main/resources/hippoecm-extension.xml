@@ -1167,7 +1167,21 @@ We need to use a number more than that to be able to create the default selectio
     <sv:property sv:name="hippo:sequence" sv:type="Double"> 
       <sv:value>31404.8</sv:value> 
     </sv:property> 
-  </sv:node>  
+  </sv:node>
+  <sv:node sv:name="hippogogreen-urlrewriter-rules">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/urlrewriter.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/urlrewriter</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>55500.0</sv:value>
+    </sv:property>
+  </sv:node>
   <!-- Content -->  
   <sv:node sv:name="hippogogreen-en-root"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
