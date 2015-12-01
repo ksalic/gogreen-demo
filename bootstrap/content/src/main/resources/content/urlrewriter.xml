@@ -10,7 +10,7 @@
     <sv:value>new-urlrewriter-folder</sv:value>
     <sv:value>new-urlrewriter-document</sv:value>
   </sv:property>
-  <sv:node sv:name="buy---products-local">
+  <sv:node sv:name="buy---products">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
@@ -18,20 +18,17 @@
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
-    <sv:node sv:name="buy---products-local">
+    <sv:node sv:name="buy---products">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>urlrewriter:advancedrule</sv:value>
+        <sv:value>urlrewriter:rule</sv:value>
       </sv:property>
       <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>rules/buy---products-local/buy---products-local[2]</sv:value>
-        <sv:value>rules/buy---products-local/buy---products-local[3]</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:holder" sv:type="String">
-        <sv:value>admin</sv:value>
+        <sv:value>buy---products/buy---products[3]</sv:value>
+        <sv:value>buy---products/buy---products[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -43,10 +40,10 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-11-30T13:43:42.915+01:00</sv:value>
+        <sv:value>2015-12-01T14:57:13.267+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-11-30T13:46:28.523+01:00</sv:value>
+        <sv:value>2015-12-01T15:17:54.745+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -54,26 +51,14 @@
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
         <sv:value>2008-03-26T12:03:00.000+01:00</sv:value>
       </sv:property>
-      <sv:property sv:name="urlrewriter:casesensitive" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:isnotlast" sv:type="Boolean">
-        <sv:value>true</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:iswildcardtype" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:qsappend" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
       <sv:property sv:name="urlrewriter:ruledescription" sv:type="String">
-        <sv:value>Rewrite /buy to /products, only for local environments because of the added contextpath</sv:value>
+        <sv:value>Rewrite /buy to /products</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:rulefrom" sv:type="String">
         <sv:value>/buy</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:ruleto" sv:type="String">
-        <sv:value>/site/products</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:ruletype" sv:type="String">
         <sv:value>permanent-redirect</sv:value>
@@ -87,12 +72,12 @@
         <sv:value/>
       </sv:property>
       <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Buy - Products (local)</sv:value>
+        <sv:value>Buy -&gt; Products</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="buy---products-local">
+    <sv:node sv:name="buy---products">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>urlrewriter:advancedrule</sv:value>
+        <sv:value>urlrewriter:rule</sv:value>
       </sv:property>
       <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>mix:versionable</sv:value>
@@ -102,7 +87,7 @@
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>rules/buy---products-local/buy---products-local[3]</sv:value>
+        <sv:value>buy---products/buy---products[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>unpublished</sv:value>
@@ -114,42 +99,30 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-11-30T13:43:42.915+01:00</sv:value>
+        <sv:value>2015-12-01T14:57:13.267+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-11-30T13:44:43.543+01:00</sv:value>
+        <sv:value>2015-12-01T15:17:57.136+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
-      <sv:property sv:name="urlrewriter:casesensitive" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:isnotlast" sv:type="Boolean">
-        <sv:value>true</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:iswildcardtype" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:qsappend" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
       <sv:property sv:name="urlrewriter:ruledescription" sv:type="String">
-        <sv:value>Rewrite /buy to /products, only for local environments because of the added contextpath</sv:value>
+        <sv:value>Rewrite /buy to /products</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:rulefrom" sv:type="String">
         <sv:value>/buy</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:ruleto" sv:type="String">
-        <sv:value>/site/products</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:ruletype" sv:type="String">
         <sv:value>permanent-redirect</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="buy---products-local">
+    <sv:node sv:name="buy---products">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>urlrewriter:advancedrule</sv:value>
+        <sv:value>urlrewriter:rule</sv:value>
       </sv:property>
       <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>mix:referenceable</sv:value>
@@ -158,7 +131,7 @@
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>rules/buy---products-local/buy---products-local[2]</sv:value>
+        <sv:value>buy---products/buy---products[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>published</sv:value>
@@ -170,37 +143,25 @@
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-        <sv:value>2015-11-30T13:43:42.915+01:00</sv:value>
+        <sv:value>2015-12-01T14:57:13.267+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-11-30T13:44:43.543+01:00</sv:value>
+        <sv:value>2015-12-01T15:17:57.136+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-11-30T13:44:45.533+01:00</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:casesensitive" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:isnotlast" sv:type="Boolean">
-        <sv:value>true</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:iswildcardtype" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-      <sv:property sv:name="urlrewriter:qsappend" sv:type="Boolean">
-        <sv:value>false</sv:value>
+        <sv:value>2015-12-01T15:17:58.638+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:ruledescription" sv:type="String">
-        <sv:value>Rewrite /buy to /products, only for local environments because of the added contextpath</sv:value>
+        <sv:value>Rewrite /buy to /products</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:rulefrom" sv:type="String">
         <sv:value>/buy</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:ruleto" sv:type="String">
-        <sv:value>/site/products</sv:value>
+        <sv:value>products</sv:value>
       </sv:property>
       <sv:property sv:name="urlrewriter:ruletype" sv:type="String">
         <sv:value>permanent-redirect</sv:value>
