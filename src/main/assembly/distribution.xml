@@ -33,6 +33,11 @@
       <destName>site.war</destName>
     </file>
     <file>
+      <source>embedded-elasticsearch/target/embedded-elasticsearch.war</source>
+      <outputDirectory>/webapps</outputDirectory>
+      <destName>embedded-elasticsearch.war</destName>
+    </file>
+    <file>
       <source>conf/log4j-prod.xml</source>
       <outputDirectory>/conf</outputDirectory>
       <destName>log4j.xml</destName>
