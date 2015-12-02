@@ -1,5 +1,5 @@
 <#include "../../include/imports.ftl">
-<#if Request.banners??>
+<#if Request.banners?? && (Request.banners?size > 0)>
     <#if Request.title?? && Request.title!=''>
     <div class="row">
         <div class="col-md-12 col-sm-12">
@@ -55,10 +55,10 @@
                             <#if banner.image??>
                                 <#if docLink??>
                                     <a href="${docLink}">
-                                        <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt}"/>
+                                        <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt!""}"/>
                                     </a>
                                 <#else>
-                                    <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt}"/>
+                                    <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt!""}"/>
                                 </#if>
                             </#if>
                         </div>
