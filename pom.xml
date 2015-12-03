@@ -525,9 +525,6 @@
                 <exclude>dist/src/overlay/tomcat/bin/*</exclude>
                 <!-- repository content XML -->
                 <exclude>content/src/main/resources/**/*.xml</exclude>
-                <exclude>server-config/acct-server-config/src/main/resources/**/*.xml</exclude>
-                <exclude>server-config/prod-server-config/src/main/resources/**/*.xml</exclude>
-                <exclude>server-config/test-server-config/src/main/resources/**/*.xml</exclude>
                 <exclude>launcher/src/main/java/com/centerkey/utils/BareBonesBrowserLaunch.java</exclude>
               </excludes>
             </configuration>
