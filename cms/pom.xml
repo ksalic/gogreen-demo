@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
-  Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
   Licensed under the Apache License, Version 2.0 (the  "License");
   you may not use this file except in compliance with the License.
@@ -20,7 +21,7 @@
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
     <artifactId>gogreen-two</artifactId>
-    <version>2.5.1-SNAPSHOT</version>
+    <version>2.6.0-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green CMS</name>
@@ -66,18 +67,21 @@
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>
+
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-bootstrap-configuration</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>
+
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-bootstrap-content</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>
+
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-bootstrap-webfiles</artifactId>
@@ -119,7 +123,6 @@
       <artifactId>hst-addon-repository</artifactId>
     </dependency>
 
-
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-selections-addon-cms</artifactId>
@@ -128,7 +131,6 @@
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-selections-addon-repository</artifactId>
     </dependency>
-
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
@@ -158,7 +160,6 @@
       <artifactId>hippo-plugin-dashboard-document-wizard</artifactId>
     </dependency>
 
-
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-cms-google-analytics-frontend</artifactId>
@@ -182,14 +183,17 @@
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-reporting-dashboard-frontend</artifactId>
     </dependency>
+
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-reporting-dashboard-repository</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpcore</artifactId>
     </dependency>
+
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-targeting-dependencies-cms</artifactId>
@@ -316,28 +320,5 @@
 
     </plugins>
   </build>
-
-  <profiles>
-    <profile>
-      <id>test-config</id>
-      <dependencies>
-        <dependency>
-          <groupId>com.onehippo.gogreen</groupId>
-          <artifactId>hippogogreen-test-server-config</artifactId>
-          <version>${project.version}</version>
-        </dependency>
-      </dependencies>
-    </profile>
-    <profile>
-      <id>prod-config</id>
-      <dependencies>
-        <dependency>
-          <groupId>com.onehippo.gogreen</groupId>
-          <artifactId>hippogogreen-prod-server-config</artifactId>
-          <version>${project.version}</version>
-        </dependency>
-      </dependencies>
-    </profile>
-  </profiles>
 
 </project>

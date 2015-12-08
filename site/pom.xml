@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
-  Copyright 2010-2014 Hippo B.V. (http://www.onehippo.com)
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
 
   Licensed under the Apache License, Version 2.0 (the  "License");
   you may not use this file except in compliance with the License.
@@ -19,7 +20,7 @@
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
     <artifactId>gogreen-two</artifactId>
-    <version>2.5.1-SNAPSHOT</version>
+    <version>2.6.0-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green Site</name>
@@ -39,15 +40,7 @@
       <artifactId>gogreen-two-site-assembly</artifactId>
       <version>${project.version}</version>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-essentials-plugin-sdk-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-essentials-components-hst</artifactId>
-    </dependency>-->
+
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
@@ -68,24 +61,29 @@
       <artifactId>hst-server-dependencies</artifactId>
       <type>pom</type>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-spring-dependencies</artifactId>
       <type>pom</type>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-client-dependencies</artifactId>
       <type>pom</type>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7.hst.components</groupId>
       <artifactId>hst-security</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-selections-hst-client</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7.hst</groupId>
       <artifactId>hst-mock</artifactId>
@@ -103,13 +101,13 @@
       <artifactId>commons-lang</artifactId>
     </dependency>
 
-
-    <!-- TODO: mm:  plugin deprectated-->
+    <!-- TODO: mm: plugin deprecated-->
     <dependency>
       <groupId>org.onehippo.forge</groupId>
       <artifactId>tcmp-component</artifactId>
       <version>1.09.00</version>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-sitemap-component</artifactId>
@@ -139,15 +137,16 @@
       </exclusions>
     </dependency>
 
-
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-taxonomy-api</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-taxonomy-hst-api</artifactId>
     </dependency>
+
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-taxonomy-hstclient</artifactId>
@@ -184,7 +183,6 @@
       </exclusions>
     </dependency>
 
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -195,28 +193,10 @@
       <artifactId>easymock</artifactId>
     </dependency>
 
-
-    <!--<dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-test</artifactId>
-      <scope>test</scope>
-    </dependency>-->
-
-
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-selections-hst-client</artifactId>
-    </dependency>
     <dependency>
       <groupId>org.onehippo.cms7.hst.client-modules</groupId>
       <artifactId>hst-google-analytics-hst</artifactId>
     </dependency>
-
-    <!--<dependency>
-      <groupId>org.onehippo.forge</groupId>
-      <artifactId>breadcrumb</artifactId>
-      <version>${forge.breadcrumb.version}</version>
-    </dependency>-->
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
@@ -241,12 +221,14 @@
       <scope>runtime</scope>
       <version>${hippo.addon-targeting.version}</version>
     </dependency>
+
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-maxmind-geolite2</artifactId>
       <version>${geolite2.version}</version>
       <scope>runtime</scope>
     </dependency>
+
     <dependency>
       <groupId>net.sf.json-lib</groupId>
       <artifactId>json-lib</artifactId>
