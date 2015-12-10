@@ -23,12 +23,55 @@
     <version>10.1.0</version>
   </parent>
 
-  <name>Hippo Go Green</name>
-  <description>Hippo Go Green Demo</description>
+  <name>Hippo Go Green 2.0</name>
+  <description>Hippo Go Green 2.0</description>
   <groupId>com.onehippo.gogreen</groupId>
   <artifactId>gogreen-two</artifactId>
   <version>2.6.0-SNAPSHOT</version>
   <packaging>pom</packaging>
+
+  <!--
+    The below project elements are emptied/overridden as otherwise their metadata would be
+    inherited or merged from the parent hippo-cms7-release pom (or its hippo-cms7-project pom).
+
+    DO NOT remove these tags but instead fill them in appropriately as needed,
+    UNLESS the inherited values are valid for your project.
+  -->
+  <url/>
+  <!--<inceptionYear/>-->
+  <organization/>
+  <licenses>
+    <license/>
+  </licenses>
+  <mailingLists>
+    <mailingList/>
+  </mailingLists>
+  <developers>
+    <developer/>
+  </developers>
+  <contributors>
+    <contributor/>
+  </contributors>
+  <issueManagement/>
+  <!--
+  <scm>
+    <connection/>
+    <developerConnection/>
+    <url/>
+  </scm>
+  -->
+  <ciManagement/>
+  <distributionManagement>
+    <repository>
+      <id>-</id>
+      <url>-</url>
+    </repository>
+    <snapshotRepository>
+      <id>-</id>
+      <url>-</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <!-- End of emptied/overridden metadata from parent hippo-cms7-release pom. -->
 
   <inceptionYear>2010</inceptionYear>
 
@@ -40,16 +83,20 @@
 
   <properties>
     <!-- use root project name for all project modules NOTICE files, should be the same as in the root NOTICE file -->
-    <notice.project.name>Hippo Go Green</notice.project.name>
+    <notice.project.name>Hippo Go Green 2.0</notice.project.name>
 
+    <!--***START temporary override of versions*** -->
+    <!-- ***END temporary override of versions*** -->
+
+    <essentials.version>2.1.0</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.1</taglibs.version>
-    <commons.lang.version>2.6</commons.lang.version>
     <junit.version>4.10</junit.version>
     <easymock.version>3.1</easymock.version>
 
     <filesync.override>false</filesync.override>
     <maven.plugins.filesync.version>1.0.0</maven.plugins.filesync.version>
+    <repo.bootstrap>true</repo.bootstrap>
 
     <lib.commons.codec.version>1.5</lib.commons.codec.version>
     <lib.freemarker.version>2.3.18</lib.freemarker.version>
@@ -76,24 +123,11 @@
       <id>hippo-maven2-enterprise</id>
       <name>Hippo Maven 2 Enterprise</name>
       <url>https://maven.onehippo.com/maven2-enterprise/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
     </repository>
     <repository>
       <id>hippo-maven2</id>
       <name>Hippo Maven 2</name>
       <url>http://maven.onehippo.com/maven2/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <layout>default</layout>
     </repository>
   </repositories>
 
@@ -147,13 +181,20 @@
         <scope>runtime</scope>
       </dependency>
 
-      <!-- other predefined compile scope versioned dependencies -->
       <dependency>
-        <groupId>commons-lang</groupId>
-        <artifactId>commons-lang</artifactId>
-        <version>${commons.lang.version}</version>
+        <groupId>xalan</groupId>
+        <artifactId>xalan</artifactId>
+        <version>${xalan.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>xalan</groupId>
+        <artifactId>serializer</artifactId>
+        <version>${xalan.version}</version>
+        <scope>runtime</scope>
       </dependency>
 
+      <!-- other predefined compile scope versioned dependencies -->
       <dependency>
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
@@ -209,13 +250,6 @@
         <groupId>xerces</groupId>
         <artifactId>xercesImpl</artifactId>
         <version>${xercesImpl.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>xalan</groupId>
-        <artifactId>xalan</artifactId>
-        <version>${xalan.version}</version>
         <scope>runtime</scope>
       </dependency>
 
@@ -289,25 +323,7 @@
           </archive>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-remote-resources-plugin</artifactId>
-        <executions>
-          <execution>
-            <goals>
-              <goal>process</goal>
-            </goals>
-            <configuration>
-              <resourceBundles>
-                <resourceBundle>org.onehippo.cms7:hippo-cms7-legal-resources:1</resourceBundle>
-              </resourceBundles>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
     </plugins>
-
   </build>
 
   <profiles>
@@ -329,6 +345,8 @@
         <module>embedded-elasticsearch</module>
         <module>launcher</module>
         <module>dist</module>
+        <module>essentials</module>
+        <module>integration-tests</module>
       </modules>
     </profile>
 
@@ -353,6 +371,11 @@
                     <file>${project.basedir}/conf/context.xml</file>
                     <todir>conf/</todir>
                     <tofile>context.xml</tofile>
+                  </configfile>
+                  <configfile>
+                    <file>${project.basedir}/conf/catalina-logging.properties</file>
+                    <todir>conf/</todir>
+                    <tofile>logging.properties</tofile>
                   </configfile>
                 </configfiles>
               </configuration>
@@ -379,17 +402,23 @@
                     <context>/elasticsearch</context>
                   </properties>
                 </deployable>
-
+                <deployable>
+                  <location>${project.basedir}/essentials/target/essentials.war</location>
+                  <type>war</type>
+                  <properties>
+                    <context>/essentials</context>
+                  </properties>
+                </deployable>
               </deployables>
               <container>
                 <systemProperties>
-                  <project.basedir>${project.basedir}</project.basedir>
-                  <derby.stream.error.file>${project.basedir}/target/derby.log</derby.stream.error.file>
+                 <derby.stream.error.file>${project.basedir}/target/derby.log</derby.stream.error.file>
                   <log4j.configuration>file:${project.basedir}/conf/log4j-dev.xml</log4j.configuration>
                   <rebel.log4j-plugin>true</rebel.log4j-plugin>
                   <net.spy.log.LoggerImpl>com.onehippo.cms7.targeting.storage.couchbase.Slf4jLogger</net.spy.log.LoggerImpl>
-                  <!-- enables auto export: -->
-                  <!--<project.basedir>${project.basedir}</project.basedir>-->
+                  <!-- enables auto export and web files watch: -->
+                  <project.basedir>${project.basedir}</project.basedir>
+                  <send.usage.statistics.to.hippo>true</send.usage.statistics.to.hippo>
                   <es.path>${es.path}</es.path>
                   <es.bootstrap>${es.bootstrap}</es.bootstrap>
                 </systemProperties>
@@ -425,7 +454,6 @@
         <plugins>
           <plugin>
             <artifactId>maven-assembly-plugin</artifactId>
-            <inherited>false</inherited>
             <executions>
               <execution>
                 <id>distro-assembly</id>
@@ -435,54 +463,11 @@
                 </goals>
                 <configuration>
                   <descriptors>
-                    <descriptor>${basedir}/src/main/assembly/distribution.xml</descriptor>
+                    <descriptor>${project.basedir}/src/main/assembly/distribution.xml</descriptor>
                   </descriptors>
                 </configuration>
               </execution>
             </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-
-    <profile>
-      <id>pedantic</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.rat</groupId>
-            <artifactId>apache-rat-plugin</artifactId>
-            <inherited>false</inherited>
-            <configuration>
-              <excludes combine.children="append">
-                <!-- covered by 3rd-party licenses in the LICENSE file -->
-                <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/reset-fonts-grids.css</exclude>
-                <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/base-edited.css</exclude>
-                <exclude>site/src/main/resources/META-INF/hst/security/skin/js/jquery-1.4.2.min.js</exclude>
-                <exclude>site/src/main/webapp/css/facebook/yui-css.css</exclude>
-                <exclude>site/src/main/webapp/css/mobile/yui-css.css</exclude>
-                <exclude>site/src/main/webapp/css/yui-css.css</exclude>
-                <exclude>site/src/main/webapp/js/galleryview-2.1.1/**</exclude>
-                <exclude>site/src/main/webapp/js/json2.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery-1.4.2.min.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery-1.9.1.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery.mb.browser.min.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery.ui.core.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery.ui.datepicker.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery.localscroll-1.2.7-min.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery.scrollTo-1.4.2-min.js</exclude>
-                <exclude>site/src/main/webapp/js/jquery.serialScroll-1.2.2-min.js</exclude>
-                <exclude>site/src/main/webapp/js/mootools-1.2.4-core-nc.js</exclude>
-                <exclude>site/src/main/webapp/js/mootools-1.2.4-core.js</exclude>
-                <exclude>site/src/main/webapp/js/syntaxhighlighter_3.0.83/**</exclude>
-                <!-- too meta -->
-                <exclude>etc/dependencies/*</exclude>
-                <exclude>dist/src/overlay/tomcat/bin/*</exclude>
-                <!-- repository content XML -->
-                <exclude>content/src/main/resources/**/*.xml</exclude>
-                <exclude>launcher/src/main/java/com/centerkey/utils/BareBonesBrowserLaunch.java</exclude>
-              </excludes>
-            </configuration>
           </plugin>
         </plugins>
       </build>

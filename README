@@ -1,6 +1,15 @@
 Running locally
 ===============
 
+Optionally, enable the URLRewriteFilter
+---------------------------------------
+The URL Rewriter has been set up in this project on the CMS and site part, however the site's URLRewriteFilter has been
+commented out so the redirecting functionality is off on production, preventing users to add malicious redirects.
+
+If you want to demo URL rewriting on your local machine, uncomment out in the site's web.xml
+the <filter-mapping> element for RewriteFilter. Do not commit this change.
+
+
 Hippo Go Green uses the Maven Cargo plugin to run the CMS and site locally in Tomcat.
 From the project root folder, execute:
 
