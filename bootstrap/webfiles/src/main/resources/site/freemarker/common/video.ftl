@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <h2 class="h2-section-title">
-        ${Request.title}
+        ${Request.title?html}
         </h2>
         <#if Request.icon??>
           <div class="i-section-title">

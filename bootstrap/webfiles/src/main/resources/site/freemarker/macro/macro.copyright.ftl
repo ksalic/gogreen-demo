@@ -7,8 +7,8 @@
     <#if copyright?? && copyright.description?? && copyright.url??>
     <p class="copyright">
       &copy;
-    ${copyright.description}
-      <#if copyright.description?? || copyright.url??><br/></#if><#if copyright.url??><a href="${copyright.url}">${copyright.url}</a>
+    ${copyright.description?html}
+      <#if copyright.description?? || copyright.url??><br/></#if><#if copyright.url??><a href="${copyright.url}">${copyright.url?html}</a>
       <#--    <@c.url var="link" value=copyright.url?html/>
           <#if truncate?? && copyright.url?length gt truncate>
             <@c.url var="text" value=copyright.url?substring(truncat?length)+"..."/>

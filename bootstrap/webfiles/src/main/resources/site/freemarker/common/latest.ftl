@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <h2 class="h2-section-title">
-          ${Request.title}
+          ${Request.title?html}
           </h2>
           <#if Request.icon??>
             <div class="i-section-title">
@@ -27,11 +27,11 @@
             <div class="feature-content">
               <h3 class="h3-body-title blog-title">
                 <a href="<@hst.link hippobean=item/>">
-                ${item.title}
+                ${item.title?html}
                 </a>
               </h3>
               <p>
-              ${item.summary}
+              ${item.summary?html}
               </p>
             </div>
             <div class="feature-details">

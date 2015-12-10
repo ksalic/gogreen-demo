@@ -25,7 +25,7 @@
 
 <c:if test="${not empty requestScope.document}">
     <h2 class="h2-page-desc">
-        ${requestScope.document.title}
+        <c:out value="${requestScope.document.title}"/>
     </h2>
 </c:if>
 

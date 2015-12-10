@@ -22,11 +22,11 @@
     <a href="<hst:link siteMapItemRefId="blogs"/>"><fmt:message key="blogs.overview.content.title"/></a>
 </h1>
 
-<c:if test="${not empty document}">
+<c:if test="${not empty requestScope.document}">
     <h2 class="h2-page-desc">
-        ${document.title}
+        <c:out value="${requestScope.document.title}"/>
     </h2>
-    <hippo-gogreen:title title="${document.title}"/>
+    <hippo-gogreen:title title="${requestScope.document.title}"/>
 </c:if>
 
 <div class="breadcrumb-container">

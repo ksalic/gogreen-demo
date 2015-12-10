@@ -20,10 +20,10 @@
     </div>
   </#if>
 
-    <h2>${Request.document.title}</h2>
+    <h2>${Request.document.title?html}</h2>
 
     <div class="blog-post-body">
-    ${Request.document.summary}
+    ${Request.document.summary?html}
       <#if Request.document.description??>
         <@hst.html hippohtml=Request.document.description/>
       <#elseif Request.document.contentBlocks??>

@@ -10,7 +10,7 @@
                     <@hst.cmseditlink hippobean=banner/>
 
                     <div class="tp-caption big_white large_text sft" data-x="38" data-y="72" data-start="0" data-easing="easeOutBack">
-                    ${banner.title}
+                    ${banner.title?html}
                     </div>
                     <div class="tp-caption revolution-subtext sfb" data-x="38" data-y="136" data-start="0" data-easing="easeOutBack">
                     ${banner.text}

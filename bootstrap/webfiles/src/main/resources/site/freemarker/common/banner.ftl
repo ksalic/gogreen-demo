@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-12 col-sm-12">
             <h2 class="h2-section-title">
-            ${Request.title}
+            ${Request.title?html}
             </h2>
             <#if Request.icon??>
                 <div class="i-section-title">
@@ -31,7 +31,7 @@
                         </i>
                     </div>
                 </#if>
-                <h3 class="h3-section-info">${Request.document.text}</h3>
+                <h3 class="h3-section-info">${Request.document.text?html}</h3>
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">

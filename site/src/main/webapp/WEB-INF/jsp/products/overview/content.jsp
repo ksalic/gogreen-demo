@@ -52,10 +52,10 @@
         </c:if>
         <div class="feature-content">
             <h3 class="h3-body-title blog-title">
-                <a href="${link}">${product.title}</a>
+                <a href="${link}"><c:out value="${product.title}"/></a>
             </h3>
             <p>
-                ${product.summary}
+                <c:out value="${product.summary}"/>
             </p>
         </div>
 

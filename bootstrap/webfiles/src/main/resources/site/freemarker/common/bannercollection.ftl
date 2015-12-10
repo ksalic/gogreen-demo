@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-12 col-sm-12">
             <h2 class="h2-section-title">
-            ${Request.title}
+            ${Request.title?html}
             </h2>
             <#if Request.icon??>
                 <div class="i-section-title">
@@ -45,7 +45,7 @@
                                 <#elseif banner.image??>
                                     <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="${banner.image.alt}" class="icon-replacement"/>
                                 </#if>
-                            ${banner.title}
+                            ${banner.title?html}
                             </h4>
                             <div class="content-box-text">
                             ${banner.text}
