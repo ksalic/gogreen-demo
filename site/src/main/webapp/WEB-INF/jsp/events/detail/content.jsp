@@ -79,10 +79,9 @@
             </c:if>
         </div>
              <!-- If there are any tags for this document, then display them with links -->
+        <div class="tags">
         <c:if test="${!empty requestScope.document.tags}">
             <hst:setBundle basename="general.text"/>
-            
-            <div class="tags">
 
                 <c:forEach var="tag" items="${requestScope.document.tags}">
                     <hst:link siteMapItemRefId="search-faceted" var="link"/>
@@ -90,7 +89,19 @@
                     <a href="${link}/${tagname}/${tag}">${tag}</a>
                 </c:forEach>
 
-            </div>
+
         </c:if>
+            <c:if test="${!empty requestScope.document.categories}">
+                <hst:setBundle basename="messages"/>
+
+                <c:forEach var="tag" items="${requestScope.document.categories}">
+                    <hst:link siteMapItemRefId="search-faceted" var="link"/>
+                    <fmt:message key="search.facet.category" var="tagname" />
+                    <a href="${link}/${tagname}/${tag}">${tag}</a>
+                </c:forEach>
+
+
+            </c:if>
+        </div>
     </div>
 </div>
