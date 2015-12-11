@@ -96,9 +96,26 @@
                     Freelancing
                 </a>
             </div>--%>
-        </div>
+
     </div>
-</div>
+        <!-- Display Tags -->
+        <c:if test="${!empty requestScope.document.categories}">
+            <hst:setBundle basename="messages"/>
+            <div class="tags">
+                <c:forEach items="${requestScope.document.categories}" var ="tag">
+
+                    <hst:link siteMapItemRefId="search-faceted" var="link"/>
+                    <fmt:message key="search.facet.category" var="tagname"/>
+                    <a href="${link}/${tagname}/${tag}">${tag}</a>
+                </c:forEach>
+
+            </div>
+        </c:if>
+
+    </div>
+
+ </div>
+
 
 <c:if test="${not empty requestScope.reviews}">
     <div class="comments" id="comments">
@@ -161,6 +178,7 @@
         </div>
     </div>
 </c:if>
+
 
 <div class="row">
     <div class="blog-span-bottom">
