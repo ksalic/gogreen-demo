@@ -41,4 +41,8 @@ public class EventDocument extends Document {
         return getProperty(Constants.PROP_TAGS);
     }
 
+    public String[] getCategories() {
+        return getProperty(Constants.PROP_CATEGORIES);
+    }
+
 }
