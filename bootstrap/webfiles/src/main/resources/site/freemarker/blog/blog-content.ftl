@@ -68,18 +68,20 @@
       </#if>
       </div>
     </div>
+
     <!-- If there are any tags for this document, then display them with links -->
-  <#if Request.document.tags??>
-    <@hst.setBundle basename="general.text"/>
+  <#if Request.document.categories??>
+    <@hst.setBundle basename="messages"/>
     <div class="tags">
-      <#list Request.document.tags as tag>
+      <#list Request.document.categories as tag>
         <@hst.link siteMapItemRefId="search-faceted" var="link"/>
-        <@fmt.message key="search.facet.tags" var="tagname"/>
+        <@fmt.message key="search.facet.category" var="tagname"/>
         <a href="${link}/${tagname}/${tag}">${tag}</a>
       </#list>
     </div>
   </#if>
   </div>
 </div>
+
 
 <@hst.include ref="comments"/>
