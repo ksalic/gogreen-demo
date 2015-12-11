@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="resource-bundles" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="resource-bundles">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
-  <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>mix:versionable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>b2a0ad7e-8280-469d-ac26-0d27ea57a167</sv:value>
   </sv:property>
-  <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-document</sv:value>
     <sv:value>new-folder</sv:value>
   </sv:property>
@@ -29,7 +28,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
@@ -40,13 +39,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5fe145dc-e1fa-48c3-a51e-fe21211d3768</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>resource-bundles/products-facet/products-facet[3]</sv:value>
         <sv:value>resource-bundles/products-facet/products-facet[2]</sv:value>
@@ -75,30 +74,30 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>products.facet</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>path</sv:value>
         <sv:value>category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>products</sv:value>
         <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>producten</sv:value>
         <sv:value>Categorie</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value>产品</sv:value>
         <sv:value>查看产品</sv:value>
       </sv:property>
@@ -118,13 +117,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>410ff76d-6de3-42f6-8887-27fa76555cb2</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -154,30 +153,30 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>products.facet</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>path</sv:value>
         <sv:value>category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>products</sv:value>
         <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>producten</sv:value>
         <sv:value>Categorie</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value>产品</sv:value>
         <sv:value>查看产品</sv:value>
       </sv:property>
@@ -186,13 +185,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>28446061-1dfd-4542-96f3-2f90c3aa883f</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -225,34 +224,34 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>products.facet</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>path</sv:value>
         <sv:value>category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>products</sv:value>
         <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>produkte</sv:value>
         <sv:value>Kategorie</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>producten</sv:value>
         <sv:value>Categorie</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value>产品</sv:value>
         <sv:value>查看产品</sv:value>
       </sv:property>
@@ -262,7 +261,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
@@ -273,13 +272,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>8231880d-d81a-46b0-b8c0-d1f6a4231c9a</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>resource-bundles/social-media-links/social-media-links[2]</sv:value>
         <sv:value>resource-bundles/social-media-links/social-media-links[3]</sv:value>
@@ -308,18 +307,18 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>social.links</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>facebook.url</sv:value>
         <sv:value>twitter.url</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>https://www.facebook.com/hippocms</sv:value>
         <sv:value>https://twitter.com/onehippo</sv:value>
       </sv:property>
@@ -339,13 +338,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>0b0ae29d-f61f-4cb9-8008-8e13e45e1ab4</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -375,18 +374,18 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>social.links</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>facebook.url</sv:value>
         <sv:value>twitter.url</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>https://www.facebook.com/hippocms</sv:value>
         <sv:value>https://twitter.com/onehippo</sv:value>
       </sv:property>
@@ -395,13 +394,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>29f827fa-a48a-401f-bdd7-fa43a626a37c</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -434,18 +433,18 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>social.links</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>facebook.url</sv:value>
         <sv:value>twitter.url</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>https://www.facebook.com/hippocms</sv:value>
         <sv:value>https://twitter.com/onehippo</sv:value>
       </sv:property>
@@ -455,7 +454,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -465,13 +464,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>367d8387-e1dc-4381-9100-e0f27e7049e8</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>resource-bundles/general/general[3]</sv:value>
         <sv:value>resource-bundles/general/general[2]</sv:value>
@@ -500,38 +499,38 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>general.text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>map.address.placeholder</sv:value>
         <sv:value>search.facet.tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Enter your address...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Ihre Adresse...</sv:value>
         <sv:value>Etikett</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value>Enter your address...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Entrez votre adresse...</sv:value>
         <sv:value>étiquette</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Voer je adres in...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value>输入您的地址</sv:value>
         <sv:value>标签</sv:value>
       </sv:property>
@@ -540,13 +539,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>c3541690-180c-46fc-8c29-5999cbea7a91</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -576,38 +575,38 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>general.text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>map.address.placeholder</sv:value>
         <sv:value>search.facet.tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Enter your address...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Ihre Adresse...</sv:value>
         <sv:value>Etikett</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value>Enter your address...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Entrez votre adresse...</sv:value>
         <sv:value>étiquette</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Voer je adres in...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value>输入您的地址</sv:value>
         <sv:value>标签</sv:value>
       </sv:property>
@@ -616,13 +615,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5ce7eddb-fd1a-4b89-b76c-c4598748a906</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -655,38 +654,38 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>general.text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>map.address.placeholder</sv:value>
         <sv:value>search.facet.tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Enter your address...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Ihre Adresse...</sv:value>
         <sv:value>Etikett</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value>Enter your address...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Entrez votre adresse...</sv:value>
         <sv:value>étiquette</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Voer je adres in...</sv:value>
         <sv:value>Tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value>输入您的地址</sv:value>
         <sv:value>标签</sv:value>
       </sv:property>
@@ -696,7 +695,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
@@ -707,13 +706,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e39d5b13-3697-4772-aa90-3bb8245c1942</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>resource-bundles/document-type/document-type[3]</sv:value>
         <sv:value>resource-bundles/document-type/document-type[2]</sv:value>
@@ -742,7 +741,7 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value>News Document</sv:value>
         <sv:value/>
         <sv:value/>
@@ -753,7 +752,7 @@
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>document.type</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:newsitem</sv:value>
         <sv:value>hippogogreen:blogitem</sv:value>
         <sv:value>hippogogreen:event</sv:value>
@@ -761,7 +760,7 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
         <sv:value>hippogogreen:richtextsnippet</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>News</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Events</sv:value>
@@ -769,7 +768,7 @@
         <sv:value>Simple Document</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_cn" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_cn" sv:type="String" sv:multiple="true">
         <sv:value>新闻</sv:value>
         <sv:value>博客</sv:value>
         <sv:value>事件</sv:value>
@@ -777,7 +776,7 @@
         <sv:value>简单的文档</sv:value>
         <sv:value>多信息文本</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Nachrichtenartikel</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Veranstaltungen</sv:value>
@@ -785,7 +784,7 @@
         <sv:value>Einfaches Dokument</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value>News</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Events</sv:value>
@@ -793,7 +792,7 @@
         <sv:value>Simple Document</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Actualités</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Évènements</sv:value>
@@ -801,7 +800,7 @@
         <sv:value>Document simple</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -809,7 +808,7 @@
         <sv:value/>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Nieuwsartikel</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Evenementen</sv:value>
@@ -833,13 +832,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>ffd6622c-fd81-431e-a4f4-5936e72f23e1</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -869,7 +868,7 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value>News Document</sv:value>
         <sv:value/>
         <sv:value/>
@@ -880,7 +879,7 @@
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>document.type</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:newsitem</sv:value>
         <sv:value>hippogogreen:blogitem</sv:value>
         <sv:value>hippogogreen:event</sv:value>
@@ -888,7 +887,7 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
         <sv:value>hippogogreen:richtextsnippet</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>News</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Events</sv:value>
@@ -896,7 +895,7 @@
         <sv:value>Simple Document</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_cn" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_cn" sv:type="String" sv:multiple="true">
         <sv:value>新闻</sv:value>
         <sv:value>博客</sv:value>
         <sv:value>事件</sv:value>
@@ -904,7 +903,7 @@
         <sv:value>简单的文档</sv:value>
         <sv:value>多信息文本</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Nachrichtenartikel</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Veranstaltungen</sv:value>
@@ -912,7 +911,7 @@
         <sv:value>Einfaches Dokument</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value>News</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Events</sv:value>
@@ -920,7 +919,7 @@
         <sv:value>Simple Document</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Actualités</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Évènements</sv:value>
@@ -928,7 +927,7 @@
         <sv:value>Document simple</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -936,7 +935,7 @@
         <sv:value/>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Nieuwsartikel</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Evenementen</sv:value>
@@ -949,13 +948,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>7553be4a-ae57-473c-b7a7-652d43cacec5</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -988,7 +987,7 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value>News Document</sv:value>
         <sv:value/>
         <sv:value/>
@@ -999,7 +998,7 @@
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>document.type</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:newsitem</sv:value>
         <sv:value>hippogogreen:blogitem</sv:value>
         <sv:value>hippogogreen:event</sv:value>
@@ -1007,7 +1006,7 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
         <sv:value>hippogogreen:richtextsnippet</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>News</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Events</sv:value>
@@ -1015,7 +1014,7 @@
         <sv:value>Simple Document</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_cn" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_cn" sv:type="String" sv:multiple="true">
         <sv:value>新闻</sv:value>
         <sv:value>博客</sv:value>
         <sv:value>事件</sv:value>
@@ -1023,7 +1022,7 @@
         <sv:value>简单的文档</sv:value>
         <sv:value>多信息文本</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Nachrichtenartikel</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Veranstaltungen</sv:value>
@@ -1031,7 +1030,7 @@
         <sv:value>Einfaches Dokument</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value>News</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Events</sv:value>
@@ -1039,7 +1038,7 @@
         <sv:value>Simple Document</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Actualités</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Évènements</sv:value>
@@ -1047,7 +1046,7 @@
         <sv:value>Document simple</sv:value>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -1055,7 +1054,7 @@
         <sv:value/>
         <sv:value>Rich Text</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Nieuwsartikel</sv:value>
         <sv:value>Blogs</sv:value>
         <sv:value>Evenementen</sv:value>
@@ -1069,7 +1068,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -1079,13 +1078,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>d445ead2-1b58-4eab-89bb-255f37368886</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -1104,13 +1103,13 @@
         <sv:value>2015-03-30T15:52:28.727-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-11-20T16:46:30.925-05:00</sv:value>
+        <sv:value>2015-12-10T16:21:55.298-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-11-20T16:46:35.208-05:00</sv:value>
+        <sv:value>2015-12-10T16:22:01.237-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>f933d582-7ac4-4cbd-9dd8-f41b088b0364</sv:value>
@@ -1118,7 +1117,8 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -1429,7 +1429,7 @@
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>messages</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>about.edit</sv:value>
         <sv:value>about.subtitle</sv:value>
         <sv:value>about.title</sv:value>
@@ -1736,8 +1736,9 @@
         <sv:value>blogs.detail.content.nocomments</sv:value>
         <sv:value>standard.date.format</sv:value>
         <sv:value>standard.header.langnav.language.en-gb</sv:value>
+        <sv:value>search.facet.category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Our story</sv:value>
         <sv:value>About</sv:value>
@@ -2044,8 +2045,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>MMMM d, YYY</sv:value>
         <sv:value>English</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Editieren</sv:value>
         <sv:value>Unsere Geschichte</sv:value>
         <sv:value>Über</sv:value>
@@ -2352,8 +2354,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd.MMMM YYYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Our story</sv:value>
         <sv:value>About</sv:value>
@@ -2660,8 +2663,9 @@
         <sv:value>No Comments</sv:value>
         <sv:value>MMMM d, YYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_es" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_es" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value>sobre</sv:value>
@@ -2968,8 +2972,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Éditer</sv:value>
         <sv:value>Notre histoire</sv:value>
         <sv:value>À propos</sv:value>
@@ -3276,8 +3281,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd/MM/YYYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value>Modifica</sv:value>
         <sv:value/>
         <sv:value>About</sv:value>
@@ -3584,8 +3590,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Onze geschiedenis</sv:value>
         <sv:value>About</sv:value>
@@ -3892,8 +3899,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd MMMM YYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_ru" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_ru" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value>О</sv:value>
@@ -4200,8 +4208,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>我们的故事</sv:value>
         <sv:value>公司介绍</sv:value>
@@ -4508,19 +4517,20 @@
         <sv:value>No comments</sv:value>
         <sv:value>YYYY MM dd</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="messages">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9d19e731-9ffc-4133-b6b4-add578ff8523</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>resource-bundles/messages/messages</sv:value>
         <sv:value>resource-bundles/messages/messages[3]</sv:value>
@@ -4538,7 +4548,7 @@
         <sv:value>2015-03-30T15:52:28.727-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-11-20T16:46:16.458-05:00</sv:value>
+        <sv:value>2015-12-10T16:21:16.624-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -4549,7 +4559,8 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -4860,7 +4871,7 @@
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>messages</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>about.edit</sv:value>
         <sv:value>about.subtitle</sv:value>
         <sv:value>about.title</sv:value>
@@ -5167,8 +5178,9 @@
         <sv:value>blogs.detail.content.nocomments</sv:value>
         <sv:value>standard.date.format</sv:value>
         <sv:value>standard.header.langnav.language.en-gb</sv:value>
+        <sv:value>search.facet.category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Our story</sv:value>
         <sv:value>About</sv:value>
@@ -5475,8 +5487,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>MMMM d, YYY</sv:value>
         <sv:value>English</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Editieren</sv:value>
         <sv:value>Unsere Geschichte</sv:value>
         <sv:value>Über</sv:value>
@@ -5783,8 +5796,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd.MMMM YYYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Our story</sv:value>
         <sv:value>About</sv:value>
@@ -6091,8 +6105,9 @@
         <sv:value>No Comments</sv:value>
         <sv:value>MMMM d, YYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_es" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_es" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value>sobre</sv:value>
@@ -6399,8 +6414,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Éditer</sv:value>
         <sv:value>Notre histoire</sv:value>
         <sv:value>À propos</sv:value>
@@ -6707,8 +6723,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd/MM/YYYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value>Modifica</sv:value>
         <sv:value/>
         <sv:value>About</sv:value>
@@ -7015,8 +7032,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Onze geschiedenis</sv:value>
         <sv:value>About</sv:value>
@@ -7323,8 +7341,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd MMMM YYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_ru" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_ru" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value>О</sv:value>
@@ -7631,8 +7650,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>我们的故事</sv:value>
         <sv:value>公司介绍</sv:value>
@@ -7939,19 +7959,20 @@
         <sv:value>No comments</sv:value>
         <sv:value>YYYY MM dd</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="messages">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>f5735450-8ea2-46e8-8b6b-1f80d5bc442d</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -7970,7 +7991,7 @@
         <sv:value>2015-03-30T15:52:28.727-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-11-20T16:46:30.925-05:00</sv:value>
+        <sv:value>2015-12-10T16:21:55.298-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -7981,7 +8002,8 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -8292,7 +8314,7 @@
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>messages</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>about.edit</sv:value>
         <sv:value>about.subtitle</sv:value>
         <sv:value>about.title</sv:value>
@@ -8599,8 +8621,9 @@
         <sv:value>blogs.detail.content.nocomments</sv:value>
         <sv:value>standard.date.format</sv:value>
         <sv:value>standard.header.langnav.language.en-gb</sv:value>
+        <sv:value>search.facet.category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Our story</sv:value>
         <sv:value>About</sv:value>
@@ -8907,8 +8930,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>MMMM d, YYY</sv:value>
         <sv:value>English</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Editieren</sv:value>
         <sv:value>Unsere Geschichte</sv:value>
         <sv:value>Über</sv:value>
@@ -9215,8 +9239,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd.MMMM YYYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Our story</sv:value>
         <sv:value>About</sv:value>
@@ -9523,8 +9548,9 @@
         <sv:value>No Comments</sv:value>
         <sv:value>MMMM d, YYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_es" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_es" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value>sobre</sv:value>
@@ -9831,8 +9857,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Éditer</sv:value>
         <sv:value>Notre histoire</sv:value>
         <sv:value>À propos</sv:value>
@@ -10139,8 +10166,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd/MM/YYYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value>Modifica</sv:value>
         <sv:value/>
         <sv:value>About</sv:value>
@@ -10447,8 +10475,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>Onze geschiedenis</sv:value>
         <sv:value>About</sv:value>
@@ -10755,8 +10784,9 @@
         <sv:value>No comments</sv:value>
         <sv:value>dd MMMM YYY</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_ru" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_ru" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value>О</sv:value>
@@ -11063,8 +11093,9 @@
         <sv:value>No comments</sv:value>
         <sv:value/>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value>我们的故事</sv:value>
         <sv:value>公司介绍</sv:value>
@@ -11371,6 +11402,7 @@
         <sv:value>No comments</sv:value>
         <sv:value>YYYY MM dd</sv:value>
         <sv:value>United Kingdom</sv:value>
+        <sv:value>Category</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
@@ -11378,7 +11410,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -11388,13 +11420,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>164d6da6-cdcb-4cce-a7e9-e2ad421dd70f</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>resource-bundles/typenames/typenames[2]</sv:value>
         <sv:value>resource-bundles/typenames/typenames[3]</sv:value>
@@ -11423,11 +11455,11 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String"/>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>typenames</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:banner</sv:value>
         <sv:value>hippogogreen:comment</sv:value>
         <sv:value>hippogogreen:event</sv:value>
@@ -11442,7 +11474,7 @@
         <sv:value>poll:polldocument</sv:value>
         <sv:value>tcmp:tagcloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Comment</sv:value>
         <sv:value>Event</sv:value>
@@ -11457,7 +11489,7 @@
         <sv:value>Poll</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Kommentar</sv:value>
         <sv:value>Event</sv:value>
@@ -11472,7 +11504,7 @@
         <sv:value>Umfrage</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11487,7 +11519,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_es" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_es" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11502,7 +11534,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Bannière</sv:value>
         <sv:value>Commentaire</sv:value>
         <sv:value>Évènement</sv:value>
@@ -11517,7 +11549,7 @@
         <sv:value>Sondage</sv:value>
         <sv:value>Nuage de tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Commento</sv:value>
         <sv:value>Evento</sv:value>
@@ -11532,7 +11564,7 @@
         <sv:value>Sondaggio</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Commentaar</sv:value>
         <sv:value>Evenement</sv:value>
@@ -11547,7 +11579,7 @@
         <sv:value>Poll</sv:value>
         <sv:value>Sleutelwolk</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_ru" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_ru" sv:type="String" sv:multiple="true">
         <sv:value>баннер</sv:value>
         <sv:value>комментарий</sv:value>
         <sv:value>событие</sv:value>
@@ -11562,7 +11594,7 @@
         <sv:value>обзор</sv:value>
         <sv:value>облако тегов</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11582,13 +11614,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5d94ae43-a959-4b84-a8f1-08cb0f6f171b</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -11618,11 +11650,11 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String"/>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>typenames</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:banner</sv:value>
         <sv:value>hippogogreen:comment</sv:value>
         <sv:value>hippogogreen:event</sv:value>
@@ -11637,7 +11669,7 @@
         <sv:value>poll:polldocument</sv:value>
         <sv:value>tcmp:tagcloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Comment</sv:value>
         <sv:value>Event</sv:value>
@@ -11652,7 +11684,7 @@
         <sv:value>Poll</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Kommentar</sv:value>
         <sv:value>Event</sv:value>
@@ -11667,7 +11699,7 @@
         <sv:value>Umfrage</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11682,7 +11714,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_es" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_es" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11697,7 +11729,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Bannière</sv:value>
         <sv:value>Commentaire</sv:value>
         <sv:value>Évènement</sv:value>
@@ -11712,7 +11744,7 @@
         <sv:value>Sondage</sv:value>
         <sv:value>Nuage de tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Commento</sv:value>
         <sv:value>Evento</sv:value>
@@ -11727,7 +11759,7 @@
         <sv:value>Sondaggio</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Commentaar</sv:value>
         <sv:value>Evenement</sv:value>
@@ -11742,7 +11774,7 @@
         <sv:value>Poll</sv:value>
         <sv:value>Sleutelwolk</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_ru" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_ru" sv:type="String" sv:multiple="true">
         <sv:value>баннер</sv:value>
         <sv:value>комментарий</sv:value>
         <sv:value>событие</sv:value>
@@ -11757,7 +11789,7 @@
         <sv:value>обзор</sv:value>
         <sv:value>облако тегов</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11772,7 +11804,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:type" sv:type="String">
+      <sv:property sv:name="resourcebundle:type" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:banner</sv:value>
         <sv:value>hippogogreen:comment</sv:value>
         <sv:value>hippogogreen:event</sv:value>
@@ -11792,13 +11824,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>cb84a358-00db-493c-b742-9ba9cac480a3</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -11831,11 +11863,11 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String"/>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>typenames</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:banner</sv:value>
         <sv:value>hippogogreen:comment</sv:value>
         <sv:value>hippogogreen:event</sv:value>
@@ -11850,7 +11882,7 @@
         <sv:value>poll:polldocument</sv:value>
         <sv:value>tcmp:tagcloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Comment</sv:value>
         <sv:value>Event</sv:value>
@@ -11865,7 +11897,7 @@
         <sv:value>Poll</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Kommentar</sv:value>
         <sv:value>Event</sv:value>
@@ -11880,7 +11912,7 @@
         <sv:value>Umfrage</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_en" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_en" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11895,7 +11927,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_es" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_es" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11910,7 +11942,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Bannière</sv:value>
         <sv:value>Commentaire</sv:value>
         <sv:value>Évènement</sv:value>
@@ -11925,7 +11957,7 @@
         <sv:value>Sondage</sv:value>
         <sv:value>Nuage de tags</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_it" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_it" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Commento</sv:value>
         <sv:value>Evento</sv:value>
@@ -11940,7 +11972,7 @@
         <sv:value>Sondaggio</sv:value>
         <sv:value>Tag Cloud</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
         <sv:value>Banner</sv:value>
         <sv:value>Commentaar</sv:value>
         <sv:value>Evenement</sv:value>
@@ -11955,7 +11987,7 @@
         <sv:value>Poll</sv:value>
         <sv:value>Sleutelwolk</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_ru" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_ru" sv:type="String" sv:multiple="true">
         <sv:value>баннер</sv:value>
         <sv:value>комментарий</sv:value>
         <sv:value>событие</sv:value>
@@ -11970,7 +12002,7 @@
         <sv:value>обзор</sv:value>
         <sv:value>облако тегов</sv:value>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
+      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -11985,7 +12017,7 @@
         <sv:value/>
         <sv:value/>
       </sv:property>
-      <sv:property sv:multiple="true" sv:name="resourcebundle:type" sv:type="String">
+      <sv:property sv:name="resourcebundle:type" sv:type="String" sv:multiple="true">
         <sv:value>hippogogreen:banner</sv:value>
         <sv:value>hippogogreen:comment</sv:value>
         <sv:value>hippogogreen:event</sv:value>
