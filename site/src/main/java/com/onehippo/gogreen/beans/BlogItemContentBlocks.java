@@ -1,14 +1,7 @@
 package com.onehippo.gogreen.beans;
 
-import com.onehippo.gogreen.beans.compound.Copyright;
-import com.onehippo.gogreen.beans.compound.ImageSet;
-import com.onehippo.gogreen.utils.Constants;
-import org.hippoecm.hst.content.beans.ContentNodeBinder;
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import org.hippoecm.hst.content.beans.Node;
-import org.hippoecm.hst.content.beans.standard.HippoBean;
-import org.hippoecm.hst.content.beans.standard.HippoFacetSelect;
-import org.hippoecm.hst.content.beans.standard.HippoMirror;
 
 import javax.jcr.ItemExistsException;
 import javax.jcr.PathNotFoundException;
@@ -18,14 +11,9 @@ import javax.jcr.lock.LockException;
 import javax.jcr.nodetype.ConstraintViolationException;
 import javax.jcr.nodetype.NoSuchNodeTypeException;
 import javax.jcr.version.VersionException;
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
-/**
- * Created by charliechen on 11/19/15.
- */
-@Node(jcrType="hippogogreen:blogitemcb")
+@Node(jcrType = "hippogogreen:blogitemcb")
 public class BlogItemContentBlocks extends BlogItem {
 
     public List<?> getParagraphBlocks() {
