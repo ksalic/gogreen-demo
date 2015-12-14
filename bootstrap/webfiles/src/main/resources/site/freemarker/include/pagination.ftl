@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="pageable" class="org.onehippo.cms7.essentials.components.paging.Pageable" -->
+<#-- @ftlvariable name="Request.pageable" type="com.onehippo.gogreen.utils.Pageable" -->
 <#include "../include/imports.ftl">
 <#if Request.pageable??>
 <ul class="pagination">
