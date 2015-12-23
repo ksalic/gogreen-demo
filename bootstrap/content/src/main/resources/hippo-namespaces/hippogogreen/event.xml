@@ -775,7 +775,7 @@
                 <sv:value>hippo:translation</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:language" sv:type="String">
-                <sv:value>nl</sv:value>
+                <sv:value>fr</sv:value>
               </sv:property>
               <sv:property sv:name="hippo:message" sv:type="String">
                 <sv:value>Catégories</sv:value>
@@ -898,6 +898,14 @@
           </sv:property>
           <sv:property sv:name="categories" sv:type="String">
             <sv:value>/content/documents/hippo-geht-gruen/common/valuelists/categories</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="locale.en-gb">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>frontend:pluginconfig</sv:value>
+          </sv:property>
+          <sv:property sv:name="categories" sv:type="String">
+            <sv:value>/content/documents/hippogogreen-uk/common/valuelists/categories</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
