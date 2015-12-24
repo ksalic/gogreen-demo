@@ -774,68 +774,6 @@
           </sv:node>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="localizingValuelistProvider">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>frontend:plugin</sv:value>
-        </sv:property>
-        <sv:property sv:name="plugin.class" sv:type="String">
-          <sv:value>com.onehippo.gogreen.selection.LocalizingValueListProvider</sv:value>
-        </sv:property>
-        <sv:property sv:name="valuelist.provider" sv:type="String">
-          <sv:value>${cluster.id}.valuelist</sv:value>
-        </sv:property>
-        <sv:property sv:name="valuelist.provider.original" sv:type="String">
-          <sv:value>service.valuelist.default</sv:value>
-        </sv:property>
-        <sv:node sv:name="locale.nl">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="categories" sv:type="String">
-            <sv:value>/content/documents/hippogagroen/common/valuelists/categories</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="locale.en">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="categories" sv:type="String">
-            <sv:value>/content/documents/hippogogreen/common/valuelists/categories</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="locale.fr">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="categories" sv:type="String">
-            <sv:value>/content/documents/hippomiseauvert/common/valuelists/categories</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="locale.zh">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="categories" sv:type="String">
-            <sv:value>/content/documents/河马转到绿/common/valuelists/categories</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="locale.de">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="categories" sv:type="String">
-            <sv:value>/content/documents/hippo-geht-gruen/common/valuelists/categories</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="locale.en-gb">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="categories" sv:type="String">
-            <sv:value>/content/documents/hippogogreen-uk/common/valuelists/categories</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
       <sv:node sv:name="root">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
@@ -1101,9 +1039,6 @@
         <sv:property sv:name="translator.id" sv:type="String">
           <sv:value>${cluster.id}.translator</sv:value>
         </sv:property>
-        <sv:property sv:name="valuelist.provider" sv:type="String">
-          <sv:value>${cluster.id}.valuelist</sv:value>
-        </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.right.item</sv:value>
         </sv:property>
@@ -1112,7 +1047,7 @@
             <sv:value>frontend:pluginconfig</sv:value>
           </sv:property>
           <sv:property sv:name="source" sv:type="String">
-            <sv:value>categories</sv:value>
+            <sv:value>/content/documents/hippogogreen/common/valuelists/categories</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>
