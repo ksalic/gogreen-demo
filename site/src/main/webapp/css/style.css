@@ -6827,3 +6827,14 @@ Testimonial
 
 .body-wrapper figure.left { float: left; margin: 0 10px 10px 0; }
 .body-wrapper figure.right { float: right; margin: 0 0 10px 10px; }
+
+#login {
+    margin: 10px 0 0 0;
+    float: right;
+}
+
+#login .first { float: right; }
+
+#login-form { text-align: right; }
+
+#login-form > form { display: inline-block; }

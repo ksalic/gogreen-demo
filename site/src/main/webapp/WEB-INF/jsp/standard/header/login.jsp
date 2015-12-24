@@ -24,6 +24,9 @@
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst'%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
+<hst:setBundle basename="messages"/>
+
+<div class="col-sm-12">
 <!-- login -->
 <c:choose>
   <c:when test="${requestScope.loggedin}">
@@ -32,7 +35,7 @@
         <c:if test="${not empty requestScope.user.firstname}">,&nbsp;${requestScope.user.firstname}</c:if><c:if test="${not empty requestScope.user.lastname}">&nbsp;${requestScope.user.lastname}</c:if>
       </span>
       <hst:link var="logoutLink" path="/login/logout" />
-      <span class="first"><a class="black" href="${logoutLink}"><fmt:message key="standard.header.login.logoutlink"/></a></span>
+      <span class="first">&nbsp;&nbsp;<a class="black" href="${logoutLink}"><fmt:message key="standard.header.login.logoutlink"/></a></span>
     </div>
   </c:when>
   <c:when test="${requestScope.login}">
@@ -59,3 +62,4 @@
     </div>
   </c:otherwise>
 </c:choose>
+</div>

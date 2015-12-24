@@ -475,6 +475,7 @@
       <sv:value>topbar</sv:value>
       <sv:value>logo</sv:value>
       <sv:value>mainnavigation</sv:value>
+      <sv:value>login</sv:value>
     </sv:property>
     <sv:property sv:name="hst:script" sv:type="String">
       <sv:value>&lt;#--&#13;
@@ -507,6 +508,10 @@
         &lt;!-- Logo --&gt;&#13;
         &lt;@hst.include ref="logo"/&gt;&#13;
         &lt;!-- //Logo// --&gt;&#13;
+        &#13;
+        &lt;!-- Login --&gt;&#13;
+        &lt;@hst.include ref="login"/&gt;&#13;
+        &lt;!-- //Login// --&gt;&#13;
         &#13;
         &lt;!-- Main navigation --&gt;&#13;
         &lt;@hst.include ref="mainnavigation"/&gt;&#13;
