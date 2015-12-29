@@ -234,6 +234,28 @@ html, body, #hd, #bd, #ft { width: 320px; }
     display: none;
 }
 
+.richtextsnippet-component,
+.banner-component{
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.richtextsnippet-component h1,
+.banner-component h2{
+    font-size: 18px;
+    clear: both;
+}
+
+.richtextsnippet-component img,
+.banner-component img{
+    width: 100%;
+}
+
+.richtextsnippet-component h3,
+.banner-component .h3-section-info{
+    padding: 5px 3px;
+}
+
 /* Footer */
 #ft a { color: white; }
 #ft, #ft p, #ft span { color: #ccc; }
