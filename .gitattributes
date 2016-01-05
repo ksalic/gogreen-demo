@@ -611,6 +611,10 @@ dist/src/overlay/tomcat/webapps/ROOT/index.html -text
 dist/src/overlay/tomcat/webapps/ROOT/js/check-cms.js -text
 dist/src/overlay/tomcat/webapps/ROOT/js/iehoverfix.js -text
 dist/src/overlay/tomcat/webapps/ROOT/walkthrough.html -text
+embedded-elasticsearch/src/main/resources/requests-data.bz2 -text svneol=unset#unset
+embedded-elasticsearch/src/main/resources/targeting-data-data.bz2 -text svneol=unset#unset
+embedded-elasticsearch/src/main/resources/visits-data.bz2 -text svneol=unset#unset
+embedded-elasticsearch/src/test/resources/visitor-profiles.json -text
 essentials/pom.xml -text
 essentials/src/main/resources/project-settings.xml -text
 essentials/src/main/webapp/WEB-INF/web.xml -text
@@ -857,15 +861,12 @@ site/src/main/resources/messages_it_IT.deprecated.properties -text
 site/src/main/resources/messages_nl_NL.deprecated.properties -text
 site/src/main/resources/messages_ru_RU.deprecated.properties -text
 site/src/main/resources/messages_zh_CN.deprecated.properties -text
-site/src/main/resources/requests-data.bz2 -text svneol=unset#unset
-site/src/main/resources/targeting-data-data.bz2 -text svneol=unset#unset
 site/src/main/resources/typenames.deprecated.properties -text
 site/src/main/resources/typenames_de_DE.deprecated.properties -text
 site/src/main/resources/typenames_fr_FR.deprecated.properties -text
 site/src/main/resources/typenames_it_IT.deprecated.properties -text
 site/src/main/resources/typenames_nl_NL.deprecated.properties -text
 site/src/main/resources/typenames_ru_RU.deprecated.properties -text
-site/src/main/resources/visits-data.bz2 -text svneol=unset#unset
 site/src/main/webapp/META-INF/context.xml -text
 site/src/main/webapp/WEB-INF/hst-config.properties -text
 site/src/main/webapp/WEB-INF/jsp/about/content.jsp -text
@@ -1815,5 +1816,4 @@ site/src/main/webapp/js/syntaxhighlighter_3.0.83/styles/shThemeMidnight.css -tex
 site/src/main/webapp/js/syntaxhighlighter_3.0.83/styles/shThemeRDark.css -text
 site/src/test/java/com/onehippo/gogreen/utils/TestUserAgentUtils.java -text
 site/src/test/resources/log4j.properties -text
-site/src/test/resources/visitor-profiles.json -text
 src/main/assembly/distribution.xml -text
