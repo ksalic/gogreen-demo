@@ -8,7 +8,7 @@
 <!--[if gt IE 8]><!-->
 <#--
 
-Copyright 2010-2014 Hippo B.V. (http://www.onehippo.com)
+Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -84,17 +84,17 @@ limitations under the License.
     <script type="text/javascript" src="${js_respond}"></script>
     <![endif]-->
 
-    <!--DISABLED
+    <#--DISABLED
         <@hst.link var="yuicss" path="/css/yui-css.css"/>
         <link rel="stylesheet" media="screen" type="text/css" href="${yuicss}"/>
 
         <@hst.link var="screencss" path="/css/screen.css"/>
         <link rel="stylesheet" media="screen" type="text/css" href="${screencss}"/>
-
+    -->
         <#if loggedin>
         <@hst.link var="resellercss" path="/css/reseller.css"/>
         <link rel="stylesheet" media="screen" type="text/css" href="${resellercss}"/>
-        </#if>-->
+        </#if>
 
 <#if hstRequest.requestContext.resolvedMount.mount.channelInfo.themeCss?has_content>
     <@hst.link var="themecss" path="/binaries${hstRequest.requestContext.resolvedMount.mount.channelInfo.themeCss}"/>
@@ -129,7 +129,7 @@ limitations under the License.
     <link rel="stylesheet" href="${css_ie_fixes}">
     <![endif]-->
 
-    <!--
+    <#--
         <@hst.link var="print" path="/css/print.css"/>
         <link rel="stylesheet" media="print" type="text/css" href="${print}">
         -->
@@ -208,7 +208,7 @@ limitations under the License.
 <script src="${js_jQueryXDomainRequest}" type="text/javascript"></script>
 <@hst.link var="js_kanzi" path="/js/kanzi.js"/>
 <script src="${js_kanzi}" type="text/javascript"></script>
-<!--<@hst.link var="js_retina" path="/js/retina.js"/>
+<#--<@hst.link var="js_retina" path="/js/retina.js"/>
         <script src="${js_retina}" type="text/javascript"></script>-->
 
 <@hst.headContributions categoryIncludes="scripts"/>

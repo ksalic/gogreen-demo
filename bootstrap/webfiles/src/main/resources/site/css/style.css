@@ -335,9 +335,7 @@ textarea .h4-section-title {
     /*border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;*/
     padding: 40px 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: no-repeat fixed center center;
     background-size: cover;
 }
 
@@ -346,9 +344,7 @@ textarea .h4-section-title {
 }
 
 .section-content.section-px {
-    background-image: url(../images/blurred1.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background: url(../images/blurred1.jpg) no-repeat fixed;
     border: none;
 }
 
@@ -1267,8 +1263,7 @@ Blog
 
 
 .blog-post .blog-post-featured-img {
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background: no-repeat bottom;
     position: relative;
     margin: 0 0 20px 0;
     box-sizing: border-box;
@@ -1807,8 +1802,7 @@ Blog Single
 
 .feature.blog-masonry {
     width: 235px;
-    margin: 0;
-    margin-top: 20px;
+    margin: 20px 0 0;
     box-sizing: border-box;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;

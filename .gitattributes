@@ -69,6 +69,12 @@ bootstrap/configuration/src/main/resources/configuration/users/editor18.xml -tex
 bootstrap/configuration/src/main/resources/configuration/users/editor19.xml -text
 bootstrap/configuration/src/main/resources/configuration/users/editor20.xml -text
 bootstrap/configuration/src/main/resources/hippoecm-extension.xml -text
+bootstrap/configuration/src/main/resources/hst/configurations/common/pages/faq-overview.xml -text
+bootstrap/configuration/src/main/resources/hst/configurations/common/templates.xml -text
+bootstrap/configuration/src/main/resources/hst/configurations/hippogogreen/sitemap.xml -text
+bootstrap/configuration/src/main/resources/hst/configurations/hippogogreen/workspace.xml -text
+bootstrap/configuration/src/main/resources/hst/configurations/hippogogreen_uk/sitemap.xml -text
+bootstrap/configuration/src/main/resources/hst/configurations/hippogogreen_uk/workspace.xml -text
 bootstrap/content/pom.xml -text
 bootstrap/content/src/main/resources/adv-search-campaign-filter-translator.xml -text svneol=unset#text/plain
 bootstrap/content/src/main/resources/adv-search-campaign-filter.xml -text svneol=unset#text/plain
@@ -92,6 +98,8 @@ bootstrap/content/src/main/resources/content/default-content.xml -text
 bootstrap/content/src/main/resources/content/documents/administration.xml -text
 bootstrap/content/src/main/resources/content/documents/administration/resource-bundles.xml -text
 bootstrap/content/src/main/resources/content/documents/administration/translation.xml -text
+bootstrap/content/src/main/resources/content/documents/hippogogreen-uk/resellerfaqs.xml -text
+bootstrap/content/src/main/resources/content/documents/hippogogreen/resellerfaqs.xml -text
 bootstrap/content/src/main/resources/content/eforms.xml -text
 bootstrap/content/src/main/resources/content/en-gb/about.xml -text svneol=unset#application/xml
 bootstrap/content/src/main/resources/content/en-gb/blogs.xml -text svneol=unset#application/xml
@@ -477,6 +485,8 @@ bootstrap/webfiles/src/main/resources/site/freemarker/common/richtextsnippet.ftl
 bootstrap/webfiles/src/main/resources/site/freemarker/common/richtextsnippet/richtextsnippet-halfsize.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/video.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/video/video-vimeo.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/faq/overview/content.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/faq/overview/top.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/include/imports.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/layout/layout.facebook.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/layout/layout.webpage.ftl -text

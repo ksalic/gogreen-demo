@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -61,7 +61,10 @@
 
         <div class="feature-details">
             <i class="icon-banknote"> </i>
-            <span><fmt:formatNumber value="${product.price}" type="currency"/></span>
+            <span class="${requestScope.reseller ? 'nonresellerprice' : ''}"><fmt:formatNumber value="${product.price}" type="currency"/></span>
+            <c:if test="${requestScope.reseller}">
+                <span class="resellerprice"><fmt:formatNumber value="${product.resellerPrice}" type="currency"/></span>
+            </c:if>
             <div class="feature-share">
                 <c:if test="${product.rating ne 0}">
                     <span data-score="${product.rating}" class="product-rating"/>
