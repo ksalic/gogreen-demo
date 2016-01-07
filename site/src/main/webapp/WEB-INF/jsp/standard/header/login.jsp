@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,35 +25,37 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <hst:setBundle basename="messages"/>
-
-<div class="col-sm-12">
+<hst:link var="destination" />
+<div class="container">
 <!-- login -->
 <c:choose>
   <c:when test="${requestScope.loggedin}">
     <div id="login">
       <span class="username"><fmt:message key="standard.header.login.welcome"/>
-        <c:if test="${not empty requestScope.user.firstname}">,&nbsp;${requestScope.user.firstname}</c:if><c:if test="${not empty requestScope.user.lastname}">&nbsp;${requestScope.user.lastname}</c:if>
+        <c:if test="${not empty requestScope.user.firstname}">,&nbsp;${requestScope.user.firstname}</c:if>
+        <c:if test="${not empty requestScope.user.lastname}">&nbsp;${requestScope.user.lastname}</c:if>
       </span>
       <hst:link var="logoutLink" path="/login/logout" />
-      <span class="first">&nbsp;&nbsp;<a class="black" href="${logoutLink}"><fmt:message key="standard.header.login.logoutlink"/></a></span>
+      <span class="first">&nbsp;&nbsp;<a class="black" href="${logoutLink}?destination=${destination}"><fmt:message key="standard.header.login.logoutlink"/></a></span>
     </div>
   </c:when>
   <c:when test="${requestScope.login}">
-    <hst:link var="destination" />
+
     <hst:link var="loginLink" path="/login/proxy" />
     <div id="login-form">
-      <form action="${loginLink}" method="post">
-        <input class="login-field gray" type="text" name="username" value="<fmt:message key="standard.header.login.input.username"/>" onclick="this.value=''; this.className='login-field'" />
-        <input class="login-field gray" type="password" name="password" value="<fmt:message key="standard.header.login.input.password"/>" onclick="this.value=''; this.className='login-field'" />
-        <input type="hidden" name="destination" value="${destination}" />
-        <input type="submit" value="<fmt:message key="standard.header.login.submit.label"/>" id="login-button" />
+      <form action="${loginLink}" method="post" role="form" class="form-inline">
+          <input type="hidden" name="destination" value="${destination}" />
+          <div class="form-group">
+        <input class="form-control" type="text" name="username" value="<fmt:message key="standard.header.login.input.username"/>" onclick="this.value='';" />
+        </div>
+      <div class="form-group">
+          <input class="form-control" type="password" name="password" value="<fmt:message key="standard.header.login.input.password"/>" onclick="this.value='';" />
+      </div>
+      <input type="submit" value="<fmt:message key="standard.header.login.submit.label"/>" id="login-button" class="btn-default"/>
+      <c:if test="${requestScope.error}">
+          <div class="alert alert-warning"><fmt:message key="standard.header.login.error"/></div>
+      </c:if>
       </form>
-      <p>
-        <a class="minimize" href="?login=false">&nbsp;</a>
-        <c:if test="${requestScope.error}">
-          <span><fmt:message key="standard.header.login.error"/></span>
-        </c:if>
-      </p>
     </div>
   </c:when>
   <c:otherwise>

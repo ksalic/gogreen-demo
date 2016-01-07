@@ -29,5 +29,3 @@ limitations under the License.
     </#list>
 </ul>
 </#if>
-
-
