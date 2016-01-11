@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="resource-bundles">
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="resource-bundles">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -28,7 +29,7 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
       <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
@@ -39,16 +40,16 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5fe145dc-e1fa-48c3-a51e-fe21211d3768</sv:value>
       </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>resource-bundles/products-facet/products-facet[3]</sv:value>
-        <sv:value>resource-bundles/products-facet/products-facet[2]</sv:value>
+        <sv:value>products-facet/products-facet[3]</sv:value>
+        <sv:value>products-facet/products-facet[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -63,7 +64,7 @@
         <sv:value>2015-01-27T17:13:39.678+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-03-02T10:20:26.901+01:00</sv:value>
+        <sv:value>2016-01-11T16:55:06.925+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -74,32 +75,43 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
         <sv:value/>
         <sv:value/>
+        <sv:value>Used in the navigation just above the product overview.</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>products.facet</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
         <sv:value>path</sv:value>
         <sv:value>category</sv:value>
+        <sv:value>categories.all</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
         <sv:value>products</sv:value>
         <sv:value>Category</sv:value>
+        <sv:value>All</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+        <sv:value>Produkte</sv:value>
+        <sv:value>Kategorie</sv:value>
+        <sv:value>Alle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
+        <sv:value>Toutes</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
         <sv:value>producten</sv:value>
         <sv:value>Categorie</sv:value>
+        <sv:value>Alle</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
         <sv:value>产品</sv:value>
         <sv:value>查看产品</sv:value>
+        <sv:value>所有</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="hippo:translation">
@@ -117,17 +129,17 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>mix:versionable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>410ff76d-6de3-42f6-8887-27fa76555cb2</sv:value>
       </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
         <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>resource-bundles/products-facet/products-facet[3]</sv:value>
+        <sv:value>products-facet/products-facet[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>unpublished</sv:value>
@@ -142,7 +154,7 @@
         <sv:value>2015-01-27T17:13:39.678+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-01-27T17:19:28.889+01:00</sv:value>
+        <sv:value>2016-01-11T16:57:08.702+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -153,49 +165,60 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
         <sv:value/>
         <sv:value/>
+        <sv:value>Used in the navigation just above the product overview.</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>products.facet</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
         <sv:value>path</sv:value>
         <sv:value>category</sv:value>
+        <sv:value>categories.all</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
         <sv:value>products</sv:value>
         <sv:value>Category</sv:value>
+        <sv:value>All</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+        <sv:value>Produkte</sv:value>
+        <sv:value>Kategorie</sv:value>
+        <sv:value>Alle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
+        <sv:value>Toutes</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
         <sv:value>producten</sv:value>
         <sv:value>Categorie</sv:value>
+        <sv:value>Alle</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
         <sv:value>产品</sv:value>
         <sv:value>查看产品</sv:value>
+        <sv:value>所有</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="products-facet">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>resourcebundle:resourcebundle</sv:value>
       </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>28446061-1dfd-4542-96f3-2f90c3aa883f</sv:value>
       </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
         <sv:value>live</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>resource-bundles/products-facet/products-facet[2]</sv:value>
+        <sv:value>products-facet/products-facet[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>published</sv:value>
@@ -210,13 +233,13 @@
         <sv:value>2015-01-27T17:13:39.678+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-01-27T17:19:28.889+01:00</sv:value>
+        <sv:value>2016-01-11T16:57:08.702+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-01-27T17:19:30.907+01:00</sv:value>
+        <sv:value>2016-01-11T16:57:10.484+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>b13e3e15-88d7-498d-87a7-73216a9b46b8</sv:value>
@@ -224,36 +247,43 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:descriptions" sv:type="String">
         <sv:value/>
         <sv:value/>
+        <sv:value>Used in the navigation just above the product overview.</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>products.facet</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:keys" sv:type="String">
         <sv:value>path</sv:value>
         <sv:value>category</sv:value>
+        <sv:value>categories.all</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages" sv:type="String">
         <sv:value>products</sv:value>
         <sv:value>Category</sv:value>
+        <sv:value>All</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_de" sv:type="String" sv:multiple="true">
-        <sv:value>produkte</sv:value>
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_de" sv:type="String">
+        <sv:value>Produkte</sv:value>
         <sv:value>Kategorie</sv:value>
+        <sv:value>Alle</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_fr" sv:type="String">
         <sv:value>produits</sv:value>
         <sv:value>Catégorie</sv:value>
+        <sv:value>Toutes</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_nl" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_nl" sv:type="String">
         <sv:value>producten</sv:value>
         <sv:value>Categorie</sv:value>
+        <sv:value>Alle</sv:value>
       </sv:property>
-      <sv:property sv:name="resourcebundle:messages_zh" sv:type="String" sv:multiple="true">
+      <sv:property sv:multiple="true" sv:name="resourcebundle:messages_zh" sv:type="String">
         <sv:value>产品</sv:value>
         <sv:value>查看产品</sv:value>
+        <sv:value>所有</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
