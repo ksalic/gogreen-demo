@@ -1,4 +1,7 @@
 <%@ include file="/WEB-INF/jsp/includes/tags.jspf" %>
+<%--
+  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+--%>
 
 <c:if test="${not empty requestScope.title}">
   <hst:headContribution category="SEO" keyHint="hst.seo.document.title">
