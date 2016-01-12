@@ -1,3 +1,6 @@
+/*
+ * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ */
 package com.onehippo.gogreen.targeting;
 
 import com.onehippo.cms7.targeting.frontend.plugin.CollectorPlugin;
@@ -10,10 +13,6 @@ import org.hippoecm.frontend.plugin.config.IPluginConfig;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.wicketstuff.js.ext.util.ExtClass;
-
-/**
- * Created by charliechen on 11/17/15.
- */
 @ExtClass("Hippo.Targeting.DeviceTypeCollectorPlugin")
 public class DeviceTypeCollectorPlugin extends CollectorPlugin {
 

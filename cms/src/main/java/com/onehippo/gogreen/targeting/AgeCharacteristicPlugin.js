@@ -1,3 +1,6 @@
+/**
+ * Copyright 2011-2013 Hippo B.V. (http://www.onehippo.com)
+ */
 Ext.namespace('Hippo.Targeting');
 Hippo.Targeting.AgeCharacteristicPlugin =
   Ext.extend(Hippo.Targeting.CharacteristicPlugin, {
