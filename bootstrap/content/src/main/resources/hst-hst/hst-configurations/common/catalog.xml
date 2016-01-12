@@ -56,32 +56,6 @@
         <sv:value>HST.Item</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="images">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:containeritemcomponent</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>com.onehippo.gogreen.components.common.Images</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:iconpath" sv:type="String">
-        <sv:value>images/catalog/component-image-30x30.png</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:label" sv:type="String">
-        <sv:value>Images</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-        <sv:value>background</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-        <sv:value>white</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>common.images</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:xtype" sv:type="String">
-        <sv:value>HST.Item</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="latestblogs">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:containeritemcomponent</sv:value>
