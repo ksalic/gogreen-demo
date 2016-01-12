@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+-->
 <sv:node sv:name="imageValidationService" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" h:merge="combine">
   <sv:property sv:name="max.file.size" sv:type="String" h:merge="override">
     <sv:value>12M</sv:value>
