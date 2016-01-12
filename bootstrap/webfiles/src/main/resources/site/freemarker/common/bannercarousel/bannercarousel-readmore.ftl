@@ -1,4 +1,7 @@
 <#include "../../include/imports.ftl">
+<#--
+  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+-->
 <#if Request.banners??>
 <div class="rev-slider-full">
     <div class="rev-slider-banner-full rev-slider-full">

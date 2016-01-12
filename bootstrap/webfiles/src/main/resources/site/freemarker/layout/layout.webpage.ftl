@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<#--
+  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+-->
+
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>
@@ -6,24 +10,6 @@
 <!--[if IE 8]>
 <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<#--
-
-Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
--->
-
 <#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]>
 <#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]>
 <#assign ga=JspTaglibs["http://www.onehippo.org/jsp/google-analytics"]>

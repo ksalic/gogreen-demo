@@ -1,4 +1,7 @@
 <#include "../../include/imports.ftl">
+<#--
+  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+-->
 <#if  Request.document??>
     <#if Request.document.image??>
         <div class="banner-component section-content full-banner no-padding" style="background-image: url('<@hst.link hippobean=Request.document.image.original/>')">

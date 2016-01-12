@@ -1,4 +1,7 @@
 <#include "../include/imports.ftl">
+<#--
+  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+-->
 <#macro copyright document>
   <#if document??>
 
