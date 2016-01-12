@@ -1,4 +1,6 @@
-
+/*
+ * Copyright 2014-2014 Hippo B.V. (http://www.onehippo.com)
+ */
 package com.onehippo.gogreen.targeting;
 
 import org.apache.wicket.Component;
