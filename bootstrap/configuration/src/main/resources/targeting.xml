@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="targeting:targeting" esv:merge="combine">
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+-->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="targeting:targeting" esv:merge="combine">
   <sv:node sv:name="targeting:datastores" esv:merge="combine">
     <sv:node sv:name="targeting:visits" esv:merge="combine">
       <sv:property sv:name="targeting:storefactoryclass" sv:type="String" esv:merge="override">
