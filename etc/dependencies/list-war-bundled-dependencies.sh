@@ -1,3 +1,6 @@
+#
+#  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+#
 #!/bin/sh
 echo "go-green war bundled dependencies " `date`
 echo "\ncms.war bundled dependencies"

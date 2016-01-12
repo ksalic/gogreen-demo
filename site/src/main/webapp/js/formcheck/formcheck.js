@@ -1,3 +1,6 @@
+/*
+ * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ */
 /**
  * NOTE: slightly modified for use with hippo easy-forms plugin, look for following string to see changes:
  * MODIFIED_HIPPO

@@ -513,9 +513,29 @@
                 <exclude>**/*.woff</exclude>
                 <exclude>**/*.ttf</exclude>
                 <exclude>jar-dependencies.txt</exclude>
-                <!-- exclude two jraty files that are distributed with MIT license -->
-<!--                <exclude>user-reviews-feature/src/main/resources/training/userreviews/material/js/jquery.raty.js</exclude>
-                <exclude>user-reviews-feature/src/main/resources/training/userreviews/material/css/jquery.raty.css</exclude>-->
+                <!-- exclude files that are distributed with their own license -->
+                <exclude>site/src/main/webapp/css/animate.css</exclude>
+                <exclude>site/src/main/webapp/css/bootstrap.css</exclude>
+                <exclude>site/src/main/webapp/css/facebook/yui-css.css</exclude>
+                <exclude>site/src/main/webapp/css/font-awesome.css</exclude>
+                <exclude>site/src/main/webapp/css/jquery-ui-1.10.2.custom.min.css</exclude>
+                <exclude>site/src/main/webapp/css/mobile/yui-css.css</exclude>
+                <exclude>site/src/main/webapp/css/revolution_settings.css</exclude>
+                <exclude>site/src/main/webapp/fonts/open-sans.css</exclude>
+                <exclude>site/src/main/webapp/fonts/raleway.css</exclude>
+                <exclude>site/src/main/webapp/js/_jquery.placeholder.js</exclude>
+                <exclude>site/src/main/webapp/js/syntaxhighlighter_3.0.83/**</exclude>
+                <exclude>site/src/main/webapp/js/formcheck/**</exclude>
+                <exclude>site/src/main/webapp/js/jquery**</exclude>
+                <exclude>site/src/main/webapp/js/galleryview-2.1.1/**.js</exclude>
+                <exclude>site/src/main/webapp/js/activeaxon_menu.js</exclude>
+                <exclude>site/src/main/webapp/js/mootools**.js</exclude>
+                <exclude>site/src/main/resources/META-INF/hst/security/skin/js/jquery-1.4.2.min.js</exclude>
+                <exclude>site/src/main/webapp/js/retina.js</exclude>
+                <exclude>launcher/src/main/java/com/centerkey/utils/BareBonesBrowserLaunch.java</exclude>
+                <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/base-edited.css</exclude>
+                <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/reset-fonts-grids.css</exclude>
+                <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/base-edited.css</exclude>
               </excludes>
             </configuration>
           </plugin>

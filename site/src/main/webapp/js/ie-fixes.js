@@ -1,3 +1,7 @@
+/*
+ * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ */
+
 /* HTML 5 Element Fix */
 document.createElement('header');
 document.createElement('nav');
