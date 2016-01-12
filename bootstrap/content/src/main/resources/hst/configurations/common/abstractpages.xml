@@ -134,6 +134,17 @@
           <sv:property sv:name="hst:template" sv:type="String">
             <sv:value>standard.header.search</sv:value>
           </sv:property>
+          <sv:node sv:name="login">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:componentclassname" sv:type="String">
+              <sv:value>com.onehippo.gogreen.components.common.Login</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:template" sv:type="String">
+              <sv:value>standard.header.login</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
       </sv:node>
       <sv:node sv:name="logo">
@@ -162,17 +173,6 @@
         </sv:property>
         <sv:property sv:name="hst:template" sv:type="String">
           <sv:value>standard.header.mainnavigation</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="login">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:component</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:componentclassname" sv:type="String">
-          <sv:value>com.onehippo.gogreen.components.common.Login</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:template" sv:type="String">
-          <sv:value>standard.header.login</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>

@@ -4788,6 +4788,7 @@ Search Box
     border: 1px solid;
     border-color: transparent #e8e8e8;
     padding-top: 4px;
+    margin-right: 30px;
 }
 
 .searchbox.searchbox-open {
@@ -6829,12 +6830,50 @@ Testimonial
 .body-wrapper figure.right { float: right; margin: 0 0 10px 10px; }
 
 #login {
-    margin: 10px 0 0 0;
     float: right;
+    text-align: center;
+    min-width: 17px;
 }
 
-#login .first { float: right; }
+#login a {
+    color: #969696;
+    font-size: 18px;
+}
 
-#login-form { text-align: right; }
+#login a:hover {
+    color: black;
+}
 
-#login-form > form { display: inline-block; }
+#login.logged-in a:hover {
+    color: #d14836;
+}
+
+#login i.hover { display: none; }
+#login a:hover i.default { display: none; }
+#login a:hover i.hover { display: inline-block; }
+
+#login .fa-user { margin-right: 3px; }
+
+#login-form {
+    text-align: right;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+#login-form > form {
+    display: inline-block;
+    box-shadow: 3px 3px 10px gray;
+    padding: 35px 15px 15px;
+    text-align: center;
+}
+
+#login-form .form-group {
+    display: block;
+}
+
+#login-form input[type="submit"] {
+    float: right;
+    margin: 15px 0 0;
+}

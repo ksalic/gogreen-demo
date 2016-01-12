@@ -5,7 +5,7 @@
 <@hst.setBundle basename="messages,typenames"/>
 
 <!-- lang navigation -->
-<div class="col-sm-7 langnav">
+<div class="col-sm-6 langnav">
   <nav>
     <ul class="" id="language">
 

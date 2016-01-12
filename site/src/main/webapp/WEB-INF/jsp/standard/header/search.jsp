@@ -12,7 +12,9 @@
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst'%>
 <%@include file="../../includes/tags.jspf" %>
 
-<div class="col-sm-5" id="top-search">
+<div class="col-sm-6" id="top-search">
+
+    <hst:include ref="login"/>
 
     <hst:link siteMapItemRefId="search" var="doSearch" />
     <c:set var="searchText"><fmt:message key="searchform.search" /></c:set>
