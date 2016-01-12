@@ -1,3 +1,6 @@
+/*
+ * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ */
 package com.onehippo.gogreen.targeting;
 
 import com.onehippo.cms7.targeting.collectors.AbstractCollector;
@@ -9,9 +12,6 @@ import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * Created by charliechen on 11/16/15.
- */
 public class DeviceTypeCollector extends AbstractCollector<DeviceTypeTargetingData, DeviceTypeRequestData> {
 
     private static final Logger log = LoggerFactory.getLogger(DeviceTypeCollector.class);

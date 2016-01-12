@@ -1,3 +1,7 @@
+/*
+ * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ */
+
 package com.onehippo.gogreen.beans;
 
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;

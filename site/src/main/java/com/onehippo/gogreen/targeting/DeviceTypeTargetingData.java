@@ -1,14 +1,12 @@
+/*
+ * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ */
 package com.onehippo.gogreen.targeting;
-
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.onehippo.cms7.targeting.data.AbstractTargetingData;
 
-
-/**
- * Created by charliechen on 11/16/15.
- */
 public class DeviceTypeTargetingData extends AbstractTargetingData {
 
     private DeviceType deviceType;

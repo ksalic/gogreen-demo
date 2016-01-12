@@ -1,3 +1,6 @@
+/*
+ * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ */
 package com.onehippo.gogreen.targeting;
 
 import com.onehippo.cms7.targeting.Scorer;
@@ -10,9 +13,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Created by charliechen on 11/17/15.
- */
 public class DeviceTypeScorer implements Scorer<DeviceTypeTargetingData> {
 
     private static final Logger log = LoggerFactory.getLogger(DeviceTypeScorer.class);
