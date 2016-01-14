@@ -530,12 +530,26 @@
                 <exclude>site/src/main/webapp/js/galleryview-2.1.1/**.js</exclude>
                 <exclude>site/src/main/webapp/js/activeaxon_menu.js</exclude>
                 <exclude>site/src/main/webapp/js/mootools**.js</exclude>
+                <exclude>site/src/main/webapp/css/style.css</exclude>
+                <exclude>site/src/main/webapp/css/tipsy.css</exclude>
+                <exclude>site/src/main/webapp/css/yui-css.css</exclude>
+                <exclude>site/src/main/webapp/js/bootstrap.min.js</exclude>
+                <exclude>site/src/main/webapp/js/jq.appear.js</exclude>
+                <exclude>site/src/main/webapp/js/jQuery.scrollPoint.js</exclude>
+                <exclude>site/src/main/webapp/js/jQuery.XDomainRequest.js</exclude>
+                <exclude>site/src/main/webapp/js/json2.js</exclude>
+                <exclude>site/src/main/webapp/js/kanzi.js</exclude>
+                <exclude>site/src/main/webapp/js/respond.js</exclude>
                 <exclude>site/src/main/resources/META-INF/hst/security/skin/js/jquery-1.4.2.min.js</exclude>
                 <exclude>site/src/main/webapp/js/retina.js</exclude>
                 <exclude>launcher/src/main/java/com/centerkey/utils/BareBonesBrowserLaunch.java</exclude>
                 <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/base-edited.css</exclude>
                 <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/reset-fonts-grids.css</exclude>
                 <exclude>dist/src/overlay/tomcat/webapps/ROOT/css/base-edited.css</exclude>
+                <exclude>bootstrap/webfiles/src/main/resources/site/css/style.css</exclude>
+                <exclude>**/target/**</exclude>
+                <exclude>essentials/overlays/**</exclude>
+                <exclude>embedded-elasticsearch/**</exclude>
               </excludes>
             </configuration>
           </plugin>
