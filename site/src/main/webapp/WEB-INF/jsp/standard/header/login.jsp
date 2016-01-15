@@ -35,6 +35,15 @@
     <div id="login-form" style="display: none;" class="accordion">
       <form action="${loginLink}" method="post" role="form" class="form-inline accordion-row">
         <input type="hidden" name="destination" value="${destination}" />
+        <c:if test="${requestScope.error}">
+          <div class="alert alert-warning login-alert">
+            <fmt:message key="standard.header.login.error"/>
+          </div>
+          <script type="text/javascript">
+            $("#login").toggle();
+            $("#login-form").toggle();
+          </script>
+        </c:if>
         <div class="open-icon close-icon"></div>
         <div class="form-group">
           <input class="form-control" type="text" name="username" placeholder="<fmt:message key="standard.header.login.input.username"/>"/>
@@ -43,9 +52,6 @@
           <input class="form-control" type="password" name="password" placeholder="<fmt:message key="standard.header.login.input.password"/>" />
         </div>
         <input type="submit" value="<fmt:message key="standard.header.login.submit.label"/>" id="login-button" class="btn-default"/>
-        <c:if test="${requestScope.error}">
-          <div class="alert alert-warning"><fmt:message key="standard.header.login.error"/></div>
-        </c:if>
       </form>
     </div>
     <script type="text/javascript">
