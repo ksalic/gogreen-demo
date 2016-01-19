@@ -1325,7 +1325,6 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>brokenlinks:brokenlinks</sv:value>
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
@@ -1890,23 +1889,6 @@
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="brokenlinks:link">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>brokenlinks:link</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:brokenSince" sv:type="Date">
-            <sv:value>2014-09-09T11:02:06.420+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:errorCode" sv:type="Long">
-            <sv:value>404</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:excerpt" sv:type="String">
-            <sv:value>&lt;a target="_blank" href ="http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx"&gt;http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx&lt;/a&gt;</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:url" sv:type="String">
-            <sv:value>http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx</sv:value>
-          </sv:property>
         </sv:node>
       </sv:node>
     </sv:node>
@@ -5963,7 +5945,6 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>brokenlinks:brokenlinks</sv:value>
           <sv:value>mix:referenceable</sv:value>
           <sv:value>hippo:translated</sv:value>
         </sv:property>
@@ -6546,23 +6527,6 @@
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="brokenlinks:link">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>brokenlinks:link</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:brokenSince" sv:type="Date">
-            <sv:value>2014-09-09T11:02:06.420+02:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:errorCode" sv:type="Long">
-            <sv:value>404</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:excerpt" sv:type="String">
-            <sv:value>&lt;a target="_blank" href ="http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx"&gt;http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx&lt;/a&gt;</sv:value>
-          </sv:property>
-          <sv:property sv:name="brokenlinks:url" sv:type="String">
-            <sv:value>http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx</sv:value>
-          </sv:property>
         </sv:node>
       </sv:node>
     </sv:node>
