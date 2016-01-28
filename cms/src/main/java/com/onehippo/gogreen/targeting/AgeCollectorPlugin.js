@@ -50,7 +50,9 @@ Hippo.Targeting.AgeTargetingDataEditor = Ext.extend(Ext.form.TextField, {
         },
 
         setValue: function(data) {
-            Hippo.Targeting.AgeTargetingDataEditor.superclass.setValue.call(this, data.age);
+            if (data != null) {
+                Hippo.Targeting.AgeTargetingDataEditor.superclass.setValue.call(this, data.age);
+            }
         }
 
     });
