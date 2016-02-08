@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>10.1.1</version>
+    <version>10.2.0</version>
   </parent>
 
   <name>Hippo Go Green 2.0</name>
@@ -78,7 +78,6 @@
     <hippo.repository.version>3.1.2</hippo.repository.version>
     <hippo.addon-channel-manager.version>3.1.1</hippo.addon-channel-manager.version>
     <hippo.addon-eforms.version>2.1.2</hippo.addon-eforms.version>
-    <hippo.addon-targeting.version>3.1.3</hippo.addon-targeting.version>
     <!-- ***END temporary override of versions*** -->
 
     <essentials.version>2.1.0</essentials.version>
@@ -335,7 +334,6 @@
         <module>cms</module>
         <module>site</module>
         <module>site-assembly</module>
-        <module>embedded-elasticsearch</module>
         <module>launcher</module>
         <module>dist</module>
         <module>essentials</module>
@@ -346,9 +344,17 @@
     <profile>
       <id>cargo.run</id>
       <properties>
-        <es.path>target/esdata</es.path>
-        <es.bootstrap />
+        <es.path>${repo.path:${project.basedir}}/elastic.data</es.path>
+        <es.bootstrap>false</es.bootstrap>
       </properties>
+      <dependencies>
+        <dependency>
+          <groupId>com.onehippo.cms7</groupId>
+          <artifactId>hippo-addon-targeting-demo-support-elasticsearch</artifactId>
+          <version>${hippo.addon-targeting.version}</version>
+          <type>war</type>
+        </dependency>
+      </dependencies>
       <build>
         <plugins>
           <plugin>
@@ -389,7 +395,8 @@
                 </deployable>
 
                 <deployable>
-                  <location>${project.basedir}/embedded-elasticsearch/target/embedded-elasticsearch</location>
+                  <groupId>com.onehippo.cms7</groupId>
+                  <artifactId>hippo-addon-targeting-demo-support-elasticsearch</artifactId>
                   <type>war</type>
                   <properties>
                     <context>/elasticsearch</context>

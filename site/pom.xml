@@ -80,6 +80,13 @@
 
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
+      <version>${hippo.addon-targeting.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-targeting-dependencies-site</artifactId>
       <type>pom</type>
     </dependency>
@@ -196,6 +203,11 @@
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-targeting-common</artifactId>
       <version>${hippo.addon-targeting.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-demo-data-loader</artifactId>
     </dependency>
 
     <dependency>
