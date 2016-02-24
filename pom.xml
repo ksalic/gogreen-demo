@@ -345,7 +345,7 @@
       <id>cargo.run</id>
       <properties>
         <es.path>${repo.path:${project.basedir}}/elastic.data</es.path>
-        <es.bootstrap>false</es.bootstrap>
+        <es.bootstrap>true</es.bootstrap>
       </properties>
       <dependencies>
         <dependency>
