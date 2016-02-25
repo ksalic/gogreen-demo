@@ -12,6 +12,8 @@
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst'%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
+<hst:defineObjects />
+
 <hst:setBundle basename="messages"/>
 <hst:link var="destination" />
 <!-- login -->
@@ -24,7 +26,14 @@
         <c:if test="${not empty requestScope.user.lastname}">&nbsp;${requestScope.user.lastname}</c:if>
       </span>
       <hst:link var="logoutLink" path="/login/logout" />
-      <span class="first">&nbsp;&nbsp;<a class="black" href="${logoutLink}?destination=${destination}"><i class="fa fa-times"></i></a></span>
+      <c:choose>
+        <c:when test="${hstRequestContext.resolvedSiteMapItem.hstSiteMapItem.authenticated}">
+          <span class="first">&nbsp;&nbsp;<a class="black" href="${logoutLink}"><i class="fa fa-times"></i></a></span>
+        </c:when>
+        <c:otherwise>
+          <span class="first">&nbsp;&nbsp;<a class="black" href="${logoutLink}?destination=${destination}"><i class="fa fa-times"></i></a></span>
+        </c:otherwise>
+      </c:choose>
     </div>
   </c:when>
   <c:otherwise>
