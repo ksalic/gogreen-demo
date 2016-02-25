@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2011-2013 Hippo B.V. (http://www.onehippo.com)
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+  <!--
+    Enabling to use '_format' parameter name instead of the CXF default
+    _type parameter name for the plain JAX-RS pipeline. Also, if you set
+    'additionalQueryString' property, then all the JAX-RS requests will
+    have the additional parameters forcefully. For example, if you set it
+    to '_type=json', then you can force the output format to JSON format
+    globally without considering 'Accept' HTTP request header.
+  -->
+  <bean id="jaxrsRestPlainServiceQueryStringReplacingInterceptor"
+        class="org.hippoecm.hst.jaxrs.cxf.QueryStringReplacingInterceptor">
+    <property name="paramNameReplaces">
+      <map>
+        <!-- The following will replace '_format' parameter name with
+             '_type' parameter name before JAX-RS processing. -->
+        <entry key="_format" value="_type" />
+      </map>
+    </property>
+    <property name="additionalQueryString">
+      <value>_type=xml</value>
+      <!-- The following will append additional query string before JAX-RS
+           processing
+      <value>_type=json</value>
+      -->
+    </property>
+  </bean>
+
+  <!--
+    Enabling to use '_format' parameter name instead of the CXF default
+    _type parameter name for the Content/Context-Aware JAX-RS pipeline.
+    Also, if you set 'additionalQueryString' property, then all the JAX-RS
+    requests will have the additional parameters forcefully. For example,
+    if you set it to '_type=json', then you can force the output format to
+    JSON format globally without considering 'Accept' HTTP request header.
+  -->
+  <bean id="jaxrsRestContentServiceQueryStringReplacingInterceptor"
+        class="org.hippoecm.hst.jaxrs.cxf.QueryStringReplacingInterceptor">
+    <property name="paramNameReplaces">
+      <map>
+        <!-- The following will replace '_format' parameter name with
+             '_type' parameter name before JAX-RS processing. -->
+        <entry key="_format" value="_type" />
+      </map>
+    </property>
+    <property name="additionalQueryString">
+      <value>_type=xml</value>
+      <!-- The following will append additional query string before JAX-RS
+           processing
+      <value>_type=json</value>
+      -->
+    </property>
+  </bean>
+
+</beans>
