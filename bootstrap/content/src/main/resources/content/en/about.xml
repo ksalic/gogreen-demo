@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="about">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="about">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -39,8 +35,8 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>cd22b988-c832-4443-837a-2c7ee2d05eb1</sv:value>
@@ -50,6 +46,9 @@
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>about/about/about[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>This website is a demo website to showcase the options with Hippo CMS .</sv:value>
@@ -117,8 +116,8 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5efc7288-8ef9-4f54-a6ec-779ec9abc92e</sv:value>
@@ -127,6 +126,9 @@
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>about/about/about</sv:value>
         <sv:value>about/about/about[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>This website is a demo website to showcase the options with Hippo CMS .</sv:value>
@@ -188,9 +190,9 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
         <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e4016277-468e-40da-9844-45bd596ef9d2</sv:value>
@@ -200,6 +202,9 @@
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>about/about/about</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>This website is a demo website to showcase the options with Hippo CMS .</sv:value>
@@ -262,8 +267,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -306,8 +311,8 @@
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>f26850d9-d664-42d5-abe7-e5d7eac02a24</sv:value>
@@ -318,6 +323,9 @@
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>about/quick-facts/quick-facts-about-hippo</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value>action</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:summary" sv:type="String">
           <sv:value/>
@@ -395,8 +403,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -450,8 +458,8 @@
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cf3f7d60-20d8-4a3c-b72d-12c65e0e313b</sv:value>
@@ -462,6 +470,9 @@
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>about/terms--conditions/terms--conditions</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value>desire</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:summary" sv:type="String">
           <sv:value>All content is only used for demo uses.</sv:value>

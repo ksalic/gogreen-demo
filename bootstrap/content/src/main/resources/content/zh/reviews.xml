@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="reviews">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="reviews">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -40,8 +36,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>a3a96a31-f0aa-4f00-b51f-43a40f26294e</sv:value>
@@ -97,6 +93,9 @@
         </sv:property>
         <sv:property sv:name="hippogogreen:comment" sv:type="String">
           <sv:value>尼斯斌, 我想这些.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="hippogogreen:date" sv:type="Date">
           <sv:value>2011-12-01T17:40:00.000+01:00</sv:value>

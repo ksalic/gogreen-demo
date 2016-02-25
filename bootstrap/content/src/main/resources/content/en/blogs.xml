@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -30,8 +26,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>4fc247fd-dc4e-467d-b1a0-f10af6c2f72a</sv:value>
@@ -52,8 +48,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>c8c2c4f5-2df7-4f83-b959-0275e3cf5974</sv:value>
@@ -75,8 +71,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>07588363-cb26-454d-98b1-7ec26b9b63ff</sv:value>
@@ -130,12 +126,15 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/10/solarcooking-oktober/solarcooking-oktober[2]</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
-          </sv:property>
           <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
             <sv:value>Solar Campaign</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
             <sv:value>Food &amp; Communication: Recipes for Development (TED Talks on solar cooking)</sv:value>
@@ -316,8 +315,8 @@
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>ef710753-7260-411c-a5fe-86c77b0e4267</sv:value>
@@ -328,12 +327,15 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/10/solarcooking-oktober/solarcooking-oktober</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
-          </sv:property>
           <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
             <sv:value>Solar Campaign</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
             <sv:value>Food &amp; Communication: Recipes for Development (TED Talks on solar cooking)</sv:value>
@@ -518,12 +520,15 @@
             <sv:value>blogs/2014/10/solarcooking-oktober/solarcooking-oktober</sv:value>
             <sv:value>blogs/2014/10/solarcooking-oktober/solarcooking-oktober[2]</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippogogreen:date" sv:type="Date">
-            <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
-          </sv:property>
           <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
             <sv:value>Solar Campaign</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
             <sv:value>Food &amp; Communication: Recipes for Development (TED Talks on solar cooking)</sv:value>
@@ -736,6 +741,9 @@
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -886,8 +894,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>699a3bb2-bfa9-4f56-bba5-b0759efd731d</sv:value>
@@ -902,6 +910,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
@@ -1069,6 +1080,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -1224,8 +1238,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9ae32dd6-1871-4e97-bfe3-e93a441631be</sv:value>
@@ -1270,6 +1284,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -1364,8 +1381,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>df648e40-fc09-473c-bd04-3aef3b600ca8</sv:value>
@@ -1379,6 +1396,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -1476,6 +1496,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -1586,6 +1609,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1707,8 +1733,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>1b003b07-6d7f-455d-b6e0-9d6e8ef20b71</sv:value>
@@ -1721,6 +1747,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1844,6 +1873,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1993,6 +2025,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -2118,8 +2153,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>753fe197-d440-44f5-9ff9-95f2acf922ac</sv:value>
@@ -2132,6 +2167,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
@@ -2272,6 +2310,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -2402,8 +2443,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>4019e812-fae0-4167-98d6-e1353fae2041</sv:value>
@@ -2447,6 +2488,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -2562,8 +2606,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>18507815-540d-4f73-ab54-cb8a68fe221a</sv:value>
@@ -2576,6 +2620,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -2694,6 +2741,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
           </sv:property>
@@ -2797,606 +2847,614 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         </sv:node>
       </sv:node>
       <sv:node sv:name="learning-at-home">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:handle</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-        <sv:value>hippo:translated</sv:value>
-      </sv:property>
-      <sv:node sv:name="learning-at-home">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippogogreen:blogitemcb</sv:value>
+          <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>aba7ddfa-5ef8-4d2c-b804-cb9859e7e5e5</sv:value>
+          <sv:value>505cfea8-d738-4039-a47e-21ad6245a23e</sv:value>
         </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>learning-at-home/learning-at-home[3]</sv:value>
-          <sv:value>learning-at-home/learning-at-home[2]</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
-          <sv:value>Family</sv:value>
-          <sv:value>Home</sv:value>
-          <sv:value>School</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:date" sv:type="Date">
-          <sv:value>2014-08-19T16:39:00.000+02:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:metatitle" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:summary" sv:type="String">
-          <sv:value>Our homes are powerful places for living and learning. As we move through the daily and weekly rhythms of home, we discover a panoply of learning moments for our young children. &#13;
+        <sv:node sv:name="learning-at-home">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:blogitemcb</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>aba7ddfa-5ef8-4d2c-b804-cb9859e7e5e5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>blogs/2014/08/learning-at-home/learning-at-home[2]</sv:value>
+            <sv:value>blogs/2014/08/learning-at-home/learning-at-home[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Family</sv:value>
+            <sv:value>Home</sv:value>
+            <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-08-19T16:39:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:metatitle" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Our homes are powerful places for living and learning. As we move through the daily and weekly rhythms of home, we discover a panoply of learning moments for our young children. &#13;
             &#13;
             These moments are not tied to a curriculum, not focused on standards or expectations. They happen naturally, organically, as our children follow their innate instincts to explore the important tools of their culture with curiosity and enthusiasm.</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:title" sv:type="String">
-          <sv:value>Learning at Home (Content Blocks example)</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>draft</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-          <sv:value>2015-11-25T16:39:56.629+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-11-25T19:25:48.153+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:id" sv:type="String">
-          <sv:value>f4446fe6-268e-435c-aa6b-a7abed632b08</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:locale" sv:type="String">
-          <sv:value>en</sv:value>
-        </sv:property>
-        <sv:node sv:name="hippogogreen:copyright">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:copyright</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:description" sv:type="String">
-            <sv:value>Fresh Green Media, LLC.</sv:value>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Learning at Home (Content Blocks example)</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:url" sv:type="String">
-            <sv:value>http://www.greenchildmagazine.com/learning-home/</sv:value>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="relateddocs:docs">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>relateddocs:docs</sv:value>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-11-25T16:39:56.629+01:00</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Boston College psychology professor, Dr. Peter Gray, writes in his book,  Free To Learn: “Children are biologically predisposed to take charge of their own education. When they are provided with the freedom and means to pursue their own interests, in safe settings, they bloom and develop along diverse and unpredictable paths, and they acquire the skills and confidence required to meet life’s challenges.”[1]</sv:value>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-11-25T19:25:48.153+01:00</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>f4446fe6-268e-435c-aa6b-a7abed632b08</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Whether your children are still toddlers and preschoolers, or if you have decided to homeschool, there are many ways that you can create at home the conditions that ignite natural learning. By reimagining the ordinary spaces of our homes as extraordinary resources for early childhood learning, we can foster a home learning environment that sparks curiosity, engages children naturally in discovery of their world, and cultivates a more peaceful home life.</sv:value>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:imageblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:alignment" sv:type="String">
-            <sv:value> Right</sv:value>
-          </sv:property>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Fresh Green Media, LLC.</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://www.greenchildmagazine.com/learning-home/</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Boston College psychology professor, Dr. Peter Gray, writes in his book,  Free To Learn: “Children are biologically predisposed to take charge of their own education. When they are provided with the freedom and means to pursue their own interests, in safe settings, they bloom and develop along diverse and unpredictable paths, and they acquire the skills and confidence required to meet life’s challenges.”[1]</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Whether your children are still toddlers and preschoolers, or if you have decided to homeschool, there are many ways that you can create at home the conditions that ignite natural learning. By reimagining the ordinary spaces of our homes as extraordinary resources for early childhood learning, we can foster a home learning environment that sparks curiosity, engages children naturally in discovery of their world, and cultivates a more peaceful home life.</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:imageblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:alignment" sv:type="String">
+              <sv:value> Right</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>257b389d-2cf8-402a-b36a-7cdb72a3560e</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value>Freedom</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>You are a facilitator of freedom, a protector of the conditions of natural childhood learning. You simply listen, and watch, and then you help to gather or find resources that help your child to learn naturally as he is innately designed to do. You bridge the gap between your child’s nascent interests and ideas and the vast world around him.</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:quoteblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:alignment" sv:type="String">
+              <sv:value>Left</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:quote" sv:type="String">
+              <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>As pioneering early childhood educator, John Holt, wrote in his classic book,  Teach Your Own: “What children need is not new and better curricula but access to more and more of the real world; plenty of time and space to think over their experiences, and to use fantasy and play to make meaning out of them; and advice, road maps, guidebooks, to make it easier for them to get where they want to go (not where we think they ought to go), and to find out what they want to find out.”[2]</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>As a parent, you protect this freedom—the time and space for natural learning—and connect your child’s burgeoning passions with the abundant resources of your community.</sv:value>
+            </sv:property>
+          </sv:node>
           <sv:node sv:name="hippogogreen:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>257b389d-2cf8-402a-b36a-7cdb72a3560e</sv:value>
+              <sv:value>3306b47d-c986-4aee-8db6-bc75d58626e6</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
+        <sv:node sv:name="hippo:translation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+            <sv:value>hippo:translation</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value>Freedom</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>You are a facilitator of freedom, a protector of the conditions of natural childhood learning. You simply listen, and watch, and then you help to gather or find resources that help your child to learn naturally as he is innately designed to do. You bridge the gap between your child’s nascent interests and ideas and the vast world around him.</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:quoteblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:alignment" sv:type="String">
-            <sv:value>Left</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:quote" sv:type="String">
-            <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
+          <sv:property sv:name="hippo:language" sv:type="String">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>As pioneering early childhood educator, John Holt, wrote in his classic book,  Teach Your Own: “What children need is not new and better curricula but access to more and more of the real world; plenty of time and space to think over their experiences, and to use fantasy and play to make meaning out of them; and advice, road maps, guidebooks, to make it easier for them to get where they want to go (not where we think they ought to go), and to find out what they want to find out.”[2]</sv:value>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Learning at Home (Content Blocks)</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
+        <sv:node sv:name="learning-at-home">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+            <sv:value>hippogogreen:blogitemcb</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>094a66d6-b305-4ef8-a897-874768be557b</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>blogs/2014/08/learning-at-home/learning-at-home[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>As a parent, you protect this freedom—the time and space for natural learning—and connect your child’s burgeoning passions with the abundant resources of your community.</sv:value>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Family</sv:value>
+            <sv:value>Home</sv:value>
+            <sv:value>School</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:image">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogallerypicker:imagelink</sv:value>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>3306b47d-c986-4aee-8db6-bc75d58626e6</sv:value>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-08-19T16:39:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Learning at Home (Content Blocks)</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="learning-at-home">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippogogreen:blogitemcb</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:versionable</sv:value>
-          <sv:value>mix:referenceable</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>preview</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>learning-at-home/learning-at-home[3]</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
-          <sv:value>Family</sv:value>
-          <sv:value>Home</sv:value>
-          <sv:value>School</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:date" sv:type="Date">
-          <sv:value>2014-08-19T16:39:00.000+02:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:metatitle" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:summary" sv:type="String">
-          <sv:value>Our homes are powerful places for living and learning. As we move through the daily and weekly rhythms of home, we discover a panoply of learning moments for our young children. &#13;
+          <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:metatitle" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Our homes are powerful places for living and learning. As we move through the daily and weekly rhythms of home, we discover a panoply of learning moments for our young children. &#13;
             &#13;
             These moments are not tied to a curriculum, not focused on standards or expectations. They happen naturally, organically, as our children follow their innate instincts to explore the important tools of their culture with curiosity and enthusiasm.</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:title" sv:type="String">
-          <sv:value>Learning at Home (Content Blocks example)</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>unpublished</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-          <sv:value>2015-11-25T16:39:56.629+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-11-25T19:20:20.980+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:id" sv:type="String">
-          <sv:value>f4446fe6-268e-435c-aa6b-a7abed632b08</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:locale" sv:type="String">
-          <sv:value>en</sv:value>
-        </sv:property>
-        <sv:node sv:name="hippogogreen:copyright">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:copyright</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:description" sv:type="String">
-            <sv:value>Fresh Green Media, LLC.</sv:value>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Learning at Home (Content Blocks example)</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:url" sv:type="String">
-            <sv:value>http://www.greenchildmagazine.com/learning-home/</sv:value>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="relateddocs:docs">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>relateddocs:docs</sv:value>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-11-25T16:39:56.629+01:00</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Boston College psychology professor, Dr. Peter Gray, writes in his book,  Free To Learn: “Children are biologically predisposed to take charge of their own education. When they are provided with the freedom and means to pursue their own interests, in safe settings, they bloom and develop along diverse and unpredictable paths, and they acquire the skills and confidence required to meet life’s challenges.”[1]</sv:value>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-11-25T19:20:20.980+01:00</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>f4446fe6-268e-435c-aa6b-a7abed632b08</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Whether your children are still toddlers and preschoolers, or if you have decided to homeschool, there are many ways that you can create at home the conditions that ignite natural learning. By reimagining the ordinary spaces of our homes as extraordinary resources for early childhood learning, we can foster a home learning environment that sparks curiosity, engages children naturally in discovery of their world, and cultivates a more peaceful home life.</sv:value>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:imageblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:alignment" sv:type="String">
-            <sv:value> Right</sv:value>
-          </sv:property>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Fresh Green Media, LLC.</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://www.greenchildmagazine.com/learning-home/</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Boston College psychology professor, Dr. Peter Gray, writes in his book,  Free To Learn: “Children are biologically predisposed to take charge of their own education. When they are provided with the freedom and means to pursue their own interests, in safe settings, they bloom and develop along diverse and unpredictable paths, and they acquire the skills and confidence required to meet life’s challenges.”[1]</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Whether your children are still toddlers and preschoolers, or if you have decided to homeschool, there are many ways that you can create at home the conditions that ignite natural learning. By reimagining the ordinary spaces of our homes as extraordinary resources for early childhood learning, we can foster a home learning environment that sparks curiosity, engages children naturally in discovery of their world, and cultivates a more peaceful home life.</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:imageblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:alignment" sv:type="String">
+              <sv:value> Right</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>257b389d-2cf8-402a-b36a-7cdb72a3560e</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value>Freedom</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>You are a facilitator of freedom, a protector of the conditions of natural childhood learning. You simply listen, and watch, and then you help to gather or find resources that help your child to learn naturally as he is innately designed to do. You bridge the gap between your child’s nascent interests and ideas and the vast world around him.</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:quoteblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:alignment" sv:type="String">
+              <sv:value>Left</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:quote" sv:type="String">
+              <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>As pioneering early childhood educator, John Holt, wrote in his classic book,  Teach Your Own: “What children need is not new and better curricula but access to more and more of the real world; plenty of time and space to think over their experiences, and to use fantasy and play to make meaning out of them; and advice, road maps, guidebooks, to make it easier for them to get where they want to go (not where we think they ought to go), and to find out what they want to find out.”[2]</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>As a parent, you protect this freedom—the time and space for natural learning—and connect your child’s burgeoning passions with the abundant resources of your community.</sv:value>
+            </sv:property>
+          </sv:node>
           <sv:node sv:name="hippogogreen:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>257b389d-2cf8-402a-b36a-7cdb72a3560e</sv:value>
+              <sv:value>3306b47d-c986-4aee-8db6-bc75d58626e6</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
+        <sv:node sv:name="learning-at-home">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+            <sv:value>hippogogreen:blogitemcb</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value>Freedom</sv:value>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>You are a facilitator of freedom, a protector of the conditions of natural childhood learning. You simply listen, and watch, and then you help to gather or find resources that help your child to learn naturally as he is innately designed to do. You bridge the gap between your child’s nascent interests and ideas and the vast world around him.</sv:value>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6647c63d-d176-4a13-8137-89cb570a8581</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:quoteblock</sv:value>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:alignment" sv:type="String">
-            <sv:value>Left</sv:value>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>blogs/2014/08/learning-at-home/learning-at-home[2]</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:quote" sv:type="String">
-            <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
+          <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>As pioneering early childhood educator, John Holt, wrote in his classic book,  Teach Your Own: “What children need is not new and better curricula but access to more and more of the real world; plenty of time and space to think over their experiences, and to use fantasy and play to make meaning out of them; and advice, road maps, guidebooks, to make it easier for them to get where they want to go (not where we think they ought to go), and to find out what they want to find out.”[2]</sv:value>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Family</sv:value>
+            <sv:value>Home</sv:value>
+            <sv:value>School</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>As a parent, you protect this freedom—the time and space for natural learning—and connect your child’s burgeoning passions with the abundant resources of your community.</sv:value>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2014-08-19T16:39:00.000+02:00</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:image">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogallerypicker:imagelink</sv:value>
+          <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>3306b47d-c986-4aee-8db6-bc75d58626e6</sv:value>
+          <sv:property sv:name="hippogogreen:metatitle" sv:type="String">
+            <sv:value/>
           </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="learning-at-home">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippogogreen:blogitemcb</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>learning-at-home/learning-at-home[2]</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:campaign" sv:type="String" sv:multiple="true">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
-          <sv:value>Family</sv:value>
-          <sv:value>Home</sv:value>
-          <sv:value>School</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:date" sv:type="Date">
-          <sv:value>2014-08-19T16:39:00.000+02:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:metadescription" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:metatitle" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:summary" sv:type="String">
-          <sv:value>Our homes are powerful places for living and learning. As we move through the daily and weekly rhythms of home, we discover a panoply of learning moments for our young children. &#13;
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Our homes are powerful places for living and learning. As we move through the daily and weekly rhythms of home, we discover a panoply of learning moments for our young children. &#13;
             &#13;
             These moments are not tied to a curriculum, not focused on standards or expectations. They happen naturally, organically, as our children follow their innate instincts to explore the important tools of their culture with curiosity and enthusiasm.</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippogogreen:title" sv:type="String">
-          <sv:value>Learning at Home (Content Blocks example)</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>published</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-          <sv:value>2015-11-25T16:39:56.629+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-11-25T19:20:20.980+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-11-25T19:20:24.094+01:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:id" sv:type="String">
-          <sv:value>f4446fe6-268e-435c-aa6b-a7abed632b08</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:locale" sv:type="String">
-          <sv:value>en</sv:value>
-        </sv:property>
-        <sv:node sv:name="hippogogreen:copyright">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:copyright</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:description" sv:type="String">
-            <sv:value>Fresh Green Media, LLC.</sv:value>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Learning at Home (Content Blocks example)</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:url" sv:type="String">
-            <sv:value>http://www.greenchildmagazine.com/learning-home/</sv:value>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="relateddocs:docs">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>relateddocs:docs</sv:value>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-11-25T16:39:56.629+01:00</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Boston College psychology professor, Dr. Peter Gray, writes in his book,  Free To Learn: “Children are biologically predisposed to take charge of their own education. When they are provided with the freedom and means to pursue their own interests, in safe settings, they bloom and develop along diverse and unpredictable paths, and they acquire the skills and confidence required to meet life’s challenges.”[1]</sv:value>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-11-25T19:20:20.980+01:00</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-11-25T19:20:24.094+01:00</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Whether your children are still toddlers and preschoolers, or if you have decided to homeschool, there are many ways that you can create at home the conditions that ignite natural learning. By reimagining the ordinary spaces of our homes as extraordinary resources for early childhood learning, we can foster a home learning environment that sparks curiosity, engages children naturally in discovery of their world, and cultivates a more peaceful home life.</sv:value>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>f4446fe6-268e-435c-aa6b-a7abed632b08</sv:value>
           </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:imageblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:alignment" sv:type="String">
-            <sv:value> Right</sv:value>
-          </sv:property>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Fresh Green Media, LLC.</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://www.greenchildmagazine.com/learning-home/</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Boston College psychology professor, Dr. Peter Gray, writes in his book,  Free To Learn: “Children are biologically predisposed to take charge of their own education. When they are provided with the freedom and means to pursue their own interests, in safe settings, they bloom and develop along diverse and unpredictable paths, and they acquire the skills and confidence required to meet life’s challenges.”[1]</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Whether your children are still toddlers and preschoolers, or if you have decided to homeschool, there are many ways that you can create at home the conditions that ignite natural learning. By reimagining the ordinary spaces of our homes as extraordinary resources for early childhood learning, we can foster a home learning environment that sparks curiosity, engages children naturally in discovery of their world, and cultivates a more peaceful home life.</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:imageblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:alignment" sv:type="String">
+              <sv:value> Right</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>257b389d-2cf8-402a-b36a-7cdb72a3560e</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value>Freedom</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>You are a facilitator of freedom, a protector of the conditions of natural childhood learning. You simply listen, and watch, and then you help to gather or find resources that help your child to learn naturally as he is innately designed to do. You bridge the gap between your child’s nascent interests and ideas and the vast world around him.</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:quoteblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:alignment" sv:type="String">
+              <sv:value>Left</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:quote" sv:type="String">
+              <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>As pioneering early childhood educator, John Holt, wrote in his classic book,  Teach Your Own: “What children need is not new and better curricula but access to more and more of the real world; plenty of time and space to think over their experiences, and to use fantasy and play to make meaning out of them; and advice, road maps, guidebooks, to make it easier for them to get where they want to go (not where we think they ought to go), and to find out what they want to find out.”[2]</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:contentblocksitem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:paragraphblock</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:header" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:text" sv:type="String">
+              <sv:value>As a parent, you protect this freedom—the time and space for natural learning—and connect your child’s burgeoning passions with the abundant resources of your community.</sv:value>
+            </sv:property>
+          </sv:node>
           <sv:node sv:name="hippogogreen:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>257b389d-2cf8-402a-b36a-7cdb72a3560e</sv:value>
+              <sv:value>3306b47d-c986-4aee-8db6-bc75d58626e6</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value>Freedom</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>You are a facilitator of freedom, a protector of the conditions of natural childhood learning. You simply listen, and watch, and then you help to gather or find resources that help your child to learn naturally as he is innately designed to do. You bridge the gap between your child’s nascent interests and ideas and the vast world around him.</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:quoteblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:alignment" sv:type="String">
-            <sv:value>Left</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:quote" sv:type="String">
-            <sv:value>Here are 10 simple ideas for re-envisioning your home as a powerful place for natural learning:</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>As pioneering early childhood educator, John Holt, wrote in his classic book,  Teach Your Own: “What children need is not new and better curricula but access to more and more of the real world; plenty of time and space to think over their experiences, and to use fantasy and play to make meaning out of them; and advice, road maps, guidebooks, to make it easier for them to get where they want to go (not where we think they ought to go), and to find out what they want to find out.”[2]</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:contentblocksitem">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogogreen:paragraphblock</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:header" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippogogreen:text" sv:type="String">
-            <sv:value>As a parent, you protect this freedom—the time and space for natural learning—and connect your child’s burgeoning passions with the abundant resources of your community.</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippogogreen:image">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippogallerypicker:imagelink</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>3306b47d-c986-4aee-8db6-bc75d58626e6</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-        </sv:node>
       </sv:node>
-    </sv:node>
     </sv:node>
     <sv:node sv:name="07">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3023cdc2-51c9-4fd1-a8b3-638fd76885bd</sv:value>
@@ -3440,6 +3498,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -3583,8 +3644,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>4c9bbd81-5958-49d5-9439-54bdc8b02079</sv:value>
@@ -3597,6 +3658,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -3743,6 +3807,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -3879,8 +3946,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>2a008639-e044-45eb-9ca7-6fb18191ef94</sv:value>
@@ -3934,6 +4001,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/06/NASA-solar-sail-passes-first-major-test</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-06-02T10:22:00.000+02:00</sv:value>
@@ -4045,8 +4115,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>7809c0d4-c1b3-4b6e-a260-f4d872967b0a</sv:value>
@@ -4101,6 +4171,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-11T10:22:00.000+02:00</sv:value>
@@ -4201,8 +4274,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>f74c0650-8de1-4b1a-b0ee-0c6bd1ed0b92</sv:value>
@@ -4215,6 +4288,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-11T10:22:00.000+02:00</sv:value>
@@ -4321,6 +4397,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-11T10:22:00.000+02:00</sv:value>
@@ -4452,6 +4531,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-13T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -4562,8 +4644,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>534d23e6-2117-447e-bb3c-da1921d04bae</sv:value>
@@ -4576,6 +4658,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-13T10:22:00.000+02:00</sv:value>
@@ -4694,6 +4779,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-13T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -4800,8 +4888,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>60dcfa0c-5e5a-40b1-b39a-81173810b27f</sv:value>
@@ -4855,6 +4943,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/US-House-committee-approves-daylight-saving-time-amendment</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-07T10:22:00.000+02:00</sv:value>
@@ -4994,6 +5085,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/pbs-show-asserts-greenhouse-gases</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-22T10:22:00.000+02:00</sv:value>
@@ -5170,8 +5264,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9e93b240-4d68-4cce-bb6c-16ce7b6acb3b</sv:value>
@@ -5229,6 +5323,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-09T10:22:00.000+01:00</sv:value>
@@ -5403,6 +5500,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-22T10:22:00.000+01:00</sv:value>
@@ -5580,6 +5680,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-25T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5743,6 +5846,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/03/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5893,8 +5999,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>7ac539f6-334a-4ebb-955f-1ee8c7c5b402</sv:value>
@@ -5906,6 +6012,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/03/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -6061,6 +6170,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/03/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -6207,8 +6319,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>c7b19e41-3f71-48a1-8b9e-fbefde21640e</sv:value>
@@ -6262,6 +6374,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/02/kosovo-independence-ruled-legal-by-international-court-of-justice/kosovo-independence-ruled-legal-by-international-court-of-justice[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -6378,8 +6493,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>7d0e4dc4-7c0e-446a-b22f-8e5c0cf96929</sv:value>
@@ -6391,6 +6506,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/02/kosovo-independence-ruled-legal-by-international-court-of-justice/kosovo-independence-ruled-legal-by-international-court-of-justice</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -6512,6 +6630,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/02/kosovo-independence-ruled-legal-by-international-court-of-justice/kosovo-independence-ruled-legal-by-international-court-of-justice[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -6624,8 +6745,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>77bdb059-d2d5-4b24-b501-605249a85137</sv:value>
@@ -6682,6 +6803,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-01-28T10:22:00.000+01:00</sv:value>
@@ -6798,8 +6922,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>b2535a83-0431-4fd3-9c41-579d4cd95072</sv:value>
@@ -6819,8 +6943,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>fd09e3fc-60f2-4b91-95ed-eb7e4a4871a2</sv:value>
@@ -6878,6 +7002,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-09-03T10:22:00.000+02:00</sv:value>
@@ -7033,6 +7160,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Recycling</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-09-04T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -7143,8 +7273,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>fd01accd-60d4-4f15-8d12-696b54ea33e4</sv:value>
@@ -7201,6 +7331,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-08-15T10:22:00.000+02:00</sv:value>
@@ -7309,8 +7442,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>699b066c-7626-448a-bd35-06e412627f13</sv:value>
@@ -7367,6 +7500,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-29T10:01:00.000+02:00</sv:value>
@@ -7522,6 +7658,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/nano-particles-improve-water-cooling-efficiency-by-60/nano-particles-improve-water-cooling-efficiency-by-60[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T19:55:00.000+02:00</sv:value>
           </sv:property>
@@ -7661,6 +7800,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/nano-particles-improve-water-cooling-efficiency-by-60/nano-particles-improve-water-cooling-efficiency-by-60[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T19:55:00.000+02:00</sv:value>
           </sv:property>
@@ -7783,8 +7925,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>70fe0cac-9628-455e-b1e6-837fd709912c</sv:value>
@@ -7796,6 +7938,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/nano-particles-improve-water-cooling-efficiency-by-60/nano-particles-improve-water-cooling-efficiency-by-60</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T19:55:00.000+02:00</sv:value>
           </sv:property>
@@ -7953,6 +8098,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/Evolution-may-occur-faster-than-once-thought/Evolution-may-occur-faster-than-once-thought[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-06T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -8071,6 +8219,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/Evolution-may-occur-faster-than-once-thought/Evolution-may-occur-faster-than-once-thought</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-06T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -8172,8 +8323,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>5a6b2633-67f6-4b12-be0e-9cf904965e54</sv:value>
@@ -8185,6 +8336,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/Evolution-may-occur-faster-than-once-thought/Evolution-may-occur-faster-than-once-thought</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-06T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -8323,6 +8477,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T17:04:00.000+02:00</sv:value>
@@ -8485,6 +8642,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-17T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -8596,8 +8756,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>f9942467-27fe-42d9-a179-ad1b62d9c2db</sv:value>
@@ -8654,6 +8814,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-05T10:22:00.000+02:00</sv:value>
@@ -8848,6 +9011,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/06/second-round-of-bonn-un-climate-change-negotiations-continue</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -9035,6 +9201,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/06/copenhagen-climate-conference</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -9275,6 +9444,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/06/copenhagen-climate-conference</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -9500,8 +9672,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>6bcfd3aa-a554-40f1-86bd-dcd07f7c8752</sv:value>
@@ -9558,6 +9730,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-05-23T10:22:00.000+02:00</sv:value>
@@ -9698,8 +9873,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e3b378cd-7623-42c7-8f7b-4df0824655bc</sv:value>
@@ -9757,6 +9932,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-04-24T10:22:00.000+02:00</sv:value>
@@ -9909,8 +10087,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5f2d683a-ae81-45eb-9f50-e49cdec04009</sv:value>
@@ -9964,6 +10142,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2013/03/Largest-mass-extinction-in-65-million-years-underway</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-03-22T10:22:00.000+01:00</sv:value>
@@ -10145,6 +10326,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-03-05T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -10241,8 +10425,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>d17f5481-0e1a-46a4-a6ac-a2fec0405b2a</sv:value>
@@ -10300,6 +10484,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-02-10T10:22:00.000+01:00</sv:value>
@@ -10446,6 +10633,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-02-13T15:51:00.000+01:00</sv:value>
           </sv:property>
@@ -10546,8 +10736,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>509e420a-dc5d-40c0-8722-034623e8f5ce</sv:value>
@@ -10604,6 +10794,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-01-11T10:22:00.000+01:00</sv:value>
@@ -10741,6 +10934,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-01-22T10:22:00.000+01:00</sv:value>
@@ -10899,6 +11095,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-01-12T10:22:00.000+01:00</sv:value>
@@ -11114,8 +11313,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>0f56ce05-ff5a-4c59-a33a-98ec45f06de2</sv:value>
@@ -11135,8 +11334,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3d481407-4328-4107-b28b-d5dc8e47211e</sv:value>
@@ -11190,6 +11389,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2012/10/our-top-5-green-saloons</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-19T11:30:00.000+02:00</sv:value>
@@ -11323,6 +11525,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2012/10/domestic-rainwater-harvesting-systems</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-19T12:08:00.000+02:00</sv:value>
           </sv:property>
@@ -11450,6 +11655,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2012/10/organic-distribution</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-19T12:24:00.000+02:00</sv:value>
@@ -11599,6 +11807,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2012/10/wind-powered-parking-garage</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-21T08:49:00.000+02:00</sv:value>
           </sv:property>
@@ -11742,6 +11953,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2012/10/eco-friendly-homes</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-21T08:51:00.000+02:00</sv:value>
           </sv:property>
@@ -11886,6 +12100,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2012/10/report-green-technology-trends-2013</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-25T08:57:00.000+02:00</sv:value>
           </sv:property>
@@ -11984,8 +12201,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>29da1783-414f-4900-a650-95be22badf15</sv:value>
@@ -12005,8 +12222,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e56425fd-9c16-479d-90da-3e76b4f33ad7</sv:value>
@@ -12060,6 +12277,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2011/03/vegetarian</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2011-03-21T10:22:00.000+01:00</sv:value>
@@ -12339,6 +12559,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2011/03/slowfood</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2011-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -12460,8 +12683,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>8437a55f-6207-4499-b861-fd4b9b6ae35d</sv:value>
@@ -12481,8 +12704,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>bb2b2899-dbe0-4964-9377-88f813bb8fe1</sv:value>
@@ -12539,6 +12762,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-08T10:22:00.000+02:00</sv:value>
@@ -12698,6 +12924,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2010/07/monster-wave</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -12837,6 +13066,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2010/07/big-river-man</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -12982,6 +13214,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2010/07/fixies-are-totally-green</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
@@ -13145,6 +13380,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2010/07/india-unveils-prototype-of-usd35-tablet-computer</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -13278,6 +13516,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-05T10:22:00.000+02:00</sv:value>
@@ -13468,6 +13709,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-04T10:22:00.000+02:00</sv:value>
@@ -13660,6 +13904,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-26T10:22:00.000+02:00</sv:value>
@@ -13895,8 +14142,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3ddf5f96-322f-4ee3-9d84-af57e5a8704a</sv:value>
@@ -13953,6 +14200,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2007-12-04T10:22:00.000+01:00</sv:value>
@@ -14171,6 +14421,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Gadgets</sv:value>
             <sv:value>Animal &amp; Garden</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-12T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -14379,6 +14632,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Gadgets</sv:value>
             <sv:value>Animal &amp; Garden</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-12T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -14567,8 +14823,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>018fc04d-8fc5-4f0c-8883-3e86fc48165c</sv:value>
@@ -14582,6 +14838,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Gadgets</sv:value>
             <sv:value>Animal &amp; Garden</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-12T10:22:00.000+02:00</sv:value>
@@ -14808,6 +15067,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-14T10:22:00.000+02:00</sv:value>
@@ -15042,6 +15304,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-01T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -15200,6 +15465,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-12-03T10:22:00.000+01:00</sv:value>
@@ -15374,8 +15642,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5981bea3-4ada-435c-bff5-b97ff4f3cdd1</sv:value>
@@ -15432,6 +15700,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-27T15:44:00.000+02:00</sv:value>
@@ -15629,8 +15900,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>8f7c3cb4-d4ae-45f7-87a0-854dc361077f</sv:value>
@@ -15650,8 +15921,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>4bd3ef7b-663b-46a2-9176-e16e6fb339fc</sv:value>
@@ -15708,6 +15979,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-12-09T13:46:00.000+01:00</sv:value>
@@ -15812,8 +16086,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>fd947314-8ced-421e-a724-2e68105579b7</sv:value>
@@ -15869,6 +16143,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2009/11/Obama-declares-tougher-emission-targets-before-Copenhagen-summit</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-11-29T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -16013,6 +16290,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-11-09T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -16119,8 +16399,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>2c850f8d-6744-4599-8246-2510b811569e</sv:value>
@@ -16177,6 +16457,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-10-15T10:22:00.000+02:00</sv:value>
@@ -16332,6 +16615,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2009/10/high-above-the-earth-satellites-track-melting-ice</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-10-22T11:32:00.000+02:00</sv:value>
           </sv:property>
@@ -16494,6 +16780,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-10-26T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -16644,8 +16933,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>ddcec01d-253d-4a39-9b55-97a71b71d167</sv:value>
@@ -16701,6 +16990,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2009/09/elves-and-sprites</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-09-23T10:00:00.000+02:00</sv:value>
           </sv:property>
@@ -16829,8 +17121,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>c1f4e8f7-c6eb-450d-a657-24634e878d3b</sv:value>
@@ -16886,6 +17178,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2009/07/G8-leaders-set-new-emissions-target</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
             <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
@@ -17027,6 +17322,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-07-03T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -17139,8 +17437,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>53250423-5f6f-46d7-8645-c7539faae657</sv:value>
@@ -17197,6 +17495,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-06-18T10:22:00.000+02:00</sv:value>
@@ -17343,8 +17644,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>6d692bd6-a7af-4126-a35f-16e4a601be26</sv:value>
@@ -17401,6 +17702,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Recycling</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-04-22T10:22:00.000+02:00</sv:value>
@@ -17549,8 +17853,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>1a744c91-db57-4742-b1af-22b38b6a3674</sv:value>
@@ -17604,6 +17908,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2009/03/http---en.wikinews.org-wiki-maldives_to_become_the_world27s_first_carbon-neutral_country</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-03-16T10:22:00.000+01:00</sv:value>
@@ -17736,8 +18043,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>34316a09-c209-4999-9e5a-912a978755c4</sv:value>
@@ -17757,8 +18064,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9127e996-e402-4a9a-b947-fde9e6cb71c9</sv:value>
@@ -17815,6 +18122,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-12-05T10:22:00.000+01:00</sv:value>
@@ -17928,8 +18238,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>b0e5a145-56b5-4e8f-8753-bbb072e9a5e9</sv:value>
@@ -17986,6 +18296,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-09-07T10:22:00.000+02:00</sv:value>
@@ -18117,8 +18430,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>83a74cdd-1bfe-470f-9c82-5ac0524209d3</sv:value>
@@ -18172,6 +18485,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2008/06/nuclear-power-seriously-considered-for-asean-power-grid</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-06-22T10:22:00.000+02:00</sv:value>
@@ -18314,8 +18630,8 @@ These moments are not tied to a curriculum, not focused on standards or expectat
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3a1dba86-a8e4-4477-a6c2-9ccb10faa324</sv:value>
@@ -18372,6 +18688,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-02-15T10:22:00.000+01:00</sv:value>

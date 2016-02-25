@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -67,8 +63,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -100,8 +96,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>459cfb89-89aa-42f6-a78d-f485a8e9159f</sv:value>
@@ -121,8 +117,8 @@
           <sv:value>hippostd:folder</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ee91e9b4-9dce-47ec-98b1-19ee6ef09081</sv:value>
@@ -179,6 +175,9 @@
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Alimentation</sv:value>
               <sv:value>Recyclage</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value/>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>2.25</sv:value>
@@ -303,8 +302,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -336,8 +335,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>570069a6-68b2-461f-9cdd-05c1c2a18cdf</sv:value>
@@ -357,8 +356,8 @@
           <sv:value>hippostd:folder</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ee41ef97-4213-4b0f-b145-987f59ee3481</sv:value>
@@ -414,6 +413,9 @@
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Recyclage</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>interest</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>219.0</sv:value>

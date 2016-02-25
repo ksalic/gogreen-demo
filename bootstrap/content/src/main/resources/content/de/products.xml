@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -67,8 +63,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -100,8 +96,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>daf7d161-20a3-4e79-b601-b8619da02a11</sv:value>
@@ -121,8 +117,8 @@
           <sv:value>hippostd:folder</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d0754572-c900-4473-b5d5-4c0992ddc4ec</sv:value>
@@ -178,6 +174,9 @@
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Gadgets</sv:value>
               <sv:value>Solar</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>desire</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>219.0</sv:value>
@@ -357,6 +356,9 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
               <sv:value>Gadgets</sv:value>
               <sv:value>Solar</sv:value>
             </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>desire</sv:value>
+            </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>219.0</sv:value>
             </sv:property>
@@ -515,8 +517,8 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
               <sv:value>hippogogreen:product</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-              <sv:value>mix:referenceable</sv:value>
               <sv:value>mix:versionable</sv:value>
+              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>43149744-901b-41bd-82fd-358dc429c4ea</sv:value>
@@ -530,6 +532,9 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Gadgets</sv:value>
               <sv:value>Solar</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>desire</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>219.0</sv:value>
@@ -693,8 +698,8 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -726,8 +731,8 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>48e52b9e-e8ab-479a-9d9a-699a61a952a3</sv:value>
@@ -747,8 +752,8 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
           <sv:value>hippostd:folder</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e6705508-188d-4498-8a59-d28e10c5e912</sv:value>
@@ -804,6 +809,9 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String">
               <sv:value>Transport</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>action</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>24990.0</sv:value>
@@ -931,8 +939,8 @@ ein Prius.&lt;/span&gt;
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -964,8 +972,8 @@ ein Prius.&lt;/span&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>87212a59-66d9-46fa-857b-895a10560c8b</sv:value>
@@ -985,8 +993,8 @@ ein Prius.&lt;/span&gt;
           <sv:value>hippostd:folder</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>2c113ee9-755b-41aa-a832-b9d283c4e72d</sv:value>
@@ -1042,6 +1050,9 @@ ein Prius.&lt;/span&gt;
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String">
               <sv:value>Health care</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>action</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>72.0</sv:value>
@@ -1154,8 +1165,8 @@ Ihren Vorhang auf für die letzten Jahre.&lt;/span&gt;
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -1187,8 +1198,8 @@ Ihren Vorhang auf für die letzten Jahre.&lt;/span&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e46adbf1-fa21-48dc-83c2-f8d8b6a72178</sv:value>
@@ -1208,8 +1219,8 @@ Ihren Vorhang auf für die letzten Jahre.&lt;/span&gt;
           <sv:value>hippostd:folder</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>3183dd26-f368-4d85-8b92-3c9f2d70e43a</sv:value>
@@ -1264,6 +1275,9 @@ Ihren Vorhang auf für die letzten Jahre.&lt;/span&gt;
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Animal &amp; Garden</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>action</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>250.0</sv:value>
@@ -1437,6 +1451,9 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Animal &amp; Garden</sv:value>
             </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>action</sv:value>
+            </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>250.0</sv:value>
             </sv:property>
@@ -1590,8 +1607,8 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
               <sv:value>hippogogreen:product</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-              <sv:value>mix:referenceable</sv:value>
               <sv:value>mix:versionable</sv:value>
+              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>6f7111c9-d33c-4ab5-8ca5-902d7ffba926</sv:value>
@@ -1604,6 +1621,9 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Animal &amp; Garden</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>action</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>250.0</sv:value>
@@ -1762,8 +1782,8 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -1795,8 +1815,8 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e49a467e-9078-46ba-837d-33b522e6372e</sv:value>
@@ -1816,8 +1836,8 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
           <sv:value>hippostd:folder</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>6c333230-6da4-4ac1-801b-1bc8d125bcea</sv:value>
@@ -1872,6 +1892,9 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Solar</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>none</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>5.0</sv:value>
@@ -2074,6 +2097,9 @@ erhoben.&lt;/span&gt;
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Solar</sv:value>
             </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>none</sv:value>
+            </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>5.0</sv:value>
             </sv:property>
@@ -2256,8 +2282,8 @@ erhoben.&lt;/span&gt;
               <sv:value>hippogogreen:product</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-              <sv:value>mix:referenceable</sv:value>
               <sv:value>mix:versionable</sv:value>
+              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>6d56629c-f279-4fde-ac5d-8650bb10017b</sv:value>
@@ -2270,6 +2296,9 @@ erhoben.&lt;/span&gt;
             </sv:property>
             <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
               <sv:value>Solar</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+              <sv:value>none</sv:value>
             </sv:property>
             <sv:property sv:name="hippogogreen:price" sv:type="Double">
               <sv:value>5.0</sv:value>

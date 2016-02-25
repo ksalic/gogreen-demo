@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -93,9 +89,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>12f99511-2599-48f2-940b-3d6efe6f0e24</sv:value>
@@ -105,6 +100,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-23T17:27:00.000+02:00</sv:value>
@@ -169,7 +167,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>123d55bf-1bc7-4606-97be-a32068b1d172</sv:value>
@@ -178,6 +175,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing</sv:value>
             <sv:value>news/2014/09/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-23T17:27:00.000+02:00</sv:value>
@@ -228,7 +228,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>5a7c6b9d-e430-4902-b506-a2ef07ba5304</sv:value>
@@ -238,6 +237,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing/sonja-vert-se-joint-gogreen-comme-vice-president-du-marketing</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-23T17:27:00.000+02:00</sv:value>
@@ -302,9 +304,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>ec059d5c-2da1-4ef3-9f3f-10e023a64d85</sv:value>
@@ -314,6 +315,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-12T17:19:00.000+02:00</sv:value>
@@ -378,7 +382,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>5e7496e8-ff5b-45b4-9b30-4ef13033b91f</sv:value>
@@ -387,6 +390,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site[3]</sv:value>
             <sv:value>news/2014/09/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-12T17:19:00.000+02:00</sv:value>
@@ -437,7 +443,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>95b01dee-b161-4213-bf8e-3bcde73dce08</sv:value>
@@ -447,6 +452,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site/hippo-et-gogreen-collaborer-pour-lancer-une-refonte-complete-du-site</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-12T17:19:00.000+02:00</sv:value>
@@ -511,9 +519,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>ebe0f08b-d366-427c-959c-7287a6aabc13</sv:value>
@@ -523,6 +530,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/gogreen-annonce-une-croissance-record-au-1er-semestre/gogreen-annonce-une-croissance-record-au-1er-semestre[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-17T17:26:00.000+02:00</sv:value>
@@ -588,7 +598,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>59c30feb-6ca3-417b-98db-ac006ea09193</sv:value>
@@ -597,6 +606,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/gogreen-annonce-une-croissance-record-au-1er-semestre/gogreen-annonce-une-croissance-record-au-1er-semestre[3]</sv:value>
             <sv:value>news/2014/09/gogreen-annonce-une-croissance-record-au-1er-semestre/gogreen-annonce-une-croissance-record-au-1er-semestre</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-17T17:26:00.000+02:00</sv:value>
@@ -648,7 +660,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>c98d9f02-337a-4afb-bb15-584f6cbf4628</sv:value>
@@ -658,6 +669,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/gogreen-annonce-une-croissance-record-au-1er-semestre/gogreen-annonce-une-croissance-record-au-1er-semestre</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-17T17:26:00.000+02:00</sv:value>
@@ -745,9 +759,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>d3341f79-d0a6-45f6-8dee-3fd70aaf50eb</sv:value>
@@ -757,6 +770,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/10/gogreen-nomine-pour-la-funu-business-award-durable/gogreen-nomine-pour-la-funu-business-award-durable[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-22T17:28:00.000+02:00</sv:value>
@@ -821,7 +837,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>87638663-0950-4480-9b8a-538bec624d4d</sv:value>
@@ -830,6 +845,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/10/gogreen-nomine-pour-la-funu-business-award-durable/gogreen-nomine-pour-la-funu-business-award-durable[3]</sv:value>
             <sv:value>news/2014/10/gogreen-nomine-pour-la-funu-business-award-durable/gogreen-nomine-pour-la-funu-business-award-durable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-22T17:28:00.000+02:00</sv:value>
@@ -880,7 +898,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>d1608d3b-f399-46da-906a-e0a9f1b1866a</sv:value>
@@ -890,6 +907,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/10/gogreen-nomine-pour-la-funu-business-award-durable/gogreen-nomine-pour-la-funu-business-award-durable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-22T17:28:00.000+02:00</sv:value>

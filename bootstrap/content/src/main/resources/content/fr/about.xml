@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="about">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="about">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -24,7 +20,6 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>fr</sv:value>
   </sv:property>
-
   <sv:node sv:name="hippo:translation">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:translation</sv:value>
@@ -63,8 +58,8 @@
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>87cb28d5-315f-4d00-9d0a-b139201800cf</sv:value>
@@ -72,6 +67,12 @@
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
         <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>about/a-propos</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value>awareness</sv:value>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>Ceci est une démonstration du CMS Hippo.</sv:value>
@@ -114,7 +115,6 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>fr</sv:value>
       </sv:property>
-
       <sv:node sv:name="hippogogreen:description">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
@@ -138,8 +138,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -155,7 +155,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>fr</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>
@@ -194,8 +193,8 @@
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>9d64ada3-0e58-4e20-b92f-c764a5130a82</sv:value>
@@ -203,6 +202,12 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>about/en-bref/quelques-chiffres</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value>interest</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:summary" sv:type="String">
           <sv:value/>
@@ -240,7 +245,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>fr</sv:value>
         </sv:property>
-
         <sv:node sv:name="hippogogreen:description">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
@@ -274,8 +278,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -291,7 +295,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>fr</sv:value>
     </sv:property>
-
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:translation</sv:value>

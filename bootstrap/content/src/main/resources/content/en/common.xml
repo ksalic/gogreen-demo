@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="common">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="common">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:directory</sv:value>
   </sv:property>
@@ -12388,6 +12384,9 @@
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>common/forms/forms[3]</sv:value>
       </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value>interest</sv:value>
+      </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>Here you can find numerous examples of forms built using Enterprise forms.</sv:value>
       </sv:property>
@@ -12457,6 +12456,9 @@
         <sv:value>common/forms/forms[3]</sv:value>
         <sv:value>common/forms/forms</sv:value>
       </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value>interest</sv:value>
+      </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>Here you can find numerous examples of forms built using Enterprise forms.</sv:value>
       </sv:property>
@@ -12512,6 +12514,9 @@
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>common/forms/forms</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value>interest</sv:value>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>Here you can find numerous examples of forms built using Enterprise forms.</sv:value>
@@ -12584,6 +12589,9 @@
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>common/form-confirmation/form-confirmation[3]</sv:value>
       </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value/>
+      </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value/>
       </sv:property>
@@ -12642,6 +12650,9 @@
         <sv:value>common/form-confirmation/form-confirmation[3]</sv:value>
         <sv:value>common/form-confirmation/form-confirmation</sv:value>
       </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value/>
+      </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value/>
       </sv:property>
@@ -12697,6 +12708,9 @@
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>common/form-confirmation/form-confirmation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value/>

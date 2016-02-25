@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -29,8 +25,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>f13cf631-1c3f-4895-999b-c53294892a90</sv:value>
@@ -50,8 +46,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>132a0bd6-1563-4813-bbcc-32b0f60cb40d</sv:value>
@@ -81,8 +77,8 @@
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>0bec2984-f3cc-4dc9-8f8a-071b1762eb6a</sv:value>
@@ -97,6 +93,9 @@
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
@@ -225,6 +224,9 @@
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -352,6 +354,9 @@
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
@@ -502,8 +507,8 @@
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>4828c3f7-63d2-4ae9-b663-bcf5f40a1507</sv:value>
@@ -517,6 +522,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -611,6 +619,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -707,6 +718,9 @@
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
           </sv:property>
@@ -801,8 +815,8 @@
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>4f44abc3-dcd8-4d4b-9b50-5aec33e94d98</sv:value>
@@ -815,6 +829,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -949,6 +966,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1085,6 +1105,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
           </sv:property>
@@ -1220,8 +1243,8 @@
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>c0e42b85-709c-4511-9582-67a3c82055b9</sv:value>
@@ -1234,6 +1257,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
@@ -1361,6 +1387,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
@@ -1490,6 +1519,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -1609,8 +1641,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3886b46d-65a3-44f7-90dd-1286b1b3315e</sv:value>
@@ -1667,6 +1699,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Sea</sv:value>
             <sv:value>Sustainable Business</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-10T10:22:00.000+02:00</sv:value>
@@ -1821,6 +1856,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Energy</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-20T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -1936,8 +1974,8 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>f7afa0ad-da31-4cc7-9c77-82bbbd60683b</sv:value>
@@ -1950,6 +1988,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -2056,6 +2097,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -2164,6 +2208,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
           </sv:property>
@@ -2271,8 +2318,8 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>dff3b534-f7b8-430e-9794-0c37bfdfc234</sv:value>
@@ -2286,6 +2333,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
@@ -2387,6 +2437,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
           </sv:property>
@@ -2487,6 +2540,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
@@ -2611,8 +2667,8 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>e7dd721f-6e73-4a63-a341-a06e24ee018b</sv:value>
@@ -2625,6 +2681,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -2761,6 +2820,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -2899,6 +2961,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -3027,8 +3092,8 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9db3ad11-0832-4c7c-a22c-c7b3f2a9902b</sv:value>
@@ -3081,6 +3146,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/06/nasa太阳帆通过第一次重大考验</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-06-02T10:22:00.000+02:00</sv:value>
@@ -3181,8 +3249,8 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>df2e5b80-79b8-4e6c-9acf-24f766c7c707</sv:value>
@@ -3223,6 +3291,9 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/美国众议院委员会批准夏令时间的修正案</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-07T10:22:00.000+02:00</sv:value>
@@ -3322,7 +3393,7 @@ ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后�
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>44</sv:value>
+      <sv:value>33</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>c6328f80-fd68-428e-8ddc-99e97b8d92db</sv:value>

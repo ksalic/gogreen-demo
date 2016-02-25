@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="events">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="events">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -118,6 +114,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Summit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-20T18:54:00.000+02:00</sv:value>
@@ -332,6 +331,9 @@ ist der einzige Weg, um die erforderlichen Informationen für die Entscheidung
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Cradle to Cradle</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-20T10:22:00.000+02:00</sv:value>
@@ -550,6 +552,9 @@ oder Landmasse.&lt;/span&gt;&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Bike</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-06T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -731,6 +736,9 @@ Aktivitäten des Tages zu nehmen.&lt;/span&gt;&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Konferenz</sv:value>
             <sv:value>Symposium</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-01T01:22:00.000+02:00</sv:value>
@@ -933,6 +941,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-11-21T10:00:00.000+01:00</sv:value>
           </sv:property>
@@ -1063,6 +1074,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-11-21T10:00:00.000+01:00</sv:value>
           </sv:property>
@@ -1182,6 +1196,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-11-21T10:00:00.000+01:00</sv:value>
@@ -1340,6 +1357,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-10T10:00:00.000+02:00</sv:value>
           </sv:property>
@@ -1483,6 +1503,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-10T10:00:00.000+02:00</sv:value>
           </sv:property>
@@ -1615,6 +1638,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-10T10:00:00.000+02:00</sv:value>
@@ -1876,6 +1902,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-17T12:00:00.000+02:00</sv:value>
           </sv:property>
@@ -2011,6 +2040,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-17T12:00:00.000+02:00</sv:value>
           </sv:property>
@@ -2135,6 +2167,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-17T12:00:00.000+02:00</sv:value>
@@ -2274,6 +2309,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -2406,6 +2444,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -2527,6 +2568,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Family</sv:value>
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-26T12:22:00.000+02:00</sv:value>
@@ -2685,6 +2729,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -2819,6 +2866,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -2942,6 +2992,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-02-18T16:00:00.000+01:00</sv:value>
@@ -3103,6 +3156,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-01-06T12:00:00.000+01:00</sv:value>
@@ -3272,6 +3328,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-01-06T12:00:00.000+01:00</sv:value>
           </sv:property>
@@ -3429,6 +3488,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-01-06T12:00:00.000+01:00</sv:value>
@@ -3651,6 +3713,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-17T12:00:00.000+02:00</sv:value>
           </sv:property>
@@ -3792,6 +3857,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-17T12:00:00.000+02:00</sv:value>
           </sv:property>
@@ -3922,6 +3990,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-17T12:00:00.000+02:00</sv:value>
@@ -4067,6 +4138,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -4205,6 +4279,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -4332,6 +4409,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
             <sv:value>Family</sv:value>
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-26T12:22:00.000+02:00</sv:value>
@@ -4496,6 +4576,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -4636,6 +4719,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -4765,6 +4851,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-02-18T16:00:00.000+01:00</sv:value>
@@ -4932,6 +5021,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-01-06T12:00:00.000+01:00</sv:value>
@@ -5107,6 +5199,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-01-06T12:00:00.000+01:00</sv:value>
           </sv:property>
@@ -5270,6 +5365,9 @@ behandelnden als erfreulich und produktiv wie möglich zu machen.&lt;/span&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-01-06T12:00:00.000+01:00</sv:value>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="events">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="events">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -98,6 +94,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-17T12:00:00.000+02:00</sv:value>
@@ -235,6 +234,9 @@
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-17T12:00:00.000+02:00</sv:value>
           </sv:property>
@@ -359,6 +361,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-17T12:00:00.000+02:00</sv:value>
@@ -497,6 +502,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -630,6 +638,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -751,6 +762,9 @@
             <sv:value>Family</sv:value>
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-04-26T12:22:00.000+02:00</sv:value>
@@ -930,6 +944,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -1065,6 +1082,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -1188,6 +1208,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-02-18T16:00:00.000+01:00</sv:value>
@@ -1348,6 +1371,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-01-06T12:00:00.000+01:00</sv:value>
@@ -1542,6 +1568,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-01-06T12:00:00.000+01:00</sv:value>
           </sv:property>
@@ -1723,6 +1752,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2015-01-06T12:00:00.000+01:00</sv:value>
@@ -1998,6 +2030,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-11-21T10:00:00.000+01:00</sv:value>
           </sv:property>
@@ -2129,6 +2164,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-11-21T10:00:00.000+01:00</sv:value>
           </sv:property>
@@ -2248,6 +2286,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-11-21T10:00:00.000+01:00</sv:value>
@@ -2405,6 +2446,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-10T10:00:00.000+02:00</sv:value>
           </sv:property>
@@ -2556,6 +2600,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-10T10:00:00.000+02:00</sv:value>
           </sv:property>
@@ -2695,6 +2742,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-10T10:00:00.000+02:00</sv:value>
@@ -2903,6 +2953,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>events/2014/08/biofuels-conference</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-12T10:22:00.000+02:00</sv:value>
@@ -3120,6 +3173,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>events/2014/08/southeast-bioenergy-conference-2014</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-03T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3315,6 +3371,9 @@
             <sv:value>Summit</sv:value>
             <sv:value>Water Purification</sv:value>
             <sv:value>Environmental</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-20T18:54:00.000+02:00</sv:value>
@@ -3547,6 +3606,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Environmental</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-20T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3778,6 +3840,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>events/2014/03/biofuels-conference</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-12T09:22:00.000+01:00</sv:value>
           </sv:property>
@@ -3994,6 +4059,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>events/2014/03/southeast-bioenergy-conference-2012</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-03T09:22:00.000+01:00</sv:value>
           </sv:property>
@@ -4160,6 +4228,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Activities</sv:value>
             <sv:value>Biking</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-06T10:22:00.000+02:00</sv:value>
@@ -4338,6 +4409,9 @@
             <sv:value>Conference</sv:value>
             <sv:value>Symposium</sv:value>
             <sv:value>Green</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-01T01:22:00.000+02:00</sv:value>
@@ -4520,7 +4594,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>62</sv:value>
+      <sv:value>59</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>392850eb-ba46-472f-a1d5-e69aeccfb65d</sv:value>
@@ -4553,7 +4627,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>62</sv:value>
+      <sv:value>59</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>392850eb-ba46-472f-a1d5-e69aeccfb65d</sv:value>
@@ -4664,6 +4738,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-17T12:00:00.000+02:00</sv:value>
@@ -4807,6 +4884,9 @@
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-17T12:00:00.000+02:00</sv:value>
           </sv:property>
@@ -4937,6 +5017,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>Kitchen</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-17T12:00:00.000+02:00</sv:value>
@@ -5081,6 +5164,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -5220,6 +5306,9 @@
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-26T12:22:00.000+02:00</sv:value>
           </sv:property>
@@ -5347,6 +5436,9 @@
             <sv:value>Family</sv:value>
             <sv:value>Health care</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-04-26T12:22:00.000+02:00</sv:value>
@@ -5532,6 +5624,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -5673,6 +5768,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-02-18T16:00:00.000+01:00</sv:value>
           </sv:property>
@@ -5802,6 +5900,9 @@
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2016-02-18T16:00:00.000+01:00</sv:value>

@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
-    <sv:value>hippo:translated</sv:value>
     <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>7f157126-827a-42d4-bf1a-c0291b87d0b8</sv:value>
@@ -92,9 +88,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>f918e96c-2a19-40aa-8564-72cccdd5d56e</sv:value>
@@ -104,6 +99,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/宋雅豪园加入保绿为营销副总裁/宋雅豪园加入保绿为营销副总裁[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-23T17:27:00.000+02:00</sv:value>
@@ -157,7 +155,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>5609e31e-6008-48d2-b79d-3bc7cd9943b9</sv:value>
@@ -166,6 +163,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/宋雅豪园加入保绿为营销副总裁/宋雅豪园加入保绿为营销副总裁[3]</sv:value>
             <sv:value>news/2014/09/宋雅豪园加入保绿为营销副总裁/宋雅豪园加入保绿为营销副总裁</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-23T17:27:00.000+02:00</sv:value>
@@ -216,7 +216,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>573525ab-726d-4ff1-bf51-773640a0a2df</sv:value>
@@ -226,6 +225,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/宋雅豪园加入保绿为营销副总裁/宋雅豪园加入保绿为营销副总裁</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-23T17:27:00.000+02:00</sv:value>
@@ -289,9 +291,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>acaff5bf-3c8d-4e04-a1a9-4523f92ffbf5</sv:value>
@@ -301,6 +302,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/河马和保绿协作推行全面的网站改版/河马和保绿协作推行全面的网站改版[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-12T17:18:00.000+02:00</sv:value>
@@ -354,7 +358,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>8fe99bde-afce-4a24-b795-d076051d625c</sv:value>
@@ -363,6 +366,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/河马和保绿协作推行全面的网站改版/河马和保绿协作推行全面的网站改版</sv:value>
             <sv:value>news/2014/09/河马和保绿协作推行全面的网站改版/河马和保绿协作推行全面的网站改版[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-12T17:18:00.000+02:00</sv:value>
@@ -413,7 +419,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>c8c20b19-0a24-4715-a27c-a1fcfae3f984</sv:value>
@@ -423,6 +428,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/河马和保绿协作推行全面的网站改版/河马和保绿协作推行全面的网站改版</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-12T17:18:00.000+02:00</sv:value>
@@ -486,9 +494,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>14913a1d-c7e6-43cc-8b09-5c76344f967b</sv:value>
@@ -498,6 +505,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/保绿宣布创纪录的增长在上半年/保绿宣布创纪录的增长在上半年[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-17T17:19:00.000+02:00</sv:value>
@@ -552,7 +562,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>b3cf2eee-e715-49d9-9369-73d26d820595</sv:value>
@@ -561,6 +570,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/保绿宣布创纪录的增长在上半年/保绿宣布创纪录的增长在上半年</sv:value>
             <sv:value>news/2014/09/保绿宣布创纪录的增长在上半年/保绿宣布创纪录的增长在上半年[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-17T17:19:00.000+02:00</sv:value>
@@ -612,7 +624,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>7f1961c9-055c-4239-b493-b8809b6fe11f</sv:value>
@@ -622,6 +633,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/09/保绿宣布创纪录的增长在上半年/保绿宣布创纪录的增长在上半年</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-17T17:19:00.000+02:00</sv:value>
@@ -708,9 +722,8 @@
             <sv:value>hippogogreen:newsitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>7f5d3fd2-8474-422f-9de6-b4f5ab1619e1</sv:value>
@@ -720,6 +733,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/10/保绿提名紧急部队可持续发展企业奖/保绿提名紧急部队可持续发展企业奖[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-22T17:28:00.000+02:00</sv:value>
@@ -773,7 +789,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>a957cbd1-8bed-4118-9f7a-9cf6232203f8</sv:value>
@@ -782,6 +797,9 @@
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/10/保绿提名紧急部队可持续发展企业奖/保绿提名紧急部队可持续发展企业奖</sv:value>
             <sv:value>news/2014/10/保绿提名紧急部队可持续发展企业奖/保绿提名紧急部队可持续发展企业奖[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-22T17:28:00.000+02:00</sv:value>
@@ -832,7 +850,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippotranslation:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>dbad6913-6465-48f1-b5c2-c9c308ffe6ca</sv:value>
@@ -842,6 +859,9 @@
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>news/2014/10/保绿提名紧急部队可持续发展企业奖/保绿提名紧急部队可持续发展企业奖</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-22T17:28:00.000+02:00</sv:value>

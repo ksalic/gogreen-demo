@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -67,8 +63,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>86e7d304-af0d-47df-bf09-186f6ca69b20</sv:value>
@@ -88,8 +84,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>0166de4c-1175-4fb8-bfe8-9d63374ec939</sv:value>
@@ -144,6 +140,9 @@
             <sv:value>blogs/2014/10/la-roumanie-passe-a-lheure-dhiver/la-roumanie-passe-a-lheure-dhiver[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-10-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -260,8 +259,8 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>e45364e3-b396-4865-9833-de61e11e78d2</sv:value>
@@ -273,6 +272,9 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
             <sv:value>blogs/2014/10/la-roumanie-passe-a-lheure-dhiver/la-roumanie-passe-a-lheure-dhiver</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-10-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -394,6 +396,9 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
             <sv:value>blogs/2014/10/la-roumanie-passe-a-lheure-dhiver/la-roumanie-passe-a-lheure-dhiver[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-10-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -516,8 +521,8 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>e8fa0fb4-e3fb-49c3-b3c7-e3ca956975c6</sv:value>
@@ -532,6 +537,9 @@ jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
@@ -672,6 +680,9 @@ Ces moments ne sont pas liés à un programme d'études, ne se concentre pas sur
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -801,6 +812,9 @@ Ces moments ne sont pas liés à un programme d'études, ne se concentre pas sur
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -919,8 +933,8 @@ Ces moments ne sont pas liés à un programme d'études, ne se concentre pas sur
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>90721094-86a1-42dc-8ccb-76c64b3b3802</sv:value>
@@ -978,6 +992,9 @@ Ces moments ne sont pas liés à un programme d'études, ne se concentre pas sur
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Sea</sv:value>
             <sv:value>Sustainable Business</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-10T10:22:00.000+02:00</sv:value>
@@ -1147,6 +1164,9 @@ récolte commerciale de l'Atlantique Menhaden.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Energy</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-20T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -1286,8 +1306,8 @@ entrer bientôt en ligne.&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>26ad7980-936e-4816-b9af-3e541a49eb21</sv:value>
@@ -1300,6 +1320,9 @@ entrer bientôt en ligne.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -1418,6 +1441,9 @@ entrer bientôt en ligne.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
           </sv:property>
@@ -1524,6 +1550,9 @@ entrer bientôt en ligne.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -1633,8 +1662,8 @@ entrer bientôt en ligne.&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>283ae478-01ca-42f8-9211-8d62a9138dd7</sv:value>
@@ -1648,6 +1677,9 @@ entrer bientôt en ligne.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
@@ -1760,6 +1792,9 @@ entrer bientôt en ligne.&lt;/p&gt;
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
           </sv:property>
@@ -1861,6 +1896,9 @@ entrer bientôt en ligne.&lt;/p&gt;
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
           </sv:property>
@@ -1952,8 +1990,8 @@ entrer bientôt en ligne.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5c877759-a5d7-4a39-a0c9-a798fbe5179c</sv:value>
@@ -2007,6 +2045,9 @@ entrer bientôt en ligne.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/06/nasa-solaire-voile-passe-dabord-test-majeur</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-06-02T10:22:00.000+02:00</sv:value>
@@ -2121,8 +2162,8 @@ spatial en vertu de vol contrôlé."&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>5c688709-2372-4aa6-ab06-3cd0b5d43dd5</sv:value>
@@ -2176,6 +2217,9 @@ spatial en vertu de vol contrôlé."&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-07T10:22:00.000+02:00</sv:value>
@@ -2285,8 +2329,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>74b5ba2c-3a5a-4726-8a11-3989662f4a3c</sv:value>
@@ -2317,8 +2361,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>d9bddfa1-0f85-4d03-89e5-7c51201ca154</sv:value>
@@ -2332,6 +2376,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -2438,6 +2485,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
           </sv:property>
@@ -2532,6 +2582,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -2628,8 +2681,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>faf9a37f-d70d-4b05-aff2-677f7097e2ad</sv:value>
@@ -2642,6 +2695,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -2787,6 +2843,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
           </sv:property>
@@ -2920,6 +2979,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -3056,8 +3118,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>2f0ebd1c-ca0d-4ffb-8550-2482dceb26ec</sv:value>
@@ -3070,6 +3132,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
@@ -3214,6 +3279,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -3347,6 +3415,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -3471,8 +3542,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>9185eaf3-aff8-4e64-93a6-e3827a23d015</sv:value>
@@ -3503,8 +3574,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>72189a90-9656-4fe0-8c4b-2ca8099f66e6</sv:value>
@@ -3517,6 +3588,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -3666,6 +3740,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -3804,6 +3881,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -3934,8 +4014,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>8095ed18-5b4b-4fef-b4ff-337e434f1084</sv:value>
@@ -3955,8 +4035,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>e06f5b42-c017-4b3d-80db-864c19c90932</sv:value>
@@ -4014,6 +4094,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Économie</sv:value>
             <sv:value>Énergie</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-29T10:01:00.000+02:00</sv:value>
@@ -4123,8 +4206,8 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>8d5614f3-d0ec-4951-9f13-19e17fc2a8fc</sv:value>
@@ -4183,6 +4266,9 @@ amendements au projet de loi sont encore débattues.&lt;/p&gt;
             <sv:value>Réchauffement</sv:value>
             <sv:value>Climat</sv:value>
             <sv:value>Conférence</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>

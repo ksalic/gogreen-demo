@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="restapi">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="restapi">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -56,8 +52,8 @@
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>58ac72f9-ce71-4021-b12b-ae740cdb4b71</sv:value>
@@ -65,6 +61,12 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>restapi/browser/index</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value>desire</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:summary" sv:type="String">
           <sv:value>REST API Browser of the Hippo Go Green services.</sv:value>
@@ -102,7 +104,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-
         <sv:node sv:name="hippogogreen:description">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
@@ -160,8 +161,8 @@
           <sv:value>hippogogreen:simpledocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
           <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>589017a8-e1b7-49b7-bfdd-bf20c547effa</sv:value>
@@ -169,6 +170,12 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>restapi/documentation/index</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value>none</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:summary" sv:type="String">
           <sv:value>Documentation of the REST API.  These URLs provide access to the content on the Hippo Go Green web site.</sv:value>
@@ -206,7 +213,6 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-
         <sv:node sv:name="hippogogreen:description">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
@@ -269,6 +275,9 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>restapi/documentation/product-detail</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:path" sv:type="String">
           <sv:value>/products/${path-to-product}</sv:value>
@@ -401,6 +410,9 @@ GET method.&lt;/p&gt;
           <sv:value>live</sv:value>
           <sv:value>preview</sv:value>
         </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>restapi/documentation/topproducts</sv:value>
+        </sv:property>
         <sv:property sv:name="hippogogreen:path" sv:type="String">
           <sv:value>/topproducts./</sv:value>
         </sv:property>
@@ -508,8 +520,8 @@ products in XML or JSON format.&lt;/p&gt;
         <sv:value>hippogogreen:simpledocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>8262bb21-c578-4ed8-a2dc-b2c17417ccea</sv:value>
@@ -517,6 +529,12 @@ products in XML or JSON format.&lt;/p&gt;
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
         <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>restapi/rest</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value>desire</sv:value>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>Overview of the REST API for Hippo Go Green.</sv:value>
@@ -554,7 +572,6 @@ products in XML or JSON format.&lt;/p&gt;
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
-
       <sv:node sv:name="hippogogreen:description">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>

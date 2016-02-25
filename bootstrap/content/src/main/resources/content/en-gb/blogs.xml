@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -134,6 +130,9 @@
             <sv:value>Solar Campaign</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -331,6 +330,9 @@
             <sv:value>Solar Campaign</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -521,6 +523,9 @@
             <sv:value>Solar Campaign</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-10-16T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -735,6 +740,9 @@
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -866,6 +874,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -996,6 +1007,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
@@ -1164,6 +1178,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
           </sv:property>
@@ -1272,6 +1289,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
           </sv:property>
@@ -1368,6 +1388,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -1478,6 +1501,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1613,6 +1639,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
           </sv:property>
@@ -1735,6 +1764,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1884,6 +1916,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -2023,6 +2058,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -2161,6 +2199,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
@@ -2338,6 +2379,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
           </sv:property>
@@ -2466,6 +2510,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
           </sv:property>
@@ -2582,6 +2629,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -2736,6 +2786,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -2893,6 +2946,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -3037,6 +3093,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -3230,6 +3289,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/06/NASA-solar-sail-passes-first-major-test</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-06-02T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3397,6 +3459,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-11T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3510,6 +3575,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-11T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3615,6 +3683,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-11T10:22:00.000+02:00</sv:value>
@@ -3746,6 +3817,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-13T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3870,6 +3944,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-13T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3986,6 +4063,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-05-13T10:22:00.000+02:00</sv:value>
@@ -4149,6 +4229,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/US-House-committee-approves-daylight-saving-time-amendment</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-07T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -4287,6 +4370,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/pbs-show-asserts-greenhouse-gases</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-22T10:22:00.000+02:00</sv:value>
@@ -4523,6 +4609,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-09T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -4696,6 +4785,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-22T10:22:00.000+01:00</sv:value>
@@ -4873,6 +4965,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-25T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5036,6 +5131,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/03/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5198,6 +5296,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/03/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5353,6 +5454,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/03/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists/half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5554,6 +5658,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/02/kosovo-independence-ruled-legal-by-international-court-of-justice/kosovo-independence-ruled-legal-by-international-court-of-justice[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5682,6 +5789,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/02/kosovo-independence-ruled-legal-by-international-court-of-justice/kosovo-independence-ruled-legal-by-international-court-of-justice</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5803,6 +5913,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2014/02/kosovo-independence-ruled-legal-by-international-court-of-justice/kosovo-independence-ruled-legal-by-international-court-of-justice[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-02-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -5973,6 +6086,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-01-28T10:22:00.000+01:00</sv:value>
@@ -6170,6 +6286,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-09-03T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -6323,6 +6442,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Recycling</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-09-04T10:22:00.000+02:00</sv:value>
@@ -6493,6 +6615,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-08-15T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -6659,6 +6784,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-29T10:01:00.000+02:00</sv:value>
           </sv:property>
@@ -6813,6 +6941,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/nano-particles-improve-water-cooling-efficiency-by-60/nano-particles-improve-water-cooling-efficiency-by-60[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T19:55:00.000+02:00</sv:value>
           </sv:property>
@@ -6952,6 +7083,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/nano-particles-improve-water-cooling-efficiency-by-60/nano-particles-improve-water-cooling-efficiency-by-60[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T19:55:00.000+02:00</sv:value>
           </sv:property>
@@ -7086,6 +7220,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/nano-particles-improve-water-cooling-efficiency-by-60/nano-particles-improve-water-cooling-efficiency-by-60</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T19:55:00.000+02:00</sv:value>
           </sv:property>
@@ -7243,6 +7380,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/Evolution-may-occur-faster-than-once-thought/Evolution-may-occur-faster-than-once-thought[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-06T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -7361,6 +7501,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/Evolution-may-occur-faster-than-once-thought/Evolution-may-occur-faster-than-once-thought[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-06T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -7474,6 +7617,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/07/Evolution-may-occur-faster-than-once-thought/Evolution-may-occur-faster-than-once-thought</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-06T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -7612,6 +7758,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T17:04:00.000+02:00</sv:value>
@@ -7773,6 +7922,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-17T10:22:00.000+02:00</sv:value>
@@ -7943,6 +8095,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-05T10:22:00.000+02:00</sv:value>
@@ -8137,6 +8292,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/06/second-round-of-bonn-un-climate-change-negotiations-continue</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -8324,6 +8482,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/06/copenhagen-climate-conference</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -8564,6 +8725,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2013/06/copenhagen-climate-conference/copenhagen-climate-conference</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -8848,6 +9012,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-05-23T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -9046,6 +9213,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-04-24T10:22:00.000+02:00</sv:value>
@@ -9254,6 +9424,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2013/03/Largest-mass-extinction-in-65-million-years-underway</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -9434,6 +9607,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-03-05T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -9590,6 +9766,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-02-10T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -9734,6 +9913,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-02-13T15:51:00.000+01:00</sv:value>
@@ -9894,6 +10076,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-01-11T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -10030,6 +10215,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-01-22T10:22:00.000+01:00</sv:value>
@@ -10188,6 +10376,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-01-12T10:22:00.000+01:00</sv:value>
@@ -10480,6 +10671,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2012/10/our-top-5-green-saloons</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-19T11:30:00.000+02:00</sv:value>
           </sv:property>
@@ -10612,6 +10806,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2012/10/domestic-rainwater-harvesting-systems</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-19T12:08:00.000+02:00</sv:value>
           </sv:property>
@@ -10739,6 +10936,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2012/10/organic-distribution</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-19T12:24:00.000+02:00</sv:value>
@@ -10888,6 +11088,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2012/10/wind-powered-parking-garage</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-21T08:49:00.000+02:00</sv:value>
           </sv:property>
@@ -11031,6 +11234,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2012/10/eco-friendly-homes</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-21T08:51:00.000+02:00</sv:value>
           </sv:property>
@@ -11175,6 +11381,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2012/10/report-green-technology-trends-2013</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2012-10-25T08:57:00.000+02:00</sv:value>
           </sv:property>
@@ -11349,6 +11558,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2011/03/vegetarian</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2011-03-21T10:22:00.000+01:00</sv:value>
@@ -11628,6 +11840,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2011/03/slowfood</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2011-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -11829,6 +12044,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-08T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -11987,6 +12205,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2010/07/monster-wave</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -12126,6 +12347,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2010/07/big-river-man</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -12271,6 +12495,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2010/07/fixies-are-totally-green</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
@@ -12434,6 +12661,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2010/07/india-unveils-prototype-of-usd35-tablet-computer</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -12567,6 +12797,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-05T10:22:00.000+02:00</sv:value>
@@ -12757,6 +12990,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-04T10:22:00.000+02:00</sv:value>
@@ -12949,6 +13185,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Energy</sv:value>
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-26T10:22:00.000+02:00</sv:value>
@@ -13243,6 +13482,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2007-12-04T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -13460,6 +13702,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Gadgets</sv:value>
             <sv:value>Animal &amp; Garden</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-12T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -13668,6 +13913,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>Gadgets</sv:value>
             <sv:value>Animal &amp; Garden</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-12T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -13870,6 +14118,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Gadgets</sv:value>
             <sv:value>Animal &amp; Garden</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-12T10:22:00.000+02:00</sv:value>
@@ -14096,6 +14347,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-14T10:22:00.000+02:00</sv:value>
@@ -14330,6 +14584,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-06-01T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -14488,6 +14745,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-12-03T10:22:00.000+01:00</sv:value>
@@ -14720,6 +14980,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2010-07-27T15:44:00.000+02:00</sv:value>
@@ -14997,6 +15260,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-12-09T13:46:00.000+01:00</sv:value>
           </sv:property>
@@ -15157,6 +15423,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2009/11/Obama-declares-tougher-emission-targets-before-Copenhagen-summit</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>desire</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-11-29T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -15300,6 +15569,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-11-09T10:22:00.000+01:00</sv:value>
@@ -15466,6 +15738,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-10-15T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -15620,6 +15895,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2009/10/high-above-the-earth-satellites-track-melting-ice</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-10-22T11:32:00.000+02:00</sv:value>
           </sv:property>
@@ -15781,6 +16059,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-10-26T10:22:00.000+01:00</sv:value>
@@ -15989,6 +16270,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:value>blogs/2009/09/elves-and-sprites</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-09-23T10:00:00.000+02:00</sv:value>
           </sv:property>
@@ -16176,6 +16460,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value/>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-07-10T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -16314,6 +16601,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-07-03T10:22:00.000+02:00</sv:value>
@@ -16485,6 +16775,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Solar</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-06-18T10:22:00.000+02:00</sv:value>
@@ -16690,6 +16983,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Recycling</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-04-22T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -16892,6 +17188,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2009/03/http---en.wikinews.org-wiki-maldives_to_become_the_world27s_first_carbon-neutral_country</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2009-03-16T10:22:00.000+01:00</sv:value>
@@ -17104,6 +17403,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-12-05T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -17274,6 +17576,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-09-07T10:22:00.000+02:00</sv:value>
@@ -17460,6 +17765,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2008/06/nuclear-power-seriously-considered-for-asean-power-grid</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-06-22T10:22:00.000+02:00</sv:value>
@@ -17661,6 +17969,9 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Solar</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2008-02-15T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -17779,7 +18090,7 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>153</sv:value>
+      <sv:value>150</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>ab3b6e0d-27ae-4f07-b28c-ee6157eddf5f</sv:value>

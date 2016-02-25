@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="about">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="about">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
@@ -61,6 +57,9 @@
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>about/about/about[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value>none</sv:value>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>This website is a demo website to showcase the options with Hippo CMS .</sv:value>
@@ -133,6 +132,9 @@
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
         <sv:value>about/about/about</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+        <sv:value>none</sv:value>
       </sv:property>
       <sv:property sv:name="hippogogreen:summary" sv:type="String">
         <sv:value>This website is a demo website to showcase the options with Hippo CMS .</sv:value>
@@ -254,6 +256,9 @@
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>about/quick-facts/quick-facts-about-hippo</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value>desire</sv:value>
         </sv:property>
         <sv:property sv:name="hippogogreen:summary" sv:type="String">
           <sv:value/>
@@ -398,6 +403,9 @@
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
           <sv:value>about/terms--conditions/terms--conditions</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="hippogogreen:summary" sv:type="String">
           <sv:value>All content is only used for demo uses.</sv:value>

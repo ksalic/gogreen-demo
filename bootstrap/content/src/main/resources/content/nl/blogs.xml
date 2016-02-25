@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blogs">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippostd:folder</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
     <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -29,7 +25,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>47</sv:value>
+      <sv:value>46</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>e2731db0-58ff-488f-a3a1-95296fb026fc</sv:value>
@@ -69,8 +65,8 @@
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>800544f2-c7b0-4e78-9941-b44a843d0917</sv:value>
@@ -90,8 +86,8 @@
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>94f8a973-7573-49a0-94d4-f00e0a1095f5</sv:value>
@@ -123,8 +119,8 @@
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>175b7f34-b6ce-4de0-960d-4316da793882</sv:value>
@@ -138,6 +134,9 @@
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
@@ -276,6 +275,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -403,6 +405,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-10-02T16:34:00.000+02:00</sv:value>
           </sv:property>
@@ -520,8 +525,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>eaa8fc68-b0d7-40b4-86d8-c13932f98ad4</sv:value>
@@ -552,8 +557,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>0507feb5-3c5e-4732-84ac-ad2f6a468f04</sv:value>
@@ -567,6 +572,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -673,6 +681,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
           </sv:property>
@@ -767,6 +778,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Home</sv:value>
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-02T13:38:00.000+02:00</sv:value>
@@ -863,8 +877,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>03b3569c-83b7-403e-88a2-84d80c918b53</sv:value>
@@ -877,6 +891,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School &amp; College</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1022,6 +1039,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School &amp; College</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
           </sv:property>
@@ -1155,6 +1175,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School &amp; College</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T14:15:00.000+02:00</sv:value>
@@ -1291,8 +1314,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>f4edd8c5-79ff-4bd3-9610-6a09301a161b</sv:value>
@@ -1305,6 +1328,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School &amp; College</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
@@ -1444,6 +1470,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School &amp; College</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -1572,6 +1601,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>School &amp; College</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-09-19T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -1691,8 +1723,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>fa424ca5-3b75-4d8a-b22d-9a68fc32003d</sv:value>
@@ -1724,8 +1756,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>4659add8-59fc-47b2-a15c-fdce2b69e5ac</sv:value>
@@ -1738,6 +1770,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -1856,6 +1891,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
           </sv:property>
@@ -1962,6 +2000,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-28T13:23:00.000+02:00</sv:value>
@@ -2071,8 +2112,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>858e01c8-998c-4ae1-a53a-b6258ffda43a</sv:value>
@@ -2086,6 +2127,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
@@ -2206,6 +2250,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
           </sv:property>
@@ -2315,6 +2362,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>Family</sv:value>
             <sv:value>Home</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-08-18T16:32:00.000+02:00</sv:value>
           </sv:property>
@@ -2414,8 +2464,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>3dd4532f-fdd5-4df8-b015-073aa2499ba6</sv:value>
@@ -2446,8 +2496,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>ac69d19c-a4b4-4fd9-9eeb-b61526cbe4de</sv:value>
@@ -2460,6 +2510,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
@@ -2608,6 +2661,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -2745,6 +2801,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Office</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-07-14T16:33:00.000+02:00</sv:value>
           </sv:property>
@@ -2873,8 +2932,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>04fa8975-d3b8-4ff5-871f-9dc81f6f5358</sv:value>
@@ -2928,6 +2987,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/06/nasa-eerste-grote-test-zonne-zeil-slaagt</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-06-02T10:22:00.000+02:00</sv:value>
@@ -3040,8 +3102,8 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>2f588f4e-642a-4f42-94ae-5c634463a3e3</sv:value>
@@ -3095,6 +3157,9 @@ Deze momenten zijn niet gebonden aan een curriculum, niet gericht op normen of v
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/pbs-show-beweert-dat-broeikasgassen</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-22T10:22:00.000+02:00</sv:value>
@@ -3311,6 +3376,9 @@ kritiek punt bereiken, waardoor zij niet langer te stoppen zijn.&lt;/p&gt;
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
             <sv:value>blogs/2014/04/amerikaanse-huis-commissie-keurt-zomertijd-wijziging-goed</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-04-07T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -3418,8 +3486,8 @@ kritiek punt bereiken, waardoor zij niet langer te stoppen zijn.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>b99e3148-c1c7-4d49-b6ab-fb585f1ba44e</sv:value>
@@ -3476,6 +3544,9 @@ kritiek punt bereiken, waardoor zij niet langer te stoppen zijn.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>awareness</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-25T10:22:00.000+01:00</sv:value>
@@ -3648,6 +3719,9 @@ miljoen mensen zullen dan geherlokaliseerd moeten worden.&lt;/p&gt;
             <sv:value>Climate Change</sv:value>
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -3814,8 +3888,8 @@ is als voor de jaren tachtig.&lt;/p&gt;
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
             <sv:value>hippo:skipindex</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>56047e3b-4f2d-41ca-b8cb-1d559bf54b05</sv:value>
@@ -3827,6 +3901,9 @@ is als voor de jaren tachtig.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Climate Change</sv:value>
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-22T10:22:00.000+01:00</sv:value>
@@ -4003,6 +4080,9 @@ is als voor de jaren tachtig.&lt;/p&gt;
             <sv:value>Climate Change</sv:value>
             <sv:value>Global Warming</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2014-03-22T10:22:00.000+01:00</sv:value>
           </sv:property>
@@ -4166,8 +4246,8 @@ is als voor de jaren tachtig.&lt;/p&gt;
       <sv:value>hippostd:folder</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>mix:referenceable</sv:value>
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>114b0d64-a075-46d0-881c-dded623455cf</sv:value>
@@ -4187,8 +4267,8 @@ is als voor de jaren tachtig.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>7493e668-b337-4b1f-9c58-8d45b79f6166</sv:value>
@@ -4246,6 +4326,9 @@ is als voor de jaren tachtig.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Green</sv:value>
             <sv:value>Energy</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-02-13T15:51:00.000+01:00</sv:value>
@@ -4358,8 +4441,8 @@ de bladen, wordt verwacht dat de E-126 veel beter zal presteren dan de E-112.
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>bfecf70c-a2c7-45f3-bbe3-ee11d385ef6f</sv:value>
@@ -4416,6 +4499,9 @@ de bladen, wordt verwacht dat de E-126 veel beter zal presteren dan de E-112.
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Biosphere Technology</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>interest</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-06T10:22:00.000+02:00</sv:value>
@@ -4570,6 +4656,9 @@ herstel miljoenen jaren zou duren.&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-09T17:04:00.000+02:00</sv:value>
@@ -4765,6 +4854,9 @@ uitstelling van het onvermijdelijke.&lt;/p&gt;
             <sv:value>Automotive</sv:value>
             <sv:value>Green</sv:value>
           </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>action</sv:value>
+          </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-07-17T10:22:00.000+02:00</sv:value>
           </sv:property>
@@ -4895,8 +4987,8 @@ daalde met $1.65.&lt;/p&gt;
         <sv:value>hippostd:folder</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
         <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>4b62df51-bcf8-467b-b903-5d89e4c52b9c</sv:value>
@@ -4954,6 +5046,9 @@ daalde met $1.65.&lt;/p&gt;
           <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
             <sv:value>Global Warming</sv:value>
             <sv:value>Conference</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
@@ -5178,6 +5273,9 @@ broeikasgassen tabel&lt;/p&gt;
           </sv:property>
           <sv:property sv:name="hippogogreen:categories" sv:type="String">
             <sv:value>Global Warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:contentstage" sv:type="String">
+            <sv:value>none</sv:value>
           </sv:property>
           <sv:property sv:name="hippogogreen:date" sv:type="Date">
             <sv:value>2013-06-22T10:22:00.000+02:00</sv:value>
