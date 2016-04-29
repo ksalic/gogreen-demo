@@ -17,6 +17,7 @@
 
   <properties>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
+    <spring-security-web.version>4.0.3.RELEASE</spring-security-web.version>
   </properties>
 
   <dependencies>
@@ -250,6 +251,47 @@
       <groupId>org.onehippo.forge.urlrewriter</groupId>
       <artifactId>urlrewriter-module-repository</artifactId>
       <version>${forge.urlrewriter.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-web</artifactId>
+      <version>${spring-security-web.version}</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>aopalliance</artifactId>
+          <groupId>aopalliance</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>spring-security-core</artifactId>
+          <groupId>org.springframework.security</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>spring-beans</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>spring-context</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>spring-core</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>spring-expression</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>spring-web</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>${spring-security-web.version}</version>
     </dependency>
   </dependencies>
 
