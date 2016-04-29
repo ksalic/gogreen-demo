@@ -94,7 +94,8 @@
       <param-value>vm://</param-value>
     </init-param>
   </filter>
-  <filter-mapping>
+<!--
+<filter-mapping>
     <filter-name>AccessFilter</filter-name>
     <url-pattern>/console/*</url-pattern>
   </filter-mapping>
@@ -110,6 +111,7 @@
     <filter-name>AccessFilter</filter-name>
     <url-pattern>/logs/*</url-pattern>
   </filter-mapping>
+-->
 
   <filter-mapping>
     <filter-name>ConcurrentLogin</filter-name>
