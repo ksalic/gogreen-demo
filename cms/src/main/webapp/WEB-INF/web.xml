@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
 
 -->
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
@@ -38,12 +38,14 @@
     <filter-name>ConcurrentLogin</filter-name>
     <filter-class>org.hippoecm.frontend.plugins.login.ConcurrentLoginFilter</filter-class>
   </filter>
+
+  <!-- IP based access  -->
   <filter>
     <filter-name>AccessFilter</filter-name>
     <filter-class>com.onehippo.gogreen.filter.AccessFilter</filter-class>
     <init-param>
       <param-name>allowed-ip-ranges</param-name>
-      <param-value>127.0.0.1,172.16.0.0/12</param-value>
+      <param-value>127.0.0.1,0:0:0:0:0:0:0:1,172.16.0.0/12</param-value>
     </init-param>
   </filter>
 
@@ -94,8 +96,8 @@
       <param-value>vm://</param-value>
     </init-param>
   </filter>
-<!--
-<filter-mapping>
+
+  <filter-mapping>
     <filter-name>AccessFilter</filter-name>
     <url-pattern>/console/*</url-pattern>
   </filter-mapping>
@@ -111,7 +113,6 @@
     <filter-name>AccessFilter</filter-name>
     <url-pattern>/logs/*</url-pattern>
   </filter-mapping>
--->
 
   <filter-mapping>
     <filter-name>ConcurrentLogin</filter-name>
