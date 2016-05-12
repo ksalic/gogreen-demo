@@ -51,7 +51,7 @@ public class AccessFilter implements Filter {
             return;
         }
         final HttpServletResponse resp = (HttpServletResponse)response;
-        resp.sendRedirect("/");
+        resp.sendError(HttpServletResponse.SC_FORBIDDEN);
 
     }
 
