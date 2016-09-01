@@ -193,7 +193,7 @@ public class Comments extends DocumentComponent {
 
     private String createCommentNodeName(final HippoDocumentBean document) {
         final StringBuilder builder = new StringBuilder("Comment on ");
-        builder.append(document.getLocalizedName());
+        builder.append(document.getDisplayName());
 
         final Date now = new Date();
         final String timestamp = new SimpleDateFormat(DATE_PATTERN).format(now);

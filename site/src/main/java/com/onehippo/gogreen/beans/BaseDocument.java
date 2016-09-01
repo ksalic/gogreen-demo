@@ -21,7 +21,7 @@ public class BaseDocument extends HippoDocument {
 
     private String localizedName = null;
 
-    public String getLocalizedName() {
+    public String getDisplayName() {
         if (localizedName == null) {
             try {
                 javax.jcr.Node canonical = ((HippoNode) this.getNode()).getCanonicalNode();
@@ -29,7 +29,7 @@ public class BaseDocument extends HippoDocument {
                     // for a virtual only node, the local name is just the node name itself
                     localizedName = this.getName();
                 } else {
-                    localizedName = ((HippoNode) canonical).getLocalizedName();
+                    localizedName = ((HippoNode) canonical).getDisplayName();
                 }
             } catch (RepositoryException e) {
                 log.warn("RepositoryException for localized name", e);

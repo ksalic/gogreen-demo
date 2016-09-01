@@ -72,7 +72,7 @@ public class RepoSiteMenuItem extends EditableMenuItemImpl {
      * @return the localized name of the folder, or the JCR node name when the localized name cannot be retrieved.
      */
     public static String retrieveLocalizedName(HippoFolderBean folder) {
-        String localizedName = folder.getLocalizedName();
+        String localizedName = folder.getDisplayName();
         
         HippoNode node = (HippoNode)folder.getNode();
         
@@ -82,7 +82,7 @@ public class RepoSiteMenuItem extends EditableMenuItemImpl {
                 // we hit issue HSTTWO-1149: try harder
                 Node canonical = node.getCanonicalNode();
                 if (canonical != null) {
-                    return ((HippoNode)canonical).getLocalizedName();
+                    return ((HippoNode)canonical).getDisplayName();
                 }
             }
         } catch (RepositoryException ignored) {

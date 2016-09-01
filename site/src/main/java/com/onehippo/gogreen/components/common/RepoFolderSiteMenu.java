@@ -84,7 +84,7 @@ public class RepoFolderSiteMenu extends BaseComponent {
                                 HstRequestContext requestContext = request.getRequestContext();
                                 HstLinkCreator linkCreator = requestContext.getHstLinkCreator();
                                 hstLink = linkCreator.create(document, requestContext);
-                                localizedName = document.getLocalizedName();
+                                localizedName = document.getDisplayName();
                             }
 
                             @Override

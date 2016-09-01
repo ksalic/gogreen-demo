@@ -47,7 +47,7 @@ public class RepoSiteMenu extends BaseComponent {
         EditableMenuItem item = editable.getDeepestExpandedItem();
         
         if (item != null && item.isRepositoryBased() && item.getDepth() > 0) {
-            ResolvedSiteMapItem resolved = item.resolveToSiteMapItem(request);
+            ResolvedSiteMapItem resolved = item.resolveToSiteMapItem();
             HippoBean rootMenuBean = getBeanForResolvedSiteMapItem(request, resolved);
    
             if (rootMenuBean != null && rootMenuBean.isHippoFolderBean()) {
