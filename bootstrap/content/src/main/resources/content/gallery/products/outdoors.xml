@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="outdoors">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="outdoors">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippogallery:stdImageGallery</sv:value>
   </sv:property>
@@ -23,13 +19,16 @@
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>02853c5d-204c-41aa-b0df-005d6e1ba9b9</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>TerraClime.jpg</sv:value>
+    </sv:property>
     <sv:node sv:name="terraclime.jpg">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -230,17 +229,6 @@
           <sv:value>image/jpeg</sv:value>
         </sv:property>
       </sv:node>
-    </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>TerraClime.jpg</sv:value>
-      </sv:property>
     </sv:node>
   </sv:node>
 </sv:node>

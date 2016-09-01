@@ -4,11 +4,14 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:named</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>60d08120-1c36-432e-975e-2053861e985f</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>活动</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-translated-folder</sv:value>
@@ -461,23 +464,15 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d4ae7dc0-3e51-40dc-aff4-f019a3eabaa8</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>RED KITE MOUNTAIN BIKE BASH</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>RED KITE MOUNTAIN BIKE BASH</sv:value>
+        </sv:property>
         <sv:node sv:name="red-kite-mountain-bike-bash">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:event</sv:value>
@@ -642,23 +637,15 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>391cc201-4009-4558-8cb6-ecf07a35736b</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>West Coast Green Symposium on Green Innovation</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>West Coast Green Symposium on Green Innovation</sv:value>
+        </sv:property>
         <sv:node sv:name="west-coast-green-symposium-on-green-innovation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:event</sv:value>
@@ -1674,7 +1661,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>50</sv:value>
+      <sv:value>59</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>60d08120-1c36-432e-975e-2053861e985f</sv:value>
@@ -1707,7 +1694,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>50</sv:value>
+      <sv:value>59</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>60d08120-1c36-432e-975e-2053861e985f</sv:value>
@@ -2177,11 +2164,14 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>56c6db6b-79b4-4e48-bc84-d583bdc11b54</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>环保节 </sv:value>
         </sv:property>
         <sv:node sv:name="环保节">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2307,17 +2297,6 @@
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>环保节 </sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="环保节">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3499,17 +3478,6 @@
       </sv:node>
     </sv:node>
   </sv:node>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>活动</sv:value>
-    </sv:property>
-  </sv:node>
   <sv:node sv:name="2016">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippostd:folder</sv:value>
@@ -3972,11 +3940,14 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>18bf1499-3476-40fc-a96e-f0a4234ed086</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>环保节 </sv:value>
         </sv:property>
         <sv:node sv:name="环保节">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -4108,17 +4079,6 @@
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>环保节 </sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="环保节">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">

@@ -4,11 +4,14 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:named</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>a7f129aa-4ef8-49ca-863b-d827deaf7cc1</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Blogs</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-blogs-folder</sv:value>
@@ -93,23 +96,15 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a6bdbe41-f850-4988-b8ee-463069f7b683</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Solarcooking oktober</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Solarcooking oktober</sv:value>
+        </sv:property>
         <sv:node sv:name="solarcooking-oktober">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -316,7 +311,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>ef710753-7260-411c-a5fe-86c77b0e4267</sv:value>
@@ -704,23 +698,15 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>234f5543-1260-4177-b036-ff8e052606c0</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Learning at Home</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Learning at Home</sv:value>
+        </sv:property>
         <sv:node sv:name="learning-at-home">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -895,7 +881,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>699a3bb2-bfa9-4f56-bba5-b0759efd731d</sv:value>
@@ -1260,11 +1245,14 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>49a48c6c-dec2-4411-9124-eef5bdc1c1f4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Is a smart thermostat worth the investment?</sv:value>
         </sv:property>
         <sv:node sv:name="is-a-smart-thermostat-worth-the-investment">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1365,24 +1353,12 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Is a smart thermostat worth the investment?</sv:value>
-          </sv:property>
-        </sv:node>
         <sv:node sv:name="is-a-smart-thermostat-worth-the-investment">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>df648e40-fc09-473c-bd04-3aef3b600ca8</sv:value>
@@ -1586,11 +1562,14 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>3fd83b43-3374-4556-a638-816a52d83d19</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>How to green your dorm room</sv:value>
         </sv:property>
         <sv:node sv:name="how-to-green-your-dorm-room">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1717,24 +1696,12 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>How to green your dorm room</sv:value>
-          </sv:property>
-        </sv:node>
         <sv:node sv:name="how-to-green-your-dorm-room">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>1b003b07-6d7f-455d-b6e0-9d6e8ef20b71</sv:value>
@@ -1990,23 +1957,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e90bca67-64be-4b74-9167-c52973edf229</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>What steps are taken by universities to become more sustainable?</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>What steps are taken by universities to become more sustainable?</sv:value>
+        </sv:property>
         <sv:node sv:name="what-steps-are-taken-by-universities-to-become-more-sustainable">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -2154,7 +2113,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>753fe197-d440-44f5-9ff9-95f2acf922ac</sv:value>
@@ -2465,11 +2423,14 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cc9aa41e-e941-4904-a559-d10474f0aa70</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>10 simple steps to green your office</sv:value>
         </sv:property>
         <sv:node sv:name="10-simple-steps-to-green-your-office">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2590,24 +2551,12 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>10 simple steps to green your office</sv:value>
-          </sv:property>
-        </sv:node>
         <sv:node sv:name="10-simple-steps-to-green-your-office">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>18507815-540d-4f73-ab54-cb8a68fe221a</sv:value>
@@ -2851,11 +2800,14 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>505cfea8-d738-4039-a47e-21ad6245a23e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Learning at Home (Content Blocks)</sv:value>
         </sv:property>
         <sv:node sv:name="learning-at-home">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3047,17 +2999,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Learning at Home (Content Blocks)</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="learning-at-home">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3475,11 +3416,14 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cc7d4e10-29d8-40f7-ba59-e1ec7abc5667</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Green Office Week</sv:value>
         </sv:property>
         <sv:node sv:name="green-office-week">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3628,24 +3572,12 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Green Office Week</sv:value>
-          </sv:property>
-        </sv:node>
         <sv:node sv:name="green-office-week">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>4c9bbd81-5958-49d5-9439-54bdc8b02079</sv:value>
@@ -3968,23 +3900,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>45d0c6bb-643c-423b-a878-746ff6b024e3</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>NASA solar sail passes first major test</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>NASA solar sail passes first major test</sv:value>
+        </sv:property>
         <sv:node sv:name="NASA-solar-sail-passes-first-major-test">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -4136,23 +4060,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>7399f095-341b-4731-aaed-e90b8c5b48d4</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>PV Taiwan 2014 starts with photovoltaic solutions and applications</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>PV Taiwan 2014 starts with photovoltaic solutions and applications</sv:value>
+        </sv:property>
         <sv:node sv:name="http---en.wikinews.org-wiki-pv_taiwan_2014_starts_with_photovoltaic_solutions_and_applications">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -4275,7 +4191,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>f74c0650-8de1-4b1a-b0ee-0c6bd1ed0b92</sv:value>
@@ -4495,23 +4410,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>c6511419-34b4-4e91-a13c-92e64f0c4fc3</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Romania switches to Winter Time</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Romania switches to Winter Time</sv:value>
+        </sv:property>
         <sv:node sv:name="Romania-switches-to-Winter-Time">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -4645,7 +4552,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>534d23e6-2117-447e-bb3c-da1921d04bae</sv:value>
@@ -4910,23 +4816,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>546e617a-2115-43f3-b2cd-13bd0b1debc0</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>US House committee approves daylight saving time amendment</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>US House committee approves daylight saving time amendment</sv:value>
+        </sv:property>
         <sv:node sv:name="US-House-committee-approves-daylight-saving-time-amendment">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -5052,23 +4950,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>89ad974c-28ff-4d5c-a505-03cb6f72a742</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>PBS show asserts greenhouse gases</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>PBS show asserts greenhouse gases</sv:value>
+        </sv:property>
         <sv:node sv:name="pbs-show-asserts-greenhouse-gases">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -5286,23 +5176,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d5344c26-4a4e-460f-a172-8d8bcc1006a7</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>EU adopts renewable energy measures</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>EU adopts renewable energy measures</sv:value>
+        </sv:property>
         <sv:node sv:name="EU-adopts-renewable-energy-measures">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -5464,23 +5346,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>f98bcab4-6018-47bf-8417-638a3b380528</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Healing ozone layer may contribute to global warming</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Healing ozone layer may contribute to global warming</sv:value>
+        </sv:property>
         <sv:node sv:name="healing-ozone-layer-may-contribute-to-global-warming">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -5654,11 +5528,14 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d5e77798-b6af-418d-8ff1-4d65da14bc78</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Disputed island disappears</sv:value>
         </sv:property>
         <sv:node sv:name="disputed-island-disappears">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -5795,40 +5672,21 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             </sv:property>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Disputed island disappears</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
       <sv:node sv:name="half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>2e44d9c2-64ac-4769-b8a2-5d2cc485eeed</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Half of life could go extinct by century's end, warn eminent biologists</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Half of life could go extinct by century's end, warn eminent biologists</sv:value>
+        </sv:property>
         <sv:node sv:name="half-of-life-could-go-extinct-by-centurys-end-warn-eminent-biologists">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -6000,7 +5858,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>7ac539f6-334a-4ebb-955f-1ee8c7c5b402</sv:value>
@@ -6340,23 +6197,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>56b4ee50-1725-4bd7-8623-2b5738486861</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Kosovo independence ruled legal by International Court of Justice</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Kosovo independence ruled legal by International Court of Justice</sv:value>
+        </sv:property>
         <sv:node sv:name="kosovo-independence-ruled-legal-by-international-court-of-justice">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -6494,7 +6343,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>7d0e4dc4-7c0e-446a-b22f-8e5c0cf96929</sv:value>
@@ -6767,23 +6615,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>65e068e9-0250-448c-8924-ef49cc110904</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Environmentalist: Turn everything off!</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Environmentalist: Turn everything off!</sv:value>
+        </sv:property>
         <sv:node sv:name="environmentalist-turn-everything-off">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -6965,23 +6805,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>10d078ae-d5fa-4def-8971-a2168ea7d0f2</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>MIT's Emerging Technologies Conference 2013 makes selections</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>MIT's Emerging Technologies Conference 2013 makes selections</sv:value>
+        </sv:property>
         <sv:node sv:name="MITs-Emerging-Technologies-Conference-2013-makes-selections">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -7123,23 +6955,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>3036b062-c3a8-4c58-854b-9ca19bbe013d</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>New Zealand recycles old computers for free</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>New Zealand recycles old computers for free</sv:value>
+        </sv:property>
         <sv:node sv:name="New-Zealand-recycles-old-computers-for-free">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -7295,23 +7119,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>3656436c-de32-4c15-9425-0af13da5485b</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Australian company to make solar power with space technology</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Australian company to make solar power with space technology</sv:value>
+        </sv:property>
         <sv:node sv:name="Australian-company-to-make-solar-power-with-space-technology">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -7464,23 +7280,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>23218f7f-51ae-463c-b9c3-439080a10926</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Toyota Suggests Putting a Glass of Water on Your Dash (Well, Not Really)</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Toyota Suggests Putting a Glass of Water on Your Dash (Well, Not Really)</sv:value>
+        </sv:property>
         <sv:node sv:name="toyota-suggests-putting-a-glass-of-water-on-your-dash-well-not-really">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -7624,23 +7432,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>2566b7f4-3fcc-414a-806b-b3cd9442570e</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Nano-Particles Improve Water Cooling Efficiency by 60%!</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Nano-Particles Improve Water Cooling Efficiency by 60%!</sv:value>
+        </sv:property>
         <sv:node sv:name="nano-particles-improve-water-cooling-efficiency-by-60">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -7926,7 +7726,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>70fe0cac-9628-455e-b1e6-837fd709912c</sv:value>
@@ -8064,23 +7863,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>408444df-6d52-44b3-b8a4-853600f197d4</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Evolution may occur faster than once thought</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Evolution may occur faster than once thought</sv:value>
+        </sv:property>
         <sv:node sv:name="Evolution-may-occur-faster-than-once-thought">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -8324,7 +8115,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>5a6b2633-67f6-4b12-be0e-9cf904965e54</sv:value>
@@ -8441,23 +8231,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d3eade45-4a2f-45aa-8221-90b581a01e42</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Melting Glacier in Italy Gets a Giant Thermal Blanket</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Melting Glacier in Italy Gets a Giant Thermal Blanket</sv:value>
+        </sv:property>
         <sv:node sv:name="melting-glacier-in-italy-gets-a-giant-thermal-blanket">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -8605,23 +8387,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>1f3267f2-1d82-4efb-825b-dfcbe20cdae6</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Toyota, Tesla to develop electric SUV</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Toyota, Tesla to develop electric SUV</sv:value>
+        </sv:property>
         <sv:node sv:name="http---en.wikinews.org-wiki-toyota_tesla_to_develop_electric_suv">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -8778,23 +8552,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d5492266-86e1-4a3a-a7ce-eb3eeca4516e</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>United Nations Report: Deserts threatened by global warming</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>United Nations Report: Deserts threatened by global warming</sv:value>
+        </sv:property>
         <sv:node sv:name="http---en.wikinews.org-wiki-united_nations_report-_deserts_threatened_by_global_warming">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -8976,23 +8742,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>97f87c90-4f88-4de1-a6dd-0f212479f03e</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Second round of Bonn UN Climate Change negotiations continue</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Second round of Bonn UN Climate Change negotiations continue</sv:value>
+        </sv:property>
         <sv:node sv:name="second-round-of-bonn-un-climate-change-negotiations-continue">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -9166,23 +8924,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>fcceb1de-183f-4858-9fd7-7c74e221ab16</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Copenhagen climate conference</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Copenhagen climate conference</sv:value>
+        </sv:property>
         <sv:node sv:name="copenhagen-climate-conference">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -9694,23 +9444,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a51a36df-6394-4fe9-9a89-06cceb835015</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Global Warming underestimated</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Global Warming underestimated</sv:value>
+        </sv:property>
         <sv:node sv:name="global-warming-underestimated">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -9895,23 +9637,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>51ddd03b-cfe5-46cb-bf6f-4a6a3f4dce56</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Oil prices drive new investment in clean technology</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Oil prices drive new investment in clean technology</sv:value>
+        </sv:property>
         <sv:node sv:name="Oil-prices-drive-new-investment-in-clean-technology">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -10109,23 +9843,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>bbfc070e-92e4-4c9c-bdc8-8495f1807880</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Largest mass extinction in 65 million years underway</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Largest mass extinction in 65 million years underway</sv:value>
+        </sv:property>
         <sv:node sv:name="Largest-mass-extinction-in-65-million-years-underway">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -10288,23 +10014,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>d3b85a09-a488-4769-9ed0-f4cc815c1042</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>New Zealand declares 2007 switch of energy efficiency strategy</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>New Zealand declares 2007 switch of energy efficiency strategy</sv:value>
+        </sv:property>
         <sv:node sv:name="New-Zealand-declares-2007-switch-of-energy-efficiency-strategy">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -10447,23 +10165,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a76619c8-c3ce-4b34-b6c6-e7076d51095d</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Sweden reaffirms aims for oil-free economy</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Sweden reaffirms aims for oil-free economy</sv:value>
+        </sv:property>
         <sv:node sv:name="Sweden-reaffirms-aims-for-oil-free-economy">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -10596,23 +10306,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>37e1cf7e-9ab4-4f2b-981b-ff5fc7a84cdc</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>New Record: World’s Largest Wind Turbine</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>New Record: World’s Largest Wind Turbine</sv:value>
+        </sv:property>
         <sv:node sv:name="new-record-worlds-largest-wind-turbine">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -10758,23 +10460,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>33f36c3c-028f-43be-982a-08c1f2e6e7d1</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Whole Foods moves to renewable energy</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Whole Foods moves to renewable energy</sv:value>
+        </sv:property>
         <sv:node sv:name="Whole-Foods-moves-to-renewable-energy">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -10898,23 +10592,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>4d13e36b-2323-40ce-a57f-23b0ed51b087</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Australian report shows emissions increase "more than doubled since the 1990s"</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Australian report shows emissions increase "more than doubled since the 1990s"</sv:value>
+        </sv:property>
         <sv:node sv:name="australian-report-shows-emissions-increase-more-than-doubled-since-the-1990s">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -11059,23 +10745,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>40ff0015-1107-4528-b4c3-6d20a77fcfd6</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>World's biggest polluters won't cut back on fossil fuel</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>World's biggest polluters won't cut back on fossil fuel</sv:value>
+        </sv:property>
         <sv:node sv:name="worlds-biggest-polluters-wont-cut-back-on-fossil-fuel">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -11356,23 +11034,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>21954860-df95-47df-bc63-bf88453d5936</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Our top 5 green saloons</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Our top 5 green saloons</sv:value>
+        </sv:property>
         <sv:node sv:name="our-top-5-green-saloons">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -11491,23 +11161,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e09a3809-f2eb-4c42-9dfa-0280fad273e6</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Domestic Rainwater Harvesting Systems</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Domestic Rainwater Harvesting Systems</sv:value>
+        </sv:property>
         <sv:node sv:name="domestic-rainwater-harvesting-systems">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -11633,11 +11295,14 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a5376077-dbe9-4f89-9334-eb6249d4db69</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Organic Distribution</sv:value>
         </sv:property>
         <sv:node sv:name="organic-distribution">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -11755,40 +11420,21 @@ These moments are not tied to a curriculum, not focused on standards or expectat
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Organic Distribution</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
       <sv:node sv:name="wind-powered-parking-garage">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>254fc005-8f67-4f2c-bff4-d80531551f35</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Wind powered parking garage</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Wind powered parking garage</sv:value>
+        </sv:property>
         <sv:node sv:name="wind-powered-parking-garage">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -11918,23 +11564,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>7d4d366c-f581-49b6-b813-e0a48c11d12e</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Eco-friendly homes</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Eco-friendly homes</sv:value>
+        </sv:property>
         <sv:node sv:name="eco-friendly-homes">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -12065,23 +11703,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>4c7bcc24-f8a1-4f23-ab46-ab92bfaf7900</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Report: Green Technology Trends 2013</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Report: Green Technology Trends 2013</sv:value>
+        </sv:property>
         <sv:node sv:name="report-green-technology-trends-2013">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -12244,23 +11874,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>235523bb-cb03-47f2-b5dd-034f17ee3b97</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Vegetarian</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Vegetarian</sv:value>
+        </sv:property>
         <sv:node sv:name="vegetarian">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -12525,23 +12147,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>30e3eca6-1a28-4d3c-9b62-4e6d8d122023</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Slowfood</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Slowfood</sv:value>
+        </sv:property>
         <sv:node sv:name="slowfood">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -12726,23 +12340,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>08a07ee4-8fba-40a4-a62b-431705889640</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Solar-powered plane completes 26-hour flight</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Solar-powered plane completes 26-hour flight</sv:value>
+        </sv:property>
         <sv:node sv:name="Solar-powered-plane-completes-26-hour-flight">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -12889,23 +12495,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>fc234d21-a769-49e5-ba1c-6a0f176fd6c0</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Monster Wave</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Monster Wave</sv:value>
+        </sv:property>
         <sv:node sv:name="monster-wave">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -13031,23 +12629,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>8e28f51d-2945-469c-8c7c-78767ab01363</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Big River Man</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Big River Man</sv:value>
+        </sv:property>
         <sv:node sv:name="big-river-man">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -13181,23 +12771,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>8f1894fb-5f97-4935-b62c-773a80b8f030</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Fixies Are Totally Green</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Fixies Are Totally Green</sv:value>
+        </sv:property>
         <sv:node sv:name="fixies-are-totally-green">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -13346,23 +12928,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>46bdbe3d-d919-4c13-8a1f-6518a6790c94</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>India unveils prototype of $35 tablet computer</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>India unveils prototype of $35 tablet computer</sv:value>
+        </sv:property>
         <sv:node sv:name="india-unveils-prototype-of-usd35-tablet-computer">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -13479,23 +13053,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cc52534b-3bd3-4772-abbe-a16376b28a8f</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Energy-Impact-of-Light-Bulbs</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Energy-Impact-of-Light-Bulbs</sv:value>
+        </sv:property>
         <sv:node sv:name="energy-impact-of-light-bulbs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -13672,23 +13238,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>600bb129-792b-421f-8a46-ba0255c1bb0c</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Obama-commits-billions-to-solar-firms</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Obama-commits-billions-to-solar-firms</sv:value>
+        </sv:property>
         <sv:node sv:name="obama-commits-billions-to-solar-firms">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -13867,23 +13425,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>7c1eaa80-fa95-4ac1-8b2c-0c8124607ecb</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Solar-thermal-seeks-US-breakthrough</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Solar-thermal-seeks-US-breakthrough</sv:value>
+        </sv:property>
         <sv:node sv:name="solar-thermal-seeks-us-breakthrough">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -14164,23 +13714,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>23113627-0a70-4dcb-b428-55218031394f</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Climate Change threatens the world's poorest</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Climate Change threatens the world's poorest</sv:value>
+        </sv:property>
         <sv:node sv:name="climate-change-threatens-the-worlds-poorest">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -14384,23 +13926,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>fed69936-0882-497d-b6e6-a10fcd1f2661</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Climategate</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Climategate</sv:value>
+        </sv:property>
         <sv:node sv:name="climategate">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -14824,7 +14358,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>018fc04d-8fc5-4f0c-8883-3e86fc48165c</sv:value>
@@ -15031,23 +14564,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>f490e905-57e7-4846-a13a-23136836a357</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Copenhagen accord</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Copenhagen accord</sv:value>
+        </sv:property>
         <sv:node sv:name="copenhagen-accord">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -15267,23 +14792,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>bd065aa8-5f0b-44a5-bc72-6e37eed2ee68</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Kyoto Protocol</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Kyoto Protocol</sv:value>
+        </sv:property>
         <sv:node sv:name="kyoto-protocol">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -15429,23 +14946,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>092ba4a6-519a-48db-accc-7b7a60ec9c65</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Bali climate change conference</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Bali climate change conference</sv:value>
+        </sv:property>
         <sv:node sv:name="bali-climate-change-conference">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -15664,23 +15173,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>0489881e-adf4-4a77-a281-21fc5442a276</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Solar: the sky’s the limit</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Solar: the sky’s the limit</sv:value>
+        </sv:property>
         <sv:node sv:name="solar-power-the-skys-the-limit">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -15943,23 +15444,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>3e4631f8-c95b-4e3f-a7e2-e8ca77abaf16</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Tesla shares sink below original offering price</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Tesla shares sink below original offering price</sv:value>
+        </sv:property>
         <sv:node sv:name="tesla-shares-sink-below-original-offering-price">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -16108,23 +15601,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>c19a412c-da0a-46a9-ade6-8738f25e2e08</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Obama declares tougher emission targets before Copenhagen summit</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Obama declares tougher emission targets before Copenhagen summit</sv:value>
+        </sv:property>
         <sv:node sv:name="Obama-declares-tougher-emission-targets-before-Copenhagen-summit">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -16253,23 +15738,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>a908a57d-663d-445d-8f31-a0abb2de50e1</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Former Formula 1 designer unveils new electric car</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Former Formula 1 designer unveils new electric car</sv:value>
+        </sv:property>
         <sv:node sv:name="Former-Formula-1-designer-unveils-new-electric-car">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -16421,23 +15898,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ad4955dc-cb02-4f7e-a366-5e379d991e59</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>European Retailers Adopt Voluntary Sustainable Business Code</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>European Retailers Adopt Voluntary Sustainable Business Code</sv:value>
+        </sv:property>
         <sv:node sv:name="european-retailers-adopt-voluntary-sustainable-business-code">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -16580,23 +16049,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>3e52f519-f905-407d-bdc3-6378897b0ba7</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>High Above the Earth, Satellites Track Melting Ice</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>High Above the Earth, Satellites Track Melting Ice</sv:value>
+        </sv:property>
         <sv:node sv:name="high-above-the-earth-satellites-track-melting-ice">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -16743,23 +16204,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>3e740aa9-6714-48e3-8fd0-914c9ed3a7cd</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Hopes for treaty on climate begin to wither</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Hopes for treaty on climate begin to wither</sv:value>
+        </sv:property>
         <sv:node sv:name="hopes-for-treaty-on-climate-begin-to-wither">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -16955,23 +16408,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>9ce85187-eebc-4a40-8185-c1517033df43</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Elves and Sprites</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Elves and Sprites</sv:value>
+        </sv:property>
         <sv:node sv:name="elves-and-sprites">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -17143,23 +16588,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>1c925d0c-3542-477f-a677-f8275d146597</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>G8 leaders set new emissions target</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>G8 leaders set new emissions target</sv:value>
+        </sv:property>
         <sv:node sv:name="G8-leaders-set-new-emissions-target">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -17285,23 +16722,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>eda53e2d-e245-439d-9825-045664233920</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Toyota employs the Japanese hybrid solar powered vehicle carrier ship 'Auriga Leader'</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Toyota employs the Japanese hybrid solar powered vehicle carrier ship 'Auriga Leader'</sv:value>
+        </sv:property>
         <sv:node sv:name="http---en.wikinews.org-wiki-toyota_employs_the_japanese_hybrid_solar_powered_vehicle_carrier_ship_27auriga_leader27">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -17459,23 +16888,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>4a35cad1-dbd2-408a-9342-70d4cfa238f5</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Hydrogen fuel cell cars promoted in various states, but U.S. federal funding cut</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Hydrogen fuel cell cars promoted in various states, but U.S. federal funding cut</sv:value>
+        </sv:property>
         <sv:node sv:name="Hydrogen-fuel-cell-cars-promoted-in-various-states-but-U.S.-federal-funding-cut">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -17666,23 +17087,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>045f3b5a-92d1-4e45-b2d7-569b5af98dbd</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Earth Day 2009 celebrated around the world</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Earth Day 2009 celebrated around the world</sv:value>
+        </sv:property>
         <sv:node sv:name="Earth-Day-2009-celebrated-around-the-world">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -17875,23 +17288,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>8c3d3b33-af3b-44a1-b05c-dc4a5cdc6204</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Maldives to become the world's first carbon-neutral country</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Maldives to become the world's first carbon-neutral country</sv:value>
+        </sv:property>
         <sv:node sv:name="http---en.wikinews.org-wiki-maldives_to_become_the_world27s_first_carbon-neutral_country">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -18086,23 +17491,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>0139866b-10c7-4370-b97d-d4ef1ed38c8b</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Solar car travels around the world</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Solar car travels around the world</sv:value>
+        </sv:property>
         <sv:node sv:name="Solar-car-travels-around-the-world">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -18260,23 +17657,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>cfdd6cec-8e8c-4dd0-9a95-0eabb950ade2</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>UN scientist: Eat less meat to tackle climate change</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>UN scientist: Eat less meat to tackle climate change</sv:value>
+        </sv:property>
         <sv:node sv:name="un-scientist-eat-less-meat-to-tackle-climate-change">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -18452,23 +17841,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>21bff27c-a318-4cbe-94a1-c90033d06131</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Nuclear power seriously considered for ASEAN power grid</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Nuclear power seriously considered for ASEAN power grid</sv:value>
+        </sv:property>
         <sv:node sv:name="nuclear-power-seriously-considered-for-asean-power-grid">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -18652,23 +18033,15 @@ These moments are not tied to a curriculum, not focused on standards or expectat
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>e9d5be67-8ca4-4517-a575-5c631050956b</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Abu Dhabi starts constructing 'green city'</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Abu Dhabi starts constructing 'green city'</sv:value>
+        </sv:property>
         <sv:node sv:name="Abu-Dhabi-starts-constructing-green-city">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:blogitem</sv:value>
@@ -18810,7 +18183,7 @@ These moments are not tied to a curriculum, not focused on standards or expectat
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>153</sv:value>
+      <sv:value>193</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>a7f129aa-4ef8-49ca-863b-d827deaf7cc1</sv:value>
@@ -18832,17 +18205,6 @@ These moments are not tied to a curriculum, not focused on standards or expectat
     </sv:property>
     <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
       <sv:value>true</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Blogs</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

@@ -4,11 +4,14 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:named</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>7269637a-9d41-4f1b-a7d8-0a317bac6e81</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Produkte</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-translated-folder</sv:value>
@@ -20,23 +23,12 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>de</sv:value>
   </sv:property>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Produkte</sv:value>
-    </sv:property>
-  </sv:node>
   <sv:node sv:name="facetedproducts">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>27</sv:value>
+      <sv:value>43</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>7269637a-9d41-4f1b-a7d8-0a317bac6e81</sv:value>
@@ -64,11 +56,14 @@
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>02b499ea-fa76-4e3b-9edb-9f693aa7341f</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Wiederverwendung</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
@@ -80,17 +75,6 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>de</sv:value>
     </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Wiederverwendung</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="2010">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
@@ -138,23 +122,15 @@
             <sv:value>hippo:handle</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:named</sv:value>
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippo:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>7cb73b27-fdbc-4a73-a1b4-de92acab4639</sv:value>
           </sv:property>
-          <sv:node sv:name="hippo:translation">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:translation</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:language" sv:type="String">
-              <sv:value/>
-            </sv:property>
-            <sv:property sv:name="hippo:message" sv:type="String">
-              <sv:value>Holz aus nachhaltiger Forstwirtschaft iPod Soundsystem</sv:value>
-            </sv:property>
-          </sv:node>
+          <sv:property sv:name="hippo:name" sv:type="String">
+            <sv:value>Holz aus nachhaltiger Forstwirtschaft iPod Soundsystem</sv:value>
+          </sv:property>
           <sv:node sv:name="holz-aus-nachhaltiger-forstwirtschaft-ipod-soundsystem">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:product</sv:value>
@@ -518,7 +494,6 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:versionable</sv:value>
-              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>43149744-901b-41bd-82fd-358dc429c4ea</sv:value>
@@ -699,11 +674,14 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>e9b680fe-6a4c-447d-b620-e3fe97e8f51d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Transport</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
@@ -715,17 +693,6 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>de</sv:value>
     </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Transport</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="2010">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
@@ -773,23 +740,15 @@ post-consumer Papier ersetzt oder ganz beseitigt werden.&lt;/span&gt;
             <sv:value>hippo:handle</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:named</sv:value>
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippo:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>8b59e7db-1b2b-422f-948e-b2ef66b6fa3d</sv:value>
           </sv:property>
-          <sv:node sv:name="hippo:translation">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:translation</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:language" sv:type="String">
-              <sv:value/>
-            </sv:property>
-            <sv:property sv:name="hippo:message" sv:type="String">
-              <sv:value>Toyota Prius</sv:value>
-            </sv:property>
-          </sv:node>
+          <sv:property sv:name="hippo:name" sv:type="String">
+            <sv:value>Toyota Prius</sv:value>
+          </sv:property>
           <sv:node sv:name="toyota-prius">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:product</sv:value>
@@ -940,11 +899,14 @@ ein Prius.&lt;/span&gt;
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>fb99527e-fe78-494c-9db0-755814f1e085</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Gesundheitswesen</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
@@ -956,17 +918,6 @@ ein Prius.&lt;/span&gt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>de</sv:value>
     </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Gesundheitswesen</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="2010">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
@@ -1014,23 +965,15 @@ ein Prius.&lt;/span&gt;
             <sv:value>hippo:handle</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:named</sv:value>
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippo:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>0e2eab1c-0b70-4bbb-90d1-b47455891712</sv:value>
           </sv:property>
-          <sv:node sv:name="hippo:translation">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:translation</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:language" sv:type="String">
-              <sv:value/>
-            </sv:property>
-            <sv:property sv:name="hippo:message" sv:type="String">
-              <sv:value>Hanf Duschvorhang</sv:value>
-            </sv:property>
-          </sv:node>
+          <sv:property sv:name="hippo:name" sv:type="String">
+            <sv:value>Hanf Duschvorhang</sv:value>
+          </sv:property>
           <sv:node sv:name="hanf-duschvorhang">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:product</sv:value>
@@ -1166,11 +1109,14 @@ Ihren Vorhang auf für die letzten Jahre.&lt;/span&gt;
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>be6bfd64-8be8-4d35-ac43-60b096af869b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Tier &amp; Garten</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
@@ -1182,17 +1128,6 @@ Ihren Vorhang auf für die letzten Jahre.&lt;/span&gt;
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>de</sv:value>
     </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Tier &amp; Garten</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="2010">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
@@ -1240,23 +1175,15 @@ Ihren Vorhang auf für die letzten Jahre.&lt;/span&gt;
             <sv:value>hippo:handle</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:named</sv:value>
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippo:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>4c7a2bec-1edf-480d-91b9-6edf143d6066</sv:value>
           </sv:property>
-          <sv:node sv:name="hippo:translation">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:translation</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:language" sv:type="String">
-              <sv:value/>
-            </sv:property>
-            <sv:property sv:name="hippo:message" sv:type="String">
-              <sv:value>The Green Johanna Compost Bin</sv:value>
-            </sv:property>
-          </sv:node>
+          <sv:property sv:name="hippo:name" sv:type="String">
+            <sv:value>The Green Johanna Compost Bin</sv:value>
+          </sv:property>
           <sv:node sv:name="the-green-johanna-compost-bin">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:product</sv:value>
@@ -1608,7 +1535,6 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:versionable</sv:value>
-              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>6f7111c9-d33c-4ab5-8ca5-902d7ffba926</sv:value>
@@ -1783,11 +1709,14 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>fbdd4baf-4e4b-446b-bebc-839f21a82e87</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Lebensmittel</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
@@ -1799,17 +1728,6 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>de</sv:value>
     </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Lebensmittel</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="2010">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippostd:folder</sv:value>
@@ -1857,23 +1775,15 @@ Milchprodukte, und erfordert ein Minimum von weiteren 30% Gartenabfälle&lt;/spa
             <sv:value>hippo:handle</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:named</sv:value>
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippo:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>f2a3447f-35d1-4788-a651-a35529b0b641</sv:value>
           </sv:property>
-          <sv:node sv:name="hippo:translation">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:translation</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:language" sv:type="String">
-              <sv:value/>
-            </sv:property>
-            <sv:property sv:name="hippo:message" sv:type="String">
-              <sv:value>Birke Holz Kompostierbare Besteck</sv:value>
-            </sv:property>
-          </sv:node>
+          <sv:property sv:name="hippo:name" sv:type="String">
+            <sv:value>Birke Holz Kompostierbare Besteck</sv:value>
+          </sv:property>
           <sv:node sv:name="birke-holz-kompostierbare-besteck">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:product</sv:value>
@@ -2283,7 +2193,6 @@ erhoben.&lt;/span&gt;
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:versionable</sv:value>
-              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>6d56629c-f279-4fde-ac5d-8650bb10017b</sv:value>

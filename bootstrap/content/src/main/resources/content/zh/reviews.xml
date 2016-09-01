@@ -4,11 +4,14 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:named</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>ae42a63f-9b8a-411b-9f74-c1ef0560d7d3</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>检阅</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-translated-folder</sv:value>
@@ -20,17 +23,6 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>zh</sv:value>
   </sv:property>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>检阅</sv:value>
-    </sv:property>
-  </sv:node>
   <sv:node sv:name="绿色约翰娜堆肥箱">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippostd:folder</sv:value>
@@ -57,23 +49,15 @@
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
         <sv:value>mix:referenceable</sv:value>
-        <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>39b0fd74-c0ad-49fc-83dd-8d711a45b832</sv:value>
       </sv:property>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Review for 绿色约翰娜堆肥箱 2011-12-01 17.40.12.969</sv:value>
-        </sv:property>
-      </sv:node>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Review for 绿色约翰娜堆肥箱 2011-12-01 17.40.12.969</sv:value>
+      </sv:property>
       <sv:node sv:name="review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippogogreen:review</sv:value>

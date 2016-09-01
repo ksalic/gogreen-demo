@@ -4,11 +4,15 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:named</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>84d6e439-6a58-4887-9d7e-707814a2c659</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>博产品&#13;
+产品</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-translated-folder</sv:value>
@@ -88,23 +92,15 @@
             <sv:value>hippo:handle</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:named</sv:value>
             <sv:value>mix:referenceable</sv:value>
-            <sv:value>hippo:translated</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>3b88ffac-e0dd-4f1a-868e-5f6240f63e6a</sv:value>
           </sv:property>
-          <sv:node sv:name="hippo:translation">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippo:translation</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:language" sv:type="String">
-              <sv:value/>
-            </sv:property>
-            <sv:property sv:name="hippo:message" sv:type="String">
-              <sv:value>可持续木头的iPod音响系统</sv:value>
-            </sv:property>
-          </sv:node>
+          <sv:property sv:name="hippo:name" sv:type="String">
+            <sv:value>可持续木头的iPod音响系统</sv:value>
+          </sv:property>
           <sv:node sv:name="可持续木头的ipod音响系统">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogogreen:product</sv:value>
@@ -442,7 +438,7 @@ Vers机壳比相应的塑料系统厚四倍多，厚度9,5毫米（常规塑料�
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>6</sv:value>
+      <sv:value>9</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>84d6e439-6a58-4887-9d7e-707814a2c659</sv:value>
@@ -462,18 +458,6 @@ Vers机壳比相应的塑料系统厚四倍多，厚度9,5毫米（常规塑料�
     </sv:property>
     <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
       <sv:value>true</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>博产品&#13;
-产品</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

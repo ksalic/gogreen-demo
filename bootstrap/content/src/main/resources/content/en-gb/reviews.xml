@@ -4,11 +4,14 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:named</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>157d0d0b-50a3-4eae-bb38-7c19ae8a3ed7</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Product Reviews</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-translated-folder</sv:value>
@@ -20,17 +23,6 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>en-gb</sv:value>
   </sv:property>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Product Reviews</sv:value>
-    </sv:property>
-  </sv:node>
   <sv:node sv:name="Birch Wood Compostable Cutlery">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippostd:folder</sv:value>
@@ -1785,11 +1777,14 @@
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>89829445-5fef-4897-a8e4-7d2cbb55d5e4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Tamara's Ratatouille</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
@@ -1801,27 +1796,19 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>en-gb</sv:value>
     </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Tamara's Ratatouille</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="review-for-tamaras-ratatouille-2011-11-29-10.01.46.404">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
         <sv:value>mix:referenceable</sv:value>
-        <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>0d9a18c8-dcc7-4e6a-b34f-7a38862f38f9</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Review for Tamara's Ratatouille 2011-11-29 10.01.46.404</sv:value>
       </sv:property>
       <sv:node sv:name="review-for-tamaras-ratatouille-2011-11-29-10.01.46.404">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1891,17 +1878,6 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Review for Tamara's Ratatouille 2011-11-29 10.01.46.404</sv:value>
-        </sv:property>
-      </sv:node>
     </sv:node>
   </sv:node>
   <sv:node sv:name="peppered-taters">
@@ -1910,11 +1886,14 @@
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>d42ea660-9d5a-47af-9904-34e89849de6e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Peppered taters</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
       <sv:value>new-translated-folder</sv:value>
@@ -1926,27 +1905,19 @@
     <sv:property sv:name="hippotranslation:locale" sv:type="String">
       <sv:value>en-gb</sv:value>
     </sv:property>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Peppered taters</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="review-for-peppered-taters-2011-11-29-10.34.21.727">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
         <sv:value>mix:referenceable</sv:value>
-        <sv:value>hippo:translated</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>c07d706d-d47b-406c-a4d7-cb88ebbc3ff8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Review for Peppered taters 2011-11-29 10.34.21.727</sv:value>
       </sv:property>
       <sv:node sv:name="review-for-peppered-taters-2011-11-29-10.34.21.727">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2015,17 +1986,6 @@
             <sv:value>c2d549c5-17b8-468a-be9a-119db4289f8d</sv:value>
           </sv:property>
         </sv:node>
-      </sv:node>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Review for Peppered taters 2011-11-29 10.34.21.727</sv:value>
-        </sv:property>
       </sv:node>
     </sv:node>
   </sv:node>

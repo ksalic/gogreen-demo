@@ -4,11 +4,14 @@
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:named</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>67fbef86-66a2-43a1-9da6-55e2e0187b3b</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Evenementen</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
     <sv:value>new-event-folder</sv:value>
@@ -25,7 +28,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>50</sv:value>
+      <sv:value>85</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>67fbef86-66a2-43a1-9da6-55e2e0187b3b</sv:value>
@@ -58,7 +61,7 @@
       <sv:value>hippofacnav:facetnavigation</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:count" sv:type="Long">
-      <sv:value>50</sv:value>
+      <sv:value>85</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:docbase" sv:type="String">
       <sv:value>67fbef86-66a2-43a1-9da6-55e2e0187b3b</sv:value>
@@ -80,17 +83,6 @@
     </sv:property>
     <sv:property sv:name="hippofacnav:sortorder" sv:type="String" sv:multiple="true">
       <sv:value>descending</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Evenementen</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="2014">
@@ -140,23 +132,15 @@
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>dc69ce71-a557-4bc2-8ade-1322d05ceda6</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Waterzuiverings top</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Waterzuiverings top</sv:value>
+        </sv:property>
         <sv:node sv:name="waterzuiverings-top">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:event</sv:value>
@@ -358,23 +342,15 @@ over de juiste methode van zuivering te verkrijgen.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ee7dcefc-a3dd-4b95-a1bf-06b9c939df81</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Cradle to Cradle Design evenement</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Cradle to Cradle Design evenement</sv:value>
+        </sv:property>
         <sv:node sv:name="cradle-to-cradle-design-evenement">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:event</sv:value>
@@ -579,23 +555,15 @@ landmassa schadelijk kan zijn voor de ecologie van een ander land of landmassa.
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>82d5c05f-658d-4ea8-83e3-d47622f9f601</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>RED KITE MOUNTAIN BIKE BASH</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>RED KITE MOUNTAIN BIKE BASH</sv:value>
+        </sv:property>
         <sv:node sv:name="red-kite-mountain-bike-bash">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:event</sv:value>
@@ -762,23 +730,15 @@ activiteiten.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>461d9400-e24e-41c2-bdc0-08911a28042b</sv:value>
         </sv:property>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>West Coast Green Symposium on Green Innovation</sv:value>
-          </sv:property>
-        </sv:node>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>West Coast Green Symposium on Green Innovation</sv:value>
+        </sv:property>
         <sv:node sv:name="west-coast-green-symposium-on-green-innovation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogogreen:event</sv:value>
@@ -982,11 +942,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>504e278a-c92f-4440-bf15-fbeadd3dfcdc</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Feest voor de planeet</sv:value>
         </sv:property>
         <sv:node sv:name="feest-voor-de-planeet">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1110,17 +1073,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Feest voor de planeet</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="feest-voor-de-planeet">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1398,11 +1350,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>b06fc8d9-037b-48db-84df-339ff6781f50</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Slim en Duurzame Campus Conferentie</sv:value>
         </sv:property>
         <sv:node sv:name="slim-en-duurzame-campus-conferentie">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1536,17 +1491,6 @@ mogelijk te maken.&lt;/p&gt;
               <sv:value>http://www.sustainability.umd.edu/content/community/SSCC_CFP.php</sv:value>
             </sv:property>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Slim en Duurzame Campus Conferentie</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="slim-en-duurzame-campus-conferentie">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1866,11 +1810,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>7b838097-6340-4d74-9402-196428a4835f</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Green Living Show</sv:value>
         </sv:property>
         <sv:node sv:name="green-living-show">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1998,17 +1945,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Green Living Show</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="green-living-show">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2272,11 +2208,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>6d4de9c3-4035-4e0c-8ef3-8e1cfd4e6ef2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Green Festival</sv:value>
         </sv:property>
         <sv:node sv:name="green-festival">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2402,17 +2341,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Green Festival</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="green-festival">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2694,11 +2622,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>f9a50429-dd34-4915-989e-1178d187c86c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Natuurlijk Kapitaal</sv:value>
         </sv:property>
         <sv:node sv:name="natuurlijk-kapitaal">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -2827,17 +2758,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Natuurlijk Kapitaal</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="natuurlijk-kapitaal">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3125,11 +3045,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>1eba3366-c8d7-4f61-8935-16665e51cbaf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>CES Green</sv:value>
         </sv:property>
         <sv:node sv:name="ces-green">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3287,17 +3210,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>CES Green</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="ces-green">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3665,11 +3577,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ad43169c-2d4a-4de3-89e9-3264ec49d7ab</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Green Living Show</sv:value>
         </sv:property>
         <sv:node sv:name="green-living-show">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -3803,17 +3718,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Green Living Show</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="green-living-show">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -4089,11 +3993,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>727901d4-7330-45e5-886f-c46955c7061d</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Green Festival</sv:value>
         </sv:property>
         <sv:node sv:name="green-festival">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -4225,17 +4132,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Green Festival</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="green-festival">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -4529,11 +4425,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>ee72bfe6-a9b3-4d3b-985d-03fd2f5bd2c0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Natuurlijk Kapitaal</sv:value>
         </sv:property>
         <sv:node sv:name="natuurlijk-kapitaal">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -4668,17 +4567,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Natuurlijk Kapitaal</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="natuurlijk-kapitaal">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -4978,11 +4866,14 @@ mogelijk te maken.&lt;/p&gt;
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>5b8ee13a-4ba8-4328-ba74-07e5c0398169</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>CES Green</sv:value>
         </sv:property>
         <sv:node sv:name="ces-green">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -5146,17 +5037,6 @@ mogelijk te maken.&lt;/p&gt;
             <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
             <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
           </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>CES Green</sv:value>
-          </sv:property>
         </sv:node>
         <sv:node sv:name="ces-green">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">

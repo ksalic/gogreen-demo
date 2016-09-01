@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="logos">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="logos">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippogallery:stdImageGallery</sv:value>
   </sv:property>
@@ -23,13 +19,16 @@
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>6bb9829f-48c5-413c-958d-217c5f50961a</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Hippo Go Green.png</sv:value>
+    </sv:property>
     <sv:node sv:name="hippo-go-green.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -182,30 +181,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Hippo Go Green.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="hippo-duurzaam.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>994c3d1f-5268-44da-ac81-827e2d641cc8</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Hippo Duurzaam.png</sv:value>
+    </sv:property>
     <sv:node sv:name="hippo-duurzaam.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -358,30 +349,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Hippo Duurzaam.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="hippo-mise-au-vert.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>d2af998c-123e-4b70-a2c7-b274ae74706f</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Hippo Mise au Vert.png</sv:value>
+    </sv:property>
     <sv:node sv:name="hippo-mise-au-vert.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -534,30 +517,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Hippo Mise au Vert.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="hippo-go-green-logo---chinese.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>4fc425f0-fda7-4ff5-9137-6086511b5a28</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Hippo Go Green Logo - Chinese.png</sv:value>
+    </sv:property>
     <sv:node sv:name="hippo-go-green-logo---chinese.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -696,30 +671,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Hippo Go Green Logo - Chinese.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="hippo-go-green-logo---spanish.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>3db6ed9e-ca61-4741-af46-8bcd96c98b27</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Hippo Go Green Logo - Spanish.png</sv:value>
+    </sv:property>
     <sv:node sv:name="hippo-go-green-logo---spanish.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -858,30 +825,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Hippo Go Green Logo - Spanish.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="hippo-go-green-logo---german.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>a3b66aed-4825-45bf-b99d-8d23049c58d8</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Hippo Go Green Logo - German.png</sv:value>
+    </sv:property>
     <sv:node sv:name="hippo-go-green-logo---german.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -1020,30 +979,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Hippo Go Green Logo - German.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="hippo-go-green-logo---russian.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>00ad52ec-b700-4192-9624-299bfed001ad</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Hippo Go Green Logo - Russian.png</sv:value>
+    </sv:property>
     <sv:node sv:name="hippo-go-green-logo---russian.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -1182,30 +1133,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>Hippo Go Green Logo - Russian.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="gogreen_logo_box.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>2d70644a-725d-4896-9aac-835d0e059044</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>GoGreen_logo_box.png</sv:value>
+    </sv:property>
     <sv:node sv:name="gogreen_logo_box.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -1407,30 +1350,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>GoGreen_logo_box.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="gogreenlogo.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>f927e024-dac6-46d0-bec2-be3cf4019427</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>GoGreenlogo.png</sv:value>
+    </sv:property>
     <sv:node sv:name="gogreenlogo.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -1632,30 +1567,22 @@
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>GoGreenlogo.png</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
   <sv:node sv:name="gogreenlogo2.png">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:handle</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
       <sv:value>mix:referenceable</sv:value>
-      <sv:value>hippo:translated</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>1c4b16e5-935c-4730-8d52-7660c4b26724</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>GoGreenlogo2.png</sv:value>
+    </sv:property>
     <sv:node sv:name="gogreenlogo2.png">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippogogreengallery:imageset</sv:value>
@@ -1856,17 +1783,6 @@
           <sv:value>image/png</sv:value>
         </sv:property>
       </sv:node>
-    </sv:node>
-    <sv:node sv:name="hippo:translation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:translation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:language" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hippo:message" sv:type="String">
-        <sv:value>GoGreenlogo2.png</sv:value>
-      </sv:property>
     </sv:node>
   </sv:node>
 </sv:node>
