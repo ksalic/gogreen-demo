@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
     <artifactId>gogreen-two</artifactId>
-    <version>2.11.0-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green 2.0 CMS</name>
@@ -346,7 +346,10 @@
           </container>
         </configuration>
       </plugin>
-
+      <plugin>
+        <groupId>org.onehippo.cms.l10n</groupId>
+        <artifactId>hippo-cms-l10n-maven-plugin</artifactId>
+      </plugin>
     </plugins>
   </build>
 
