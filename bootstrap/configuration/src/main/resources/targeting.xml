@@ -6,7 +6,7 @@
   <sv:node sv:name="targeting:datastores" esv:merge="combine">
     <sv:node sv:name="targeting:visits" esv:merge="combine">
       <sv:property sv:name="targeting:storefactoryclass" sv:type="String" esv:merge="override">
-        <sv:value>com.onehippo.cms7.targeting.storage.elastic.ElasticStoreFactory</sv:value>
+        <sv:value>com.onehippo.cms7.targeting.storage.elastic2.ElasticStoreFactory</sv:value>
       </sv:property>
       <sv:property sv:name="indexName" sv:type="String">
         <sv:value>visits</sv:value>
@@ -17,7 +17,7 @@
     </sv:node>
     <sv:node sv:name="targeting:requestlog" esv:merge="combine">
       <sv:property sv:name="targeting:storefactoryclass" sv:type="String" esv:merge="override">
-        <sv:value>com.onehippo.cms7.targeting.storage.elastic.ElasticStoreFactory</sv:value>
+        <sv:value>com.onehippo.cms7.targeting.storage.elastic2.ElasticStoreFactory</sv:value>
       </sv:property>
       <sv:property sv:name="indexName" sv:type="String">
         <sv:value>requests</sv:value>
@@ -28,7 +28,7 @@
     </sv:node>
     <sv:node sv:name="targeting:targetingdata" esv:merge="combine">
       <sv:property sv:name="targeting:storefactoryclass" sv:type="String" esv:merge="override">
-        <sv:value>com.onehippo.cms7.targeting.storage.elastic.ElasticStoreFactory</sv:value>
+        <sv:value>com.onehippo.cms7.targeting.storage.elastic2.ElasticStoreFactory</sv:value>
       </sv:property>
       <sv:property sv:name="indexName" sv:type="String">
         <sv:value>targeting-data</sv:value>
