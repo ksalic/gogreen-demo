@@ -1,0 +1,589 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-event": "new event",
+      "new-simple": "new simple document",
+      "new-blog": "new blog article",
+      "new-subsite-folder": "new simple folder",
+      "new-news-viawizard": "new news article",
+      "new-subsite-document": "new simple document",
+      "new-news-folder": "new news folder",
+      "new-blogs-folder": "new blogs folder",
+      "new-banner": "new banner",
+      "new-product": "new product",
+      "new-news": "new news article",
+      "new-blogcb": "new blog article with content blocks",
+      "new-event-folder": "new event folder",
+      "new-event-viawizard": "new event",
+      "new-simple-folder": "new simple folder",
+      "new-product-folder": "new product folder",
+      "new-faq": "new faq"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe bannermap",
+      "new-event": "nieuw evenement",
+      "new-simple": "nieuw document (simpel)",
+      "new-blogcb": "nieuw blogdocument met inhoud blokken",
+      "new-event-folder": "nieuwe evenementenmap",
+      "new-blog": "nieuw blogdocument",
+      "new-subsite-folder": "nieuwe map (simpel)",
+      "new-news-viawizard": "nieuw nieuwsdocument",
+      "new-subsite-document": "nieuw document (simpel)",
+      "new-event-viawizard": "nieuw evenement",
+      "new-simple-folder": "nieuwe map (simpel)",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-product-folder": "nieuwe productenmap",
+      "new-faq": "nieuwe veel gestelde vraag",
+      "new-blogs-folder": "nieuwe blogsmap",
+      "new-banner": "nieuwe banner",
+      "new-product": "nieuw product",
+      "new-news": "nieuw nieuwsdocument"
+    },
+    "fr":     {
+      "new-banner-folder": "Neuer Banner Ordner",
+      "new-event": "nouvel évènement",
+      "new-simple": "nouveau document (simple)",
+      "new-blogcb": "nouvelle blog avec des blocs de contenu",
+      "new-event-folder": "un nouveau dossier d'évènements",
+      "new-blog": "nouvelle blog",
+      "new-subsite-folder": "un nouveau dossier (simple)",
+      "new-news-viawizard": "nouvelle actualité",
+      "new-subsite-document": "nouveau document (simple)",
+      "new-event-viawizard": "nouvel évènement",
+      "new-simple-folder": "un nouveau dossier (simple)",
+      "new-news-folder": "un nouveau dossier d'actualité",
+      "new-product-folder": "un nouveau dossier de produits",
+      "new-faq": "nouvelle FAQ",
+      "new-blogs-folder": "un nouveau dossier des blogs",
+      "new-banner": "nouvelle bannière",
+      "new-product": "nouveau produit",
+      "new-news": "nouvelle actualité"
+    },
+    "de":     {
+      "new-event": "Neues Event",
+      "new-simple": "Neues Dokument (simple)",
+      "new-blogcb": "Neues Blog Dokument mit Inhaltsblöcke",
+      "new-event-folder": "Neuer Events Ordner",
+      "new-blog": "Neues Blog Dokument",
+      "new-subsite-folder": "Neuer Ordner (simple)",
+      "new-news-viawizard": "Neues News Dokument",
+      "new-subsite-document": "Neues Dokument (simple)",
+      "new-event-viawizard": "Neues Event",
+      "new-simple-folder": "Neuer Ordner (simple)",
+      "new-news-folder": "Neuer News Ordner",
+      "new-product-folder": "Neuer Produkt Ordner",
+      "new-faq": "Neue FAQ",
+      "new-blogs-folder": "Neuer Blogs Ordner",
+      "new-banner": "Neuer Banner",
+      "new-product": "Neues Produkt",
+      "new-news": "Neues News Dokument"
+    }
+  },
+  "hippo:types":   {
+    "hippogogreen:document":     {
+      "en": {"jcr:name": "Document"},
+      "nl": {"jcr:name": "Document"},
+      "fr": {"jcr:name": "Document"},
+      "de": {"jcr:name": "Dokument"}
+    },
+    "hippogogreen:event":     {
+      "en":       {
+        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
+        "hippogogreen:date": "Start date",
+        "hippogogreen:enddate": "End date",
+        "jcr:name": "Event",
+        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Image",
+        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Description",
+        "hippogogreen:location": "Location",
+        "hippogogreen:categories": "Categories",
+        "hippogogreen:contentstage": "Content Stage",
+        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Title",
+        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Summary"
+      },
+      "nl":       {
+        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
+        "hippogogreen:date": "Startdatum",
+        "hippogogreen:enddate": "Einddatum",
+        "jcr:name": "Evenement",
+        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Afbeelding",
+        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Beschrijving",
+        "hippogogreen:location": "Plaats",
+        "hippogogreen:categories": "Categorieën",
+        "hippogogreen:contentstage": "Contentniveau",
+        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Titel",
+        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Samenvatting"
+      },
+      "fr":       {
+        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
+        "hippogogreen:date": "Date de début",
+        "hippogogreen:enddate": "Date de fin",
+        "jcr:name": "Évènement",
+        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Image",
+        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Description",
+        "hippogogreen:location": "Lieu",
+        "hippogogreen:categories": "Catégories",
+        "hippogogreen:contentstage": "Niveau du Contenu",
+        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Titre",
+        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Résumé"
+      },
+      "de":       {
+        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
+        "hippogogreen:date": "Start Datum",
+        "hippogogreen:enddate": "End-Datum",
+        "jcr:name": "Event",
+        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Bild",
+        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Beschreibung",
+        "hippogogreen:location": "Ort",
+        "hippogogreen:categories": "Kategorien",
+        "hippogogreen:contentstage": "Inhalt Stufe",
+        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Titel",
+        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Zusammenfassung"
+      }
+    },
+    "hippogogreen:product":     {
+      "en":       {
+        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Title",
+        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Description",
+        "jcr:name": "Product",
+        "hippogogreen:price": "Price",
+        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Summary",
+        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Image",
+        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Rating",
+        "hippogogreen:categories": "Categories",
+        "hippogogreen:contentstage": "Content Stage",
+        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
+        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Votes"
+      },
+      "nl":       {
+        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Titel",
+        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Beschrijving",
+        "jcr:name": "Product",
+        "hippogogreen:price": "Prijs",
+        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Samenvatting",
+        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Afbeelding",
+        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Beoordeling",
+        "hippogogreen:categories": "Categorieën",
+        "hippogogreen:contentstage": "Contentniveau",
+        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
+        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Stemmen"
+      },
+      "fr":       {
+        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Titre",
+        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Description",
+        "jcr:name": "Produit",
+        "hippogogreen:price": "Prix",
+        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Résumé",
+        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Image",
+        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Note",
+        "hippogogreen:categories": "Catégories",
+        "hippogogreen:contentstage": "Niveau du Contenu",
+        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
+        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Votes"
+      },
+      "de":       {
+        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Titel",
+        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Beschreibung",
+        "jcr:name": "Produkt",
+        "hippogogreen:price": "Preis",
+        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Zusammenfassung",
+        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Bild",
+        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Beurteilung",
+        "hippogogreen:categories": "Kategorien",
+        "hippogogreen:contentstage": "Inhalt Stufe",
+        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
+        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Stimmen"
+      }
+    },
+    "hippogogreen:blogitem":     {
+      "en":       {
+        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Summary",
+        "hippogogreen:date": "Date",
+        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Description",
+        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Image",
+        "jcr:name": "Blog Article",
+        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
+        "hippogogreen:categories": "Categories",
+        "hippogogreen:contentstage": "Content Stage",
+        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Title"
+      },
+      "nl":       {
+        "hippogogreen:date": "Datum",
+        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Samenvatting",
+        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Afbeelding",
+        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Beschrijving",
+        "jcr:name": "Blog-artikel",
+        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
+        "hippogogreen:contentstage": "Contentniveau",
+        "hippogogreen:categories": "Categorieën",
+        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Titel"
+      },
+      "fr":       {
+        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Résumé",
+        "hippogogreen:date": "Date",
+        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Description",
+        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Image",
+        "jcr:name": "Blog",
+        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
+        "hippogogreen:categories": "Catégories",
+        "hippogogreen:contentstage": "Niveau du Contenu",
+        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Titre"
+      },
+      "de":       {
+        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Zusammenfassung",
+        "hippogogreen:date": "Datum",
+        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Beschreibung",
+        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Bild",
+        "jcr:name": "Blog Artikel",
+        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
+        "hippogogreen:categories": "Kategorien",
+        "hippogogreen:contentstage": "Inhalt Stufe",
+        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Titel"
+      }
+    },
+    "hippogogreen:imageblock": {"en": {"jcr:name": "Image"}},
+    "hippogogreen:paragraphblock": {"en": {"jcr:name": "Paragraph"}},
+    "hippogogreen:quoteblock": {"en": {"jcr:name": "Quote"}},
+    "hippogogreen:blogitemcb":     {
+      "en":       {
+        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Content Stage",
+        "jcr:name": "Blog Article with Content Blocks",
+        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Date",
+        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Image",
+        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Summary",
+        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Description",
+        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Categories",
+        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
+        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Title"
+      },
+      "nl":       {
+        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Contentniveau",
+        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Datum",
+        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Afbeelding",
+        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Samenvatting",
+        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Beschrijving",
+        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Categorieën",
+        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
+        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Titel"
+      },
+      "fr":       {
+        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Niveau du Contenu",
+        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Date",
+        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Image",
+        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Résumé",
+        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Description",
+        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Catégories",
+        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
+        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Titre"
+      },
+      "de":       {
+        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Inhalt Stufe",
+        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Datum",
+        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Bild",
+        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Zusammenfassung",
+        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Beschreibung",
+        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Kategorien",
+        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
+        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Titel"
+      }
+    },
+    "hippogogreen:faq":     {
+      "en":       {
+        "jcr:name": "FAQ",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:question": "Question",
+        "hippogogreen:answer": "Answer"
+      },
+      "nl":       {
+        "jcr:name": "Veel Gestelde Vraag",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:question": "Vraag",
+        "hippogogreen:answer": "Antwoord"
+      },
+      "fr":       {
+        "jcr:name": "FAQ",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:question": "Question",
+        "hippogogreen:answer": "Réponse"
+      },
+      "de":       {
+        "jcr:name": "FAQ",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:question": "Frage",
+        "hippogogreen:answer": "Antwort"
+      }
+    },
+    "hippogogreen:restapi": {},
+    "hippogogreen:banner":     {
+      "en":       {
+        "jcr:name": "Banner",
+        "hippogogreen:image": "Image",
+        "hippogogreen:bannertext": "Text",
+        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Link",
+        "hippogogreen:title": "Title",
+        "hippogogreen:icon": "Icon"
+      },
+      "nl":       {
+        "jcr:name": "Banner",
+        "hippogogreen:image": "Image",
+        "hippogogreen:bannertext": "Tekst",
+        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Link",
+        "hippogogreen:title": "Title",
+        "hippogogreen:icon": "Icon"
+      },
+      "fr":       {
+        "jcr:name": "Bannière",
+        "hippogogreen:image": "Image",
+        "hippogogreen:bannertext": "Texte",
+        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Lien",
+        "hippogogreen:title": "Titre",
+        "hippogogreen:icon": "Icon"
+      },
+      "de":       {
+        "jcr:name": "Banner",
+        "hippogogreen:image": "Bild",
+        "hippogogreen:bannertext": "Text",
+        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Link",
+        "hippogogreen:title": "Titel",
+        "hippogogreen:icon": "Icon"
+      }
+    },
+    "hippogogreen:simpledocument":     {
+      "en":       {
+        "hippogogreen:description": "Description",
+        "hippogogreen:title": "Title",
+        "hippogogreen:summary": "Summary",
+        "hippogogreen:contentstage": "Content Stage",
+        "jcr:name": "Simple Document"
+      },
+      "nl":       {
+        "hippogogreen:description": "Beschrijving",
+        "hippogogreen:title": "Titel",
+        "hippogogreen:summary": "Samenvatting",
+        "hippogogreen:contentstage": "Contentniveau",
+        "jcr:name": "Simple Document [NL]"
+      },
+      "fr":       {
+        "hippogogreen:description": "Description",
+        "hippogogreen:title": "Titre",
+        "hippogogreen:summary": "Résumé",
+        "hippogogreen:contentstage": "Niveau du Contenu",
+        "jcr:name": "Document simple"
+      },
+      "de":       {
+        "hippogogreen:description": "Beschreibung",
+        "hippogogreen:title": "Titel",
+        "hippogogreen:summary": "Zusammenfassung",
+        "hippogogreen:contentstage": "Inhalt Stufe",
+        "jcr:name": "Einfaches Dokument"
+      }
+    },
+    "hippogogreen:review":     {
+      "en":       {
+        "hippogogreen:date": "Date",
+        "jcr:name": "Review",
+        "hippogogreen:comment": "Comment",
+        "hippogogreen:rating": "Rating",
+        "hippogogreen:productlink": "Review For",
+        "hippogogreen:contentstage": "Content Stage",
+        "hippogogreen:email": "Email",
+        "hippogogreen:name": "Name"
+      },
+      "nl":       {
+        "hippogogreen:date": "Datum",
+        "jcr:name": "Recensie",
+        "hippogogreen:comment": "Commentaar",
+        "hippogogreen:rating": "Beoordeling",
+        "hippogogreen:productlink": "Recensie voor",
+        "hippogogreen:contentstage": "Contentniveau",
+        "hippogogreen:email": "Email",
+        "hippogogreen:name": "Naam"
+      },
+      "fr":       {
+        "hippogogreen:date": "Date",
+        "jcr:name": "Avis",
+        "hippogogreen:comment": "Commentaire",
+        "hippogogreen:rating": "Note]",
+        "hippogogreen:productlink": "Avis sur",
+        "hippogogreen:contentstage": "Niveau du Contenu",
+        "hippogogreen:email": "E-mail",
+        "hippogogreen:name": "Nom"
+      },
+      "de":       {
+        "hippogogreen:date": "Datum",
+        "jcr:name": "Review",
+        "hippogogreen:comment": "Kommentar",
+        "hippogogreen:rating": "Bewertung",
+        "hippogogreen:productlink": "Review fÃ¼r",
+        "hippogogreen:contentstage": "Inhalt Stufe",
+        "hippogogreen:email": "E-mail",
+        "hippogogreen:name": "Name"
+      }
+    },
+    "hippogogreen:comment":     {
+      "en":       {
+        "jcr:name": "Comment",
+        "hippogogreen:email": "Email",
+        "hippogogreen:documentlink": "Comment on",
+        "hippogogreen:name": "Name",
+        "hippogogreen:body": "Comment"
+      },
+      "nl":       {
+        "jcr:name": "Commentaar",
+        "hippogogreen:email": "E-mail",
+        "hippogogreen:documentlink": "Commentaar op",
+        "hippogogreen:name": "Naam",
+        "hippogogreen:body": "Commentaar"
+      },
+      "fr":       {
+        "jcr:name": "Commentaire",
+        "hippogogreen:email": "E-mail",
+        "hippogogreen:documentlink": "Commentaire sur",
+        "hippogogreen:name": "Nom",
+        "hippogogreen:body": "Commentaire"
+      },
+      "de":       {
+        "jcr:name": "Kommentar",
+        "hippogogreen:email": "E-mail",
+        "hippogogreen:documentlink": "Kommentar zu",
+        "hippogogreen:name": "Name",
+        "hippogogreen:body": "Kommentar"
+      }
+    },
+    "hippogogreen:address":     {
+      "en":       {
+        "hippogogreen:street": "Street",
+        "hippogogreen:city": "City",
+        "hippogogreen:country": "Country",
+        "hippogogreen:province": "Province",
+        "jcr:name": "Address",
+        "hippogogreen:postalcode": "Postal Code",
+        "hippogogreen:latitude": "Latitude",
+        "hippogogreen:number": "Number",
+        "hippogogreen:longitude": "Longitude"
+      },
+      "nl":       {
+        "hippogogreen:street": "Straat",
+        "hippogogreen:city": "Stad",
+        "hippogogreen:country": "Land",
+        "hippogogreen:province": "Provincie",
+        "jcr:name": "Adres",
+        "hippogogreen:postalcode": "Postcode",
+        "hippogogreen:latitude": "Latitude",
+        "hippogogreen:number": "Nummer",
+        "hippogogreen:longitude": "Longitude"
+      },
+      "fr": {"jcr:name": "Adresse"},
+      "de":       {
+        "hippogogreen:street": "StaÃe",
+        "hippogogreen:city": "Stadt",
+        "hippogogreen:country": "Land",
+        "hippogogreen:province": "Provinz",
+        "jcr:name": "Adresse",
+        "hippogogreen:postalcode": "Postleitzahl",
+        "hippogogreen:latitude": "Latitude",
+        "hippogogreen:number": "Hausnummer",
+        "hippogogreen:longitude": "Longitude"
+      }
+    },
+    "hippogogreen:copyright":     {
+      "en": {"jcr:name": "Copyright"},
+      "nl": {"jcr:name": "Copyright"},
+      "fr": {"jcr:name": "Copyright"},
+      "de": {"jcr:name": "Copyright"}
+    },
+    "hippogogreen:richtextsnippet": {"en": {"jcr:name": "Rich-text Snippet"}},
+    "hippogogreen:newsitem":     {
+      "en":       {
+        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Summary",
+        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Title",
+        "hippogogreen:date": "Date",
+        "jcr:name": "News article",
+        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Description",
+        "hippogogreen:contentstage": "Content Stage"
+      },
+      "nl":       {
+        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Samenvatting",
+        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Titel",
+        "hippogogreen:date": "Datum",
+        "jcr:name": "Nieuwsartikel",
+        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Beschrijving",
+        "hippogogreen:contentstage": "Contentniveau"
+      },
+      "fr":       {
+        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Résumé",
+        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Titre",
+        "hippogogreen:date": "Date",
+        "jcr:name": "Actualités article",
+        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Description",
+        "hippogogreen:contentstage": "Niveau du Contenu"
+      },
+      "de":       {
+        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Zusammenfassung",
+        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Titel",
+        "hippogogreen:date": "Datum",
+        "jcr:name": "Nachrichtenartikel",
+        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Beschreibung",
+        "hippogogreen:contentstage": "Inhalt Stufe"
+      }
+    },
+    "hippogogreengallery:imageset":     {
+      "nl":       {
+        "hippogogreengallery:alt": "Alt tekst",
+        "hippogogreengallery:landscapeimage": "Liggend",
+        "hippogogreengallery:mobilethumbnail": "Miniatuur (voor mobiel)",
+        "hippogogreengallery:banner": "Banner",
+        "jcr:name": "Afbeelding",
+        "hippogogreengallery:smallthumbnail": "Miniatuur (klein)",
+        "hippogogreengallery:bannercarousel": "Banner (carousel)",
+        "hippogogreengallery:thumbnail": "Miniatuur",
+        "hippogogreengallery:original": "Origineel",
+        "hippogogreengallery:largethumbnail": "Miniatuur (groot)",
+        "hippogogreengallery:mobilelogo": "Logo (voor mobiel)",
+        "hippogogreengallery:copyright": "Copyright"
+      },
+      "en":       {
+        "hippogogreengallery:alt": "Alt text",
+        "hippogogreengallery:landscapeimage": "Landscape Image",
+        "hippogogreengallery:mobilethumbnail": "Thumbnail (mobile)",
+        "hippogogreengallery:banner": "Banner",
+        "jcr:name": "Image",
+        "hippogogreengallery:smallthumbnail": "Thumbnail (small)",
+        "hippogogreengallery:bannercarousel": "Banner (carousel)",
+        "hippogogreengallery:thumbnail": "Thumbnail",
+        "hippogogreengallery:original": "Original",
+        "hippogogreengallery:largethumbnail": "Thumbnail (large)",
+        "hippogogreengallery:mobilelogo": "Logo (mobile)",
+        "hippogogreengallery:copyright": "Copyright"
+      },
+      "fr":       {
+        "hippogogreengallery:alt": "Texte alternatif",
+        "hippogogreengallery:landscapeimage": "Format Paysage",
+        "hippogogreengallery:mobilethumbnail": "Miniature (mobile)",
+        "hippogogreengallery:banner": "Bannière",
+        "jcr:name": "Image",
+        "hippogogreengallery:smallthumbnail": "Miniature (petite)",
+        "hippogogreengallery:bannercarousel": "Bannière (carrousel)",
+        "hippogogreengallery:thumbnail": "Miniature",
+        "hippogogreengallery:original": "Originale",
+        "hippogogreengallery:largethumbnail": "Miniature (grande)",
+        "hippogogreengallery:mobilelogo": "Logo (mobile)",
+        "hippogogreengallery:copyright": "Copyright"
+      },
+      "de":       {
+        "hippogogreengallery:alt": "Alt-Text",
+        "hippogogreengallery:landscapeimage": "Querformat",
+        "hippogogreengallery:mobilethumbnail": "Miniaturansicht (Handy)",
+        "hippogogreengallery:banner": "Banner",
+        "jcr:name": "Bild",
+        "hippogogreengallery:smallthumbnail": "Miniaturansicht (klein)",
+        "hippogogreengallery:bannercarousel": "Banner (Karussell)",
+        "hippogogreengallery:thumbnail": "Miniaturansicht",
+        "hippogogreengallery:original": "Original",
+        "hippogogreengallery:largethumbnail": "Miniaturansicht (groß)",
+        "hippogogreengallery:mobilelogo": "Logo (Handy)",
+        "hippogogreengallery:copyright": "Copyright"
+      }
+    }
+  }
+}
