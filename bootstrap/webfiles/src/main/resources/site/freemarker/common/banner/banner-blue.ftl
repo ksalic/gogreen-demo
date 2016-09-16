@@ -20,9 +20,9 @@
   <div class="banner-component section-content section-color-dark-blue white-text">
     <div class="container">
       <div class="row">
-        <@hst.cmseditlink hippobean=Request.document/>
           <div class="col-md-6 col-sm-6 animated fadeInLeftBig animatedVisi" data-animtype="fadeInLeftBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
             <div class="space-sep100"></div>
+            <@hst.cmseditlink hippobean=Request.document/>
             <#if Request.document.docLink??>
               <h2 class="h2-section-title"><a href="<@hst.link hippobean=Request.document.docLink/>">${Request.document.title}</a></h2>
             <#else>
