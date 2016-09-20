@@ -1,5 +1,5 @@
 /*
- * Copyright 2012-2013 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2012-2016 Hippo B.V. (http://www.onehippo.com)
  */
 .hippo-login-panel {
   float: right;
@@ -12,10 +12,11 @@
   margin-right: 100px;
   margin-left: 20px;
   font-size: 12px;
-  line-height: 0.8;
 }
 
 #info-login { position: relative;  width: 300px; padding: 20px; color: #333; float:right;}
+
+
 #feeds { position: relative; top: 0; width: 300px; padding: 20px; color: #333; float:right; margin: 0; }
 
 #info-login h2, #feeds h2 { height: auto; background: none; color: #333; font-size: 135%; border-bottom: 1px solid #666; margin-bottom: 10px; }
@@ -23,7 +24,8 @@
 
 #info-login table { width: 100%; margin-bottom: 0; }
 #info-login th { font-size: 123.1%; color: #333; padding-bottom: 3px; }
-#info-login td { padding: 1px 0; }
+#info-login td { padding: 1px 0px; font-size: 110% }
+#info-login td p { margin: 0px }
 
 #feeds ul { list-style-type: none; }
 #feeds li { margin-bottom: 10px; }
