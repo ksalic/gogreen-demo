@@ -998,23 +998,7 @@
       <sv:value>31603.8</sv:value> 
     </sv:property> 
   </sv:node>  
-  <!-- Selection Plugin loads somewhere at 1111*.
-We need to use a number more than that to be able to create the default selection document-->  
-  <sv:node sv:name="hippogogreen-gallery"> 
-    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
-      <sv:value>hippo:initializeitem</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>content/gallery.xml</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/content</sv:value> 
-    </sv:property>  
-    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
-      <sv:value>31404.65</sv:value> 
-    </sv:property> 
-  </sv:node>  
-  <sv:node sv:name="hippogogreen-gallery-banners"> 
+  <sv:node sv:name="hippogogreen-gallery-banners">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
     </sv:property>  
@@ -1165,6 +1149,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/content/urlrewriter</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <!-- high sequence to be sure /content/urlrewriter already is there (at 40000) -->
       <sv:value>55500.0</sv:value>
     </sv:property>
   </sv:node>
