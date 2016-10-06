@@ -1,7 +1,7 @@
 {
 
   "en": {
-    "rate": 50,
+    "rate": 7,
     "pages": [
       "/",
       "/products/Category/Family",
@@ -9,47 +9,52 @@
 
       "/blogs/facetedblogs/Category/Home",
       "/blogs/2014/09/is-a-smart-thermostat-worth-the-investment.html",
-      "/blogs/2014/08/tips-for-ecofriendly-event-planning.html",
 
       "/products/family/penguin-squeezy.html",
-      "/products/garden/2010/07/the-green-johanna-compost-bin.html",
-      "/products/home/eco-air-purification-device.html",
+      "/products/general/goal-zero-guide-10-plus-solar-recharging-kit.html",
+      "/products/gadgets/sustainable-wood-ipod-sound-system.html",
 
-      "/products/Category/School",
+      "/products/Category/Gadgets",
       "/blogs/facetedblogs/Category/School",
       "/products/office/post-consumer-3-ring-binder-3-in.-spine.html",
       "/blogs/2014/09/how-to-green-your-dorm-room.html",
       "/blogs/2014/09/what-steps-are-taken-by-universities-to-become-more-sustainable.html",
       "/blogs/2014/10/learning-at-home.html"
 
-    ]
+    ],
+    "frequency": {
+      "daily": [ 3, 1, 2, 3 ],
+      "weekly": [ 1, 1, 1, 1, 1, 2, 3 ]
+    }
   },
 
   "student-en": {
-    "rate": 7,
+    "rate": 1,
     "ips": ["131.90.99.220","198.128.97.118"],
     "pages": [
       "/",
       "/products/Category/School",
+      "/blogs",
       "/blogs/facetedblogs/Category/School",
       "/products/office/post-consumer-3-ring-binder-3-in.-spine.html",
       "/blogs/2014/09/how-to-green-your-dorm-room.html",
       "/blogs/2014/09/what-steps-are-taken-by-universities-to-become-more-sustainable.html",
-      "/blogs/2014/10/learning-at-home.html"
+      "/blogs/2014/10/learning-at-home.html",
+
+      "/products/gadgets/laptop-sleeves---neogreene.html",
+      "/products/gadgets/lifeproof-nuud-ipad-air-case",
+      "/products/gadgets/external-laptop-charger",
+
+      "/events/2014/10/smart-and-sustainable-campuses-conference.html"
     ],
-    "conversions": [
-      {
-        "from": "/",
-        "to": "/sale",
-        "text": "ready for school",
-        "rateNoMatch": 0.05,
-        "rateMatch": 0.10
-      }
-    ]
+    "frequency": {
+      "daily": [ 3, 1, 2, 3 ],
+      "weekly": [ 2, 3, 2, 3, 3, 1, 2 ]
+    }
   },
 
   "parent-en": {
-    "rate": 12,
+    "rate": 2,
     "ips": ["62.234.237.19", "54.94.109.84"],
     "pages": [
       "/",
@@ -58,12 +63,78 @@
 
       "/blogs/facetedblogs/Category/Home",
       "/blogs/2014/09/is-a-smart-thermostat-worth-the-investment.html",
-      "/blogs/2014/08/tips-for-ecofriendly-event-planning.html",
+      "/blogs/2014/10/learning-at-home.html",
 
       "/products/family/penguin-squeezy.html",
       "/products/garden/2010/07/the-green-johanna-compost-bin.html",
-      "/products/home/eco-air-purification-device.html"
-    ]
+      "/products/home/eco-air-purification-device.html",
+
+      "/events/2016/04/green-living-show.html",
+      "/events/2016/04/green-festival.html",
+      "/events/2014/11/party-for-the-planet.html"
+
+    ],
+    "conversions": [
+      {
+        "from": "/",
+        "to": "/products",
+        "text": "nature-1.jpg",
+        "rateNoMatch": 0,
+        "rateMatch": 0.275
+      },
+      {
+        "from": "/",
+        "to": "/products",
+        "text": "cosmetics1.png",
+        "rateNoMatch": 0,
+        "rateMatch": 0.35
+      },
+      {
+        "from": "/",
+        "to": "/products",
+        "text": "cosmetics2.png",
+        "rateNoMatch": 0,
+        "rateMatch": 0.375
+      }
+    ],
+    "frequency": {
+      "daily": [ 3, 1, 2, 3 ],
+      "weekly": [ 1, 1, 2, 1, 1, 3, 2 ]
+    },
+    "length": {
+      "times": 6
+    },
+    "returns": {
+      "probability": 0.5
+    }
+  },
+
+  "business-owner-en": {
+    "rate": 11,
+    "ips": [],
+    "pages": [
+      "/",
+      "/products",
+      "/products/Category/Office",
+      "/products/Category/Home",
+      "/products/gadgets/laptop-sleeves---neogreene.html",
+      "/products/office/banana-paper-business-cards-1000-card-pack.html",
+      "/products/office/usb-ecostrip-2.0.html",
+      "/products/office/eco-simple-flash-drive---usb.html",
+      "/products/office/post-consumer-3-ring-binder-3-in.-spine.html",
+      "/products/gadgets/external-laptop-charger.html",
+
+      "/blogs/facetedblogs/Category/Office",
+      "/blogs/2014/09/is-a-smart-thermostat-worth-the-investment.html",
+
+      "/events",
+      "/events/2016/02/natural-capital.html",
+      "/events/2015/01/ces-green.html"
+    ],
+    "frequency": {
+      "daily": [ 3, 1, 2, 3 ],
+      "weekly": [ 3, 2, 3, 2, 3, 0, 0 ]
+    }
   }
 
 }

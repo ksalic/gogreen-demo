@@ -11,6 +11,34 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>targeting:facets</sv:value>
       </sv:property>
+      <sv:node sv:name="persona">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.globalPersonaIdScores.id</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>persona</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>is persona</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="document type">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.collectorData.documenttypes.terms</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>document type</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>document type</sv:value>
+        </sv:property>
+      </sv:node>
       <sv:node sv:name="category">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>targeting:facet</sv:value>
@@ -53,34 +81,6 @@
           <sv:value>comes from city</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="automation-list">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>targeting:facet</sv:value>
-        </sv:property>
-        <sv:property sv:name="targeting:esField" sv:type="String">
-          <sv:value>requests.collectorData.automation.lists</sv:value>
-        </sv:property>
-        <sv:property sv:name="targeting:facetName" sv:type="String">
-          <sv:value>marketing automation list</sv:value>
-        </sv:property>
-        <sv:property sv:name="targeting:filterName" sv:type="String">
-          <sv:value>is on marketing automation list</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="converted-goals">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>targeting:facet</sv:value>
-        </sv:property>
-        <sv:property sv:name="targeting:esField" sv:type="String">
-          <sv:value>convertedGoals.goalName</sv:value>
-        </sv:property>
-        <sv:property sv:name="targeting:facetName" sv:type="String">
-          <sv:value>goal</sv:value>
-        </sv:property>
-        <sv:property sv:name="targeting:filterName" sv:type="String">
-          <sv:value>converted goal</sv:value>
-        </sv:property>
-      </sv:node>
       <sv:node sv:name="author">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>targeting:facet</sv:value>
@@ -93,6 +93,34 @@
         </sv:property>
         <sv:property sv:name="targeting:filterName" sv:type="String">
           <sv:value>created by</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="url">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.pathInfo</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>url</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>url</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="weekday">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:facet</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:esField" sv:type="String">
+          <sv:value>requests.collectorData.dayofweek</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:facetName" sv:type="String">
+          <sv:value>dayofweek</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:filterName" sv:type="String">
+          <sv:value>visits on day of week</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>

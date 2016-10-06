@@ -13,9 +13,12 @@ public class GeneratorRunner {
     @Test
     public void runDataGenerator() throws Exception {
         final DataGenerator generator = new DataGenerator();
-        generator.setSimulatedDays(7);
-        generator.setSpeedup(1000);
+        //generator.setRepoLocation("rmi://127.0.0.1:1099/hipporepository");
+        generator.setSimulatedDays(31);
+        generator.setSpeedup(350);
         generator.setGlobalRate(100);
+        generator.setDefaultStoreLocation("sql=jdbc:mysql://localhost/targeting?useSSL=false,user=root");
+        generator.setVisitsStoreLocation("elastic=http://localhost:9250,index=visits");
         generator.run();
     }
 

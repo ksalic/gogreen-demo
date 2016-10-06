@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="targeting:dataflow" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="targeting:dataflow">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>targeting:dataflow</sv:value>
   </sv:property>
@@ -7,36 +6,64 @@
     <sv:value>true</sv:value>
   </sv:property>
   <sv:property sv:name="targeting:bootstrapReferenceTime" sv:type="Date">
-    <sv:value>2015-10-15T13:04:10.386+02:00</sv:value>
+    <sv:value>2016-10-03T16:49:07.728+02:00</sv:value>
   </sv:property>
   <sv:node sv:name="modelTrainer">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>targeting:lock</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippo:lockable</sv:value>
       <sv:value>hippo:skipindex</sv:value>
     </sv:property>
+    <sv:property sv:name="interval" sv:type="Double">
+      <sv:value>0.1</sv:value>
+    </sv:property>
     <sv:property sv:name="processedUntil" sv:type="Date">
-      <sv:value>2015-10-15T13:04:10.386+02:00</sv:value>
+      <sv:value>2016-10-03T16:48:55.423+02:00</sv:value>
     </sv:property>
     <sv:property sv:name="running" sv:type="Boolean">
-      <sv:value>true</sv:value>
+      <sv:value>false</sv:value>
     </sv:property>
+    <sv:node sv:name="targeting:lock">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:lock</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:lockExpirationTime" sv:type="Date">
+        <sv:value>2016-10-03T16:52:54.615+02:00</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
   <sv:node sv:name="visitsAggregator">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>targeting:lock</sv:value>
     </sv:property>
-    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippo:lockable</sv:value>
       <sv:value>hippo:skipindex</sv:value>
     </sv:property>
+    <sv:property sv:name="interval" sv:type="Double">
+      <sv:value>0.1</sv:value>
+    </sv:property>
     <sv:property sv:name="processedUntil" sv:type="Date">
-      <sv:value>2015-10-15T13:04:10.386+02:00</sv:value>
+      <sv:value>2016-10-03T16:49:01.406+02:00</sv:value>
     </sv:property>
     <sv:property sv:name="running" sv:type="Boolean">
-      <sv:value>true</sv:value>
+      <sv:value>false</sv:value>
     </sv:property>
+    <sv:node sv:name="targeting:lock">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>targeting:lock</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:lockExpirationTime" sv:type="Date">
+        <sv:value>2016-10-03T16:53:16.451+02:00</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>
