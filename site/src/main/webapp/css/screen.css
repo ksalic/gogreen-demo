@@ -639,3 +639,6 @@ html { background-color: #e9e5c1; height: 100%; }
 
 /* Position content relative, neccessary to render the edit content button from the template composer in the right top corner of a detail page. */
 .editable, #content.editable { position: relative }
+
+.banner-component.full-banner { position: relative; }
+.banner-component.full-banner a.hst-cmseditlink { top: 10px; }
