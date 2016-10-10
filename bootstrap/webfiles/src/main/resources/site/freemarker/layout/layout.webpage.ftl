@@ -156,8 +156,6 @@
 <script type="text/javascript" src="${js_jqueryplaceholder}"></script>
 <@hst.link var="js_activeaxon_menu" path="/js/activeaxon_menu.js"/>
 <script src="${js_activeaxon_menu}" type="text/javascript"></script>
-<@hst.link var="js_animationEnigne" path="/js/animationEnigne.js"/>
-<script src="${js_animationEnigne}" type="text/javascript"></script>
 <@hst.link var="js_bootstrap" path="/js/bootstrap.min.js"/>
 <script src="${js_bootstrap}" type="text/javascript"></script>
 <@hst.link var="js_jqappear" path="/js/jq.appear.js"/>
@@ -194,8 +192,6 @@
 <script src="${js_jQueryXDomainRequest}" type="text/javascript"></script>
 <@hst.link var="js_kanzi" path="/js/kanzi.js"/>
 <script src="${js_kanzi}" type="text/javascript"></script>
-<#--<@hst.link var="js_retina" path="/js/retina.js"/>
-        <script src="${js_retina}" type="text/javascript"></script>-->
 
 <@hst.headContributions categoryIncludes="scripts"/>
 </body>
