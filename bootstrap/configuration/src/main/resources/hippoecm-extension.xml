@@ -1020,28 +1020,13 @@
       <sv:value>/hippo:configuration/hippo:groups</sv:value>
     </sv:property>
   </sv:node>
-  <!-- TODO mm upgrade 11: enable-->
-<!--
-
-  <sv:node sv:name="gogreentwo-hippo-configuration-hippo-frontend-cms-cms-admin-updater-delete">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>60001</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentdelete" sv:type="String">
-      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-admin/updater</sv:value>
-    </sv:property>
-  </sv:node>
--->
 
   <sv:node sv:name="gogreentwo-translations">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30000.2</sv:value>
+      <sv:value>60010.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:resourcebundles" sv:type="String">
       <sv:value>translations.json</sv:value>

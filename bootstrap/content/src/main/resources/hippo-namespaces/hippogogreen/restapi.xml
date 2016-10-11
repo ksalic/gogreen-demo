@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="restapi">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="restapi">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hipposysedit:templatetype</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-    <sv:value>mix:referenceable</sv:value>
     <sv:value>editor:editable</sv:value>
-    <sv:value>hippo:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>cfdc6b0e-8b2e-4deb-b9f8-31e41ed03b2c</sv:value>
@@ -29,8 +24,8 @@
         <sv:value>hipposysedit:nodetype</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hipposysedit:remodel</sv:value>
         <sv:value>mix:referenceable</sv:value>
+        <sv:value>hipposysedit:remodel</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>a4a4b8f2-d291-45f6-8e2b-d4baf1b04e2e</sv:value>
@@ -453,16 +448,5 @@
         </sv:node>
       </sv:node>
     </sv:node>
-  </sv:node>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value/>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Rest API Documentation</sv:value>
-    </sv:property>
   </sv:node>
 </sv:node>

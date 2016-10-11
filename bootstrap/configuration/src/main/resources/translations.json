@@ -4,14 +4,14 @@
       "new-banner-folder": "banner folder",
       "new-event": "event",
       "new-simple": "simple document",
-      "new-blog": "blog article",
       "new-subsite-folder": "simple folder",
+      "new-blog": "blog article",
       "new-news-viawizard": "news article",
       "new-subsite-document": "simple document",
       "new-news-folder": "news folder",
       "new-blogs-folder": "blogs folder",
-      "new-banner": "banner",
       "new-product": "product",
+      "new-banner": "banner",
       "new-news": "news article",
       "new-blogcb": "blog article with content blocks",
       "new-event-folder": "event folder",
@@ -23,61 +23,61 @@
     "nl":     {
       "new-banner-folder": "bannermap",
       "new-event": "evenement",
-      "new-simple": "document (simpel)",
-      "new-blogcb": "blogdocument met inhoud blokken",
-      "new-event-folder": "evenementenmap",
+      "new-simple": "document (eenvoudig)",
       "new-blog": "blogdocument",
-      "new-subsite-folder": "map (simpel)",
+      "new-subsite-folder": "map",
       "new-news-viawizard": "nieuwsdocument",
-      "new-subsite-document": "document (simpel)",
-      "new-event-viawizard": "evenement",
-      "new-simple-folder": "map (simpel)",
+      "new-subsite-document": "document (eenvoudig)",
       "new-news-folder": "nieuwsmap",
-      "new-product-folder": "productenmap",
-      "new-faq": "veel gestelde vraag",
       "new-blogs-folder": "blogsmap",
       "new-banner": "banner",
       "new-product": "product",
-      "new-news": "nieuwsdocument"
+      "new-news": "nieuwsdocument",
+      "new-blogcb": "blogdocument met inhoud blokken",
+      "new-event-folder": "evenementenmap",
+      "new-event-viawizard": "evenement",
+      "new-simple-folder": "map",
+      "new-product-folder": "productenmap",
+      "new-faq": "veel gestelde vraag"
+    },
+    "de":     {
+      "new-event": "Event",
+      "new-simple": "Dokument (simple)",
+      "new-blog": "Blog Dokument",
+      "new-subsite-folder": "Ordner",
+      "new-news-viawizard": "News Dokument",
+      "new-subsite-document": "Dokument (simple)",
+      "new-news-folder": "News Ordner",
+      "new-blogs-folder": "Blogs Ordner",
+      "new-banner": "Banner",
+      "new-product": "Produkt",
+      "new-news": "News Dokument",
+      "new-blogcb": "Blog Dokument mit Inhaltsblöcke",
+      "new-event-folder": "Events Ordner",
+      "new-event-viawizard": "Event",
+      "new-simple-folder": "Ordner",
+      "new-product-folder": "Produkt Ordner",
+      "new-faq": "FAQ"
     },
     "fr":     {
       "new-banner-folder": "Banner Ordner",
       "new-event": "évènement",
       "new-simple": "document (simple)",
-      "new-blogcb": "blog avec des blocs de contenu",
-      "new-event-folder": "un dossier d'évènements",
       "new-blog": "blog",
-      "new-subsite-folder": "un dossier (simple)",
+      "new-subsite-folder": "un dossier",
       "new-news-viawizard": "actualité",
       "new-subsite-document": "document (simple)",
-      "new-event-viawizard": "évènement",
-      "new-simple-folder": "un dossier (simple)",
       "new-news-folder": "un dossier d'actualité",
-      "new-product-folder": "un dossier de produits",
-      "new-faq": "FAQ",
       "new-blogs-folder": "un dossier des blogs",
       "new-banner": "bannière",
       "new-product": "produit",
-      "new-news": "actualité"
-    },
-    "de":     {
-      "new-event": "Event",
-      "new-simple": "Dokument (simple)",
-      "new-blogcb": "Blog Dokument mit Inhaltsblöcke",
-      "new-event-folder": "Events Ordner",
-      "new-blog": "Blog Dokument",
-      "new-subsite-folder": "Ordner (simple)",
-      "new-news-viawizard": "News Dokument",
-      "new-subsite-document": "Dokument (simple)",
-      "new-event-viawizard": "Event",
-      "new-simple-folder": "Ordner (simple)",
-      "new-news-folder": "News Ordner",
-      "new-product-folder": "Produkt Ordner",
-      "new-faq": "FAQ",
-      "new-blogs-folder": "Blogs Ordner",
-      "new-banner": "Banner",
-      "new-product": "Produkt",
-      "new-news": "News Dokument"
+      "new-news": "actualité",
+      "new-blogcb": "blog avec des blocs de contenu",
+      "new-event-folder": "un dossier d'évènements",
+      "new-event-viawizard": "évènement",
+      "new-simple-folder": "un dossier",
+      "new-product-folder": "un dossier de produits",
+      "new-faq": "FAQ"
     }
   },
   "hippo:types":   {
@@ -89,156 +89,156 @@
     },
     "hippogogreen:event":     {
       "en":       {
-        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
-        "hippogogreen:date": "Start date",
-        "hippogogreen:enddate": "End date",
+        "hippogogreen:date": "Start Date",
+        "hippogogreen:image": "Image",
         "jcr:name": "Event",
-        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Image",
-        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Description",
         "hippogogreen:location": "Location",
+        "hippogogreen:description": "Description",
         "hippogogreen:categories": "Categories",
-        "hippogogreen:contentstage": "Content Stage",
-        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Title",
-        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Summary"
+        "hippogogreen:title": "Title",
+        "hippogogreen:summary": "Summary",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:enddate": "End Date",
+        "hippogogreen:contentstage": "Content Stage"
       },
       "nl":       {
-        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
         "hippogogreen:date": "Startdatum",
-        "hippogogreen:enddate": "Einddatum",
+        "hippogogreen:image": "Afbeelding",
         "jcr:name": "Evenement",
-        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Afbeelding",
-        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Beschrijving",
+        "hippogogreen:description": "Beschrijving",
         "hippogogreen:location": "Plaats",
         "hippogogreen:categories": "Categorieën",
-        "hippogogreen:contentstage": "Contentniveau",
-        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Titel",
-        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Samenvatting"
+        "hippogogreen:title": "Titel",
+        "hippogogreen:summary": "Samenvatting",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:enddate": "Einddatum",
+        "hippogogreen:contentstage": "Contentniveau"
       },
       "fr":       {
-        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
         "hippogogreen:date": "Date de début",
-        "hippogogreen:enddate": "Date de fin",
+        "hippogogreen:image": "Image",
         "jcr:name": "Évènement",
-        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Image",
-        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Description",
         "hippogogreen:location": "Lieu",
+        "hippogogreen:description": "Description",
         "hippogogreen:categories": "Catégories",
-        "hippogogreen:contentstage": "Niveau du Contenu",
-        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Titre",
-        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Résumé"
+        "hippogogreen:title": "Titre",
+        "hippogogreen:summary": "Résumé",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:enddate": "Date de fin",
+        "hippogogreen:contentstage": "Niveau du contenu"
       },
       "de":       {
-        "copyright-49ab376f-1957-49ca-8aac-bf1f30cfe217": "Copyright",
-        "hippogogreen:date": "Start Datum",
-        "hippogogreen:enddate": "End-Datum",
+        "hippogogreen:date": "Start-Datum",
         "jcr:name": "Event",
-        "image-94a7b33d-39af-4875-b4e8-54bff82e30fc": "Bild",
-        "description-8c599b86-4238-43e5-84d2-1418bf6ae16d": "Beschreibung",
+        "hippogogreen:image": "Bild",
+        "hippogogreen:description": "Beschreibung",
         "hippogogreen:location": "Ort",
         "hippogogreen:categories": "Kategorien",
-        "hippogogreen:contentstage": "Inhalt Stufe",
-        "title-ce0d76e0-7e66-4601-a922-8100ff696ddf": "Titel",
-        "summary-37dc51e7-34f4-418e-9027-3df512b643c1": "Zusammenfassung"
+        "hippogogreen:title": "Titel",
+        "hippogogreen:summary": "Zusammenfassung",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:enddate": "End-Datum",
+        "hippogogreen:contentstage": "Inhalt Stufe"
       }
     },
     "hippogogreen:product":     {
       "en":       {
-        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Title",
-        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Description",
         "jcr:name": "Product",
-        "hippogogreen:price": "Price",
-        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Summary",
-        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Image",
-        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Rating",
+        "hippogogreen:image": "Image",
         "hippogogreen:categories": "Categories",
-        "hippogogreen:contentstage": "Content Stage",
-        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
-        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Votes"
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:votes": "Votes",
+        "hippogogreen:title": "Title",
+        "hippogogreen:description": "Description",
+        "hippogogreen:price": "Price",
+        "hippogogreen:summary": "Summary",
+        "hippogogreen:rating": "Rating",
+        "hippogogreen:contentstage": "Content Stage"
       },
       "nl":       {
-        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Titel",
-        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Beschrijving",
         "jcr:name": "Product",
-        "hippogogreen:price": "Prijs",
-        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Samenvatting",
-        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Afbeelding",
-        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Beoordeling",
+        "hippogogreen:image": "Afbeelding",
         "hippogogreen:categories": "Categorieën",
-        "hippogogreen:contentstage": "Contentniveau",
-        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
-        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Stemmen"
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:votes": "Stemmen",
+        "hippogogreen:title": "Titel",
+        "hippogogreen:description": "Beschrijving",
+        "hippogogreen:price": "Prijs",
+        "hippogogreen:summary": "Samenvatting",
+        "hippogogreen:rating": "Beoordeling",
+        "hippogogreen:contentstage": "Contentniveau"
       },
       "fr":       {
-        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Titre",
-        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Description",
         "jcr:name": "Produit",
-        "hippogogreen:price": "Prix",
-        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Résumé",
-        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Image",
-        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Note",
+        "hippogogreen:image": "Image",
         "hippogogreen:categories": "Catégories",
-        "hippogogreen:contentstage": "Niveau du Contenu",
-        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
-        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Votes"
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:votes": "Votes",
+        "hippogogreen:title": "Titre",
+        "hippogogreen:description": "Description",
+        "hippogogreen:price": "Prix",
+        "hippogogreen:summary": "Résumé",
+        "hippogogreen:rating": "Note",
+        "hippogogreen:contentstage": "Niveau du contenu"
       },
       "de":       {
-        "title-aff10d28-8170-43b1-882c-b4814c51fbdb": "Titel",
-        "description-b335a945-3c5a-4407-9cba-682fedc71d1e": "Beschreibung",
         "jcr:name": "Produkt",
-        "hippogogreen:price": "Preis",
-        "summary-6b2eff4f-760f-427d-b03e-87dadbea965a": "Zusammenfassung",
-        "image-ded8e08a-cacc-40fc-ac4f-e3c50950a8c3": "Bild",
-        "rating-29baa67e-22b1-463d-91a4-3392f91d2715": "Beurteilung",
+        "hippogogreen:image": "Bild",
         "hippogogreen:categories": "Kategorien",
-        "hippogogreen:contentstage": "Inhalt Stufe",
-        "copyright-3ad05817-1358-475d-b8ce-57bddf1eb9db": "Copyright",
-        "votes-d8f04348-9807-4d6f-9682-96b8c99970d8": "Stimmen"
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:votes": "Stimmen",
+        "hippogogreen:title": "Titel",
+        "hippogogreen:description": "Beschreibung",
+        "hippogogreen:price": "Preis",
+        "hippogogreen:summary": "Zusammenfassung",
+        "hippogogreen:rating": "Beurteilung",
+        "hippogogreen:contentstage": "Inhalt Stufe"
       }
     },
     "hippogogreen:blogitem":     {
       "en":       {
-        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Summary",
         "hippogogreen:date": "Date",
-        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Description",
-        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Image",
+        "hippogogreen:summary": "Summary",
         "jcr:name": "Blog Article",
-        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
         "hippogogreen:categories": "Categories",
-        "hippogogreen:contentstage": "Content Stage",
-        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Title"
+        "hippogogreen:title": "Title",
+        "hippogogreen:description": "Description",
+        "hippogogreen:image": "Image",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:contentstage": "Content Stage"
       },
       "nl":       {
         "hippogogreen:date": "Datum",
-        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Samenvatting",
-        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Afbeelding",
-        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Beschrijving",
+        "hippogogreen:summary": "Samenvatting",
         "jcr:name": "Blog-artikel",
-        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
-        "hippogogreen:contentstage": "Contentniveau",
         "hippogogreen:categories": "Categorieën",
-        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Titel"
+        "hippogogreen:title": "Titel",
+        "hippogogreen:image": "Afbeelding",
+        "hippogogreen:description": "Beschrijving",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:contentstage": "Contentniveau"
       },
       "fr":       {
-        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Résumé",
         "hippogogreen:date": "Date",
-        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Description",
-        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Image",
+        "hippogogreen:summary": "Résumé",
         "jcr:name": "Blog",
-        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
         "hippogogreen:categories": "Catégories",
-        "hippogogreen:contentstage": "Niveau du Contenu",
-        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Titre"
+        "hippogogreen:title": "Titre",
+        "hippogogreen:description": "Description",
+        "hippogogreen:image": "Image",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:contentstage": "Niveau du contenu"
       },
       "de":       {
-        "summary-86d02032-9e41-4916-b9a9-67af0826f784": "Zusammenfassung",
         "hippogogreen:date": "Datum",
-        "description-c3f05cdc-cbe2-407f-8acb-abcf3dd9791a": "Beschreibung",
-        "image-e54b75f9-d85e-40ec-8c10-8b6c6b9fa765": "Bild",
+        "hippogogreen:summary": "Zusammenfassung",
         "jcr:name": "Blog Artikel",
-        "copyright-f205bf24-d7f0-4e28-9884-ac7e29bef91f": "Copyright",
         "hippogogreen:categories": "Kategorien",
-        "hippogogreen:contentstage": "Inhalt Stufe",
-        "title-8c5111ac-cac8-43c3-a6f7-1e0eb33658e1": "Titel"
+        "hippogogreen:title": "Titel",
+        "hippogogreen:description": "Beschreibung",
+        "hippogogreen:image": "Bild",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:contentstage": "Inhalt Stufe"
       }
     },
     "hippogogreen:imageblock": {"en": {"jcr:name": "Image"}},
@@ -246,80 +246,80 @@
     "hippogogreen:quoteblock": {"en": {"jcr:name": "Quote"}},
     "hippogogreen:blogitemcb":     {
       "en":       {
-        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Content Stage",
+        "hippogogreen:contentstage": "Content Stage",
         "jcr:name": "Blog Article with Content Blocks",
-        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Date",
-        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Image",
-        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Summary",
-        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Description",
-        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Categories",
-        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
-        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Title"
+        "hippogogreen:image": "Image",
+        "hippogogreen:summary": "Summary",
+        "hippogogreen:date": "Date",
+        "hippogogreen:description": "Description",
+        "hippogogreen:categories5": "Categories",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:title": "Title"
       },
       "nl":       {
-        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Contentniveau",
-        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Datum",
-        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Afbeelding",
-        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Samenvatting",
-        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Beschrijving",
-        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Categorieën",
-        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
-        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Titel"
+        "jcr:name": "Blog-Artikel met contentblokken",
+        "hippogogreen:contentstage": "Contentniveau",
+        "hippogogreen:image": "Afbeelding",
+        "hippogogreen:summary": "Samenvatting",
+        "hippogogreen:date": "Datum",
+        "hippogogreen:description": "Beschrijving",
+        "hippogogreen:categories": "Categorieën",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:title": "Titel"
       },
       "fr":       {
-        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Niveau du Contenu",
-        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Date",
-        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Image",
-        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Résumé",
-        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Description",
-        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Catégories",
-        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
-        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Titre"
+        "hippogogreen:contentstage": "Niveau du Contenu",
+        "hippogogreen:image": "Image",
+        "hippogogreen:summary": "Résumé",
+        "hippogogreen:date": "Date",
+        "hippogogreen:description": "Description",
+        "hippogogreen:categories": "Catégories",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:title": "Titre"
       },
       "de":       {
-        "contentstage-ec7003ca-6554-4bf9-bb68-6cbf0c949df9": "Inhalt Stufe",
-        "date-208201a2-43b9-442d-90f3-a42d10a0cf4f": "Datum",
-        "image-ac95d3bb-533f-4749-ba9f-e1615f2efd08": "Bild",
-        "summary-46ae7e36-7bfc-4d7c-bbbe-5f0e439f6870": "Zusammenfassung",
-        "description-56659369-1908-4eb8-a2b5-aeeded3a5dab": "Beschreibung",
-        "categories-d66493b4-90d6-495a-b64b-a08c6237b895": "Kategorien",
-        "copyright-ef28340c-7c0c-429e-9811-f43383689934": "Copyright",
-        "title-107bc498-4b39-4247-a1fd-e53c05301d78": "Titel"
+        "hippogogreen:contentstage": "Inhalt Stufe",
+        "hippogogreen:image": "Bild",
+        "hippogogreen:summary": "Zusammenfassung",
+        "hippogogreen:date": "Datum",
+        "hippogogreen:description": "Beschreibung",
+        "hippogogreen:categories": "Kategorien",
+        "hippogogreen:copyright": "Copyright",
+        "hippogogreen:title": "Titel"
       }
     },
     "hippogogreen:faq":     {
       "en":       {
         "jcr:name": "FAQ",
-        "hippogogreen:copyright": "Copyright",
         "hippogogreen:question": "Question",
-        "hippogogreen:answer": "Answer"
+        "hippogogreen:answer": "Answer",
+        "hippogogreen:copyright": "Copyright"
       },
       "nl":       {
-        "jcr:name": "Veel Gestelde Vraag",
-        "hippogogreen:copyright": "Copyright",
+        "jcr:name": "Veelgestelde vraag",
         "hippogogreen:question": "Vraag",
-        "hippogogreen:answer": "Antwoord"
+        "hippogogreen:answer": "Antwoord",
+        "hippogogreen:copyright": "Copyright"
       },
       "fr":       {
         "jcr:name": "FAQ",
-        "hippogogreen:copyright": "Copyright",
         "hippogogreen:question": "Question",
-        "hippogogreen:answer": "Réponse"
+        "hippogogreen:answer": "Réponse",
+        "hippogogreen:copyright": "Copyright"
       },
       "de":       {
         "jcr:name": "FAQ",
-        "hippogogreen:copyright": "Copyright",
         "hippogogreen:question": "Frage",
-        "hippogogreen:answer": "Antwort"
+        "hippogogreen:answer": "Antwort",
+        "hippogogreen:copyright": "Copyright"
       }
     },
-    "hippogogreen:restapi": {},
     "hippogogreen:banner":     {
       "en":       {
         "jcr:name": "Banner",
         "hippogogreen:image": "Image",
         "hippogogreen:bannertext": "Text",
-        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Link",
+        "hippogogreen:doclink": "Link",
         "hippogogreen:title": "Title",
         "hippogogreen:icon": "Icon"
       },
@@ -327,15 +327,15 @@
         "jcr:name": "Banner",
         "hippogogreen:image": "Image",
         "hippogogreen:bannertext": "Tekst",
-        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Link",
-        "hippogogreen:title": "Title",
-        "hippogogreen:icon": "Icon"
+        "hippogogreen:doclink": "Link",
+        "hippogogreen:icon": "Icon",
+        "hippogogreen:title": "Title"
       },
       "fr":       {
         "jcr:name": "Bannière",
-        "hippogogreen:image": "Image",
         "hippogogreen:bannertext": "Texte",
-        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Lien",
+        "hippogogreen:image": "Image",
+        "hippogogreen:doclink": "Lien",
         "hippogogreen:title": "Titre",
         "hippogogreen:icon": "Icon"
       },
@@ -343,7 +343,7 @@
         "jcr:name": "Banner",
         "hippogogreen:image": "Bild",
         "hippogogreen:bannertext": "Text",
-        "doclink-4f3befd3-c78d-4105-9754-f96453d9282c": "Link",
+        "hippogogreen:doclink": "Link",
         "hippogogreen:title": "Titel",
         "hippogogreen:icon": "Icon"
       }
@@ -351,29 +351,29 @@
     "hippogogreen:simpledocument":     {
       "en":       {
         "hippogogreen:description": "Description",
-        "hippogogreen:title": "Title",
         "hippogogreen:summary": "Summary",
+        "hippogogreen:title": "Title",
         "hippogogreen:contentstage": "Content Stage",
         "jcr:name": "Simple Document"
       },
       "nl":       {
         "hippogogreen:description": "Beschrijving",
-        "hippogogreen:title": "Titel",
         "hippogogreen:summary": "Samenvatting",
+        "hippogogreen:title": "Titel",
         "hippogogreen:contentstage": "Contentniveau",
-        "jcr:name": "Simple Document [NL]"
+        "jcr:name": "Eenvoudig document"
       },
       "fr":       {
         "hippogogreen:description": "Description",
-        "hippogogreen:title": "Titre",
         "hippogogreen:summary": "Résumé",
-        "hippogogreen:contentstage": "Niveau du Contenu",
+        "hippogogreen:title": "Titre",
+        "hippogogreen:contentstage": "Niveau du contenu",
         "jcr:name": "Document simple"
       },
       "de":       {
         "hippogogreen:description": "Beschreibung",
-        "hippogogreen:title": "Titel",
         "hippogogreen:summary": "Zusammenfassung",
+        "hippogogreen:title": "Titel",
         "hippogogreen:contentstage": "Inhalt Stufe",
         "jcr:name": "Einfaches Dokument"
       }
@@ -384,8 +384,8 @@
         "jcr:name": "Review",
         "hippogogreen:comment": "Comment",
         "hippogogreen:rating": "Rating",
-        "hippogogreen:productlink": "Review For",
         "hippogogreen:contentstage": "Content Stage",
+        "hippogogreen:productlink": "Review For",
         "hippogogreen:email": "Email",
         "hippogogreen:name": "Name"
       },
@@ -394,8 +394,8 @@
         "jcr:name": "Recensie",
         "hippogogreen:comment": "Commentaar",
         "hippogogreen:rating": "Beoordeling",
-        "hippogogreen:productlink": "Recensie voor",
         "hippogogreen:contentstage": "Contentniveau",
+        "hippogogreen:productlink": "Recensie voor",
         "hippogogreen:email": "Email",
         "hippogogreen:name": "Naam"
       },
@@ -405,7 +405,7 @@
         "hippogogreen:comment": "Commentaire",
         "hippogogreen:rating": "Note]",
         "hippogogreen:productlink": "Avis sur",
-        "hippogogreen:contentstage": "Niveau du Contenu",
+        "hippogogreen:contentstage": "Niveau du contenu",
         "hippogogreen:email": "E-mail",
         "hippogogreen:name": "Nom"
       },
@@ -414,7 +414,7 @@
         "jcr:name": "Review",
         "hippogogreen:comment": "Kommentar",
         "hippogogreen:rating": "Bewertung",
-        "hippogogreen:productlink": "Review fÃ¼r",
+        "hippogogreen:productlink": "Review für",
         "hippogogreen:contentstage": "Inhalt Stufe",
         "hippogogreen:email": "E-mail",
         "hippogogreen:name": "Name"
@@ -453,8 +453,8 @@
     "hippogogreen:address":     {
       "en":       {
         "hippogogreen:street": "Street",
-        "hippogogreen:city": "City",
         "hippogogreen:country": "Country",
+        "hippogogreen:city": "City",
         "hippogogreen:province": "Province",
         "jcr:name": "Address",
         "hippogogreen:postalcode": "Postal Code",
@@ -464,8 +464,8 @@
       },
       "nl":       {
         "hippogogreen:street": "Straat",
-        "hippogogreen:city": "Stad",
         "hippogogreen:country": "Land",
+        "hippogogreen:city": "Stad",
         "hippogogreen:province": "Provincie",
         "jcr:name": "Adres",
         "hippogogreen:postalcode": "Postcode",
@@ -495,46 +495,46 @@
     "hippogogreen:richtextsnippet": {"en": {"jcr:name": "Rich-text Snippet"}},
     "hippogogreen:newsitem":     {
       "en":       {
-        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Summary",
-        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Title",
+        "hippogogreen:summary": "Summary",
+        "hippogogreen:title": "Title",
         "hippogogreen:date": "Date",
         "jcr:name": "News article",
-        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Description",
+        "hippogogreen:description": "Description",
         "hippogogreen:contentstage": "Content Stage"
       },
       "nl":       {
-        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Samenvatting",
-        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Titel",
+        "hippogogreen:summary": "Samenvatting",
+        "hippogogreen:title": "Titel",
         "hippogogreen:date": "Datum",
         "jcr:name": "Nieuwsartikel",
-        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Beschrijving",
+        "hippogogreen:description": "Beschrijving",
         "hippogogreen:contentstage": "Contentniveau"
       },
       "fr":       {
-        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Résumé",
-        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Titre",
+        "hippogogreen:summary": "Résumé",
         "hippogogreen:date": "Date",
+        "hippogogreen:title": "Titre",
         "jcr:name": "Actualités article",
-        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Description",
-        "hippogogreen:contentstage": "Niveau du Contenu"
+        "hippogogreen:description": "Description",
+        "hippogogreen:contentstage": "Niveau du contenu"
       },
       "de":       {
-        "summary-c11a1f28-d989-4826-a6a5-e70e65fe956c": "Zusammenfassung",
-        "title-ace77545-84fa-457d-87c0-a2e1644ea96b": "Titel",
+        "hippogogreen:summary": "Zusammenfassung",
+        "hippogogreen:title": "Titel",
         "hippogogreen:date": "Datum",
         "jcr:name": "Nachrichtenartikel",
-        "description-59fb0a2b-4560-464d-b8a7-37a55d2da23e": "Beschreibung",
+        "hippogogreen:description": "Beschreibung",
         "hippogogreen:contentstage": "Inhalt Stufe"
       }
     },
     "hippogogreengallery:imageset":     {
       "nl":       {
-        "hippogogreengallery:alt": "Alt tekst",
         "hippogogreengallery:landscapeimage": "Liggend",
-        "hippogogreengallery:mobilethumbnail": "Miniatuur (voor mobiel)",
+        "hippogogreengallery:alt": "Alt tekst",
         "hippogogreengallery:banner": "Banner",
-        "jcr:name": "Afbeelding",
+        "hippogogreengallery:mobilethumbnail": "Miniatuur (voor mobiel)",
         "hippogogreengallery:smallthumbnail": "Miniatuur (klein)",
+        "jcr:name": "Afbeelding",
         "hippogogreengallery:bannercarousel": "Banner (carousel)",
         "hippogogreengallery:thumbnail": "Miniatuur",
         "hippogogreengallery:original": "Origineel",
@@ -547,8 +547,8 @@
         "hippogogreengallery:landscapeimage": "Landscape Image",
         "hippogogreengallery:mobilethumbnail": "Thumbnail (mobile)",
         "hippogogreengallery:banner": "Banner",
-        "jcr:name": "Image",
         "hippogogreengallery:smallthumbnail": "Thumbnail (small)",
+        "jcr:name": "Image",
         "hippogogreengallery:bannercarousel": "Banner (carousel)",
         "hippogogreengallery:thumbnail": "Thumbnail",
         "hippogogreengallery:original": "Original",
@@ -573,10 +573,10 @@
       "de":       {
         "hippogogreengallery:alt": "Alt-Text",
         "hippogogreengallery:landscapeimage": "Querformat",
-        "hippogogreengallery:mobilethumbnail": "Miniaturansicht (Handy)",
         "hippogogreengallery:banner": "Banner",
-        "jcr:name": "Bild",
+        "hippogogreengallery:mobilethumbnail": "Miniaturansicht (Handy)",
         "hippogogreengallery:smallthumbnail": "Miniaturansicht (klein)",
+        "jcr:name": "Bild",
         "hippogogreengallery:bannercarousel": "Banner (Karussell)",
         "hippogogreengallery:thumbnail": "Miniaturansicht",
         "hippogogreengallery:original": "Original",
@@ -584,28 +584,27 @@
         "hippogogreengallery:mobilelogo": "Logo (Handy)",
         "hippogogreengallery:copyright": "Copyright"
       }
-    }
+    },
+    "hippogogreen:restapi": {}
   },
-  "hippo:cms": {
-    "advanced-search-filters": {
-      "en": {
-        "campaignPropertyFilter.propertyName": "Campaign",
-        "campaignPropertyFilter.title": "Campaign filter",
-        "titlePropertyFilter.propertyName": "Title",
-        "titlePropertyFilter.title": "Title filter"
-      },
-      "nl": {
-        "campaignPropertyFilter.propertyName": "Campagne",
-        "campaignPropertyFilter.title": "Campagnefilter",
-        "titlePropertyFilter.propertyName": "Titel",
-        "titlePropertyFilter.title": "Titelfilter"
-      },
-      "fr": {
-        "campaignPropertyFilter.propertyName": "Campagne",
-        "campaignPropertyFilter.title": "Filtre de campagne",
-        "titlePropertyFilter.propertyName": "Titre",
-        "titlePropertyFilter.title": "Filtre de titre"
-      }
+  "hippo:cms": {"advanced-search-filters":   {
+    "en":     {
+      "campaignPropertyFilter.title": "Campaign filter",
+      "campaignPropertyFilter.propertyName": "Campaign",
+      "titlePropertyFilter.propertyName": "Title",
+      "titlePropertyFilter.title": "Title filter"
+    },
+    "nl":     {
+      "campaignPropertyFilter.title": "Campagnefilter",
+      "campaignPropertyFilter.propertyName": "Campagne",
+      "titlePropertyFilter.propertyName": "Titel",
+      "titlePropertyFilter.title": "Titelfilter"
+    },
+    "fr":     {
+      "campaignPropertyFilter.title": "Filtre de campagne",
+      "campaignPropertyFilter.propertyName": "Campagne",
+      "titlePropertyFilter.propertyName": "Titre",
+      "titlePropertyFilter.title": "Filtre de titre"
     }
-  }
+  }}
 }

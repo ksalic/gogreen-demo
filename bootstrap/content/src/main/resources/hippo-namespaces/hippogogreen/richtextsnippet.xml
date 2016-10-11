@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
--->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="richtextsnippet">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="richtextsnippet">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hipposysedit:templatetype</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>editor:editable</sv:value>
     <sv:value>mix:referenceable</sv:value>
-    <sv:value>hippo:translated</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
     <sv:value>474a65a5-0dc9-411a-8088-145582849fdd</sv:value>
@@ -184,16 +179,5 @@
         </sv:node>
       </sv:node>
     </sv:node>
-  </sv:node>
-  <sv:node sv:name="hippo:translation">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:translation</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:language" sv:type="String">
-      <sv:value>en</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:message" sv:type="String">
-      <sv:value>Rich-text Snippet</sv:value>
-    </sv:property>
   </sv:node>
 </sv:node>
