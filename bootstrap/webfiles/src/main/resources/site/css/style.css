@@ -6765,15 +6765,23 @@ Testimonial
     color: #333;
 }
 
-.footer .footer-col .footer-content .hst-cmseditmenu{
+.footer .footer-col .footer-content .hst-cmseditmenu {
     color: #333;
 }
 
-.edit-menu-button .hst-cmseditmenu{
+.edit-menu-button .hst-cmseditmenu {
     top: 24px;
 }
 
-.hst-cmseditmenu{
+.edit-menu-button-main {
+    position: relative;
+}
+.edit-menu-button-main .hst-cmseditlink {
+    top: 18px;
+    right: 40px;
+}
+
+.hst-cmseditmenu {
     hover: #000;
 }
 

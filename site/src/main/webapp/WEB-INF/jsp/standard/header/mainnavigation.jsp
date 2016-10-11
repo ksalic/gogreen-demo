@@ -1,10 +1,9 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
 --%>
 
 <%@include file="../../includes/tags.jspf" %>
+<hst:defineObjects/>
 
 <!-- Navigation File -->
 <div class="col-md-12">
@@ -32,7 +31,7 @@
               <a href="${link}" class="activelink"><span class="label-nav"><c:out value="${item.name}"/></span>
                 <c:set var="subName" value='${item.getParameter("subname")}'/>
                 <c:if test="${not empty subName}">
-                    <span class="label-nav-sub" data-hover="${subName}">${subName}</span>
+                  <span class="label-nav-sub" data-hover="${subName}">${subName}</span>
                 </c:if>
               </a>
               <c:if test="${not empty item.childMenuItems}">
@@ -59,7 +58,7 @@
               <a href="${link}"><span class="label-nav"><c:out value="${item.name}"/></span>
                 <c:set var="subName" value='${item.getParameter("subname")}'/>
                 <c:if test="${not empty subName}">
-                    <span class="label-nav-sub" data-hover="${subName}">${subName}</span>
+                  <span class="label-nav-sub" data-hover="${subName}">${subName}</span>
                 </c:if>
               </a>
               <c:if test="${not empty item.childMenuItems}">
@@ -84,27 +83,25 @@
         </c:choose>
 
       </c:forEach>
-
-      <hst:defineObjects/>
-      <c:if test="${hstRequest.requestContext.preview}">
-        <li class="edit-menu-button">
-          <hst:cmseditmenu menu="${requestScope.menu}"/>
-        </li>
-      </c:if>
     </ul>
-    </nav>
+  </nav>
 
   <!-- Mobile Nav. Container -->
   <ul class="mobile-nav">
     <li class="responsive-searchbox">
-      <!-- Responsive Nave -->
       <hst:link siteMapItemRefId="search" var="doSearch" />
       <form action="${doSearch}" method="get">
         <input type="text" class="searchbox-inputtext" id="searchbox-inputtext-mobile" name="query" />
         <button class="icon-search"></button>
       </form>
-      <!-- //Responsive Nave// -->
     </li>
   </ul>
   <!-- //Mobile Nav. Container// -->
+
+  <c:if test="${hstRequest.requestContext.preview}">
+    <div class="edit-menu-button-main">
+      <hst:cmseditmenu menu="${requestScope.menu}"/>
+    </div>
+  </c:if>
 </div>
+
