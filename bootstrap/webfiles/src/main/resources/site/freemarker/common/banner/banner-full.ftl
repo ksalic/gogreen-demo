@@ -5,7 +5,6 @@
 <#if  Request.document??>
     <#if Request.document.image??>
         <div class="banner-component section-content full-banner no-padding" style="background-image: url('<@hst.link hippobean=Request.document.image.original/>')">
-            <@hst.cmseditlink hippobean=Request.document/>
         </div>
     </#if>
 
