@@ -24,6 +24,6 @@
         <div class="space-sep ${Request.separatorMargin}"></div>    <#elseif cssClass??>
         <div class="space-sep ${cssClass}"></div>
     </#if>
-    <#elseif Request.preview??>
+    <#elseif editMode>
         <h2 class="not-configured">Click to configure banner</h2>
     </#if>

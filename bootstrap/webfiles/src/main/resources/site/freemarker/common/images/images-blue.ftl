@@ -56,6 +56,6 @@
   <div class="space-sep ${cssClass}"></div>
   </#if>
 
-<#elseif Request.preview??>
+<#elseif editMode>
 <h2 class="not-configured">Click to configure Image component</h2>
 </#if>

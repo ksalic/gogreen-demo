@@ -21,7 +21,7 @@
   </#if>
   <#if Request.videoURL??>
     <iframe src="https://player.vimeo.com/video/${Request.videoURL}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  <#elseif Request.preview??>
+  <#elseif editMode>
     <h2 class="not-configured">Click to configure Video component</h2>
   </#if>
   </div>

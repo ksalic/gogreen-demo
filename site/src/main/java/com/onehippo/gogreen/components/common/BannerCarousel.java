@@ -5,15 +5,12 @@ package com.onehippo.gogreen.components.common;
 
 import com.onehippo.gogreen.beans.Banner;
 import com.onehippo.gogreen.components.BaseComponent;
-
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.parameters.ParametersInfo;
 import org.hippoecm.hst.core.request.HstRequestContext;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,5 +62,6 @@ public class BannerCarousel extends BaseComponent {
         }
 
         request.setAttribute("banners", banners);
+        request.setAttribute("bannerIndex", java.util.UUID.randomUUID());
     }
 }

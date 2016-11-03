@@ -21,7 +21,7 @@
   </#if>
   <#if Request.videoURL??>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/${Request.videoURL}" frameborder="0" allowfullscreen></iframe>
-  <#elseif Request.preview??>
+  <#elseif editMode>
     <h2 class="not-configured">Click to configure Video component</h2>
   </#if>
   </div>

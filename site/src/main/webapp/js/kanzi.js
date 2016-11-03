@@ -103,7 +103,7 @@ jQuery(document).ready(function($) {
     //show until every thing loaded
     $('.rev-slider-fixed,.rev-slider-full').css('visibility', 'visible');
 
-    initializeSlider($('.rev-slider-banner-full'));
+   // initializeSlider($('.rev-slider-banner-full'));
 
     /* Accrodion */
     zeinaAccordion('.accordion', true);

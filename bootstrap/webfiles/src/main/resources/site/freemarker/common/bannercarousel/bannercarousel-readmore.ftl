@@ -4,7 +4,7 @@
 -->
 <#if Request.banners??>
 <div class="rev-slider-full">
-    <div class="rev-slider-banner-full rev-slider-full">
+    <div class="revolution-carousel-${bannerIndex} rev-slider-banner-full rev-slider-full">
         <ul>
             <#list Request.banners as banner >
 
@@ -31,22 +31,17 @@
         <div class="tp-bannertimer tp-bottom"></div>
     </div>
 </div>
-<#elseif Request.preview??>
+<#elseif editMode>
 <h2 class="not-configured">Click to configure banner carousel</h2>
 </#if>
 
-<#if Request.preview??>
 <script>
     // show slider again if component is reloaded in channel manager
     $(document).ready(function () {
-        window.setTimeout(function () {
-            // only call slider initialization if it is not yet initialised
-            var $slider = $('.rev-slider-banner-full').not('.revslider-initialised');
-            if ($slider.length > 0) {
-                initializeSlider($slider);
-            }
-        }, 100)
-
+        // only call slider initialization if it is not yet initialised
+        var $slider = $('.revolution-carousel-${bannerIndex}').not('.revslider-initialised');
+        if ($slider.length > 0) {
+            initializeSlider($slider);
+        }
     })
 </script>
-</#if>

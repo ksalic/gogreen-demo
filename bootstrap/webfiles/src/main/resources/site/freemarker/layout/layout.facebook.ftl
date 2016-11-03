@@ -87,7 +87,7 @@
 
   <@hst.headContributions categoryIncludes="jsExternal"/>
   <@hst.headContributions categoryIncludes="jsInternal"/>
-  <#if !Request.preview>
+  <#if editMode == false>
     <@ga.accountId/>
     <@hst.link var="googleAnalytics" path="/resources/google-analytics.js"/>
     <script src="${googleAnalytics}" type="text/javascript"></script>
