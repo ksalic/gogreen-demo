@@ -1,5 +1,5 @@
 <%--
-  Copyright 2008-2013 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@ page import="org.hippoecm.hst.core.container.ContainerSecurityException" %>
@@ -28,7 +28,7 @@
           <fmt:message key="label.access.forbidden" />
         </div>
         <div class="hippo-login-panel-copyright">
-          &copy; 1999-2012 Hippo B.V.
+          &copy; 2010-2016 Hippo B.V.
         </div>
       </div>
     </div>
