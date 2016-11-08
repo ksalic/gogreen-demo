@@ -6636,6 +6636,13 @@ Testimonial
 /* full image banner */
 .section-content.full-banner { height: 130px; overflow: hidden; background-attachment: scroll; background-repeat: no-repeat; }
 
+.banner-component.section-content  {
+    position: relative;
+}
+.banner-component.section-content a.hst-cmseditlink {
+    top: 10px;
+}
+
 /* grey container */
 .container.bg-grey { background-color: #fbfbfb; }
 
