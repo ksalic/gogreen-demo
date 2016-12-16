@@ -4,6 +4,10 @@
 
 package com.onehippo.gogreen.components.blogs;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 import com.onehippo.gogreen.beans.BlogItem;
 import com.onehippo.gogreen.beans.BlogItemContentBlocks;
 import com.onehippo.gogreen.beans.Comment;
@@ -12,13 +16,21 @@ import com.onehippo.gogreen.components.TagComponent;
 import com.onehippo.gogreen.utils.Constants;
 import com.onehippo.gogreen.utils.GoGreenUtil;
 import com.onehippo.gogreen.utils.PageableCollection;
+
 import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
 import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
 import org.hippoecm.hst.content.beans.query.filter.Filter;
-import org.hippoecm.hst.content.beans.standard.*;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
+import org.hippoecm.hst.content.beans.standard.HippoBeanIterator;
+import org.hippoecm.hst.content.beans.standard.HippoDocumentBean;
+import org.hippoecm.hst.content.beans.standard.HippoDocumentIterator;
+import org.hippoecm.hst.content.beans.standard.HippoFacetChildNavigationBean;
+import org.hippoecm.hst.content.beans.standard.HippoFacetNavigationBean;
+import org.hippoecm.hst.content.beans.standard.HippoFolder;
+import org.hippoecm.hst.content.beans.standard.HippoResultSetBean;
 import org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetNavigation;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
@@ -29,10 +41,6 @@ import org.hippoecm.hst.util.ContentBeanUtils;
 import org.hippoecm.hst.util.SearchInputParsingUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 /**
  * <p>
@@ -111,7 +119,7 @@ public class Overview extends TagComponent {
             return new PageableCollection(relatedBeans, pageSize, currentPage);
         }
         final HstRequestContext ctx = request.getRequestContext();
-        final HstQuery hstQuery = ctx.getQueryManager().createQuery(ctx.getSiteContentBaseBean(), BlogItem.class, BlogItemContentBlocks.class);
+        final HstQuery hstQuery = ctx.getQueryManager().createQuery(scope, BlogItem.class, BlogItemContentBlocks.class);
 
         hstQuery.addOrderByDescending("hippogogreen:date");
 
