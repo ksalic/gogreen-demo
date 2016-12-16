@@ -119,7 +119,7 @@ public class Overview extends TagComponent {
             return new PageableCollection(relatedBeans, pageSize, currentPage);
         }
         final HstRequestContext ctx = request.getRequestContext();
-        final HstQuery hstQuery = ctx.getQueryManager().createQuery(scope, BlogItem.class, BlogItemContentBlocks.class);
+        final HstQuery hstQuery = ctx.getQueryManager().createQuery(ctx.getSiteContentBaseBean(), BlogItem.class, BlogItemContentBlocks.class);
 
         hstQuery.addOrderByDescending("hippogogreen:date");
 
