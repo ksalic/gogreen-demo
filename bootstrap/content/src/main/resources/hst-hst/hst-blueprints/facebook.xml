@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2017 Hippo B.V. (http://www.onehippo.com)
 -->
 <sv:node sv:name="facebook" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:blueprint</sv:value>
   </sv:property>
   <sv:property sv:name="hst:description" sv:type="String">
-    <sv:value>New Facebook Page Tab Blueprint</sv:value>
+    <sv:value>Create a new Facebook Page Tab, can be deleted.</sv:value>
   </sv:property>
   <sv:property sv:name="hst:name" sv:type="String">
     <sv:value>Facebook Page Tab</sv:value>
@@ -15,6 +15,9 @@
   <sv:node sv:name="hst:channel">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:deletable" sv:type="Boolean">
+      <sv:value>true</sv:value>
     </sv:property>
     <sv:property sv:name="hst:channelinfoclass" sv:type="String">
       <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>

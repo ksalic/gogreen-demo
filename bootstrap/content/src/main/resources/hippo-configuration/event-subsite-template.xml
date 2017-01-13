@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2017 Hippo B.V. (http://www.onehippo.com)
 -->
 <sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="event-subsite">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -9,6 +9,7 @@
   <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippo:translated</sv:value>
     <sv:value>mix:referenceable</sv:value>
+    <sv:value>hippogogreen:deletecontentwithchannel</sv:value>
   </sv:property>
   <sv:property sv:name="hippostd:foldertype" sv:multiple="true" sv:type="String">
     <sv:value>new-subsite-folder</sv:value>
