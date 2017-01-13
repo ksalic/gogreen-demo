@@ -162,7 +162,7 @@
     </sv:node>
     <sv:node sv:name="targeting:expression">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>targeting:andexpression</sv:value>
+        <sv:value>targeting:orexpression</sv:value>
       </sv:property>
       <sv:node sv:name="0000000000">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -170,6 +170,22 @@
         </sv:property>
         <sv:property sv:name="targeting:targetgroup" sv:type="String">
           <sv:value>categories/office</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="0000000001">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:rule</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:targetgroup" sv:type="String">
+          <sv:value>pageviews/10simplestepspage-1484316939118</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="0000000002">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>targeting:rule</sv:value>
+        </sv:property>
+        <sv:property sv:name="targeting:targetgroup" sv:type="String">
+          <sv:value>pageviews/officeweekpage-1484316881651</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
