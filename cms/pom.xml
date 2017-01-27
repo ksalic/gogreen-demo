@@ -18,10 +18,18 @@
   <properties>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
     <spring-security-web.version>4.0.3.RELEASE</spring-security-web.version>
+    <okhttp.version>3.5.0</okhttp.version>
   </properties>
 
   <dependencies>
 
+
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>${okhttp.version}</version>
+    </dependency>
+    
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-edition-indicator</artifactId>

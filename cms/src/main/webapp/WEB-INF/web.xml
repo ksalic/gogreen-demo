@@ -38,6 +38,10 @@
     <filter-name>ConcurrentLogin</filter-name>
     <filter-class>org.hippoecm.frontend.plugins.login.ConcurrentLoginFilter</filter-class>
   </filter>
+  <filter>
+    <filter-name>RssFilter</filter-name>
+    <filter-class>com.onehippo.gogreen.filter.RssFeedFilter</filter-class>
+  </filter>
 
   <!-- IP based access  -->
   <filter>
@@ -110,6 +114,11 @@
     <filter-name>AccessFilter</filter-name>
     <url-pattern>/repository/*</url-pattern>
   </filter-mapping>
+  <filter-mapping>
+    <filter-name>RssFilter</filter-name>
+    <url-pattern>/rss/*</url-pattern>
+  </filter-mapping>
+
 
   <filter-mapping>
     <filter-name>ConcurrentLogin</filter-name>
