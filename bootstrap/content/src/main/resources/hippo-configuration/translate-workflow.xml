@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2011 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2011-2017 Hippo B.V. (http://www.onehippo.com)
 -->
 <sv:node xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
          xmlns:sv="http://www.jcp.org/jcr/sv/1.0"
@@ -17,7 +17,7 @@
       <sv:value>org.onehippo.translate.TranslateWorkflowImpl</sv:value>
     </sv:property>
     <sv:property sv:name="hipposys:display" sv:type="String">
-      <sv:value>Workflow on hippostd:languageable documents</sv:value>
+      <sv:value>Translate Workflow on documents</sv:value>
     </sv:property>
     <sv:property sv:name="hipposys:nodetype" sv:type="String">
       <sv:value>hippogogreen:basedocument</sv:value>
@@ -31,8 +31,13 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>nt:unstructured</sv:value>
       </sv:property>
-      <sv:property sv:name="google.version" sv:type="String">
-        <sv:value>1</sv:value>
+<!-- absent property will make the functionality unavailable
+      <sv:property sv:name="google.key" sv:type="String">
+        <sv:value/>
+      </sv:property>
+-->
+      <sv:property sv:name="timeout" sv:type="String">
+        <sv:value>5000</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
