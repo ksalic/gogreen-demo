@@ -3,7 +3,9 @@
  */
 package com.onehippo.gogreen.filter;
 
+import com.sun.syndication.feed.synd.SyndFeed;
 import okhttp3.OkHttpClient;
+import com.sun.syndication.io.*;
 import okhttp3.Request;
 import okhttp3.Response;
 import org.apache.commons.io.IOUtils;
@@ -15,6 +17,7 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.StringReader;
 
 /**
  * Filter that proxies /rss/* requests based on the 'feed' parameter.
@@ -49,6 +52,13 @@ public class RssFeedFilter implements Filter {
                 return;
             }
             final String result = response.body().string();
+            // make sure we only fetch RSS feeds (to avoid phishing-alike attempts)
+            final SyndFeedInput feedInput = new SyndFeedInput();
+            final SyndFeed feed = feedInput.build(new StringReader(result));
+            if (feed==null || feed.getEntries() == null || feed.getEntries().size() < 1) {
+                r.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                return;
+            }
             final PrintWriter writer = r.getWriter();
             writer.write(result);
             writer.flush();
