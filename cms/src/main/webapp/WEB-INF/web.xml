@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-
-    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
 -->
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -38,6 +36,8 @@
     <filter-name>ConcurrentLogin</filter-name>
     <filter-class>org.hippoecm.frontend.plugins.login.ConcurrentLoginFilter</filter-class>
   </filter>
+
+  <!-- RSS proxying -->
   <filter>
     <filter-name>RssFilter</filter-name>
     <filter-class>com.onehippo.gogreen.filter.RssFeedFilter</filter-class>
