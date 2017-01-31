@@ -13,7 +13,7 @@ $(document).ready(function() {
   $("#RandomEditor").append(randomEditor + " - " + randomEditor);
   $("#RandomAdmin").append(randomAdmin + " - " + randomAdmin);
   fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/events-rss", "events", 1);
-  fetchFeed(path+ "rss/?feed=https://www.onehippo.com/en/news-rss", "news", 1);
+  fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/news-rss", "news", 1);
   fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/blogs-rss", "blogs", 3);
 });
 
