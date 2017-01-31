@@ -3,15 +3,18 @@
  */
 "use strict";
 $(document).ready(function() {
+  var location = window.location;
+  var path  = location.protocol + "//" + location.host + location.pathname;
+  path = path.replace("console/","");
   var randomAuthor = "author" + randomWithZeros(20);
   var randomEditor = "editor" + randomWithZeros(20);
   var randomAdmin = "admin" + randomWithZeros(20);
   $("#RandomAuthor").append(randomAuthor + " - " + randomAuthor);
   $("#RandomEditor").append(randomEditor + " - " + randomEditor);
   $("#RandomAdmin").append(randomAdmin + " - " + randomAdmin);
-  fetchFeed("rss/?feed=https://www.onehippo.com/en/events-rss", "events", 1);
-  fetchFeed("rss/?feed=https://www.onehippo.com/en/news-rss", "news", 1);
-  fetchFeed("rss/?feed=https://www.onehippo.com/en/blogs-rss", "blogs", 3);
+  fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/events-rss", "events", 1);
+  fetchFeed(path+ "rss/?feed=https://www.onehippo.com/en/news-rss", "news", 1);
+  fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/blogs-rss", "blogs", 3);
 });
 
 function randomWithZeros(upperLimit) {
