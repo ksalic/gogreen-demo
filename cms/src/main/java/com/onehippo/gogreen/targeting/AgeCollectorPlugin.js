@@ -1,5 +1,5 @@
 /**
- * Copyright 2011-2013 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2011-2017 Hippo B.V. (http://www.onehippo.com)
  */
 'use strict';
 
@@ -25,7 +25,7 @@ Hippo.Targeting.AgeCollectorPlugin =
                         .call(this, config);
             },
             render: function(value) {
-                if (Ext.isDefined(value)) {
+                if (value != null) {
                     if (Ext.isDefined(value.age))
                         return value.age;
                 }
