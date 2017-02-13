@@ -66,7 +66,9 @@
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
-    <essentials.version>3.0.1</essentials.version>
+    <forge.urlrewriter.version>2.0.2</forge.urlrewriter.version>
+
+    <essentials.version>3.1.0</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.1</taglibs.version>
     <xalan.version>2.7.1</xalan.version>
@@ -78,8 +80,6 @@
 
     <hippo.cms.locales>nl,de,fr,es,en,en-gb,zh</hippo.cms.locales>
 
-    <maven.plugins.filesync.version>1.0.0</maven.plugins.filesync.version>
-
     <lib.geolite2.version>20160405</lib.geolite2.version>
     <lib.httpcore.version>4.4.3</lib.httpcore.version>
     <lib.httcplient.version>4.5.1</lib.httcplient.version>
@@ -88,7 +88,9 @@
     <lib.spring-js.version>2.0.5.RELEASE</lib.spring-js.version>
     <lib.xercesImpl.version>2.9.1</lib.xercesImpl.version>
 
-    <forge.urlrewriter.version>2.0.1</forge.urlrewriter.version>
+    <repo.bootstrap>true</repo.bootstrap>
+    <repo.path>${project.basedir}/storage</repo.path>
+
   </properties>
 
   <repositories>
@@ -247,25 +249,6 @@
 
   <build>
     <defaultGoal>package</defaultGoal>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>com.googlecode.mavenfilesync</groupId>
-          <artifactId>maven-filesync-plugin</artifactId>
-          <version>${maven.plugins.filesync.version}</version>
-          <configuration>
-            <override>${filesync.override}</override>
-          </configuration>
-          <executions>
-            <execution>
-              <goals>
-                <goal>generate</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
-    </pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
@@ -327,8 +310,8 @@
     <profile>
       <id>cargo.run</id>
       <properties>
-        <es.path>${repo.path:${project.basedir}}/elastic.data</es.path>
         <es.bootstrap>true</es.bootstrap>
+        <es.path>${repo.path}/elasticsearch</es.path>
       </properties>
       <dependencies>
         <dependency>
