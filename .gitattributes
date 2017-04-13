@@ -457,6 +457,8 @@ bootstrap/webfiles/src/main/resources/site/freemarker/common/bannercollection/ba
 bootstrap/webfiles/src/main/resources/site/freemarker/common/bannercollection/bannercollection-horizontal3.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/bannercollection/bannercollection-images.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/bannercollection/bannercollection-vertical.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/common/document-highlight.ftl -text
+bootstrap/webfiles/src/main/resources/site/freemarker/common/document-highlight/document-highlight-image.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/images.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/images/images-blue.ftl -text
 bootstrap/webfiles/src/main/resources/site/freemarker/common/images/images-gradient.ftl -text
@@ -696,6 +698,7 @@ site/src/main/java/com/onehippo/gogreen/components/common/BannerParamsInfo.java 
 site/src/main/java/com/onehippo/gogreen/components/common/BaseLayout.java -text
 site/src/main/java/com/onehippo/gogreen/components/common/BaseLayoutParamsInfo.java -text
 site/src/main/java/com/onehippo/gogreen/components/common/Comments.java -text
+site/src/main/java/com/onehippo/gogreen/components/common/DocumentHighlightComponent.java -text
 site/src/main/java/com/onehippo/gogreen/components/common/DocumentList.java -text
 site/src/main/java/com/onehippo/gogreen/components/common/FacetNavigation.java -text
 site/src/main/java/com/onehippo/gogreen/components/common/HtmlParamsInfo.java -text
@@ -812,6 +815,7 @@ site/src/main/resources/com/onehippo/gogreen/components/common/BannerParamsInfo.
 site/src/main/resources/com/onehippo/gogreen/components/common/BannerParamsInfo_fr.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/BannerParamsInfo_nl.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/BaseLayoutParamsInfo.properties -text
+site/src/main/resources/com/onehippo/gogreen/components/common/DocumentHighlightComponent.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/HtmlParamsInfo.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/HtmlParamsInfo_fr.properties -text
 site/src/main/resources/com/onehippo/gogreen/components/common/HtmlParamsInfo_nl.properties -text
