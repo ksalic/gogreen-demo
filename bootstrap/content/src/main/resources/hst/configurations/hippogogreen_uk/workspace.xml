@@ -1571,23 +1571,6 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="API">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:sitemenuitem</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:depth" sv:type="Long">
-          <sv:value>3</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:foldersonly" sv:type="Boolean">
-          <sv:value>true</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-          <sv:value>rest</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:repobased" sv:type="Boolean">
-          <sv:value>true</sv:value>
-        </sv:property>
-      </sv:node>
     </sv:node>
     <sv:node sv:name="servicemenu">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -1599,14 +1582,6 @@
         </sv:property>
         <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
           <sv:value>rss</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="API">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:sitemenuitem</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-          <sv:value>rest</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
