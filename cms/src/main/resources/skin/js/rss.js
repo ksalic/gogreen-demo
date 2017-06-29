@@ -12,9 +12,9 @@ $(document).ready(function() {
   $("#RandomAuthor").append(randomAuthor + " - " + randomAuthor);
   $("#RandomEditor").append(randomEditor + " - " + randomEditor);
   $("#RandomAdmin").append(randomAdmin + " - " + randomAdmin);
-  fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/events-rss", "events", 1);
-  fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/news-rss", "news", 1);
-  fetchFeed(path + "rss/?feed=https://www.onehippo.com/en/blogs-rss", "blogs", 3);
+  fetchFeed(path + "rss/?feed=https://www.bloomreach.com/en/events-rss", "events", 1);
+  fetchFeed(path + "rss/?feed=https://www.bloomreach.com/en/news-rss", "news", 1);
+  fetchFeed(path + "rss/?feed=https://www.bloomreach.com/en/blogs-rss", "blogs", 3);
 });
 
 function randomWithZeros(upperLimit) {
