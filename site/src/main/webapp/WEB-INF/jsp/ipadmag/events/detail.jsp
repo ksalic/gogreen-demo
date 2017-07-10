@@ -82,7 +82,7 @@
 				<aside id="anatomy">
 					<h2>Location</h2>
 					<figure>
-						<c:url var="url" value="http://maps.google.com/?q=${requestScope.document.location.street} ${requestScope.document.location.number}, ${requestScope.document.location.city} ${requestScope.document.location.postalCode} ${requestScope.document.location.province}"/>
+						<c:url var="url" value="https://maps.google.com/?q=${requestScope.document.location.street} ${requestScope.document.location.number}, ${requestScope.document.location.city} ${requestScope.document.location.postalCode} ${requestScope.document.location.province}"/>
 				        <c:if test="${not empty requestScope.document.location}">
 				            <input id="address" type="hidden"
 				                   value="Sofia"/>

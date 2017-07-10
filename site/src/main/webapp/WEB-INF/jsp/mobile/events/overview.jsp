@@ -27,8 +27,8 @@
                         <span class="day"><fmt:formatDate value="${item.date.time}" pattern="dd"/></span>
                     </li>
                     <c:set var="test" value="${fn:escapeXml(item.location.street)}"/>
-                    <c:url var="linkUrl" value="http://maps.google.com/?q=${item.location.street} ${item.location.number}, ${item.location.city} ${item.location.postalCode} ${item.location.province}"/>
-                    <c:url var="imageUrl" value="http://maps.google.com/maps/api/staticmap?zoom=10&size=150x100&maptype=roadmap&markers=color:green|${item.location.street} ${item.location.number}, ${item.location.city} ${item.location.postalCode} ${item.location.province}&sensor=true"/>
+                    <c:url var="linkUrl" value="https://maps.google.com/?q=${item.location.street} ${item.location.number}, ${item.location.city} ${item.location.postalCode} ${item.location.province}"/>
+                    <c:url var="imageUrl" value="https://maps.google.com/maps/api/staticmap?zoom=10&size=150x100&maptype=roadmap&markers=color:green|${item.location.street} ${item.location.number}, ${item.location.city} ${item.location.postalCode} ${item.location.province}&sensor=true"/>
                     <li class="gmaps"><a href="${fn:escapeXml(linkUrl)}">
                         <img src="${fn:escapeXml(imageUrl)}" alt="Google Maps"/>
                     </a></li>
