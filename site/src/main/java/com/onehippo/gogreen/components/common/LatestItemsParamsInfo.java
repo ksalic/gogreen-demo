@@ -3,8 +3,6 @@
  */
 package com.onehippo.gogreen.components.common;
 
-import com.onehippo.gogreen.utils.Constants;
-
 import org.hippoecm.hst.core.parameters.DropDownList;
 import org.hippoecm.hst.core.parameters.FieldGroup;
 import org.hippoecm.hst.core.parameters.FieldGroupList;
