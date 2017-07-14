@@ -1,5 +1,5 @@
 /*
- * Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
  */
 package com.onehippo.gogreen.components.common;
 
@@ -18,7 +18,7 @@ import org.hippoecm.hst.core.parameters.*;
 public interface BannerParamsInfo extends BaseLayoutParamsInfo {
     String PARAM_BANNERLOCATION = "bannerlocation";
 
-    @Parameter(name = PARAM_BANNERLOCATION, required = true, displayName = "Banner")
+    @Parameter(name = PARAM_BANNERLOCATION, required = true)
     @JcrPath(isRelative = true, pickerInitialPath = "common/banners", pickerSelectableNodeTypes = {"hippogogreen:banner"}, pickerConfiguration = "cms-pickers/documents-only")
     String getBannerLocation();
 
