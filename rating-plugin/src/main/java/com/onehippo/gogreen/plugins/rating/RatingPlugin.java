@@ -45,6 +45,7 @@ public class RatingPlugin extends RenderPlugin {
                 String query = "//*[(*/@hippo:docbase = '" + parent.getIdentifier() + "') and (@jcr:primaryType='hippogogreen:review')]";
 
                 QueryManager queryManager = productNode.getSession().getWorkspace().getQueryManager();
+                @SuppressWarnings("deprecated")
                 Query reviewsQuery = queryManager.createQuery(query, Query.XPATH);
 
                 QueryResult queryResult = reviewsQuery.execute();
