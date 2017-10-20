@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
     <artifactId>gogreen-two</artifactId>
-    <version>2.18.0-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
   </parent>
 
   <name>Hippo Go Green 2.0 Site</name>
@@ -217,7 +217,6 @@
       <artifactId>hippo-addon-targeting-demo-data-loader</artifactId>
     </dependency>
 
-
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-maxmind-geolite2</artifactId>
@@ -238,6 +237,7 @@
       </exclusions>
     </dependency>
 
+    <!-- TODO: check if this is (still) necessary. Maybe already part of "hippo-addon-targeting-dependencies-site" dependency? -->
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-targeting-collectors</artifactId>
@@ -284,7 +284,6 @@
     <dependency>
       <groupId>org.onehippo.forge.urlrewriter</groupId>
       <artifactId>urlrewriter-module-hst</artifactId>
-      <version>${forge.urlrewriter.version}</version>
     </dependency>
 
   </dependencies>

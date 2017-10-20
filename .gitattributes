@@ -643,9 +643,7 @@ server-config/prod-server-config/src/main/resources/hst-hst/hst-prod-hosts.xml -
 site-assembly/pom.xml -text
 site-assembly/src/main/resources/com/onehippo/gogreen/custom-jaxrs-resources.xml -text
 site-assembly/src/main/resources/com/onehippo/gogreen/customResourceContainers.xml -text
-site-assembly/src/main/resources/com/onehippo/gogreen/hst-cms-rest.xml -text
 site-assembly/src/main/resources/com/onehippo/gogreen/jndi-repository.xml -text
-site-assembly/src/main/resources/com/onehippo/gogreen/page-composer-rest.xml -text
 site-assembly/src/main/resources/com/onehippo/gogreen/rest-common.xml -text
 site/pom.xml -text
 site/src/main/java/com/onehippo/gogreen/DocumentTypes.java -text
@@ -1786,4 +1784,10 @@ site/src/main/webapp/js/syntaxhighlighter_3.0.83/styles/shThemeRDark.css -text
 site/src/test/java/com/onehippo/gogreen/utils/TestUserAgentUtils.java -text
 site/src/test/resources/log4j.properties -text
 site/src/test/resources/visitor-profiles.json -text
+src/main/assembly/common-lib-component.xml -text
+src/main/assembly/conf-component.xml -text
+src/main/assembly/distribution-with-development-data.xml -text
 src/main/assembly/distribution.xml -text
+src/main/assembly/shared-lib-component.xml -text
+src/main/assembly/shared-lib-development-data-component.xml -text
+src/main/assembly/webapps-component.xml -text
