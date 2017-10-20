@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -247,13 +247,13 @@
     </dependency>
 
     <dependency>
-      <groupId>org.onehippo.forge.urlrewriter</groupId>
-      <artifactId>urlrewriter-module-cms</artifactId>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-urlrewriter-module-cms</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.onehippo.forge.urlrewriter</groupId>
-      <artifactId>urlrewriter-module-repository</artifactId>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-urlrewriter-module-repository</artifactId>
     </dependency>
 
     <dependency>
