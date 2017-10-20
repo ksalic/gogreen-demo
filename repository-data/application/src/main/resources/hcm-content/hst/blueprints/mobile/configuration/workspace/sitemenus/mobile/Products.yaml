@@ -1,0 +1,17 @@
+/hst:hst/hst:blueprints/mobile/hst:configuration/hst:workspace/hst:sitemenus/mobile/Products:
+  .meta:order-before: Events
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: e9be1adf-6f63-4267-9d9e-b6b4d3e59eb0
+  hst:referencesitemapitem: products
+  /Popular:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: f4b56ea8-b990-47db-b9dc-ad7efd569913
+    hst:referencesitemapitem: products/popular
+  /Recent:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: 6d93fa5f-b299-426c-aff9-03dc6a4248c3
+    hst:referencesitemapitem: products/recent
+  /Search:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: 8f0108b0-66e2-47b0-9c37-478b81d1ff60
+    hst:referencesitemapitem: products/search

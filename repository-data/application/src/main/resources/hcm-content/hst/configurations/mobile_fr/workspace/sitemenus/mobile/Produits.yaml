@@ -1,0 +1,17 @@
+/hst:hst/hst:configurations/mobile_fr/hst:workspace/hst:sitemenus/mobile/Produits:
+  .meta:order-before: Évènements
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: bec65841-fc89-494f-b5ea-05690a54f6eb
+  hst:referencesitemapitem: produits
+  /Populaires:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: 9c4d979e-db03-4f23-b17f-cbea36a1ffb6
+    hst:referencesitemapitem: produits/populaires
+  /Récents:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: 9821d8c4-5078-4a63-901a-d68d2cae8d13
+    hst:referencesitemapitem: produits/recents
+  /Recherche:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: bf694bed-5022-4891-857c-0b697c879b84
+    hst:referencesitemapitem: produits/recherche

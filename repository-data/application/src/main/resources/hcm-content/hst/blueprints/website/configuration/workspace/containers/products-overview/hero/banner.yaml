@@ -1,0 +1,18 @@
+/hst:hst/hst:blueprints/website/hst:configuration/hst:workspace/hst:containers/products-overview/hero/banner:
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:uuid: 0ba61100-87b0-48ef-bbf2-57a8cec6f0d4
+  hst:componentclassname: com.onehippo.gogreen.components.common.Banner
+  hst:iconpath: images/catalog/icon-banner.png
+  hst:label: Banner
+  hst:parameternameprefixes: ['@1432041820', '@1432041820', '@1432041820', '@1432041820',
+    '@1432041820', '@1432041820', '@1432041820', '@1432041820', '', '', '', '', '',
+    '', '', '', '']
+  hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide, bannerlocation,
+    icon, separatorMargin, separatorBorderTop, separatorBorderBottom, title, org.hippoecm.hst.core.component.template,
+    bannerBackground, bannerlocation, icon, separatorMargin, bannerIcon, separatorBorderTop,
+    title, separatorBorderBottom, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: ['off', common/banners/heroes/products-2, '', '0', 'off', 'off',
+    '', 'webfile:/freemarker/common/banner/banner-full.ftl', full, common/banners/heroes/products-3,
+    '', '0', '', 'off', '', 'off', 'webfile:/freemarker/common/banner/banner-full.ftl']
+  hst:template: common.banner
+  hst:xtype: HST.Item

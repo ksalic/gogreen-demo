@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/hippogogreen_fr/hst:workspace/hst:containers/homepage/home-main-bottom/bannercollection:
+  .meta:order-before: banner
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.BannerCollection
+  hst:iconpath: images/catalog/icon-banner-carousel.png
+  hst:label: Banner Collection
+  hst:parameternames: [icon, separatorBorderBottom, title, banner4, separatorBorderTop,
+    bannerType, banner1, banner2, separatorMargin, banner3, bannerBackground]
+  hst:parametervalues: [fa-leaf, 'off', Ce que nous défendons, common/banners/bannieres-de-texte/ce-que-nous-defendons-4,
+    'off', vertical, common/banners/bannieres-de-texte/ce-que-nous-defendons-1, common/banners/bannieres-de-texte/ce-que-nous-defendons-2,
+    '0', common/banners/bannieres-de-texte/ce-que-nous-defendons-3, white]
+  hst:template: common.bannercollection
+  hst:xtype: HST.Item

@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/hippogogreen_fr/hst:workspace/hst:containers/homepage/home-main-bottom/bannercollection3:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.BannerCollection
+  hst:iconpath: images/catalog/icon-banner-carousel.png
+  hst:label: Banner Collection
+  hst:parameternames: [separatorBorderBottom, icon, title, banner4, separatorBorderTop,
+    bannerType, banner1, separatorMargin, banner2, banner3, bannerBackground]
+  hst:parametervalues: ['on', '', '', common/banners/bannieres-de-texte/valeur-pour-le-shopping-4,
+    'on', horizontal, common/banners/bannieres-de-texte/valeur-pour-le-shopping-1,
+    '0', common/banners/bannieres-de-texte/valeur-pour-le-shopping-2, common/banners/bannieres-de-texte/valeur-pour-le-shopping-3,
+    gray]
+  hst:template: common.bannercollection
+  hst:xtype: HST.Item

@@ -1,0 +1,18 @@
+/hst:hst/hst:blueprints/website/hst:configuration/hst:workspace/hst:containers/homepage/home-main-right1/map:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.Map
+  hst:iconpath: images/catalog/icon-map.png
+  hst:label: Google Map
+  hst:parameternameprefixes: ['@1430094340$["and",{"city":"boston-1422871681988"}]',
+    '@1430094340$["and",{"city":"boston-1422871681988"}]', '@1430094340$["and",{"city":"boston-1422871681988"}]',
+    '@1430094340$["and",{"city":"boston-1422871681988"}]', '@1430094361$["and",{"city":"london-1422871767661"}]',
+    '@1430094361$["and",{"city":"london-1422871767661"}]', '@1430094361$["and",{"city":"london-1422871767661"}]',
+    '@1430094361$["and",{"city":"london-1422871767661"}]', '', '']
+  hst:parameternames: [address, zoomlevel, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    org.hippoecm.hst.core.component.template, address, zoomlevel, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    org.hippoecm.hst.core.component.template, address, zoomlevel]
+  hst:parametervalues: ['745, Atlantic Avenue, Boston', '11', 'off', 'webfile:/freemarker/common/map.ftl',
+    '80, Strand, London', '11', 'off', 'webfile:/freemarker/common/map.ftl', '11,
+      Oosteinde, Amsterdam', '11']
+  hst:template: common.map
+  hst:xtype: HST.Item

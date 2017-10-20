@@ -1,0 +1,19 @@
+/hst:hst/hst:blueprints/website/hst:configuration/hst:workspace/hst:containers/homepage/home-main-bottom/banner:
+  .meta:order-before: bannercollection3
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.Banner
+  hst:iconpath: images/catalog/icon-banner.png
+  hst:label: Banner
+  hst:parameternameprefixes: [student@1430093718, student@1430093718, student@1430093718,
+    student@1430093718, student@1430093718, student@1430093718, student@1430093718,
+    student@1430093718, '', '', '', '', '', '', '', '', '', '']
+  hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide, bannerlocation,
+    icon, separatorMargin, separatorBorderTop, separatorBorderBottom, title, org.hippoecm.hst.core.component.template,
+    bannerBackground, com.onehippo.cms7.targeting.TargetingParameterUtil.hide, bannerlocation,
+    icon, separatorMargin, bannerIcon, separatorBorderTop, title, separatorBorderBottom,
+    org.hippoecm.hst.core.component.template]
+  hst:parametervalues: ['off', common/banners/laptop-sleeve, '', '0', 'off', 'off',
+    '', 'webfile:/freemarker/common/banner/banner-blue.ftl', blue, 'off', common/banners/solar-panel-product,
+    '', '0', '', 'off', '', 'off', 'webfile:/freemarker/common/banner/banner-blue.ftl']
+  hst:template: common.banner
+  hst:xtype: HST.Item

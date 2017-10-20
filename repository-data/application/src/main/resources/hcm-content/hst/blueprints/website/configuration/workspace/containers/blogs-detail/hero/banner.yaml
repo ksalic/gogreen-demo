@@ -1,0 +1,11 @@
+/hst:hst/hst:blueprints/website/hst:configuration/hst:workspace/hst:containers/blogs-detail/hero/banner:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.Banner
+  hst:iconpath: images/catalog/icon-banner.png
+  hst:label: Banner
+  hst:parameternames: [bannerlocation, bannerBackground, bannerIcon, title, icon,
+    separatorBorderBottom, separatorBorderTop, separatorMargin, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: [common/banners/heroes/blogs-1, full, '', '', '', 'off', 'off',
+    '0', 'webfile:/freemarker/common/banner/banner-full.ftl']
+  hst:template: common.banner
+  hst:xtype: HST.Item

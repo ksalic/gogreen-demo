@@ -1,0 +1,11 @@
+/hst:hst/hst:configurations/hippogogreen_zh/hst:workspace/hst:containers/events-detail/hero/banner:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.Banner
+  hst:iconpath: images/catalog/icon-banner.png
+  hst:label: Banner
+  hst:parameternames: [bannerlocation, bannerBackground, bannerIcon, title, icon,
+    separatorBorderBottom, separatorBorderTop, separatorMargin]
+  hst:parametervalues: [common/banners/heroes/events-1, full, '', '', '', 'off', 'off',
+    '0']
+  hst:template: common.banner
+  hst:xtype: HST.Item

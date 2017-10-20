@@ -1,0 +1,12 @@
+/hst:hst/hst:configurations/hippogogreen_zh/hst:workspace/hst:containers/homepage/home-main-left1/bannercollection:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.BannerCollection
+  hst:iconpath: images/catalog/component-banner-collection-30x30.png
+  hst:label: Banner Collection
+  hst:parameternames: [separatorBorderBottom, icon, title, banner4, separatorBorderTop,
+    bannerType, banner1, banner2, separatorMargin, banner3, bannerBackground]
+  hst:parametervalues: ['off', fa-shopping-cart, 销售类, '', 'off', images, common/banners/image-banners/home-category,
+    common/banners/image-banners/office-category, '20', common/banners/image-banners/sports-category,
+    white]
+  hst:template: common.bannercollection
+  hst:xtype: HST.Item

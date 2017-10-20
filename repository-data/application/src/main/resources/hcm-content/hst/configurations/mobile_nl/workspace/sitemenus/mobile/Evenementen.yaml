@@ -1,0 +1,16 @@
+/hst:hst/hst:configurations/mobile_nl/hst:workspace/hst:sitemenus/mobile/Evenementen:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: ec08ac53-4411-4948-ad7a-3e15e3f183c8
+  hst:referencesitemapitem: evenementen
+  /Aankomende:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: c4dfee7d-193b-4769-920f-89d6ea8ba523
+    hst:referencesitemapitem: evenementen/upcoming
+  /Verleden:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: c6880d3b-efcd-4123-bb21-b3fefd40d21b
+    hst:referencesitemapitem: evenementen/verleden
+  /Zoek:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: 9c6fd419-4582-4b97-8f90-c3fe8c29fd01
+    hst:referencesitemapitem: evenementen/zoek

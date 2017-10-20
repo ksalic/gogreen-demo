@@ -1,0 +1,17 @@
+/hst:hst/hst:configurations/mobile_nl/hst:workspace/hst:sitemenus/mobile/Producten:
+  .meta:order-before: Evenementen
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: d4406b84-bd73-49b7-a6ed-2e0527f76de0
+  hst:referencesitemapitem: producten
+  /Populair:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: 35b2be63-17bf-446f-8a19-9e7975fee765
+    hst:referencesitemapitem: producten/populair
+  /Recent:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: e29cc93e-7145-4353-9501-c89eb4560367
+    hst:referencesitemapitem: producten/recent
+  /Zoek:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: abb7d32a-6b34-4ec6-862e-bae1f598c9a5
+    hst:referencesitemapitem: producten/zoek

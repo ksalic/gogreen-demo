@@ -1,0 +1,16 @@
+/hst:hst/hst:blueprints/mobile/hst:configuration/hst:workspace/hst:sitemenus/mobile/Events:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: f3861e1d-00ca-478a-bed5-00140a9f21f2
+  hst:referencesitemapitem: events
+  /Upcoming:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: 8742ce9d-49d3-4102-ae9f-83a1f8f9d9a0
+    hst:referencesitemapitem: events/upcoming
+  /Past:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: f5b12d60-d4c5-4b59-b099-7c74685cb055
+    hst:referencesitemapitem: events/past
+  /Search:
+    jcr:primaryType: hst:sitemenuitem
+    jcr:uuid: a885576b-b48e-45ed-af8d-cccf27ef1f81
+    hst:referencesitemapitem: events/search

@@ -1,0 +1,84 @@
+/hst:hst/hst:configurations/hippogogreen/hst:workspace/hst:pages/sale-vari-column:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2015-01-21T09:07:15.548-05:00
+  hst:referencecomponent: hst:abstractpages/defaultpage
+  /main:
+    jcr:primaryType: hst:component
+    hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+    hst:template: prototypedpages.vari-column
+    /left2:
+      jcr:primaryType: hst:containercomponent
+      hst:lastmodified: 2015-01-21T13:37:24.459-05:00
+      hst:xtype: HST.vBox
+    /right2:
+      jcr:primaryType: hst:containercomponent
+      hst:lastmodified: 2015-01-21T13:37:24.459-05:00
+      hst:xtype: HST.vBox
+    /bottom:
+      jcr:primaryType: hst:containercomponent
+      hst:lastmodified: 2015-01-21T13:37:24.459-05:00
+      hst:xtype: HST.vBox
+    /left1:
+      jcr:primaryType: hst:containercomponent
+      hst:lastmodified: 2015-02-02T10:39:50.174+01:00
+      hst:xtype: HST.vBox
+      /bannercollection:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: com.onehippo.gogreen.components.common.BannerCollection
+        hst:iconpath: images/catalog/component-banner-collection-30x30.png
+        hst:label: Banner Collection
+        hst:parameternames: [separatorBorderBottom, icon, title, banner4, separatorBorderTop,
+          bannerType, banner1, banner2, separatorMargin, banner3, bannerBackground]
+        hst:parametervalues: ['off', fa-shopping-cart, Gogreen, '', 'off', images,
+          common/banners/image-banners/home-category, common/banners/image-banners/office-category,
+          '20', common/banners/image-banners/sports-category, white]
+        hst:template: common.bannercollection
+        hst:xtype: HST.Item
+      /featuredproducts:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: com.onehippo.gogreen.components.products.FeaturedProducts
+        hst:iconpath: images/catalog/component-products-30x30.png
+        hst:label: Featured Products
+        hst:parameternames: [product2, icon, separatorMargin, product1, separatorBorderTop,
+          separatorBorderBottom, title, product4, product3]
+        hst:parametervalues: [products/gadgets/external-laptop-charger, fa-shopping-cart,
+          '20', products/gadgets/lifeproof-nuud-ipad-air-case, 'off', 'off', Products
+            on sale, products/general/goal-zero-guide-10-plus-solar-recharging-kit,
+          products/outdoors/lowepro-terraclime-50]
+        hst:template: products.featured
+        hst:xtype: HST.Item
+    /top:
+      jcr:primaryType: hst:containercomponent
+      hst:lastmodified: 2015-02-02T11:05:03.622+01:00
+      hst:xtype: HST.vBox
+      /richtextsnippet:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: com.onehippo.gogreen.components.common.RichTextSnippet
+        hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+        hst:label: Rich-text Snippet
+        hst:parameternames: [bannerlocation]
+        hst:parametervalues: [common/rich-text-snippets/season-sale]
+        hst:template: common.richtextsnippet
+        hst:xtype: HST.Item
+    /right1:
+      jcr:primaryType: hst:containercomponent
+      hst:lastmodified: 2015-02-02T11:10:49.592+01:00
+      hst:xtype: HST.vBox
+      /richtextsnippet1:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: com.onehippo.gogreen.components.common.RichTextSnippet
+        hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+        hst:label: Rich-text Snippet
+        hst:parameternames: [bannerlocation]
+        hst:parametervalues: [common/rich-text-snippets/store-locator]
+        hst:template: common.richtextsnippet
+        hst:xtype: HST.Item
+      /map:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: com.onehippo.gogreen.components.common.Map
+        hst:iconpath: images/catalog/icon-map.png
+        hst:label: Google Map
+        hst:parameternames: [address, zoomlevel]
+        hst:parametervalues: ['11, Oosteinde, Amsterdam', '11']
+        hst:template: common.map
+        hst:xtype: HST.Item

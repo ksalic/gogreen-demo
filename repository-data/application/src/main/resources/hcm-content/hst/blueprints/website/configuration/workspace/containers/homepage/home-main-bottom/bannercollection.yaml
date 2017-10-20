@@ -1,0 +1,15 @@
+/hst:hst/hst:blueprints/website/hst:configuration/hst:workspace/hst:containers/homepage/home-main-bottom/bannercollection:
+  .meta:order-before: banner
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.BannerCollection
+  hst:iconpath: images/catalog/icon-banner-carousel.png
+  hst:label: Banner Collection
+  hst:parameternames: [banner4, bannerType, icon, separatorMargin, banner2, title,
+    separatorBorderBottom, banner3, banner1, bannerBackground, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+    separatorBorderTop, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: [common/banners/text-banners/what-we-stand-for-4, vertical,
+    fa-leaf, '0', common/banners/text-banners/what-we-stand-for-2, What we stand for,
+    'off', common/banners/text-banners/what-we-stand-for-3, common/banners/text-banners/what-we-stand-for-1,
+    white, 'off', 'off', 'webfile:/freemarker/common/bannercollection/bannercollection-vertical.ftl']
+  hst:template: common.bannercollection
+  hst:xtype: HST.Item

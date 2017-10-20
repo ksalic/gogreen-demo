@@ -1,0 +1,9 @@
+/hst:hst/hst:configurations/hippogogreen_nl/hst:workspace/hst:containers/homepage/home-bottom/latestevents:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.LatestItems
+  hst:parameternames: [tags, limit, separatorBorderBottom, icon, title, scope, nodetype,
+    orderBy, separatorBorderTop, sortOrder, constraint, separatorMargin]
+  hst:parametervalues: ['', '4', 'off', 'null', Aanstaande evenementen, events, 'hippogogreen:event',
+    'hippogogreen:enddate', 'off', ascending, upcoming, '0']
+  hst:template: common.latest
+  hst:xtype: HST.Item

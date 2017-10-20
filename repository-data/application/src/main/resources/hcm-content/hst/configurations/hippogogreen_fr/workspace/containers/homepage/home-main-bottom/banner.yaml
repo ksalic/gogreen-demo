@@ -1,0 +1,12 @@
+/hst:hst/hst:configurations/hippogogreen_fr/hst:workspace/hst:containers/homepage/home-main-bottom/banner:
+  .meta:order-before: bannercollection3
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: com.onehippo.gogreen.components.common.Banner
+  hst:iconpath: images/catalog/icon-banner.png
+  hst:label: Banner
+  hst:parameternames: [separatorBorderBottom, icon, title, separatorBorderTop, separatorMargin,
+    bannerlocation, bannerBackground, bannerIcon]
+  hst:parametervalues: ['off', '', '', 'on', '50', common/banners/produit-de-panneau-solaire,
+    blue, '']
+  hst:template: common.banner
+  hst:xtype: HST.Item

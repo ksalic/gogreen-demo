@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/mobile_de/hst:workspace/hst:sitemenus/mobile/Produkte:
+  .meta:order-before: Veranstaltungen
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: produkte
+  /Beliebt:
+    jcr:primaryType: hst:sitemenuitem
+    hst:referencesitemapitem: produkte/beliebt
+  /Letzte:
+    jcr:primaryType: hst:sitemenuitem
+    hst:referencesitemapitem: produkte/letzte
+  /Suchen:
+    jcr:primaryType: hst:sitemenuitem
+    hst:referencesitemapitem: produkte/suchen
