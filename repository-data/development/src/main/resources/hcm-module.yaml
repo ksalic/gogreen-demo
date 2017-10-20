@@ -1,0 +1,7 @@
+group: 
+  name: gogreen-project
+  after: [hippo-cms, hippo-forge]
+project: gogreen-two
+module: 
+  name: gogreen-two-repository-data-development
+  after: gogreen-two-repository-data-application
