@@ -1,0 +1,30 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_nl/hst:workspace:
+      jcr:primaryType: hst:workspace
+      /hst:containers:
+        jcr:primaryType: hst:containercomponentfolder
+        /mobile-products-overview-popular:
+          jcr:primaryType: hst:containercomponentfolder
+          /boxes-top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.UnorderedList
+        /mobile-products-overview-recent:
+          jcr:primaryType: hst:containercomponentfolder
+          /boxes-top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.UnorderedList
+        /mobile-events-overview-upcoming:
+          jcr:primaryType: hst:containercomponentfolder
+          /boxes-top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.UnorderedList
+        /mobile-events-overview-past:
+          jcr:primaryType: hst:containercomponentfolder
+          /boxes-top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.UnorderedList

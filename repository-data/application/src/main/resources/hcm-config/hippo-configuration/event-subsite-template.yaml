@@ -1,0 +1,179 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-subsite/hippostd:templates/event-subsite:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:translated', 'mix:referenceable', 'hippogogreen:deletecontentwithchannel']
+      hippostd:foldertype: [new-subsite-folder]
+      /hippo:translation:
+        jcr:primaryType: hippo:translation
+        hippo:language: ''
+        hippo:message: Event Blueprint
+      /pages:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippo:translated', 'mix:referenceable']
+        hippostd:foldertype: [new-subsite-folder, new-subsite-document]
+        /hippo:translation:
+          jcr:primaryType: hippo:translation
+          hippo:language: ''
+          hippo:message: Pages
+        /home:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+          /hippo:translation:
+            jcr:primaryType: hippo:translation
+            hippo:language: ''
+            hippo:message: Home
+          /home:
+            jcr:primaryType: hippogogreen:simpledocument
+            jcr:mixinTypes: ['mix:referenceable']
+            hippo:availability: [live, preview]
+            hippogogreen:summary: ''
+            hippogogreen:title: Welcome
+            hippostd:holder: acahn-admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: acahn-admin
+            hippostdpubwf:creationDate: 2011-10-18T15:19:00+02:00
+            hippostdpubwf:lastModificationDate: 2011-10-18T15:20:00+02:00
+            hippostdpubwf:lastModifiedBy: acahn-admin
+            hippostdpubwf:publicationDate: 2011-10-18T15:34:00+02:00
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <html><body></body></html>
+        /about:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+          /hippo:translation:
+            jcr:primaryType: hippo:translation
+            hippo:language: ''
+            hippo:message: About
+          /about:
+            jcr:primaryType: hippogogreen:simpledocument
+            jcr:mixinTypes: ['mix:referenceable']
+            hippo:availability: [live, preview]
+            hippogogreen:summary: ''
+            hippogogreen:title: About
+            hippostd:holder: acahn-admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: acahn-admin
+            hippostdpubwf:creationDate: 2011-10-18T15:20:00+02:00
+            hippostdpubwf:lastModificationDate: 2011-10-18T15:20:00+02:00
+            hippostdpubwf:lastModifiedBy: acahn-admin
+            hippostdpubwf:publicationDate: 2011-10-18T15:34:00+02:00
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <html><body></body></html>
+        /programme:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+          /hippo:translation:
+            jcr:primaryType: hippo:translation
+            hippo:language: ''
+            hippo:message: Programme
+          /programme:
+            jcr:primaryType: hippogogreen:simpledocument
+            jcr:mixinTypes: ['mix:referenceable']
+            hippo:availability: [live, preview]
+            hippogogreen:summary: ''
+            hippogogreen:title: Programme
+            hippostd:holder: acahn-admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: acahn-admin
+            hippostdpubwf:creationDate: 2011-10-18T15:20:00+02:00
+            hippostdpubwf:lastModificationDate: 2011-10-18T15:21:00+02:00
+            hippostdpubwf:lastModifiedBy: acahn-admin
+            hippostdpubwf:publicationDate: 2011-10-18T15:34:00+02:00
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: <html><body></body></html>
+      /common:
+        jcr:primaryType: hippostd:folder
+        /banners:
+          jcr:primaryType: hippostd:folder
+          /heroes:
+            jcr:primaryType: hippostd:folder
+            /hippo:translation:
+              jcr:primaryType: hippo:translation
+              hippo:language: ''
+              hippo:message: Heroes
+            /blogs-1:
+              jcr:primaryType: hippo:handle
+              jcr:mixinTypes: ['mix:referenceable']
+              /blogs-1[1]:
+                jcr:primaryType: hippogogreen:banner
+                jcr:mixinTypes: ['mix:referenceable', 'hippotranslation:translated']
+                hippo:availability: []
+                hippogogreen:bannertext: ''
+                hippogogreen:icon: ''
+                hippogogreen:title: Blogs
+                hippostd:state: draft
+                hippostdpubwf:createdBy: admin
+                hippostdpubwf:creationDate: 2014-08-28T16:50:40.530+02:00
+                hippostdpubwf:lastModificationDate: 2014-08-28T16:50:40.580+02:00
+                hippostdpubwf:lastModifiedBy: admin
+                hippotranslation:id: fd52b1a3-d41e-4291-a958-8c999c3c7a13
+                hippotranslation:locale: en
+                /hippogogreen:image:
+                  jcr:primaryType: hippogallerypicker:imagelink
+                  hippo:docbase: bd62a4b9-8c13-49d7-aefd-f4269ddfbff3
+                  hippo:facets: []
+                  hippo:modes: []
+                  hippo:values: []
+                /hippogogreen:doclink:
+                  jcr:primaryType: hippo:mirror
+                  hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              /blogs-1[2]:
+                jcr:primaryType: hippogogreen:banner
+                jcr:mixinTypes: ['mix:referenceable', 'hippotranslation:translated',
+                  'mix:versionable']
+                hippo:availability: [preview]
+                hippogogreen:bannertext: ''
+                hippogogreen:icon: ''
+                hippogogreen:title: Blogs
+                hippostd:state: unpublished
+                hippostdpubwf:createdBy: admin
+                hippostdpubwf:creationDate: 2014-08-28T16:50:40.530+02:00
+                hippostdpubwf:lastModificationDate: 2014-08-28T16:50:48.314+02:00
+                hippostdpubwf:lastModifiedBy: admin
+                hippotranslation:id: a0e1fcc1-5e6e-4da5-b9e8-c05ed6cd8233
+                hippotranslation:locale: en
+                /hippogogreen:image:
+                  jcr:primaryType: hippogallerypicker:imagelink
+                  hippo:docbase: bd62a4b9-8c13-49d7-aefd-f4269ddfbff3
+                  hippo:facets: []
+                  hippo:modes: []
+                  hippo:values: []
+                /hippogogreen:doclink:
+                  jcr:primaryType: hippo:mirror
+                  hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              /blogs-1[3]:
+                jcr:primaryType: hippogogreen:banner
+                jcr:mixinTypes: ['mix:referenceable', 'hippotranslation:translated']
+                hippo:availability: [live]
+                hippogogreen:bannertext: ''
+                hippogogreen:icon: ''
+                hippogogreen:title: Blogs
+                hippostd:state: published
+                hippostdpubwf:createdBy: admin
+                hippostdpubwf:creationDate: 2014-08-28T16:50:40.530+02:00
+                hippostdpubwf:lastModificationDate: 2014-08-28T16:50:48.314+02:00
+                hippostdpubwf:lastModifiedBy: admin
+                hippostdpubwf:publicationDate: 2014-08-28T16:50:49.822+02:00
+                hippotranslation:id: 62d2af40-765c-4fbf-ab85-4fa94e7d5779
+                hippotranslation:locale: en
+                /hippogogreen:image:
+                  jcr:primaryType: hippogallerypicker:imagelink
+                  hippo:docbase: bd62a4b9-8c13-49d7-aefd-f4269ddfbff3
+                  hippo:facets: []
+                  hippo:modes: []
+                  hippo:values: []
+                /hippogogreen:doclink:
+                  jcr:primaryType: hippo:mirror
+                  hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /hippo:translation:
+            jcr:primaryType: hippo:translation
+            hippo:language: ''
+            hippo:message: Banners
+        /hippo:translation:
+          jcr:primaryType: hippo:translation
+          hippo:language: ''
+          hippo:message: Common

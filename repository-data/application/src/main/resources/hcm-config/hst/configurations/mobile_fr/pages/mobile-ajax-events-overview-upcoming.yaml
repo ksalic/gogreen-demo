@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_fr/hst:pages/mobile-ajax-events-overview-upcoming:
+      jcr:primaryType: hst:component
+      jcr:uuid: 1fd263e6-0016-4a90-b13c-eb0c4cfe7535
+      hst:parameternames: [sortOrder]
+      hst:parametervalues: [ascending]
+      hst:referencecomponent: hst:components/mobile.events.overview
+      hst:template: mobile.ajax.events.overview

@@ -1,0 +1,156 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippogogreen_de/hst:workspace:
+      jcr:primaryType: hst:workspace
+      /hst:containers:
+        jcr:primaryType: hst:containercomponentfolder
+        /standardpage:
+          jcr:primaryType: hst:containercomponentfolder
+        /homepage:
+          jcr:primaryType: hst:containercomponentfolder
+          /home-top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-08T14:36:09.897+02:00
+            hst:xtype: HST.vBox
+          /home-bottom:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-09-19T16:33:59.235+02:00
+            hst:xtype: HST.vBox
+          /home-main-bottom:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-09-19T16:39:12.931+02:00
+            hst:xtype: HST.vBox
+          /home-main-left1:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2015-02-02T10:39:50.174+01:00
+            hst:xtype: HST.vBox
+          /home-main-left2:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2015-02-02T10:39:50.174+01:00
+            hst:xtype: HST.vBox
+          /home-main-right2:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2015-02-02T11:10:49.592+01:00
+            hst:xtype: HST.vBox
+          /home-main-top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2015-03-04T15:00:30.914+01:00
+            hst:xtype: HST.vBox
+          /home-main-right1:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2015-03-04T15:00:30.914+01:00
+            hst:xtype: HST.vBox
+        /news-overview:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /news-detail:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /events-overview:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /events-detail:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /blogs-overview:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-28T11:35:07.233+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /blogs-detail:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-28T11:35:07.233+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /products-overview:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /products-detail:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+        /about:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+        /search:
+          jcr:primaryType: hst:containercomponentfolder
+          /hero:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+            hst:xtype: HST.vBox
+          /boxes-right:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox

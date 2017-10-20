@@ -1,0 +1,105 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /gogreen-catalog-items:
+        jcr:primaryType: hst:containeritempackage
+        /bannercollection:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.BannerCollection
+          hst:iconpath: images/catalog/component-banner-collection-30x30.png
+          hst:label: Banner Collection
+          hst:parameternames: [bannerType]
+          hst:parametervalues: [horizontal]
+          hst:template: common.bannercollection
+          hst:xtype: HST.Item
+        /bannercarousel:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.BannerCarousel
+          hst:iconpath: images/catalog/component-carousel-30x30.png
+          hst:label: Banner Carousel
+          hst:template: common.bannercarousel
+          hst:xtype: HST.Item
+        /latestblogs:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.LatestItems
+          hst:iconpath: images/catalog/component-blogs-30x30.png
+          hst:label: Latest Blogs
+          hst:parameternames: [scope, nodetype, limit, orderBy, sortOrder]
+          hst:parametervalues: [blogs, 'hippogogreen:blogitem', '4', 'hippogogreen:date',
+            descending]
+          hst:template: blogs.latest
+          hst:xtype: HST.Item
+        /latestevents:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.LatestItems
+          hst:iconpath: images/catalog/component-events-30x30.png
+          hst:label: Latest Events
+          hst:parameternames: [scope, orderBy, nodetype, limit, constraint, sortOrder]
+          hst:parametervalues: [events, 'hippogogreen:enddate', 'hippogogreen:event',
+            '4', upcoming, ascending]
+          hst:template: common.latest
+          hst:xtype: HST.Item
+        /featuredproducts:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.products.FeaturedProducts
+          hst:iconpath: images/catalog/component-products-30x30.png
+          hst:label: Featured Products
+          hst:template: products.featured
+          hst:xtype: HST.Item
+        /video:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.Video
+          hst:iconpath: images/catalog/component-video-30x30.png
+          hst:label: Video
+          hst:parameternames: [videoURL]
+          hst:parametervalues: ['']
+          hst:template: common.video
+          hst:xtype: HST.Item
+        /feed:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:async: true
+          hst:componentclassname: com.onehippo.gogreen.components.Feed
+          hst:iconpath: images/catalog/component-rss-30x30.png
+          hst:label: RSS Feed
+          hst:parameternames: [numberOfItems, updateInterval, title, icon, feedURL,
+            connectTimeout, readTimeout]
+          hst:parametervalues: ['3', '15', RSS Feed, fa-rss, 'https://www.bloomreach.com/en/news-rss/',
+            '2000', '5000']
+          hst:template: common.feed
+          hst:xtype: HST.Item
+        /richtextsnippet:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.RichTextSnippet
+          hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+          hst:label: Rich-text Snippet
+          hst:template: common.richtextsnippet
+          hst:xtype: HST.Item
+        /documenthighlight:
+          jcr:primaryType: hst:containeritemcomponent
+          jcr:uuid: b2a9af37-983f-4c36-af1e-88b1047ccb00
+          hst:componentclassname: com.onehippo.gogreen.components.common.DocumentHighlightComponent
+          hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+          hst:label: Document Highlight
+          hst:template: common.documenthighlight
+          hst:xtype: HST.Item
+        /map:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.Map
+          hst:iconpath: images/catalog/icon-map.png
+          hst:label: Google Map
+          hst:parameternames: [address]
+          hst:parametervalues: ['11, Oosteinde, Amsterdam']
+          hst:template: common.map
+          hst:xtype: HST.Item
+      /gogreen-and-mobile-catalog-items:
+        jcr:primaryType: hst:containeritempackage
+        /banner:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.Banner
+          hst:iconpath: images/catalog/component-banner-30x30.png
+          hst:label: Banner
+          hst:parameternames: [bannerlocation]
+          hst:parametervalues: ['']
+          hst:template: common.banner
+          hst:xtype: hst.item

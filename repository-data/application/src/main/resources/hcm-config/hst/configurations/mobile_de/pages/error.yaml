@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_de/hst:pages/error:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.ErrorComponent
+        hst:template: mobile.error

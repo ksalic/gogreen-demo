@@ -1,0 +1,29 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-dashshortcuts/newBlogShortcut:
+      jcr:primaryType: frontend:plugin
+      baseFolder: /content/documents/hippogogreen/blogs
+      browser.id: service.browse
+      classificationType: date
+      documentType: hippogogreen:blogitem
+      plugin.class: org.onehippo.forge.dashboard.documentwizard.NewDocumentWizardPlugin
+      wicket.id: shortcut
+      workaround: 7
+      /nl:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Maak een blog document
+      /en:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Create a blog document
+      /fr:
+        jcr:primaryType: frontend:pluginconfig
+        list-label: Catégorie
+        name-label: Nom
+        shortcut-link-label: Ajouter un blog
+      /it:
+        jcr:primaryType: frontend:pluginconfig
+        name-label: Nome
+        shortcut-link-label: Creare un blog
+      /de:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Erstelle ein Blog Dokument

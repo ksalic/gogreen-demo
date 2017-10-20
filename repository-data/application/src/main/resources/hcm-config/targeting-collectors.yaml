@@ -1,0 +1,33 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:collectors:
+      /referrer:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.cms7.targeting.collectors.ReferrerCollector
+      /returningvisitor:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.cms7.targeting.collectors.ReturningVisitorCollector
+      /weather:
+        jcr:primaryType: targeting:collector
+        enabled: false
+        targeting:className: com.onehippo.gogreen.targeting.WeatherCollector
+        wwoApiKey: 588d05a7a76dbfb156158d7595987
+      /dayofweek:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.cms7.targeting.collectors.DayOfWeekCollector
+      /groups:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.cms7.targeting.collectors.GroupsCollector
+      /documenttypes:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.cms7.targeting.collectors.DocumentTypesCollector
+      /categories:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.cms7.targeting.collectors.TagsCollector
+        targeting:termsProperty: hippogogreen:categories
+      /agevisitor:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.gogreen.targeting.RemoteVisitorAgeCollector
+      /devicetype:
+        jcr:primaryType: targeting:collector
+        targeting:className: com.onehippo.gogreen.targeting.DeviceTypeCollector

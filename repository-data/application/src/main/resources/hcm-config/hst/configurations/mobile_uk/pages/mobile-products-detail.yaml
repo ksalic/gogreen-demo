@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_uk/hst:pages/mobile-products-detail:
+      jcr:primaryType: hst:component
+      jcr:uuid: 4c4df22a-a345-4f20-a038-353c99ffd323
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        jcr:uuid: 37af406f-8e23-4216-a893-e97c10974cd8
+        hst:componentclassname: com.onehippo.gogreen.components.products.ProductDetail
+        hst:template: mobile.products.detail

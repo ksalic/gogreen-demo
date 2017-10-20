@@ -1,0 +1,30 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:components:
+      jcr:primaryType: hst:components
+      /relateddocuments:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.RelatedDocuments
+        hst:template: common.relateddocuments
+      /tagcloud:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.forge.tcmp.hst.TagCloudComponent
+        hst:template: common.tagcloud
+      /comments:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.common.Comments
+        hst:template: common.comments
+      /footermenu:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.common.SiteMenu
+        hst:template: standard.footer.menu
+      /rss-news:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.common.LatestItems
+        hst:parameternames: [scope, limit, orderBy, sortOrder]
+        hst:parametervalues: ['${scope}', '10', 'hippogogreen:date', descending]
+        hst:template: rss.news
+      /facetnav:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.common.FacetNavigation
+        hst:template: standard.main.right.facetnav

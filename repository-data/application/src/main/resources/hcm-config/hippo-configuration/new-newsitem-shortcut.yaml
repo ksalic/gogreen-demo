@@ -1,0 +1,29 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-dashshortcuts/newNewsItemShortcut:
+      jcr:primaryType: frontend:plugin
+      baseFolder: /content/documents/hippogogreen/news
+      browser.id: service.browse
+      classificationType: date
+      documentType: hippogogreen:newsitem
+      plugin.class: org.onehippo.forge.dashboard.documentwizard.NewDocumentWizardPlugin
+      query: new-news-viawizard
+      wicket.id: shortcut
+      workaround: 5
+      /nl:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Maak een nieuwsdocument aan
+      /en:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Create a news document
+      /fr:
+        jcr:primaryType: frontend:pluginconfig
+        name-label: Nom
+        shortcut-link-label: Ajouter une actualité
+      /it:
+        jcr:primaryType: frontend:pluginconfig
+        name-label: Nome
+        shortcut-link-label: Creare una notizia
+      /de:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Erstelle ein News Dokument

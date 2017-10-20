@@ -1,0 +1,83 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-mobile/hst:templates:
+      jcr:primaryType: hst:templates
+      /layout.mobilepage:
+        jcr:primaryType: hst:template
+        hst:containers: [header, body, footer]
+        hst:renderpath: jsp/layout/mobile.jsp
+      /mobile.standard.header:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/standard/header.jsp
+      /mobile.standard.footer:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/standard/footer.jsp
+      /mobile.standard.langnavigation:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/standard/langnavigation.jsp
+      /mobile.standard.logo:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/standard/logo.jsp
+      /mobile.products.overview:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/products/overview.jsp
+      /mobile.ajax.products.overview:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/products/overview-ajax.jsp
+      /mobile.ajax.events.overview:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/events/ajax-overview.jsp
+      /mobile.products.detail:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/products/detail.jsp
+      /mobile.events.overview:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/events/overview.jsp
+      /mobile.events.detail:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/events/detail.jsp
+      /mobile.products.search:
+        jcr:primaryType: hst:template
+        hst:containers: [facets, results]
+        hst:renderpath: jsp/mobile/products/search.jsp
+      /mobile.products.search.facets:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/products/search-facets.jsp
+      /mobile.products.search.results:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/products/search-results.jsp
+      /mobile.events.search:
+        jcr:primaryType: hst:template
+        hst:containers: [facets, results]
+        hst:renderpath: jsp/mobile/events/search.jsp
+      /mobile.events.search.facets:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/events/search-facets.jsp
+      /mobile.events.search.results:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/events/search-results.jsp
+      /events.layar:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/events/layar.jsp
+      /mobile.error:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/mobile/standard/error.jsp
+      /common.richtextsnippet:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/common/richtextsnippet.ftl

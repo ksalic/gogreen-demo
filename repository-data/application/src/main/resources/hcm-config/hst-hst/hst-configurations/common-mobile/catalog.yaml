@@ -1,0 +1,24 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-mobile/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /gogreen-catalog-items:
+        jcr:primaryType: hst:containeritempackage
+        /richtextsnippet:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.RichTextSnippet
+          hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+          hst:label: Rich-text Snippet
+          hst:template: common.richtextsnippet
+          hst:xtype: HST.Item
+      /gogreen-and-mobile-catalog-items:
+        jcr:primaryType: hst:containeritempackage
+        /banner:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: com.onehippo.gogreen.components.common.Banner
+          hst:iconpath: images/catalog/component-banner-30x30.png
+          hst:label: Banner
+          hst:parameternames: [bannerlocation]
+          hst:parametervalues: ['']
+          hst:template: common.banner
+          hst:xtype: hst.item

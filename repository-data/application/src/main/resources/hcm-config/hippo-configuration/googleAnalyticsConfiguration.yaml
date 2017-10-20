@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/googleAnalyticsConfiguration:
+      /hippo:moduleconfig:
+        hippogoogleanalytics:accountId:
+          operation: override
+          type: string
+          value: UA-1116530-18
+        hippogoogleanalytics:privateKey:
+          type: binary
+          resource: /configuration/modules/googleAnalyticsConfiguration/moduleconfig/privateKey.bin
+        hippogoogleanalytics:tableId:
+          operation: override
+          type: string
+          value: ga:99032815
+        hippogoogleanalytics:username: 556187778784-larh6ltp2humd8hdjdp08dus7b3nvor4@developer.gserviceaccount.com

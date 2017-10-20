@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_fr/hst:pages/mobile-ajax-products-overview-recent:
+      jcr:primaryType: hst:component
+      jcr:uuid: 746354c4-063b-46d0-bb17-fe7b7ae37421
+      hst:parameternames: [orderBy]
+      hst:parametervalues: ['hippostdpubwf:lastModificationDate']
+      hst:referencecomponent: hst:components/mobile.products.overview
+      hst:template: mobile.ajax.products.overview

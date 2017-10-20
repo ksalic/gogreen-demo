@@ -1,0 +1,94 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippogogreen_fr/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      /evenements:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/events-overview
+        hst:refId: events
+        hst:relativecontentpath: events
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/events-detail
+          hst:relativecontentpath: ${parent}/${1}
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        hst:refId: home
+      /actualites:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/news-overview
+        hst:refId: news
+        hst:relativecontentpath: news
+        /facettes:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/news-overview
+          hst:relativecontentpath: ${parent}
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/news-overview
+            hst:relativecontentpath: ${parent}/facetednews/${1}
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/news-detail
+          hst:relativecontentpath: ${parent}/${1}
+      /produits:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/products-overview-fr
+        hst:refId: products
+        hst:relativecontentpath: products/facetedproducts
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/products-overview-fr
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/products-detail
+          hst:relativecontentpath: products/${1}
+      /recherche:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/search
+        hst:refId: search
+        /facettes:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/search
+          hst:refId: search-faceted
+          hst:relativecontentpath: searchfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/search
+            hst:relativecontentpath: searchfacets/${1}
+      /a-propos:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/about
+        hst:relativecontentpath: about
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/about
+          hst:relativecontentpath: ${parent}/${1}
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/error
+      /rss:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:components/rss-news
+        hst:parameternames: [scope]
+        hst:parametervalues: [news]
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/rss-news
+          hst:parameternames: [scope]
+          hst:parametervalues: [news]
+      /blogs:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/blogs-overview
+        hst:refId: blogs
+        hst:relativecontentpath: blogs
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/blogs-detail
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/blogs-overview
+          hst:relativecontentpath: ${parent}/${1}

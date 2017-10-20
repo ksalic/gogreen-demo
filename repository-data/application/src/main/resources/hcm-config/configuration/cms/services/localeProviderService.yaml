@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/localeProviderService:
+      /en-gb:
+        jcr:primaryType: frontend:pluginconfig
+        caption: English (GB)
+        country: gb
+        language: en
+      /zh:
+        jcr:primaryType: frontend:pluginconfig
+        country: cn
+        language: zh

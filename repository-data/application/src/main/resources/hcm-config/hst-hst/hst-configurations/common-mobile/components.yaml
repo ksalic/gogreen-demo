@@ -1,0 +1,18 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-mobile/hst:components:
+      jcr:primaryType: hst:components
+      /mobile.products.overview:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.products.Overview
+        hst:template: mobile.products.overview
+      /mobile.events.overview:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.events.Overview
+        hst:parameternames: [orderBy]
+        hst:parametervalues: ['hippogogreen:date']
+        hst:template: mobile.events.overview
+      /mobile.logo:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.common.MobileLogo
+        hst:template: mobile.standard.logo

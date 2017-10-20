@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms:
+      frontend:privileges:
+        operation: override
+        type: string
+        value: jcr:write
+      frontend:privileges.path:
+        operation: override
+        type: string
+        value: /content/gallery

@@ -1,0 +1,110 @@
+definitions:
+  config:
+    /hippo:namespaces/hippogogreen/faq:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: c58b766e-9e95-408c-8bfc-c7af2d7ddec0
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5e8eb18c-fa8b-4cea-8c07-f661a2b6e47b
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 9dca6eff-9708-48b1-9f9d-396e832ba120
+          hippo:availability: [live, preview]
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippogogreen:basedocument', 'hippostd:relaxed',
+            'hippotaxonomy:classifiable']
+          hipposysedit:uri: http://www.onehippo.org/jcr/hippogogreen/2.0
+          /question:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogogreen:question
+            hipposysedit:type: Label
+            hipposysedit:validators: [non-empty, required]
+          /copyright:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogogreen:copyright
+            hipposysedit:type: hippogogreen:copyright
+          /answer:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogogreen:answer
+            hipposysedit:type: hippostd:html
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: hippogogreen:faq
+          jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+          jcr:uuid: 6425131b-dd21-4377-a992-fa1eb0b6766e
+          hippo:availability: []
+          hippogogreen:question: ''
+          hippostd:holder: $holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2008-03-26T12:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2008-03-26T12:03:00+01:00
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: 67c4bf27-dd06-4ab9-b1c0-dbcf7df74f31
+          hippotranslation:locale: en
+          /hippogogreen:answer:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <html><body></body></html>
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, engine, validator.id, model.compareTo]
+          frontend:services: [wicket.id, validator.id]
+          type: hippogogreen:faq
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right
+          /question:
+            jcr:primaryType: frontend:plugin
+            field: question
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /answer:
+            jcr:primaryType: frontend:plugin
+            field: answer
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /copyright:
+            jcr:primaryType: frontend:plugin
+            field: copyright
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /tags:
+            jcr:primaryType: frontend:plugin
+            caption: Tags
+            field: tags
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            type: hippostd:taggable
+            wicket.id: ${cluster.id}.right.item
+          /taxonomy:
+            jcr:primaryType: frontend:plugin
+            plugin.class: org.onehippo.taxonomy.plugin.TaxonomyPickerPlugin
+            taxonomy.classification.dao: service.taxonomy.dao
+            taxonomy.id: service.taxonomy
+            taxonomy.name: en
+            wicket.id: ${cluster.id}.right.item

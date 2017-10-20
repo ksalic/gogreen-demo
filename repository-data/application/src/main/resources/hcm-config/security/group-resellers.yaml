@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:groups/resellers:
+      jcr:primaryType: hipposys:group
+      hipposys:members: [filippo]
+      hipposys:securityprovider: internal

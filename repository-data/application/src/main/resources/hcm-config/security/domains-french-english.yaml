@@ -1,0 +1,415 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains:
+      /fr-folders:
+        jcr:primaryType: hipposys:domain
+        /readwrite:
+          jcr:primaryType: hipposys:authrole
+          hipposys:groups: [french]
+          hipposys:role: readwrite
+        /hippostd-directory:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /fr-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents/hippomiseauvert
+        /hippostd-folder:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-folder:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:folder
+          /fr-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents/hippomiseauvert
+        /content-folder:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /content-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content
+        /documents-folder:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /documents-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents
+        /assets-folder:
+          jcr:primaryType: hipposys:domainrule
+          /assets-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/assets
+          /nodetype-hippogallery-stdAssetGallery:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippogallery:stdAssetGallery
+        /gallery-folder:
+          jcr:primaryType: hipposys:domainrule
+          /gallery-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/gallery
+          /nodetype-hippogallery-stdImageGallery:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippogallery:stdImageGallery
+        /eforms-folder:
+          jcr:primaryType: hipposys:domainrule
+          /eforms-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/eforms
+          /nodetype-eforms-folder:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: eforms:folder
+        /other-folders:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-folder:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:folder
+          /other-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content
+        /other-directories:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /other-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content
+      /fr-site:
+        jcr:primaryType: hipposys:domain
+        /editor:
+          jcr:primaryType: hipposys:authrole
+          hipposys:groups: [french-editors]
+          hipposys:role: editor
+        /author:
+          jcr:primaryType: hipposys:authrole
+          hipposys:groups: [french-authors]
+          hipposys:role: author
+        /french-documents:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippo-document:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippo:document
+          /hide-prototypes:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: nodename
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hipposysedit:prototype
+          /fr-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents/hippomiseauvert
+        /other-documents:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippo-document:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippo:document
+          /hide-prototypes:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: nodename
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hipposysedit:prototype
+          /other-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content
+      /en-folders:
+        jcr:primaryType: hipposys:domain
+        /readwrite:
+          jcr:primaryType: hipposys:authrole
+          hipposys:groups: [english]
+          hipposys:role: readwrite
+        /hippostd-directory:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /en-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents/hippogogreen
+        /hippostd-folder:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-folder:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:folder
+          /en-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents/hippogogreen
+        /content-folder:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /content-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content
+        /documents-folder:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /documents-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents
+        /assets-folder:
+          jcr:primaryType: hipposys:domainrule
+          /assets-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/assets
+          /nodetype-hippogallery-stdAssetGallery:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippogallery:stdAssetGallery
+        /gallery-folder:
+          jcr:primaryType: hipposys:domainrule
+          /gallery-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/gallery
+          /nodetype-hippogallery-stdImageGallery:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippogallery:stdImageGallery
+        /eforms-folder:
+          jcr:primaryType: hipposys:domainrule
+          /eforms-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/eforms
+          /nodetype-eforms-folder:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: eforms:folder
+        /other-folders:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-folder:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:folder
+          /other-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content
+        /other-directories:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippostd-directory:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippostd:directory
+          /other-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content
+      /en-site:
+        jcr:primaryType: hipposys:domain
+        /editor:
+          jcr:primaryType: hipposys:authrole
+          hipposys:groups: [english-editors]
+          hipposys:role: editor
+        /author:
+          jcr:primaryType: hipposys:authrole
+          hipposys:groups: [english-authors]
+          hipposys:role: author
+        /english-documents:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippo-document:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippo:document
+          /hide-prototypes:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: nodename
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hipposysedit:prototype
+          /en-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content/documents/hippogogreen
+        /other-documents:
+          jcr:primaryType: hipposys:domainrule
+          /nodetype-hippo-document:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: true
+            hipposys:facet: nodetype
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hippo:document
+          /hide-prototypes:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: nodename
+            hipposys:filter: false
+            hipposys:type: Name
+            hipposys:value: hipposysedit:prototype
+          /other-path:
+            jcr:primaryType: hipposys:facetrule
+            hipposys:equals: false
+            hipposys:facet: hippo:paths
+            hipposys:filter: false
+            hipposys:type: Reference
+            hipposys:value: /content

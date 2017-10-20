@@ -1,0 +1,18 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/rest/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      /products:
+        jcr:primaryType: hst:sitemapitem
+        hst:relativecontentpath: products
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:relativecontentpath: products/${1}
+      /topproducts:
+        jcr:primaryType: hst:sitemapitem
+        hst:namedpipeline: JaxrsRestPlainPipeline
+      /age:
+        jcr:primaryType: hst:sitemapitem
+        hst:namedpipeline: JaxrsRestPlainPipeline
+        /_any_:
+          jcr:primaryType: hst:sitemapitem

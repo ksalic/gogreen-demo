@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:alteregos:
+      /business-owner-alterego:
+        jcr:primaryType: targeting:alterego
+        targeting:targetingdata: '{"targetingData":{"categories":{"collectorId":"categories","termFreq":{"office":1},"size":100}}}'
+      /student-alterego:
+        jcr:primaryType: targeting:alterego
+        targeting:targetingdata: '{"targetingData":{"categories":{"collectorId":"categories","termFreq":{"school":1},"size":100}}}'
+      /parent-alterego:
+        jcr:primaryType: targeting:alterego
+        targeting:targetingdata: '{"targetingData":{"categories":{"collectorId":"categories","termFreq":{"family":1,"home":1},"size":100}}}'

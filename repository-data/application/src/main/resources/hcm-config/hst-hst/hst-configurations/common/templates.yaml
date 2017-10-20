@@ -1,0 +1,404 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:templates:
+      jcr:primaryType: hst:templates
+      /common.bannercarousel:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: webfile:/freemarker/common/bannercarousel.ftl
+      /common.bannercollection:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/common/bannercollection.ftl
+      /common.comments:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/common/comments.jsp
+      /common.feed:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/common/feed.jsp
+      /common.header:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/common/header.jsp
+      /common.images:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/common/images.ftl
+      /common.latest:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/common/latest.ftl
+      /common.relateddocuments:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/common/relateddocuments.jsp
+      /common.separator:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/common/separator.jsp
+      /common.simpledocument:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/common/simpledocument.jsp
+      /common.tagcloud:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/common/tagcloud.jsp
+      /common.video:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/common/video.ftl
+      /common.richtextsnippet:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/common/richtextsnippet.ftl
+      /common.map:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/common/map.ftl
+      /layout.webpage.ftl:
+        jcr:primaryType: hst:template
+        hst:containers: [header, main, footer]
+        hst:renderpath: webfile:/freemarker/layout/layout.webpage.ftl
+      /layout.facebook.ftl:
+        jcr:primaryType: hst:template
+        hst:containers: [header, body, footer]
+        hst:script: "<!DOCTYPE html>\r\n        <#--\r\n        \r\n        Copyright\
+          \ (C) 2010 Hippo B.V.\r\n        \r\n        -->\r\n        <#assign fmt=JspTaglibs[\"\
+          http://java.sun.com/jsp/jstl/fmt\"]>\r\n        <#assign hst=JspTaglibs[\"\
+          http://www.hippoecm.org/jsp/hst/core\"]>\r\n        <#assign ga=JspTaglibs[\"\
+          http://www.onehippo.org/jsp/google-analytics\"]>\r\n        \r\n       \
+          \ <@hst.defineObjects />\r\n        \r\n        <#assign lang=\"${hstRequest.locale.language!}\"\
+          \ />\r\n        \r\n        <html lang=\"${lang}\" xmlns:fb=\"http://ogp.me/ns/fb#\"\
+          >\r\n        <head>\r\n        <@hst.headContributions categoryExcludes=\"\
+          css,jsInternal,jsExternal\"/>\r\n        <meta charset=\"utf-8\">\r\n  \
+          \      <link rel=\"schema.DC\" href=\"http://purl.org/dc/elements/1.1/\"\
+          \ />\r\n        <link rel=\"schema.DCTERMS\" href=\"http://purl.org/dc/terms/\"\
+          \ />\r\n        <meta name=\"DC.keywords\" content=\"<@fmt.message key=\"\
+          layout.webpage.metadckeywords\"/>\" />\r\n        <meta name=\"description\"\
+          \ content=\"<@fmt.message key=\"layout.webpage.metadescription\"/>\" />\r\
+          \n        <meta name=\"DC.type\" content=\"webpagina\" scheme=\"DCMIType\"\
+          \ />\r\n        <meta name=\"DCTERMS.issued\" content=\"2009-07-09T10:31\"\
+          \ scheme=\"DCTERMS.W3CDTF\" />\r\n        <meta name=\"DCTERMS.available\"\
+          \ content=\"2009-07-09T10:31\" scheme=\"DCTERMS.W3CDTF\" />\r\n        <meta\
+          \ name=\"DC.title\" content=\"<@fmt.message key=\"layout.webpage.metadctitle\"\
+          />\" />\r\n        <meta name=\"DC.language\" content=\"${lang}\" scheme=\"\
+          DCTERMS.RFC3066\" />\r\n        \r\n        <@hst.link var=\"yuicss\" path=\"\
+          /css/yui-css.css\"/>\r\n        <link rel=\"stylesheet\" media=\"screen\"\
+          \ type=\"text/css\" href=\"${yuicss}\"/>\r\n        \r\n        <@hst.link\
+          \ var=\"stylecss\" path=\"/css/style.css\"/>\r\n        <link rel=\"stylesheet\"\
+          \ media=\"screen\" type=\"text/css\" href=\"${stylecss}\"/>\r\n        \r\
+          \n        <@hst.link var=\"screencss\" path=\"/css/facebook/screen.css\"\
+          />\r\n        <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\"\
+          \ href=\"${screencss}\"/>\r\n        \r\n        <@hst.headContributions\
+          \ categoryIncludes=\"css\"/>\r\n        \r\n        <@hst.link var=\"jquery\"\
+          \ path=\"/js/jquery-1.4.2.min.js\"/>\r\n        <script src=\"${jquery}\"\
+          \ type=\"text/javascript\"></script>\r\n        \r\n        <@hst.link var=\"\
+          favicon\" path=\"/images/favicon.ico\"/>\r\n        <link rel=\"icon\" href=\"\
+          ${favicon}\" type=\"image/x-icon\"/>\r\n        <link rel=\"shortcut icon\"\
+          \ href=\"${favicon}\" type=\"image/x-icon\"/>\r\n        \r\n        <@hst.link\
+          \ var=\"appletouchicon\" path=\"/images/apple-touch-icon.png\"/>\r\n   \
+          \     <link rel=\"apple-touch-icon\" href=\"${appletouchicon}\"/>\r\n  \
+          \      \r\n        <!--[if lte IE 7]>\r\n        <@hst.link var=\"ie7css\"\
+          \ path=\"/css/ie7.css\"/>\r\n        <link rel=\"stylesheet\" media=\"screen\"\
+          \ type=\"text/css\" href=\"${ie7css}\">\r\n        <script type=\"text/javascript\"\
+          >ie7 = true;</script>\r\n        <![endif]-->\r\n        \r\n        <@hst.link\
+          \ var=\"rssHref\" path=\"/rss\" />\r\n        <@fmt.message var=\"rssTitle\"\
+          \ key=\"standard.header.rss\"/>\r\n        <link rel=\"alternate\" type=\"\
+          application/rss+xml\" title=\"${rssTitle}\" href=\"${rssHref}\"/>\r\n  \
+          \      \r\n        </head>\r\n        <body <#if preview>class=\"facebook-preview\"\
+          </#if>>\r\n        <div id=\"fb-root\"></div>\r\n        <script>(function(d,\
+          \ s, id) {\r\n        var js, fjs = d.getElementsByTagName(s)[0];\r\n  \
+          \      if (d.getElementById(id)) return;\r\n        js = d.createElement(s);\
+          \ js.id = id;\r\n        js.src = \"//connect.facebook.net/${hstRequest.locale}/all.js#xfbml=1\"\
+          ;\r\n        fjs.parentNode.insertBefore(js, fjs);\r\n        }(document,\
+          \ 'script', 'facebook-jssdk'));</script>\r\n        <!-- document wrapper\
+          \ -->\r\n        \r\n        <div id=\"topbar\"><div class=\"wrapper\"></div></div>\r\
+          \n        <div id=\"header\"></div>\r\n        \r\n        <@hst.include\
+          \ ref=\"main\"/>\r\n        \r\n        <@hst.include ref=\"footer\"/>\r\
+          \n        <div id=\"ft-disclaimer\">\r\n        <@fmt.message key=\"layout.webpage.disclaimer\"\
+          >\r\n        <@fmt.param><a href=\"http://www.onehippo.com/en/why-hippo-cms\"\
+          ></@fmt.param>\r\n        <@fmt.param><a href=\"https://issues.onehippo.com/browse/GOGREEN\"\
+          ></@fmt.param>\r\n        <@fmt.param></a></@fmt.param>\r\n        </@fmt.message>\r\
+          \n        </div>\r\n        \r\n        <@hst.headContributions categoryIncludes=\"\
+          jsExternal\"/>\r\n        <@hst.headContributions categoryIncludes=\"jsInternal\"\
+          />\r\n        <#if !preview>\r\n        <@ga.accountId/>\r\n        <@hst.link\
+          \ var=\"googleAnalytics\" path=\"/resources/google-analytics.js\"/>\r\n\
+          \        <script src=\"${googleAnalytics}\" type=\"text/javascript\"></script>\r\
+          \n        </#if>\r\n        </body>\r\n        </html>"
+      /standard.header.ftl:
+        jcr:primaryType: hst:template
+        hst:containers: [topbar, logo, mainnavigation, login]
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2014 Hippo B.V.\
+          \ (http://www.onehippo.com)\r\n        \r\n        -->\r\n        \r\n \
+          \       <#assign hst=JspTaglibs[\"http://www.hippoecm.org/jsp/hst/core\"\
+          ]>\r\n        <@hst.include ref=\"topbar\"/>\r\n        \r\n        <!--\
+          \ Header -->\r\n        <header id=\"header\">\r\n        <div class=\"\
+          container\">\r\n        \r\n        <div class=\"row header\">\r\n     \
+          \   \r\n        <!-- Logo -->\r\n        <@hst.include ref=\"logo\"/>\r\n\
+          \        <!-- //Logo// -->\r\n        \r\n        <!-- Login -->\r\n   \
+          \     <@hst.include ref=\"login\"/>\r\n        <!-- //Login// -->\r\n  \
+          \      \r\n        <!-- Main navigation -->\r\n        <@hst.include ref=\"\
+          mainnavigation\"/>\r\n        <!-- //Main navigation// -->\r\n        </div>\r\
+          \n        </div>\r\n        </header>\r\n        <!-- //Header// -->"
+      /standard.header.topbar.ftl:
+        jcr:primaryType: hst:template
+        hst:containers: [search, langnavigation]
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2014 Hippo B.V.\
+          \ (http://www.onehippo.com)\r\n        \r\n        -->\r\n        \r\n \
+          \       <#assign hst=JspTaglibs[\"http://www.hippoecm.org/jsp/hst/core\"\
+          ]>\r\n        \r\n        <div class=\"top-bar\">\r\n        <div class=\"\
+          container\">\r\n        <div class=\"row\">\r\n        <@hst.include ref=\"\
+          langnavigation\"/>\r\n        <@hst.include ref=\"search\"/>\r\n       \
+          \ </div>\r\n        </div>\r\n        </div>"
+      /standard.header.logo.ftl:
+        jcr:primaryType: hst:template
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2014 Hippo B.V.\r\n\
+          \        \r\n        -->\r\n        \r\n        <#assign hst=JspTaglibs[\"\
+          http://www.hippoecm.org/jsp/hst/core\"]>\r\n        \r\n        <@hst.defineObjects/>\r\
+          \n        \r\n        <#assign lang=hstRequest.locale.language/>\r\n   \
+          \     <@hst.link var=\"linkHome\" siteMapItemRefId=\"home\"/>\r\n      \
+          \  \r\n        <#if logo??>\r\n        <div class=\"col-xs-2 logo\">\r\n\
+          \        <@hst.link var=\"imgLogo\" hippobean=logo.original />\r\n     \
+          \   <a href=\"${linkHome}\"><img src=\"${imgLogo}\" alt=\"${logo.alt!''}\"\
+          \ height=\"${logo.original.height}\" /></a>\r\n        </div>\r\n      \
+          \  </#if>"
+      /standard.header.mainnavigation:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/header/mainnavigation.jsp
+      /standard.header.langnavigation:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: webfile:/freemarker/standard/header/langnavigation.ftl
+      /standard.header.search:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/header/search.jsp
+      /standard.header.login:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/header/login.jsp
+      /standard.main.ftl:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010 Hippo B.V.\r\n\
+          \        \r\n        -->\r\n        \r\n        <#assign fmt=JspTaglibs[\"\
+          http://java.sun.com/jsp/jstl/fmt\"]>\r\n        <#assign hst=JspTaglibs[\"\
+          http://www.hippoecm.org/jsp/hst/core\"]>"
+      /standard.main:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/main.jsp
+      /standard.main.top:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/main/top.jsp
+      /standard.main.hero:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/main/hero.jsp
+      /standard.main.content:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/main/content.jsp
+      /standard.main.right:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/main/right.jsp
+      /standard.main.right.facetnav:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/standard/main/right/facetnav.jsp
+      /standard.footer:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/footer/footer.jsp
+      /standard.footer.menu:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/footer/menu.jsp
+      /standard.facebook.main:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/facebook/standard/main.jsp
+      /simplepage.main:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/simple/main.jsp
+      /home.main:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/home/main.jsp
+      /home.boxes:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/home/boxes.jsp
+      /home.latest:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/home/latest.jsp
+      /home.products.facetnav:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/home/productsfacetnav.jsp
+      /home.facebook.main:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/facebook/home/main.jsp
+      /news.overview.top:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/news/overview/top.jsp
+      /news.overview.content:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/news/overview/content.jsp
+      /news.detail.top:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/news/detail/top.jsp
+      /news.detail.content:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/news/detail/content.jsp
+      /events.calendar:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/events/calendar.jsp
+      /events.overview.main:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/events/overview/main.jsp
+      /events.overview.top:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/events/overview/top.jsp
+      /events.overview.content:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/events/overview/content.jsp
+      /events.detail.top:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/events/detail/top.jsp
+      /events.detail.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/events/detail/content.jsp
+      /events.detail.right:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/events/detail/right.jsp
+      /products.overview.top:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/overview/top.jsp
+      /products.overview.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/overview/content.jsp
+      /products.overview.productnav:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/overview/productnav.jsp
+      /products.overview.right.facetnav:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/overview/right/facetnav.jsp
+      /products.detail.top:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/detail/top.jsp
+      /products.detail.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/detail/content.jsp
+      /products.featured:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/featured.jsp
+      /products.featured.facebook:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/products/featured-facebook.jsp
+      /blogs.overview.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/blogs/overview/content.jsp
+      /blogs.overview.top:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/blogs/overview/top.jsp
+      /blogs.detail.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/blog/blog-content.ftl
+      /blogs.detail.top:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/blogs/detail/top.jsp
+      /blogs.detail.right:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/blog/blog-right.ftl
+      /blogs.latest:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/blogs/latest.jsp
+      /comments.latest:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/comments/latest.jsp
+      /search.top:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/search/top.jsp
+      /search.error.right:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/search/error-right.jsp
+      /search.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/search/content.jsp
+      /about.main:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/about/main.jsp
+      /about.leftmenu:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/about/leftmenu.jsp
+      /about.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/about/content.jsp
+      /about.top:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/about/top.jsp
+      /reviews.latest:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/reviews/latest.jsp
+      /rss.news:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/rss/rss-news.jsp
+      /restapi.top:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/restapi/top.jsp
+      /restapi.overview:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/restapi/overview.jsp
+      /restapi.detail:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/restapi/detail.jsp
+      /restapi.browser:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/restapi/browser.jsp
+      /restapi.documentation:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/restapi/documentation.jsp
+      /reseller.contactbox:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/contact/resellerbox.jsp
+      /prototypedpages.two-column:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/prototypedpages/two-column.jsp
+      /prototypedpages.three-column:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/prototypedpages/three-column.jsp
+      /prototypedpages.landing:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/prototypedpages/landing.jsp
+      /prototypedpages.vari-column:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/prototypedpages/vari-column.jsp
+      /eforms.default:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/eforms/eforms-default.jsp
+      /eforms.validation.default:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/eforms/eforms-validation-default.jsp
+      /contact.main.content:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/contact/main/content.jsp
+      /faq.overview.content.ftl:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/faq/overview/content.ftl
+      /faq.overview.top.ftl:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/faq/overview/top.ftl
+      /common.documenthighlight:
+        jcr:primaryType: hst:template
+        jcr:uuid: 92c3d722-2e8c-4193-9182-55f5b19a283d
+        hst:renderpath: webfile:/freemarker/common/document-highlight.ftl

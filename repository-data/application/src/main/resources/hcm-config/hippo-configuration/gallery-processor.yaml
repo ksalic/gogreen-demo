@@ -1,0 +1,38 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService:
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: frontend:pluginconfig
+        height: 32
+        upscaling: false
+        width: 125
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: frontend:pluginconfig
+        height: 45
+        upscaling: false
+        width: 60
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: frontend:pluginconfig
+        height: 74
+        upscaling: false
+        width: 98
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: frontend:pluginconfig
+        height: 300
+        upscaling: false
+        width: 400
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: frontend:pluginconfig
+        height: 450
+        upscaling: false
+        width: 1070
+      /hippogogreengallery:banner:
+        jcr:primaryType: frontend:pluginconfig
+        height: 380
+        upscaling: false
+        width: 540
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: frontend:pluginconfig
+        height: 350
+        upscaling: false
+        width: 768

@@ -1,0 +1,18 @@
+definitions:
+  namespace:
+    hippogogreen:
+      uri: http://www.onehippo.org/jcr/hippogogreen/2.0
+      cnd: hippo-namespaces/hippogogreen.cnd
+    hippogogreengallery:
+      uri: http://www.onehippo.org/jcr/hippogogreengallery/2.0
+      cnd: hippo-namespaces/hippogogreen-gallery.cnd
+  config:
+    /hippo:configuration/hippo:translations:
+      /hippo:cms:
+        jcr:primaryType: hipposys:resourcebundles
+      /hippo:types:
+        jcr:primaryType: hipposys:resourcebundles
+    /content/taxonomies:
+      .meta:category: content
+    /content/eforms:
+      .meta:category: content

@@ -1,0 +1,29 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-dashshortcuts/newEventShortcut:
+      jcr:primaryType: frontend:plugin
+      baseFolder: /content/documents/hippogogreen/events
+      browser.id: service.browse
+      classificationType: date
+      documentType: hippogogreen:event
+      plugin.class: org.onehippo.forge.dashboard.documentwizard.NewDocumentWizardPlugin
+      query: new-event-viawizard
+      wicket.id: shortcut
+      workaround: 6
+      /nl:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Maak een evenementdocument aan
+      /en:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Create an event document
+      /fr:
+        jcr:primaryType: frontend:pluginconfig
+        name-label: Nom
+        shortcut-link-label: Ajouter un événement
+      /it:
+        jcr:primaryType: frontend:pluginconfig
+        name-label: Nome
+        shortcut-link-label: Creare un'evento
+      /de:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Erstelle ein Event Dokument

@@ -1,0 +1,10 @@
+definitions:
+  config:
+    /content:
+      /documents:
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        hippo:name: Documents
+      /gallery:
+        hippostd:gallerytype: ['hippogogreengallery:imageset']
+      /assets:
+        hippo:availability: [live, preview]

@@ -1,0 +1,41 @@
+definitions:
+  config:
+    /hippo:namespaces/hippogogreen/basedocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0763f0a4-4a28-4ebe-9c97-0ef5d9dc39e2
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2e948030-eae8-487d-afac-da84b4ce4e8a
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hippo:availability: [live, preview]
+          hipposysedit:supertype: ['hippo:document', 'hippostdpubwf:document', 'hippostd:publishableSummary',
+            'hippostd:taggable']
+          hipposysedit:uri: http://www.onehippo.org/jcr/hippogogreen/2.0
+          /campaign:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:campaign
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /metatitle:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:metatitle
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /metadescription:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:metadescription
+            hipposysedit:primary: false
+            hipposysedit:type: Text

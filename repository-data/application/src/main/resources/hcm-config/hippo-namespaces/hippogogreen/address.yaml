@@ -1,0 +1,225 @@
+definitions:
+  config:
+    /hippo:namespaces/hippogogreen/address:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 5b2eaea3-1616-4291-b2cd-59bbff4e33be
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 094f7eea-75b4-4bde-8c60-9d9d1499af06
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 53e94efb-0a74-440f-99e5-88b813fc99c3
+          hippo:availability: [live, preview]
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippo:compound', 'hippostd:relaxed']
+          hipposysedit:uri: http://www.onehippo.org/jcr/hippogogreen/2.0
+          /street:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:street
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /number:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:number
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /postalcode:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:postalcode
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /city:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:city
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /province:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:province
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /country:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:country
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /telephone:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:telephone
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /fax:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:fax
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /email:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:email
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /optionalText:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:optionalText
+            hipposysedit:primary: false
+            hipposysedit:type: Text
+          /website:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:website
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /latitude:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:latitude
+            hipposysedit:primary: false
+            hipposysedit:type: Double
+          /longitude:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: hippogogreen:longitude
+            hipposysedit:primary: false
+            hipposysedit:type: Double
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: nt:unstructured
+          hippogogreen:city: ''
+          hippogogreen:country: ''
+          hippogogreen:email: ''
+          hippogogreen:fax: ''
+          hippogogreen:latitude: 0.0
+          hippogogreen:longitude: 0.0
+          hippogogreen:number: ''
+          hippogogreen:optionalText: ''
+          hippogogreen:postalcode: ''
+          hippogogreen:province: ''
+          hippogogreen:street: ''
+          hippogogreen:telephone: ''
+          hippogogreen:website: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          type: hippogogreen:address
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /street:
+            jcr:primaryType: frontend:plugin
+            caption: Street
+            field: street
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /number:
+            jcr:primaryType: frontend:plugin
+            caption: Number
+            field: number
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /postalcode:
+            jcr:primaryType: frontend:plugin
+            caption: Postal code
+            field: postalcode
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /city:
+            jcr:primaryType: frontend:plugin
+            caption: City
+            field: city
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /province:
+            jcr:primaryType: frontend:plugin
+            caption: Province
+            field: province
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /country:
+            jcr:primaryType: frontend:plugin
+            caption: Country
+            field: country
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /latitude:
+            jcr:primaryType: frontend:plugin
+            caption: Latitude
+            field: latitude
+            hint: Latitude of the address
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /longitude:
+            jcr:primaryType: frontend:plugin
+            caption: longitude
+            field: longitude
+            hint: Longitude of the address
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            validator.id: ${validator.id}
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

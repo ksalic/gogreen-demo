@@ -1,0 +1,109 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:prototypepages:
+      jcr:primaryType: hst:pages
+      /theme-two-column:
+        jcr:primaryType: hst:component
+        jcr:mixinTypes: ['hst:prototypemeta']
+        hst:displayname: Theme page - 2 column
+        hst:referencecomponent: hst:abstractpages/defaultpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+          hst:template: prototypedpages.two-column
+          /hero:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /content:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+      /theme-three-column:
+        jcr:primaryType: hst:component
+        jcr:mixinTypes: ['hst:prototypemeta']
+        hst:displayname: Theme page - 3 column
+        hst:referencecomponent: hst:abstractpages/defaultpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+          hst:template: prototypedpages.three-column
+          /hero:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /left:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /content:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+      /landing-page:
+        jcr:primaryType: hst:component
+        jcr:mixinTypes: ['hst:prototypemeta']
+        hst:displayname: Landing page
+        hst:referencecomponent: hst:abstractpages/basepage
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+          hst:template: prototypedpages.landing
+          /hero:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /content:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+      /vari-column:
+        jcr:primaryType: hst:component
+        jcr:mixinTypes: ['hst:prototypemeta']
+        hst:displayname: Theme page - Varying columns
+        hst:referencecomponent: hst:abstractpages/defaultpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+          hst:template: prototypedpages.vari-column
+          /hero:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /left1:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right1:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /left2:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right2:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /left3:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right3:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /left4:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right4:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /left5:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /center5:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /right5:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+          /bottom:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox

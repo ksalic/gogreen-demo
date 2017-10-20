@@ -1,0 +1,10 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/brokenlinks:
+      jcr:primaryType: hipposys:module
+      /hippo:moduleconfig:
+        jcr:primaryType: hippo:handle
+        /hippo:moduleconfig:
+          jcr:primaryType: brokenlinks:config
+          cronExpression: 0 2 * * * ? *
+          enabled: false

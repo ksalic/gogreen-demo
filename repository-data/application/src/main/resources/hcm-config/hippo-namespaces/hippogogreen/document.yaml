@@ -1,0 +1,41 @@
+definitions:
+  config:
+    /hippo:namespaces/hippogogreen/document:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8a85ae6b-f284-4b46-8d8a-29392e890bc3
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 4d07fbf1-8ae1-4f42-9fba-bdee3b7e9934
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 9db7ea01-8bf2-433b-9d9e-207c5d257a1a
+          hippo:availability: [live, preview]
+          hipposysedit:node: true
+          hipposysedit:supertype: ['hippogogreen:basedocument', 'hippostd:relaxed',
+            'hippotranslation:translated']
+          hipposysedit:uri: http://www.onehippo.org/jcr/hippogogreen/2.0
+          /title:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogogreen:title
+            hipposysedit:type: Label
+            hipposysedit:validators: [non-empty, required]
+          /summary:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogogreen:summary
+            hipposysedit:type: Text
+          /copyright:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogogreen:copyright
+            hipposysedit:type: hippogogreen:copyright
+          /description:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:path: hippogogreen:description
+            hipposysedit:type: hippostd:html
+          /image:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:multiple: true
+            hipposysedit:path: hippogogreen:image
+            hipposysedit:type: hippogallerypicker:imagelink

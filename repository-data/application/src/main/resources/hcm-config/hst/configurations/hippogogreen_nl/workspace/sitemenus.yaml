@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippogogreen_nl/hst:workspace/hst:sitemenus:
+      jcr:primaryType: hst:sitemenus
+      /mainnavigation:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:sitemenu
+      /servicemenu:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:sitemenu
+      /sectionsmenu:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:sitemenu
+      /aboutmenu:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:sitemenu

@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/preview-documents/readonly[2]:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [resellers-preview]
+      hipposys:role: readonly

@@ -1,0 +1,30 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-dashshortcuts/newProductShortcut:
+      jcr:primaryType: frontend:plugin
+      baseFolder: /content/documents/hippogogreen/products
+      browser.id: service.browse
+      classificationType: listdate
+      documentType: hippogogreen:product
+      plugin.class: org.onehippo.forge.dashboard.documentwizard.NewDocumentWizardPlugin
+      valueListPath: /content/documents/hippogogreen/common/valuelists/categories
+      wicket.id: shortcut
+      workaround: 8
+      /nl:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Maak een productdocument
+      /en:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Create a product document
+      /fr:
+        jcr:primaryType: frontend:pluginconfig
+        list-label: Catégorie
+        name-label: Nom
+        shortcut-link-label: Ajouter un produit
+      /it:
+        jcr:primaryType: frontend:pluginconfig
+        name-label: Nome
+        shortcut-link-label: Creare un prodotto
+      /de:
+        jcr:primaryType: frontend:pluginconfig
+        shortcut-link-label: Erstelle ein Produkt Dokument

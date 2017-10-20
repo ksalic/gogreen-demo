@@ -1,0 +1,33 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-banner:
+      jcr:primaryType: hippostd:templatequery
+      jcr:mixinTypes: ['hippo:translated', 'hippostd:translated']
+      hippostd:icon: adddocument_ico
+      hippostd:modify: [./_name, $name, './hippotranslation:locale', $inherited, './hippotranslation:id',
+        $uuid, './hippostdpubwf:createdBy', $holder, './hippostdpubwf:creationDate',
+        $now, './hippostdpubwf:lastModifiedBy', $holder, './hippostdpubwf:lastModificationDate',
+        $now, './hippostd:holder', $holder]
+      jcr:language: xpath
+      jcr:statement: "\n      //element(*,hipposysedit:namespacefolder)/element(*,mix:referenceable)/element(*,hipposysedit:templatetype)/hipposysedit:prototypes/element(hipposysedit:prototype,hippogogreen:banner)\n\
+        \    "
+      /hippo:translation[1]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: en
+        hippo:message: new banner
+      /hippo:translation[2]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: nl
+        hippo:message: nieuwe banner
+      /hippo:translation[3]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: de
+        hippo:message: Neuer Banner
+      /hippo:translation[4]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: fr
+        hippo:message: nouvelle bannière

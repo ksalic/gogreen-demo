@@ -1,0 +1,285 @@
+definitions:
+  config:
+    /hippo:namespaces/hippogogreengallery:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      /imageset:
+        jcr:primaryType: hipposysedit:templatetype
+        jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+        jcr:uuid: 0ac4e869-b333-48e7-a695-586cb329887f
+        /hipposysedit:nodetype:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 91e5e75e-7c30-42a1-b728-052083605425
+          /hipposysedit:nodetype:
+            jcr:primaryType: hipposysedit:nodetype
+            jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+            jcr:uuid: f7d26d5e-1cb5-4ae4-8217-d0a964372049
+            hipposysedit:node: true
+            hipposysedit:supertype: ['hippogallery:imageset', 'hippogallery:relaxed']
+            hipposysedit:uri: http://www.onehippo.org/jcr/hippogogreengallery/2.0
+            /alt:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:alt
+              hipposysedit:primary: false
+              hipposysedit:type: String
+            /copyright:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:copyright
+              hipposysedit:primary: false
+              hipposysedit:type: hippogogreen:copyright
+            /smallthumbnail:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:smallthumbnail
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+            /largethumbnail:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:largethumbnail
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+            /mobilelogo:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:mobilelogo
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+              hipposysedit:validators: [optional]
+            /mobilethumbnail:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:mobilethumbnail
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+            /thumbnail:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogallery:thumbnail
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+            /original:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogallery:original
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+            /bannercarousel:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:bannercarousel
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+            /banner:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:banner
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+            /landscapeimage:
+              jcr:primaryType: hipposysedit:field
+              hipposysedit:mandatory: false
+              hipposysedit:multiple: false
+              hipposysedit:ordered: false
+              hipposysedit:path: hippogogreengallery:landscapeimage
+              hipposysedit:primary: false
+              hipposysedit:type: hippogallery:image
+        /hipposysedit:prototypes:
+          jcr:primaryType: hipposysedit:prototypeset
+          /hipposysedit:prototype:
+            jcr:primaryType: hippogogreengallery:imageset
+            hippogallery:description: ''
+            hippogallery:filename: ''
+            hippogogreengallery:alt: ''
+            /hippogallery:original:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/original/original.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogallery:thumbnail:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/thumbnail/thumbnail.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogogreengallery:smallthumbnail:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/smallthumbnail/smallthumbnail.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogogreengallery:largethumbnail:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/largethumbnail/largethumbnail.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogogreengallery:mobilelogo:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/mobilelogo/mobilelogo.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogogreengallery:mobilethumbnail:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/mobilethumbnail/mobilethumbnail.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogogreengallery:bannercarousel:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/bannercarousel/bannercarousel.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogogreengallery:banner:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/banner/banner.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+            /hippogogreengallery:landscapeimage:
+              jcr:primaryType: hippogallery:image
+              hippogallery:height: 0
+              hippogallery:width: 0
+              jcr:data:
+                type: binary
+                resource: /namespaces/hippogogreengallery/imageset/prototypes/prototype/landscapeimage/landscapeimage.gif
+              jcr:lastModified: 2009-11-11T16:43:00+01:00
+              jcr:mimeType: image/gif
+        /editor:templates:
+          jcr:primaryType: editor:templateset
+          /_default_:
+            jcr:primaryType: frontend:plugincluster
+            frontend:properties: [mode]
+            frontend:references: [engine, wicket.model, model.compareTo]
+            frontend:services: [wicket.id]
+            /root:
+              jcr:primaryType: frontend:plugin
+              item: ${cluster.id}.field
+              plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            /alt:
+              jcr:primaryType: frontend:plugin
+              field: alt
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /copyright:
+              jcr:primaryType: frontend:plugin
+              field: copyright
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /smallthumbnail:
+              jcr:primaryType: frontend:plugin
+              field: smallthumbnail
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /largethumbnail:
+              jcr:primaryType: frontend:plugin
+              field: largethumbnail
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /mobilelogo:
+              jcr:primaryType: frontend:plugin
+              field: mobilelogo
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /mobilethumbnail:
+              jcr:primaryType: frontend:plugin
+              field: mobilethumbnail
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /thumbnail:
+              jcr:primaryType: frontend:plugin
+              field: thumbnail
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /original:
+              jcr:primaryType: frontend:plugin
+              field: original
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /bannercarousel:
+              jcr:primaryType: frontend:plugin
+              field: bannercarousel
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /banner:
+              jcr:primaryType: frontend:plugin
+              field: banner
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig
+            /landscapeimage:
+              jcr:primaryType: frontend:plugin
+              field: landscapeimage
+              plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+              wicket.id: ${cluster.id}.field
+              /cluster.options:
+                jcr:primaryType: frontend:pluginconfig

@@ -1,0 +1,85 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippogogreen_zh/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      /活动:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/events-overview
+        hst:refId: events
+        hst:relativecontentpath: events
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/events-detail
+          hst:relativecontentpath: ${parent}/${1}
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/homepage
+        hst:refId: home
+      /搜索:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/search
+        hst:refId: search
+        /faceted:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/search
+          hst:relativecontentpath: searchfacets
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/search
+            hst:relativecontentpath: searchfacets/${1}
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/error
+      /rss:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:components/rss-news
+        hst:parameternames: [scope]
+        hst:parametervalues: [新闻]
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:components/rss-news
+          hst:parameternames: [scope]
+          hst:parametervalues: [新闻]
+      /新闻:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/news-overview
+        hst:refId: search-faceted
+        hst:relativecontentpath: news
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/news-detail
+          hst:relativecontentpath: ${parent}/${1}
+        /faceted:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/news-overview
+          hst:relativecontentpath: ${parent}
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/news-overview
+            hst:relativecontentpath: ${parent}/facetednews/${1}
+      /产品:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/products-overview-zh
+        hst:refId: products
+        hst:relativecontentpath: products/facetedproducts
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/products-overview-zh
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/products-detail
+          hst:relativecontentpath: products/${1}
+      /博客:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/blogs-overview
+        hst:refId: blogs
+        hst:relativecontentpath: blogs
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/blogs-detail
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/blogs-overview
+          hst:relativecontentpath: ${parent}/${1}

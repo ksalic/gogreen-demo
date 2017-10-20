@@ -1,0 +1,19 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:dataflow:
+      targeting:bootstrapEnabled: true
+      targeting:bootstrapReferenceTime: 2016-10-03T16:49:07.728+02:00
+      /modelTrainer:
+        interval: 0.1
+        processedUntil: 2016-10-03T16:48:55.423+02:00
+        /targeting:lock:
+          jcr:primaryType: targeting:lock
+          jcr:mixinTypes: ['hippo:lockable']
+          hippo:lockExpirationTime: 2016-10-03T16:52:54.615+02:00
+      /visitsAggregator:
+        interval: 0.1
+        processedUntil: 2016-10-03T16:49:01.406+02:00
+        /targeting:lock:
+          jcr:primaryType: targeting:lock
+          jcr:mixinTypes: ['hippo:lockable']
+          hippo:lockExpirationTime: 2016-10-03T16:53:16.451+02:00

@@ -1,0 +1,46 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations:
+      /common:
+        jcr:primaryType: hst:configuration
+      /common-mobile:
+        jcr:primaryType: hst:configuration
+      /rest:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /hippogogreen_zh:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /mobile_nl:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-mobile]
+      /hippogogreen_nl:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /mobile:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-mobile]
+      /mobile_zh:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-mobile]
+      /mobile_fr:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-mobile]
+      /hippogogreen_fr:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /hippogogreen_de:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /hippogogreen:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /mobile_de:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-mobile]
+      /hippogogreen_uk:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /mobile_uk:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common-mobile]

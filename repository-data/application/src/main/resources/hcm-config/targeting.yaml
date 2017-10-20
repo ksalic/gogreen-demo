@@ -1,0 +1,47 @@
+definitions:
+  config:
+    /targeting:targeting:
+      /targeting:trends:
+        jcr:primaryType: targeting:trends
+        /targeting:facets:
+          jcr:primaryType: targeting:facets
+          /persona:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.globalPersonaIdScores.id
+            targeting:facetName: persona
+            targeting:filterName: is persona
+          /document type:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.collectorData.documenttypes.terms
+            targeting:facetName: document type
+            targeting:filterName: document type
+          /category:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.collectorData.categories.terms
+            targeting:facetName: category
+            targeting:filterName: looks at category
+          /country:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.collectorData.geo.country
+            targeting:facetName: country
+            targeting:filterName: comes from country
+          /city:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.collectorData.geo.city
+            targeting:facetName: city
+            targeting:filterName: comes from city
+          /author:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.collectorData.doccreatedby.terms
+            targeting:facetName: author
+            targeting:filterName: created by
+          /url:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.pathInfo
+            targeting:facetName: url
+            targeting:filterName: url
+          /weekday:
+            jcr:primaryType: targeting:facet
+            targeting:esField: requests.collectorData.dayofweek
+            targeting:facetName: dayofweek
+            targeting:filterName: visits on day of week

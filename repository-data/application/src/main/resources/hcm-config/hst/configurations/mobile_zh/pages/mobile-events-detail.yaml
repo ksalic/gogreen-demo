@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_zh/hst:pages/mobile-events-detail:
+      jcr:primaryType: hst:component
+      jcr:uuid: 67bc8580-b49d-4a0b-926f-98e3748c8662
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        jcr:uuid: 02fa1094-bc71-47e4-b288-a6cba79fe8c4
+        hst:componentclassname: com.onehippo.gogreen.components.Detail
+        hst:template: mobile.events.detail

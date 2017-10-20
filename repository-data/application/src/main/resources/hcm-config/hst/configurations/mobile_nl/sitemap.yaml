@@ -1,0 +1,124 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_nl/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      jcr:uuid: d8203f24-7f26-466d-baff-7b00808b08ec
+      /producten:
+        jcr:primaryType: hst:sitemapitem
+        jcr:uuid: 27b9a46a-48d0-4cdd-ad2a-67a3b40acc03
+        hst:componentconfigurationid: hst:pages/mobile.redirect
+        hst:parameternames: [redirect]
+        hst:parametervalues: [producten/populair]
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 3fccab0c-40b7-43de-95f4-5d08031a2aed
+          hst:componentconfigurationid: hst:pages/mobile-products-detail
+          hst:relativecontentpath: products/${1}
+        /recent:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 07231b00-bdc5-4b97-b168-1fd51aeb1d19
+          hst:componentconfigurationid: hst:pages/mobile-products-overview-recent
+          hst:relativecontentpath: products
+        /populair.ajax:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 366efe89-e2a4-42ac-a9b4-61716fc85f37
+          hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-popular
+          hst:relativecontentpath: products
+        /recent.ajax:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 791a9d10-9d18-4b95-9aba-ab5da7b2b240
+          hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-recent
+          hst:relativecontentpath: products
+        /populair:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 45a2ec43-1683-4175-99d8-54ad69734198
+          hst:componentconfigurationid: hst:pages/mobile-products-overview-popular
+          hst:relativecontentpath: products
+        /_default_:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 360be21f-c74b-45b9-b852-c9157f7e3a02
+          /zoek.ajax:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 61747c4c-99ca-4ab5-aba6-f64d95ea111a
+            hst:relativecontentpath: products
+        /zoek:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 8dd4a622-629f-4a7a-96fc-a98cefe2a528
+          hst:componentconfigurationid: hst:pages/mobile-products-search
+          hst:relativecontentpath: products
+          /_any_.ajax:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: d183104e-80c5-4f8e-9b7a-9d25a7f42d13
+            hst:componentconfigurationid: hst:pages/mobile-ajax-products-search
+            hst:relativecontentpath: products/facetedproducts/${1}
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 7b6bf3aa-1075-4483-a060-ab4c2ccbfdc8
+            hst:componentconfigurationid: hst:pages/mobile-products-search
+            hst:relativecontentpath: products/facetedproducts/${1}
+      /evenementen:
+        jcr:primaryType: hst:sitemapitem
+        jcr:uuid: fe7b6f01-2bbd-48b3-818d-c3dce5f9c75a
+        hst:componentconfigurationid: hst:pages/mobile.redirect
+        hst:parameternames: [redirect]
+        hst:parametervalues: [evenementen/upcoming]
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: c5289134-da7f-4418-b3d4-33391fae9337
+          hst:componentconfigurationid: hst:pages/mobile-events-detail
+          hst:relativecontentpath: events/${1}
+        /upcoming:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: ca6d6066-d82a-4d20-b133-752c2801f888
+          hst:componentconfigurationid: hst:pages/mobile-events-overview-upcoming
+          hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
+        /upcoming.ajax:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: a72f50ab-3306-41ca-81bc-d39703b3bf3d
+          hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-upcoming
+          hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
+        /verleden:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 92115309-8e14-4b56-91fd-b5b98a1e0f5c
+          hst:componentconfigurationid: hst:pages/mobile-events-overview-past
+          hst:relativecontentpath: events/facetedeventsmobile/Date/Past
+        /verleden.ajax:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: ae3b0efd-2045-4ed2-9107-d7442ed30b0f
+          hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-past
+          hst:relativecontentpath: events/facetedeventsmobile/Date/Past
+        /zoek.ajax:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 7058a5ea-7af8-4c63-8ca9-201e34b7d547
+          hst:componentconfigurationid: hst:pages/mobile-ajax-events-search
+          hst:excludedforlinkrewriting: true
+          hst:relativecontentpath: events
+        /zoek:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: ad19000f-85a0-484d-8b57-e5e5500aba75
+          hst:componentconfigurationid: hst:pages/mobile-events-search
+          hst:relativecontentpath: events
+          /_any_.ajax:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: bd4750c9-9e9a-44ad-b410-162f732065b9
+            hst:componentconfigurationid: hst:pages/mobile-ajax-events-search
+            hst:relativecontentpath: events/facetedeventsmobile/${1}
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 9dae6597-ed3c-482e-bae8-16e90b954ed0
+            hst:componentconfigurationid: hst:pages/mobile-events-search
+            hst:relativecontentpath: events/facetedeventsmobile/${1}
+        /evenementen.poi:
+          jcr:primaryType: hst:sitemapitem
+          jcr:uuid: 555919c1-6241-42b7-8849-f9bc5adf8b01
+          hst:componentconfigurationid: hst:pages/events-layar
+          hst:excludedforlinkrewriting: true
+          hst:relativecontentpath: events
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        jcr:uuid: 60e52627-af45-40f4-beea-2ac80b8ed3d5
+        hst:componentconfigurationid: hst:pages/error
+      /pagenotfound:
+        jcr:primaryType: hst:sitemapitem
+        jcr:uuid: cdbdd6b8-7107-4a05-8433-6b3f277b2481
+        hst:componentconfigurationid: hst:pages/error

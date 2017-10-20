@@ -1,0 +1,437 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages:
+      jcr:primaryType: hst:pages
+      /standardpage:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:abstractpages/defaultpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:template: standard.main
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: standard.main.top
+          /right:
+            jcr:primaryType: hst:component
+            hst:template: standard.main.right
+      /homepage:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:abstractpages/defaultpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+          hst:template: home.main
+          /home-top:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-top
+          /home-main-left1:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-main-left1
+          /home-main-right1:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-main-right1
+          /home-main-left2:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-main-left2
+          /home-main-right2:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-main-right2
+          /home-main-top:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-main-top
+          /home-main-bottom:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-main-bottom
+          /home-bottom:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: homepage/home-bottom
+      /news-overview:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: news-overview/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: news.overview.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.news.NewsOverview
+            hst:parameternames: [pageSize, scope]
+            hst:parametervalues: ['6', news]
+            hst:template: news.overview.content
+          /right:
+            jcr:primaryType: hst:component
+            /facetnav:
+              jcr:primaryType: hst:component
+              hst:parameternames: [facetnav.location]
+              hst:parametervalues: [news/facetednews]
+              hst:referencecomponent: hst:components/facetnav
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: news-overview/boxes-right
+      /news-detail:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: news-detail/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: news.detail.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.Detail
+            hst:template: news.detail.content
+          /right:
+            jcr:primaryType: hst:component
+            /facetnav:
+              jcr:primaryType: hst:component
+              hst:parameternames: [facetnav.location]
+              hst:parametervalues: [news/facetednews]
+              hst:referencecomponent: hst:components/facetnav
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: news-detail/boxes-right
+      /events-overview:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:template: events.overview.main
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: events-overview/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: events.overview.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.events.EventsAndCalendar
+            hst:parameternames: [pageSize]
+            hst:parametervalues: ['4']
+            hst:template: events.overview.content
+          /right:
+            jcr:primaryType: hst:component
+            /calendar:
+              jcr:primaryType: hst:component
+              hst:componentclassname: com.onehippo.gogreen.components.events.EventsAndCalendar
+              hst:template: events.calendar
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: events-overview/boxes-right
+      /events-detail:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.Detail
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: events-detail/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.DocumentComponent
+            hst:template: events.detail.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.Detail
+            hst:template: events.detail.content
+          /right:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.Detail
+            hst:template: events.detail.right
+            /relatedblogs:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Blogs, 'hippogogreen:blogitem']
+              hst:referencecomponent: hst:components/relateddocuments
+            /relatedevents:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Events, 'hippogogreen:event']
+              hst:referencecomponent: hst:components/relateddocuments
+            /relatedproducts:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Products, 'hippogogreen:product']
+              hst:referencecomponent: hst:components/relateddocuments
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: events-detail/boxes-right
+      /blogs-overview:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: blogs-overview/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: blogs.overview.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.blogs.Overview
+            hst:template: blogs.overview.content
+          /right:
+            jcr:primaryType: hst:component
+            /facetnav:
+              jcr:primaryType: hst:component
+              hst:parameternames: [facetnav.location]
+              hst:parametervalues: [blogs/facetedblogs]
+              hst:referencecomponent: hst:components/facetnav
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: blogs-overview/boxes-right
+      /blogs-detail:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: blogs-detail/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.DocumentComponent
+            hst:template: blogs.detail.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.Detail
+            hst:template: blogs.detail.content
+            /comments:
+              jcr:primaryType: hst:component
+              hst:parameternames: [commentsFolder]
+              hst:parametervalues: [comments/blogs]
+              hst:referencecomponent: hst:components/comments
+          /right:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.Detail
+            hst:template: blogs.detail.right
+            /relatedblogs:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Blogs, 'hippogogreen:blogitem']
+              hst:referencecomponent: hst:components/relateddocuments
+            /relatedevents:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Events, 'hippogogreen:event']
+              hst:referencecomponent: hst:components/relateddocuments
+            /relatedproducts:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Products, 'hippogogreen:product']
+              hst:referencecomponent: hst:components/relateddocuments
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: blogs-detail/boxes-right
+      /products-overview:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: products-overview/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: products.overview.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.products.Overview
+            hst:parameternames: [pageSize]
+            hst:parametervalues: ['9']
+            hst:template: products.overview.content
+            /productnav:
+              jcr:primaryType: hst:component
+              hst:componentclassname: com.onehippo.gogreen.components.products.CategoryNavigation
+              hst:parameternames: [facetnav.location]
+              hst:parametervalues: [products/facetedproducts/Category]
+              hst:template: products.overview.productnav
+          /right:
+            jcr:primaryType: hst:component
+            /facetnav:
+              jcr:primaryType: hst:component
+              hst:parameternames: [facetnav.location]
+              hst:parametervalues: [products/facetedproducts]
+              hst:referencecomponent: hst:components/facetnav
+              hst:template: products.overview.right.facetnav
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: products-overview/boxes-right
+      /products-detail:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: products-detail/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.DocumentComponent
+            hst:template: products.detail.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.products.ProductDetail
+            hst:parameternames: [pageSize]
+            hst:parametervalues: ['3']
+            hst:template: products.detail.content
+          /right:
+            jcr:primaryType: hst:component
+            /relatedblogs:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Blogs, 'hippogogreen:blogitem']
+              hst:referencecomponent: hst:components/relateddocuments
+            /relatedevents:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Events, 'hippogogreen:event']
+              hst:referencecomponent: hst:components/relateddocuments
+            /relatedproducts:
+              jcr:primaryType: hst:component
+              hst:parameternames: [headline, primaryNodeType]
+              hst:parametervalues: [Related Products, 'hippogogreen:product']
+              hst:referencecomponent: hst:components/relateddocuments
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: products-detail/boxes-right
+      /search:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: search/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: search.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.search.SearchComponent
+            hst:parameternames: [fields, beans]
+            hst:parametervalues: ["\n            hippogogreen:title,hippogogreen:summary,hippogogreen:description/hippostd:content,hippogogreen:categories,.\n\
+                \          ", 'com.onehippo.gogreen.beans.EventDocument.onehippo.gogreen.beans.BlogsDocument,com.onehippo.gogreen.beans.Product']
+            hst:template: search.content
+          /right:
+            jcr:primaryType: hst:component
+            /facetnav:
+              jcr:primaryType: hst:component
+              hst:parameternames: [facetnav.location]
+              hst:parametervalues: [searchfacets]
+              hst:referencecomponent: hst:components/facetnav
+            /boxes-right:
+              jcr:primaryType: hst:containercomponentreference
+              hst:referencecomponent: search/boxes-right
+      /about:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:template: about.main
+          /hero:
+            jcr:primaryType: hst:containercomponentreference
+            hst:referencecomponent: about/hero
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: about.top
+          /left:
+            jcr:primaryType: hst:component
+            hst:template: standard.main.right
+            /leftmenu:
+              jcr:primaryType: hst:component
+              hst:componentclassname: com.onehippo.gogreen.components.common.RepoSiteMenu
+              hst:parameternames: [siteMenu]
+              hst:parametervalues: [aboutmenu]
+              hst:template: about.leftmenu
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.AboutList
+            hst:template: about.content
+      /restapi-overview:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/about
+        /main:
+          jcr:primaryType: hst:component
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: restapi.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.common.SimpleDocument
+            hst:parameternames: [documentlocation]
+            hst:parametervalues: [restapi/rest]
+            hst:template: restapi.overview
+      /restapi-browser:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/about
+        /main:
+          jcr:primaryType: hst:component
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: restapi.top
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.common.SimpleDocument
+            hst:parameternames: [documentlocation]
+            hst:parametervalues: [restapi/browser/index]
+            hst:template: restapi.browser
+      /restapi-documentation:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/about
+        /main:
+          jcr:primaryType: hst:component
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.restapi.RestApiDocumentationList
+            hst:parameternames: [documentlocation]
+            hst:parametervalues: [restapi/documentation/index]
+            hst:template: restapi.documentation
+      /restapi-detail:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/about
+        /main:
+          jcr:primaryType: hst:component
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.restapi.RestApiDetail
+            hst:template: restapi.detail
+      /error:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.search.ErrorSearchComponent
+            hst:parameternames: [pageSize]
+            hst:parametervalues: ['3']
+            hst:template: search.content
+      /contact:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/about
+        /main:
+          jcr:primaryType: hst:component
+          /content:
+            jcr:primaryType: hst:component
+            hst:referencecomponent: hst:components/emailform
+      /faq-overview:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:pages/standardpage
+        /main:
+          jcr:primaryType: hst:component
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: faq.overview.top.ftl
+          /content:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.common.DocumentList
+            hst:template: faq.overview.content.ftl

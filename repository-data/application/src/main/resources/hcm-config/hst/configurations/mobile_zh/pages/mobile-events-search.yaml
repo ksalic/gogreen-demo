@@ -1,0 +1,24 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_zh/hst:pages/mobile-events-search:
+      jcr:primaryType: hst:component
+      jcr:uuid: 04b3f1d0-4126-492d-9164-0b94b071accf
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        jcr:uuid: 31280ec2-a06e-4f89-853d-fc00fb1f289f
+        hst:template: mobile.events.search
+        /facets:
+          jcr:primaryType: hst:component
+          jcr:uuid: dce7018f-8f37-483f-8c22-ccca69ea85c6
+          hst:componentclassname: com.onehippo.gogreen.components.common.FacetNavigation
+          hst:parameternames: [facetnav.location]
+          hst:parametervalues: [events/facetedeventsmobile]
+          hst:template: mobile.events.search.facets
+        /results:
+          jcr:primaryType: hst:component
+          jcr:uuid: 88b4f658-2091-472e-bb22-e6cdb9fa2e59
+          hst:componentclassname: com.onehippo.gogreen.components.events.Overview
+          hst:parameternames: []
+          hst:parametervalues: []
+          hst:template: mobile.events.search.results

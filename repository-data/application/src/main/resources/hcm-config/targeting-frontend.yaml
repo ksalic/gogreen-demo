@@ -1,0 +1,111 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting:
+      /collector-categories:
+        jcr:primaryType: frontend:plugin
+        collector: categories
+        plugin.class: com.onehippo.gogreen.targeting.CategoriesCollectorPlugin
+        size: 100
+      /collector-documenttypes:
+        jcr:primaryType: frontend:plugin
+        collector: documenttypes
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.documenttype.DocumentTypesCollectorPlugin
+        size: 100
+        type.prefix.excludes: ['hippogogreen:address', 'hippogogreen:basedocument',
+          'hippogogreen:restapi', 'hippogogreen:simpledocument']
+        type.prefix.includes: ['hippogogreen:']
+      /characteristic-referrer:
+        jcr:primaryType: frontend:plugin
+        characteristic: referrer
+        collector: referrer
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.referrer.ReferrerCharacteristicPlugin
+        visitor.characteristic.visible: true
+      /collector-groups:
+        jcr:primaryType: frontend:plugin
+        collector: groups
+        excludes: []
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.groups.GroupsCollectorPlugin
+      /characteristic-documenttype:
+        jcr:primaryType: frontend:plugin
+        characteristic: documenttype
+        collector: documenttypes
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.documenttype.DocumentTypeCharacteristicPlugin
+        type.prefix.excludes: ['hippogogreen:address', 'hippogogreen:basedocument',
+          'hippogogreen:restapi', 'hippogogreen:simpledocument']
+        type.prefix.includes: ['hippogogreen:']
+        visitor.characteristic.visible: false
+      /visitor-details-panel:
+        plugin.class:
+          operation: override
+          type: string
+          value: com.onehippo.gogreen.targeting.VisitorDetailsPanel
+      /collector-referrer:
+        jcr:primaryType: frontend:plugin
+        collector: referrer
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.referrer.ReferrerCollectorPlugin
+      /collector-returningvisitor:
+        jcr:primaryType: frontend:plugin
+        collector: returningvisitor
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.returningvisitor.ReturningVisitorCollectorPlugin
+      /collector-weather:
+        jcr:primaryType: frontend:plugin
+        collector: weather
+        plugin.class: com.onehippo.gogreen.targeting.WeatherCollectorPlugin
+      /collector-geo:
+        locations:
+          operation: override
+          type: string
+          value: [Amsterdam | NL | 52.350006 | 4.9167023, Cambridge | US | 42.3741
+              | -71.1072]
+      /characteristic-categories:
+        jcr:primaryType: frontend:plugin
+        characteristic: categories
+        collector: categories
+        plugin.class: com.onehippo.gogreen.targeting.CategoriesCharacteristicPlugin
+        visitor.characteristic.visible: false
+      /characteristic-groups:
+        jcr:primaryType: frontend:plugin
+        characteristic: groups
+        collector: groups
+        excludes: []
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.groups.GroupsCharacteristicPlugin
+        visitor.characteristic.visible: true
+      /collector-dayofweek:
+        jcr:primaryType: frontend:plugin
+        collector: dayofweek
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.dayofweek.DayOfWeekCollectorPlugin
+      /characteristic-returningvisitor:
+        jcr:primaryType: frontend:plugin
+        characteristic: returningvisitor
+        collector: returningvisitor
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.returningvisitor.ReturningVisitorCharacteristicPlugin
+        visitor.characteristic.visible: true
+      /characteristic-dayofweek:
+        jcr:primaryType: frontend:plugin
+        characteristic: dayofweek
+        collector: dayofweek
+        plugin.class: com.onehippo.cms7.targeting.frontend.plugin.dayofweek.DayOfWeekCharacteristicPlugin
+        visitor.characteristic.visible: true
+      /collector-agevisitor:
+        jcr:primaryType: frontend:plugin
+        collector: agevisitor
+        plugin.class: com.onehippo.gogreen.targeting.AgeCollectorPlugin
+      /characteristic-agevisitor:
+        jcr:primaryType: frontend:plugin
+        characteristic: agevisitor
+        collector: agevisitor
+        plugin.class: com.onehippo.gogreen.targeting.AgeCharacteristicPlugin
+      /characteristic-weather:
+        jcr:primaryType: frontend:plugin
+        characteristic: weather
+        collector: weather
+        plugin.class: com.onehippo.gogreen.targeting.WeatherCharacteristicPlugin
+      /collector-devicetype:
+        jcr:primaryType: frontend:plugin
+        collector: devicetype
+        plugin.class: com.onehippo.gogreen.targeting.DeviceTypeCollectorPlugin
+      /characteristic-devicetype:
+        jcr:primaryType: frontend:plugin
+        characteristic: devicetype
+        collector: devicetype
+        plugin.class: com.onehippo.gogreen.targeting.DeviceTypeCharacteristicPlugin

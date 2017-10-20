@@ -1,0 +1,75 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:personas:
+      /student:
+        jcr:primaryType: targeting:persona
+        targeting:alterego: student-alterego
+        targeting:avatar: image-1432634796525
+        targeting:description: ''
+        targeting:name: Sarah
+        targeting:quote: ''
+        targeting:segmentDescription: ''
+        targeting:segmentName: Student
+        /targeting:avatar:
+          jcr:primaryType: hippo:resource
+          hippo:filename: sarah.jpg
+          jcr:data:
+            type: binary
+            resource: /targeting/personas/student/avatar/data.jpg
+          jcr:lastModified: 2015-05-26T12:06:36.525+02:00
+          jcr:mimeType: image/jpeg
+        /targeting:expression:
+          jcr:primaryType: targeting:andexpression
+          /0000000000:
+            jcr:primaryType: targeting:rule
+            targeting:targetgroup: categories/school
+      /parent:
+        jcr:primaryType: targeting:persona
+        targeting:alterego: parent-alterego
+        targeting:avatar: image-1432634785647
+        targeting:description: ''
+        targeting:name: Peter
+        targeting:quote: ''
+        targeting:segmentDescription: ''
+        targeting:segmentName: Parent
+        /targeting:avatar:
+          jcr:primaryType: hippo:resource
+          hippo:filename: peter.jpg
+          jcr:data:
+            type: binary
+            resource: /targeting/personas/parent/avatar/data.jpg
+          jcr:lastModified: 2015-05-26T12:06:25.647+02:00
+          jcr:mimeType: image/jpeg
+        /targeting:expression:
+          jcr:primaryType: targeting:andexpression
+          /0000000000:
+            jcr:primaryType: targeting:rule
+            targeting:targetgroup: categories/family
+      /business-owner:
+        jcr:primaryType: targeting:persona
+        targeting:alterego: business-owner-alterego
+        targeting:avatar: image-1432634744298
+        targeting:description: ''
+        targeting:name: Barry
+        targeting:quote: ''
+        targeting:segmentDescription: ''
+        targeting:segmentName: Business owner
+        /targeting:avatar:
+          jcr:primaryType: hippo:resource
+          hippo:filename: barry.jpg
+          jcr:data:
+            type: binary
+            resource: /targeting/personas/business-owner/avatar/data.jpg
+          jcr:lastModified: 2015-05-26T12:05:44.298+02:00
+          jcr:mimeType: image/jpeg
+        /targeting:expression:
+          jcr:primaryType: targeting:orexpression
+          /0000000000:
+            jcr:primaryType: targeting:rule
+            targeting:targetgroup: categories/office
+          /0000000001:
+            jcr:primaryType: targeting:rule
+            targeting:targetgroup: pageviews/10simplestepspage-1484316939118
+          /0000000002:
+            jcr:primaryType: targeting:rule
+            targeting:targetgroup: pageviews/officeweekpage-1484316881651

@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-advanced-search/titlePropertyFilter:
+      jcr:primaryType: frontend:plugin
+      filterPropertyLabelKey: property.label
+      filterPropertyName: hippogogreen:title
+      filterPropertyType: text
+      plugin.class: com.onehippo.cms7.search.frontend.filters.GenericPropertyFilterPlugin
+      translator.id: service.advanced.search.titlePropertyFilter.translator
+      wicket.id: ${search.extensions}
+      wicket.model: ${model.search}

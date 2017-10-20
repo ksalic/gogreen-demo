@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_fr/hst:pages/mobile-events-overview-past:
+      jcr:primaryType: hst:component
+      hst:parameternames: [sortOrder]
+      hst:parametervalues: [descending]
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        hst:parameternames: [sortOrder]
+        hst:parametervalues: [descending]
+        hst:referencecomponent: hst:components/mobile.events.overview
+        /boxes-top:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: mobile-events-overview-past/boxes-top

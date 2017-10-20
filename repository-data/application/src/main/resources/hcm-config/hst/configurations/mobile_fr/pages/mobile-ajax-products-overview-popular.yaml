@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_fr/hst:pages/mobile-ajax-products-overview-popular:
+      jcr:primaryType: hst:component
+      jcr:uuid: 5bff1fcc-a1ab-493c-940a-b2406f553caf
+      hst:parameternames: [orderBy]
+      hst:parametervalues: ['hippogogreen:rating']
+      hst:referencecomponent: hst:components/mobile.products.overview
+      hst:template: mobile.ajax.products.overview

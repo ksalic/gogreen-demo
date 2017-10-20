@@ -1,0 +1,345 @@
+definitions:
+  config:
+    /hst:hst/hst:blueprints/website:
+      jcr:primaryType: hst:blueprint
+      hst:description: Create a new website, can be deleted.
+      hst:name: Website
+      /hst:site:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/hippogogreen
+      /hst:channel:
+        jcr:primaryType: hst:channel
+        hst:channelinfoclass: com.onehippo.gogreen.channels.WebsiteInfo
+        hst:deletable: true
+        hst:devices: [desktop, ipad_landscape, ipad_portrait, iphone_landscape, iphone_portrait]
+        hst:name: English Website
+        hst:type: website
+        /hst:channelinfo:
+          jcr:primaryType: hst:channelinfo
+          logo: /content/gallery/logos/gogreenlogo2.png
+          pageTitlePrefix: Hippo Go Green
+          themeCss: /content/assets/themes/css/hippo-green.css
+      /hst:configuration:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+        /hst:pages:
+          jcr:primaryType: hst:pages
+        /hst:workspace:
+          jcr:primaryType: hst:workspace
+          /hst:containers:
+            jcr:primaryType: hst:containercomponentfolder
+            /standardpage:
+              jcr:primaryType: hst:containercomponentfolder
+            /homepage:
+              jcr:primaryType: hst:containercomponentfolder
+              /home-top:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-08T14:36:09.897+02:00
+                hst:xtype: HST.vBox
+              /home-bottom:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-09-19T16:33:59.235+02:00
+                hst:xtype: HST.vBox
+              /home-main-bottom:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-09-19T16:39:12.931+02:00
+                hst:xtype: HST.vBox
+              /home-main-top:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2015-02-02T11:05:03.622+01:00
+                hst:xtype: HST.vBox
+              /home-main-left1:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2015-02-02T10:39:50.174+01:00
+                hst:xtype: HST.vBox
+              /home-main-right1:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2015-02-02T11:10:49.592+01:00
+                hst:xtype: HST.vBox
+              /home-main-left2:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2015-02-02T10:39:50.174+01:00
+                hst:xtype: HST.vBox
+              /home-main-right2:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2015-02-02T11:10:49.592+01:00
+                hst:xtype: HST.vBox
+            /news-overview:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /news-detail:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /events-overview:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /events-detail:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /blogs-overview:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-28T11:35:07.233+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /blogs-detail:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-28T11:35:07.233+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /products-overview:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /products-detail:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+            /about:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+            /search:
+              jcr:primaryType: hst:containercomponentfolder
+              /hero:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-27T16:24:45.019+02:00
+                hst:xtype: HST.vBox
+              /boxes-right:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:xtype: HST.vBox
+          /hst:sitemenus:
+            jcr:primaryType: hst:sitemenus
+            /mainnavigation:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:sitemenu
+            /aboutmenu:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:sitemenu
+            /servicemenu:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:sitemenu
+            /sectionsmenu:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:sitemenu
+          /hst:pages:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:pages
+          /hst:sitemap:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:sitemap
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+          /news:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/news-overview
+            hst:refId: news
+            hst:relativecontentpath: news
+            /tags:
+              jcr:primaryType: hst:sitemapitem
+              hst:relativecontentpath: tagclouds/newstags
+              /_any_:
+                jcr:primaryType: hst:sitemapitem
+                hst:componentconfigurationid: hst:pages/news-overview
+                hst:relativecontentpath: ${parent}/newstags/${1}
+            /faceted:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/news-overview
+              hst:refId: newsFacets
+              hst:relativecontentpath: ${parent}
+              /_any_:
+                jcr:primaryType: hst:sitemapitem
+                hst:componentconfigurationid: hst:pages/news-overview
+                hst:relativecontentpath: ${parent}/${1}
+          /events:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/events-overview
+            hst:refId: events
+            hst:relativecontentpath: events
+            /_any_.html:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/events-detail
+              hst:relativecontentpath: ${parent}/${1}
+          /root:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/homepage
+            hst:refId: home
+          /products:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/products-overview
+            hst:refId: products
+            hst:relativecontentpath: products/facetedproducts
+            /_any_:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/products-overview
+              hst:relativecontentpath: ${parent}/${1}
+            /_any_.html:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/products-detail
+              hst:relativecontentpath: products/${1}
+          /blogs:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/blogs-overview
+            hst:refId: blogs
+            hst:relativecontentpath: blogs
+            /_any_.html:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/blogs-detail
+              hst:relativecontentpath: ${parent}/${1}
+            /_any_:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/blogs-overview
+              hst:relativecontentpath: ${parent}/${1}
+          /search:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/search
+            hst:refId: search
+            /tags:
+              jcr:primaryType: hst:sitemapitem
+              hst:relativecontentpath: tagclouds/searchtags
+              /_any_:
+                jcr:primaryType: hst:sitemapitem
+                hst:componentconfigurationid: hst:pages/search
+                hst:relativecontentpath: ${parent}/searchtags/${1}
+            /faceted:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/search
+              /_any_:
+                jcr:primaryType: hst:sitemapitem
+                hst:componentconfigurationid: hst:pages/search
+                hst:relativecontentpath: searchfacets/${1}
+          /faq:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/faq
+            hst:relativecontentpath: faqs
+            /_default_.html:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/faq-detail
+              hst:relativecontentpath: ${parent}/${1}
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/error
+          /about:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/about
+            hst:relativecontentpath: about
+            /_any_:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/about
+              hst:relativecontentpath: ${parent}/${1}
+          /rss:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:components/rss-news
+            hst:parameternames: [scope]
+            hst:parametervalues: [news]
+            /_any_:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:components/rss-news
+              hst:parameternames: [scope]
+              hst:parametervalues: [news]
+          /sitemap:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/sitemap
+            hst:refId: sitemap
+          /rest:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/restapi-overview
+            hst:refId: restapi
+            hst:relativecontentpath: restapi
+            /browser:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/restapi-browser
+              hst:relativecontentpath: restapi/browser
+              /_any_.html:
+                jcr:primaryType: hst:sitemapitem
+                hst:componentconfigurationid: hst:pages/restapi-detail
+                hst:relativecontentpath: ${parent}/${1}
+            /documentation:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/restapi-documentation
+              hst:refId: restapi-documentation
+              hst:relativecontentpath: restapi/documentation
+              /_any_.html:
+                jcr:primaryType: hst:sitemapitem
+                hst:componentconfigurationid: hst:pages/restapi-detail
+                hst:relativecontentpath: ${parent}/${1}
+          /resellerfaq:
+            jcr:primaryType: hst:sitemapitem
+            hst:authenticated: true
+            hst:componentconfigurationid: hst:pages/faq
+            hst:relativecontentpath: resellerfaqs
+            hst:roles: [reseller]
+            /_default_.html:
+              jcr:primaryType: hst:sitemapitem
+              hst:componentconfigurationid: hst:pages/faq-detail
+              hst:relativecontentpath: ${parent}/${1}

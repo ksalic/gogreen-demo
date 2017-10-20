@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_de/hst:pages/mobile-ajax-events-overview-upcoming:
+      jcr:primaryType: hst:component
+      hst:parameternames: [sortOrder]
+      hst:parametervalues: [ascending]
+      hst:referencecomponent: hst:components/mobile.events.overview
+      hst:template: mobile.ajax.events.overview

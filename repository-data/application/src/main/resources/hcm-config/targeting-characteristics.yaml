@@ -1,0 +1,174 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:characteristics:
+      /city:
+        /amsterdam:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Amsterdam
+          targeting:propertynames: [Amsterdam]
+        /london-1422871767661:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: London
+          targeting:propertynames: [London]
+        /boston-1422871681988:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Boston
+          targeting:propertynames: [Boston]
+      /country:
+        /the-netherlands:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: The Netherlands
+          targeting:propertynames: [NL]
+        /a-sunny-country:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: a sunny country
+          targeting:propertynames: [AU, MA, ES]
+      /categories:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: categories
+        targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.VectorScorer
+        /office:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Office
+          targeting:propertynames: [office]
+        /sports:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Sports
+          targeting:propertynames: [sports]
+        /home:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Home
+          targeting:propertynames: [home, kitchen, garden]
+        /family:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Family
+          targeting:propertynames: [family]
+        /school:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: School
+          targeting:propertynames: [school]
+      /documenttype:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: documenttypes
+        targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.VectorScorer
+        /blogs:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Blogs
+          targeting:propertynames: ['hippogogreen:blogitem']
+        /products:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Products
+          targeting:propertynames: ['hippogogreen:product']
+        /events:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Events
+          targeting:propertynames: ['hippogogreen:event']
+      /dayofweek:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: dayofweek
+        targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.DayOfWeekScorer
+        /monday-1351083125621:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Monday
+          targeting:propertynames: ['1']
+        /tuesday-1351083137105:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Tuesday
+          targeting:propertynames: ['2']
+        /wednesday-1351083315674:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Wednesday
+          targeting:propertynames: ['3']
+        /thursday-1351083324322:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Thursday
+          targeting:propertynames: ['4']
+        /friday-1351083333231:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Friday
+          targeting:propertynames: ['5']
+        /saterday-1351083340829:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Saturday
+          targeting:propertynames: ['6']
+        /sunday-1351083347651:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Sunday
+          targeting:propertynames: ['0']
+        /weekend-1351083366352:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Weekend
+          targeting:propertynames: ['0', '6']
+        /weekday-1351083411752:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Weekday
+          targeting:propertynames: ['1', '2', '3', '4', '5']
+      /returningvisitor:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: returningvisitor
+        targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.ReturningVisitorScorer
+        /newvisitor-1351081607182:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: New visitor
+          targeting:propertynames: [new]
+        /returningvisitor-1351081617190:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Returning visitor
+          targeting:propertynames: [returning]
+      /referrer:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: referrer
+        targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.MatchesTermScorer
+        /partnersite-1351083992070:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Partner site
+          targeting:propertynames: ['*terrafirma.com*']
+      /weather:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: weather
+        targeting:scorerClassName: com.onehippo.gogreen.targeting.WeatherScorer
+        /sunnyweather-1351008022787:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Sunny weather
+          targeting:propertynames: ['116', '113']
+        /changeableweather-1351008037076:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Changeable weather
+          targeting:propertynames: ['368', '353', '329', '299', '293', '263', '176',
+            '119']
+        /rainyweather-1351008048544:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Rainy weather
+          targeting:propertynames: ['395', '392', '389', '386', '377', '374', '371',
+            '365', '362', '359', '359', '356', '350', '338', '335', '332', '326',
+            '323', '320', '317', '314', '311', '308', '305', '302', '296', '284',
+            '281', '266', '260', '248', '230', '227', '200', '185', '182', '179',
+            '143', '122']
+      /groups:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: groups
+        targeting:scorerClassName: com.onehippo.cms7.targeting.scoring.GroupsScorer
+        /reseller-1351771616421:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Reseller
+          targeting:propertynames: [resellers]
+      /agevisitor:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: agevisitor
+        targeting:scorerClassName: com.onehippo.gogreen.targeting.AgeScorer
+      /devicetype:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: devicetype
+        targeting:scorerClassName: com.onehippo.gogreen.targeting.DeviceTypeScorer
+        /desktop-1448448545307:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Desktop
+          targeting:propertynames: [DESKTOP]
+        /phone-1448463041306:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Phone
+          targeting:propertynames: [PHONE]
+        /tablet-1448464338381:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Tablet
+          targeting:propertynames: [TABLET]

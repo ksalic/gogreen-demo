@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-advanced-search/genericFilters:
+      document.type.excluded:
+        operation: add
+        type: string
+        value: ['hippogogreen:basedocument', 'hippogogreen:restapi']
+      document.type.namespaces:
+        operation: add
+        type: string
+        value: [hippogogreen]

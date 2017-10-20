@@ -1,0 +1,75 @@
+definitions:
+  config:
+    /hst:hst/hst:blueprints/facebook:
+      jcr:primaryType: hst:blueprint
+      hst:description: Create a new Facebook Page Tab, can be deleted.
+      hst:name: Facebook Page Tab
+      /hst:channel:
+        jcr:primaryType: hst:channel
+        hst:channelinfoclass: com.onehippo.gogreen.channels.WebsiteInfo
+        hst:deletable: true
+        hst:name: Facebook Page Tab
+        hst:type: facebook
+        /hst:channelinfo:
+          jcr:primaryType: hst:channelinfo
+          logo: /content/gallery/logos/hippo-go-green.png
+          pageTitlePrefix: Hippo Go Green
+          themeCss: /content/assets/themes/css/green.css
+      /hst:site:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/hippogogreen
+      /hst:configuration:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+        /hst:pages:
+          jcr:primaryType: hst:pages
+          /defaultpage:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+            hst:parameternames: [org.hippoecm.hst.core.container.custom.errorhandler]
+            hst:parametervalues: [com.onehippo.gogreen.exceptions.CustomPageErrorHandler]
+            hst:template: layout.facebook.ftl
+            /main:
+              jcr:primaryType: hst:component
+              hst:template: standard.facebook.main
+          /homepage:
+            jcr:primaryType: hst:component
+            hst:referencecomponent: hst:pages/defaultpage
+            /main:
+              jcr:primaryType: hst:component
+              /content:
+                jcr:primaryType: hst:containercomponentreference
+                hst:referencecomponent: homepage/content
+          /error:
+            jcr:primaryType: hst:component
+            hst:referencecomponent: hst:pages/defaultpage
+            /main:
+              jcr:primaryType: hst:component
+              /content:
+                jcr:primaryType: hst:component
+                hst:componentclassname: com.onehippo.gogreen.components.search.ErrorSearchComponent
+                hst:parameternames: [pageSize]
+                hst:parametervalues: ['6']
+                hst:template: search.content
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+          /root:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/homepage
+            hst:refId: home
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/error
+        /hst:workspace:
+          jcr:primaryType: hst:workspace
+          /hst:sitemenus:
+            jcr:primaryType: hst:sitemenus
+          /hst:containers:
+            jcr:primaryType: hst:containercomponentfolder
+            /homepage:
+              jcr:primaryType: hst:containercomponentfolder
+              /content:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                hst:lastmodified: 2014-08-08T14:36:09.897+02:00
+                hst:xtype: HST.vBox

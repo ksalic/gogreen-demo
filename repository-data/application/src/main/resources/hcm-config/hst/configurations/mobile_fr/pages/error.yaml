@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_fr/hst:pages/error:
+      jcr:primaryType: hst:component
+      jcr:uuid: 8d64916b-d5f4-40bc-8d06-21796a0bc0a4
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        jcr:uuid: 0571d6c8-bb22-47f0-b203-36758b5be931
+        hst:componentclassname: com.onehippo.gogreen.components.ErrorComponent
+        hst:template: mobile.error

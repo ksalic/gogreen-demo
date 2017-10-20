@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_de/hst:pages/mobile-products-search:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        hst:template: mobile.products.search
+        /facets:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.common.FacetNavigation
+          hst:parameternames: [facetnav.location]
+          hst:parametervalues: [products/facetedproducts]
+          hst:template: mobile.products.search.facets
+        /results:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.products.Overview
+          hst:parameternames: []
+          hst:parametervalues: []
+          hst:template: mobile.products.search.results

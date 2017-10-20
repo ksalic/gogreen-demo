@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common-mobile/hst:prototypepages:
+      jcr:primaryType: hst:pages
+      /landing-page:
+        jcr:primaryType: hst:component
+        jcr:mixinTypes: ['hst:prototypemeta']
+        hst:displayname: Landing page
+        hst:referencecomponent: hst:pages/mobile-standardpage
+        /body:
+          jcr:primaryType: hst:containercomponent
+          hst:xtype: HST.vBox

@@ -1,0 +1,27 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_uk/hst:pages/mobile-standardpage:
+      jcr:primaryType: hst:component
+      jcr:uuid: 1fbdb74a-46bf-4e80-a5b0-e9fc5e12146e
+      hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+      hst:template: layout.mobilepage
+      /header:
+        jcr:primaryType: hst:component
+        jcr:uuid: f940accf-f6ad-4843-b20d-6d2b34d1d6c5
+        hst:componentclassname: com.onehippo.gogreen.components.common.SiteMenu
+        hst:parameternames: [siteMenu]
+        hst:parametervalues: [mobile]
+        hst:template: mobile.standard.header
+        /langnavigation:
+          jcr:primaryType: hst:component
+          jcr:uuid: f2c54eda-f557-4e07-841b-4baf9dd7a54f
+          hst:componentclassname: com.onehippo.gogreen.components.common.LanguageComponent
+          hst:template: mobile.standard.langnavigation
+        /logo:
+          jcr:primaryType: hst:component
+          jcr:uuid: a93f5cae-d127-4fdb-8276-da12c8c6a158
+          hst:referencecomponent: hst:components/mobile.logo
+      /footer:
+        jcr:primaryType: hst:component
+        jcr:uuid: da9e4747-5350-406e-abcb-50c935ca0ad5
+        hst:template: mobile.standard.footer

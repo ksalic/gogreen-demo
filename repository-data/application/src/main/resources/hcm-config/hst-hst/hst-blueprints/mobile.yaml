@@ -1,0 +1,369 @@
+definitions:
+  config:
+    /hst:hst/hst:blueprints/mobile:
+      jcr:primaryType: hst:blueprint
+      hst:description: Create a new Mobile Website, can be deleted.
+      hst:name: Mobile Website
+      /hst:mount:
+        jcr:primaryType: hst:mount
+        hst:homepage: products
+        hst:types: [mobile]
+      /hst:site:
+        jcr:primaryType: hst:site
+        hst:content: /content/documents/hippogogreen
+      /hst:channel:
+        jcr:primaryType: hst:channel
+        hst:channelinfoclass: com.onehippo.gogreen.channels.MobileInfo
+        hst:deletable: true
+        hst:devices: [desktop, iphone_portrait, iphone_landscape]
+        hst:name: English Mobile Site (live)
+        hst:type: mobile
+        /hst:channelinfo:
+          jcr:primaryType: hst:channelinfo
+          logo: /content/gallery/logos/hippo-go-green.png
+          pageTitlePrefix: Hippo Go Green
+          themeCss: /content/assets/themes/css/green.css
+      /hst:configuration:
+        jcr:primaryType: hst:configuration
+        jcr:uuid: 2cd03e60-c711-4710-baa3-5ba9c05c7338
+        hst:inheritsfrom: [../common-mobile]
+        /hst:pages:
+          jcr:primaryType: hst:pages
+          jcr:uuid: 0e012e51-791b-4562-8c06-9035b1545ecf
+          /mobile-standardpage:
+            jcr:primaryType: hst:component
+            jcr:uuid: e6337d65-9478-4f64-a99d-04a5f82f7116
+            hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+            hst:template: layout.mobilepage
+            /header:
+              jcr:primaryType: hst:component
+              jcr:uuid: 880afe8e-4d3b-417c-9d2a-79ae70064a15
+              hst:componentclassname: com.onehippo.gogreen.components.common.SiteMenu
+              hst:parameternames: [siteMenu]
+              hst:parametervalues: [mobile]
+              hst:template: mobile.standard.header
+              /langnavigation:
+                jcr:primaryType: hst:component
+                jcr:uuid: b80cfacf-20e0-4c3d-a9e5-e08dbb96ba6e
+                hst:componentclassname: com.onehippo.gogreen.components.common.LanguageComponent
+                hst:template: mobile.standard.langnavigation
+              /logo:
+                jcr:primaryType: hst:component
+                jcr:uuid: 860cd065-15e4-40e7-bf4a-34b1824794e8
+                hst:referencecomponent: hst:components/mobile.logo
+            /footer:
+              jcr:primaryType: hst:component
+              jcr:uuid: 16453327-2be9-4c87-8752-44150ee1eefa
+              hst:template: mobile.standard.footer
+          /mobile-products-detail:
+            jcr:primaryType: hst:component
+            jcr:uuid: 9ec5dc2e-308e-4203-bcf0-454a75a8f206
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: 33859056-5168-4cd5-b67c-223922d4f983
+              hst:componentclassname: com.onehippo.gogreen.components.products.ProductDetail
+              hst:template: mobile.products.detail
+          /mobile-events-detail:
+            jcr:primaryType: hst:component
+            jcr:uuid: b259d509-742d-4ee6-b814-818000eff7d7
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: 59841f34-df01-4a44-a0ab-2be546b5e888
+              hst:componentclassname: com.onehippo.gogreen.components.Detail
+              hst:template: mobile.events.detail
+          /mobile-products-overview-recent:
+            jcr:primaryType: hst:component
+            jcr:uuid: 9094b378-e2b0-4f30-a0a2-6852f111c529
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: be5580bc-9409-4936-909e-16d71c1a4490
+              hst:parameternames: [orderBy]
+              hst:parametervalues: ['hippostdpubwf:lastModificationDate']
+              hst:referencecomponent: hst:components/mobile.products.overview
+              /boxes-top:
+                jcr:primaryType: hst:containercomponentreference
+                hst:referencecomponent: mobile-products-overview-recent/boxes-top
+          /mobile-products-overview-popular:
+            jcr:primaryType: hst:component
+            jcr:uuid: 663de91d-0622-487e-b92d-2848719a83fb
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: 058cfc1a-07ac-4d42-a0a5-1739936a4908
+              hst:parameternames: [orderBy]
+              hst:parametervalues: ['hippogogreen:rating']
+              hst:referencecomponent: hst:components/mobile.products.overview
+              /boxes-top:
+                jcr:primaryType: hst:containercomponentreference
+                hst:referencecomponent: mobile-products-overview-popular/boxes-top
+          /mobile-ajax-products-overview-popular:
+            jcr:primaryType: hst:component
+            jcr:uuid: 2e5e3079-a1ea-4760-b0f4-8988785b72d8
+            hst:parameternames: [orderBy]
+            hst:parametervalues: ['hippogogreen:rating']
+            hst:referencecomponent: hst:components/mobile.products.overview
+            hst:template: mobile.ajax.products.overview
+          /mobile-ajax-products-overview-recent:
+            jcr:primaryType: hst:component
+            jcr:uuid: e52f2078-f6f0-4e84-8d89-27bf510ee7dc
+            hst:parameternames: [orderBy]
+            hst:parametervalues: ['hippostdpubwf:lastModificationDate']
+            hst:referencecomponent: hst:components/mobile.products.overview
+            hst:template: mobile.ajax.products.overview
+          /mobile-ajax-products-search:
+            jcr:primaryType: hst:component
+            jcr:uuid: b4bda44d-3aa0-4ae5-910e-711c49c58d11
+            hst:componentclassname: com.onehippo.gogreen.components.products.Overview
+            hst:template: mobile.ajax.products.overview
+          /mobile-ajax-events-overview-past:
+            jcr:primaryType: hst:component
+            jcr:uuid: 72519129-630c-438d-bc78-7de2167649fb
+            hst:parameternames: [sortOrder]
+            hst:parametervalues: [descending]
+            hst:referencecomponent: hst:components/mobile.events.overview
+            hst:template: mobile.ajax.events.overview
+          /mobile-ajax-events-overview-upcoming:
+            jcr:primaryType: hst:component
+            jcr:uuid: e20e5a3a-5697-462d-ad65-c9c42e9bb809
+            hst:parameternames: [sortOrder]
+            hst:parametervalues: [ascending]
+            hst:referencecomponent: hst:components/mobile.events.overview
+            hst:template: mobile.ajax.events.overview
+          /mobile-ajax-events-search:
+            jcr:primaryType: hst:component
+            jcr:uuid: 3c84d048-5937-40c7-bc1a-d5a16bc79b80
+            hst:componentclassname: com.onehippo.gogreen.components.events.Overview
+            hst:template: mobile.ajax.events.overview
+          /mobile-events-overview-upcoming:
+            jcr:primaryType: hst:component
+            jcr:uuid: 78c39d75-4d99-4354-8c13-54729024756c
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: 19809dbc-1c0a-4fb3-83f1-0409f68cf0f3
+              hst:parameternames: [sortOrder]
+              hst:parametervalues: [ascending]
+              hst:referencecomponent: hst:components/mobile.events.overview
+          /mobile-events-overview-past:
+            jcr:primaryType: hst:component
+            jcr:uuid: 8485ecba-0d89-47f4-9b24-85f9aaf0b40f
+            hst:parameternames: [sortOrder]
+            hst:parametervalues: [descending]
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: a2ebcf47-2066-41ef-bd6b-709150d79755
+              hst:parameternames: [sortOrder]
+              hst:parametervalues: [descending]
+              hst:referencecomponent: hst:components/mobile.events.overview
+          /mobile-products-search:
+            jcr:primaryType: hst:component
+            jcr:uuid: 0577c8f1-0764-422f-8b07-58e68720121e
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: 87af704c-a97f-4094-add3-b4cbb42894a7
+              hst:template: mobile.products.search
+              /facets:
+                jcr:primaryType: hst:component
+                jcr:uuid: 888dd4b4-b5c9-4266-80d3-9ccd7be7a995
+                hst:componentclassname: com.onehippo.gogreen.components.common.FacetNavigation
+                hst:parameternames: [facetnav.location]
+                hst:parametervalues: [products/facetedproducts]
+                hst:template: mobile.products.search.facets
+              /results:
+                jcr:primaryType: hst:component
+                jcr:uuid: 03a10016-07d1-4d5b-a1b7-b39e154fec32
+                hst:componentclassname: com.onehippo.gogreen.components.products.Overview
+                hst:parameternames: []
+                hst:parametervalues: []
+                hst:template: mobile.products.search.results
+          /mobile-events-search:
+            jcr:primaryType: hst:component
+            jcr:uuid: 93a477e3-9a2d-4b35-8c95-55f1cd23d415
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: dee0d758-106d-40ff-aee5-ba3885571226
+              hst:template: mobile.events.search
+              /facets:
+                jcr:primaryType: hst:component
+                jcr:uuid: e17f08a5-c51c-41e1-b7a0-4c0bfae1be56
+                hst:componentclassname: com.onehippo.gogreen.components.common.FacetNavigation
+                hst:parameternames: [facetnav.location]
+                hst:parametervalues: [events/facetedeventsmobile]
+                hst:template: mobile.events.search.facets
+              /results:
+                jcr:primaryType: hst:component
+                jcr:uuid: 5323b7bd-0a98-4c14-8817-77851a75a7b4
+                hst:componentclassname: com.onehippo.gogreen.components.events.Overview
+                hst:parameternames: []
+                hst:parametervalues: []
+                hst:template: mobile.events.search.results
+          /mobile.redirect:
+            jcr:primaryType: hst:component
+            jcr:uuid: c1a6ec15-5d7a-45a4-8588-d6e9a78052f2
+            hst:componentclassname: com.onehippo.gogreen.components.common.RedirectComponent
+            hst:parameternames: [redirect]
+            hst:parametervalues: ['${redirect}']
+            hst:template: layout.mobilepage
+          /events-layar:
+            jcr:primaryType: hst:component
+            jcr:uuid: 706826c7-4d8e-4b8b-a523-6c068e1f0ad7
+            hst:componentclassname: com.onehippo.gogreen.components.events.Layar
+            hst:template: events.layar
+          /error:
+            jcr:primaryType: hst:component
+            jcr:uuid: 53cdadee-2bf1-410f-b438-3ceb837ee1e2
+            hst:referencecomponent: hst:pages/mobile-standardpage
+            /body:
+              jcr:primaryType: hst:component
+              jcr:uuid: 58d1aad4-e47c-4f1b-aef2-27b47f60f2a4
+              hst:componentclassname: com.onehippo.gogreen.components.ErrorComponent
+              hst:template: mobile.error
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+          jcr:uuid: bf6c12b5-e8ef-4a42-9c2a-511871bb930b
+          /products:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 5c2e7e1b-c6d5-499d-890b-45ec08fedfdc
+            hst:componentconfigurationid: hst:pages/mobile.redirect
+            hst:parameternames: [redirect]
+            hst:parametervalues: [products/popular]
+            /_any_.html:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 4c9556d1-b3b0-4649-9d6c-8ec84856232d
+              hst:componentconfigurationid: hst:pages/mobile-products-detail
+              hst:relativecontentpath: products/${1}
+            /recent:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 0cb4f65f-d173-43be-af6d-2056982d3630
+              hst:componentconfigurationid: hst:pages/mobile-products-overview-recent
+              hst:relativecontentpath: products
+            /popular.ajax:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 3fe8a09b-c691-417e-ba1e-e65cb1c6e0e9
+              hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-popular
+              hst:relativecontentpath: products
+            /recent.ajax:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 2722ada0-3407-4311-872c-0cf85e475df3
+              hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-recent
+              hst:relativecontentpath: products
+            /popular:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 7e242ef2-5dc7-4ddc-bba7-f54be1eff254
+              hst:componentconfigurationid: hst:pages/mobile-products-overview-popular
+              hst:relativecontentpath: products
+            /search.ajax:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 0fdad262-609e-4d1a-af80-907b5b24cc60
+              hst:componentconfigurationid: hst:pages/mobile-ajax-products-search
+              hst:relativecontentpath: products
+            /search:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: f9437caf-0d75-4b8d-9be4-8680b07175f2
+              hst:componentconfigurationid: hst:pages/mobile-products-search
+              hst:relativecontentpath: products
+              /_any_.ajax:
+                jcr:primaryType: hst:sitemapitem
+                jcr:uuid: 032d2e6b-1c8e-4ba2-b3a7-fb100e3cdfde
+                hst:componentconfigurationid: hst:pages/mobile-ajax-products-search
+                hst:relativecontentpath: products/facetedproducts/${1}
+              /_any_:
+                jcr:primaryType: hst:sitemapitem
+                jcr:uuid: 656c48be-e27b-4735-9020-7cc402156c57
+                hst:componentconfigurationid: hst:pages/mobile-products-search
+                hst:relativecontentpath: products/facetedproducts/${1}
+          /events:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 2e6d967c-db7c-4ef8-9b2e-95692b7382f8
+            hst:componentconfigurationid: hst:pages/mobile.redirect
+            hst:parameternames: [redirect]
+            hst:parametervalues: [events/upcoming]
+            /_any_.html:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: ab4684f2-0551-4e5d-811c-70d01a256340
+              hst:componentconfigurationid: hst:pages/mobile-events-detail
+              hst:relativecontentpath: events/${1}
+            /upcoming:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: ee9a17a0-4c6f-4fb8-812d-c32b89f5b364
+              hst:componentconfigurationid: hst:pages/mobile-events-overview-upcoming
+              hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
+            /past:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: f1188cee-f85c-49af-b61f-edc60d201aea
+              hst:componentconfigurationid: hst:pages/mobile-events-overview-past
+              hst:relativecontentpath: events/facetedeventsmobile/Date/Past
+            /past.ajax:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 88f8b31c-ceea-4ef5-bfb7-11a039446d01
+              hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-past
+              hst:relativecontentpath: events/facetedeventsmobile/Date/Past
+            /upcoming.ajax:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 8caa5871-de1b-45cc-9f54-1efe5d5b699b
+              hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-upcoming
+              hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
+            /search.ajax:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 53fd4305-537b-46e8-be6d-fc8cf88e7dc5
+              hst:componentconfigurationid: hst:pages/mobile-ajax-events-search
+              hst:relativecontentpath: events
+            /search:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 08cf2634-ec1a-416f-bb8a-02eada8d996e
+              hst:componentconfigurationid: hst:pages/mobile-events-search
+              hst:relativecontentpath: events
+              /_any_.ajax:
+                jcr:primaryType: hst:sitemapitem
+                jcr:uuid: 55860baf-8d50-449c-9285-9906e76b1027
+                hst:componentconfigurationid: hst:pages/mobile-ajax-events-search
+                hst:relativecontentpath: events/facetedeventsmobile/${1}
+              /_any_:
+                jcr:primaryType: hst:sitemapitem
+                jcr:uuid: eb2f7f43-ca65-4da5-96e1-e57b0c4b4484
+                hst:componentconfigurationid: hst:pages/mobile-events-search
+                hst:relativecontentpath: events/facetedeventsmobile/${1}
+            /events.poi:
+              jcr:primaryType: hst:sitemapitem
+              jcr:uuid: 7ac033a8-28a2-4b59-ad84-96cc1a5726b5
+              hst:componentconfigurationid: hst:pages/events-layar
+              hst:relativecontentpath: events
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: be0b2594-db72-421c-8258-cafcede05b4f
+            hst:componentconfigurationid: hst:pages/error
+          /pagenotfound:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 4b96acd1-190d-442c-bd23-75399b3ce7d0
+            hst:componentconfigurationid: hst:pages/error
+        /hst:workspace:
+          jcr:primaryType: hst:workspace
+          /hst:sitemenus:
+            jcr:primaryType: hst:sitemenus
+            jcr:uuid: 9329d47d-61c7-4a84-a495-5514f633e794
+            /mobile:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:sitemenu
+              jcr:uuid: aad05dfd-73c3-4fc8-8eff-bab6163774b3
+          /hst:containers:
+            jcr:primaryType: hst:containercomponentfolder
+            /mobile-products-overview-popular:
+              jcr:primaryType: hst:containercomponentfolder
+              /boxes-top:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 4c29466d-7cc9-4c03-9782-6bcdfc6d5087
+                hst:xtype: HST.UnorderedList
+            /mobile-products-overview-recent:
+              jcr:primaryType: hst:containercomponentfolder
+              /boxes-top:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 57de5ae5-9471-48f4-a0af-9a93e642cca9
+                hst:xtype: HST.UnorderedList

@@ -1,0 +1,86 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:abstractpages:
+      jcr:primaryType: hst:pages
+      /basepage:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.DefaultPageComponent
+        hst:parameternames: [org.hippoecm.hst.core.container.custom.errorhandler]
+        hst:parametervalues: [com.onehippo.gogreen.exceptions.CustomPageErrorHandler]
+        hst:template: layout.webpage.ftl
+        /header:
+          jcr:primaryType: hst:component
+          hst:template: standard.header.ftl
+          /topbar:
+            jcr:primaryType: hst:component
+            hst:template: standard.header.topbar.ftl
+            /search:
+              jcr:primaryType: hst:component
+              hst:template: standard.header.search
+          /logo:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.common.WebsiteLogo
+            hst:template: standard.header.logo.ftl
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+          hst:template: standard.main.ftl
+        /footer:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.FooterComponent
+          hst:parameternames: [termsPath]
+          hst:parametervalues: [about/terms--conditions]
+          hst:template: standard.footer
+      /defaultpage:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.DefaultPageComponent
+        hst:parameternames: [org.hippoecm.hst.core.container.custom.errorhandler]
+        hst:parametervalues: [com.onehippo.gogreen.exceptions.CustomPageErrorHandler]
+        hst:template: layout.webpage.ftl
+        /header:
+          jcr:primaryType: hst:component
+          hst:template: standard.header.ftl
+          /topbar:
+            jcr:primaryType: hst:component
+            hst:template: standard.header.topbar.ftl
+            /langnavigation:
+              jcr:primaryType: hst:component
+              hst:componentclassname: com.onehippo.gogreen.components.common.LanguageComponent
+              hst:template: standard.header.langnavigation
+            /search:
+              jcr:primaryType: hst:component
+              hst:template: standard.header.search
+              /login:
+                jcr:primaryType: hst:component
+                hst:componentclassname: com.onehippo.gogreen.components.common.Login
+                hst:template: standard.header.login
+          /logo:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.common.WebsiteLogo
+            hst:template: standard.header.logo.ftl
+          /mainnavigation:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.common.SiteMenu
+            hst:parameternames: [siteMenu]
+            hst:parametervalues: [mainnavigation]
+            hst:template: standard.header.mainnavigation
+        /main:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+          hst:template: standard.main.ftl
+        /footer:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.FooterComponent
+          hst:parameternames: [termsPath]
+          hst:parametervalues: [about/terms--conditions]
+          hst:template: standard.footer
+          /service:
+            jcr:primaryType: hst:component
+            hst:parameternames: [siteMenu]
+            hst:parametervalues: [servicemenu]
+            hst:referencecomponent: hst:components/footermenu
+          /sections:
+            jcr:primaryType: hst:component
+            hst:parameternames: [siteMenu]
+            hst:parametervalues: [sectionsmenu]
+            hst:referencecomponent: hst:components/footermenu

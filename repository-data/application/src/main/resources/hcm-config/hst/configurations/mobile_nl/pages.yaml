@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_nl/hst:pages:
+      jcr:primaryType: hst:pages
+      jcr:uuid: ec541087-1922-40b5-8640-f2aa1412c4cf
+      /mobile.redirect:
+        jcr:primaryType: hst:component
+        jcr:uuid: 01e4c3b2-cf07-46a8-adb9-0ca645c8622b
+        hst:componentclassname: com.onehippo.gogreen.components.common.RedirectComponent
+        hst:parameternames: [redirect]
+        hst:parametervalues: ['${redirect}']
+        hst:template: layout.mobilepage

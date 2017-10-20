@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_de/hst:pages/mobile-events-detail:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.Detail
+        hst:template: mobile.events.detail

@@ -1,0 +1,22 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hst:default/hst:catalog:
+      /essentials-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /seo:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.onehippo.forge.seo.support.SEOHelperComponent
+          hst:iconpath: images/essentials/catalog-component-icons/seo.png
+          hst:label: SEO
+          hst:parameternames: [menu-name, site-dc-copyright-link, template-page-title,
+            dc-language, document-title-bean-props, dc-schema-link, site-title-in-template,
+            menu-item-allow-expanded, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+            site-title, default-meta-description, document-description-bean-props,
+            dc-terms-link, enable-dc-language]
+          hst:parametervalues: [main, 'http://www.demo.onehippo.com/about/terms--conditions',
+            '%(siteTitle) - %(menuItem) - %(pageTitle) : %(keywords)', '', title,
+            'http://purl.org/dc/elements/1.1/', 'true', 'false', 'false', Hippo Go
+              Green, This website is a demo website to showcase the options with Hippo
+              CMS., descriptionContentAsText, 'http://purl.org/dc/terms/', 'true']
+          hst:template: seo.jsp
+          hst:xtype: HST.Item

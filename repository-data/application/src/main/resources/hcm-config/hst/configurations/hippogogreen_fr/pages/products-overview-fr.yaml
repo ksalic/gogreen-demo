@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippogogreen_fr/hst:pages/products-overview-fr:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:pages/products-overview
+      /main:
+        jcr:primaryType: hst:component
+        /content:
+          jcr:primaryType: hst:component
+          /productnav:
+            jcr:primaryType: hst:component
+            hst:componentclassname: com.onehippo.gogreen.components.products.CategoryNavigation
+            hst:parameternames: [facetnav.location]
+            hst:parametervalues: [products/facetedproducts/Catégorie]
+            hst:template: products.overview.productnav

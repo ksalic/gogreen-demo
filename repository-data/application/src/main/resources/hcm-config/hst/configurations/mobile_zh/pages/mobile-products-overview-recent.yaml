@@ -1,0 +1,13 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_zh/hst:pages/mobile-products-overview-recent:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        hst:parameternames: [orderBy]
+        hst:parametervalues: ['hippostdpubwf:lastModificationDate']
+        hst:referencecomponent: hst:components/mobile.products.overview
+        /boxes-top:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: mobile-products-overview-recent/boxes-top

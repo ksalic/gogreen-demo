@@ -1,0 +1,24 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_fr/hst:pages/mobile-products-search:
+      jcr:primaryType: hst:component
+      jcr:uuid: 918e8c81-8793-453c-a350-9649536aed60
+      hst:referencecomponent: hst:pages/mobile-standardpage
+      /body:
+        jcr:primaryType: hst:component
+        jcr:uuid: 91eb5b2a-ab7b-451f-a42e-85a160e4cde7
+        hst:template: mobile.products.search
+        /facets:
+          jcr:primaryType: hst:component
+          jcr:uuid: 808f0150-a433-48a7-b997-33641f445f4a
+          hst:componentclassname: com.onehippo.gogreen.components.common.FacetNavigation
+          hst:parameternames: [facetnav.location]
+          hst:parametervalues: [products/facetedproducts]
+          hst:template: mobile.products.search.facets
+        /results:
+          jcr:primaryType: hst:component
+          jcr:uuid: 05f76b5b-1121-4f59-8c4b-b6aa3c07eddd
+          hst:componentclassname: com.onehippo.gogreen.components.products.Overview
+          hst:parameternames: []
+          hst:parametervalues: []
+          hst:template: mobile.products.search.results

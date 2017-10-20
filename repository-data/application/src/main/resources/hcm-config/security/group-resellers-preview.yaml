@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:groups/resellers-preview:
+      jcr:primaryType: hipposys:group
+      hipposys:members: [reseller-previewuser]
+      hipposys:securityprovider: internal

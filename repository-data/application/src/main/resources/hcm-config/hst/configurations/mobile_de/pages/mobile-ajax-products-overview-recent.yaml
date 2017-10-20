@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_de/hst:pages/mobile-ajax-products-overview-recent:
+      jcr:primaryType: hst:component
+      hst:parameternames: [orderBy]
+      hst:parametervalues: ['hippostdpubwf:lastModificationDate']
+      hst:referencecomponent: hst:components/mobile.products.overview
+      hst:template: mobile.ajax.products.overview

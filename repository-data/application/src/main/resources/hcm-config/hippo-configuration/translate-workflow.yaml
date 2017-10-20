@@ -1,0 +1,13 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:workflows/translate:
+      /hippogogreen:basedocument:
+        jcr:primaryType: hipposys:workflow
+        hipposys:classname: org.onehippo.translate.TranslateWorkflowImpl
+        hipposys:display: Translate Workflow on documents
+        hipposys:nodetype: hippogogreen:basedocument
+        /hipposys:types:
+          jcr:primaryType: hipposys:types
+        /hipposys:config:
+          jcr:primaryType: nt:unstructured
+          timeout: '5000'

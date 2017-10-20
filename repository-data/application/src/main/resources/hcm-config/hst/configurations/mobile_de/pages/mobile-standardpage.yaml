@@ -1,0 +1,22 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/mobile_de/hst:pages/mobile-standardpage:
+      jcr:primaryType: hst:component
+      hst:componentclassname: com.onehippo.gogreen.components.BaseComponent
+      hst:template: layout.mobilepage
+      /header:
+        jcr:primaryType: hst:component
+        hst:componentclassname: com.onehippo.gogreen.components.common.SiteMenu
+        hst:parameternames: [siteMenu]
+        hst:parametervalues: [mobile]
+        hst:template: mobile.standard.header
+        /langnavigation:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.onehippo.gogreen.components.common.LanguageComponent
+          hst:template: mobile.standard.langnavigation
+        /logo:
+          jcr:primaryType: hst:component
+          hst:referencecomponent: hst:components/mobile.logo
+      /footer:
+        jcr:primaryType: hst:component
+        hst:template: mobile.standard.footer

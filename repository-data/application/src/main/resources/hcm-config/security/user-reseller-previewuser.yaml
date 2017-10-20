@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users/reseller-previewuser:
+      jcr:primaryType: hipposys:user
+      hipposys:active: true
+      hipposys:email: rivenditore@bulkygreenstuff.com
+      hipposys:firstname: Reseller
+      hipposys:lastname: Previewer
+      hipposys:password: reseller-previewpass
+      hipposys:passwordlastmodified: 2011-10-18T14:25:00+02:00
+      hipposys:securityprovider: internal

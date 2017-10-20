@@ -1,0 +1,644 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:cms/advanced-search-filters:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        campaignPropertyFilter.propertyName: Campaign
+        campaignPropertyFilter.title: Campaign filter
+        titlePropertyFilter.propertyName: Title
+        titlePropertyFilter.title: Title filter
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        campaignPropertyFilter.propertyName: Campagne
+        campaignPropertyFilter.title: Filtre de campagne
+        titlePropertyFilter.propertyName: Titre
+        titlePropertyFilter.title: Filtre de titre
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        campaignPropertyFilter.propertyName: Campagne
+        campaignPropertyFilter.title: Campagnefilter
+        titlePropertyFilter.propertyName: Titel
+        titlePropertyFilter.title: Titelfilter
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:banner:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:bannertext: Text
+        hippogogreen:doclink: Link
+        hippogogreen:icon: Icon
+        hippogogreen:image: Bild
+        hippogogreen:title: Titel
+        jcr:name: Banner
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:bannertext: Text
+        hippogogreen:doclink: Link
+        hippogogreen:icon: Icon
+        hippogogreen:image: Image
+        hippogogreen:title: Title
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:bannertext: Texte
+        hippogogreen:doclink: Lien
+        hippogogreen:icon: Icon
+        hippogogreen:image: Image
+        hippogogreen:title: Titre
+        jcr:name: Bannière
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:bannertext: Tekst
+        hippogogreen:doclink: Link
+        hippogogreen:icon: Icon
+        hippogogreen:image: Image
+        hippogogreen:title: Title
+        jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:richtextsnippet:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Rich-text Snippet
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:paragraphblock:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Paragraph
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:address:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:city: Stadt
+        hippogogreen:country: Land
+        hippogogreen:latitude: Latitude
+        hippogogreen:longitude: Longitude
+        hippogogreen:number: Hausnummer
+        hippogogreen:postalcode: Postleitzahl
+        hippogogreen:province: Provinz
+        hippogogreen:street:
+          type: string
+          value: !!binary |-
+            U3Rhw4PCn2U=
+        jcr:name: Adresse
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:city: City
+        hippogogreen:country: Country
+        hippogogreen:latitude: Latitude
+        hippogogreen:longitude: Longitude
+        hippogogreen:number: Number
+        hippogogreen:postalcode: Postal Code
+        hippogogreen:province: Province
+        hippogogreen:street: Street
+        jcr:name: Address
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Adresse
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:city: Stad
+        hippogogreen:country: Land
+        hippogogreen:latitude: Latitude
+        hippogogreen:longitude: Longitude
+        hippogogreen:number: Nummer
+        hippogogreen:postalcode: Postcode
+        hippogogreen:province: Provincie
+        hippogogreen:street: Straat
+        jcr:name: Adres
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:document:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Dokument
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:review:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:comment: Kommentar
+        hippogogreen:contentstage: Inhalt Stufe
+        hippogogreen:date: Datum
+        hippogogreen:email: E-mail
+        hippogogreen:name: Name
+        hippogogreen:productlink: Review für
+        hippogogreen:rating: Bewertung
+        jcr:name: Review
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:comment: Comment
+        hippogogreen:contentstage: Content Stage
+        hippogogreen:date: Date
+        hippogogreen:email: Email
+        hippogogreen:name: Name
+        hippogogreen:productlink: Review For
+        hippogogreen:rating: Rating
+        jcr:name: Review
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:comment: Commentaire
+        hippogogreen:contentstage: Niveau du contenu
+        hippogogreen:date: Date
+        hippogogreen:email: E-mail
+        hippogogreen:name: Nom
+        hippogogreen:productlink: Avis sur
+        hippogogreen:rating: Note]
+        jcr:name: Avis
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:comment: Commentaar
+        hippogogreen:contentstage: Contentniveau
+        hippogogreen:date: Datum
+        hippogogreen:email: Email
+        hippogogreen:name: Naam
+        hippogogreen:productlink: Recensie voor
+        hippogogreen:rating: Beoordeling
+        jcr:name: Recensie
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:imageblock:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Image
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:faq:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:answer: Antwort
+        hippogogreen:copyright: Copyright
+        hippogogreen:question: Frage
+        jcr:name: FAQ
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:answer: Answer
+        hippogogreen:copyright: Copyright
+        hippogogreen:question: Question
+        jcr:name: FAQ
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:answer: Réponse
+        hippogogreen:copyright: Copyright
+        hippogogreen:question: Question
+        jcr:name: FAQ
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:answer: Antwoord
+        hippogogreen:copyright: Copyright
+        hippogogreen:question: Vraag
+        jcr:name: Veelgestelde vraag
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:newsitem:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Inhalt Stufe
+        hippogogreen:date: Datum
+        hippogogreen:description: Beschreibung
+        hippogogreen:summary: Zusammenfassung
+        hippogogreen:title: Titel
+        jcr:name: Nachrichtenartikel
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Content Stage
+        hippogogreen:date: Date
+        hippogogreen:description: Description
+        hippogogreen:summary: Summary
+        hippogogreen:title: Title
+        jcr:name: News article
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Niveau du contenu
+        hippogogreen:date: Date
+        hippogogreen:description: Description
+        hippogogreen:summary: Résumé
+        hippogogreen:title: Titre
+        jcr:name: Actualités article
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Contentniveau
+        hippogogreen:date: Datum
+        hippogogreen:description: Beschrijving
+        hippogogreen:summary: Samenvatting
+        hippogogreen:title: Titel
+        jcr:name: Nieuwsartikel
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:event:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Kategorien
+        hippogogreen:contentstage: Inhalt Stufe
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Start-Datum
+        hippogogreen:description: Beschreibung
+        hippogogreen:enddate: End-Datum
+        hippogogreen:image: Bild
+        hippogogreen:location: Ort
+        hippogogreen:summary: Zusammenfassung
+        hippogogreen:title: Titel
+        jcr:name: Event
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Categories
+        hippogogreen:contentstage: Content Stage
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Start Date
+        hippogogreen:description: Description
+        hippogogreen:enddate: End Date
+        hippogogreen:image: Image
+        hippogogreen:location: Location
+        hippogogreen:summary: Summary
+        hippogogreen:title: Title
+        jcr:name: Event
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Catégories
+        hippogogreen:contentstage: Niveau du contenu
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Date de début
+        hippogogreen:description: Description
+        hippogogreen:enddate: Date de fin
+        hippogogreen:image: Image
+        hippogogreen:location: Lieu
+        hippogogreen:summary: Résumé
+        hippogogreen:title: Titre
+        jcr:name: Évènement
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Categorieën
+        hippogogreen:contentstage: Contentniveau
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Startdatum
+        hippogogreen:description: Beschrijving
+        hippogogreen:enddate: Einddatum
+        hippogogreen:image: Afbeelding
+        hippogogreen:location: Plaats
+        hippogogreen:summary: Samenvatting
+        hippogogreen:title: Titel
+        jcr:name: Evenement
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:blogitemcb:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Kategorien
+        hippogogreen:contentstage: Inhalt Stufe
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Datum
+        hippogogreen:description: Beschreibung
+        hippogogreen:image: Bild
+        hippogogreen:summary: Zusammenfassung
+        hippogogreen:title: Titel
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories5: Categories
+        hippogogreen:contentstage: Content Stage
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Date
+        hippogogreen:description: Description
+        hippogogreen:image: Image
+        hippogogreen:summary: Summary
+        hippogogreen:title: Title
+        jcr:name: Blog Article with Content Blocks
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Catégories
+        hippogogreen:contentstage: Niveau du Contenu
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Date
+        hippogogreen:description: Description
+        hippogogreen:image: Image
+        hippogogreen:summary: Résumé
+        hippogogreen:title: Titre
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Categorieën
+        hippogogreen:contentstage: Contentniveau
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Datum
+        hippogogreen:description: Beschrijving
+        hippogogreen:image: Afbeelding
+        hippogogreen:summary: Samenvatting
+        hippogogreen:title: Titel
+        jcr:name: Blog-Artikel met contentblokken
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:blogitem:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Kategorien
+        hippogogreen:contentstage: Inhalt Stufe
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Datum
+        hippogogreen:description: Beschreibung
+        hippogogreen:image: Bild
+        hippogogreen:summary: Zusammenfassung
+        hippogogreen:title: Titel
+        jcr:name: Blog Artikel
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Categories
+        hippogogreen:contentstage: Content Stage
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Date
+        hippogogreen:description: Description
+        hippogogreen:image: Image
+        hippogogreen:summary: Summary
+        hippogogreen:title: Title
+        jcr:name: Blog Article
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Catégories
+        hippogogreen:contentstage: Niveau du contenu
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Date
+        hippogogreen:description: Description
+        hippogogreen:image: Image
+        hippogogreen:summary: Résumé
+        hippogogreen:title: Titre
+        jcr:name: Blog
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Categorieën
+        hippogogreen:contentstage: Contentniveau
+        hippogogreen:copyright: Copyright
+        hippogogreen:date: Datum
+        hippogogreen:description: Beschrijving
+        hippogogreen:image: Afbeelding
+        hippogogreen:summary: Samenvatting
+        hippogogreen:title: Titel
+        jcr:name: Blog-artikel
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreengallery:imageset:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreengallery:alt: Alt-Text
+        hippogogreengallery:banner: Banner
+        hippogogreengallery:bannercarousel: Banner (Karussell)
+        hippogogreengallery:copyright: Copyright
+        hippogogreengallery:landscapeimage: Querformat
+        hippogogreengallery:largethumbnail: Miniaturansicht (groß)
+        hippogogreengallery:mobilelogo: Logo (Handy)
+        hippogogreengallery:mobilethumbnail: Miniaturansicht (Handy)
+        hippogogreengallery:original: Original
+        hippogogreengallery:smallthumbnail: Miniaturansicht (klein)
+        hippogogreengallery:thumbnail: Miniaturansicht
+        jcr:name: Bild
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreengallery:alt: Alt text
+        hippogogreengallery:banner: Banner
+        hippogogreengallery:bannercarousel: Banner (carousel)
+        hippogogreengallery:copyright: Copyright
+        hippogogreengallery:landscapeimage: Landscape Image
+        hippogogreengallery:largethumbnail: Thumbnail (large)
+        hippogogreengallery:mobilelogo: Logo (mobile)
+        hippogogreengallery:mobilethumbnail: Thumbnail (mobile)
+        hippogogreengallery:original: Original
+        hippogogreengallery:smallthumbnail: Thumbnail (small)
+        hippogogreengallery:thumbnail: Thumbnail
+        jcr:name: Image
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreengallery:alt: Texte alternatif
+        hippogogreengallery:banner: Bannière
+        hippogogreengallery:bannercarousel: Bannière (carrousel)
+        hippogogreengallery:copyright: Copyright
+        hippogogreengallery:landscapeimage: Format Paysage
+        hippogogreengallery:largethumbnail: Miniature (grande)
+        hippogogreengallery:mobilelogo: Logo (mobile)
+        hippogogreengallery:mobilethumbnail: Miniature (mobile)
+        hippogogreengallery:original: Originale
+        hippogogreengallery:smallthumbnail: Miniature (petite)
+        hippogogreengallery:thumbnail: Miniature
+        jcr:name: Image
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreengallery:alt: Alt tekst
+        hippogogreengallery:banner: Banner
+        hippogogreengallery:bannercarousel: Banner (carousel)
+        hippogogreengallery:copyright: Copyright
+        hippogogreengallery:landscapeimage: Liggend
+        hippogogreengallery:largethumbnail: Miniatuur (groot)
+        hippogogreengallery:mobilelogo: Logo (voor mobiel)
+        hippogogreengallery:mobilethumbnail: Miniatuur (voor mobiel)
+        hippogogreengallery:original: Origineel
+        hippogogreengallery:smallthumbnail: Miniatuur (klein)
+        hippogogreengallery:thumbnail: Miniatuur
+        jcr:name: Afbeelding
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:product:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Kategorien
+        hippogogreen:contentstage: Inhalt Stufe
+        hippogogreen:copyright: Copyright
+        hippogogreen:description: Beschreibung
+        hippogogreen:image: Bild
+        hippogogreen:price: Preis
+        hippogogreen:rating: Beurteilung
+        hippogogreen:summary: Zusammenfassung
+        hippogogreen:title: Titel
+        hippogogreen:votes: Stimmen
+        jcr:name: Produkt
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Categories
+        hippogogreen:contentstage: Content Stage
+        hippogogreen:copyright: Copyright
+        hippogogreen:description: Description
+        hippogogreen:image: Image
+        hippogogreen:price: Price
+        hippogogreen:rating: Rating
+        hippogogreen:summary: Summary
+        hippogogreen:title: Title
+        hippogogreen:votes: Votes
+        jcr:name: Product
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Catégories
+        hippogogreen:contentstage: Niveau du contenu
+        hippogogreen:copyright: Copyright
+        hippogogreen:description: Description
+        hippogogreen:image: Image
+        hippogogreen:price: Prix
+        hippogogreen:rating: Note
+        hippogogreen:summary: Résumé
+        hippogogreen:title: Titre
+        hippogogreen:votes: Votes
+        jcr:name: Produit
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:categories: Categorieën
+        hippogogreen:contentstage: Contentniveau
+        hippogogreen:copyright: Copyright
+        hippogogreen:description: Beschrijving
+        hippogogreen:image: Afbeelding
+        hippogogreen:price: Prijs
+        hippogogreen:rating: Beoordeling
+        hippogogreen:summary: Samenvatting
+        hippogogreen:title: Titel
+        hippogogreen:votes: Stemmen
+        jcr:name: Product
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:quoteblock:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Quote
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:copyright:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Copyright
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Copyright
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Copyright
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Copyright
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:simpledocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Inhalt Stufe
+        hippogogreen:description: Beschreibung
+        hippogogreen:summary: Zusammenfassung
+        hippogogreen:title: Titel
+        jcr:name: Einfaches Dokument
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Content Stage
+        hippogogreen:description: Description
+        hippogogreen:summary: Summary
+        hippogogreen:title: Title
+        jcr:name: Simple Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Niveau du contenu
+        hippogogreen:description: Description
+        hippogogreen:summary: Résumé
+        hippogogreen:title: Titre
+        jcr:name: Document simple
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:contentstage: Contentniveau
+        hippogogreen:description: Beschrijving
+        hippogogreen:summary: Samenvatting
+        hippogogreen:title: Titel
+        jcr:name: Eenvoudig document
+    /hippo:configuration/hippo:translations/hippo:types/hippogogreen:comment:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:body: Kommentar
+        hippogogreen:documentlink: Kommentar zu
+        hippogogreen:email: E-mail
+        hippogogreen:name: Name
+        jcr:name: Kommentar
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:body: Comment
+        hippogogreen:documentlink: Comment on
+        hippogogreen:email: Email
+        hippogogreen:name: Name
+        jcr:name: Comment
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:body: Commentaire
+        hippogogreen:documentlink: Commentaire sur
+        hippogogreen:email: E-mail
+        hippogogreen:name: Nom
+        jcr:name: Commentaire
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippogogreen:body: Commentaar
+        hippogogreen:documentlink: Commentaar op
+        hippogogreen:email: E-mail
+        hippogogreen:name: Naam
+        jcr:name: Commentaar
+    /hippo:configuration/hippo:translations/hippo:templates:
+      jcr:primaryType: hipposys:resourcebundles
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        new-banner: Banner
+        new-blog: Blog Dokument
+        new-blogcb: Blog Dokument mit Inhaltsblöcke
+        new-blogs-folder: Blogs Ordner
+        new-event: Event
+        new-event-folder: Events Ordner
+        new-event-viawizard: Event
+        new-faq: FAQ
+        new-news: News Dokument
+        new-news-folder: News Ordner
+        new-news-viawizard: News Dokument
+        new-product: Produkt
+        new-product-folder: Produkt Ordner
+        new-simple: Dokument (simple)
+        new-simple-folder: Ordner
+        new-subsite-document: Dokument (simple)
+        new-subsite-folder: Ordner
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        new-banner: banner
+        new-banner-folder: banner folder
+        new-blog: blog article
+        new-blogcb: blog article with content blocks
+        new-blogs-folder: blogs folder
+        new-event: event
+        new-event-folder: event folder
+        new-event-viawizard: event
+        new-faq: faq
+        new-news: news article
+        new-news-folder: news folder
+        new-news-viawizard: news article
+        new-product: product
+        new-product-folder: product folder
+        new-simple: simple document
+        new-simple-folder: simple folder
+        new-subsite-document: simple document
+        new-subsite-folder: simple folder
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        new-banner: bannière
+        new-banner-folder: Banner Ordner
+        new-blog: blog
+        new-blogcb: blog avec des blocs de contenu
+        new-blogs-folder: un dossier des blogs
+        new-event: évènement
+        new-event-folder: un dossier d'évènements
+        new-event-viawizard: évènement
+        new-faq: FAQ
+        new-news: actualité
+        new-news-folder: un dossier d'actualité
+        new-news-viawizard: actualité
+        new-product: produit
+        new-product-folder: un dossier de produits
+        new-simple: document (simple)
+        new-simple-folder: un dossier
+        new-subsite-document: document (simple)
+        new-subsite-folder: un dossier
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        new-banner: banner
+        new-banner-folder: bannermap
+        new-blog: blogdocument
+        new-blogcb: blogdocument met inhoud blokken
+        new-blogs-folder: blogsmap
+        new-event: evenement
+        new-event-folder: evenementenmap
+        new-event-viawizard: evenement
+        new-faq: veel gestelde vraag
+        new-news: nieuwsdocument
+        new-news-folder: nieuwsmap
+        new-news-viawizard: nieuwsdocument
+        new-product: product
+        new-product-folder: productenmap
+        new-simple: document (eenvoudig)
+        new-simple-folder: map
+        new-subsite-document: document (eenvoudig)
+        new-subsite-folder: map

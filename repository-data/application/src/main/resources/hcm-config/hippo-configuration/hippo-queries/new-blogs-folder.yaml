@@ -1,0 +1,39 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-blogs-folder:
+      jcr:primaryType: hippostd:templatequery
+      jcr:mixinTypes: ['hipposys:implementation', 'hippo:translated', 'hippostd:translated']
+      hippostd:icon: addfolder_ico
+      hippostd:modify: [./_name, $name, './hippotranslation:id', $uuid, './hippotranslation:locale',
+        $inherited]
+      hipposys:classname: org.hippoecm.repository.impl.query.DirectPath
+      jcr:language: xpath
+      jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-blogs-folder/hippostd:templates/node()
+      /hippostd:templates:
+        jcr:primaryType: hippostd:templates
+        /hippostd:folder:
+          jcr:primaryType: hippostd:folder
+          jcr:mixinTypes: ['mix:referenceable', 'hippotranslation:translated']
+          hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+          hippotranslation:id: generated id
+          hippotranslation:locale: inherited locale
+      /hippo:translation[1]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: en
+        hippo:message: new blogs folder
+      /hippo:translation[2]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: nl
+        hippo:message: nieuwe blogsmap
+      /hippo:translation[3]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: fr
+        hippo:message: un nouveau dossier des blogs
+      /hippo:translation[4]:
+        jcr:primaryType: hippo:translation
+        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
+        hippo:language: de
+        hippo:message: Neuer Blogs Ordner

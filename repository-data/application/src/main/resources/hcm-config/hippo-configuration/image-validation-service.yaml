@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/imageValidationService:
+      max.file.size:
+        operation: override
+        type: string
+        value: 12M
+      max.height:
+        operation: override
+        type: long
+        value: 4096
+      max.width:
+        operation: override
+        type: long
+        value: 4096

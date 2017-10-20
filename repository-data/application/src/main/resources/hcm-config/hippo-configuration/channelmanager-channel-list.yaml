@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/hippo-channel-manager/channel-manager-perspective/channel-list:
+      columns:
+        operation: add
+        type: string
+        value: [pageTitlePrefix, themeCss]
