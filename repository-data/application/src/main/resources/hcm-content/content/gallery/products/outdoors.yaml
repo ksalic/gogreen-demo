@@ -1,0 +1,101 @@
+/content/gallery/products/outdoors:
+  .meta:order-before: sports
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: f5efd690-da2d-41d4-b7e6-646ac0038a16
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogogreengallery:imageset']
+  /terraclime.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 02853c5d-204c-41aa-b0df-005d6e1ba9b9
+    hippo:discriminator: []
+    hippo:name: TerraClime.jpg
+    /terraclime.jpg:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: e3b541ca-3f12-42f5-98b6-e6e18f6f9d13
+      hippo:availability: [live, preview]
+      hippogallery:filename: TerraClime.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: TerraClime.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 45
+        hippogallery:width: 45
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/mobilethumbnail/mobilethumbnail.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 350
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/landscapeimage/landscapeimage.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 74
+        hippogallery:width: 74
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/smallthumbnail/smallthumbnail.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 32
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/mobilelogo/mobilelogo.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 450
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/bannercarousel/bannercarousel.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 580
+        hippogallery:width: 580
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/original/original.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 380
+        hippogallery:width: 380
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/banner/banner.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/outdoors/terraclime.jpg/terraclime.jpg/largethumbnail/largethumbnail.jpg
+        jcr:lastModified: 2014-09-09T13:15:30.787+02:00
+        jcr:mimeType: image/jpeg

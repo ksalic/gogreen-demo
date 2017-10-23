@@ -1,0 +1,490 @@
+/content/gallery/products/office:
+  .meta:order-before: outdoors
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: b88ca132-b144-4b1d-8e43-1306f85f17d5
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogogreengallery:imageset']
+  /office-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 64713c80-ba51-4a23-9d36-da0184b80ab9
+    hippo:discriminator: []
+    /office-1.jpg:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 959c6121-5b33-438e-9abe-d7ac57fcf781
+      hippo:availability: [live, preview]
+      hippogallery:filename: office-1.jpg
+      hippogogreengallery:alt: ''
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: office-1.jpg
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/mobilethumbnail/mobilethumbnail.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 525
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/landscapeimage/landscapeimage.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 65
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/smallthumbnail/smallthumbnail.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 48
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/mobilelogo/mobilelogo.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 675
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/bannercarousel/bannercarousel.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 1333
+        hippogallery:width: 2000
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/original/original.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 359
+        hippogallery:width: 540
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/banner/banner.jpg
+        jcr:lastModified: 2014-08-28T15:18:35.050+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/office-1.jpg/office-1.jpg/largethumbnail/largethumbnail.jpg
+        jcr:lastModified: 2014-08-28T17:20:58.741+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:copyright:
+        jcr:primaryType: hippogogreen:copyright
+        hippogogreen:description: ''
+        hippogogreen:url: ''
+  /3in_binder.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6a2ac966-3b76-456c-9ca6-c8919f621efe
+    hippo:discriminator: []
+    /3in_binder.jpg:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: b863ea54-97f9-44b0-9289-d6ee48c7a30a
+      hippo:availability: [live, preview]
+      hippogallery:filename: 3in_binder.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 3in_binder.jpg
+        hippogallery:height: 38
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 38
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/mobilethumbnail/mobilethumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/landscapeimage/landscapeimage.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 63
+        hippogallery:width: 97
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/smallthumbnail/smallthumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 49
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/mobilelogo/mobilelogo.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/bannercarousel/bannercarousel.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/original/original.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/banner/banner.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 233
+        hippogallery:width: 360
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/3in_binder.jpg/3in_binder.jpg/largethumbnail/largethumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:39:22.141+02:00
+        jcr:mimeType: image/jpeg
+  /hemp-envelopes-ecopaper.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+    jcr:uuid: 991074c3-0d97-49a9-a683-cb770de848ac
+    hippo:discriminator: []
+    /hemp-envelopes-ecopaper.jpg:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 8b9a13c0-d696-4b39-9e02-7f68c82933b5
+      hippo:availability: [live, preview]
+      hippogallery:filename: Hemp envelopes ecopaper.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Hemp envelopes ecopaper.jpg
+        hippogallery:height: 31
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 31
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/mobilethumbnail/mobilethumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/landscapeimage/landscapeimage.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 51
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/smallthumbnail/smallthumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 31
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/mobilelogo/mobilelogo.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/bannercarousel/bannercarousel.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/original/original.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/banner/banner.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 103
+        hippogallery:width: 196
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/largethumbnail/largethumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:32:14.545+02:00
+        jcr:mimeType: image/jpeg
+    /hippo:translation:
+      jcr:primaryType: hippo:translation
+      hippo:language: ''
+      hippo:message: Hemp envelopes ecopaper.jpg
+  /banana-business-card.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+    jcr:uuid: dfaa3a4b-b058-49b7-a283-bddb5f60a88b
+    hippo:discriminator: []
+    /banana-business-card.jpg:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: a2b11138-2706-4f28-8b24-e6bb57bcb5b7
+      hippo:availability: [live, preview]
+      hippogallery:filename: Banana Business card.jpg
+      hippogogreengallery:alt: ''
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Banana Business card.jpg
+        hippogallery:height: 43
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 43
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/mobilethumbnail/mobilethumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 768
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/landscapeimage/landscapeimage.jpg
+        jcr:lastModified: 2014-09-08T14:27:57.031+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 71
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/smallthumbnail/smallthumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 43
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/mobilelogo/mobilelogo.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 616
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/bannercarousel/bannercarousel.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 766
+        hippogallery:width: 1050
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/original/original.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 380
+        hippogallery:width: 520
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/banner/banner.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 291
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/banana-business-card.jpg/banana-business-card.jpg/largethumbnail/largethumbnail.jpg
+        jcr:lastModified: 2014-09-08T14:23:01.910+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:copyright:
+        jcr:primaryType: hippogogreen:copyright
+        hippogogreen:description: ''
+        hippogogreen:url: ''
+    /hippo:translation:
+      jcr:primaryType: hippo:translation
+      hippo:language: ''
+      hippo:message: Banana Business card.jpg
+  /business-cards.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 57502235-aaf9-4b6e-8b36-51dfe54cf42f
+    hippo:discriminator: []
+    /business-cards.jpg:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: d8e4805a-7bdf-4367-98db-7a48c74da700
+      hippo:availability: [live, preview]
+      hippogallery:filename: business-cards.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: business-cards.jpg
+        hippogallery:height: 43
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 43
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/mobilethumbnail/mobilethumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 479
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/landscapeimage/landscapeimage.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 71
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/smallthumbnail/smallthumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 43
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/mobilelogo/mobilelogo.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 616
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/bannercarousel/bannercarousel.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 766
+        hippogallery:width: 1050
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/original/original.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 380
+        hippogallery:width: 520
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/banner/banner.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 291
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/products/office/business-cards.jpg/business-cards.jpg/largethumbnail/largethumbnail.jpg
+        jcr:lastModified: 2014-09-19T15:45:27.767+02:00
+        jcr:mimeType: image/jpeg
