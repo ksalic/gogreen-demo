@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippogogreen_zh/hst:workspace/hst:channel:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:channel
+      hst:channelinfoclass: com.onehippo.gogreen.channels.WebsiteInfo
+      hst:devices: [desktop, ipad_landscape, ipad_portrait, iphone_landscape, iphone_portrait]
+      hst:name: 中國網站
+      hst:type: website
