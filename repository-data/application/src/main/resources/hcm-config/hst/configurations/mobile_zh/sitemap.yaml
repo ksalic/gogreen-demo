@@ -2,120 +2,96 @@ definitions:
   config:
     /hst:hst/hst:configurations/mobile_zh/hst:sitemap:
       jcr:primaryType: hst:sitemap
-      jcr:uuid: 48c8b7f1-110a-46a8-bdb9-e133adba90fa
       /products:
         jcr:primaryType: hst:sitemapitem
-        jcr:uuid: fb942e58-206d-4060-bc6c-f36c15272ac0
         hst:componentconfigurationid: hst:pages/mobile.redirect
         hst:parameternames: [redirect]
         hst:parametervalues: [products/popular]
         /_any_.html:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 8b04114f-b2f0-4d97-9bcb-99ba08983c3b
           hst:componentconfigurationid: hst:pages/mobile-products-detail
           hst:relativecontentpath: products/${1}
         /recent:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 6495ff1c-ae62-4734-89e5-f210146fb201
           hst:componentconfigurationid: hst:pages/mobile-products-overview-recent
           hst:relativecontentpath: products
         /popular.ajax:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 20a31b3c-865f-4499-a5f7-119e8971234a
           hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-popular
           hst:relativecontentpath: products
         /recent.ajax:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 7dd1abd1-05f2-48b2-9c57-e5d6e12d4937
           hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-recent
           hst:relativecontentpath: products
         /popular:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 9ccfbd26-d0f6-4c8b-ad41-97752a6df4da
           hst:componentconfigurationid: hst:pages/mobile-products-overview-popular
           hst:relativecontentpath: products
         /search.ajax:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: ae0abffb-f163-49d9-bdc9-ead4efa936e7
           hst:componentconfigurationid: hst:pages/mobile-ajax-products-search
           hst:relativecontentpath: products
         /search:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: c23e3ab7-aac7-4bf4-8273-1fd894e60153
           hst:componentconfigurationid: hst:pages/mobile-products-search
           hst:relativecontentpath: products
           /_any_.ajax:
             jcr:primaryType: hst:sitemapitem
-            jcr:uuid: 268ae35c-9a15-4060-831a-17c448986a7f
             hst:componentconfigurationid: hst:pages/mobile-ajax-products-search
             hst:relativecontentpath: products/facetedproducts/${1}
           /_any_:
             jcr:primaryType: hst:sitemapitem
-            jcr:uuid: 1efff736-8a66-4482-ab3a-92670496ac2f
             hst:componentconfigurationid: hst:pages/mobile-products-search
             hst:relativecontentpath: products/facetedproducts/${1}
       /events:
         jcr:primaryType: hst:sitemapitem
-        jcr:uuid: e8b449c1-ac7a-454c-80c5-9881b9c4a8fc
         hst:componentconfigurationid: hst:pages/mobile.redirect
         hst:parameternames: [redirect]
         hst:parametervalues: [events/upcoming]
         /_any_.html:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: d281b678-99a8-4e08-8fb4-b964b02c269e
           hst:componentconfigurationid: hst:pages/mobile-events-detail
           hst:relativecontentpath: events/${1}
         /upcoming:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 026e555b-a8c4-448b-a851-249bbca742b1
           hst:componentconfigurationid: hst:pages/mobile-events-overview-upcoming
           hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
         /past:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 0ce1f97f-291d-4678-8d7f-0fb864698e7c
           hst:componentconfigurationid: hst:pages/mobile-events-overview-past
           hst:relativecontentpath: events/facetedeventsmobile/Date/Past
         /past.ajax:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: db5ba4e6-b9ea-4e11-a61c-1fbac2007fa4
           hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-past
           hst:relativecontentpath: events/facetedeventsmobile/Date/Past
         /upcoming.ajax:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 1eff21e0-9ae4-4f54-a574-5ec023c2b0c2
           hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-upcoming
           hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
         /search.ajax:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: bafd2783-2438-4c41-8e18-35c1082b1d7f
           hst:componentconfigurationid: hst:pages/mobile-ajax-events-search
           hst:relativecontentpath: events
         /search:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: e67d4aa0-6d02-4859-af3e-a401d07e13df
           hst:componentconfigurationid: hst:pages/mobile-events-search
           hst:relativecontentpath: events
           /_any_.ajax:
             jcr:primaryType: hst:sitemapitem
-            jcr:uuid: bba65a3d-73a3-4203-856e-cdadfabc17ee
             hst:componentconfigurationid: hst:pages/mobile-ajax-events-search
             hst:relativecontentpath: events/facetedeventsmobile/${1}
           /_any_:
             jcr:primaryType: hst:sitemapitem
-            jcr:uuid: 910d462f-d558-4b16-a7fc-0203409950db
             hst:componentconfigurationid: hst:pages/mobile-events-search
             hst:relativecontentpath: events/facetedeventsmobile/${1}
         /events.poi:
           jcr:primaryType: hst:sitemapitem
-          jcr:uuid: 67743ac6-07d0-4a23-80cd-d6b57425fd5b
           hst:componentconfigurationid: hst:pages/events-layar
           hst:excludedforlinkrewriting: true
           hst:relativecontentpath: events
       /_any_:
         jcr:primaryType: hst:sitemapitem
-        jcr:uuid: ff9c4b4f-6ab8-4784-a554-0ca573c1d860
         hst:componentconfigurationid: hst:pages/error
       /pagenotfound:
         jcr:primaryType: hst:sitemapitem
-        jcr:uuid: bfb9b13e-d637-441a-9aa1-e9aa366aefa0
         hst:componentconfigurationid: hst:pages/error

@@ -1,7 +1,6 @@
 /content/assets/themes:
   jcr:primaryType: hippogallery:stdAssetGallery
   jcr:mixinTypes: ['mix:referenceable']
-  jcr:uuid: 7d7ddfd4-0925-4871-8f2e-a3b9bd1ef05d
   hippostd:foldertype: [new-file-folder]
   hippostd:gallerytype: ['hippogallery:exampleAssetSet']
   /css:
@@ -24,13 +23,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: |+
-              /content/assets/themes/css/hippo-green.css/hippo-green.css/asset/data.flickr_badge_image img:hover{
-                  border-color: #89bf84;
-              }
-
-
-
+            resource: /content/assets/themes/css/hippo-green.css/hippo-green.css/asset/hippo-green.css
           jcr:lastModified: 2014-08-29T14:59:06.016+02:00
           jcr:mimeType: text/css
     /dark-blue.css:
@@ -47,9 +40,8 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/dark-blue.css/dark-blue.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #2580b1;\r\n}\r\n\r\n\r\n\r\n"
-          jcr:lastModified: 2014-07-29T15:06:43.652+02:00
+            resource: /content/assets/themes/css/dark-blue.css/dark-blue.css/asset/dark-blue.css
+          jcr:lastModified: 2014-07-29T15:06:43.685+02:00
           jcr:mimeType: text/css
     /pink.css:
       jcr:primaryType: hippo:handle
@@ -65,8 +57,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/pink.css/pink.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #bb3b6b;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/pink.css/pink.css/asset/pink.css
           jcr:lastModified: 2014-07-29T15:06:43.685+02:00
           jcr:mimeType: text/css
     /light-blue.css:
@@ -83,8 +74,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/light-blue.css/light-blue.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #279FBB;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/light-blue.css/light-blue.css/asset/light-blue.css
           jcr:lastModified: 2014-07-29T15:06:43.716+02:00
           jcr:mimeType: text/css
     /bright-green.css:
@@ -101,8 +91,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/bright-green.css/bright-green.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #8cbb75;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/bright-green.css/bright-green.css/asset/bright-green.css
           jcr:lastModified: 2014-07-29T15:06:43.771+02:00
           jcr:mimeType: text/css
     /coffee.css:
@@ -119,8 +108,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/coffee.css/coffee.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #9d634c;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/coffee.css/coffee.css/asset/coffee.css
           jcr:lastModified: 2014-07-29T15:06:43.801+02:00
           jcr:mimeType: text/css
     /dark-yellow.css:
@@ -137,8 +125,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/dark-yellow.css/dark-yellow.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #9b9e40;\r\n}\r\n\r\n"
+            resource: /content/assets/themes/css/dark-yellow.css/dark-yellow.css/asset/dark-yellow.css
           jcr:lastModified: 2014-07-29T15:06:43.930+02:00
           jcr:mimeType: text/css
     /green.css:
@@ -155,8 +142,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/green.css/green.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #26ae91;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/green.css/green.css/asset/green.css
           jcr:lastModified: 2014-07-29T15:06:43.962+02:00
           jcr:mimeType: text/css
     /red.css:
@@ -173,8 +159,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/red.css/red.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #d14836;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/red.css/red.css/asset/red.css
           jcr:lastModified: 2014-07-29T15:06:44.004+02:00
           jcr:mimeType: text/css
     /black.css:
@@ -191,8 +176,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/black.css/black.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #5f5d5c;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/black.css/black.css/asset/black.css
           jcr:lastModified: 2014-07-29T15:06:44.071+02:00
           jcr:mimeType: text/css
     /light-purple.css:
@@ -209,8 +193,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/light-purple.css/light-purple.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #bba6bb;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/light-purple.css/light-purple.css/asset/light-purple.css
           jcr:lastModified: 2014-07-29T15:06:44.108+02:00
           jcr:mimeType: text/css
     /oil.css:
@@ -227,8 +210,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/oil.css/oil.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #9b9e40;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/oil.css/oil.css/asset/oil.css
           jcr:lastModified: 2014-07-29T15:06:44.198+02:00
           jcr:mimeType: text/css
     /light-brown.css:
@@ -245,8 +227,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/light-brown.css/light-brown.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #d06f71;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/light-brown.css/light-brown.css/asset/light-brown.css
           jcr:lastModified: 2014-07-29T15:06:44.346+02:00
           jcr:mimeType: text/css
     /orange.css:
@@ -263,8 +244,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: "/content/assets/themes/css/orange.css/orange.css/asset/data.flickr_badge_image\
-              \ img:hover{\r\n    border-color: #dd6153;\r\n}\r\n\r\n\r\n\r\n"
+            resource: /content/assets/themes/css/orange.css/orange.css/asset/orange.css
           jcr:lastModified: 2014-07-29T15:06:44.387+02:00
           jcr:mimeType: text/css
   /images:
