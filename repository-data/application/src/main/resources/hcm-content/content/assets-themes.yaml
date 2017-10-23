@@ -1,0 +1,1244 @@
+/content/assets/themes:
+  jcr:primaryType: hippogallery:stdAssetGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 7d7ddfd4-0925-4871-8f2e-a3b9bd1ef05d
+  hippostd:foldertype: [new-file-folder]
+  hippostd:gallerytype: ['hippogallery:exampleAssetSet']
+  /css:
+    jcr:primaryType: hippogallery:stdAssetGallery
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3f731f71-274a-44da-a6d8-c9319d1f6c67
+    hippostd:foldertype: [new-file-folder]
+    hippostd:gallerytype: ['hippogallery:exampleAssetSet']
+    /hippo-green.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d6cb8f0e-fec5-4342-b85e-381859ef187a
+      hippo:discriminator: []
+      /hippo-green.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 5ff28be5-d66d-46f2-8112-fea776842ef5
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: |+
+              /content/assets/themes/css/hippo-green.css/hippo-green.css/asset/data.flickr_badge_image img:hover{
+                  border-color: #89bf84;
+              }
+
+
+
+          jcr:lastModified: 2014-08-29T14:59:06.016+02:00
+          jcr:mimeType: text/css
+    /dark-blue.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 89b1f67e-4b93-43a5-9325-6f47dc375352
+      hippo:discriminator: []
+      /dark-blue.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: a1316cab-10f5-408e-b667-571da1465b4d
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/dark-blue.css/dark-blue.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #2580b1;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:43.652+02:00
+          jcr:mimeType: text/css
+    /pink.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6502fd92-38fb-4720-9c42-007c570d4373
+      hippo:discriminator: []
+      /pink.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 36f2f7ba-a695-4aa9-8cfe-4389de0cb71a
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/pink.css/pink.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #bb3b6b;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:43.685+02:00
+          jcr:mimeType: text/css
+    /light-blue.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 90300544-89ef-495d-a461-312d31fa8420
+      hippo:discriminator: []
+      /light-blue.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 4d9f50ed-4d8f-48d7-9d80-6045a29fd07a
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/light-blue.css/light-blue.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #279FBB;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:43.716+02:00
+          jcr:mimeType: text/css
+    /bright-green.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 59cb159d-5db1-433c-b00d-91aaf1e95836
+      hippo:discriminator: []
+      /bright-green.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 085b3254-f501-495e-b517-6a56b82d7689
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/bright-green.css/bright-green.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #8cbb75;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:43.771+02:00
+          jcr:mimeType: text/css
+    /coffee.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 55a927b0-613d-4752-ad21-e68a434cfdd9
+      hippo:discriminator: []
+      /coffee.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 2255497b-db29-4e88-975a-9ccb002911da
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/coffee.css/coffee.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #9d634c;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:43.801+02:00
+          jcr:mimeType: text/css
+    /dark-yellow.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3251d24b-7ac4-4bd9-9eb8-db0bf245b472
+      hippo:discriminator: []
+      /dark-yellow.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: f0d9da8a-2cd9-4a2e-a753-321a91897f05
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/dark-yellow.css/dark-yellow.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #9b9e40;\r\n}\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:43.930+02:00
+          jcr:mimeType: text/css
+    /green.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dda5b9a4-f258-44e5-b8ab-69b00c730279
+      hippo:discriminator: []
+      /green.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 7e657937-c472-4564-bfd8-5c2c36b8d8da
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/green.css/green.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #26ae91;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:43.962+02:00
+          jcr:mimeType: text/css
+    /red.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bd8b7f33-8f1c-48c7-98bd-5a8bda278d0a
+      hippo:discriminator: []
+      /red.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 3f0e8041-1d61-466c-8731-5909b37c7a8d
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/red.css/red.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #d14836;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:44.004+02:00
+          jcr:mimeType: text/css
+    /black.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 96c8a64d-c482-4655-8bc9-acf7f2e1a311
+      hippo:discriminator: []
+      /black.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: b419fc78-9ad3-4f43-b976-aafe7f8d7260
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/black.css/black.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #5f5d5c;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:44.071+02:00
+          jcr:mimeType: text/css
+    /light-purple.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 965c4148-66ba-4832-a778-1e6e02c2bb4e
+      hippo:discriminator: []
+      /light-purple.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 4adbea9b-85b7-44fd-86e7-f0584222c97e
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/light-purple.css/light-purple.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #bba6bb;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:44.108+02:00
+          jcr:mimeType: text/css
+    /oil.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e1052c84-c44c-4a3c-b43b-bb8aa0e7044c
+      hippo:discriminator: []
+      /oil.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 7b9e985a-6bd3-443c-a9b7-52df39fc4645
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/oil.css/oil.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #9b9e40;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:44.198+02:00
+          jcr:mimeType: text/css
+    /light-brown.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0a78f55a-4278-42bb-b0fb-041de22583ee
+      hippo:discriminator: []
+      /light-brown.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 493bba87-c4d2-4f37-979c-a0feb9dcc6f1
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/light-brown.css/light-brown.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #d06f71;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:44.346+02:00
+          jcr:mimeType: text/css
+    /orange.css:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a69658a0-3eab-4911-8941-f4fe965051d9
+      hippo:discriminator: []
+      /orange.css:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: cd4f3dde-8f37-4102-8e9f-e1a046537838
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: "/content/assets/themes/css/orange.css/orange.css/asset/data.flickr_badge_image\
+              \ img:hover{\r\n    border-color: #dd6153;\r\n}\r\n\r\n\r\n\r\n"
+          jcr:lastModified: 2014-07-29T15:06:44.387+02:00
+          jcr:mimeType: text/css
+  /images:
+    jcr:primaryType: hippogallery:stdAssetGallery
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 83fce3c1-aa6e-4b70-a897-87c0e767e676
+    hippostd:foldertype: [new-file-folder]
+    hippostd:gallerytype: ['hippogallery:exampleAssetSet']
+    /bg-body.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1d1952c6-9526-459d-baa3-f71355293b34
+      hippo:discriminator: []
+      /bg-body.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: de5c9496-ecd9-4f13-bef8-1752d53d9e6e
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-body.png/bg-body.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /apply-now.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: aace403d-44b1-40ca-bf5b-a048758812ac
+      hippo:discriminator: []
+      /apply-now.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a3fedac1-e5a7-48c4-aa87-6ef2c9a6ec30
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/apply-now.png/apply-now.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-border.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 20d7d1b4-901b-4996-967b-14ae609e4e33
+      hippo:discriminator: []
+      /bg-border.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f9aaae1d-b6f8-4237-b8f7-227e3f320477
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-border.png/bg-border.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-border-display.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ecb2e53f-a977-4f9f-a06a-c65ca4adbbff
+      hippo:discriminator: []
+      /bg-border-display.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5922687d-e5b4-463f-b336-ae9cb8f35e2d
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-border-display.png/bg-border-display.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-button-alt.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7143248e-4076-4a8e-9dea-fbf16cff1b3f
+      hippo:discriminator: []
+      /bg-button-alt.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ecf68a86-8a22-4b00-a2bc-5f9c22da7538
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-button-alt.png/bg-button-alt.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-calendar.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: eef507eb-62f1-458b-9cb9-753264e23b35
+      hippo:discriminator: []
+      /bg-calendar.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f75777ff-4e11-462b-b6e8-982913aa28ff
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-calendar.png/bg-calendar.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-comment.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fc5dcfae-53c3-45f9-bab4-9becb5e89ba7
+      hippo:discriminator: []
+      /bg-comment.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5069ef0d-6248-437e-89a5-8763dc7a8d52
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-comment.png/bg-comment.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-doc.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 67f1c89f-cab3-4bfa-a055-870a7a8df371
+      hippo:discriminator: []
+      /bg-doc.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9db044b6-847b-470b-ba02-ea9a2fa25923
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-doc.png/bg-doc.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-events.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4e72bf00-0bee-4f74-a456-42ad3241ce31
+      hippo:discriminator: []
+      /bg-events.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3924d71d-137c-45ab-9fd7-c7ee9d3418d1
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-events.png/bg-events.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-footer.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8363a327-dd6f-4615-97a2-879dce755805
+      hippo:discriminator: []
+      /bg-footer.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8d005155-c3c4-41c1-8ac5-da42fcaab29e
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-footer.png/bg-footer.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-header.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c8d59f37-6baa-44eb-93d1-a095f81098fa
+      hippo:discriminator: []
+      /bg-header.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: bfde4fd5-f49c-4674-854e-026ed874b3c6
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-header.png/bg-header.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-home-news.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d64a6cb5-9b60-485e-ad33-c30e04ec8cef
+      hippo:discriminator: []
+      /bg-home-news.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 852eda03-90df-4010-8303-9201b1b39070
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-home-news.png/bg-home-news.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-login.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3f1c281e-c067-4a04-aa65-bd4c9b4fdc60
+      hippo:discriminator: []
+      /bg-login.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 9d4a7d7f-513c-46cd-8f99-e1dfdb14adbd
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-login.png/bg-login.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-login-button.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ca9fec67-e08b-402c-abc9-1362b9e3abfa
+      hippo:discriminator: []
+      /bg-login-button.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8d45d54a-0a66-4341-97bb-58412fe3744b
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-login-button.png/bg-login-button.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-login-field.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 383e7a55-b811-40e2-a506-0d4bb9deef2b
+      hippo:discriminator: []
+      /bg-login-field.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7e09f43f-06fc-4158-8d68-2e4d568c0ef0
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-login-field.png/bg-login-field.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-login-small.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b65f5a24-2edc-42b8-b72c-6b9234ef869b
+      hippo:discriminator: []
+      /bg-login-small.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 12b24989-5a4e-4543-96e9-b4d60e3ab32b
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-login-small.png/bg-login-small.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-search-button.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e9b872f7-bd46-4890-917b-577d4febeda0
+      hippo:discriminator: []
+      /bg-search-button.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1beb1622-b787-4be7-b22f-bf3e713d2a9c
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-search-button.png/bg-search-button.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bg-search-field.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c56cf50a-ae20-4c3d-b57c-ed4ec518506e
+      hippo:discriminator: []
+      /bg-search-field.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 82233d68-b17d-4790-9b7d-c8aeb73fd797
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bg-search-field.png/bg-search-field.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /box-bg-general.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 821c112c-032d-4c9b-a513-86135af5e8cf
+      hippo:discriminator: []
+      /box-bg-general.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 548419d5-1314-43f4-b235-148efa35b7c1
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/box-bg-general.png/box-bg-general.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /box-bg-orange.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b6583f76-86e6-4660-8046-be46558567fc
+      hippo:discriminator: []
+      /box-bg-orange.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c06fa47a-f5c6-44ad-b9c6-9f279d19535e
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/box-bg-orange.png/box-bg-orange.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /box-bg-poll.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e9898d5f-0b7d-4128-baa3-45b019205f94
+      hippo:discriminator: []
+      /box-bg-poll.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ee539a1f-0df1-4ff9-b5dd-45accdf143d3
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/box-bg-poll.png/box-bg-poll.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /box-event.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cc8ac359-7f69-460b-aa38-fcd4608da7f0
+      hippo:discriminator: []
+      /box-event.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 905d75b4-8928-41ac-b038-de5ef9f86666
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/box-event.png/box-event.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bullet.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 238cef31-9f7b-470c-9ef4-d3f7fb13e327
+      hippo:discriminator: []
+      /bullet.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c4ee7092-5f5d-4af4-ab69-7b05feb7fc27
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bullet.png/bullet.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bullet-ft.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2d3fd60b-bd7b-49d5-8ef4-b4d9157a641e
+      hippo:discriminator: []
+      /bullet-ft.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: ca52b23e-4efd-47bf-9056-8600f623cc9f
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bullet-ft.png/bullet-ft.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bullet-newsitem.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bc9b09a8-51a4-4371-8c8d-655206243b36
+      hippo:discriminator: []
+      /bullet-newsitem.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 97ef8671-deee-43ed-9656-227d20e80d0f
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bullet-newsitem.png/bullet-newsitem.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /bullet-point.gif:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1e3402a6-4490-4854-8dfc-dd9087374b94
+      hippo:discriminator: []
+      /bullet-point.gif:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8874f504-205c-4297-81f5-6062a7dcd505
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bullet-point.gif/bullet-point.gif/asset/data.gif
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/gif
+    /bullet-point.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e03b56c3-b132-4e8b-b385-cb1522c633ac
+      hippo:discriminator: []
+      /bullet-point.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d93a78cd-34b8-40c0-9ccf-46760ef47dd8
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/bullet-point.png/bullet-point.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /close_button.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 76b69d4f-21fe-45c1-9c75-070158490769
+      hippo:discriminator: []
+      /close_button.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d4bdd14d-c9fc-481b-9e0d-32d7fa9a3f34
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/close_button.png/close_button.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /close_button_hover.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 50624c55-0712-46cb-b302-3ed1df12fbf7
+      hippo:discriminator: []
+      /close_button_hover.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 662a2e9c-3abd-48ed-9a03-4fae760a8fa0
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/close_button_hover.png/close_button_hover.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /faq-arrow.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 714ac639-fdef-4c1f-a023-e1c6d681185c
+      hippo:discriminator: []
+      /faq-arrow.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 020017a3-8bce-4e08-8a97-ed10a3b16d0c
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/faq-arrow.png/faq-arrow.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /h2-go-green.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 81950d13-3d8b-4ac3-aa36-6c960e6c6a96
+      hippo:discriminator: []
+      /h2-go-green.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 998f39ac-8c3a-451e-b2a1-c5fd67935a3f
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/h2-go-green.png/h2-go-green.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /help_button.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c48771a3-ce75-4503-acf0-d658c7a9b8ee
+      hippo:discriminator: []
+      /help_button.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: fe24f971-1f30-48be-bbdb-3caec570de7a
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/help_button.png/help_button.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /hover-main-nav.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 14884440-c1a3-4e39-9553-6c4ee8cdb4d2
+      hippo:discriminator: []
+      /hover-main-nav.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 872ab68b-8f1b-441f-87ad-16a6f298f577
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/hover-main-nav.png/hover-main-nav.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-actions.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0f09354e-a3a4-4866-b268-30272569a3e1
+      hippo:discriminator: []
+      /icon-actions.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f872a73e-de7b-4cf8-bebe-1f3f237c3e12
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-actions.png/icon-actions.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-twitter.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: facfd94c-157a-4e2e-a62e-37d36baaf879
+      hippo:discriminator: []
+      /icon-twitter.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7964139b-1b44-4834-80db-518335aea5aa
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-twitter.png/icon-twitter.png/asset/data.png
+          jcr:lastModified: 2011-08-25T11:28:00+02:00
+          jcr:mimeType: image/png
+    /icon-blog.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dc899016-f1ad-4cda-8ec2-367d2e2b3105
+      hippo:discriminator: []
+      /icon-blog.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6bf3e816-cb8b-4eec-b11a-0d946aacc553
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-blog.png/icon-blog.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-filter.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5ddf5c3d-c3d1-4b8f-bdfc-5f0ad4e450af
+      hippo:discriminator: []
+      /icon-filter.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 585f7322-bc46-4e30-ab30-f002901ad8d3
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-filter.png/icon-filter.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-general.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 656c2dd3-3a53-4113-a383-f9d04b0cb1ca
+      hippo:discriminator: []
+      /icon-general.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 094472f2-5a6e-4751-a77a-666ca8e8a707
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-general.png/icon-general.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-minimize.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 01c28640-41c4-4365-909e-4a9eacb12289
+      hippo:discriminator: []
+      /icon-minimize.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6f27194c-d5ea-4086-b388-0f3c9d36a6bf
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-minimize.png/icon-minimize.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-nav.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 41b1a8aa-5def-4526-8a3d-07afff377ba4
+      hippo:discriminator: []
+      /icon-nav.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1d0c9ee0-50bd-49a2-bbe5-76338e267a0f
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-nav.png/icon-nav.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-rss.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b11c8dc9-27fb-4e4c-b5d5-81c3f3309e92
+      hippo:discriminator: []
+      /icon-rss.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 89f46537-8b8e-42e2-a673-b22e879bb386
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-rss.png/icon-rss.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /icon-share.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0a46e6f4-c247-4855-983d-cfd88cad5740
+      hippo:discriminator: []
+      /icon-share.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 69165e3e-032b-4d6a-a9e0-4e59e5e0fbb9
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/icon-share.png/icon-share.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /newsitem_photo3.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 87af0216-3b98-465a-8319-baa40aed2df3
+      hippo:discriminator: []
+      /newsitem_photo3.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a69b46a6-0b58-418c-9852-8cdf0d31cf36
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/newsitem_photo3.png/newsitem_photo3.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /poll-results.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0b03494c-80c3-4353-878f-3b1255153c9c
+      hippo:discriminator: []
+      /poll-results.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e8b242c7-0ccb-4c80-952c-feab84ddaaa7
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/poll-results.png/poll-results.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /poll-vote.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 29469285-bb41-434b-8fa1-e46132989cf7
+      hippo:discriminator: []
+      /poll-vote.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 78cb8b99-1762-4428-961e-a7427bd1c46a
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/poll-vote.png/poll-vote.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /radio.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6f30202f-85a6-4484-bb65-6e2086bf6108
+      hippo:discriminator: []
+      /radio.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8bcd8226-d794-4d42-aa39-249043d34ec6
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/radio.png/radio.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /rating.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 018508f4-ac88-44a6-867d-6f7ac54933f5
+      hippo:discriminator: []
+      /rating.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a95bf286-d8f4-4edc-a9b2-b680eb9aa171
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/rating.png/rating.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /select.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8371b703-efa0-4f48-a39a-c7e166926e98
+      hippo:discriminator: []
+      /select.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 8299ac91-5dfe-4216-8d57-ed7e57d5f603
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/select.png/select.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /seperator-blogs.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6b903996-20de-4eef-b950-6433cb075a7b
+      hippo:discriminator: []
+      /seperator-blogs.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7557e43d-96c9-4e0a-a3bf-14cb799c67d9
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/seperator-blogs.png/seperator-blogs.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /seperator-products.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 253281a2-d9d4-4787-ab07-da8221b961f8
+      hippo:discriminator: []
+      /seperator-products.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: dcf80e1e-24fc-40c0-baca-2a880a7e5a90
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/seperator-products.png/seperator-products.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /shadow-ft.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fbd8a4fb-27ea-4410-9c09-58690d8a51f7
+      hippo:discriminator: []
+      /shadow-ft.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 55ce75f4-7de3-4b26-86ca-fa1fb12d6a5f
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/shadow-ft.png/shadow-ft.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /shadow-hd.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 855a5b54-0a60-4541-a616-619a3519b405
+      hippo:discriminator: []
+      /shadow-hd.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0437b843-ff83-4c03-8e2c-bded34924b01
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/shadow-hd.png/shadow-hd.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:05:00+02:00
+          jcr:mimeType: image/png
+    /brown-bg-header.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6b2e5693-4add-4fad-a14a-fba35aa90cab
+      hippo:discriminator: []
+      /brown-bg-header.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: fa7fbad4-93fc-48a9-9b3d-bd23742dbb04
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/brown-bg-header.png/brown-bg-header.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:06:00+02:00
+          jcr:mimeType: image/png
+    /brown-bg-body.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fc717578-e202-4e0d-b3f1-6de743abaf61
+      hippo:discriminator: []
+      /brown-bg-body.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d517c264-0caf-4275-a0e4-4eabb9ac83f2
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/brown-bg-body.png/brown-bg-body.png/asset/data.png
+          jcr:lastModified: 2011-08-03T14:06:00+02:00
+          jcr:mimeType: image/png
+    /brown-bg-login.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 132dd91b-cb75-46fb-afcb-634e1735e529
+      hippo:discriminator: []
+      /brown-bg-login.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6e37bd09-9115-40dd-93fe-c395d50e32ee
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/brown-bg-login.png/brown-bg-login.png/asset/data.png
+          jcr:lastModified: 2013-07-19T10:06:00+02:00
+          jcr:mimeType: image/png
+    /brown-bg-login-button.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d6c2fb65-8b7a-4e9b-b1d6-c57b76a01d22
+      hippo:discriminator: []
+      /brown-bg-login-button.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6be2a4e7-c85f-40f8-abdf-c03ac815a468
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/brown-bg-login-button.png/brown-bg-login-button.png/asset/data.png
+          jcr:lastModified: 2013-07-19T10:06:00+02:00
+          jcr:mimeType: image/png
+    /brown-bg-login-small.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 710bc5b3-cb44-4651-8c52-1606f2b1581e
+      hippo:discriminator: []
+      /brown-bg-login-small.png:
+        jcr:primaryType: hippogallery:exampleAssetSet
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5a49e6e0-60fa-4643-97df-2e6d6d1a54dd
+        hippo:availability: [live, preview]
+        /hippogallery:asset:
+          jcr:primaryType: hippo:resource
+          jcr:data:
+            type: binary
+            resource: /content/assets/themes/images/brown-bg-login-small.png/brown-bg-login-small.png/asset/data.png
+          jcr:lastModified: 2013-07-19T10:06:00+02:00
+          jcr:mimeType: image/png
