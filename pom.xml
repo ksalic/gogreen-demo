@@ -470,6 +470,7 @@
               </deployables>
               <container>
                 <systemProperties>
+                  <!-- TODO: can be removed? -->
                  <derby.stream.error.file>${project.basedir}/target/derby.log</derby.stream.error.file>
                   <log4j.configurationFile>file://${project.basedir}/conf/log4j2-dev.xml</log4j.configurationFile>
                   <!-- enables auto export and web files watch: -->
