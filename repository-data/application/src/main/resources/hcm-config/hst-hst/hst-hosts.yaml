@@ -24,7 +24,6 @@ definitions:
             jcr:primaryType: hst:mount
             jcr:uuid: abcdefed-cbab-cdef-edbc-babcdefedcba
             hst:alias: site
-            hst:channelpath: /hst:hst/hst:channels/hippogogreen
             hst:mountpoint: /hst:hst/hst:sites/hippogogreen
             hst:showport: true
             hst:subjectbasedsession: true
@@ -41,12 +40,12 @@ definitions:
               hst:showport: true
               hst:subjectbasedsession: true
               hst:types: [rest]
+              hst:nochannelinfo: true
             /fr:
               .meta:residual-child-node-category: content
               jcr:primaryType: hst:mount
               jcr:uuid: f30f22d7-2f39-4bb3-a9fd-c0602f0460c2
               hst:alias: site-fr
-              hst:channelpath: /hst:hst/hst:channels/hippogogreen-fr
               hst:locale: fr_FR
               hst:mountmobile: mobile-fr
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_fr
@@ -63,7 +62,6 @@ definitions:
               jcr:primaryType: hst:mount
               jcr:uuid: 4d00d852-7d38-439f-8ca3-8fa2168b9d7d
               hst:alias: site-nl
-              hst:channelpath: /hst:hst/hst:channels/hippogogreen-nl
               hst:locale: nl_NL
               hst:mountmobile: mobile-nl
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_nl
@@ -80,7 +78,6 @@ definitions:
               jcr:primaryType: hst:mount
               jcr:uuid: caa8c5a3-6402-4974-9b86-c394f417476d
               hst:alias: mobile
-              hst:channelpath: /hst:hst/hst:channels/hippogogreen-mobile
               hst:homepage: products
               hst:mountpoint: /hst:hst/hst:sites/mobile
               hst:mountsite: site
@@ -97,7 +94,6 @@ definitions:
                 jcr:primaryType: hst:mount
                 jcr:uuid: c8460005-2da6-41d2-b150-277c5b1fae5a
                 hst:alias: mobile-fr
-                hst:channelpath: /hst:hst/hst:channels/hippogogreen-mobile-fr
                 hst:homepage: produits
                 hst:locale: fr_FR
                 hst:mountpoint: /hst:hst/hst:sites/mobile_fr
@@ -116,7 +112,6 @@ definitions:
                 jcr:primaryType: hst:mount
                 jcr:uuid: acb03638-e480-4464-8fd2-dd93f87c5c5d
                 hst:alias: mobile-nl
-                hst:channelpath: /hst:hst/hst:channels/hippogogreen-mobile-nl
                 hst:homepage: producten
                 hst:locale: nl_NL
                 hst:mountpoint: /hst:hst/hst:sites/mobile_nl
@@ -135,7 +130,6 @@ definitions:
                 jcr:primaryType: hst:mount
                 jcr:uuid: 1988ba02-531e-4c12-90d8-40b6aa21ba52
                 hst:alias: mobile-de
-                hst:channelpath: /hst:hst/hst:channels/hippogogreen-mobile-de
                 hst:homepage: produkte
                 hst:locale: de_DE
                 hst:mountpoint: /hst:hst/hst:sites/mobile_de
@@ -154,7 +148,6 @@ definitions:
                 jcr:primaryType: hst:mount
                 jcr:uuid: 97f549ba-fee2-46ac-8f94-ffdda31af0ee
                 hst:alias: mobile-zh
-                hst:channelpath: /hst:hst/hst:channels/hippogogreen-mobile-zh
                 hst:homepage: products
                 hst:locale: zh_CN
                 hst:mountpoint: /hst:hst/hst:sites/mobile_zh
@@ -173,7 +166,6 @@ definitions:
                 jcr:primaryType: hst:mount
                 jcr:uuid: 7c3c519b-a211-46a3-bafa-1888378a7ab4
                 hst:alias: mobile-uk
-                hst:channelpath: /hst:hst/hst:channels/hippogogreen-mobile-uk
                 hst:homepage: products
                 hst:locale: en_GB
                 hst:mountpoint: /hst:hst/hst:sites/mobile_uk
@@ -192,7 +184,6 @@ definitions:
               jcr:primaryType: hst:mount
               jcr:uuid: 79f445e7-fbec-4c4b-a8a3-716c51ad7aee
               hst:alias: site-zh
-              hst:channelpath: /hst:hst/hst:channels/hippogogreen-zh
               hst:locale: zh_CN
               hst:mountmobile: mobile-zh
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_zh
@@ -209,7 +200,6 @@ definitions:
               jcr:primaryType: hst:mount
               jcr:uuid: 56c2f27e-39e2-4353-922c-505a3f32a732
               hst:alias: site-de
-              hst:channelpath: /hst:hst/hst:channels/hippogogreen-de
               hst:locale: de_DE
               hst:mountmobile: mobile-de
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_de
@@ -226,7 +216,6 @@ definitions:
               jcr:primaryType: hst:mount
               jcr:uuid: 190e3c78-9c21-4c0e-9a5c-5b545a5d1673
               hst:alias: site-uk
-              hst:channelpath: /hst:hst/hst:channels/hippogogreen-uk
               hst:locale: en_GB
               hst:mountmobile: mobile-uk
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_uk

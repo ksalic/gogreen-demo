@@ -5,18 +5,6 @@ definitions:
       hst:description: Create Event Site with English demo content, can be deleted,
         including its content.
       hst:name: Event Subsite
-      /hst:channel:
-        jcr:primaryType: hst:channel
-        hst:channelinfoclass: com.onehippo.gogreen.channels.WebsiteInfo
-        hst:deletable: true
-        hst:devices: [desktop, ipad_landscape, ipad_portrait]
-        hst:name: English Event Website
-        hst:type: website
-        /hst:channelinfo:
-          jcr:primaryType: hst:channelinfo
-          logo: /content/gallery/logos/gogreenlogo2.png
-          pageTitlePrefix: Hippo Go Green
-          themeCss: /content/assets/themes/css/hippo-green.css
       /hst:configuration:
         jcr:primaryType: hst:configuration
         hst:inheritsfrom: [../common, ../common-event]
@@ -82,3 +70,15 @@ definitions:
                 jcr:primaryType: hst:containercomponent
                 hst:lastmodified: 2014-08-28T11:35:07.233+02:00
                 hst:xtype: HST.vBox
+        /hst:channel:
+          jcr:primaryType: hst:channel
+          hst:channelinfoclass: com.onehippo.gogreen.channels.WebsiteInfo
+          hst:deletable: true
+          hst:devices: [desktop, ipad_landscape, ipad_portrait]
+          hst:name: English Event Website
+          hst:type: website
+          /hst:channelinfo:
+            jcr:primaryType: hst:channelinfo
+            logo: /content/gallery/logos/gogreenlogo2.png
+            pageTitlePrefix: Hippo Go Green
+            themeCss: /content/assets/themes/css/hippo-green.css

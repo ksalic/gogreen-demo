@@ -4,17 +4,6 @@ definitions:
       jcr:primaryType: hst:blueprint
       hst:description: Create a new Facebook Page Tab, can be deleted.
       hst:name: Facebook Page Tab
-      /hst:channel:
-        jcr:primaryType: hst:channel
-        hst:channelinfoclass: com.onehippo.gogreen.channels.WebsiteInfo
-        hst:deletable: true
-        hst:name: Facebook Page Tab
-        hst:type: facebook
-        /hst:channelinfo:
-          jcr:primaryType: hst:channelinfo
-          logo: /content/gallery/logos/hippo-go-green.png
-          pageTitlePrefix: Hippo Go Green
-          themeCss: /content/assets/themes/css/green.css
       /hst:site:
         jcr:primaryType: hst:site
         hst:content: /content/documents/hippogogreen
@@ -73,3 +62,14 @@ definitions:
                 jcr:primaryType: hst:containercomponent
                 hst:lastmodified: 2014-08-08T14:36:09.897+02:00
                 hst:xtype: HST.vBox
+        /hst:channel:
+          jcr:primaryType: hst:channel
+          hst:channelinfoclass: com.onehippo.gogreen.channels.WebsiteInfo
+          hst:deletable: true
+          hst:name: Facebook Page Tab
+          hst:type: facebook
+          /hst:channelinfo:
+            jcr:primaryType: hst:channelinfo
+            logo: /content/gallery/logos/hippo-go-green.png
+            pageTitlePrefix: Hippo Go Green
+            themeCss: /content/assets/themes/css/green.css

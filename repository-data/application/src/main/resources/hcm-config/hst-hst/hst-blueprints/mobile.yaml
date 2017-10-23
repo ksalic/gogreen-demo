@@ -11,18 +11,6 @@ definitions:
       /hst:site:
         jcr:primaryType: hst:site
         hst:content: /content/documents/hippogogreen
-      /hst:channel:
-        jcr:primaryType: hst:channel
-        hst:channelinfoclass: com.onehippo.gogreen.channels.MobileInfo
-        hst:deletable: true
-        hst:devices: [desktop, iphone_portrait, iphone_landscape]
-        hst:name: English Mobile Site (live)
-        hst:type: mobile
-        /hst:channelinfo:
-          jcr:primaryType: hst:channelinfo
-          logo: /content/gallery/logos/hippo-go-green.png
-          pageTitlePrefix: Hippo Go Green
-          themeCss: /content/assets/themes/css/green.css
       /hst:configuration:
         jcr:primaryType: hst:configuration
         jcr:uuid: 2cd03e60-c711-4710-baa3-5ba9c05c7338
@@ -367,3 +355,15 @@ definitions:
                 jcr:primaryType: hst:containercomponent
                 jcr:uuid: 57de5ae5-9471-48f4-a0af-9a93e642cca9
                 hst:xtype: HST.UnorderedList
+        /hst:channel:
+          jcr:primaryType: hst:channel
+          hst:channelinfoclass: com.onehippo.gogreen.channels.MobileInfo
+          hst:deletable: true
+          hst:devices: [desktop, iphone_portrait, iphone_landscape]
+          hst:name: English Mobile Site (live)
+          hst:type: mobile
+          /hst:channelinfo:
+            jcr:primaryType: hst:channelinfo
+            logo: /content/gallery/logos/hippo-go-green.png
+            pageTitlePrefix: Hippo Go Green
+            themeCss: /content/assets/themes/css/green.css
