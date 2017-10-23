@@ -1,0 +1,2102 @@
+/content/gallery/banners:
+  .meta:order-before: blogs
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: e17be0f1-eb2a-4728-8960-cfe8ef4dd21e
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogogreengallery:imageset']
+  /2012:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d9d21eb6-5777-431b-96fb-15281c4e8d2c
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogogreengallery:imageset']
+    /10:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1ce1b48e-a405-47e3-ba6a-18e32eccdcc0
+      hippostd:foldertype: [new-image-folder]
+      hippostd:gallerytype: ['hippogogreengallery:imageset']
+      /facebook-community:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: dee3ac81-0135-40d1-97c8-471a1349a9f8
+        hippo:discriminator: []
+        hippo:name: Facebook community.png
+        /facebook-community:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ee6102a6-83e6-4771-af98-483592d3d2cb
+          hippo:availability: [live, preview]
+          hippogallery:filename: ReturningVisitorFB.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 14
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/facebook-community/facebook-community/thumbnail/thumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 14
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/facebook-community/facebook-community/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 73
+            hippogallery:width: 308
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/facebook-community/facebook-community/original/original.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilelogo:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 29
+            hippogallery:width: 125
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/facebook-community/facebook-community/mobilelogo/mobilelogo.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 73
+            hippogallery:width: 308
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/facebook-community/facebook-community/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 23
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/facebook-community/facebook-community/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+      /about-go-green.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: efd88794-cf7b-4884-867f-342dcabdf980
+        hippo:discriminator: []
+        hippo:name: About Go Green.png
+        /about-go-green.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b1e0eb2c-06ff-4a3d-a99c-360a33a73eaf
+          hippo:availability: [live, preview]
+          hippogallery:filename: NewVisitor.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 14
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/about-go-green.png/about-go-green.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 14
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/about-go-green.png/about-go-green.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 73
+            hippogallery:width: 308
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/about-go-green.png/about-go-green.png/original/original.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilelogo:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 29
+            hippogallery:width: 125
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/about-go-green.png/about-go-green.png/mobilelogo/mobilelogo.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 73
+            hippogallery:width: 308
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/about-go-green.png/about-go-green.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 23
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/about-go-green.png/about-go-green.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+      /monday-traffic.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 01b2aaaf-a162-468c-b779-f5650f6ce9fb
+        hippo:discriminator: []
+        hippo:name: Monday traffic.png
+        /monday-traffic.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bc3b85a0-bd80-420a-bd8c-cf4ef446879c
+          hippo:availability: [live, preview]
+          hippogallery:filename: MondayTraffic.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/monday-traffic.png/monday-traffic.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/monday-traffic.png/monday-traffic.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 248
+            hippogallery:width: 990
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/monday-traffic.png/monday-traffic.png/original/original.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilelogo:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 31
+            hippogallery:width: 125
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/monday-traffic.png/monday-traffic.png/mobilelogo/mobilelogo.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 100
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/monday-traffic.png/monday-traffic.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 24
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2012/10/monday-traffic.png/monday-traffic.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2012-10-19T11:22:00+02:00
+            jcr:mimeType: image/png
+  /2011:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f662a3bc-9883-4c5d-a363-027e1475c1de
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogogreengallery:imageset']
+    /11:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8f53ce8b-e5fe-457e-bff7-bba971282b7c
+      hippostd:foldertype: [new-image-folder]
+      hippostd:gallerytype: ['hippogogreengallery:imageset']
+      /vegetarian.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 4815c83f-c5d6-46eb-9b70-516ce9f2ca06
+        hippo:discriminator: []
+        hippo:name: Vegetarian.png
+        /vegetarian.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5a65f14a-6b21-4042-ba86-ac51eb542097
+          hippo:availability: [live, preview]
+          hippogallery:filename: Vegetarian.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian.png/vegetarian.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian.png/vegetarian.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 250
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian.png/vegetarian.png/original/original.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 250
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian.png/vegetarian.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 25
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian.png/vegetarian.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+      /slowfood.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 5d1afeee-ebb8-474f-9b2e-1abb7455b82f
+        hippo:discriminator: []
+        hippo:name: Slowfood.png
+        /slowfood.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6abc2db0-c394-4952-9547-a9ade0f2a94f
+          hippo:availability: [live, preview]
+          hippogallery:filename: Slowfood.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood.png/slowfood.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood.png/slowfood.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 250
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood.png/slowfood.png/original/original.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 250
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood.png/slowfood.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 25
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood.png/slowfood.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+      /solarcookers.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 17cdc391-3785-495b-9d62-cdceb593803b
+        hippo:discriminator: []
+        hippo:name: Solarcookers.png
+        /solarcookers.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7e563af9-afa6-4c01-9f69-37d679522e23
+          hippo:availability: [live, preview]
+          hippogallery:filename: Solarcookers.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/solarcookers.png/solarcookers.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/solarcookers.png/solarcookers.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 250
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/solarcookers.png/solarcookers.png/original/original.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 250
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/solarcookers.png/solarcookers.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 25
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/solarcookers.png/solarcookers.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2011-11-24T10:52:00+01:00
+            jcr:mimeType: image/png
+      /370px-capital_one_banner.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: e45af313-a7f4-44b3-89a2-7df68a07da6c
+        hippo:discriminator: []
+        hippo:name: 370px-Capital_One_banner.jpg
+        /370px-capital_one_banner.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 19adee29-69e9-45b0-af66-207e56bb25d3
+          hippo:availability: [live, preview]
+          hippogallery:filename: 370px-Capital_One_banner.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 17
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/370px-capital_one_banner.jpg/370px-capital_one_banner.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T11:42:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 17
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/370px-capital_one_banner.jpg/370px-capital_one_banner.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T11:42:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 106
+            hippogallery:width: 370
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/370px-capital_one_banner.jpg/370px-capital_one_banner.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T11:42:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 106
+            hippogallery:width: 370
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/370px-capital_one_banner.jpg/370px-capital_one_banner.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T11:42:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 28
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/370px-capital_one_banner.jpg/370px-capital_one_banner.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T11:42:00+01:00
+            jcr:mimeType: image/jpeg
+      /slowfood-bannerr2.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b679859a-dd34-4945-af94-7295edae040e
+        hippo:discriminator: []
+        /slowfood-bannerr2.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8f552599-ba0c-428b-98d9-13a3c400e395
+          hippo:availability: [live, preview]
+          hippogallery:filename: slowfood-bannerr2.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 39
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr2.jpg/slowfood-bannerr2.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:56:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 39
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr2.jpg/slowfood-bannerr2.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:56:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 331
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr2.jpg/slowfood-bannerr2.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T14:56:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 264
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr2.jpg/slowfood-bannerr2.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:56:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 64
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr2.jpg/slowfood-bannerr2.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:56:00+01:00
+            jcr:mimeType: image/jpeg
+      /slowfood-bannerr.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b5f6342e-400a-44b5-9c06-c4ea4388f297
+        hippo:discriminator: []
+        /slowfood-bannerr.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 09e9f8c7-c995-4d3a-a0c1-5b1301759691
+          hippo:availability: [live, preview]
+          hippogallery:filename: slowfood-bannerr.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr.jpg/slowfood-bannerr.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:57:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr.jpg/slowfood-bannerr.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:57:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 281
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr.jpg/slowfood-bannerr.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T14:57:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 224
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr.jpg/slowfood-bannerr.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:57:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 55
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/slowfood-bannerr.jpg/slowfood-bannerr.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T14:57:00+01:00
+            jcr:mimeType: image/jpeg
+      /vegetarian-banner.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c2c4f790-81cb-444f-8ab8-cb19c68eb1bc
+        hippo:discriminator: []
+        /vegetarian-banner.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 62b25545-c8fb-43a2-abf2-a5178aea8ce6
+          hippo:availability: [live, preview]
+          hippogallery:filename: vegetarian-banner.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 39
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian-banner.jpg/vegetarian-banner.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:11:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 39
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian-banner.jpg/vegetarian-banner.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:11:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 333
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian-banner.jpg/vegetarian-banner.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T15:11:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 266
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian-banner.jpg/vegetarian-banner.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:11:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/vegetarian-banner.jpg/vegetarian-banner.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:11:00+01:00
+            jcr:mimeType: image/jpeg
+      /costarica.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d4fbce18-da2f-4b4e-babe-a9ac8ec280e8
+        hippo:discriminator: []
+        /costarica.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: cfb0c4e0-69a6-4fb5-9f44-720265432d41
+          hippo:availability: [live, preview]
+          hippogallery:filename: costarica.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/costarica.jpg/costarica.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/costarica.jpg/costarica.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 281
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/costarica.jpg/costarica.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 224
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/costarica.jpg/costarica.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 55
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/costarica.jpg/costarica.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+      /cuba.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 120cabab-4f10-475b-b818-99ae52f8677f
+        hippo:discriminator: []
+        /cuba.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0264d726-9deb-404c-b1c4-474c19135397
+          hippo:availability: [live, preview]
+          hippogallery:filename: cuba.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/cuba.jpg/cuba.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/cuba.jpg/cuba.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 281
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/cuba.jpg/cuba.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 224
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/cuba.jpg/cuba.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 55
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/cuba.jpg/cuba.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+      /india.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 67a36333-99d4-4a99-8315-759b46290507
+        hippo:discriminator: []
+        hippo:name: India.jpg
+        /india.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f5f533e5-8dca-4c89-b5f9-7b6316a154b6
+          hippo:availability: [live, preview]
+          hippogallery:filename: India.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 39
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/india.jpg/india.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 39
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/india.jpg/india.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 333
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/india.jpg/india.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 266
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/india.jpg/india.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 65
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/india.jpg/india.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:23:00+01:00
+            jcr:mimeType: image/jpeg
+      /jobs-solarcooking.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a0bee616-b5cb-4000-a3be-622aa6c3c72e
+        hippo:discriminator: []
+        /jobs-solarcooking.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3c9a573c-46a9-48d2-9e91-7ded3ae23289
+          hippo:availability: [live, preview]
+          hippogallery:filename: jobs-solarcooking.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking.jpg/jobs-solarcooking.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:36:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking.jpg/jobs-solarcooking.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:36:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 281
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking.jpg/jobs-solarcooking.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T15:36:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 224
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking.jpg/jobs-solarcooking.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:36:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 55
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking.jpg/jobs-solarcooking.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:36:00+01:00
+            jcr:mimeType: image/jpeg
+      /jobs-solarcooking2.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 19963137-364b-4d43-ac9d-e9c04eb022c6
+        hippo:discriminator: []
+        /jobs-solarcooking2.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 579169be-4bc4-46f4-af24-f68b25ac9213
+          hippo:availability: [live, preview]
+          hippogallery:filename: jobs-solarcooking2.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking2.jpg/jobs-solarcooking2.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:46:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 33
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking2.jpg/jobs-solarcooking2.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:46:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 281
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking2.jpg/jobs-solarcooking2.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T15:46:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 224
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking2.jpg/jobs-solarcooking2.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:46:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 55
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/jobs-solarcooking2.jpg/jobs-solarcooking2.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T15:46:00+01:00
+            jcr:mimeType: image/jpeg
+      /artichokes.jpg:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 22c5ba10-85d4-411e-ad59-03a978294722
+        hippo:discriminator: []
+        hippo:name: Artichokes.jpg
+        /artichokes.jpg:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 69ab43b2-55c4-42c7-a442-ec902fe31e54
+          hippo:availability: [live, preview]
+          hippogallery:filename: Artichokes.jpg
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 43
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/artichokes.jpg/artichokes.jpg/thumbnail/thumbnail.jpg
+            jcr:lastModified: 2011-11-24T17:03:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 43
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/artichokes.jpg/artichokes.jpg/mobilethumbnail/mobilethumbnail.jpg
+            jcr:lastModified: 2011-11-24T17:03:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 366
+            hippogallery:width: 500
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/artichokes.jpg/artichokes.jpg/original/original.jpg
+            jcr:lastModified: 2011-11-24T17:03:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 292
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/artichokes.jpg/artichokes.jpg/largethumbnail/largethumbnail.jpg
+            jcr:lastModified: 2011-11-24T17:03:00+01:00
+            jcr:mimeType: image/jpeg
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 71
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2011/11/artichokes.jpg/artichokes.jpg/smallthumbnail/smallthumbnail.jpg
+            jcr:lastModified: 2011-11-24T17:03:00+01:00
+            jcr:mimeType: image/jpeg
+  /2010:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 236d6fe1-b716-4fe6-8fea-a4f64e5c83e0
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogogreengallery:imageset']
+    /07:
+      jcr:primaryType: hippogallery:stdImageGallery
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 68ebb571-b90a-4277-b913-36df0cbfb346
+      hippostd:foldertype: [new-image-folder]
+      hippostd:gallerytype: ['hippogogreengallery:imageset']
+      /wooden-ipod-sound-system.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 864aacd2-ac7a-4602-8aba-eba2ebc27e80
+        hippo:discriminator: []
+        hippo:name: Wooden iPod sound system.png
+        /wooden-ipod-sound-system.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0973f98c-7684-476c-b59f-9f2de31f56c1
+          hippo:availability: [live, preview]
+          hippogallery:filename: Wooden iPod sound system.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 14
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/wooden-ipod-sound-system.png/wooden-ipod-sound-system.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2010-07-12T15:14:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 24
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/wooden-ipod-sound-system.png/wooden-ipod-sound-system.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2010-07-12T15:14:00+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 247
+            hippogallery:width: 990
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/wooden-ipod-sound-system.png/wooden-ipod-sound-system.png/original/original.png
+            jcr:lastModified: 2010-07-12T15:14:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 99
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/wooden-ipod-sound-system.png/wooden-ipod-sound-system.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2010-07-12T15:14:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 14
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/wooden-ipod-sound-system.png/wooden-ipod-sound-system.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2010-07-12T15:14:00+02:00
+            jcr:mimeType: image/png
+      /organic-lunch-bag-prints.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 60bbb306-fe07-48b8-a1a3-965c7458a78d
+        hippo:discriminator: []
+        hippo:name: Organic lunch bag prints.png
+        /organic-lunch-bag-prints.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b789c4c3-0f28-43dd-b491-060328eeea28
+          hippo:availability: [live, preview]
+          hippogallery:filename: Organic lunch bag prints.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/organic-lunch-bag-prints.png/organic-lunch-bag-prints.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2010-07-12T15:19:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 24
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/organic-lunch-bag-prints.png/organic-lunch-bag-prints.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2010-07-12T15:19:00+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 248
+            hippogallery:width: 990
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/organic-lunch-bag-prints.png/organic-lunch-bag-prints.png/original/original.png
+            jcr:lastModified: 2010-07-12T15:19:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 100
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/organic-lunch-bag-prints.png/organic-lunch-bag-prints.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2010-07-12T15:19:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/organic-lunch-bag-prints.png/organic-lunch-bag-prints.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2010-07-12T15:19:00+02:00
+            jcr:mimeType: image/png
+      /green-johanna.png:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 874e6328-c4a5-4618-99d1-c538c0e0bdac
+        hippo:discriminator: []
+        hippo:name: Green Johanna.png
+        /green-johanna.png:
+          jcr:primaryType: hippogogreengallery:imageset
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 35892c51-213e-48dc-a7e7-985fd5b1da73
+          hippo:availability: [live, preview]
+          hippogallery:filename: Green Johanna.png
+          /hippogallery:thumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/green-johanna.png/green-johanna.png/thumbnail/thumbnail.png
+            jcr:lastModified: 2010-07-12T15:30:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:smallthumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 24
+            hippogallery:width: 98
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/green-johanna.png/green-johanna.png/smallthumbnail/smallthumbnail.png
+            jcr:lastModified: 2010-07-12T15:30:00+02:00
+            jcr:mimeType: image/png
+          /hippogallery:original:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 248
+            hippogallery:width: 990
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/green-johanna.png/green-johanna.png/original/original.png
+            jcr:lastModified: 2010-07-12T15:30:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:largethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 100
+            hippogallery:width: 400
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/green-johanna.png/green-johanna.png/largethumbnail/largethumbnail.png
+            jcr:lastModified: 2010-07-12T15:30:00+02:00
+            jcr:mimeType: image/png
+          /hippogogreengallery:mobilethumbnail:
+            jcr:primaryType: hippogallery:image
+            hippogallery:height: 15
+            hippogallery:width: 60
+            jcr:data:
+              type: binary
+              resource: /content/gallery/banners/2010/07/green-johanna.png/green-johanna.png/mobilethumbnail/mobilethumbnail.png
+            jcr:lastModified: 2010-07-12T15:30:00+02:00
+            jcr:mimeType: image/png
+  /2009:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 74fbbcc2-fc9e-450d-a8ac-808575defb02
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogogreengallery:imageset']
+    /sustainabilility-national-forum.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: af4d3c25-89a8-4e33-bec2-d65097c4f87d
+      hippo:discriminator: []
+      hippo:name: SustainAbilility National Forum
+      /sustainabilility-national-forum.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 22a0eb65-ca01-4901-a5f4-03c3c9a469c9
+        hippo:availability: [live, preview]
+        hippogallery:filename: SustainAbilility National Forum
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sustainabilility-national-forum.png/sustainabilility-national-forum.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sustainabilility-national-forum.png/sustainabilility-national-forum.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sustainabilility-national-forum.png/sustainabilility-national-forum.png/original/original.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sustainabilility-national-forum.png/sustainabilility-national-forum.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sustainabilility-national-forum.png/sustainabilility-national-forum.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+    /sjf-summit.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 6e2b3aaf-8019-4699-bd84-a8ac36e87586
+      hippo:discriminator: []
+      hippo:name: SJF Summit.png
+      /sjf-summit.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f1d82b05-277f-4b03-97b8-3e117a74fdc3
+        hippo:availability: [live, preview]
+        hippogallery:filename: SJF Summit.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sjf-summit.png/sjf-summit.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sjf-summit.png/sjf-summit.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sjf-summit.png/sjf-summit.png/original/original.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sjf-summit.png/sjf-summit.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/sjf-summit.png/sjf-summit.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+    /gree-home-and-living-show.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 37430a7a-6f3e-41b6-a589-61a9e4130a1c
+      hippo:discriminator: []
+      hippo:name: Green Home and Living Show
+      /gree-home-and-living-show.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5a617306-f600-4208-bf1f-b4919b7f67b1
+        hippo:availability: [live, preview]
+        hippogallery:filename: Green Home and Living Show
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/gree-home-and-living-show.png/gree-home-and-living-show.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/gree-home-and-living-show.png/gree-home-and-living-show.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/gree-home-and-living-show.png/gree-home-and-living-show.png/original/original.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/gree-home-and-living-show.png/gree-home-and-living-show.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/gree-home-and-living-show.png/gree-home-and-living-show.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T13:26:00+02:00
+          jcr:mimeType: image/png
+    /elves-and-sprites.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: b5519550-d0e3-43c1-9a16-0f71fb8cb1a0
+      hippo:discriminator: []
+      hippo:name: Elves and Sprites.png
+      /elves-and-sprites.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: aa8ddec2-354e-47a9-b62f-87c17a72cfb3
+        hippo:availability: [live, preview]
+        hippogallery:filename: Elves and Sprites.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/elves-and-sprites.png/elves-and-sprites.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T13:34:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/elves-and-sprites.png/elves-and-sprites.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T13:34:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/elves-and-sprites.png/elves-and-sprites.png/original/original.png
+          jcr:lastModified: 2010-07-12T13:34:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/elves-and-sprites.png/elves-and-sprites.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T13:34:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/elves-and-sprites.png/elves-and-sprites.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T13:34:00+02:00
+          jcr:mimeType: image/png
+    /magna-plaza-shopping.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: ccd4b2ae-a525-4a9e-8485-f818f3d85a5b
+      hippo:discriminator: []
+      hippo:name: Magna Plaza shopping.png
+      /magna-plaza-shopping.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 13668249-e3fb-4c3f-b166-58e20d2a249a
+        hippo:availability: [live, preview]
+        hippogallery:filename: Magna Plaza shopping.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/magna-plaza-shopping.png/magna-plaza-shopping.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:01:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/magna-plaza-shopping.png/magna-plaza-shopping.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:01:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/magna-plaza-shopping.png/magna-plaza-shopping.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:01:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/magna-plaza-shopping.png/magna-plaza-shopping.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:01:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/magna-plaza-shopping.png/magna-plaza-shopping.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:01:00+02:00
+          jcr:mimeType: image/png
+    /ice.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 8bc939c9-7d74-403b-a976-416950cff9ad
+      hippo:discriminator: []
+      hippo:name: Ice.png
+      /ice.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 109b90f7-96f0-424c-a565-43d444301efe
+        hippo:availability: [live, preview]
+        hippogallery:filename: Ice.png
+        hippogogreengallery:alt: ''
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/ice.png/ice.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:10:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/ice.png/ice.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:10:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/ice.png/ice.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:10:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/ice.png/ice.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:10:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/ice.png/ice.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:10:00+02:00
+          jcr:mimeType: image/png
+    /tesla.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: c13d2834-33cf-4f14-9449-ab0f5e47c973
+      hippo:discriminator: []
+      hippo:name: Tesla.png
+      /tesla.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 14f5fbc0-85a2-43b3-9412-d523adc0c9d3
+        hippo:availability: [live, preview]
+        hippogallery:filename: Tesla.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/tesla.png/tesla.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:15:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/tesla.png/tesla.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:15:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/tesla.png/tesla.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:15:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/tesla.png/tesla.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:15:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2009/tesla.png/tesla.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:15:00+02:00
+          jcr:mimeType: image/png
+  /2008:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 31b8ae2d-5eda-435a-bbfe-866735abdc75
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogogreengallery:imageset']
+    /solar-panels.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 9efd7ca7-587e-4645-934a-9262b0108231
+      hippo:discriminator: []
+      hippo:name: Solar panels.png
+      /solar-panels.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: dde074c4-eaf4-437c-a5b5-41076f88d7f5
+        hippo:availability: [live, preview]
+        hippogallery:filename: Solar panels.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/solar-panels.png/solar-panels.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:18:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/solar-panels.png/solar-panels.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:18:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/solar-panels.png/solar-panels.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:18:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/solar-panels.png/solar-panels.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:18:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/solar-panels.png/solar-panels.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:18:00+02:00
+          jcr:mimeType: image/png
+    /wind-turbines.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: ae3de0c6-cf9f-48b4-89e4-3a2f666f0fcf
+      hippo:discriminator: []
+      hippo:name: Wind turbines.png
+      /wind-turbines.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 07128489-be2c-4642-9802-5fe4df1a3e8a
+        hippo:availability: [live, preview]
+        hippogallery:filename: Wind turbines.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wind-turbines.png/wind-turbines.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:31:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wind-turbines.png/wind-turbines.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:31:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wind-turbines.png/wind-turbines.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:31:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wind-turbines.png/wind-turbines.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:31:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wind-turbines.png/wind-turbines.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:31:00+02:00
+          jcr:mimeType: image/png
+    /glacier-blanket.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: a2dad282-ba55-4ee7-bbab-be3693aad773
+      hippo:discriminator: []
+      hippo:name: Glacier blanket.png
+      /glacier-blanket.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b94bbcff-a3fd-4902-b553-2b7f6b837b0a
+        hippo:availability: [live, preview]
+        hippogallery:filename: Glacier blanket.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/glacier-blanket.png/glacier-blanket.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:42:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/glacier-blanket.png/glacier-blanket.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:42:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/glacier-blanket.png/glacier-blanket.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:42:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/glacier-blanket.png/glacier-blanket.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:42:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/glacier-blanket.png/glacier-blanket.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:42:00+02:00
+          jcr:mimeType: image/png
+    /cables.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: fd0a7725-3286-4f08-8602-95af4349083c
+      hippo:discriminator: []
+      hippo:name: Cables.png
+      /cables.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0e0b2b2f-d4ef-40d4-9235-3c6b01efab84
+        hippo:availability: [live, preview]
+        hippogallery:filename: Cables.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/cables.png/cables.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:48:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/cables.png/cables.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:48:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/cables.png/cables.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:48:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/cables.png/cables.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:48:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/cables.png/cables.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:48:00+02:00
+          jcr:mimeType: image/png
+    /wooden-cutlery.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 16bffab8-d1eb-407e-ab38-5d00de0dfe92
+      hippo:discriminator: []
+      hippo:name: Wooden cutlery.png
+      /wooden-cutlery.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 31b5dabb-e093-41df-81a3-8837655885cf
+        hippo:availability: [live, preview]
+        hippogallery:filename: Wooden cutlery.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wooden-cutlery.png/wooden-cutlery.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T14:59:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wooden-cutlery.png/wooden-cutlery.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T14:59:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wooden-cutlery.png/wooden-cutlery.png/original/original.png
+          jcr:lastModified: 2010-07-12T14:59:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wooden-cutlery.png/wooden-cutlery.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T14:59:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/wooden-cutlery.png/wooden-cutlery.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T14:59:00+02:00
+          jcr:mimeType: image/png
+    /green-cup.png:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: f0492710-9db9-4bf0-9aff-f22730fe1ec2
+      hippo:discriminator: []
+      hippo:name: Green cup.png
+      /green-cup.png:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b093572d-6dbf-4cd1-a210-e586f73bb74e
+        hippo:availability: [live, preview]
+        hippogallery:filename: Green cup.png
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/green-cup.png/green-cup.png/thumbnail/thumbnail.png
+          jcr:lastModified: 2010-07-12T15:03:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 24
+          hippogallery:width: 98
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/green-cup.png/green-cup.png/smallthumbnail/smallthumbnail.png
+          jcr:lastModified: 2010-07-12T15:03:00+02:00
+          jcr:mimeType: image/png
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 248
+          hippogallery:width: 990
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/green-cup.png/green-cup.png/original/original.png
+          jcr:lastModified: 2010-07-12T15:03:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 100
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/green-cup.png/green-cup.png/largethumbnail/largethumbnail.png
+          jcr:lastModified: 2010-07-12T15:03:00+02:00
+          jcr:mimeType: image/png
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 15
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/2008/green-cup.png/green-cup.png/mobilethumbnail/mobilethumbnail.png
+          jcr:lastModified: 2010-07-12T15:03:00+02:00
+          jcr:mimeType: image/png
+  /carousel:
+    jcr:primaryType: hippogallery:stdImageGallery
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 422135f3-c0f8-4a59-b317-52670f4b7545
+    hippostd:foldertype: [new-image-folder]
+    hippostd:gallerytype: ['hippogogreengallery:imageset']
+    /office.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ae367024-acb5-478d-a4c8-d946fb95f0f4
+      hippo:discriminator: []
+      /office.jpg:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 0fc939ee-d49b-4758-ad65-e2db33cb5b84
+        hippo:availability: [live, preview]
+        hippogallery:filename: office.jpg
+        hippogogreengallery:alt: ''
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: office.jpg
+          hippogallery:height: 39
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 39
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/mobilethumbnail/mobilethumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:landscapeimage:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 350
+          hippogallery:width: 768
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/landscapeimage/landscapeimage.jpg
+          jcr:lastModified: 2014-08-29T17:36:12.050+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 65
+          hippogallery:width: 97
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/smallthumbnail/smallthumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:mobilelogo:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 31
+          hippogallery:width: 48
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/mobilelogo/mobilelogo.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:bannercarousel:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 450
+          hippogallery:width: 676
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/bannercarousel/bannercarousel.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 999
+          hippogallery:width: 1500
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/original/original.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:banner:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 359
+          hippogallery:width: 540
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/banner/banner.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 266
+          hippogallery:width: 400
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office.jpg/office.jpg/largethumbnail/largethumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:22:52.053+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:copyright:
+          jcr:primaryType: hippogogreen:copyright
+          hippogogreen:description: ''
+          hippogogreen:url: ''
+    /office-2.jpg:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: adc1852a-69b8-40ce-9a02-c95bd89a1448
+      hippo:discriminator: []
+      /office-2.jpg:
+        jcr:primaryType: hippogogreengallery:imageset
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 5e933744-3298-4f5d-82a4-4ac60c64fbd1
+        hippo:availability: [live, preview]
+        hippogallery:filename: office-2.jpg
+        hippogogreengallery:alt: ''
+        /hippogallery:thumbnail:
+          jcr:primaryType: hippogallery:image
+          hippo:filename: office-2.jpg
+          hippogallery:height: 50
+          hippogallery:width: 60
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/thumbnail/thumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:mobilethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 45
+          hippogallery:width: 53
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/mobilethumbnail/mobilethumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:landscapeimage:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 350
+          hippogallery:width: 768
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/landscapeimage/landscapeimage.jpg
+          jcr:lastModified: 2014-08-29T17:34:41.652+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:smallthumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 74
+          hippogallery:width: 88
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/smallthumbnail/smallthumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:mobilelogo:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 31
+          hippogallery:width: 38
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/mobilelogo/mobilelogo.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:bannercarousel:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 450
+          hippogallery:width: 537
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/bannercarousel/bannercarousel.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogallery:original:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 1997
+          hippogallery:width: 2387
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/original/original.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:banner:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 380
+          hippogallery:width: 454
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/banner/banner.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:largethumbnail:
+          jcr:primaryType: hippogallery:image
+          hippogallery:height: 300
+          hippogallery:width: 358
+          jcr:data:
+            type: binary
+            resource: /content/gallery/banners/carousel/office-2.jpg/office-2.jpg/largethumbnail/largethumbnail.jpg
+          jcr:lastModified: 2014-08-28T13:30:48.834+02:00
+          jcr:mimeType: image/jpeg
+        /hippogogreengallery:copyright:
+          jcr:primaryType: hippogogreen:copyright
+          hippogogreen:description: ''
+          hippogogreen:url: ''
