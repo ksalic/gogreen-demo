@@ -1,0 +1,19 @@
+/content/documents/河马转到绿/searchfacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:count: 62
+  hippo:docbase: f7dbfafd-4bee-465f-95a5-93c8fe7cd585
+  hippofacnav:facetnodenames: [期, 文档类型, '类别${sortby:''facetvalue'', sortorder:''ascending''}',
+    '日期${sortby:''facetvalue'', sortorder:''descending''}', '标签${sortby:''facetvalue'',
+      sortorder:''descending''}']
+  hippofacnav:facets: ['hippogogreen:date$[{name:''这个月'', resolution:''month'', begin:0,
+      end:1},{name:''上个月'', resolution:''month'', begin:-1, end:0}, {name:''今年'',
+      resolution:''year'', begin:0, end:1}]', 'jcr:primaryType', 'hippogogreen:categories',
+    'hippogogreen:date$year', 'hippostd:tags']
+  hippofacnav:filters: ['not(jcr:primaryType=hippogogreen:banner)', 'not(jcr:primaryType=hippogogreen:comment)',
+    'not(jcr:primaryType=hippogogreen:restapi)', 'not(jcr:primaryType=hippogogreen:review)',
+    'not(jcr:primaryType=hippostd:directory)', 'not(jcr:primaryType=hippostd:folder)',
+    'not(jcr:primaryType=poll:polldocument)', 'not(jcr:primaryType=selection:valuelist)',
+    'not(jcr:primaryType=tcmp:tagcloud)', 'not(jcr:primaryType=hippogogreen:faq)',
+    'not(jcr:primaryType=eforms:form)']
+  hippofacnav:limit: 200
+  hippofacnav:skipresultsetfacetsavailable: true

@@ -1,0 +1,2879 @@
+/content/documents/hippo-geht-gruen/events:
+  .meta:order-before: news
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: eca927c3-27fc-4af0-ae7c-38652b18ffb1
+  hippo:name: Veranstaltungen
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 2a57de96-bc3c-4a63-a61f-869c0cebd9cd
+  hippotranslation:locale: de
+  /2014:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 764fc901-0c86-446b-b092-f986015eef7b
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 10a4c370-ff7c-487a-9968-0f359b1f0a49
+    hippotranslation:locale: de
+    /07:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: b11bd95c-9d86-4e5a-8a81-12522a0220ad
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: de7b1a1a-df91-4c34-941c-9600088553be
+      hippotranslation:locale: de
+      /wasseraufbereitung-gipfel:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 4a994526-581c-4e95-8251-9ba6161a213b
+        hippo:name: Wasseraufbereitung Gipfel
+        /wasseraufbereitung-gipfel:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 665ab135-ac6a-4912-a6f0-1baa07ce8f0e
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Summit]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-07-20T18:54:00+02:00
+          hippogogreen:enddate: 2014-07-22T18:52:00+02:00
+          hippogogreen:summary: |-
+            Die ganze Idee mit Schmutz / Keim / Umweltverschmutzung freies Wasser fließt in der gesamten
+                         Umwelt. Viele andere Phänomene "führen aus diesem Konzept der Reinigung von Wasser.
+                         Gewässerschutz ist der Hauptfeind der dieses Konzept und verschiedene Kampagnen und Aktivisten
+                         haben auf der ganzen Welt organisiert worden, um Wasser reinigen helfen. In Anbetracht der Menge an
+                         Wasserverbrauch, die unter den aktuellen Verbrauch ist, ist dieses Konzept von äußerster Wichtigkeit.
+          hippogogreen:title: Wasseraufbereitung Gipfel
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [Wasseraufbereitung, Wasser]
+          hippostdpubwf:createdBy: tbrenninkmeijer
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-02-01T11:19:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-03-16T15:38:00+01:00
+          hippotranslation:id: fd14a90d-8cf4-4c39-a000-82f3b84f2e99
+          hippotranslation:locale: de
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+              <span id="result_box">Der Reinigungsprozess des Wassers kann die Konzentration
+              von Feinstaub einschließlich suspendierte Teilchen, Parasiten, Bakterien, Algen,
+              Viren, Pilze und eine Reihe von gelösten und partikulären Material von den
+              Oberflächen, die Wasser Kontakt mit möglicherweise gemacht haben nach einem
+              Sturz als regen abgeleitet. <br/>
+              <br/>
+              Die Standards für die Qualität des Trinkwassers sind in der Regel von den
+              Regierungen oder von internationalen Standards zu setzen. Diese Standards werden
+              in der Regel festgelegten minimalen und maximalen Konzentrationen von
+              Schadstoffen für die Verwendung auf dem Wasser gemacht werden soll. <br/>
+              <br/>
+              Es ist nicht möglich zu sagen, ob Wasser von geeigneter Qualität durch visuelle
+              Untersuchung ist. Einfache Verfahren wie Kochen oder die Nutzung eines
+              Haushaltes Aktivkohlefilter sind nicht ausreichend für die Behandlung aller
+              möglichen Verunreinigungen, die im Wasser aus einer unbekannten Quelle kann.
+              Auch natürliches Quellwasser - als sicher für alle praktischen Zwecke in den
+              1800er Jahren - muss nun vor der Bestimmung, welche Art von Behandlung, falls
+              vorhanden, benötigt wird getestet werden. Chemische Analyse, während teuer ist,
+              ist der einzige Weg, um die erforderlichen Informationen für die Entscheidung
+              über die geeignete Methode der Reinigung erhalten.</span>
+              </body>
+              </html>
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7519d15e-39af-4b60-92a9-f57cb83a3119
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Petaluma
+            hippogogreen:country: USA
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '185'
+            hippogogreen:postalcode: '94952'
+            hippogogreen:province: California
+            hippogogreen:street: H Street
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 429c32b6-2df0-484f-93b1-c614fab9c69f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+    /05:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 872a042f-ad27-4600-b352-89a5553fb9cd
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: c4da4890-15bf-47f7-9a31-92335a9aa576
+      hippotranslation:locale: de
+      /cradle-to-cradle-veranstaltung:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 2c49bc91-407c-47bd-a4eb-5abe37dbbb66
+        hippo:name: Cradle to Cradle Veranstaltung
+        /cradle-to-cradle-veranstaltung:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bc0d1254-accc-4852-91cf-2603a04422db
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Cradle to Cradle]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2014-05-20T10:22:00+02:00
+          hippogogreen:enddate: 2014-05-31T23:00:00+02:00
+          hippogogreen:summary: |-
+            In den Cradle to Cradle-Modell, alle Materialien in Verwendung industriellen oder kommerziellen
+                         Prozesse - wie Metalle, Fasern, Farbstoffe - zu sehen sind, in einer von zwei Kategorien fallen:
+                         "technische" oder "biologische" Nährstoffe.
+          hippogogreen:title: Cradle to Cradle Design Veranstaltung
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [recycling, design]
+          hippostdpubwf:createdBy: tbrenninkmeijer
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-02-01T11:19:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-03-16T15:38:00+01:00
+          hippotranslation:id: 0c11111b-7d99-464e-9824-cbb49cbdcf2b
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p><span id="result_box">Technische Nährstoffe sind strikt nicht-toxisch, nicht
+              schädlich synthetischen Materialien, die keine negativen Auswirkungen auf die
+              natürliche Umwelt nur begrenzt, sie können in kontinuierlichen Zyklen als das
+              gleiche Produkt, ohne ihre Integrität und Qualität verwendet werden. Auf diese
+              Weise können diese Materialien über genutzt werden und immer wieder statt
+              "downcycled" in geringerem Produkte, letztlich zu Abfall. Biologische Nährstoffe
+              sind organische Materialien, die, einmal benutzt, kann der in einer natürlichen
+              Umwelt entsorgt werden und zersetzen sich in den Boden, Nahrung für
+              Kleinlebewesen ohne Beeinträchtigung der natürlichen Umwelt. Dies ist abhängig
+              von der Ökologie der Region, z. B. organische Material aus einem Land oder einer
+              Landmasse kann schädliche Auswirkungen auf die Ökologie eines anderen Landes
+              oder Landmasse.</span></p>
+
+              </body>
+              </html>
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 173e0126-fe0c-46a5-8b08-f4f887e553f9
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 56a39341-e2ab-4ab3-9b24-91bac36331b6
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 014a67a2-eb02-4489-859c-7ad61a32bf79
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: ''
+            hippogogreen:country: ''
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+    /03:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: f9e9873a-3a06-4dc9-acb1-71a2b3c81e04
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 2a3e0f53-d1ed-49a9-993d-eade19cef609
+      hippotranslation:locale: de
+      /red-kite-mountain-bike-bash:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b64f2c9f-52ae-4fd9-b62a-ffc303919351
+        hippo:name: RED KITE MOUNTAIN BIKE BASH
+        /red-kite-mountain-bike-bash:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 60bb1bb6-550e-4c55-aa57-c8cfebe6e1d4
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Bike]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2014-03-06T10:22:00+02:00
+          hippogogreen:enddate: 2014-03-30T12:37:00+02:00
+          hippogogreen:summary: |-
+            Dies ist eine nicht-kompetitive Mountainbike-Event für Meilen von natürlichen und
+                         Zweck gebaut eingleisigen, Forststraßen und Reitwege. Einheimische Führer zu verwenden
+                         Schneider die Fahrten aller Schwierigkeitsgrade. Die Veranstaltung umfasst eine Nachtfahrt am Freitag
+                         Abends, am frühen Abend Aktivitäten und eine post Fahrt BBQ für den Samstag mit Live-Musik
+                         bei den örtlichen Pubs. Pre-entry empfohlen
+          hippogogreen:title: RED KITE MOUNTAIN BIKE BASH
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [mountainbike, Freizeit]
+          hippostdpubwf:createdBy: admin13
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-02-01T11:20:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-03-16T15:38:00+01:00
+          hippotranslation:id: faa16128-4c8d-4dab-bec2-5bce3ba5751e
+          hippotranslation:locale: de
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Events
+            hippogogreen:url: http://www.green-events.co.uk/eventinfo.php?eventdetails=81
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+              <strong>The Red Kite Bash <span id="result_box">ist wieder
+              da</span></strong><strong>!</strong><br/>
+
+              <p><span id="result_box">Drei Tage geführte Touren speziell auf die Fähigkeiten
+              der Teilnehmer. Stuart und Tony werden Sie rund um die Landschaft um den
+              Llanwrtyd Wells mit allen Fahrten mit Start und Ziel auf dem Dorfplatz, ideal
+              für die Beendigung der Tag mit einem Bier und ein paar Überlegungen zu den
+              Aktivitäten des Tages zu nehmen.</span></p>
+
+              </body>
+              </html>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Llanwrtyd Wells
+            hippogogreen:country: Wales
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: Powys LD5
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 1f938fbd-77cd-4fe8-97e3-1b8d5d85f00a
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 6d320eaf-1d73-4aab-94c8-917f4f82980a
+      hippotranslation:locale: de
+      /west-coast-green-symposium:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 6a0b2214-e89e-46fd-ac7a-8974a2f0ce5b
+        hippo:name: West-Coast-Green-Symposium
+        /west-coast-green-symposium:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 94d135e0-4048-4cbb-9905-b2160c7df6ae
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Konferenz, Symposium]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2014-02-01T01:22:00+02:00
+          hippogogreen:enddate: 2014-02-02T23:58:00+02:00
+          hippogogreen:summary: |-
+            West Coast Grün ist einer der weltgrößten Symposium über grüne Innovationen. Wir freuen uns über
+                         skalierbare Lösungen für intelligente Gemeinden der Zukunft. Ein Katalysator für das, was kommt
+                         nächsten. Ein B-to-B Erfahrung, dass man Blätter mit mehr Visitenkarten als Sie schieben kann
+                         in die Hose. Begleiten Sie uns, Teil der weltweit größten Startrampe für neue werden
+                         Ventures, Produkte und sozialen Innovationen in grün.
+          hippogogreen:title: West Coast Green Symposium on Green Innovation
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [Konferenz, Gemeinschaft, innovation]
+          hippostdpubwf:createdBy: admin18
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-02-01T11:21:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-03-16T15:38:00+01:00
+          hippotranslation:id: 0fabde5b-cdd7-446e-b0c8-d4291b009e29
+          hippotranslation:locale: de
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: West Coast Green
+            hippogogreen:url: http://westcoastgreen.com/
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+              <span id="result_box">Während die neuen grünen Veranstaltungen pro Jahr
+              entstehen, stellt West Coast Grün der größte Meilenstein noch im grünen
+              Innovation Bewegung. Die West Coast Grün Erfahrung ist ein Fest der
+              Innovationen, Ideen und Möglichkeiten entwickelt, um Ihr Geschäft zu erweitern,
+              erweitern Sie Ihre Vision, und fördern das Denken mit der neuesten Best
+              Practices und wichtigen Akteuren in Gebäude, Wirtschaft und Design. <br/>
+              <br/>
+              Jedes Jahr wird die Konferenz hat sich auf die Bedürfnisse von Führungskräften
+              und Praktikern und Hauseigentümern zu erfüllen, in diesem Jahr das Gespräch
+              vertiefen zu einem Fokus auf der Kreuzung der gebauten Umwelt und Technik
+              gehören. Und sind wir auch, wie neu auftretende Produkte innerhalb der
+              Cleantech-Sektor, dass die größte Fähigkeit zur globalen Erwärmung bei wie
+              Solar-, Wind-und Abfallreduzierung zu reduzieren. <br/>
+              <br/>
+              An der West Coast Grün finden Sie über 300 Aussteller präsentieren die neuesten
+              in der Ressourceneffizienz unter eine beeindruckende Auswahl an grünen und
+              gesunden Bauprodukten. Über 100 Experten und visionäre Führer präsentieren ihre
+              neuesten Entwicklungen, Erkenntnisse und Inspiration in den expandierenden
+              Grenzen des Feldes. Und mehr als 11.000 Teilnehmer, einschließlich der gesamten
+              Kette von Fachleuten und Entscheidungsträgern selten von anderen Konferenzen
+              erreicht werden erwartet. <br/>
+              <br/>
+              Wir sind nicht nur Rekorde in Umfang und Reichweite, sind wir auch unter
+              Einbeziehung Durchbrüche und Innovationen in Konferenz-Design, Content und
+              Learning Design. Das heißt, du wirst doch nicht am Ende des Tages mit Blasen und
+              Kopfschmerzen zusammenbrechen. Wir ziehen alle Register, um die Erfahrung des
+              behandelnden als erfreulich und produktiv wie möglich zu machen.</span>
+              <p> </p>
+
+              </body>
+              </html>
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 62fea1a1-7e31-4e16-8b64-67b4992bce6b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: San Francisco
+            hippogogreen:country: USA
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: '94123'
+            hippogogreen:province: CA
+            hippogogreen:street: Fort Mason Center
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+    /11:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: f9df6618-bf26-47fb-b25f-96ccd0ef02dc
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6c06b0ea-6e8c-4485-8f23-5eec8e7e2d80
+      hippotranslation:locale: de
+      /partei-fur-den-planeten:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 6c10e946-0bef-423f-b0eb-a3e72c5349f0
+        hippo:name: Partei für den Planeten
+        /partei-fur-den-planeten[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 163b6b95-013c-4801-97b5-a0fcf0351a2d
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-11-21T10:00:00+01:00
+          hippogogreen:enddate: 2014-11-21T20:00:00+01:00
+          hippogogreen:summary: Kommen Sie in den Zoo zur Party für den Planeten am
+            21. November! Der Tag wird mit Themen Kunst und Handwerk sowie Green Team
+            Spezialisten des Smithsonian, die Gäste zu geben umweltfreundliche Lifestyle-Tipps
+            gefüllt! Der Tag beginnt um 10.00 Uhr und ist kostenlos.
+          hippogogreen:title: Partei für den Planeten
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:48:49.103+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-27T09:46:35.328+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: d7bc37f3-fb7b-41a0-812b-859d9edd402f
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Washington
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '3001'
+            hippogogreen:postalcode: '20008'
+            hippogogreen:province: NW
+            hippogogreen:street: Connecticut Ave
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Washington Parent
+            hippogogreen:url: http://www.washingtonparent.com/articles/1404/1404-earth-day-events.php
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /partei-fur-den-planeten[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8d6b4271-0c1d-4f84-853b-e532af948ff5
+          hippo:availability: []
+          hippogogreen:categories: [Family]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-11-21T10:00:00+01:00
+          hippogogreen:enddate: 2014-11-21T20:00:00+01:00
+          hippogogreen:summary: Kommen Sie in den Zoo zur Party für den Planeten am
+            21. November! Der Tag wird mit Themen Kunst und Handwerk sowie Green Team
+            Spezialisten des Smithsonian, die Gäste zu geben umweltfreundliche Lifestyle-Tipps
+            gefüllt! Der Tag beginnt um 10.00 Uhr und ist kostenlos.
+          hippogogreen:title: Partei für den Planeten
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:48:49.103+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-27T09:46:30.653+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: d7bc37f3-fb7b-41a0-812b-859d9edd402f
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Washington
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '3001'
+            hippogogreen:postalcode: '20008'
+            hippogogreen:province: NW
+            hippogogreen:street: Connecticut Ave
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Washington Parent
+            hippogogreen:url: http://www.washingtonparent.com/articles/1404/1404-earth-day-events.php
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /partei-fur-den-planeten[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 85c42623-2e34-4062-a4b2-dfc50e6d3c63
+          hippo:availability: [live]
+          hippogogreen:categories: [Family]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-11-21T10:00:00+01:00
+          hippogogreen:enddate: 2014-11-21T20:00:00+01:00
+          hippogogreen:summary: Kommen Sie in den Zoo zur Party für den Planeten am
+            21. November! Der Tag wird mit Themen Kunst und Handwerk sowie Green Team
+            Spezialisten des Smithsonian, die Gäste zu geben umweltfreundliche Lifestyle-Tipps
+            gefüllt! Der Tag beginnt um 10.00 Uhr und ist kostenlos.
+          hippogogreen:title: Partei für den Planeten
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:48:49.103+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-27T09:46:35.328+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-27T09:46:38.845+01:00
+          hippotranslation:id: d7bc37f3-fb7b-41a0-812b-859d9edd402f
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Washington
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '3001'
+            hippogogreen:postalcode: '20008'
+            hippogogreen:province: NW
+            hippogogreen:street: Connecticut Ave
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Washington Parent
+            hippogogreen:url: http://www.washingtonparent.com/articles/1404/1404-earth-day-events.php
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /10:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: bb1fd0cb-62d2-4dc0-a44d-216ff97ff332
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 029d82b2-0b73-427b-9d00-63313e353f2d
+      hippotranslation:locale: de
+      /intelligente-und-nachhaltige-campus-conference:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 756f9695-5c24-456d-8e6f-dba14fc5acea
+        hippo:name: Intelligente und nachhaltige Campus Conference
+        /intelligente-und-nachhaltige-campus-conference[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 1d478d3f-ddd4-4c43-95bd-3eac1274bd04
+          hippo:availability: [preview]
+          hippogogreen:categories: [School]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2014-10-10T10:00:00+02:00
+          hippogogreen:enddate: 2014-10-10T18:00:00+02:00
+          hippogogreen:summary: SSCC unterscheidet sich von anderen Konferenzen, die
+            von der Erstellung eines Programms, das detaillierte Präsentationen und
+            Workshops bietet. Sitzungen sind 50 und 80 Minuten in der Länge so dass
+            für den Dialog und gemeinsames Lernen.
+          hippogogreen:title: Intelligente und nachhaltige Campus Conference
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:56:07.048+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:08:43.108+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 5524a1b2-f2f9-4c72-858b-2f618ffef37d
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Die 80-min&uuml;tige interaktive Sitzungen k&ouml;nnen\
+              \ Moderatoren und Teilnehmer tiefer in einem bestimmten Themenbereich\
+              \ mit aktiven und partizipativen Lernstrategien zu graben. 50-min&uuml;tige\
+              \ Pr&auml;sentation Sitzungen mehr Zeit f&uuml;r Fragen und Beitr&auml;ge\
+              \ der Teilnehmer.\n<br /> &nbsp;</p> \n<h5>Conference Tracks</h5> \n\
+              <p>Wir begr&uuml;&szlig;en Vorschl&auml;ge zur Pr&auml;sentation f&uuml;r\
+              \ das Jahr 2015 Konferenz-Tracks verbunden:\n<br /> \n<strong>1. Gemeinschafts-Campus\
+              \ Partnerschaften</strong><br /> Hochschulen und ihre Gemeinden besch&auml;ftigen\
+              \ sich oft mit &auml;hnlichen Herausforderungen der Nachhaltigkeit und\
+              \ Chancen, aber wie k&ouml;nnen sie enger zusammenarbeiten? Angesichts\
+              \ der begrenzten Mittel und Stadtregierung Einschr&auml;nkungen k&ouml;nnen\
+              \ kooperative Projekte und Programme haben einen synergistischen Effekt?\
+              \ Gemeinschaftsweiten Planung ist besonders wichtig bei der Entwicklung\
+              \ von Strategien zur Anpassung und Verringerung der Anf&auml;lligkeit.\
+              \ Wie gut ist Ihr Hochschule oder Universit&auml;t die Vorbereitung\
+              \ der Studierenden - durch curriculare und au&szlig;erschulische Aktivit&auml;ten\
+              \ - f&uuml;r die Herausforderungen der Nachhaltigkeit werden sie im\
+              \ Laufe ihres Lebens zu stellen? Workshops und Pr&auml;sentationen in\
+              \ diesem Track sollten diskutieren, wie man die Auswirkungen des Campus\
+              \ Lernen erweitern und Verbindungen zu den lokalen Regierungen, prim&auml;re\
+              \ und sekund&auml;re Schulen, Unternehmen und Gemeindegruppen. Die Vorschl&auml;ge\
+              \ sollten Herausforderungen und Erfolge von innovativen Community-Campus\
+              \ Partnerschaften umfassen.\n<br /> Ressourcen: Transformational Partnerschaften:\
+              \ Eine neue Agenda f&uuml;r Hochschulbildung\n<br /> \n<strong>2. Change\
+              \ Management: Auf dem Weg zu Transformation</strong><br /> Also, Sie\
+              \ ein Nachhaltigkeitsprogramm auf Ihrem Campus etabliert haben. Aber\
+              \ wie wollen Sie dann integrieren Nachhaltigkeit in Ihre Unternehmenskultur,\
+              \ Identit&auml;t, Governance und Entscheidungsfindung, wodurch die Institution\
+              \ verwandeln? Wir sind f&uuml;r Beitr&auml;ge, die Konsensbildung mit\
+              \ den Stakeholdern und die Suche nach M&ouml;glichkeiten der Zusammenarbeit\
+              \ Abmilderung und Management Nachhaltigkeit und Risiko zu bew&auml;ltigen\
+              \ suchen. Einreichungen in diesem Track sollte eine Pr&uuml;fung Ihrer\
+              \ Prozess und nicht als Inhalte umfassen. Wie haben Sie F&uuml;hrungspositionen\
+              \ zu engagieren? Welchen Weg haben Sie in strategischen, Nachhaltigkeit\
+              \ oder Klimaschutz Planung oder Zielsetzung zu nehmen? Wie haben Sie\
+              \ Wechsel Widerst&auml;nde und / oder Hindernisse zu &uuml;berwinden?\
+              \ Wie haben Sie eine Systemdenken Ansatz in der Gestaltung und Umsetzung\
+              \ Ihrer Pl&auml;ne, Projekte und Partnerschaften gelten? Welche Herausforderungen\
+              \ haben Sie konfrontiert? Unebenheiten in der Stra&szlig;e sind oft\
+              \ unsere gr&ouml;&szlig;ten Lehrer. Eingaben an dieser Strecke kann\
+              \ auch die Entwicklung oder den Betrieb der Verhaltens&auml;nderung,\
+              \ soziale Normierung oder Community-basierte Social-Marketing-Programme.\n\
+              <br /> Ressourcen: Effektive Change Management in Higher Education\n\
+              <br /> \n<strong>3. Soziale Nachhaltigkeit</strong><br /> Die sozialen\
+              \ Bereich der Nachhaltigkeit ist oft unsere dr&auml;ngendsten, weil\
+              \ es eine breite Palette von Themen, die herausfordernd sind zu definieren\
+              \ und zu messen umfassen. Doch es kann unserer wichtigsten sein, weil\
+              \ es die Grundlage einer demokratischen Gesellschaft. Wie ist Ihre Institution\
+              \ oder Community-Building positive und integratives Klima-Campus, in\
+              \ der jeder, ihr volles Potenzial zu erreichen? Vorschl&auml;ge zu diesem\
+              \ Track eingereicht werden, sollten Herausforderungen und Erfolge in\
+              \ der sozialen Gerechtigkeit Programmierung, Einkaufspraktiken und Strategien\
+              \ zur F&ouml;rderung einzelner, Gemeinschaft und &ouml;kologische Gesundheit\
+              \ und Wellness geh&ouml;ren. Teilen Sie Ihr Modell auf der Suche nach\
+              \ den Schnittpunkten zwischen Nachhaltigkeit, Vielfalt Bewusstsein und\
+              \ kulturelle Kompetenz.\n<br /> Ressourcen: Verwirrt &uuml;ber Soziale\
+              \ Nachhaltigkeit ?, &quot;Soziale Nachhaltigkeit&quot;: Klarheit ist\
+              \ im Kontext\n<br /> \n<strong>4. Die gebaute Umwelt</strong><br />\
+              \ Wie wollen Sie dem Campus und Community Wohlbefinden durch die gebaute\
+              \ Umwelt zu verbessern? Es geht nicht nur um die Geb&auml;ude; Es umfasst\
+              \ Stra&szlig;en und Wege, Parks und Landschaftsgestaltung, Transport-und\
+              \ Lebensmitteldienstleistungen. Die Planung f&uuml;r die gebaute Umwelt\
+              \ beeinflusst die nat&uuml;rliche Umwelt und die Wasserqualit&auml;t,\
+              \ Abfluss von Regenwasser, Bodenverdichtung, L&auml;rm, Luftqualit&auml;t\
+              \ und mehr beeinflussen. Wie ist Ihr Projekt inklusive der Sanierung\
+              \ von Umweltsch&auml;den, Lernlandschaften, alternative Verkehrsmittel,\
+              \ Restaurants, oder Dienstprogramme? Pr&auml;sentationen und Workshops\
+              \ in diesem Track wird innovative Projekte aus dem Master-Planung bis\
+              \ Betrieb und Wartung zu pr&uuml;fen. Die Vorschl&auml;ge sollten innovative\
+              \ Projekte oder Prozesse, die auf anderen Standorten eingesetzt werden\
+              \ k&ouml;nnen, geh&ouml;ren.\n<br /> Ressourcen: Der Wert der Gr&uuml;nen\
+              \ Infrastruktur\n<br /> \n<strong>5. Der Campus als Lernlabor</strong><br\
+              \ /> Wie der Arbeitsplatz und die Industrie weiter ver&auml;ndern, um\
+              \ den Anforderungen und Herausforderungen des 21. Jahrhunderts gerecht\
+              \ zu werden, m&uuml;ssen wir unsere Sch&uuml;ler auf komplexe Probleme\
+              \ der Welt zu nehmen. Die Campus-Umgebung bietet M&ouml;glichkeiten\
+              \ f&uuml;r die Erforschung reif und das Lernen &uuml;ber Vollspektrum\
+              \ Nachhaltigkeit, die den Teilnehmern die Kenntnisse, F&auml;higkeiten\
+              \ und Know-how f&uuml;r dieses neue Paradigma ben&ouml;tigt wird auszustatten.\
+              \ Wie ist Ihr Umgang Institution Lehre und Forschung f&uuml;r die Nachhaltigkeit\
+              \ Integration? Was innovative P&auml;dagogik liegt an der Schnittstelle\
+              \ von Wissenschaft und Operationen? Wie wird Nachhaltigkeit Vorbereitung\
+              \ der Studierenden auf dem Campus &uuml;ber Erfolg? Welche p&auml;dagogischen\
+              \ Modellen wollen Sie teilen die von anderen in der Gemeinschaft genutzt\
+              \ werden k&ouml;nnen, haben? Beitr&auml;ge sollten den Prozess f&uuml;r\
+              \ die Umsetzung, Beteiligten, Herausforderungen geh&ouml;ren, und Erfahrungen\
+              \ mit Erfolgen.\n<br /> Informationen: Ein Leitfaden f&uuml;r Community\
+              \ Colleges, Hands-On LEED\n<br /> \n<strong>Zu &uuml;bermitteln:</strong></p>\
+              \ \n<h5>Schritt 1:\n<br /> Herunterladen und &uuml;berpr&uuml;fen die\
+              \ Einreichung von Vorschl&auml;gen und &Uuml;berpr&uuml;fungsprozess\n\
+              <br /> Schritt 2:\n<br /> Senden Sie Ihren Vorschlag bis zum 10. Oktober\
+              \ 2014 11.59 Uhr PDT</h5>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: College park
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: '20742'
+            hippogogreen:province: MD
+            hippogogreen:street: Campus dr
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: University of Maryland
+            hippogogreen:url: http://www.sustainability.umd.edu/content/community/SSCC_CFP.php
+        /intelligente-und-nachhaltige-campus-conference[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b58e7320-0bee-4c03-8686-9dbcf63950d3
+          hippo:availability: []
+          hippogogreen:categories: [School]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2014-10-10T10:00:00+02:00
+          hippogogreen:enddate: 2014-10-10T18:00:00+02:00
+          hippogogreen:summary: SSCC unterscheidet sich von anderen Konferenzen, die
+            von der Erstellung eines Programms, das detaillierte Präsentationen und
+            Workshops bietet. Sitzungen sind 50 und 80 Minuten in der Länge so dass
+            für den Dialog und gemeinsames Lernen.
+          hippogogreen:title: Intelligente und nachhaltige Campus Conference
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:56:07.048+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:07:21.044+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 5524a1b2-f2f9-4c72-858b-2f618ffef37d
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Die 80-min&uuml;tige interaktive Sitzungen k&ouml;nnen\
+              \ Moderatoren und Teilnehmer tiefer in einem bestimmten Themenbereich\
+              \ mit aktiven und partizipativen Lernstrategien zu graben. 50-min&uuml;tige\
+              \ Pr&auml;sentation Sitzungen mehr Zeit f&uuml;r Fragen und Beitr&auml;ge\
+              \ der Teilnehmer.\n<br /> &nbsp;</p> \n<h5>Conference Tracks</h5> \n\
+              <p>Wir begr&uuml;&szlig;en Vorschl&auml;ge zur Pr&auml;sentation f&uuml;r\
+              \ das Jahr 2015 Konferenz-Tracks verbunden:\n<br /> \n<strong>1. Gemeinschafts-Campus\
+              \ Partnerschaften</strong><br /> Hochschulen und ihre Gemeinden besch&auml;ftigen\
+              \ sich oft mit &auml;hnlichen Herausforderungen der Nachhaltigkeit und\
+              \ Chancen, aber wie k&ouml;nnen sie enger zusammenarbeiten? Angesichts\
+              \ der begrenzten Mittel und Stadtregierung Einschr&auml;nkungen k&ouml;nnen\
+              \ kooperative Projekte und Programme haben einen synergistischen Effekt?\
+              \ Gemeinschaftsweiten Planung ist besonders wichtig bei der Entwicklung\
+              \ von Strategien zur Anpassung und Verringerung der Anf&auml;lligkeit.\
+              \ Wie gut ist Ihr Hochschule oder Universit&auml;t die Vorbereitung\
+              \ der Studierenden - durch curriculare und au&szlig;erschulische Aktivit&auml;ten\
+              \ - f&uuml;r die Herausforderungen der Nachhaltigkeit werden sie im\
+              \ Laufe ihres Lebens zu stellen? Workshops und Pr&auml;sentationen in\
+              \ diesem Track sollten diskutieren, wie man die Auswirkungen des Campus\
+              \ Lernen erweitern und Verbindungen zu den lokalen Regierungen, prim&auml;re\
+              \ und sekund&auml;re Schulen, Unternehmen und Gemeindegruppen. Die Vorschl&auml;ge\
+              \ sollten Herausforderungen und Erfolge von innovativen Community-Campus\
+              \ Partnerschaften umfassen.\n<br /> Ressourcen: Transformational Partnerschaften:\
+              \ Eine neue Agenda f&uuml;r Hochschulbildung\n<br /> \n<strong>2. Change\
+              \ Management: Auf dem Weg zu Transformation</strong><br /> Also, Sie\
+              \ ein Nachhaltigkeitsprogramm auf Ihrem Campus etabliert haben. Aber\
+              \ wie wollen Sie dann integrieren Nachhaltigkeit in Ihre Unternehmenskultur,\
+              \ Identit&auml;t, Governance und Entscheidungsfindung, wodurch die Institution\
+              \ verwandeln? Wir sind f&uuml;r Beitr&auml;ge, die Konsensbildung mit\
+              \ den Stakeholdern und die Suche nach M&ouml;glichkeiten der Zusammenarbeit\
+              \ Abmilderung und Management Nachhaltigkeit und Risiko zu bew&auml;ltigen\
+              \ suchen. Einreichungen in diesem Track sollte eine Pr&uuml;fung Ihrer\
+              \ Prozess und nicht als Inhalte umfassen. Wie haben Sie F&uuml;hrungspositionen\
+              \ zu engagieren? Welchen Weg haben Sie in strategischen, Nachhaltigkeit\
+              \ oder Klimaschutz Planung oder Zielsetzung zu nehmen? Wie haben Sie\
+              \ Wechsel Widerst&auml;nde und / oder Hindernisse zu &uuml;berwinden?\
+              \ Wie haben Sie eine Systemdenken Ansatz in der Gestaltung und Umsetzung\
+              \ Ihrer Pl&auml;ne, Projekte und Partnerschaften gelten? Welche Herausforderungen\
+              \ haben Sie konfrontiert? Unebenheiten in der Stra&szlig;e sind oft\
+              \ unsere gr&ouml;&szlig;ten Lehrer. Eingaben an dieser Strecke kann\
+              \ auch die Entwicklung oder den Betrieb der Verhaltens&auml;nderung,\
+              \ soziale Normierung oder Community-basierte Social-Marketing-Programme.\n\
+              <br /> Ressourcen: Effektive Change Management in Higher Education\n\
+              <br /> \n<strong>3. Soziale Nachhaltigkeit</strong><br /> Die sozialen\
+              \ Bereich der Nachhaltigkeit ist oft unsere dr&auml;ngendsten, weil\
+              \ es eine breite Palette von Themen, die herausfordernd sind zu definieren\
+              \ und zu messen umfassen. Doch es kann unserer wichtigsten sein, weil\
+              \ es die Grundlage einer demokratischen Gesellschaft. Wie ist Ihre Institution\
+              \ oder Community-Building positive und integratives Klima-Campus, in\
+              \ der jeder, ihr volles Potenzial zu erreichen? Vorschl&auml;ge zu diesem\
+              \ Track eingereicht werden, sollten Herausforderungen und Erfolge in\
+              \ der sozialen Gerechtigkeit Programmierung, Einkaufspraktiken und Strategien\
+              \ zur F&ouml;rderung einzelner, Gemeinschaft und &ouml;kologische Gesundheit\
+              \ und Wellness geh&ouml;ren. Teilen Sie Ihr Modell auf der Suche nach\
+              \ den Schnittpunkten zwischen Nachhaltigkeit, Vielfalt Bewusstsein und\
+              \ kulturelle Kompetenz.\n<br /> Ressourcen: Verwirrt &uuml;ber Soziale\
+              \ Nachhaltigkeit ?, &quot;Soziale Nachhaltigkeit&quot;: Klarheit ist\
+              \ im Kontext\n<br /> \n<strong>4. Die gebaute Umwelt</strong><br />\
+              \ Wie wollen Sie dem Campus und Community Wohlbefinden durch die gebaute\
+              \ Umwelt zu verbessern? Es geht nicht nur um die Geb&auml;ude; Es umfasst\
+              \ Stra&szlig;en und Wege, Parks und Landschaftsgestaltung, Transport-und\
+              \ Lebensmitteldienstleistungen. Die Planung f&uuml;r die gebaute Umwelt\
+              \ beeinflusst die nat&uuml;rliche Umwelt und die Wasserqualit&auml;t,\
+              \ Abfluss von Regenwasser, Bodenverdichtung, L&auml;rm, Luftqualit&auml;t\
+              \ und mehr beeinflussen. Wie ist Ihr Projekt inklusive der Sanierung\
+              \ von Umweltsch&auml;den, Lernlandschaften, alternative Verkehrsmittel,\
+              \ Restaurants, oder Dienstprogramme? Pr&auml;sentationen und Workshops\
+              \ in diesem Track wird innovative Projekte aus dem Master-Planung bis\
+              \ Betrieb und Wartung zu pr&uuml;fen. Die Vorschl&auml;ge sollten innovative\
+              \ Projekte oder Prozesse, die auf anderen Standorten eingesetzt werden\
+              \ k&ouml;nnen, geh&ouml;ren.\n<br /> Ressourcen: Der Wert der Gr&uuml;nen\
+              \ Infrastruktur\n<br /> \n<strong>5. Der Campus als Lernlabor</strong><br\
+              \ /> Wie der Arbeitsplatz und die Industrie weiter ver&auml;ndern, um\
+              \ den Anforderungen und Herausforderungen des 21. Jahrhunderts gerecht\
+              \ zu werden, m&uuml;ssen wir unsere Sch&uuml;ler auf komplexe Probleme\
+              \ der Welt zu nehmen. Die Campus-Umgebung bietet M&ouml;glichkeiten\
+              \ f&uuml;r die Erforschung reif und das Lernen &uuml;ber Vollspektrum\
+              \ Nachhaltigkeit, die den Teilnehmern die Kenntnisse, F&auml;higkeiten\
+              \ und Know-how f&uuml;r dieses neue Paradigma ben&ouml;tigt wird auszustatten.\
+              \ Wie ist Ihr Umgang Institution Lehre und Forschung f&uuml;r die Nachhaltigkeit\
+              \ Integration? Was innovative P&auml;dagogik liegt an der Schnittstelle\
+              \ von Wissenschaft und Operationen? Wie wird Nachhaltigkeit Vorbereitung\
+              \ der Studierenden auf dem Campus &uuml;ber Erfolg? Welche p&auml;dagogischen\
+              \ Modellen wollen Sie teilen die von anderen in der Gemeinschaft genutzt\
+              \ werden k&ouml;nnen, haben? Beitr&auml;ge sollten den Prozess f&uuml;r\
+              \ die Umsetzung, Beteiligten, Herausforderungen geh&ouml;ren, und Erfahrungen\
+              \ mit Erfolgen.\n<br /> Informationen: Ein Leitfaden f&uuml;r Community\
+              \ Colleges, Hands-On LEED\n<br /> \n<strong>Zu &uuml;bermitteln:</strong></p>\
+              \ \n<h5>Schritt 1:\n<br /> Herunterladen und &uuml;berpr&uuml;fen die\
+              \ Einreichung von Vorschl&auml;gen und &Uuml;berpr&uuml;fungsprozess\n\
+              <br /> Schritt 2:\n<br /> Senden Sie Ihren Vorschlag bis zum 10. Oktober\
+              \ 2014 11.59 Uhr PDT</h5>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: College park
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: '20742'
+            hippogogreen:province: MD
+            hippogogreen:street: Campus dr
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: University of Maryland
+            hippogogreen:url: http://www.sustainability.umd.edu/content/community/SSCC_CFP.php
+        /intelligente-und-nachhaltige-campus-conference[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 41ff1ca8-3d0d-4bf8-9900-f26dae5cbfcf
+          hippo:availability: [live]
+          hippogogreen:categories: [School]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2014-10-10T10:00:00+02:00
+          hippogogreen:enddate: 2014-10-10T18:00:00+02:00
+          hippogogreen:summary: SSCC unterscheidet sich von anderen Konferenzen, die
+            von der Erstellung eines Programms, das detaillierte Präsentationen und
+            Workshops bietet. Sitzungen sind 50 und 80 Minuten in der Länge so dass
+            für den Dialog und gemeinsames Lernen.
+          hippogogreen:title: Intelligente und nachhaltige Campus Conference
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:56:07.048+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:08:43.108+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-07T11:08:44.734+02:00
+          hippotranslation:id: 5524a1b2-f2f9-4c72-858b-2f618ffef37d
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Die 80-min&uuml;tige interaktive Sitzungen k&ouml;nnen\
+              \ Moderatoren und Teilnehmer tiefer in einem bestimmten Themenbereich\
+              \ mit aktiven und partizipativen Lernstrategien zu graben. 50-min&uuml;tige\
+              \ Pr&auml;sentation Sitzungen mehr Zeit f&uuml;r Fragen und Beitr&auml;ge\
+              \ der Teilnehmer.\n<br /> &nbsp;</p> \n<h5>Conference Tracks</h5> \n\
+              <p>Wir begr&uuml;&szlig;en Vorschl&auml;ge zur Pr&auml;sentation f&uuml;r\
+              \ das Jahr 2015 Konferenz-Tracks verbunden:\n<br /> \n<strong>1. Gemeinschafts-Campus\
+              \ Partnerschaften</strong><br /> Hochschulen und ihre Gemeinden besch&auml;ftigen\
+              \ sich oft mit &auml;hnlichen Herausforderungen der Nachhaltigkeit und\
+              \ Chancen, aber wie k&ouml;nnen sie enger zusammenarbeiten? Angesichts\
+              \ der begrenzten Mittel und Stadtregierung Einschr&auml;nkungen k&ouml;nnen\
+              \ kooperative Projekte und Programme haben einen synergistischen Effekt?\
+              \ Gemeinschaftsweiten Planung ist besonders wichtig bei der Entwicklung\
+              \ von Strategien zur Anpassung und Verringerung der Anf&auml;lligkeit.\
+              \ Wie gut ist Ihr Hochschule oder Universit&auml;t die Vorbereitung\
+              \ der Studierenden - durch curriculare und au&szlig;erschulische Aktivit&auml;ten\
+              \ - f&uuml;r die Herausforderungen der Nachhaltigkeit werden sie im\
+              \ Laufe ihres Lebens zu stellen? Workshops und Pr&auml;sentationen in\
+              \ diesem Track sollten diskutieren, wie man die Auswirkungen des Campus\
+              \ Lernen erweitern und Verbindungen zu den lokalen Regierungen, prim&auml;re\
+              \ und sekund&auml;re Schulen, Unternehmen und Gemeindegruppen. Die Vorschl&auml;ge\
+              \ sollten Herausforderungen und Erfolge von innovativen Community-Campus\
+              \ Partnerschaften umfassen.\n<br /> Ressourcen: Transformational Partnerschaften:\
+              \ Eine neue Agenda f&uuml;r Hochschulbildung\n<br /> \n<strong>2. Change\
+              \ Management: Auf dem Weg zu Transformation</strong><br /> Also, Sie\
+              \ ein Nachhaltigkeitsprogramm auf Ihrem Campus etabliert haben. Aber\
+              \ wie wollen Sie dann integrieren Nachhaltigkeit in Ihre Unternehmenskultur,\
+              \ Identit&auml;t, Governance und Entscheidungsfindung, wodurch die Institution\
+              \ verwandeln? Wir sind f&uuml;r Beitr&auml;ge, die Konsensbildung mit\
+              \ den Stakeholdern und die Suche nach M&ouml;glichkeiten der Zusammenarbeit\
+              \ Abmilderung und Management Nachhaltigkeit und Risiko zu bew&auml;ltigen\
+              \ suchen. Einreichungen in diesem Track sollte eine Pr&uuml;fung Ihrer\
+              \ Prozess und nicht als Inhalte umfassen. Wie haben Sie F&uuml;hrungspositionen\
+              \ zu engagieren? Welchen Weg haben Sie in strategischen, Nachhaltigkeit\
+              \ oder Klimaschutz Planung oder Zielsetzung zu nehmen? Wie haben Sie\
+              \ Wechsel Widerst&auml;nde und / oder Hindernisse zu &uuml;berwinden?\
+              \ Wie haben Sie eine Systemdenken Ansatz in der Gestaltung und Umsetzung\
+              \ Ihrer Pl&auml;ne, Projekte und Partnerschaften gelten? Welche Herausforderungen\
+              \ haben Sie konfrontiert? Unebenheiten in der Stra&szlig;e sind oft\
+              \ unsere gr&ouml;&szlig;ten Lehrer. Eingaben an dieser Strecke kann\
+              \ auch die Entwicklung oder den Betrieb der Verhaltens&auml;nderung,\
+              \ soziale Normierung oder Community-basierte Social-Marketing-Programme.\n\
+              <br /> Ressourcen: Effektive Change Management in Higher Education\n\
+              <br /> \n<strong>3. Soziale Nachhaltigkeit</strong><br /> Die sozialen\
+              \ Bereich der Nachhaltigkeit ist oft unsere dr&auml;ngendsten, weil\
+              \ es eine breite Palette von Themen, die herausfordernd sind zu definieren\
+              \ und zu messen umfassen. Doch es kann unserer wichtigsten sein, weil\
+              \ es die Grundlage einer demokratischen Gesellschaft. Wie ist Ihre Institution\
+              \ oder Community-Building positive und integratives Klima-Campus, in\
+              \ der jeder, ihr volles Potenzial zu erreichen? Vorschl&auml;ge zu diesem\
+              \ Track eingereicht werden, sollten Herausforderungen und Erfolge in\
+              \ der sozialen Gerechtigkeit Programmierung, Einkaufspraktiken und Strategien\
+              \ zur F&ouml;rderung einzelner, Gemeinschaft und &ouml;kologische Gesundheit\
+              \ und Wellness geh&ouml;ren. Teilen Sie Ihr Modell auf der Suche nach\
+              \ den Schnittpunkten zwischen Nachhaltigkeit, Vielfalt Bewusstsein und\
+              \ kulturelle Kompetenz.\n<br /> Ressourcen: Verwirrt &uuml;ber Soziale\
+              \ Nachhaltigkeit ?, &quot;Soziale Nachhaltigkeit&quot;: Klarheit ist\
+              \ im Kontext\n<br /> \n<strong>4. Die gebaute Umwelt</strong><br />\
+              \ Wie wollen Sie dem Campus und Community Wohlbefinden durch die gebaute\
+              \ Umwelt zu verbessern? Es geht nicht nur um die Geb&auml;ude; Es umfasst\
+              \ Stra&szlig;en und Wege, Parks und Landschaftsgestaltung, Transport-und\
+              \ Lebensmitteldienstleistungen. Die Planung f&uuml;r die gebaute Umwelt\
+              \ beeinflusst die nat&uuml;rliche Umwelt und die Wasserqualit&auml;t,\
+              \ Abfluss von Regenwasser, Bodenverdichtung, L&auml;rm, Luftqualit&auml;t\
+              \ und mehr beeinflussen. Wie ist Ihr Projekt inklusive der Sanierung\
+              \ von Umweltsch&auml;den, Lernlandschaften, alternative Verkehrsmittel,\
+              \ Restaurants, oder Dienstprogramme? Pr&auml;sentationen und Workshops\
+              \ in diesem Track wird innovative Projekte aus dem Master-Planung bis\
+              \ Betrieb und Wartung zu pr&uuml;fen. Die Vorschl&auml;ge sollten innovative\
+              \ Projekte oder Prozesse, die auf anderen Standorten eingesetzt werden\
+              \ k&ouml;nnen, geh&ouml;ren.\n<br /> Ressourcen: Der Wert der Gr&uuml;nen\
+              \ Infrastruktur\n<br /> \n<strong>5. Der Campus als Lernlabor</strong><br\
+              \ /> Wie der Arbeitsplatz und die Industrie weiter ver&auml;ndern, um\
+              \ den Anforderungen und Herausforderungen des 21. Jahrhunderts gerecht\
+              \ zu werden, m&uuml;ssen wir unsere Sch&uuml;ler auf komplexe Probleme\
+              \ der Welt zu nehmen. Die Campus-Umgebung bietet M&ouml;glichkeiten\
+              \ f&uuml;r die Erforschung reif und das Lernen &uuml;ber Vollspektrum\
+              \ Nachhaltigkeit, die den Teilnehmern die Kenntnisse, F&auml;higkeiten\
+              \ und Know-how f&uuml;r dieses neue Paradigma ben&ouml;tigt wird auszustatten.\
+              \ Wie ist Ihr Umgang Institution Lehre und Forschung f&uuml;r die Nachhaltigkeit\
+              \ Integration? Was innovative P&auml;dagogik liegt an der Schnittstelle\
+              \ von Wissenschaft und Operationen? Wie wird Nachhaltigkeit Vorbereitung\
+              \ der Studierenden auf dem Campus &uuml;ber Erfolg? Welche p&auml;dagogischen\
+              \ Modellen wollen Sie teilen die von anderen in der Gemeinschaft genutzt\
+              \ werden k&ouml;nnen, haben? Beitr&auml;ge sollten den Prozess f&uuml;r\
+              \ die Umsetzung, Beteiligten, Herausforderungen geh&ouml;ren, und Erfahrungen\
+              \ mit Erfolgen.\n<br /> Informationen: Ein Leitfaden f&uuml;r Community\
+              \ Colleges, Hands-On LEED\n<br /> \n<strong>Zu &uuml;bermitteln:</strong></p>\
+              \ \n<h5>Schritt 1:\n<br /> Herunterladen und &uuml;berpr&uuml;fen die\
+              \ Einreichung von Vorschl&auml;gen und &Uuml;berpr&uuml;fungsprozess\n\
+              <br /> Schritt 2:\n<br /> Senden Sie Ihren Vorschlag bis zum 10. Oktober\
+              \ 2014 11.59 Uhr PDT</h5>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: College park
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: '20742'
+            hippogogreen:province: MD
+            hippogogreen:street: Campus dr
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: University of Maryland
+            hippogogreen:url: http://www.sustainability.umd.edu/content/community/SSCC_CFP.php
+  /facetedevents:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 70
+    hippo:docbase: eca927c3-27fc-4af0-ae7c-38652b18ffb1
+    hippofacnav:facetnodenames: ['year${hide:''year''}', 'month${after:''year'', hide:''month''}',
+      'day${after:''month''}']
+    hippofacnav:facets: ['hippogogreen:date$year', 'hippogogreen:date$month', 'hippogogreen:date$day']
+    hippofacnav:limit: 100
+    hippofacnav:skipresultsetfacetsavailable: true
+    hippofacnav:sortby: ['hippogogreen:date']
+    hippofacnav:sortorder: [descending]
+  /facetedeventsmobile:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 70
+    hippo:docbase: eca927c3-27fc-4af0-ae7c-38652b18ffb1
+    hippofacnav:facetnodenames: [Date]
+    hippofacnav:facets: ["hippogogreen:date$[{name:'Upcoming', resolution:'day', begin:0},\
+        \ {name:'Past',\n        resolution:'day', end:0}]\n      "]
+    hippofacnav:limit: 100
+    hippofacnav:skipresultsetfacetsavailable: true
+    hippofacnav:sortby: ['hippogogreen:date']
+    hippofacnav:sortorder: [descending]
+  /2015:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: a0c38cd4-5881-4e8e-a586-d6699dcbb0d7
+    hippostd:foldertype: [new-event-folder, new-event]
+    hippotranslation:id: e7ceb2a4-4fde-4d65-8913-d76c4d64f1a7
+    hippotranslation:locale: de
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 61571233-5989-4033-b926-b953fe5a6844
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 177d02b2-4fdf-4f93-92cf-bb96dcac6af9
+      hippotranslation:locale: de
+      /green-living-show:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ab252aa9-0a44-4651-8695-b3fa1e4d049e
+        hippo:name: Green Living Show
+        /green-living-show[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: bddf7db5-0a2a-488e-aa6f-8b8d30ed66d4
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2015-04-17T18:00:00+02:00
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:01:54.225+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7bf68aef-447a-46a7-a72e-a646109430b2
+          hippo:availability: []
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2015-04-17T18:00:00+02:00
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-27T09:47:50.570+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bd1e53c9-e226-460b-9ec0-2637940f18e4
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2015-04-17T18:00:00+02:00
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:01:54.225+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-07T11:02:02.895+02:00
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /green-festival:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: fd3b70c7-0c8e-404f-99ea-a851a6cb23e9
+        hippo:name: Green Festival
+        /green-festival[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: abe503ea-cd8a-4c91-bf19-8a400c45f00b
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2015-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2015-04-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:01:36.364+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5f1b53a2-b02e-4021-9461-514533a86c3d
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2015-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2015-04-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:01:31.654+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 05d110c5-371a-4057-a9a1-71bc870c0a8a
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2015-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2015-04-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:01:36.364+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-07T11:01:40.613+02:00
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: dffb88cb-9670-4190-a948-adde558abb9c
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: c6eef74f-9822-4adb-ad8e-f02b3cee6f80
+      hippotranslation:locale: de
+      /naturkapital:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 75072950-40e4-4cda-82f1-cb3a4252805c
+        hippo:name: Naturkapital
+        /naturkapital[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 46189aca-3fa4-42f5-a527-5b16c9aeda6b
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2015-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2015-02-18T15:00:00+01:00
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:01:22.915+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /naturkapital[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5e998eaf-1726-4af3-8c6a-3272de5d38a4
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2015-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2015-02-18T15:00:00+01:00
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-27T09:47:30.839+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /naturkapital[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f23199a9-1a9c-4b55-99ef-a59e7832fb5d
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2015-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2015-02-18T15:00:00+01:00
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:01:22.915+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-07T11:01:24.597+02:00
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /01:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 959d49f0-868b-4174-a336-4737cd06d98a
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6925cc32-3f50-4e24-92c4-0fc7310abad3
+      hippotranslation:locale: de
+      /ces-green:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 2bacfac0-f369-4a91-9224-4b4b12ba11c8
+        hippo:name: CES Green
+        /ces-green[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: cc982b1f-bea4-4332-9096-aa4d8083057f
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2015-01-09T18:00:00+01:00
+          hippogogreen:summary: Die weltweit Treffpunkt für alle, die auf das Geschäft
+            der Consumer-Technologien gedeihen auch die umweltfreundlichste. Messe-Vorstand
+            kürte den 2012 Internationale Fachmesse CES ® die mit den "Most Innovative
+            Umweltinitiativen von Show Management", und im Jahr 2010, "Nordamerika
+            grünste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: unpublished
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:06:14.298+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Teilnehmer: eine kleinere Stellfl&auml;che mit\
+              \ Bigger Chancen</h3> \n<p>CES bietet unserer Branche die Gelegenheit,\
+              \ zu einer Zeit einberufen, an einem Ort, an einem umweltfreundlichen\
+              \ Blockbuster, die j&auml;hrlichen Reise minimiert.</p> \n<ul> \n<li>Besucher\
+              \ der CES miteinander verbinden, Wirtschaft getan und kollektiv zu vermeiden\
+              \ &uuml;ber 1.970.000 Meilen in Gesch&auml;ftsreisen, die sie sonst\
+              \ m&uuml;ssten, wenn nicht f&uuml;r CES nehmen</li> \n<li>Vertreter\
+              \ reisen aus mehr als 150 L&auml;ndern aktiv und bietet eine wirklich\
+              \ globale Chance.</li> </ul> \n<h3>Wie gr&uuml;n ist die International\
+              \ CES?</h3> \n<p>Der 2013 International CES enthalten eine Vielzahl\
+              \ von gr&uuml;nen Initiativen als Teil unserer Bem&uuml;hungen, Abfall\
+              \ zu reduzieren und geben zur&uuml;ck in die lokale Gemeinschaft Las\
+              \ Vegas.</p> \n<ul> \n<li>Gesammelt &uuml;ber 108.000 Quadratmeter Show\
+              \ Grafiken mit einer Erfassungsrate von 81 Prozent auf umfunktionieren\
+              \ und geben zur&uuml;ck in die lokale Gemeinschaft \n<ul> \n<li>38.000\
+              \ Quadratmeter Magnet Banner - &uuml;ber 19.000 &pound;</li> \n<li>21.600\
+              \ Quadratmeter Magnet Banner</li> \n<li>&Uuml;ber 48.000 Quadratmeter\
+              \ anderen Show-Grafik - bis 200 Prozent</li> \n<li>37.800 &pound; von\
+              \ Show-Publikationen</li> </ul> </li> \n<li>Produzierte &uuml;ber 243.000\
+              \ Ausweisinhaber nach der Show vom letzten Jahr Vinyl-Banner hergestellt\
+              \ und &uuml;ber 58.000 Ausweisinhaber gesammelt, um f&uuml;r eine dritte\
+              \ Leben umfunktionieren</li> \n<li>Erh&ouml;hte Gesamtschau Wiederverwendung\
+              \ / Recycling-Rate von 76 bis 81 Prozent</li> \n<li>Verwendung von wiederverwertbaren\
+              \ Teppichboden f&uuml;r alle Ausstellungs G&auml;nge, TeilesucheTechZones,\
+              \ Registrierungsbereiche und schl&uuml;sselfertigen Messestand-Pakete</li>\
+              \ \n<li>Verwendung von schl&uuml;sselfertigen Messestand-Pakete mit\
+              \ recycelbaren Tafeln und Grafiken gedruckt mit Soja-Tinte</li> \n<li>Mandat\
+              \ der papierlosen Pressef&auml;cher der Aussteller online, oder &uuml;ber\
+              \ USB oder DVD</li> \n<li>Materialien werden auf Recyclingpapier gedruckt,\
+              \ verwenden Soja basierender Tinte und erf&uuml;llen die Standards der\
+              \ nachhaltigen Wald Initiative und Forest Stewardship Council</li> \n\
+              <li>Achten Sie darauf, einen Blick auf die 2014 CES Gr&uuml;nen Reisef&uuml;hrers\
+              \ f&uuml;r Informationen &uuml;ber CES gr&uuml;n Aussteller, die CES\
+              \ Begr&uuml;nung Initiativen und CEA eCycling und Nachhaltigkeit Initiativen\
+              \ zu ergreifen. F&uuml;r die letztj&auml;hrige Guide, finden Sie auf\
+              \ der CES 2013 Gr&uuml;nen Reisef&uuml;hrers.</li> </ul> \n<p>Am 6.\
+              \ Januar 2014 k&uuml;ndigte die Fortsetzung der Tradition zu vergeben\
+              \ mehreren lokalen Organisationen Las Vegas mit Mitteln f&uuml;r Nachhaltigkeitsprojekte.\
+              \ Dieses Jahr CEA spendet 10.000 $ University of Nevada, Las Vegas,\
+              \ (UNLV) DesertSol Solarhaus und $ 25.000 bis der Springs Preserve in\
+              \ Richtung der DesertSol Projekt.</p> \n<ul> \n<li>Die DesertSol Solarhaus,\
+              \ gestaltet von UNLV war die Zweitplatzierte, und die erste unter den\
+              \ US-Organisationen, an der 2013 US-Department of Energy (DOE) Solar\
+              \ Decathlon. Diese Spende ist es, die UNLV DesertSol Team zu ihrem Erfolg\
+              \ gratulieren und helfen weiter die DesertSol Projekt.</li> \n<li>CEA\
+              \ Spende an den Springs Preserve wird der Umzug von DesertSol an den\
+              \ neuen Standort zu unterst&uuml;tzen. Die Springs Preserve ist ein\
+              \ Weltklasse-Anlage, die Gemeinde, die Erhaltung, Bewahrung und Nachhaltigkeit\
+              \ in der Region Southern Nevada f&ouml;rdert, und ist der weltweit gr&ouml;&szlig;te\
+              \ Campus der Platin-LEED Geb&auml;ude bewertet US Green Building Council.\
+              \ The Preserve Ziele f&uuml;r die Besucher zu inspirieren, gr&uuml;ne\
+              \ Wohnzimmer Verfahren und Technologien in der eigenen Wohnung zu implementieren,\
+              \ und f&uuml;r das Haus zu einem Ort f&uuml;r die weitere Forschung\
+              \ und Entwicklung von erneuerbaren Energien f&uuml;r UNLV Dozenten,\
+              \ Studenten und Fachleute bleiben.</li> </ul> \n<p>&nbsp;&nbsp;\n<br\
+              \ /> An der CES 2013, machte CEA zwei $ 50.000 Spenden an lokale Organisationen\
+              \ Las Vegas, Gr&uuml;n Chips und dem Las Vegas Convention and Visitors\
+              \ Authority (LVCVA). Gr&uuml;ne Chips verwendet die Spende von CEA,\
+              \ eine Solaranlage auf dem legend&auml;ren Projekt &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; Schild am Las Vegas Boulevard zu unterst&uuml;tzen.\
+              \ Die LVCVA nutzten ihre Spende von CEA, mehrere Elektrofahrzeug-Ladestationen\
+              \ im Las Vegas Convention Center zu installieren.</p> \n<h3>&nbsp;\n\
+              <br /> Geladene aufstehen Elektrofahrzeuge</h3> \n<p>Die GoElectricDrive\
+              \ TechZone im Las Vegas Convention und World Trade Center (LVCC), North\
+              \ Hall pr&auml;sentiert eine breite Palette von High-und Low-Speed-Elektrofahrzeuge,\
+              \ Energiespeicher und Ladel&ouml;sungen. Gef&ouml;rdert von der Electric\
+              \ Drive Transportation Association, hebt diese TechZone eine Fl&auml;che\
+              \ von gro&szlig;em Potenzial und Wachstum f&uuml;r die Branche Elektrofahrzeuge\
+              \ sind schnell an Popularit&auml;t gewinnt bei den Verbrauchern suchen,\
+              \ um mehr nachhaltig durch den Einsatz alternativer Transport zu leben.</p>\
+              \ \n<h3>CEA und Gr&uuml;n</h3> \n<p>Aus der Entwicklung der &Ouml;ko-TVs\
+              \ zu beleuchten ausf&uuml;hrlich &uuml;ber die Einstellung der Verbraucher\
+              \ zur Energieeffizienz mit Unterhaltungselektronik, hat CEA die neuesten\
+              \ Forschungsergebnisse. Besuchen CE.org/green f&uuml;r weitere Informationen.</p>\
+              \ \n<h3>Greener Gadgets</h3> \n<p>CEA arbeitet GreenerGadgets.org, eine\
+              \ Online-Ressource f&uuml;r die Verbraucher, die die Branche Trend zu\
+              \ &quot;gr&uuml;ner Gadgets&quot; Highlights - kleiner, intelligenter,\
+              \ energieeffizienter Ger&auml;te, die mehr als je zuvor tun k&ouml;nnen.\
+              \ Tech-versierte K&auml;ufer haben jetzt mehr umweltfreundliche Optionen\
+              \ und diese Ressource wertvolle Informationen dar&uuml;ber, wie gr&uuml;ne\
+              \ Elektronik kaufen, nutzen sie effizient und recyceln sie am Ende ihrer\
+              \ Nutzungsdauer hat.\n<br /> Die Website bietet auch eine leistungsf&auml;hige\
+              \ Energienutzung Rechner mit den meisten up-to-date Produkte und Energienutzung\
+              \ Zahlen Verbrauchern zu helfen, ihren Energieverbrauch, sowie eine\
+              \ Recycling-Locator-Tool besser zu verstehen. Wenn es um die End-of-Life-Elektronik\
+              \ geht, sind viele Menschen besorgt, was passiert, mit, nachdem sie\
+              \ abfallen ihrer Produkte. Das Recycling-Locator-Datenbank umfasst Industrie-Programme,\
+              \ die strengen Normen und Drittanbieter-zertifizierten Recycler zu verwenden,\
+              \ so sicher sein, Ihr Ger&auml;t sicher recycelt werden.</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0170602f-5a7c-492e-860b-f53339e47c71
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2015-01-09T18:00:00+01:00
+          hippogogreen:summary: Die weltweit Treffpunkt für alle, die auf das Geschäft
+            der Consumer-Technologien gedeihen auch die umweltfreundlichste. Messe-Vorstand
+            kürte den 2012 Internationale Fachmesse CES ® die mit den "Most Innovative
+            Umweltinitiativen von Show Management", und im Jahr 2010, "Nordamerika
+            grünste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: draft
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-27T09:47:01.449+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Teilnehmer: eine kleinere Stellfl&auml;che mit\
+              \ Bigger Chancen</h3> \n<p>CES bietet unserer Branche die Gelegenheit,\
+              \ zu einer Zeit einberufen, an einem Ort, an einem umweltfreundlichen\
+              \ Blockbuster, die j&auml;hrlichen Reise minimiert.</p> \n<ul> \n<li>Besucher\
+              \ der CES miteinander verbinden, Wirtschaft getan und kollektiv zu vermeiden\
+              \ &uuml;ber 1.970.000 Meilen in Gesch&auml;ftsreisen, die sie sonst\
+              \ m&uuml;ssten, wenn nicht f&uuml;r CES nehmen</li> \n<li>Vertreter\
+              \ reisen aus mehr als 150 L&auml;ndern aktiv und bietet eine wirklich\
+              \ globale Chance.</li> </ul> \n<h3>Wie gr&uuml;n ist die International\
+              \ CES?</h3> \n<p>Der 2013 International CES enthalten eine Vielzahl\
+              \ von gr&uuml;nen Initiativen als Teil unserer Bem&uuml;hungen, Abfall\
+              \ zu reduzieren und geben zur&uuml;ck in die lokale Gemeinschaft Las\
+              \ Vegas.</p> \n<ul> \n<li>Gesammelt &uuml;ber 108.000 Quadratmeter Show\
+              \ Grafiken mit einer Erfassungsrate von 81 Prozent auf umfunktionieren\
+              \ und geben zur&uuml;ck in die lokale Gemeinschaft \n<ul> \n<li>38.000\
+              \ Quadratmeter Magnet Banner - &uuml;ber 19.000 &pound;</li> \n<li>21.600\
+              \ Quadratmeter Magnet Banner</li> \n<li>&Uuml;ber 48.000 Quadratmeter\
+              \ anderen Show-Grafik - bis 200 Prozent</li> \n<li>37.800 &pound; von\
+              \ Show-Publikationen</li> </ul> </li> \n<li>Produzierte &uuml;ber 243.000\
+              \ Ausweisinhaber nach der Show vom letzten Jahr Vinyl-Banner hergestellt\
+              \ und &uuml;ber 58.000 Ausweisinhaber gesammelt, um f&uuml;r eine dritte\
+              \ Leben umfunktionieren</li> \n<li>Erh&ouml;hte Gesamtschau Wiederverwendung\
+              \ / Recycling-Rate von 76 bis 81 Prozent</li> \n<li>Verwendung von wiederverwertbaren\
+              \ Teppichboden f&uuml;r alle Ausstellungs G&auml;nge, TeilesucheTechZones,\
+              \ Registrierungsbereiche und schl&uuml;sselfertigen Messestand-Pakete</li>\
+              \ \n<li>Verwendung von schl&uuml;sselfertigen Messestand-Pakete mit\
+              \ recycelbaren Tafeln und Grafiken gedruckt mit Soja-Tinte</li> \n<li>Mandat\
+              \ der papierlosen Pressef&auml;cher der Aussteller online, oder &uuml;ber\
+              \ USB oder DVD</li> \n<li>Materialien werden auf Recyclingpapier gedruckt,\
+              \ verwenden Soja basierender Tinte und erf&uuml;llen die Standards der\
+              \ nachhaltigen Wald Initiative und Forest Stewardship Council</li> \n\
+              <li>Achten Sie darauf, einen Blick auf die 2014 CES Gr&uuml;nen Reisef&uuml;hrers\
+              \ f&uuml;r Informationen &uuml;ber CES gr&uuml;n Aussteller, die CES\
+              \ Begr&uuml;nung Initiativen und CEA eCycling und Nachhaltigkeit Initiativen\
+              \ zu ergreifen. F&uuml;r die letztj&auml;hrige Guide, finden Sie auf\
+              \ der CES 2013 Gr&uuml;nen Reisef&uuml;hrers.</li> </ul> \n<p>Am 6.\
+              \ Januar 2014 k&uuml;ndigte die Fortsetzung der Tradition zu vergeben\
+              \ mehreren lokalen Organisationen Las Vegas mit Mitteln f&uuml;r Nachhaltigkeitsprojekte.\
+              \ Dieses Jahr CEA spendet 10.000 $ University of Nevada, Las Vegas,\
+              \ (UNLV) DesertSol Solarhaus und $ 25.000 bis der Springs Preserve in\
+              \ Richtung der DesertSol Projekt.</p> \n<ul> \n<li>Die DesertSol Solarhaus,\
+              \ gestaltet von UNLV war die Zweitplatzierte, und die erste unter den\
+              \ US-Organisationen, an der 2013 US-Department of Energy (DOE) Solar\
+              \ Decathlon. Diese Spende ist es, die UNLV DesertSol Team zu ihrem Erfolg\
+              \ gratulieren und helfen weiter die DesertSol Projekt.</li> \n<li>CEA\
+              \ Spende an den Springs Preserve wird der Umzug von DesertSol an den\
+              \ neuen Standort zu unterst&uuml;tzen. Die Springs Preserve ist ein\
+              \ Weltklasse-Anlage, die Gemeinde, die Erhaltung, Bewahrung und Nachhaltigkeit\
+              \ in der Region Southern Nevada f&ouml;rdert, und ist der weltweit gr&ouml;&szlig;te\
+              \ Campus der Platin-LEED Geb&auml;ude bewertet US Green Building Council.\
+              \ The Preserve Ziele f&uuml;r die Besucher zu inspirieren, gr&uuml;ne\
+              \ Wohnzimmer Verfahren und Technologien in der eigenen Wohnung zu implementieren,\
+              \ und f&uuml;r das Haus zu einem Ort f&uuml;r die weitere Forschung\
+              \ und Entwicklung von erneuerbaren Energien f&uuml;r UNLV Dozenten,\
+              \ Studenten und Fachleute bleiben.</li> </ul> \n<p>&nbsp;&nbsp;\n<br\
+              \ /> An der CES 2013, machte CEA zwei $ 50.000 Spenden an lokale Organisationen\
+              \ Las Vegas, Gr&uuml;n Chips und dem Las Vegas Convention and Visitors\
+              \ Authority (LVCVA). Gr&uuml;ne Chips verwendet die Spende von CEA,\
+              \ eine Solaranlage auf dem legend&auml;ren Projekt &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; Schild am Las Vegas Boulevard zu unterst&uuml;tzen.\
+              \ Die LVCVA nutzten ihre Spende von CEA, mehrere Elektrofahrzeug-Ladestationen\
+              \ im Las Vegas Convention Center zu installieren.</p> \n<h3>&nbsp;\n\
+              <br /> Geladene aufstehen Elektrofahrzeuge</h3> \n<p>Die GoElectricDrive\
+              \ TechZone im Las Vegas Convention und World Trade Center (LVCC), North\
+              \ Hall pr&auml;sentiert eine breite Palette von High-und Low-Speed-Elektrofahrzeuge,\
+              \ Energiespeicher und Ladel&ouml;sungen. Gef&ouml;rdert von der Electric\
+              \ Drive Transportation Association, hebt diese TechZone eine Fl&auml;che\
+              \ von gro&szlig;em Potenzial und Wachstum f&uuml;r die Branche Elektrofahrzeuge\
+              \ sind schnell an Popularit&auml;t gewinnt bei den Verbrauchern suchen,\
+              \ um mehr nachhaltig durch den Einsatz alternativer Transport zu leben.</p>\
+              \ \n<h3>CEA und Gr&uuml;n</h3> \n<p>Aus der Entwicklung der &Ouml;ko-TVs\
+              \ zu beleuchten ausf&uuml;hrlich &uuml;ber die Einstellung der Verbraucher\
+              \ zur Energieeffizienz mit Unterhaltungselektronik, hat CEA die neuesten\
+              \ Forschungsergebnisse. Besuchen CE.org/green f&uuml;r weitere Informationen.</p>\
+              \ \n<h3>Greener Gadgets</h3> \n<p>CEA arbeitet GreenerGadgets.org, eine\
+              \ Online-Ressource f&uuml;r die Verbraucher, die die Branche Trend zu\
+              \ &quot;gr&uuml;ner Gadgets&quot; Highlights - kleiner, intelligenter,\
+              \ energieeffizienter Ger&auml;te, die mehr als je zuvor tun k&ouml;nnen.\
+              \ Tech-versierte K&auml;ufer haben jetzt mehr umweltfreundliche Optionen\
+              \ und diese Ressource wertvolle Informationen dar&uuml;ber, wie gr&uuml;ne\
+              \ Elektronik kaufen, nutzen sie effizient und recyceln sie am Ende ihrer\
+              \ Nutzungsdauer hat.\n<br /> Die Website bietet auch eine leistungsf&auml;hige\
+              \ Energienutzung Rechner mit den meisten up-to-date Produkte und Energienutzung\
+              \ Zahlen Verbrauchern zu helfen, ihren Energieverbrauch, sowie eine\
+              \ Recycling-Locator-Tool besser zu verstehen. Wenn es um die End-of-Life-Elektronik\
+              \ geht, sind viele Menschen besorgt, was passiert, mit, nachdem sie\
+              \ abfallen ihrer Produkte. Das Recycling-Locator-Datenbank umfasst Industrie-Programme,\
+              \ die strengen Normen und Drittanbieter-zertifizierten Recycler zu verwenden,\
+              \ so sicher sein, Ihr Ger&auml;t sicher recycelt werden.</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6a068b08-d7f2-41fc-9bd7-f38e76b26f4c
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2015-01-09T18:00:00+01:00
+          hippogogreen:summary: Die weltweit Treffpunkt für alle, die auf das Geschäft
+            der Consumer-Technologien gedeihen auch die umweltfreundlichste. Messe-Vorstand
+            kürte den 2012 Internationale Fachmesse CES ® die mit den "Most Innovative
+            Umweltinitiativen von Show Management", und im Jahr 2010, "Nordamerika
+            grünste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: published
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-07T11:06:14.298+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-07T11:06:16.179+02:00
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Teilnehmer: eine kleinere Stellfl&auml;che mit\
+              \ Bigger Chancen</h3> \n<p>CES bietet unserer Branche die Gelegenheit,\
+              \ zu einer Zeit einberufen, an einem Ort, an einem umweltfreundlichen\
+              \ Blockbuster, die j&auml;hrlichen Reise minimiert.</p> \n<ul> \n<li>Besucher\
+              \ der CES miteinander verbinden, Wirtschaft getan und kollektiv zu vermeiden\
+              \ &uuml;ber 1.970.000 Meilen in Gesch&auml;ftsreisen, die sie sonst\
+              \ m&uuml;ssten, wenn nicht f&uuml;r CES nehmen</li> \n<li>Vertreter\
+              \ reisen aus mehr als 150 L&auml;ndern aktiv und bietet eine wirklich\
+              \ globale Chance.</li> </ul> \n<h3>Wie gr&uuml;n ist die International\
+              \ CES?</h3> \n<p>Der 2013 International CES enthalten eine Vielzahl\
+              \ von gr&uuml;nen Initiativen als Teil unserer Bem&uuml;hungen, Abfall\
+              \ zu reduzieren und geben zur&uuml;ck in die lokale Gemeinschaft Las\
+              \ Vegas.</p> \n<ul> \n<li>Gesammelt &uuml;ber 108.000 Quadratmeter Show\
+              \ Grafiken mit einer Erfassungsrate von 81 Prozent auf umfunktionieren\
+              \ und geben zur&uuml;ck in die lokale Gemeinschaft \n<ul> \n<li>38.000\
+              \ Quadratmeter Magnet Banner - &uuml;ber 19.000 &pound;</li> \n<li>21.600\
+              \ Quadratmeter Magnet Banner</li> \n<li>&Uuml;ber 48.000 Quadratmeter\
+              \ anderen Show-Grafik - bis 200 Prozent</li> \n<li>37.800 &pound; von\
+              \ Show-Publikationen</li> </ul> </li> \n<li>Produzierte &uuml;ber 243.000\
+              \ Ausweisinhaber nach der Show vom letzten Jahr Vinyl-Banner hergestellt\
+              \ und &uuml;ber 58.000 Ausweisinhaber gesammelt, um f&uuml;r eine dritte\
+              \ Leben umfunktionieren</li> \n<li>Erh&ouml;hte Gesamtschau Wiederverwendung\
+              \ / Recycling-Rate von 76 bis 81 Prozent</li> \n<li>Verwendung von wiederverwertbaren\
+              \ Teppichboden f&uuml;r alle Ausstellungs G&auml;nge, TeilesucheTechZones,\
+              \ Registrierungsbereiche und schl&uuml;sselfertigen Messestand-Pakete</li>\
+              \ \n<li>Verwendung von schl&uuml;sselfertigen Messestand-Pakete mit\
+              \ recycelbaren Tafeln und Grafiken gedruckt mit Soja-Tinte</li> \n<li>Mandat\
+              \ der papierlosen Pressef&auml;cher der Aussteller online, oder &uuml;ber\
+              \ USB oder DVD</li> \n<li>Materialien werden auf Recyclingpapier gedruckt,\
+              \ verwenden Soja basierender Tinte und erf&uuml;llen die Standards der\
+              \ nachhaltigen Wald Initiative und Forest Stewardship Council</li> \n\
+              <li>Achten Sie darauf, einen Blick auf die 2014 CES Gr&uuml;nen Reisef&uuml;hrers\
+              \ f&uuml;r Informationen &uuml;ber CES gr&uuml;n Aussteller, die CES\
+              \ Begr&uuml;nung Initiativen und CEA eCycling und Nachhaltigkeit Initiativen\
+              \ zu ergreifen. F&uuml;r die letztj&auml;hrige Guide, finden Sie auf\
+              \ der CES 2013 Gr&uuml;nen Reisef&uuml;hrers.</li> </ul> \n<p>Am 6.\
+              \ Januar 2014 k&uuml;ndigte die Fortsetzung der Tradition zu vergeben\
+              \ mehreren lokalen Organisationen Las Vegas mit Mitteln f&uuml;r Nachhaltigkeitsprojekte.\
+              \ Dieses Jahr CEA spendet 10.000 $ University of Nevada, Las Vegas,\
+              \ (UNLV) DesertSol Solarhaus und $ 25.000 bis der Springs Preserve in\
+              \ Richtung der DesertSol Projekt.</p> \n<ul> \n<li>Die DesertSol Solarhaus,\
+              \ gestaltet von UNLV war die Zweitplatzierte, und die erste unter den\
+              \ US-Organisationen, an der 2013 US-Department of Energy (DOE) Solar\
+              \ Decathlon. Diese Spende ist es, die UNLV DesertSol Team zu ihrem Erfolg\
+              \ gratulieren und helfen weiter die DesertSol Projekt.</li> \n<li>CEA\
+              \ Spende an den Springs Preserve wird der Umzug von DesertSol an den\
+              \ neuen Standort zu unterst&uuml;tzen. Die Springs Preserve ist ein\
+              \ Weltklasse-Anlage, die Gemeinde, die Erhaltung, Bewahrung und Nachhaltigkeit\
+              \ in der Region Southern Nevada f&ouml;rdert, und ist der weltweit gr&ouml;&szlig;te\
+              \ Campus der Platin-LEED Geb&auml;ude bewertet US Green Building Council.\
+              \ The Preserve Ziele f&uuml;r die Besucher zu inspirieren, gr&uuml;ne\
+              \ Wohnzimmer Verfahren und Technologien in der eigenen Wohnung zu implementieren,\
+              \ und f&uuml;r das Haus zu einem Ort f&uuml;r die weitere Forschung\
+              \ und Entwicklung von erneuerbaren Energien f&uuml;r UNLV Dozenten,\
+              \ Studenten und Fachleute bleiben.</li> </ul> \n<p>&nbsp;&nbsp;\n<br\
+              \ /> An der CES 2013, machte CEA zwei $ 50.000 Spenden an lokale Organisationen\
+              \ Las Vegas, Gr&uuml;n Chips und dem Las Vegas Convention and Visitors\
+              \ Authority (LVCVA). Gr&uuml;ne Chips verwendet die Spende von CEA,\
+              \ eine Solaranlage auf dem legend&auml;ren Projekt &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; Schild am Las Vegas Boulevard zu unterst&uuml;tzen.\
+              \ Die LVCVA nutzten ihre Spende von CEA, mehrere Elektrofahrzeug-Ladestationen\
+              \ im Las Vegas Convention Center zu installieren.</p> \n<h3>&nbsp;\n\
+              <br /> Geladene aufstehen Elektrofahrzeuge</h3> \n<p>Die GoElectricDrive\
+              \ TechZone im Las Vegas Convention und World Trade Center (LVCC), North\
+              \ Hall pr&auml;sentiert eine breite Palette von High-und Low-Speed-Elektrofahrzeuge,\
+              \ Energiespeicher und Ladel&ouml;sungen. Gef&ouml;rdert von der Electric\
+              \ Drive Transportation Association, hebt diese TechZone eine Fl&auml;che\
+              \ von gro&szlig;em Potenzial und Wachstum f&uuml;r die Branche Elektrofahrzeuge\
+              \ sind schnell an Popularit&auml;t gewinnt bei den Verbrauchern suchen,\
+              \ um mehr nachhaltig durch den Einsatz alternativer Transport zu leben.</p>\
+              \ \n<h3>CEA und Gr&uuml;n</h3> \n<p>Aus der Entwicklung der &Ouml;ko-TVs\
+              \ zu beleuchten ausf&uuml;hrlich &uuml;ber die Einstellung der Verbraucher\
+              \ zur Energieeffizienz mit Unterhaltungselektronik, hat CEA die neuesten\
+              \ Forschungsergebnisse. Besuchen CE.org/green f&uuml;r weitere Informationen.</p>\
+              \ \n<h3>Greener Gadgets</h3> \n<p>CEA arbeitet GreenerGadgets.org, eine\
+              \ Online-Ressource f&uuml;r die Verbraucher, die die Branche Trend zu\
+              \ &quot;gr&uuml;ner Gadgets&quot; Highlights - kleiner, intelligenter,\
+              \ energieeffizienter Ger&auml;te, die mehr als je zuvor tun k&ouml;nnen.\
+              \ Tech-versierte K&auml;ufer haben jetzt mehr umweltfreundliche Optionen\
+              \ und diese Ressource wertvolle Informationen dar&uuml;ber, wie gr&uuml;ne\
+              \ Elektronik kaufen, nutzen sie effizient und recyceln sie am Ende ihrer\
+              \ Nutzungsdauer hat.\n<br /> Die Website bietet auch eine leistungsf&auml;hige\
+              \ Energienutzung Rechner mit den meisten up-to-date Produkte und Energienutzung\
+              \ Zahlen Verbrauchern zu helfen, ihren Energieverbrauch, sowie eine\
+              \ Recycling-Locator-Tool besser zu verstehen. Wenn es um die End-of-Life-Elektronik\
+              \ geht, sind viele Menschen besorgt, was passiert, mit, nachdem sie\
+              \ abfallen ihrer Produkte. Das Recycling-Locator-Datenbank umfasst Industrie-Programme,\
+              \ die strengen Normen und Drittanbieter-zertifizierten Recycler zu verwenden,\
+              \ so sicher sein, Ihr Ger&auml;t sicher recycelt werden.</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+  /2016:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: a31d743b-8a44-4306-8aa5-11a6c07cadc8
+    hippostd:foldertype: [new-event-folder, new-event]
+    hippotranslation:id: 1f123074-6971-426d-9da2-847a09031e9f
+    hippotranslation:locale: de
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 098339be-6c76-4236-b91a-9da12b46e21d
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 13c01d92-dad8-4a70-a408-4d03f18dacc6
+      hippotranslation:locale: de
+      /green-living-show:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 9c8268df-e298-4a86-9f18-a8402a629fa0
+        hippo:name: Green Living Show
+        /green-living-show[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 23c10cef-5ace-495f-8519-03a1f49ded93
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:32:55.871+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4fb96f16-deea-4779-8a78-dac39cf42ea0
+          hippo:availability: []
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:32:48.589+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a1a097cc-cd0b-4f8a-a732-875b4d80403c
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:32:55.871+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:32:57.982+02:00
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /green-festival:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: fe355793-1784-4efd-aea0-7098da14b326
+        hippo:name: Green Festival
+        /green-festival[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 50a05e48-bffd-4e06-8308-da2c72e816fb
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:07.090+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 82934f1b-c934-4283-8cf0-64e0077b0973
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:32:59.952+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f0123fba-d5aa-45de-9583-252c73de1585
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:07.090+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:33:09.089+02:00
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 8bb2cf2c-7897-4af4-8b8b-c99c09b61600
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 79ce5b01-4965-4e1e-888d-7e14dbf61159
+      hippotranslation:locale: de
+      /naturkapital:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 3f70d4dd-7c47-418e-83a0-28ee894d443d
+        hippo:name: Naturkapital
+        /naturkapital[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 9559c72d-32b3-4371-956e-aeec2e890154
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:18.879+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /naturkapital[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bd309768-ffc7-4a4b-8056-f12c7831a2a3
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:12.956+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /naturkapital[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 247af76b-99af-4938-b4ae-537cbbfc1874
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:18.879+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:33:20.747+02:00
+          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /01:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: d51c6c47-1bdf-4621-9c63-073c3084d65e
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6e3866c3-332c-4531-aa4b-295b1162e724
+      hippotranslation:locale: de
+      /ces-green:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: e4cfd9ac-e4be-4bc5-ac29-05ab114c6784
+        hippo:name: CES Green
+        /ces-green[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: aa8d6a1a-962e-48b4-ae15-187c2b30304c
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Die weltweit Treffpunkt für alle, die auf das Geschäft
+            der Consumer-Technologien gedeihen auch die umweltfreundlichste. Messe-Vorstand
+            kürte den 2012 Internationale Fachmesse CES ® die mit den "Most Innovative
+            Umweltinitiativen von Show Management", und im Jahr 2010, "Nordamerika
+            grünste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: unpublished
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:30.627+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Teilnehmer: eine kleinere Stellfl&auml;che mit\
+              \ Bigger Chancen</h3> \n<p>CES bietet unserer Branche die Gelegenheit,\
+              \ zu einer Zeit einberufen, an einem Ort, an einem umweltfreundlichen\
+              \ Blockbuster, die j&auml;hrlichen Reise minimiert.</p> \n<ul> \n<li>Besucher\
+              \ der CES miteinander verbinden, Wirtschaft getan und kollektiv zu vermeiden\
+              \ &uuml;ber 1.970.000 Meilen in Gesch&auml;ftsreisen, die sie sonst\
+              \ m&uuml;ssten, wenn nicht f&uuml;r CES nehmen</li> \n<li>Vertreter\
+              \ reisen aus mehr als 150 L&auml;ndern aktiv und bietet eine wirklich\
+              \ globale Chance.</li> </ul> \n<h3>Wie gr&uuml;n ist die International\
+              \ CES?</h3> \n<p>Der 2013 International CES enthalten eine Vielzahl\
+              \ von gr&uuml;nen Initiativen als Teil unserer Bem&uuml;hungen, Abfall\
+              \ zu reduzieren und geben zur&uuml;ck in die lokale Gemeinschaft Las\
+              \ Vegas.</p> \n<ul> \n<li>Gesammelt &uuml;ber 108.000 Quadratmeter Show\
+              \ Grafiken mit einer Erfassungsrate von 81 Prozent auf umfunktionieren\
+              \ und geben zur&uuml;ck in die lokale Gemeinschaft \n<ul> \n<li>38.000\
+              \ Quadratmeter Magnet Banner - &uuml;ber 19.000 &pound;</li> \n<li>21.600\
+              \ Quadratmeter Magnet Banner</li> \n<li>&Uuml;ber 48.000 Quadratmeter\
+              \ anderen Show-Grafik - bis 200 Prozent</li> \n<li>37.800 &pound; von\
+              \ Show-Publikationen</li> </ul> </li> \n<li>Produzierte &uuml;ber 243.000\
+              \ Ausweisinhaber nach der Show vom letzten Jahr Vinyl-Banner hergestellt\
+              \ und &uuml;ber 58.000 Ausweisinhaber gesammelt, um f&uuml;r eine dritte\
+              \ Leben umfunktionieren</li> \n<li>Erh&ouml;hte Gesamtschau Wiederverwendung\
+              \ / Recycling-Rate von 76 bis 81 Prozent</li> \n<li>Verwendung von wiederverwertbaren\
+              \ Teppichboden f&uuml;r alle Ausstellungs G&auml;nge, TeilesucheTechZones,\
+              \ Registrierungsbereiche und schl&uuml;sselfertigen Messestand-Pakete</li>\
+              \ \n<li>Verwendung von schl&uuml;sselfertigen Messestand-Pakete mit\
+              \ recycelbaren Tafeln und Grafiken gedruckt mit Soja-Tinte</li> \n<li>Mandat\
+              \ der papierlosen Pressef&auml;cher der Aussteller online, oder &uuml;ber\
+              \ USB oder DVD</li> \n<li>Materialien werden auf Recyclingpapier gedruckt,\
+              \ verwenden Soja basierender Tinte und erf&uuml;llen die Standards der\
+              \ nachhaltigen Wald Initiative und Forest Stewardship Council</li> \n\
+              <li>Achten Sie darauf, einen Blick auf die 2014 CES Gr&uuml;nen Reisef&uuml;hrers\
+              \ f&uuml;r Informationen &uuml;ber CES gr&uuml;n Aussteller, die CES\
+              \ Begr&uuml;nung Initiativen und CEA eCycling und Nachhaltigkeit Initiativen\
+              \ zu ergreifen. F&uuml;r die letztj&auml;hrige Guide, finden Sie auf\
+              \ der CES 2013 Gr&uuml;nen Reisef&uuml;hrers.</li> </ul> \n<p>Am 6.\
+              \ Januar 2014 k&uuml;ndigte die Fortsetzung der Tradition zu vergeben\
+              \ mehreren lokalen Organisationen Las Vegas mit Mitteln f&uuml;r Nachhaltigkeitsprojekte.\
+              \ Dieses Jahr CEA spendet 10.000 $ University of Nevada, Las Vegas,\
+              \ (UNLV) DesertSol Solarhaus und $ 25.000 bis der Springs Preserve in\
+              \ Richtung der DesertSol Projekt.</p> \n<ul> \n<li>Die DesertSol Solarhaus,\
+              \ gestaltet von UNLV war die Zweitplatzierte, und die erste unter den\
+              \ US-Organisationen, an der 2013 US-Department of Energy (DOE) Solar\
+              \ Decathlon. Diese Spende ist es, die UNLV DesertSol Team zu ihrem Erfolg\
+              \ gratulieren und helfen weiter die DesertSol Projekt.</li> \n<li>CEA\
+              \ Spende an den Springs Preserve wird der Umzug von DesertSol an den\
+              \ neuen Standort zu unterst&uuml;tzen. Die Springs Preserve ist ein\
+              \ Weltklasse-Anlage, die Gemeinde, die Erhaltung, Bewahrung und Nachhaltigkeit\
+              \ in der Region Southern Nevada f&ouml;rdert, und ist der weltweit gr&ouml;&szlig;te\
+              \ Campus der Platin-LEED Geb&auml;ude bewertet US Green Building Council.\
+              \ The Preserve Ziele f&uuml;r die Besucher zu inspirieren, gr&uuml;ne\
+              \ Wohnzimmer Verfahren und Technologien in der eigenen Wohnung zu implementieren,\
+              \ und f&uuml;r das Haus zu einem Ort f&uuml;r die weitere Forschung\
+              \ und Entwicklung von erneuerbaren Energien f&uuml;r UNLV Dozenten,\
+              \ Studenten und Fachleute bleiben.</li> </ul> \n<p>&nbsp;&nbsp;\n<br\
+              \ /> An der CES 2013, machte CEA zwei $ 50.000 Spenden an lokale Organisationen\
+              \ Las Vegas, Gr&uuml;n Chips und dem Las Vegas Convention and Visitors\
+              \ Authority (LVCVA). Gr&uuml;ne Chips verwendet die Spende von CEA,\
+              \ eine Solaranlage auf dem legend&auml;ren Projekt &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; Schild am Las Vegas Boulevard zu unterst&uuml;tzen.\
+              \ Die LVCVA nutzten ihre Spende von CEA, mehrere Elektrofahrzeug-Ladestationen\
+              \ im Las Vegas Convention Center zu installieren.</p> \n<h3>&nbsp;\n\
+              <br /> Geladene aufstehen Elektrofahrzeuge</h3> \n<p>Die GoElectricDrive\
+              \ TechZone im Las Vegas Convention und World Trade Center (LVCC), North\
+              \ Hall pr&auml;sentiert eine breite Palette von High-und Low-Speed-Elektrofahrzeuge,\
+              \ Energiespeicher und Ladel&ouml;sungen. Gef&ouml;rdert von der Electric\
+              \ Drive Transportation Association, hebt diese TechZone eine Fl&auml;che\
+              \ von gro&szlig;em Potenzial und Wachstum f&uuml;r die Branche Elektrofahrzeuge\
+              \ sind schnell an Popularit&auml;t gewinnt bei den Verbrauchern suchen,\
+              \ um mehr nachhaltig durch den Einsatz alternativer Transport zu leben.</p>\
+              \ \n<h3>CEA und Gr&uuml;n</h3> \n<p>Aus der Entwicklung der &Ouml;ko-TVs\
+              \ zu beleuchten ausf&uuml;hrlich &uuml;ber die Einstellung der Verbraucher\
+              \ zur Energieeffizienz mit Unterhaltungselektronik, hat CEA die neuesten\
+              \ Forschungsergebnisse. Besuchen CE.org/green f&uuml;r weitere Informationen.</p>\
+              \ \n<h3>Greener Gadgets</h3> \n<p>CEA arbeitet GreenerGadgets.org, eine\
+              \ Online-Ressource f&uuml;r die Verbraucher, die die Branche Trend zu\
+              \ &quot;gr&uuml;ner Gadgets&quot; Highlights - kleiner, intelligenter,\
+              \ energieeffizienter Ger&auml;te, die mehr als je zuvor tun k&ouml;nnen.\
+              \ Tech-versierte K&auml;ufer haben jetzt mehr umweltfreundliche Optionen\
+              \ und diese Ressource wertvolle Informationen dar&uuml;ber, wie gr&uuml;ne\
+              \ Elektronik kaufen, nutzen sie effizient und recyceln sie am Ende ihrer\
+              \ Nutzungsdauer hat.\n<br /> Die Website bietet auch eine leistungsf&auml;hige\
+              \ Energienutzung Rechner mit den meisten up-to-date Produkte und Energienutzung\
+              \ Zahlen Verbrauchern zu helfen, ihren Energieverbrauch, sowie eine\
+              \ Recycling-Locator-Tool besser zu verstehen. Wenn es um die End-of-Life-Elektronik\
+              \ geht, sind viele Menschen besorgt, was passiert, mit, nachdem sie\
+              \ abfallen ihrer Produkte. Das Recycling-Locator-Datenbank umfasst Industrie-Programme,\
+              \ die strengen Normen und Drittanbieter-zertifizierten Recycler zu verwenden,\
+              \ so sicher sein, Ihr Ger&auml;t sicher recycelt werden.</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d541ba17-8942-4eef-a73f-fa31bb7ca173
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Die weltweit Treffpunkt für alle, die auf das Geschäft
+            der Consumer-Technologien gedeihen auch die umweltfreundlichste. Messe-Vorstand
+            kürte den 2012 Internationale Fachmesse CES ® die mit den "Most Innovative
+            Umweltinitiativen von Show Management", und im Jahr 2010, "Nordamerika
+            grünste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: draft
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:24.544+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Teilnehmer: eine kleinere Stellfl&auml;che mit\
+              \ Bigger Chancen</h3> \n<p>CES bietet unserer Branche die Gelegenheit,\
+              \ zu einer Zeit einberufen, an einem Ort, an einem umweltfreundlichen\
+              \ Blockbuster, die j&auml;hrlichen Reise minimiert.</p> \n<ul> \n<li>Besucher\
+              \ der CES miteinander verbinden, Wirtschaft getan und kollektiv zu vermeiden\
+              \ &uuml;ber 1.970.000 Meilen in Gesch&auml;ftsreisen, die sie sonst\
+              \ m&uuml;ssten, wenn nicht f&uuml;r CES nehmen</li> \n<li>Vertreter\
+              \ reisen aus mehr als 150 L&auml;ndern aktiv und bietet eine wirklich\
+              \ globale Chance.</li> </ul> \n<h3>Wie gr&uuml;n ist die International\
+              \ CES?</h3> \n<p>Der 2013 International CES enthalten eine Vielzahl\
+              \ von gr&uuml;nen Initiativen als Teil unserer Bem&uuml;hungen, Abfall\
+              \ zu reduzieren und geben zur&uuml;ck in die lokale Gemeinschaft Las\
+              \ Vegas.</p> \n<ul> \n<li>Gesammelt &uuml;ber 108.000 Quadratmeter Show\
+              \ Grafiken mit einer Erfassungsrate von 81 Prozent auf umfunktionieren\
+              \ und geben zur&uuml;ck in die lokale Gemeinschaft \n<ul> \n<li>38.000\
+              \ Quadratmeter Magnet Banner - &uuml;ber 19.000 &pound;</li> \n<li>21.600\
+              \ Quadratmeter Magnet Banner</li> \n<li>&Uuml;ber 48.000 Quadratmeter\
+              \ anderen Show-Grafik - bis 200 Prozent</li> \n<li>37.800 &pound; von\
+              \ Show-Publikationen</li> </ul> </li> \n<li>Produzierte &uuml;ber 243.000\
+              \ Ausweisinhaber nach der Show vom letzten Jahr Vinyl-Banner hergestellt\
+              \ und &uuml;ber 58.000 Ausweisinhaber gesammelt, um f&uuml;r eine dritte\
+              \ Leben umfunktionieren</li> \n<li>Erh&ouml;hte Gesamtschau Wiederverwendung\
+              \ / Recycling-Rate von 76 bis 81 Prozent</li> \n<li>Verwendung von wiederverwertbaren\
+              \ Teppichboden f&uuml;r alle Ausstellungs G&auml;nge, TeilesucheTechZones,\
+              \ Registrierungsbereiche und schl&uuml;sselfertigen Messestand-Pakete</li>\
+              \ \n<li>Verwendung von schl&uuml;sselfertigen Messestand-Pakete mit\
+              \ recycelbaren Tafeln und Grafiken gedruckt mit Soja-Tinte</li> \n<li>Mandat\
+              \ der papierlosen Pressef&auml;cher der Aussteller online, oder &uuml;ber\
+              \ USB oder DVD</li> \n<li>Materialien werden auf Recyclingpapier gedruckt,\
+              \ verwenden Soja basierender Tinte und erf&uuml;llen die Standards der\
+              \ nachhaltigen Wald Initiative und Forest Stewardship Council</li> \n\
+              <li>Achten Sie darauf, einen Blick auf die 2014 CES Gr&uuml;nen Reisef&uuml;hrers\
+              \ f&uuml;r Informationen &uuml;ber CES gr&uuml;n Aussteller, die CES\
+              \ Begr&uuml;nung Initiativen und CEA eCycling und Nachhaltigkeit Initiativen\
+              \ zu ergreifen. F&uuml;r die letztj&auml;hrige Guide, finden Sie auf\
+              \ der CES 2013 Gr&uuml;nen Reisef&uuml;hrers.</li> </ul> \n<p>Am 6.\
+              \ Januar 2014 k&uuml;ndigte die Fortsetzung der Tradition zu vergeben\
+              \ mehreren lokalen Organisationen Las Vegas mit Mitteln f&uuml;r Nachhaltigkeitsprojekte.\
+              \ Dieses Jahr CEA spendet 10.000 $ University of Nevada, Las Vegas,\
+              \ (UNLV) DesertSol Solarhaus und $ 25.000 bis der Springs Preserve in\
+              \ Richtung der DesertSol Projekt.</p> \n<ul> \n<li>Die DesertSol Solarhaus,\
+              \ gestaltet von UNLV war die Zweitplatzierte, und die erste unter den\
+              \ US-Organisationen, an der 2013 US-Department of Energy (DOE) Solar\
+              \ Decathlon. Diese Spende ist es, die UNLV DesertSol Team zu ihrem Erfolg\
+              \ gratulieren und helfen weiter die DesertSol Projekt.</li> \n<li>CEA\
+              \ Spende an den Springs Preserve wird der Umzug von DesertSol an den\
+              \ neuen Standort zu unterst&uuml;tzen. Die Springs Preserve ist ein\
+              \ Weltklasse-Anlage, die Gemeinde, die Erhaltung, Bewahrung und Nachhaltigkeit\
+              \ in der Region Southern Nevada f&ouml;rdert, und ist der weltweit gr&ouml;&szlig;te\
+              \ Campus der Platin-LEED Geb&auml;ude bewertet US Green Building Council.\
+              \ The Preserve Ziele f&uuml;r die Besucher zu inspirieren, gr&uuml;ne\
+              \ Wohnzimmer Verfahren und Technologien in der eigenen Wohnung zu implementieren,\
+              \ und f&uuml;r das Haus zu einem Ort f&uuml;r die weitere Forschung\
+              \ und Entwicklung von erneuerbaren Energien f&uuml;r UNLV Dozenten,\
+              \ Studenten und Fachleute bleiben.</li> </ul> \n<p>&nbsp;&nbsp;\n<br\
+              \ /> An der CES 2013, machte CEA zwei $ 50.000 Spenden an lokale Organisationen\
+              \ Las Vegas, Gr&uuml;n Chips und dem Las Vegas Convention and Visitors\
+              \ Authority (LVCVA). Gr&uuml;ne Chips verwendet die Spende von CEA,\
+              \ eine Solaranlage auf dem legend&auml;ren Projekt &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; Schild am Las Vegas Boulevard zu unterst&uuml;tzen.\
+              \ Die LVCVA nutzten ihre Spende von CEA, mehrere Elektrofahrzeug-Ladestationen\
+              \ im Las Vegas Convention Center zu installieren.</p> \n<h3>&nbsp;\n\
+              <br /> Geladene aufstehen Elektrofahrzeuge</h3> \n<p>Die GoElectricDrive\
+              \ TechZone im Las Vegas Convention und World Trade Center (LVCC), North\
+              \ Hall pr&auml;sentiert eine breite Palette von High-und Low-Speed-Elektrofahrzeuge,\
+              \ Energiespeicher und Ladel&ouml;sungen. Gef&ouml;rdert von der Electric\
+              \ Drive Transportation Association, hebt diese TechZone eine Fl&auml;che\
+              \ von gro&szlig;em Potenzial und Wachstum f&uuml;r die Branche Elektrofahrzeuge\
+              \ sind schnell an Popularit&auml;t gewinnt bei den Verbrauchern suchen,\
+              \ um mehr nachhaltig durch den Einsatz alternativer Transport zu leben.</p>\
+              \ \n<h3>CEA und Gr&uuml;n</h3> \n<p>Aus der Entwicklung der &Ouml;ko-TVs\
+              \ zu beleuchten ausf&uuml;hrlich &uuml;ber die Einstellung der Verbraucher\
+              \ zur Energieeffizienz mit Unterhaltungselektronik, hat CEA die neuesten\
+              \ Forschungsergebnisse. Besuchen CE.org/green f&uuml;r weitere Informationen.</p>\
+              \ \n<h3>Greener Gadgets</h3> \n<p>CEA arbeitet GreenerGadgets.org, eine\
+              \ Online-Ressource f&uuml;r die Verbraucher, die die Branche Trend zu\
+              \ &quot;gr&uuml;ner Gadgets&quot; Highlights - kleiner, intelligenter,\
+              \ energieeffizienter Ger&auml;te, die mehr als je zuvor tun k&ouml;nnen.\
+              \ Tech-versierte K&auml;ufer haben jetzt mehr umweltfreundliche Optionen\
+              \ und diese Ressource wertvolle Informationen dar&uuml;ber, wie gr&uuml;ne\
+              \ Elektronik kaufen, nutzen sie effizient und recyceln sie am Ende ihrer\
+              \ Nutzungsdauer hat.\n<br /> Die Website bietet auch eine leistungsf&auml;hige\
+              \ Energienutzung Rechner mit den meisten up-to-date Produkte und Energienutzung\
+              \ Zahlen Verbrauchern zu helfen, ihren Energieverbrauch, sowie eine\
+              \ Recycling-Locator-Tool besser zu verstehen. Wenn es um die End-of-Life-Elektronik\
+              \ geht, sind viele Menschen besorgt, was passiert, mit, nachdem sie\
+              \ abfallen ihrer Produkte. Das Recycling-Locator-Datenbank umfasst Industrie-Programme,\
+              \ die strengen Normen und Drittanbieter-zertifizierten Recycler zu verwenden,\
+              \ so sicher sein, Ihr Ger&auml;t sicher recycelt werden.</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b1cf466d-46e5-4fba-87b2-c89638d95f3d
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Die weltweit Treffpunkt für alle, die auf das Geschäft
+            der Consumer-Technologien gedeihen auch die umweltfreundlichste. Messe-Vorstand
+            kürte den 2012 Internationale Fachmesse CES ® die mit den "Most Innovative
+            Umweltinitiativen von Show Management", und im Jahr 2010, "Nordamerika
+            grünste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: published
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:33:30.627+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:33:32.703+02:00
+          hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Teilnehmer: eine kleinere Stellfl&auml;che mit\
+              \ Bigger Chancen</h3> \n<p>CES bietet unserer Branche die Gelegenheit,\
+              \ zu einer Zeit einberufen, an einem Ort, an einem umweltfreundlichen\
+              \ Blockbuster, die j&auml;hrlichen Reise minimiert.</p> \n<ul> \n<li>Besucher\
+              \ der CES miteinander verbinden, Wirtschaft getan und kollektiv zu vermeiden\
+              \ &uuml;ber 1.970.000 Meilen in Gesch&auml;ftsreisen, die sie sonst\
+              \ m&uuml;ssten, wenn nicht f&uuml;r CES nehmen</li> \n<li>Vertreter\
+              \ reisen aus mehr als 150 L&auml;ndern aktiv und bietet eine wirklich\
+              \ globale Chance.</li> </ul> \n<h3>Wie gr&uuml;n ist die International\
+              \ CES?</h3> \n<p>Der 2013 International CES enthalten eine Vielzahl\
+              \ von gr&uuml;nen Initiativen als Teil unserer Bem&uuml;hungen, Abfall\
+              \ zu reduzieren und geben zur&uuml;ck in die lokale Gemeinschaft Las\
+              \ Vegas.</p> \n<ul> \n<li>Gesammelt &uuml;ber 108.000 Quadratmeter Show\
+              \ Grafiken mit einer Erfassungsrate von 81 Prozent auf umfunktionieren\
+              \ und geben zur&uuml;ck in die lokale Gemeinschaft \n<ul> \n<li>38.000\
+              \ Quadratmeter Magnet Banner - &uuml;ber 19.000 &pound;</li> \n<li>21.600\
+              \ Quadratmeter Magnet Banner</li> \n<li>&Uuml;ber 48.000 Quadratmeter\
+              \ anderen Show-Grafik - bis 200 Prozent</li> \n<li>37.800 &pound; von\
+              \ Show-Publikationen</li> </ul> </li> \n<li>Produzierte &uuml;ber 243.000\
+              \ Ausweisinhaber nach der Show vom letzten Jahr Vinyl-Banner hergestellt\
+              \ und &uuml;ber 58.000 Ausweisinhaber gesammelt, um f&uuml;r eine dritte\
+              \ Leben umfunktionieren</li> \n<li>Erh&ouml;hte Gesamtschau Wiederverwendung\
+              \ / Recycling-Rate von 76 bis 81 Prozent</li> \n<li>Verwendung von wiederverwertbaren\
+              \ Teppichboden f&uuml;r alle Ausstellungs G&auml;nge, TeilesucheTechZones,\
+              \ Registrierungsbereiche und schl&uuml;sselfertigen Messestand-Pakete</li>\
+              \ \n<li>Verwendung von schl&uuml;sselfertigen Messestand-Pakete mit\
+              \ recycelbaren Tafeln und Grafiken gedruckt mit Soja-Tinte</li> \n<li>Mandat\
+              \ der papierlosen Pressef&auml;cher der Aussteller online, oder &uuml;ber\
+              \ USB oder DVD</li> \n<li>Materialien werden auf Recyclingpapier gedruckt,\
+              \ verwenden Soja basierender Tinte und erf&uuml;llen die Standards der\
+              \ nachhaltigen Wald Initiative und Forest Stewardship Council</li> \n\
+              <li>Achten Sie darauf, einen Blick auf die 2014 CES Gr&uuml;nen Reisef&uuml;hrers\
+              \ f&uuml;r Informationen &uuml;ber CES gr&uuml;n Aussteller, die CES\
+              \ Begr&uuml;nung Initiativen und CEA eCycling und Nachhaltigkeit Initiativen\
+              \ zu ergreifen. F&uuml;r die letztj&auml;hrige Guide, finden Sie auf\
+              \ der CES 2013 Gr&uuml;nen Reisef&uuml;hrers.</li> </ul> \n<p>Am 6.\
+              \ Januar 2014 k&uuml;ndigte die Fortsetzung der Tradition zu vergeben\
+              \ mehreren lokalen Organisationen Las Vegas mit Mitteln f&uuml;r Nachhaltigkeitsprojekte.\
+              \ Dieses Jahr CEA spendet 10.000 $ University of Nevada, Las Vegas,\
+              \ (UNLV) DesertSol Solarhaus und $ 25.000 bis der Springs Preserve in\
+              \ Richtung der DesertSol Projekt.</p> \n<ul> \n<li>Die DesertSol Solarhaus,\
+              \ gestaltet von UNLV war die Zweitplatzierte, und die erste unter den\
+              \ US-Organisationen, an der 2013 US-Department of Energy (DOE) Solar\
+              \ Decathlon. Diese Spende ist es, die UNLV DesertSol Team zu ihrem Erfolg\
+              \ gratulieren und helfen weiter die DesertSol Projekt.</li> \n<li>CEA\
+              \ Spende an den Springs Preserve wird der Umzug von DesertSol an den\
+              \ neuen Standort zu unterst&uuml;tzen. Die Springs Preserve ist ein\
+              \ Weltklasse-Anlage, die Gemeinde, die Erhaltung, Bewahrung und Nachhaltigkeit\
+              \ in der Region Southern Nevada f&ouml;rdert, und ist der weltweit gr&ouml;&szlig;te\
+              \ Campus der Platin-LEED Geb&auml;ude bewertet US Green Building Council.\
+              \ The Preserve Ziele f&uuml;r die Besucher zu inspirieren, gr&uuml;ne\
+              \ Wohnzimmer Verfahren und Technologien in der eigenen Wohnung zu implementieren,\
+              \ und f&uuml;r das Haus zu einem Ort f&uuml;r die weitere Forschung\
+              \ und Entwicklung von erneuerbaren Energien f&uuml;r UNLV Dozenten,\
+              \ Studenten und Fachleute bleiben.</li> </ul> \n<p>&nbsp;&nbsp;\n<br\
+              \ /> An der CES 2013, machte CEA zwei $ 50.000 Spenden an lokale Organisationen\
+              \ Las Vegas, Gr&uuml;n Chips und dem Las Vegas Convention and Visitors\
+              \ Authority (LVCVA). Gr&uuml;ne Chips verwendet die Spende von CEA,\
+              \ eine Solaranlage auf dem legend&auml;ren Projekt &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; Schild am Las Vegas Boulevard zu unterst&uuml;tzen.\
+              \ Die LVCVA nutzten ihre Spende von CEA, mehrere Elektrofahrzeug-Ladestationen\
+              \ im Las Vegas Convention Center zu installieren.</p> \n<h3>&nbsp;\n\
+              <br /> Geladene aufstehen Elektrofahrzeuge</h3> \n<p>Die GoElectricDrive\
+              \ TechZone im Las Vegas Convention und World Trade Center (LVCC), North\
+              \ Hall pr&auml;sentiert eine breite Palette von High-und Low-Speed-Elektrofahrzeuge,\
+              \ Energiespeicher und Ladel&ouml;sungen. Gef&ouml;rdert von der Electric\
+              \ Drive Transportation Association, hebt diese TechZone eine Fl&auml;che\
+              \ von gro&szlig;em Potenzial und Wachstum f&uuml;r die Branche Elektrofahrzeuge\
+              \ sind schnell an Popularit&auml;t gewinnt bei den Verbrauchern suchen,\
+              \ um mehr nachhaltig durch den Einsatz alternativer Transport zu leben.</p>\
+              \ \n<h3>CEA und Gr&uuml;n</h3> \n<p>Aus der Entwicklung der &Ouml;ko-TVs\
+              \ zu beleuchten ausf&uuml;hrlich &uuml;ber die Einstellung der Verbraucher\
+              \ zur Energieeffizienz mit Unterhaltungselektronik, hat CEA die neuesten\
+              \ Forschungsergebnisse. Besuchen CE.org/green f&uuml;r weitere Informationen.</p>\
+              \ \n<h3>Greener Gadgets</h3> \n<p>CEA arbeitet GreenerGadgets.org, eine\
+              \ Online-Ressource f&uuml;r die Verbraucher, die die Branche Trend zu\
+              \ &quot;gr&uuml;ner Gadgets&quot; Highlights - kleiner, intelligenter,\
+              \ energieeffizienter Ger&auml;te, die mehr als je zuvor tun k&ouml;nnen.\
+              \ Tech-versierte K&auml;ufer haben jetzt mehr umweltfreundliche Optionen\
+              \ und diese Ressource wertvolle Informationen dar&uuml;ber, wie gr&uuml;ne\
+              \ Elektronik kaufen, nutzen sie effizient und recyceln sie am Ende ihrer\
+              \ Nutzungsdauer hat.\n<br /> Die Website bietet auch eine leistungsf&auml;hige\
+              \ Energienutzung Rechner mit den meisten up-to-date Produkte und Energienutzung\
+              \ Zahlen Verbrauchern zu helfen, ihren Energieverbrauch, sowie eine\
+              \ Recycling-Locator-Tool besser zu verstehen. Wenn es um die End-of-Life-Elektronik\
+              \ geht, sind viele Menschen besorgt, was passiert, mit, nachdem sie\
+              \ abfallen ihrer Produkte. Das Recycling-Locator-Datenbank umfasst Industrie-Programme,\
+              \ die strengen Normen und Drittanbieter-zertifizierten Recycler zu verwenden,\
+              \ so sicher sein, Ihr Ger&auml;t sicher recycelt werden.</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []

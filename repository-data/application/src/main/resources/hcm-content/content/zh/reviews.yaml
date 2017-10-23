@@ -1,0 +1,42 @@
+/content/documents/河马转到绿/reviews:
+  .meta:order-before: comments
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: ae42a63f-9b8a-411b-9f74-c1ef0560d7d3
+  hippo:name: 检阅
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: f664f023-9fab-4fff-b5a0-9652ea8677af
+  hippotranslation:locale: zh
+  /绿色约翰娜堆肥箱:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: a3a96a31-f0aa-4f00-b51f-43a40f26294e
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 340f1cec-6d29-4ea3-afcb-c088d796f09c
+    hippotranslation:locale: zh
+    /review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 39b0fd74-c0ad-49fc-83dd-8d711a45b832
+      hippo:name: Review for 绿色约翰娜堆肥箱 2011-12-01 17.40.12.969
+      /review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969:
+        jcr:primaryType: hippogogreen:review
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 4acf483e-fdb1-4d0b-a2e7-60c66259b446
+        hippo:availability: [live, preview]
+        hippogogreen:comment: 尼斯斌, 我想这些.
+        hippogogreen:contentstage: ''
+        hippogogreen:date: 2011-12-01T17:40:00+01:00
+        hippogogreen:email: jack@example.com
+        hippogogreen:name: Jack
+        hippogogreen:rating: 4
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: siteuser
+        hippostdpubwf:creationDate: 2011-12-01T17:40:00+01:00
+        hippostdpubwf:lastModificationDate: 2011-12-01T17:41:00+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2011-12-01T17:41:00+01:00
+        /hippogogreen:productlink:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: ac4d790d-41f8-4522-8767-ae7cfdbe419a

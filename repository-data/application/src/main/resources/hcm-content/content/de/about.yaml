@@ -1,0 +1,53 @@
+/content/documents/hippo-geht-gruen/about:
+  .meta:order-before: products
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: fc7f568c-9115-4ebf-84f6-684ceaa96ca2
+  hippo:name: Über uns
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4c798917-eea5-4a36-904f-399c36e9e1ea
+  hippotranslation:locale: de
+  /allgemeine-geschaftsbedingungen:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: e6f05b4e-2494-40ed-8a02-1e9b8d303102
+    hippo:name: Allgemeine Geschäftsbedingungen
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: f83d8be1-5cc7-4f1f-82ba-2ceacd2faed1
+    hippotranslation:locale: de
+    /allgemeine-geschaftsbedingungen:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 49cd9458-06da-4b13-b6aa-3587a8fad6b9
+      hippo:name: Allgemeine Geschäftsbedingungen
+      /allgemeine-geschaftsbedingungen:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 1fb6c1c9-17c2-4311-892f-1249cc59e863
+        hippo:availability: [live, preview]
+        hippogogreen:contentstage: desire
+        hippogogreen:summary: Die Inhalte dieser Website sind nur für Demonstrations-Zwecke.
+        hippogogreen:title: Allgemeine Geschäftsbedingungen
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T19:13:00+02:00
+        hippostdpubwf:lastModificationDate: 2012-03-26T12:49:00+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2012-03-26T12:50:00+02:00
+        hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
+        hippotranslation:locale: de
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <html>
+            <body>
+
+            <p>Hippo hat versucht nur Inhalte die der Creative Commons Lizenz unterstellt
+            sind zu verwenden und die jeweiligen Urheber zu benennen. Sollten Sie Inhalte
+            finden, die nicht in dieser Demo verwendet werden dürfen teilen Sie uns dieses
+            bitte via Email an: info @ onehippo(punkt)com mit, wir werden die jeweiligen
+            Inhalte schnellstmöglich entfernen.</p>
+
+            </body>
+            </html>

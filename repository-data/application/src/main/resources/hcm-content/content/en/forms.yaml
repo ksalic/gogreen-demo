@@ -1,0 +1,2029 @@
+/content/documents/hippogogreen/forms:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: d3f8b871-dc49-45d7-af45-432a8d891d51
+  hippo:name: Forms
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: fb141152-e157-4712-a328-c2690d2047be
+  hippotranslation:locale: en
+  /contact-form:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 16976476-3578-474d-bbd6-75c5b25d564f
+    hippo:name: Contact Form
+    /contact-form[1]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: eda1f8e4-db97-4ab4-95f8-4e20ff2b3ae1
+      eforms:action: mail
+      eforms:actionurl: http://www.example.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Send Your Message!
+      eforms:formname: Contact Form
+      eforms:mailformdata: 'true'
+      eforms:notificationemail: sales@example.com
+      eforms:storeformdata: 'true'
+      eforms:submissioncountlimit: '100'
+      eforms:usestoredataforcounter: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-03T17:46:50.817-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:54:15.346+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2015-01-27T10:54:16.968+01:00
+      hippotranslation:id: 819f75b1-936b-42d4-a930-4d351fc27711
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 57617bcc-4ea1-4310-b0d3-93dd504952f1
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /fieldgroup0:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldnameprefix: name-and-email
+          eforms:groupname: Name and Email
+          eforms:label: group_label
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: f076c908-e57b-4919-9f9b-ef862c483ba6
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9fecb27799b4ab52
+            eforms:fieldname: name
+            eforms:hint: Your name
+            eforms:label: Name
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 10
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 1618888b-511a-472a-83ba-cc4fd0c1bae0
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9472268437944c5c
+            eforms:fieldname: email
+            eforms:hint: Your e-mail address
+            eforms:label: Email
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 40
+            eforms:validationruleid: email
+            eforms:validationrulelabel: E-mail Address
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+          /field3:
+            jcr:primaryType: eforms:datefield
+            jcr:uuid: f9afb221-3613-4d7a-810a-2b156ead1f30
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:dateformat: MM/dd/yyyy
+            eforms:fieldid: idbd74b96c07ccae54
+            eforms:fieldname: dob
+            eforms:hint: Your date of birth
+            eforms:label: Date of Birth
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field2:
+            jcr:primaryType: eforms:radiogroup
+            jcr:uuid: 08a1ba32-5414-4f16-a424-917837abc261
+            eforms:allowother: false
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:displayvalues: [Choice 1]
+            eforms:fieldid: id96b41b906a8e6721
+            eforms:fieldname: gender
+            eforms:hint: Your gender
+            eforms:label: ''
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+            eforms:values: [Male, Female]
+        /fieldgroup1:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldnameprefix: alternative-contact-information
+          eforms:groupname: Alternative Contact Information
+          eforms:label: group_label
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 5f2bf874-b0d5-4cad-88d7-6db53d506897
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9fecb27799b4ab52
+            eforms:fieldname: name
+            eforms:hint: Your name
+            eforms:label: Name
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 10
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 2555835d-1a5c-4395-bf0a-0824e81e2804
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:expandhint: false
+            eforms:fieldid: id9472268437944c5c
+            eforms:fieldname: email
+            eforms:hint: Your e-mail address
+            eforms:label: Email
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 40
+            eforms:validationruleid: email
+            eforms:validationrulelabel: E-mail Address
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field4:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: ab3e40ce-83b9-49c0-a4ad-9fea77cbd129
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Website, Facebook, Twitter, Other]
+          eforms:fieldid: ida09fd9e6fff5aa72
+          eforms:fieldname: how-did-you-hear-about-us
+          eforms:hint: How did you hear about us?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: text
+          eforms:initialvalue: ''
+          eforms:label: How did you hear about us?
+          eforms:mandatory: true
+          eforms:values: [website, facebook, twitter, other]
+        /field5:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: 1888bde1-0e05-42ef-a9aa-842ccdb0fa76
+          eforms:cols: 70
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9b9e4c4dbc65a8a6
+          eforms:fieldname: message
+          eforms:hint: Your message to us
+          eforms:label: Message
+          eforms:mandatory: false
+          eforms:rows: 15
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /contact-form[2]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 06c61ee3-12d6-4a6b-8f5e-f14c9defefce
+      eforms:action: mail
+      eforms:actionurl: http://www.example.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Send Your Message!
+      eforms:formname: Contact Form
+      eforms:mailformdata: 'true'
+      eforms:notificationemail: sales@example.com
+      eforms:storeformdata: 'true'
+      eforms:submissioncountlimit: '100'
+      eforms:usestoredataforcounter: 'true'
+      eforms:validationhelper: true
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-03T17:46:50.817-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:54:10.415+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 819f75b1-936b-42d4-a930-4d351fc27711
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 22503a06-54da-46d3-a7c8-50609a438fcb
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /fieldgroup0:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldnameprefix: name-and-email
+          eforms:groupname: Name and Email
+          eforms:label: group_label
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 07a617bc-2a28-44f5-8b1f-20548aeab795
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9fecb27799b4ab52
+            eforms:fieldname: name
+            eforms:hint: Your name
+            eforms:label: Name
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 10
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 5b8d6b87-cb63-4e0a-81e7-93ba58dc9b90
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9472268437944c5c
+            eforms:fieldname: email
+            eforms:hint: Your e-mail address
+            eforms:label: Email
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 40
+            eforms:validationruleid: email
+            eforms:validationrulelabel: E-mail Address
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+          /field3:
+            jcr:primaryType: eforms:datefield
+            jcr:uuid: d4c3154b-d095-4429-8661-913724072814
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:dateformat: MM/dd/yyyy
+            eforms:fieldid: idbd74b96c07ccae54
+            eforms:fieldname: dob
+            eforms:hint: Your date of birth
+            eforms:label: Date of Birth
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field2:
+            jcr:primaryType: eforms:radiogroup
+            jcr:uuid: 591b797c-ea2a-4f8a-b337-8f3547982b96
+            eforms:allowother: false
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:displayvalues: [Choice 1]
+            eforms:fieldid: id96b41b906a8e6721
+            eforms:fieldname: gender
+            eforms:hint: Your gender
+            eforms:label: ''
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+            eforms:values: [Male, Female]
+        /fieldgroup1:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldnameprefix: alternative-contact-information
+          eforms:groupname: Alternative Contact Information
+          eforms:label: group_label
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 2c69bdd0-afbf-4786-a4a9-c045bb268519
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9fecb27799b4ab52
+            eforms:fieldname: name
+            eforms:hint: Your name
+            eforms:label: Name
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 10
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 3a0e2b6f-f7be-47a5-a3dc-15b9bc616cb9
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:expandhint: false
+            eforms:fieldid: id9472268437944c5c
+            eforms:fieldname: email
+            eforms:hint: Your e-mail address
+            eforms:label: Email
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 40
+            eforms:validationruleid: email
+            eforms:validationrulelabel: E-mail Address
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field4:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: e2852145-c51d-4bd4-9b26-d33d83ca38f1
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Website, Facebook, Twitter, Other]
+          eforms:fieldid: ida09fd9e6fff5aa72
+          eforms:fieldname: how-did-you-hear-about-us
+          eforms:hint: How did you hear about us?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: text
+          eforms:initialvalue: ''
+          eforms:label: How did you hear about us?
+          eforms:mandatory: true
+          eforms:values: [website, facebook, twitter, other]
+        /field5:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: 3e8e6be3-7f27-4846-a137-d7513bc25874
+          eforms:cols: 70
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9b9e4c4dbc65a8a6
+          eforms:fieldname: message
+          eforms:hint: Your message to us
+          eforms:label: Message
+          eforms:mandatory: false
+          eforms:rows: 15
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /contact-form[3]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'mix:referenceable']
+      jcr:uuid: 2af4f929-71e5-40e9-ac89-2c7af05c2254
+      eforms:action: mail
+      eforms:actionurl: http://www.example.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Send Your Message!
+      eforms:formname: Contact Form
+      eforms:mailformdata: 'true'
+      eforms:notificationemail: sales@example.com
+      eforms:storeformdata: 'true'
+      eforms:submissioncountlimit: '100'
+      eforms:usestoredataforcounter: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-03T17:46:50.817-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:54:15.346+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 819f75b1-936b-42d4-a930-4d351fc27711
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 2bb38345-9025-43c4-a745-17ee1a437893
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /fieldgroup0:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldnameprefix: name-and-email
+          eforms:groupname: Name and Email
+          eforms:label: group_label
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: de89f564-4e6f-471c-af83-b729cc49476e
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9fecb27799b4ab52
+            eforms:fieldname: name
+            eforms:hint: Your name
+            eforms:label: Name
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 10
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: aa5a9922-9971-4aa1-bf6f-98f67b296994
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9472268437944c5c
+            eforms:fieldname: email
+            eforms:hint: Your e-mail address
+            eforms:label: Email
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 40
+            eforms:validationruleid: email
+            eforms:validationrulelabel: E-mail Address
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+          /field3:
+            jcr:primaryType: eforms:datefield
+            jcr:uuid: 8b75e419-d003-4f08-b037-762f9bdb0161
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:dateformat: MM/dd/yyyy
+            eforms:fieldid: idbd74b96c07ccae54
+            eforms:fieldname: dob
+            eforms:hint: Your date of birth
+            eforms:label: Date of Birth
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field2:
+            jcr:primaryType: eforms:radiogroup
+            jcr:uuid: 81eca703-113d-40b1-9dbb-f614fad2cf03
+            eforms:allowother: false
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:displayvalues: [Choice 1]
+            eforms:fieldid: id96b41b906a8e6721
+            eforms:fieldname: gender
+            eforms:hint: Your gender
+            eforms:label: ''
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+            eforms:values: [Male, Female]
+        /fieldgroup1:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldnameprefix: alternative-contact-information
+          eforms:groupname: Alternative Contact Information
+          eforms:label: group_label
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: f9b21b59-1ecb-484b-8916-6ea31efad59e
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id9fecb27799b4ab52
+            eforms:fieldname: name
+            eforms:hint: Your name
+            eforms:label: Name
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 10
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 95912bda-245e-42dd-82ae-39741942647e
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:expandhint: false
+            eforms:fieldid: id9472268437944c5c
+            eforms:fieldname: email
+            eforms:hint: Your e-mail address
+            eforms:label: Email
+            eforms:length: 40
+            eforms:mandatory: true
+            eforms:maxlength: 40
+            eforms:validationruleid: email
+            eforms:validationrulelabel: E-mail Address
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field4:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 77798dce-c5b3-488e-ac73-3281765efac5
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Website, Facebook, Twitter, Other]
+          eforms:fieldid: ida09fd9e6fff5aa72
+          eforms:fieldname: how-did-you-hear-about-us
+          eforms:hint: How did you hear about us?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: text
+          eforms:initialvalue: ''
+          eforms:label: How did you hear about us?
+          eforms:mandatory: true
+          eforms:values: [website, facebook, twitter, other]
+        /field5:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: e19ced64-7ba6-40d0-9824-994a7058cd7f
+          eforms:cols: 70
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9b9e4c4dbc65a8a6
+          eforms:fieldname: message
+          eforms:hint: Your message to us
+          eforms:label: Message
+          eforms:mandatory: false
+          eforms:rows: 15
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+  /registration-form:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: fc165172-44de-4b26-bad3-ea2a97d6e18f
+    hippo:name: Registration Form
+    /registration-form[1]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: e8ded4f2-c50a-4d73-8e2c-28d1d2ecb206
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:formname: Registration Form
+      eforms:notificationemail: test@example.com
+      eforms:validationhelper: true
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-17T11:10:35.258-07:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:43:47.330+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2015-01-27T10:43:49.253+01:00
+      hippotranslation:id: 0ca18ef6-2827-4d14-93eb-457b70fd6c70
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 3d55ece2-a789-4fe5-8718-a90252c673ad
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:fieldname: ' '
+        eforms:label: Page 1
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 60d9ac14-e574-46c8-aca9-799e6d286487
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9d04c4556f41d07b
+          eforms:fieldname: field_name
+          eforms:hint: field_hint
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /fieldgroup0:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldname: ' '
+          eforms:fieldnameprefix: address
+          eforms:groupname: Address
+          eforms:hint: ''
+          eforms:label: Address
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: bbeaa340-58f1-4d78-8f7d-ec2bbb2fe095
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: idae3a6dcaef7ccc94
+            eforms:fieldname: number
+            eforms:hint: field_hint
+            eforms:label: Number
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: e1bc257c-31ce-42a1-a4e4-bf970b3250aa
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id88a4589b48b42f6f
+            eforms:fieldname: field_name
+            eforms:hint: field_hint
+            eforms:label: Street
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field2:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 0c8f191f-7175-4e5b-8d7b-704aa1d0f087
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id8131854f04eb3ff5
+            eforms:fieldname: ' '
+            eforms:hint: field_hint
+            eforms:label: Apartment
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: dfe4558b-a2f5-4eb2-a113-ddb6310c0c0f
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idbe0211e47ed55276
+          eforms:fieldname: city
+          eforms:hint: field_hint
+          eforms:label: City
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field0:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: 4ee1d3bb-38b4-40fe-bb54-7b78e516d6ea
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: idb6d2f492bb11641d
+          eforms:fieldname: attending-lunch
+          eforms:hint: field_hint
+          eforms:label: Attending Lunch
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: ['Yes', 'No']
+        /field3:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 0a481578-3c5a-42cd-a68e-b176103bf80b
+          eforms:conditional: false
+          eforms:conditionfield: attending-lunch
+          eforms:conditionnegate: false
+          eforms:conditionvalue: 'Yes'
+          eforms:fieldid: ida1e32cb18f00f2b6
+          eforms:fieldname: diet
+          eforms:hint: field_hint
+          eforms:label: Dietary Wishes
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /registration-form[2]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 2bb6a1cd-88ec-4c40-aaa8-fe20014ceea7
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:formname: Registration Form
+      eforms:notificationemail: test@example.com
+      eforms:validationhelper: true
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-17T11:10:35.258-07:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:43:42.480+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0ca18ef6-2827-4d14-93eb-457b70fd6c70
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 5014b621-f1be-43df-8aa4-b6f9afd4b619
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:fieldname: ' '
+        eforms:label: Page 1
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: f5590288-9b19-47e4-b398-8ea9971181de
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9d04c4556f41d07b
+          eforms:fieldname: field_name
+          eforms:hint: field_hint
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /fieldgroup0:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldname: ' '
+          eforms:fieldnameprefix: address
+          eforms:groupname: Address
+          eforms:hint: ''
+          eforms:label: Address
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 30634819-1f11-446e-9944-52aca66769bb
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: idae3a6dcaef7ccc94
+            eforms:fieldname: number
+            eforms:hint: field_hint
+            eforms:label: Number
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 030b640d-7592-42e0-9cc9-ce71eb65ed8f
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id88a4589b48b42f6f
+            eforms:fieldname: field_name
+            eforms:hint: field_hint
+            eforms:label: Street
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field2:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: e5e043e0-eb90-4ba4-9a55-6eddb0e09d25
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id8131854f04eb3ff5
+            eforms:fieldname: ' '
+            eforms:hint: field_hint
+            eforms:label: Apartment
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 6eebd2ef-d7b9-4a1d-ab01-3095bebb3819
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idbe0211e47ed55276
+          eforms:fieldname: city
+          eforms:hint: field_hint
+          eforms:label: City
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field0:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: a7bb785f-6396-47b6-9314-d5fc0d0bcadf
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: idb6d2f492bb11641d
+          eforms:fieldname: attending-lunch
+          eforms:hint: field_hint
+          eforms:label: Attending Lunch
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: ['Yes', 'No']
+        /field3:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: cdb95102-7a8d-4798-baca-8f90954fcf8f
+          eforms:conditional: false
+          eforms:conditionfield: attending-lunch
+          eforms:conditionnegate: false
+          eforms:conditionvalue: 'Yes'
+          eforms:fieldid: ida1e32cb18f00f2b6
+          eforms:fieldname: diet
+          eforms:hint: field_hint
+          eforms:label: Dietary Wishes
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /registration-form[3]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'mix:referenceable']
+      jcr:uuid: 10ed8bad-f0ed-46b0-8f92-4c1a561b7b83
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:formname: Registration Form
+      eforms:notificationemail: test@example.com
+      eforms:validationhelper: true
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-17T11:10:35.258-07:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:43:47.330+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0ca18ef6-2827-4d14-93eb-457b70fd6c70
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 86abfb71-11be-4787-81d4-46189d3cf323
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:fieldname: ' '
+        eforms:label: Page 1
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: bbe86ef2-212d-47a1-b051-2d90d59e8544
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9d04c4556f41d07b
+          eforms:fieldname: field_name
+          eforms:hint: field_hint
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /fieldgroup0:
+          jcr:primaryType: eforms:embeddedfieldgroup
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldname: ' '
+          eforms:fieldnameprefix: address
+          eforms:groupname: Address
+          eforms:hint: ''
+          eforms:label: Address
+          eforms:mandatory: false
+          eforms:oneline: true
+          eforms:validationhelper: true
+          /field0:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 15b14d10-d47f-42aa-b968-43d70d9ad4b8
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: idae3a6dcaef7ccc94
+            eforms:fieldname: number
+            eforms:hint: field_hint
+            eforms:label: Number
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field1:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: 693143c2-d3ef-4747-955a-85c9f6714444
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id88a4589b48b42f6f
+            eforms:fieldname: field_name
+            eforms:hint: field_hint
+            eforms:label: Street
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+          /field2:
+            jcr:primaryType: eforms:textfield
+            jcr:uuid: eddafc3b-5cd3-4442-8ef4-19752b6b2e89
+            eforms:conditional: false
+            eforms:conditionnegate: false
+            eforms:fieldid: id8131854f04eb3ff5
+            eforms:fieldname: ' '
+            eforms:hint: field_hint
+            eforms:label: Apartment
+            eforms:length: 40
+            eforms:mandatory: false
+            eforms:validcasesensitive: 'false'
+            eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 9c653ed6-ee24-4933-98f7-a58b0393d2cd
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idbe0211e47ed55276
+          eforms:fieldname: city
+          eforms:hint: field_hint
+          eforms:label: City
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field0:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: 17c52629-294d-4855-a167-ca4e76b94306
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: idb6d2f492bb11641d
+          eforms:fieldname: attending-lunch
+          eforms:hint: field_hint
+          eforms:label: Attending Lunch
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: ['Yes', 'No']
+        /field3:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 5e5a4833-b6a5-4b35-9be9-17a275931e3b
+          eforms:conditional: false
+          eforms:conditionfield: attending-lunch
+          eforms:conditionnegate: false
+          eforms:conditionvalue: 'Yes'
+          eforms:fieldid: ida1e32cb18f00f2b6
+          eforms:fieldname: diet
+          eforms:hint: field_hint
+          eforms:label: Dietary Wishes
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+  /multi-page-form:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: abafe33c-b4cc-47b9-9f16-25a08b8ad497
+    hippo:name: Multi Page Form
+    /multi-page-form[1]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 77560c74-384e-40d1-9d28-36c2d71feffe
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Contact me!
+      eforms:formname: Multi Page Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-18T15:45:01.158-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:43:55.527+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2015-01-27T10:43:57.448+01:00
+      hippotranslation:id: 5e2bda34-0dad-432c-a4a6-9522bf3ba185
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: fd1d73dc-9ab8-4514-b583-b9ee5cd96e73
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:fieldname: bundle-type
+        eforms:label: Bundle Type
+        /field0:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 5c4a45af-dbc7-4746-a536-f08e37b08486
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [TV + Phone, TV + Internet, TV + Phone + Internet]
+          eforms:fieldid: id81fdf65507baf2c7
+          eforms:fieldname: bundle-type
+          eforms:hint: Choose a bundle type
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: text
+          eforms:initialvalue: ''
+          eforms:label: Bundle Type
+          eforms:mandatory: true
+          eforms:values: [tv_phone, tv_internet, tv_phone_internet]
+      /page1:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 42738537-57fb-47c8-966a-95fe925cb9e7
+        eforms:conditional: true
+        eforms:conditionfield: bundle-type
+        eforms:conditionnegate: false
+        eforms:conditionvalue: tv_phone_internet
+        eforms:fieldname: ' '
+        eforms:label: 3-in-1 Rebate Option
+        /field0:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: 991f3b9d-9df7-4aea-8734-fca8a79d953e
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: id8b82d98874c519fa
+          eforms:fieldname: rebate-option
+          eforms:hint: Choose 3-in-1 Bundle Rebate Option
+          eforms:label: Rebate Option
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [Mail-in Rebate, Rebate in Balance]
+      /page2:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 27d49bbb-90ed-4df4-b05f-b471a3a65408
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Contact Information
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: e2ccb110-31e5-44e2-b630-c32ab5c2b2ee
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida1350f3a6ee5d467
+          eforms:fieldname: name
+          eforms:hint: Enter your name
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: true
+          eforms:maxlength: 100
+          eforms:minlength: 1
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 8c4bfac4-27a2-44c5-856d-33906968dc41
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9629897e0e49a73b
+          eforms:fieldname: phone
+          eforms:hint: Enter your phone number
+          eforms:label: phone
+          eforms:length: 40
+          eforms:mandatory: true
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /multi-page-form[2]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 350c5cea-a60a-46fa-829b-b96d027eec5a
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Contact me!
+      eforms:formname: Multi Page Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-18T15:45:01.158-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:43:50.752+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5e2bda34-0dad-432c-a4a6-9522bf3ba185
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 1c2c9c90-b4a0-47f7-8627-51c17e364f4f
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:fieldname: bundle-type
+        eforms:label: Bundle Type
+        /field0:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 0f259251-5a49-4889-a9fd-1afd614014fd
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [TV + Phone, TV + Internet, TV + Phone + Internet]
+          eforms:fieldid: id81fdf65507baf2c7
+          eforms:fieldname: bundle-type
+          eforms:hint: Choose a bundle type
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: text
+          eforms:initialvalue: ''
+          eforms:label: Bundle Type
+          eforms:mandatory: true
+          eforms:values: [tv_phone, tv_internet, tv_phone_internet]
+      /page1:
+        jcr:primaryType: eforms:page
+        jcr:uuid: be8036c1-54a8-44b6-9bb3-50671b2c3a34
+        eforms:conditional: true
+        eforms:conditionfield: bundle-type
+        eforms:conditionnegate: false
+        eforms:conditionvalue: tv_phone_internet
+        eforms:fieldname: ' '
+        eforms:label: 3-in-1 Rebate Option
+        /field0:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: 4d139f39-1cde-4658-bacb-350f5849d220
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: id8b82d98874c519fa
+          eforms:fieldname: rebate-option
+          eforms:hint: Choose 3-in-1 Bundle Rebate Option
+          eforms:label: Rebate Option
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [Mail-in Rebate, Rebate in Balance]
+      /page2:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 818f6f5d-6e16-4616-be9b-9b211fb7adc0
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Contact Information
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: e2f6d8ff-9b8a-44d2-9de0-6d72aedfaf4d
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida1350f3a6ee5d467
+          eforms:fieldname: name
+          eforms:hint: Enter your name
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: true
+          eforms:maxlength: 100
+          eforms:minlength: 1
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 08d77e88-d332-4250-898f-a46ab73ee08a
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9629897e0e49a73b
+          eforms:fieldname: phone
+          eforms:hint: Enter your phone number
+          eforms:label: phone
+          eforms:length: 40
+          eforms:mandatory: true
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+    /multi-page-form[3]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'mix:referenceable']
+      jcr:uuid: d22e6586-9062-471d-9725-a9a8f6c3a1f6
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Contact me!
+      eforms:formname: Multi Page Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-04-18T15:45:01.158-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:43:55.527+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5e2bda34-0dad-432c-a4a6-9522bf3ba185
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 4b66b5ff-3831-442d-9c23-098551b4ece4
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:fieldname: bundle-type
+        eforms:label: Bundle Type
+        /field0:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 1859ab96-f754-47df-9301-835121469575
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [TV + Phone, TV + Internet, TV + Phone + Internet]
+          eforms:fieldid: id81fdf65507baf2c7
+          eforms:fieldname: bundle-type
+          eforms:hint: Choose a bundle type
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: text
+          eforms:initialvalue: ''
+          eforms:label: Bundle Type
+          eforms:mandatory: true
+          eforms:values: [tv_phone, tv_internet, tv_phone_internet]
+      /page1:
+        jcr:primaryType: eforms:page
+        jcr:uuid: af3783e7-03a9-48c8-90ce-04b2ec93937b
+        eforms:conditional: true
+        eforms:conditionfield: bundle-type
+        eforms:conditionnegate: false
+        eforms:conditionvalue: tv_phone_internet
+        eforms:fieldname: ' '
+        eforms:label: 3-in-1 Rebate Option
+        /field0:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: aa44de5c-9815-4f6e-8235-189edc5f1a83
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: id8b82d98874c519fa
+          eforms:fieldname: rebate-option
+          eforms:hint: Choose 3-in-1 Bundle Rebate Option
+          eforms:label: Rebate Option
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [Mail-in Rebate, Rebate in Balance]
+      /page2:
+        jcr:primaryType: eforms:page
+        jcr:uuid: d8ef628f-7c7e-4118-aa13-caa3eebfec12
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Contact Information
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 6400586e-62eb-4098-a0a3-b26c3956ab12
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida1350f3a6ee5d467
+          eforms:fieldname: name
+          eforms:hint: Enter your name
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: true
+          eforms:maxlength: 100
+          eforms:minlength: 1
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 68f24aa4-945d-4dbc-88fb-a3b68b5cd234
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9629897e0e49a73b
+          eforms:fieldname: phone
+          eforms:hint: Enter your phone number
+          eforms:label: phone
+          eforms:length: 40
+          eforms:mandatory: true
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+  /pluggedin-form:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f2de6c99-3378-4240-bb0f-7dec634117ef
+    hippo:name: Pluggedin Form
+    /pluggedin-form[1]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: c457666e-327e-461c-8242-1ab4ddb8784d
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Sign up!
+      eforms:confirmationemailfields: e-mail
+      eforms:confirmationincludefields: 'true'
+      eforms:confirmationsenderaddress: sales@example.com
+      eforms:confirmationsubject: Confirmation on your interest
+      eforms:confirmationtext: |-
+        Thank you very much for your interest on this event!
+        We will make sure that your request should be processed as soon as possible.
+      eforms:formintro: Enterprise Form Bar Camp is an annual event you can join in
+        for free!
+      eforms:formname: Example Plugged-in Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:submissioncountlimit: '10'
+      eforms:submissioncountlimittext: Sorry, join request count exceeds the maximum.
+      eforms:usestoredataforcounter: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-06-18T15:38:12.573-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:44:08.047+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2015-01-27T10:44:09.957+01:00
+      hippotranslation:id: 18b2449d-228a-4701-9184-75a48155f627
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: e2f6d534-7b3a-439a-8fc3-c6a55fef3eda
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field2:
+          jcr:primaryType: eforms:simpletext
+          jcr:uuid: 4a85fb1f-7efd-409c-a3b0-66c4f5d2264d
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id81995b927fb88a73
+          eforms:fieldname: label1
+          eforms:hint: |-
+            Would you sign up for the coming Enterprise Forms Bar Camp?
+            Please enter your name and e-mail to sign up!
+          eforms:label: ''
+          eforms:mandatory: false
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 98596944-2f67-4134-9485-f54774a10f45
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida27913c8f2c1f2e3
+          eforms:fieldname: name
+          eforms:hint: Enter your name
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: cb54a1a9-c80d-4dff-842c-9b0b0aed1297
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idbc386d5de521668a
+          eforms:fieldname: e-mail
+          eforms:hint: Enter your e-mail
+          eforms:label: E-mail
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validationruleclass: ''
+          eforms:validationruleid: email
+          eforms:validationrulelabel: E-mail Address
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field3:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: c8c03832-2328-4f69-a6a6-c2eeffeb7c42
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [<= 50, <= 100, <= 500, <= 1000, '> 1000']
+          eforms:fieldid: id8dcf27f71f48927c
+          eforms:fieldname: empcount
+          eforms:hint: How many employees are there in your organization?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: value
+          eforms:initialvalue: Choice 1
+          eforms:label: How many employees in your organization?
+          eforms:mandatory: false
+          eforms:values: ['50', '100', '500', '1000', '10000']
+    /pluggedin-form[2]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 1a6aaf86-fe3e-4752-b6ec-82bd0f0103ea
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Sign up!
+      eforms:confirmationemailfields: e-mail
+      eforms:confirmationincludefields: 'true'
+      eforms:confirmationsenderaddress: sales@example.com
+      eforms:confirmationsubject: Confirmation on your interest
+      eforms:confirmationtext: |-
+        Thank you very much for your interest on this event!
+        We will make sure that your request should be processed as soon as possible.
+      eforms:formintro: Enterprise Form Bar Camp is an annual event you can join in
+        for free!
+      eforms:formname: Example Plugged-in Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:submissioncountlimit: '10'
+      eforms:submissioncountlimittext: Sorry, join request count exceeds the maximum.
+      eforms:usestoredataforcounter: 'true'
+      eforms:validationhelper: true
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-06-18T15:38:12.573-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:43:58.925+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 18b2449d-228a-4701-9184-75a48155f627
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 84f0a439-da3e-4222-9c4f-69d086a944b0
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field2:
+          jcr:primaryType: eforms:simpletext
+          jcr:uuid: 5ad657dd-518a-4b43-8e0d-665dc13b351e
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id81995b927fb88a73
+          eforms:fieldname: label1
+          eforms:hint: |-
+            Would you sign up for the coming Enterprise Forms Bar Camp?
+            Please enter your name and e-mail to sign up!
+          eforms:label: ''
+          eforms:mandatory: false
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 82d903f8-085b-45c2-8b56-39aff206b566
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida27913c8f2c1f2e3
+          eforms:fieldname: name
+          eforms:hint: Enter your name
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 8950d6b2-d3d9-47e8-a282-e7a90fdc8835
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idbc386d5de521668a
+          eforms:fieldname: e-mail
+          eforms:hint: Enter your e-mail
+          eforms:label: E-mail
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validationruleclass: ''
+          eforms:validationruleid: email
+          eforms:validationrulelabel: E-mail Address
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field3:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 161f4740-deec-48e1-83cd-52573eb1b4c6
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [<= 50, <= 100, <= 500, <= 1000, '> 1000']
+          eforms:fieldid: id8dcf27f71f48927c
+          eforms:fieldname: empcount
+          eforms:hint: How many employees are there in your organization?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: value
+          eforms:initialvalue: Choice 1
+          eforms:label: How many employees in your organization?
+          eforms:mandatory: false
+          eforms:values: ['50', '100', '500', '1000', '10000']
+    /pluggedin-form[3]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'mix:referenceable']
+      jcr:uuid: 72575a2a-3559-4bb4-bacd-aaf61ecde245
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:buttonlabel: Sign up!
+      eforms:confirmationemailfields: e-mail
+      eforms:confirmationincludefields: 'true'
+      eforms:confirmationsenderaddress: sales@example.com
+      eforms:confirmationsubject: Confirmation on your interest
+      eforms:confirmationtext: |-
+        Thank you very much for your interest on this event!
+        We will make sure that your request should be processed as soon as possible.
+      eforms:formintro: Enterprise Form Bar Camp is an annual event you can join in
+        for free!
+      eforms:formname: Example Plugged-in Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:submissioncountlimit: '10'
+      eforms:submissioncountlimittext: Sorry, join request count exceeds the maximum.
+      eforms:usestoredataforcounter: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-06-18T15:38:12.573-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:44:08.047+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 18b2449d-228a-4701-9184-75a48155f627
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 030bfa8c-865a-4bb3-a49d-66cf7eb70ac5
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field2:
+          jcr:primaryType: eforms:simpletext
+          jcr:uuid: ec4fd6e6-4a36-4ab4-b534-e1ed8e4388e8
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id81995b927fb88a73
+          eforms:fieldname: label1
+          eforms:hint: |-
+            Would you sign up for the coming Enterprise Forms Bar Camp?
+            Please enter your name and e-mail to sign up!
+          eforms:label: ''
+          eforms:mandatory: false
+        /field0:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: c03cb742-ba3f-4aab-86f4-9867f2d29e85
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: ida27913c8f2c1f2e3
+          eforms:fieldname: name
+          eforms:hint: Enter your name
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field1:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: 6a7056d0-c989-41d8-ac7c-99e32736f257
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idbc386d5de521668a
+          eforms:fieldname: e-mail
+          eforms:hint: Enter your e-mail
+          eforms:label: E-mail
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validationruleclass: ''
+          eforms:validationruleid: email
+          eforms:validationrulelabel: E-mail Address
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field3:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 5f57d517-0e86-4cb7-afae-78f1940d3ce7
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [<= 50, <= 100, <= 500, <= 1000, '> 1000']
+          eforms:fieldid: id8dcf27f71f48927c
+          eforms:fieldname: empcount
+          eforms:hint: How many employees are there in your organization?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: value
+          eforms:initialvalue: Choice 1
+          eforms:label: How many employees in your organization?
+          eforms:mandatory: false
+          eforms:values: ['50', '100', '500', '1000', '10000']
+  /all-fields-form:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4eb718f3-782d-4a11-9b92-2b8eaeb50726
+    hippo:name: All Fields Form
+    /all-fields-form[1]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 613464d7-422a-4d68-803b-b1247792c279
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:confirmationemailfields: e-mail
+      eforms:confirmationincludefields: 'true'
+      eforms:confirmationsenderaddress: sales@example.com
+      eforms:confirmationsubject: Thanks for participating in our survey!
+      eforms:confirmationtext: Thanks for participating in our survey!
+      eforms:formname: All Fields Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-06-21T15:14:29.490-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:44:16.430+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2015-01-27T10:44:17.996+01:00
+      hippotranslation:id: 88cbcb0f-57a1-4540-ae62-2adc73e6f372
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 9d59cc8f-a3e1-40cf-a027-061fe4a29568
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field8:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: eac937e5-731b-4ce0-b143-99c4594027a8
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9decaa080869e6d4
+          eforms:fieldname: name
+          eforms:hint: What's your name?
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field3:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: e18730b3-66ca-400b-94e7-459443b152e2
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9a9c75b2bb627e00
+          eforms:fieldname: e-mail
+          eforms:hint: Enter your e-mail address.
+          eforms:label: E-Mail
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validationruleclass: ''
+          eforms:validationruleid: email
+          eforms:validationrulelabel: E-mail Address
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field0:
+          jcr:primaryType: eforms:checkboxes
+          jcr:uuid: 421174ef-f42a-42ba-9390-cffa323e0eef
+          eforms:allowother: true
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: id85ab37043d964dbd
+          eforms:fieldname: favoritesports
+          eforms:hint: Favorite Sports
+          eforms:label: Favorite Sports
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [football, baseball, hockey, basketball]
+        /field6:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: d395c8fd-083e-4a59-9842-d778719d2f54
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: idada2bb1f32412847
+          eforms:fieldname: gender
+          eforms:hint: What's your gender?
+          eforms:label: Gender
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [Male, Female, Unspecified]
+        /field1:
+          jcr:primaryType: eforms:datefield
+          jcr:uuid: 1dff6e99-b217-4255-9c79-9b6581b72e39
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:dateformat: ''
+          eforms:fieldid: id9636cf8fb3b130b4
+          eforms:fieldname: lucky-day
+          eforms:hint: Choose any day to be lucky
+          eforms:label: Lucky Day
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 87695575-d91b-42ee-8f4e-c3decbd1e101
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [I like it very much., I like it., It is okay., I
+              do not care.]
+          eforms:fieldid: ida6c2c0314f58d5b5
+          eforms:fieldname: howmuchilke
+          eforms:hint: How much do you like this?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: value
+          eforms:initialvalue: Choice 1
+          eforms:label: How much do you like this?
+          eforms:mandatory: false
+          eforms:values: ['3', '2', '1', '0']
+        /field5:
+          jcr:primaryType: eforms:fileupload
+          jcr:uuid: 9226d231-2314-4ee0-b4c5-0cc208526e85
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idad5bf6bf9ea203ef
+          eforms:fieldname: photo
+          eforms:fileextensions: File extensions (comma separated)
+          eforms:hint: Attach your photo.
+          eforms:label: Attach your photo
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:maxuploadsize: 1
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field9:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: 0460d832-8c8e-46d5-b8d2-9640e7bcf3e7
+          eforms:cols: 40
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id8f92273acdad24ce
+          eforms:fieldname: comment
+          eforms:hint: Please add any comment to share your ideas with us.
+          eforms:label: Comment
+          eforms:mandatory: false
+          eforms:rows: 10
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field4:
+          jcr:primaryType: eforms:likert
+          jcr:uuid: 10a9f8f7-b7aa-4c27-bcef-8b4a9e5cbc2c
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idb9aba6ff8f6e4152
+          eforms:fieldname: how-do-you-evaluate-this
+          eforms:hint: How do you evaluate this?
+          eforms:label: How do you evaluate this?
+          eforms:mandatory: false
+          eforms:options: [Very bad, Bad, Okay, Very good, Excellent]
+          eforms:queries: [Product Quality, Service Quality]
+    /all-fields-form[2]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 291b0a10-c1c3-417f-a0f7-ec04fd2c13fa
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:confirmationemailfields: e-mail
+      eforms:confirmationincludefields: 'true'
+      eforms:confirmationsenderaddress: sales@example.com
+      eforms:confirmationsubject: Thanks for participating in our survey!
+      eforms:confirmationtext: Thanks for participating in our survey!
+      eforms:formname: All Fields Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-06-21T15:14:29.490-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:44:11.690+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 88cbcb0f-57a1-4540-ae62-2adc73e6f372
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: a10e6ceb-63e0-4bfe-a042-2e472bddec66
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field8:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: aa50e41e-c564-4a74-8eff-4f67f9c789bd
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9decaa080869e6d4
+          eforms:fieldname: name
+          eforms:hint: What's your name?
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field3:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: df66a81c-07d6-4afc-a512-be33bb7a27b8
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9a9c75b2bb627e00
+          eforms:fieldname: e-mail
+          eforms:hint: Enter your e-mail address.
+          eforms:label: E-Mail
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validationruleclass: ''
+          eforms:validationruleid: email
+          eforms:validationrulelabel: E-mail Address
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field0:
+          jcr:primaryType: eforms:checkboxes
+          jcr:uuid: e1a033f2-2738-48ef-b9b3-bb02a7c9deae
+          eforms:allowother: true
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: id85ab37043d964dbd
+          eforms:fieldname: favoritesports
+          eforms:hint: Favorite Sports
+          eforms:label: Favorite Sports
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [football, baseball, hockey, basketball]
+        /field6:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: 06dedcb3-972f-4b43-a692-535af1bcbcda
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: idada2bb1f32412847
+          eforms:fieldname: gender
+          eforms:hint: What's your gender?
+          eforms:label: Gender
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [Male, Female, Unspecified]
+        /field1:
+          jcr:primaryType: eforms:datefield
+          jcr:uuid: 1a75eb8b-a5f6-4116-a82e-56d0808e5923
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:dateformat: ''
+          eforms:fieldid: id9636cf8fb3b130b4
+          eforms:fieldname: lucky-day
+          eforms:hint: Choose any day to be lucky
+          eforms:label: Lucky Day
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 167bac83-f282-46d5-a600-d6a04b505b34
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [I like it very much., I like it., It is okay., I
+              do not care.]
+          eforms:fieldid: ida6c2c0314f58d5b5
+          eforms:fieldname: howmuchilke
+          eforms:hint: How much do you like this?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: value
+          eforms:initialvalue: Choice 1
+          eforms:label: How much do you like this?
+          eforms:mandatory: false
+          eforms:values: ['3', '2', '1', '0']
+        /field5:
+          jcr:primaryType: eforms:fileupload
+          jcr:uuid: e5641c7d-e465-488c-bc56-ec9d20e1d200
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idad5bf6bf9ea203ef
+          eforms:fieldname: photo
+          eforms:fileextensions: File extensions (comma separated)
+          eforms:hint: Attach your photo.
+          eforms:label: Attach your photo
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:maxuploadsize: 1
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field9:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: 59605b2c-686c-4c95-9439-0e70796b80e8
+          eforms:cols: 40
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id8f92273acdad24ce
+          eforms:fieldname: comment
+          eforms:hint: Please add any comment to share your ideas with us.
+          eforms:label: Comment
+          eforms:mandatory: false
+          eforms:rows: 10
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field4:
+          jcr:primaryType: eforms:likert
+          jcr:uuid: 415bd57c-366d-481f-b044-d2fc0e802fa4
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idb9aba6ff8f6e4152
+          eforms:fieldname: how-do-you-evaluate-this
+          eforms:hint: How do you evaluate this?
+          eforms:label: How do you evaluate this?
+          eforms:mandatory: false
+          eforms:options: [Very bad, Bad, Okay, Very good, Excellent]
+          eforms:queries: [Product Quality, Service Quality]
+    /all-fields-form[3]:
+      jcr:primaryType: eforms:form
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'mix:referenceable']
+      jcr:uuid: 9ceb8d31-0b07-40c5-91ed-ddbd5cdf34f1
+      eforms:action: mail
+      eforms:actionurl: http://test.com/action.do
+      eforms:afterprocesssuccessmode: url
+      eforms:afterprocesssuccessurl: /forms/confirmation
+      eforms:confirmationemailfields: e-mail
+      eforms:confirmationincludefields: 'true'
+      eforms:confirmationsenderaddress: sales@example.com
+      eforms:confirmationsubject: Thanks for participating in our survey!
+      eforms:confirmationtext: Thanks for participating in our survey!
+      eforms:formname: All Fields Form
+      eforms:notificationemail: test@example.com
+      eforms:storeformdata: 'true'
+      eforms:validationhelper: true
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-06-21T15:14:29.490-04:00
+      hippostdpubwf:lastModificationDate: 2015-01-27T10:44:16.430+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 88cbcb0f-57a1-4540-ae62-2adc73e6f372
+      hippotranslation:locale: en
+      /page0:
+        jcr:primaryType: eforms:page
+        jcr:uuid: 1c5fcffe-bd64-445d-931c-e1810022560f
+        eforms:conditional: false
+        eforms:conditionnegate: false
+        eforms:label: Page 1
+        /field8:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: c22bfb83-4643-4b4f-a4e9-e8f216b29964
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9decaa080869e6d4
+          eforms:fieldname: name
+          eforms:hint: What's your name?
+          eforms:label: Name
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field3:
+          jcr:primaryType: eforms:textfield
+          jcr:uuid: fec7fef9-2583-4c86-91e6-7954c4af098e
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id9a9c75b2bb627e00
+          eforms:fieldname: e-mail
+          eforms:hint: Enter your e-mail address.
+          eforms:label: E-Mail
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validationruleclass: ''
+          eforms:validationruleid: email
+          eforms:validationrulelabel: E-mail Address
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: \b[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b
+        /field0:
+          jcr:primaryType: eforms:checkboxes
+          jcr:uuid: eff53e04-39e5-403e-bb13-41966d9ae80e
+          eforms:allowother: true
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: id85ab37043d964dbd
+          eforms:fieldname: favoritesports
+          eforms:hint: Favorite Sports
+          eforms:label: Favorite Sports
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [football, baseball, hockey, basketball]
+        /field6:
+          jcr:primaryType: eforms:radiogroup
+          jcr:uuid: b650b6f0-98ae-4995-8fe4-61c1c4918af2
+          eforms:allowother: false
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [Choice 1]
+          eforms:fieldid: idada2bb1f32412847
+          eforms:fieldname: gender
+          eforms:hint: What's your gender?
+          eforms:label: Gender
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+          eforms:values: [Male, Female, Unspecified]
+        /field1:
+          jcr:primaryType: eforms:datefield
+          jcr:uuid: d95d03f2-b8c7-4555-adeb-1fe832e2516c
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:dateformat: ''
+          eforms:fieldid: id9636cf8fb3b130b4
+          eforms:fieldname: lucky-day
+          eforms:hint: Choose any day to be lucky
+          eforms:label: Lucky Day
+          eforms:mandatory: false
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field2:
+          jcr:primaryType: eforms:dropdown
+          jcr:uuid: 35a136d7-edb7-4c66-a807-eb205a05a61e
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:displayvalues: [I like it very much., I like it., It is okay., I
+              do not care.]
+          eforms:fieldid: ida6c2c0314f58d5b5
+          eforms:fieldname: howmuchilke
+          eforms:hint: How much do you like this?
+          eforms:initialdisplaystring: ''
+          eforms:initialoption: value
+          eforms:initialvalue: Choice 1
+          eforms:label: How much do you like this?
+          eforms:mandatory: false
+          eforms:values: ['3', '2', '1', '0']
+        /field5:
+          jcr:primaryType: eforms:fileupload
+          jcr:uuid: c43875d1-a99d-43a1-8300-bf301fb2aaf4
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idad5bf6bf9ea203ef
+          eforms:fieldname: photo
+          eforms:fileextensions: File extensions (comma separated)
+          eforms:hint: Attach your photo.
+          eforms:label: Attach your photo
+          eforms:length: 40
+          eforms:mandatory: false
+          eforms:maxuploadsize: 1
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field9:
+          jcr:primaryType: eforms:textarea
+          jcr:uuid: fb252c15-80fa-4af7-9fa0-aada50315b9a
+          eforms:cols: 40
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: id8f92273acdad24ce
+          eforms:fieldname: comment
+          eforms:hint: Please add any comment to share your ideas with us.
+          eforms:label: Comment
+          eforms:mandatory: false
+          eforms:rows: 10
+          eforms:validcasesensitive: 'false'
+          eforms:validexpression: ''
+        /field4:
+          jcr:primaryType: eforms:likert
+          jcr:uuid: 82da83b2-07a4-4425-a7a7-145b866752ec
+          eforms:conditional: false
+          eforms:conditionnegate: false
+          eforms:fieldid: idb9aba6ff8f6e4152
+          eforms:fieldname: how-do-you-evaluate-this
+          eforms:hint: How do you evaluate this?
+          eforms:label: How do you evaluate this?
+          eforms:mandatory: false
+          eforms:options: [Very bad, Bad, Okay, Very good, Excellent]
+          eforms:queries: [Product Quality, Service Quality]

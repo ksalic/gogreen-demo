@@ -1,0 +1,92 @@
+/content/documents/hippomiseauvert/about:
+  .meta:order-before: blogs
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: ae652116-94bb-4ed2-8c55-430e9582ecae
+  hippo:name: À propos
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4c798917-eea5-4a36-904f-399c36e9e1ea
+  hippotranslation:locale: fr
+  /a-propos:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: ff3c6975-449b-4575-a81a-f28acc36620e
+    hippo:name: À propos
+    /a-propos:
+      jcr:primaryType: hippogogreen:simpledocument
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 87cb28d5-315f-4d00-9d0a-b139201800cf
+      hippo:availability: [live, preview]
+      hippogogreen:contentstage: awareness
+      hippogogreen:summary: Ceci est une démonstration du CMS Hippo.
+      hippogogreen:title: À propos de cette démo
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostd:tags: [Hippo, CMS, Mise au vert]
+      hippostdpubwf:createdBy: vkumar
+      hippostdpubwf:creationDate: 2010-07-23T17:04:00Z
+      hippostdpubwf:lastModificationDate: 2011-01-12T14:59:00Z
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2011-01-12T15:08:00Z
+      hippotranslation:id: 63b829c1-3386-4fd6-9824-8b870db3aeee
+      hippotranslation:locale: fr
+      /hippogogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html> <body>
+
+                      <p>Hippo aide les entreprises et entreprises gouvernementales à gérer et accéder à l'information,
+                      protégerles données sensibles, partager la connaissance, optimiser la collaboration et réduire les coûts
+                      opérationnels grâce à ses technologies de gestion de contenu et de portail. En associant des technologies
+                      open-source avec le support d'une entreprise, Hippo propose aux utilisateurs le meilleur des deux mondes:
+                      flexibilité, innovation, robustesse des logiciels open source avec la stabilité d'un vendeur professionnel.</p>
+
+                      </body> </html>
+  /en-bref:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 0aeb23c3-24ea-4849-b33e-5c768d5dfab7
+    hippo:name: En bref
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 176e5d49-1a32-486a-a4b0-653fe6b5674a
+    hippotranslation:locale: fr
+    /quelques-chiffres:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 2b39bc13-8348-4fc2-b400-c6d5fa07b158
+      hippo:name: Quelques chiffres
+      /quelques-chiffres:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 9d64ada3-0e58-4e20-b92f-c764a5130a82
+        hippo:availability: [live, preview]
+        hippogogreen:contentstage: interest
+        hippogogreen:summary: ''
+        hippogogreen:title: Quelques chiffres à propos d'Hippo
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T17:11:00Z
+        hippostdpubwf:lastModificationDate: 2011-01-12T15:01:00Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2011-01-12T15:08:00Z
+        hippotranslation:id: 4d3c1451-920a-4dcc-82ad-02c640b2b6fc
+        hippotranslation:locale: fr
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <html> <body>
+
+                          <ul> <li>Fondé in 1999</li> <li>Plus de 80 employés</li> <li>Bureaux à
+                          Amsterdam et Boston</li> <li>Cmpanie privée</li> <li>2007, 2008 and 2009
+                          Deloitte FAST 500 EMEA Winner, selon le revenue</li> </ul>
+
+                          </body> </html>
+  /terme-et-conditions:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 4c3d4d97-f965-4d30-b2c4-87394a7eea0e
+    hippo:name: Terme et conditions
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: f83d8be1-5cc7-4f1f-82ba-2ceacd2faed1
+    hippotranslation:locale: fr

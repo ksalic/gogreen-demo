@@ -1,0 +1,18 @@
+/content/documents/hippomiseauvert/searchfacets:
+  jcr:primaryType: hippofacnav:facetnavigation
+  hippo:count: 71
+  hippo:docbase: 6140a8f0-40d6-49bb-8dd1-2d4a8ef14e74
+  hippofacnav:facetnodenames: [Periode, Type de document, 'Catégorie${sortby:''facetvalue'',
+      sortorder:''ascending''}', 'Date${sortby:''facetvalue'', sortorder:''descending''}',
+    'étiquette${sortby:''facetvalue'', sortorder:''ascending''}']
+  hippofacnav:facets: ['hippogogreen:date$[{name:''Ce mois-ci'', resolution:''month'',
+      begin:0, end:1},{name:''Le mois dernier'', resolution:''month'', begin:-1, end:0},{name:''Cette
+      année'', resolution:''year'', begin:0, end:1}]', 'jcr:primaryType', 'hippogogreen:categories',
+    'hippogogreen:date$year', 'hippostd:tags']
+  hippofacnav:filters: ['not(jcr:primaryType=hippogogreen:banner)', 'not(jcr:primaryType=hippogogreen:comment)',
+    'not(jcr:primaryType=hippogogreen:restapi)', 'not(jcr:primaryType=hippogogreen:review)',
+    'not(jcr:primaryType=hippostd:directory)', 'not(jcr:primaryType=hippostd:folder)',
+    'not(jcr:primaryType=poll:polldocument)', 'not(jcr:primaryType=selection:valuelist)',
+    'not(jcr:primaryType=tcmp:tagcloud)', 'not(jcr:primaryType=hippogogreen:faq)']
+  hippofacnav:limit: 200
+  hippofacnav:skipresultsetfacetsavailable: true

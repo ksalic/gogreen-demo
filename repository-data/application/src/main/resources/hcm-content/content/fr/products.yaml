@@ -1,0 +1,224 @@
+/content/documents/hippomiseauvert/products:
+  .meta:order-before: searchfacets
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: 6e450630-fef8-4186-806c-4211b4c25b46
+  hippo:name: Produits
+  hippostd:foldertype: [new-product-folder, new-product]
+  hippotranslation:id: 35fff2a7-22b7-4423-88dd-aa136f95dffe
+  hippotranslation:locale: fr
+  /facetedproducts:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 14
+    hippo:docbase: 6e450630-fef8-4186-806c-4211b4c25b46
+    hippofacnav:facetnodenames: [Prix, Note, Catégorie]
+    hippofacnav:facets: ['hippogogreen:price$[{name:''moins de 25 €'', resolution:''double'',
+        end:25},{name:''25 à 50 €'', resolution:''double'', begin:25, end:50},{name:''50
+        à 100 €'', resolution:''double'', begin:50, end:100},{name:''100 à 250 €'',
+        resolution:''double'', begin:100, end:250},{name:''250 à 500 €'', resolution:''double'',
+        begin:250, end:500},{name:''plus de 500 €'', resolution:''double'', begin:500}]',
+      'hippogogreen:rating$[{name:''1 étoile ou plus'', resolution:''double'', begin:1},{name:''2
+        étoiles ou plus'', resolution:''double'', begin:2},{name:''3 étoiles ou plus'',
+        resolution:''double'', begin:3},{name:''4 étoiles ou plus'', resolution:''double'',
+        begin:4},{name:''5 étoiles'', resolution:''double'', begin:5, end:6}]', 'hippogogreen:categories']
+    hippofacnav:limit: 200
+    hippofacnav:skipresultsetfacetsavailable: true
+  /alimentation:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 1e1aff8c-ef7b-4686-a1e1-0830ab00f9e9
+    hippo:name: Alimentation
+    hippostd:foldertype: [new-product-folder, new-product]
+    hippotranslation:id: 089c6505-1ab5-4ac3-ad81-0bc07ef1427a
+    hippotranslation:locale: fr
+    /2010:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 459cfb89-89aa-42f6-a78d-f485a8e9159f
+      hippostd:foldertype: [new-product-folder, new-product]
+      hippotranslation:id: e869716a-8c24-489f-a28f-9e64c6b2f399
+      hippotranslation:locale: fr
+      /07:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: ee91e9b4-9dce-47ec-98b1-19ee6ef09081
+        hippostd:foldertype: [new-product-folder, new-product]
+        hippotranslation:id: 8c586f28-f8a1-4999-87df-6aa96104fb71
+        hippotranslation:locale: fr
+        /tasses-en-plastique-recycle:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: ad2d6153-53e1-41c7-8d82-5ae07afc79ff
+          hippo:name: Tasses en plastique recyclé
+          /tasses-en-plastique-recycle:
+            jcr:primaryType: hippogogreen:product
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 54eaf368-1f92-491c-968a-097af6e67aed
+            hippo:availability: [live, preview]
+            hippogogreen:categories: [Alimentation, Recyclage]
+            hippogogreen:contentstage: ''
+            hippogogreen:price: 2.25
+            hippogogreen:rating: 3.3
+            hippogogreen:summary: "Ces ustensiles de cuisine recyclables et réutilisables\
+              \ aident à préserver la planète ! Ils sont\n                disponibles\
+              \ dans deux funky couleurs, bleu nuit et vert pomme, pour illuminer\
+              \ vos tables de pique-nique.\n                Ils sont fabriqués à base\
+              \ de plastique recyclé à 100 %.\n              "
+            hippogogreen:title: Tasses en plastique recyclé
+            hippogogreen:votes: 3
+            hippostd:holder: admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2010-07-12T13:01:00Z
+            hippostdpubwf:lastModificationDate: 2011-01-12T14:28:00Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2011-01-12T14:28:00Z
+            hippotranslation:id: f0bf930b-3e21-469a-a39b-4c231fb93f3a
+            hippotranslation:locale: fr
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <html> <body>
+
+                                  <p>Caractéristiques :</p>
+
+                                  <ul> <li>Fabriqué à partir de plastique recyclé à 100 %</li> <li>Solide, pour
+                                  les enfants et les piques-niques</li> <li>Passe au lave-vaisselle</li> <li>Recyclable</li>
+                                  </ul>
+
+                                  </body> </html>
+            /relateddocs:docs:
+              jcr:primaryType: relateddocs:docs
+              /relateddocs:reldoc:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: 8d2939ce-a6f4-4ab8-bc03-baddbc1208cc
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+            /hippogogreen:image[1]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: d5662963-7fb1-4035-8f1a-17bb0c318ecb
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[2]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: eb22dc6f-b847-4571-9882-6b93e181a466
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:copyright:
+              jcr:primaryType: hippogogreen:copyright
+              hippogogreen:description: ''
+              hippogogreen:url: ''
+  /recyclage:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 030b0e66-4efb-4920-ad19-6b5e17597316
+    hippo:name: Recyclage
+    hippostd:foldertype: [new-product-folder, new-product]
+    hippotranslation:id: b0b52823-1f70-485b-ba72-ecb900174665
+    hippotranslation:locale: fr
+    /2010:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 570069a6-68b2-461f-9cdd-05c1c2a18cdf
+      hippostd:foldertype: [new-product-folder, new-product]
+      hippotranslation:id: b3859bec-26fa-4b55-a677-b7cb03d59eca
+      hippotranslation:locale: fr
+      /07:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: ee41ef97-4213-4b0f-b145-987f59ee3481
+        hippostd:foldertype: [new-product-folder, new-product]
+        hippotranslation:id: 31a3c3cb-97a6-45ac-b764-9701fe19a075
+        hippotranslation:locale: fr
+        /enceintes-ipod-ecologiques:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: a397ef36-7ede-4028-95a5-08f3843a3a85
+          hippo:name: Enceintes iPod écologiques
+          /enceintes-ipod-ecologiques:
+            jcr:primaryType: hippogogreen:product
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: 519b07c3-a43e-4e28-b097-a6c070780b81
+            hippo:availability: [live, preview]
+            hippogogreen:categories: [Recyclage]
+            hippogogreen:contentstage: interest
+            hippogogreen:price: 219.0
+            hippogogreen:rating: 4.0
+            hippogogreen:summary: "Profitant de la popularité de l'iPod, Vers a fabriqué\
+              \ de superbes enceintes avec un impact\n                minimum sur\
+              \ l'environnement. Fabriqué à partir de bois écologique, sans produits\
+              \ chimique ni métaux\n                lourds, ce système stéréo amplifie\
+              \ la musique. Chaque modèle est unique, fini à la main en une semaine.\n\
+              \              "
+            hippogogreen:title: Enceintes iPod écologiques
+            hippogogreen:votes: 2
+            hippostd:holder: admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2010-07-12T13:11:00Z
+            hippostdpubwf:lastModificationDate: 2011-01-12T14:28:00Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2011-01-12T14:28:00Z
+            hippotranslation:id: 88dfba73-434b-4136-b654-5457314f51d0
+            hippotranslation:locale: fr
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <html> <body>
+
+                                  <p>Trés bon son, grâce au système rigide qui empêche l'enceinte de résonner sous la pression du
+                                  haut-parleur, sans altérer le son.</p>
+
+                                  <p>Une enceinte vers est 4 fois plus épaisse qu'un cadre en plastique : 9.5 mm au lieu de 2 mm
+                                  en général.</p>
+
+                                  <p>Renouvelable: les bois d'eucalyptus et de pin choisis par Vers, proviennent de plantations
+                                  équitables. Ils remplacent 80 % du plastique généralement utilisé. L'emballage est également 100 %
+                                  recyclable.</p>
+
+                                  </body> </html>
+            /relateddocs:docs:
+              jcr:primaryType: relateddocs:docs
+              /relateddocs:reldoc:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: ffa43adb-4cf8-4b62-b6b7-da4fefb15221
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+            /hippogogreen:image[1]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 71ee7fcd-2ff1-4de0-bfe8-4175800bf08f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[2]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 5637dc20-6ed9-4418-8c99-4b70870d19e3
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[3]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 088123f5-759b-414a-a659-6668537a2b86
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[4]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 278ba984-4cf2-4104-aa9f-36c3a2bce709
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[5]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 881f8556-57c9-4338-9cc6-b741b44d05ad
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:copyright:
+              jcr:primaryType: hippogogreen:copyright
+              hippogogreen:description: Green Home, Inc.
+              hippogogreen:url: http://www.greenhome.com/products/appliances/radios_and_electronics/115714/

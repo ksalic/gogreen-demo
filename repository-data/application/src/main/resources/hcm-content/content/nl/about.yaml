@@ -1,0 +1,138 @@
+/content/documents/hippogagroen/about:
+  .meta:order-before: searchfacets
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: 53429c1d-d2b2-4c2e-9ff7-4042434035f0
+  hippo:name: Over
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4c798917-eea5-4a36-904f-399c36e9e1ea
+  hippotranslation:locale: nl
+  /quick-facts:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 8eefd6b6-88d9-434e-a839-524ff1c99245
+    hippo:name: Korte feitjes
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 176e5d49-1a32-486a-a4b0-653fe6b5674a
+    hippotranslation:locale: nl
+    /korte-feiten-over-hippo:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 43039a0c-4105-40bc-8c8a-882fd396aa1f
+      hippo:name: Korte feiten over Hippo
+      /korte-feiten-over-hippo:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: c051586e-f1d1-434e-b273-aac8ad3f4eb1
+        hippo:availability: [live, preview]
+        hippogogreen:contentstage: awareness
+        hippogogreen:summary: ''
+        hippogogreen:title: Korte feiten over Hippo
+        hippostd:holder: boris
+        hippostd:state: published
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T17:11:00Z
+        hippostdpubwf:lastModificationDate: 2010-12-17T11:52:00Z
+        hippostdpubwf:lastModifiedBy: boris
+        hippostdpubwf:publicationDate: 2010-12-24T17:01:00Z
+        hippotranslation:id: 4d3c1451-920a-4dcc-82ad-02c640b2b6fc
+        hippotranslation:locale: nl
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <html>
+            <body>
+
+            <ul>
+            <li>Opgericht in 1999</li>
+            <li>80+ werknemers</li>
+            <li>Kantoren in Amsterdam en Boston</li>
+            <li>Particulier bezit</li>
+            <li>Winnaar van de 2007, 2008 en 2009 Deloitte FAST 500 EMEA met betrekking tot
+            de groei van inkomsten</li>
+            </ul>
+
+            </body>
+            </html>
+  /terms--conditions:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: b79c9923-6afc-4ef4-a870-a1bd224c60eb
+    hippo:name: Voorwaarden
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: f83d8be1-5cc7-4f1f-82ba-2ceacd2faed1
+    hippotranslation:locale: nl
+    /voorwaarden:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: 604dbfc7-915f-4004-8764-b515237b0223
+      hippo:name: Voorwaarden
+      /voorwaarden:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: fe29325e-dfbd-4dd9-a65f-5209762ac973
+        hippo:availability: [live, preview]
+        hippogogreen:contentstage: interest
+        hippogogreen:summary: Alle inhoud wordt alleen gebruikt voor demo-doeleinden.
+        hippogogreen:title: Voorwaarden
+        hippostd:holder: boris
+        hippostd:state: published
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T17:13:00Z
+        hippostdpubwf:lastModificationDate: 2010-12-17T12:01:00Z
+        hippostdpubwf:lastModifiedBy: boris
+        hippostdpubwf:publicationDate: 2010-12-24T17:00:00Z
+        hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
+        hippotranslation:locale: nl
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <html>
+            <body>
+
+            <p>Hippo heeft geprobeerd alleen de Creative commons license te gebruiken en de
+            oorspronkelijke eigenaren te vermelden. Als u inhoud vindt die niet in onze demo
+            hoort, email ons dan alstublieft bij info @ onehippo(dot)com en dan verwijderen
+            we deze inhoud.</p>
+
+            </body>
+            </html>
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b97aa37f-80e6-450a-a81e-67e172f3dcf2
+    /about:
+      jcr:primaryType: hippogogreen:simpledocument
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 0d9dd8cf-8c50-45ec-8a68-c5c9cebd01d0
+      hippo:availability: [live, preview]
+      hippogogreen:contentstage: action
+      hippogogreen:summary: Dit is een demo van het Hippo CMS
+      hippogogreen:title: Over deze demo
+      hippostd:holder: boris
+      hippostd:state: published
+      hippostd:tags: [Hippo, Hippo CMS]
+      hippostdpubwf:createdBy: vkumar
+      hippostdpubwf:creationDate: 2010-07-23T17:04:00Z
+      hippostdpubwf:lastModificationDate: 2010-12-17T10:34:00Z
+      hippostdpubwf:lastModifiedBy: boris
+      hippostdpubwf:publicationDate: 2010-12-24T17:00:00Z
+      hippotranslation:id: 63b829c1-3386-4fd6-9824-8b870db3aeee
+      hippotranslation:locale: nl
+      /hippogogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+          <body>
+
+          <p><em>Met ons innovatieve Content Management en Portal technologiëen helpt
+          Hippo informatie te managen en te verkrijgen, gevoelige data te beschermen,
+          kennis te delen, samenwerking te optimaliseren en de kosten van dagelijkse
+          operaties te verminderen. De combinatie van enterprise-class ondersteuning en
+          open source technologie geeft onze klanten het beste van beide werelden: de
+          flexibiliteit, innovatie en robuustheid van open source software gecombineerd
+          met de stabiliteit, het bereik en de service kwaliteit van een gevestigde
+          verkoper.</em></p>
+
+          </body>
+          </html>

@@ -1,0 +1,2709 @@
+/content/documents/hippogagroen/events:
+  .meta:order-before: blogs
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: 67fbef86-66a2-43a1-9da6-55e2e0187b3b
+  hippo:name: Evenementen
+  hippostd:foldertype: [new-event-folder, new-event]
+  hippotranslation:id: 2a57de96-bc3c-4a63-a61f-869c0cebd9cd
+  hippotranslation:locale: nl
+  /facetedevents:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 85
+    hippo:docbase: 67fbef86-66a2-43a1-9da6-55e2e0187b3b
+    hippofacnav:facetnodenames: ['year${hide:''year''}', 'month${after:''year'', hide:''month''}',
+      'day${after:''month''}']
+    hippofacnav:facets: ['hippogogreen:date$year', 'hippogogreen:date$month', 'hippogogreen:date$day']
+    hippofacnav:limit: 100
+    hippofacnav:skipresultsetfacetsavailable: true
+    hippofacnav:sortby: ['hippogogreen:date']
+    hippofacnav:sortorder: [descending]
+  /facetedeventsmobile:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 85
+    hippo:docbase: 67fbef86-66a2-43a1-9da6-55e2e0187b3b
+    hippofacnav:facetnodenames: [Date]
+    hippofacnav:facets: ['hippogogreen:date$[{name:''Upcoming'', resolution:''day'',
+        begin:0}, {name:''Past'', resolution:''day'', end:0}]']
+    hippofacnav:limit: 100
+    hippofacnav:skipresultsetfacetsavailable: true
+    hippofacnav:sortby: ['hippogogreen:date']
+    hippofacnav:sortorder: [descending]
+  /2014:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: f6b3d0bf-e4da-478e-805d-597f11e12c01
+    hippostd:foldertype: [new-event-folder, new-event]
+    hippotranslation:id: 10a4c370-ff7c-487a-9968-0f359b1f0a49
+    hippotranslation:locale: nl
+    /07:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: a6ce96c5-da66-4f5e-a1c6-cb0c85c22c02
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: de7b1a1a-df91-4c34-941c-9600088553be
+      hippotranslation:locale: nl
+      /waterzuiverings-top:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: dc69ce71-a557-4bc2-8ade-1322d05ceda6
+        hippo:name: Waterzuiverings top
+        /waterzuiverings-top:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1c055890-4029-4a5a-a54f-6a23078c01ea
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Summit]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2014-07-20T18:54:00+02:00
+          hippogogreen:enddate: 2014-07-22T18:52:00+02:00
+          hippogogreen:summary: |-
+            Het hele idee van te hebben vuil / kiem / vervuiling gratis water dat in de hele
+                           milieu. Veel andere fenomenen 'lead van dit concept van de zuivering van water.
+                           Water Pollution is de belangrijkste vijand van dit concept, en de diverse campagnes en activisten
+                           georganiseerd over de hele wereld tot de zuivering van het water te helpen. Gezien de hoeveelheid
+                           waterverbruik dat onder de huidige consumpties, dit concept is van het grootste belang.
+          hippogogreen:title: Waterzuiverings top
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [Water Purification, water]
+          hippostdpubwf:createdBy: tbrenninkmeijer
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-05-22T14:58:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-05-22T14:58:00+02:00
+          hippotranslation:id: fd14a90d-8cf4-4c39-a000-82f3b84f2e99
+          hippotranslation:locale: nl
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Het zuiveringsproces van water kan de concentratie fijn stof inclusief
+              zwevende deeltjes, parasieten, bacteriën, algen, virussen, schimmels, en een
+              scala van opgeloste en fijn materiaal afkomstig van de oppervlakken die water
+              kan contact hebben gemaakt met na het vallen als regen.</p>
+
+              <p>De normen voor de kwaliteit van het drinkwater worden meestal ingesteld door
+              de overheid of door internationale normen. Deze normen zullen doorgaans
+              ingesteld minimum en maximum concentraties van verontreinigende stoffen voor het
+              gebruik dat moet worden gemaakt van het water.</p>
+
+              <p>Het is niet mogelijk te zeggen of het water is van een passende kwaliteit
+              door visueel onderzoek. Eenvoudige procedures zoals koken of het gebruik van een
+              huishouden koolstoffilter niet voldoende voor de behandeling van alle mogelijke
+              verontreinigingen die aanwezig zijn in water van een onbekende bron. Zelfs
+              natuurlijke bronwater - als veilig beschouwd voor alle praktische doeleinden in
+              de jaren 1800 - moet nu worden getest voordat het bepalen van wat voor soort
+              behandeling, indien van toepassing, nodig is. Chemische analyse, terwijl de
+              duur, is de enige manier om de informatie die nodig is voor de besluitvorming
+              over de juiste methode van zuivering te verkrijgen.</p>
+
+              </body>
+              </html>
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7519d15e-39af-4b60-92a9-f57cb83a3119
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Petaluma
+            hippogogreen:country: USA
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '185'
+            hippogogreen:postalcode: '94952'
+            hippogogreen:province: California
+            hippogogreen:street: H Street
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 429c32b6-2df0-484f-93b1-c614fab9c69f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+    /05:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: edc019d0-f738-4f5e-8587-92760f727ab7
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: c4da4890-15bf-47f7-9a31-92335a9aa576
+      hippotranslation:locale: nl
+      /cradle-to-cradle-design-evenement:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ee7dcefc-a3dd-4b95-a1bf-06b9c939df81
+        hippo:name: Cradle to Cradle Design evenement
+        /cradle-to-cradle-design-evenement:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 83af30e2-90a7-4880-87e4-141f56e0ca98
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Cradle to Cradle]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-05-20T10:22:00+02:00
+          hippogogreen:enddate: 2014-05-31T23:00:00+02:00
+          hippogogreen:summary: |-
+            In de Cradle to Cradle model, alle materialen die in de industriële of commerciële
+                           processen - zoals metalen, vezels, kleurstoffen - worden gezien om te vallen in een van de twee categorieën:
+                           "technische" of "biologische" voedingsstoffen.
+          hippogogreen:title: Cradle to Cradle Design evenement
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [recycling, design]
+          hippostdpubwf:createdBy: tbrenninkmeijer
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-05-22T15:41:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-05-22T15:41:00+02:00
+          hippotranslation:id: 0c11111b-7d99-464e-9824-cbb49cbdcf2b
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Technische voedingsstoffen zijn strikt beperkt tot niet-giftig,
+              niet-schadelijke synthetische materialen die geen negatieve effecten op het
+              natuurlijk milieu, ze gebruikt kunnen worden in continue cycli als hetzelfde
+              product, zonder verlies van hun integriteit of kwaliteit. Op deze wijze kunnen
+              deze materialen worden gebruikt telkens opnieuw in plaats van "downcycled" in
+              mindere producten uiteindelijk afval wordt. Biologische Nutriënten zijn
+              organische materialen die, eenmaal gebruikt, kan worden afgezet in een
+              natuurlijke omgeving en ontleden in de bodem, het verstrekken van voedsel voor
+              kleine levensvormen zonder dat de natuurlijke omgeving. Dit is afhankelijk van
+              de ecologie van de regio, bijvoorbeeld organisch materiaal van het ene land of
+              landmassa schadelijk kan zijn voor de ecologie van een ander land of landmassa.
+              </p>
+              <br/>
+
+              </body>
+              </html>
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 173e0126-fe0c-46a5-8b08-f4f887e553f9
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 56a39341-e2ab-4ab3-9b24-91bac36331b6
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 014a67a2-eb02-4489-859c-7ad61a32bf79
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: ''
+            hippogogreen:country: ''
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+    /03:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: ce794e89-419b-4e2c-ad8d-2ef57e7d45f8
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 2a3e0f53-d1ed-49a9-993d-eade19cef609
+      hippotranslation:locale: nl
+      /red-kite-mountain-bike-bash:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 82d5c05f-658d-4ea8-83e3-d47622f9f601
+        hippo:name: RED KITE MOUNTAIN BIKE BASH
+        /red-kite-mountain-bike-bash:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 15a34554-e294-4920-a979-d120933fb350
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Bike]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2014-03-06T10:22:00+02:00
+          hippogogreen:enddate: 2014-03-30T12:37:00+02:00
+          hippogogreen:summary: |-
+            Dit is een niet-competitieve mountainbike evenement met betrekking tot mijl van natuur-en
+            speciaal gebouwde enkel spoor, boswegen en ruiterpaden. Lokale geleiders worden gebruikt
+            op maat van de ritten op alle niveaus aan te passen. Het evenement omvat een 's nachts rijden op de vrijdag
+            's Avonds vroeg in de avond activiteiten en een post rit BBQ voor zaterdag met live muziek
+            bij de lokale pubs. Pre-entry aanbevolen
+          hippogogreen:title: RED KITE MOUNTAIN BIKE BASH
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [mountainbike, leisure]
+          hippostdpubwf:createdBy: admin13
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-05-22T16:20:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-05-22T16:20:00+02:00
+          hippotranslation:id: faa16128-4c8d-4dab-bec2-5bce3ba5751e
+          hippotranslation:locale: nl
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Events
+            hippogogreen:url: http://www.green-events.co.uk/eventinfo.php?eventdetails=81
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+              <strong>The Red Kite Bash is terug!</strong><br/>
+
+              <p>Drie dagen van wandelroutes met een thema op maat van de capaciteiten van de
+              deelnemers. Stuart en Tony neemt u mee over de hele gevarieerd terrein rond
+              Llanwrtyd Wells met alle ritten beginnen en eindigen in de stad plein, ideaal
+              voor het beëindigen van de dag met een biertje en wat te denken over de dagen
+              activiteiten.</p>
+
+              </body>
+              </html>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Llanwrtyd Wells
+            hippogogreen:country: Wales
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: Powys LD5
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 3f2637fe-a603-4a41-889e-aeef9203949c
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6d320eaf-1d73-4aab-94c8-917f4f82980a
+      hippotranslation:locale: nl
+      /west-coast-green-symposium-on-green-innovation:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 461d9400-e24e-41c2-bdc0-08911a28042b
+        hippo:name: West Coast Green Symposium on Green Innovation
+        /west-coast-green-symposium-on-green-innovation:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c5023316-6ffa-456a-a42c-5563570ccce4
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Conference, Symposium]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2014-02-01T01:22:00+02:00
+          hippogogreen:enddate: 2014-02-02T23:58:00+02:00
+          hippogogreen:summary: |-
+            West Coast Green is de meest vooraanstaande symposium over groene innovatie. We zijn over de
+            schaalbare oplossingen voor slimme gemeenschappen van de toekomst. Een katalysator voor wat er komen gaat
+            volgende. Een B-to-B ervaring die je verlaat met meer visitekaartjes dan je kunt schuiven
+            in je broek. Volg ons op om een ​​deel van 's werelds grootste lanceerplatform voor nieuwe als
+            ondernemingen, producten en sociale innovaties in het groen.
+          hippogogreen:title: West Coast Green Symposium on Green Innovation
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [conference, community, innovation]
+          hippostdpubwf:createdBy: admin18
+          hippostdpubwf:creationDate: 2010-07-19T20:47:00+02:00
+          hippostdpubwf:lastModificationDate: 2014-05-23T12:06:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-05-23T12:06:00+02:00
+          hippotranslation:id: 0fabde5b-cdd7-446e-b0c8-d4291b009e29
+          hippotranslation:locale: nl
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: West Coast Green
+            hippogogreen:url: http://westcoastgreen.com/
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Terwijl de nieuwe groene gebeurtenissen ontstaan elk jaar, West Coast Green
+              vertegenwoordigt de grootste mijlpaal nog in de groene innovatie beweging. De
+              West Coast Green ervaring is een feest van innovaties, ideeën en mogelijkheden
+              ontworpen om uw bedrijf uit te breiden, je visie te verbreden en uw denken te
+              stimuleren met de meest recente best practices en de belangrijkste spelers in de
+              bouw, business en design.</p>
+
+              <p>Elk jaar de conferentie is uitgegroeid tot de behoeften van de industrie
+              leiders, professionals en huiseigenaren te voldoen, dit jaar zal het gesprek te
+              verdiepen om een focus op de <strong>kruising van de gebouwde omgeving</strong>
+              en technologie. En, we zijn ook inclusief in ontwikkeling zijnde producten
+              binnen de Cleantech-sector die de grootste mogelijkheid om opwarming van de
+              aarde, zoals zon, wind en vermindering van afval te verminderen.</p>
+
+              <p>In West Coast Green vindt u meer dan 300 exposanten presentatie van de
+              nieuwste in resource-efficiency onder een <strong>magnifieke reeks van
+              groene</strong> en gezonde bouwproducten. Meer dan 100 experts en visionaire
+              leiders zal de presentatie van de nieuwste ontwikkelingen, inzichten en
+              inspiratie op het uitbreiden van de grenzen van het veld. En meer dan 11.000
+              bezoekers waaronder de gehele keten van professionals en beleidsmakers zelden
+              bereikt door andere conferenties worden verwacht.</p>
+
+              <p>We zijn niet alleen records in omvang en reikwijdte instelling, zijn we ook
+              <strong>door inpassing van doorbraken en innovaties</strong> op het gebied
+              conferentie design, content, en het leren van design. Dat betekent dat je niet
+              van plan om aan het eind van de dag instorten met blaren en hoofdpijn. We
+              trekken alles uit de kast om de ervaring van de cursus als prettig en productief
+              mogelijk te maken.</p>
+
+              <p> </p>
+
+              </body>
+              </html>
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 62fea1a1-7e31-4e16-8b64-67b4992bce6b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: San Francisco
+            hippogogreen:country: USA
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: '94123'
+            hippogogreen:province: CA
+            hippogogreen:street: Fort Mason Center
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+    /11:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 4f844968-92e5-4ac2-855f-0061ce8f7eba
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6c06b0ea-6e8c-4485-8f23-5eec8e7e2d80
+      hippotranslation:locale: nl
+      /feest-voor-de-planeet:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 504e278a-c92f-4440-bf15-fbeadd3dfcdc
+        hippo:name: Feest voor de planeet
+        /feest-voor-de-planeet[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 91b4947d-dca9-47dc-a49a-91e2bdc6252f
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2014-11-21T10:00:00+01:00
+          hippogogreen:enddate: 2014-11-21T20:00:00+01:00
+          hippogogreen:summary: Word lid van de National Zoo in de Partij voor de
+            Planeet op 21 november! De dag is gevuld met thema kunst en kunstnijverheid
+            en Green Team specialisten van het Smithsonian's, die geven de gasten
+            milieuvriendelijke lifestyle tips! De dag begint om 10:00 en is gratis.
+            nationalzoo.si.edu
+          hippogogreen:title: Feest voor de planeet
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:48:49.103+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:31:02.504+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: d7bc37f3-fb7b-41a0-812b-859d9edd402f
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Washington
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '3001'
+            hippogogreen:postalcode: '20008'
+            hippogogreen:province: NW
+            hippogogreen:street: Connecticut Ave
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Washington Parent
+            hippogogreen:url: http://www.washingtonparent.com/articles/1404/1404-earth-day-events.php
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /feest-voor-de-planeet[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 64a0922b-5caa-4862-b45a-734e7ec09f76
+          hippo:availability: []
+          hippogogreen:categories: [Family]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2014-11-21T10:00:00+01:00
+          hippogogreen:enddate: 2014-11-21T20:00:00+01:00
+          hippogogreen:summary: Word lid van de National Zoo in de Partij voor de
+            Planeet op 21 november! De dag is gevuld met thema kunst en kunstnijverheid
+            en Green Team specialisten van het Smithsonian's, die geven de gasten
+            milieuvriendelijke lifestyle tips! De dag begint om 10:00 en is gratis.
+            nationalzoo.si.edu
+          hippogogreen:title: Feest voor de planeet
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:48:49.103+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:30:55.136+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: d7bc37f3-fb7b-41a0-812b-859d9edd402f
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Washington
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '3001'
+            hippogogreen:postalcode: '20008'
+            hippogogreen:province: NW
+            hippogogreen:street: Connecticut Ave
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Washington Parent
+            hippogogreen:url: http://www.washingtonparent.com/articles/1404/1404-earth-day-events.php
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /feest-voor-de-planeet[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 08bf8c02-452a-4a5e-8232-98de425304d7
+          hippo:availability: [live]
+          hippogogreen:categories: [Family]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2014-11-21T10:00:00+01:00
+          hippogogreen:enddate: 2014-11-21T20:00:00+01:00
+          hippogogreen:summary: Word lid van de National Zoo in de Partij voor de
+            Planeet op 21 november! De dag is gevuld met thema kunst en kunstnijverheid
+            en Green Team specialisten van het Smithsonian's, die geven de gasten
+            milieuvriendelijke lifestyle tips! De dag begint om 10:00 en is gratis.
+            nationalzoo.si.edu
+          hippogogreen:title: Feest voor de planeet
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:48:49.103+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:31:02.504+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-09T10:31:04.264+02:00
+          hippotranslation:id: d7bc37f3-fb7b-41a0-812b-859d9edd402f
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Washington
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '3001'
+            hippogogreen:postalcode: '20008'
+            hippogogreen:province: NW
+            hippogogreen:street: Connecticut Ave
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Washington Parent
+            hippogogreen:url: http://www.washingtonparent.com/articles/1404/1404-earth-day-events.php
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /10:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 35b6a36d-263a-452e-bc1b-5ea08f3f09e1
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 029d82b2-0b73-427b-9d00-63313e353f2d
+      hippotranslation:locale: nl
+      /slim-en-duurzame-campus-conferentie:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b06fc8d9-037b-48db-84df-339ff6781f50
+        hippo:name: Slim en Duurzame Campus Conferentie
+        /slim-en-duurzame-campus-conferentie[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 9bf50ac8-0f62-4d4a-a795-9365be2a513d
+          hippo:availability: [preview]
+          hippogogreen:categories: []
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-10-10T10:00:00+02:00
+          hippogogreen:enddate: 2014-10-10T18:00:00+02:00
+          hippogogreen:summary: SSCC onderscheidt zich van andere conferenties door
+            het creëren van een programma dat een diepgaande presentaties en workshops
+            voorzien. Sessies zijn 50 en 80 minuten in lengte waardoor dialoog en
+            samen leren.
+          hippogogreen:title: Slim en Duurzame Campus Conferentie
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:56:07.048+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:31:44.814+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 5524a1b2-f2f9-4c72-858b-2f618ffef37d
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>De 80 minuten interactieve sessies zal toestaan ​​facilitators en deelnemers om dieper te graven in een bepaald onderwerp gebied met behulp van actieve en participatieve leerstrategie&euml;n. 50-minuten durende presentatie sessies zodat er meer tijd is voor vragen en bijdragen van de deelnemers.&nbsp;
+              <br /> &nbsp;
+              <br /> conferentie Tracks&nbsp;
+              <br /> Wij zijn blij met de presentatie voorstellen in verband met de 2015-conferentie tracks:&nbsp;
+              <br /> 1 Community-Campus Partnerships&nbsp;
+              <br /> Instellingen voor hoger onderwijs en hun gemeenschappen vaak te maken met dezelfde uitdagingen van duurzaamheid en kansen, maar hoe kunnen ze nauwer samen te werken? In het licht van de beperkte financi&euml;le middelen en de gemeentelijke overheid beperkingen, kan co&ouml;peratieve projecten en programma&#39;s hebben een synergetisch effect? Gehele Gemeenschap planning is vooral belangrijk bij het ​​ontwikkelen van strategie&euml;n voor aanpassing en vermindering van de kwetsbaarheid. Hoe goed is uw hogeschool of universiteit studenten voorbereiden - door curriculaire en buitenschoolse activiteiten - voor de uitdagingen van duurzaamheid zullen ze worden geconfronteerd tijdens hun leven? Workshops en presentaties in deze track moeten bespreken hoe we de impact van de campus leren verbreden en verbindingen naar lokale overheden, basisscholen en middelbare scholen, bedrijven en maatschappelijke groeperingen tot stand. Voorstellen moeten de uitdagingen en successen van innovatieve community-campus partnerschappen omvatten.&nbsp;
+              <br /> Bronnen: Transformational Partnerships: een nieuwe agenda voor het hoger onderwijs&nbsp;
+              <br /> 2 Change Management: Op weg naar transformatie&nbsp;
+              <br /> Dus, heb je een duurzaamheidsprogramma op uw campus opgericht. Maar hoe weet je dan integreren van duurzaamheid in uw organisatie-cultuur, identiteit, governance en besluitvorming, waardoor het transformeren van de instelling? We zijn op zoek naar inzendingen die consensusvorming met de belanghebbenden en het vinden van collaborative manieren beperken en te beheersen duurzaamheid en risico&#39;s aan te pakken. Inzendingen in deze track dient tevens een onderzoek naar uw proces in plaats van uw inhoud. Hoe ben je senior leiderschap bezighouden? Welke weg heb je te nemen in de strategische, duurzaamheid, of klimaatactie planning of het stellen van doelen? Hoe heb je verandering weerstanden en / of obstakels te overwinnen? Hoe ben je een systeemdenken benadering in het ontwerp en de uitvoering van uw plannen, projecten of samenwerkingsverbanden van toepassing? Welke uitdagingen heb je te maken? Hobbels in de weg zijn vaak onze grootste leraren. Inzendingen van deze track kan ook de ontwikkeling of de werking van gedragsverandering, sociale normering of community-based social marketing programma&#39;s.&nbsp;
+              <br /> Bronnen: Effectief Change Management in het Hoger Onderwijs&nbsp;
+              <br /> 3 Sociale Duurzaamheid&nbsp;
+              <br /> Sociaal vlak van duurzaamheid is vaak onze meest ergerlijke omdat het een breed scala van onderwerpen die zijn uitdagend om te defini&euml;ren en te meten kan omvatten. Toch kan het ons het meest belangrijk zijn, want het is de basis van een democratische samenleving. Hoe is uw instelling of community building positieve en inclusieve campus klimaat waarin iedereen hun volle potentieel kunnen bereiken? Voorstellen om deze track ingediend moeten de uitdagingen en successen in sociale rechtvaardigheid programmering, inkoop praktijken en strategie&euml;n voor het bevorderen van de individuele, maatschappelijke en ecologische gezondheid en welzijn te nemen. Deel uw model op het vinden van de snijpunten tussen duurzaamheid, diversiteit bewustzijn en culturele competentie.&nbsp;
+              <br /> Hulpbronnen: Verward over Sociale Duurzaamheid ?, &quot;Social Sustainability&quot;: Duidelijkheid is in de context&nbsp;
+              <br /> 4 De Gebouwde Omgeving&nbsp;
+              <br /> Hoe ga je de campus en de gemeenschap welzijn door middel van de gebouwde omgeving te verbeteren? Het gaat niet alleen over de gebouwen; het omvat wegen en paden, parken en groenvoorzieningen, vervoer en maaltijden. Planning voor de gebouwde omgeving van invloed op de natuurlijke omgeving en kan de waterkwaliteit, overtollig regenwater, bodemverdichting, geluid, luchtkwaliteit, en nog veel meer te be&iuml;nvloeden. Hoe is uw project inclusief herstel van het milieu, het leren van landschappen, alternatief vervoer, dineren, of nutsbedrijven? Presentaties en workshops binnen dit spoor zal innovatieve projecten van de master planning door middel van operaties en het onderhoud te onderzoeken. Voorstellen dienen met innovatieve projecten of processen die kunnen worden toegepast op andere campussen.&nbsp;
+              <br /> Middelen: De waarde van groene infrastructuur&nbsp;
+              <br /> 5 De Campus als een Learning Laboratory&nbsp;
+              <br /> Als de werkplek en de industrie blijven veranderen aan de eisen en uitdagingen van de 21ste eeuw, moeten we onze leerlingen voor te bereiden op de complexe problemen van de wereld over te nemen. De campus omgeving biedt rijp mogelijkheden voor het onderzoeken en leren over duurzaamheid full-spectrum, die studenten uit te rusten met de kennis, vaardigheden en expertise die nodig is voor dit nieuwe paradigma. Hoe wordt uw instelling hanteren curriculum en onderzoek integratie van duurzaamheid? Welke innovatieve pedagogie ligt aan de nexus van academici en operaties? Hoe is duurzaamheid het voorbereiden van studenten voor succes buiten de campus? Wat pedagogische modellen heb je te delen die kunnen worden gebruikt door anderen in de gemeenschap? Inzendingen moeten omvatten het proces voor de uitvoering, betrokken partijen, de uitdagingen en de lessen samen met successen.&nbsp;
+              <br /> Bronnen: Een gids voor Community Colleges, Hands-On LEED&nbsp;
+              <br /> Te versturen:&nbsp;
+              <br /> Stap 1:&nbsp;
+              <br /> Download en bekijk het indienen van voorstellen en toetsingsproces&nbsp;
+              <br /> Stap 2:&nbsp;
+              <br /> Dien uw voorstel van 10 oktober 2014, 23:59 PDT</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: College park
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: '20742'
+            hippogogreen:province: MD
+            hippogogreen:street: Campus dr
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: University of Maryland
+            hippogogreen:url: http://www.sustainability.umd.edu/content/community/SSCC_CFP.php
+        /slim-en-duurzame-campus-conferentie[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6da54230-121c-4367-824d-ed40436a145d
+          hippo:availability: []
+          hippogogreen:categories: []
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-10-10T10:00:00+02:00
+          hippogogreen:enddate: 2014-10-10T18:00:00+02:00
+          hippogogreen:summary: SSCC onderscheidt zich van andere conferenties door
+            het creëren van een programma dat een diepgaande presentaties en workshops
+            voorzien. Sessies zijn 50 en 80 minuten in lengte waardoor dialoog en
+            samen leren.
+          hippogogreen:title: Slim en Duurzame Campus Conferentie
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:56:07.048+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:31:31.216+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 5524a1b2-f2f9-4c72-858b-2f618ffef37d
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>De 80 minuten interactieve sessies zal toestaan ​​facilitators en deelnemers om dieper te graven in een bepaald onderwerp gebied met behulp van actieve en participatieve leerstrategie&euml;n. 50-minuten durende presentatie sessies zodat er meer tijd is voor vragen en bijdragen van de deelnemers.&nbsp;
+              <br /> &nbsp;
+              <br /> conferentie Tracks&nbsp;
+              <br /> Wij zijn blij met de presentatie voorstellen in verband met de 2015-conferentie tracks:&nbsp;
+              <br /> 1 Community-Campus Partnerships&nbsp;
+              <br /> Instellingen voor hoger onderwijs en hun gemeenschappen vaak te maken met dezelfde uitdagingen van duurzaamheid en kansen, maar hoe kunnen ze nauwer samen te werken? In het licht van de beperkte financi&euml;le middelen en de gemeentelijke overheid beperkingen, kan co&ouml;peratieve projecten en programma&#39;s hebben een synergetisch effect? Gehele Gemeenschap planning is vooral belangrijk bij het ​​ontwikkelen van strategie&euml;n voor aanpassing en vermindering van de kwetsbaarheid. Hoe goed is uw hogeschool of universiteit studenten voorbereiden - door curriculaire en buitenschoolse activiteiten - voor de uitdagingen van duurzaamheid zullen ze worden geconfronteerd tijdens hun leven? Workshops en presentaties in deze track moeten bespreken hoe we de impact van de campus leren verbreden en verbindingen naar lokale overheden, basisscholen en middelbare scholen, bedrijven en maatschappelijke groeperingen tot stand. Voorstellen moeten de uitdagingen en successen van innovatieve community-campus partnerschappen omvatten.&nbsp;
+              <br /> Bronnen: Transformational Partnerships: een nieuwe agenda voor het hoger onderwijs&nbsp;
+              <br /> 2 Change Management: Op weg naar transformatie&nbsp;
+              <br /> Dus, heb je een duurzaamheidsprogramma op uw campus opgericht. Maar hoe weet je dan integreren van duurzaamheid in uw organisatie-cultuur, identiteit, governance en besluitvorming, waardoor het transformeren van de instelling? We zijn op zoek naar inzendingen die consensusvorming met de belanghebbenden en het vinden van collaborative manieren beperken en te beheersen duurzaamheid en risico&#39;s aan te pakken. Inzendingen in deze track dient tevens een onderzoek naar uw proces in plaats van uw inhoud. Hoe ben je senior leiderschap bezighouden? Welke weg heb je te nemen in de strategische, duurzaamheid, of klimaatactie planning of het stellen van doelen? Hoe heb je verandering weerstanden en / of obstakels te overwinnen? Hoe ben je een systeemdenken benadering in het ontwerp en de uitvoering van uw plannen, projecten of samenwerkingsverbanden van toepassing? Welke uitdagingen heb je te maken? Hobbels in de weg zijn vaak onze grootste leraren. Inzendingen van deze track kan ook de ontwikkeling of de werking van gedragsverandering, sociale normering of community-based social marketing programma&#39;s.&nbsp;
+              <br /> Bronnen: Effectief Change Management in het Hoger Onderwijs&nbsp;
+              <br /> 3 Sociale Duurzaamheid&nbsp;
+              <br /> Sociaal vlak van duurzaamheid is vaak onze meest ergerlijke omdat het een breed scala van onderwerpen die zijn uitdagend om te defini&euml;ren en te meten kan omvatten. Toch kan het ons het meest belangrijk zijn, want het is de basis van een democratische samenleving. Hoe is uw instelling of community building positieve en inclusieve campus klimaat waarin iedereen hun volle potentieel kunnen bereiken? Voorstellen om deze track ingediend moeten de uitdagingen en successen in sociale rechtvaardigheid programmering, inkoop praktijken en strategie&euml;n voor het bevorderen van de individuele, maatschappelijke en ecologische gezondheid en welzijn te nemen. Deel uw model op het vinden van de snijpunten tussen duurzaamheid, diversiteit bewustzijn en culturele competentie.&nbsp;
+              <br /> Hulpbronnen: Verward over Sociale Duurzaamheid ?, &quot;Social Sustainability&quot;: Duidelijkheid is in de context&nbsp;
+              <br /> 4 De Gebouwde Omgeving&nbsp;
+              <br /> Hoe ga je de campus en de gemeenschap welzijn door middel van de gebouwde omgeving te verbeteren? Het gaat niet alleen over de gebouwen; het omvat wegen en paden, parken en groenvoorzieningen, vervoer en maaltijden. Planning voor de gebouwde omgeving van invloed op de natuurlijke omgeving en kan de waterkwaliteit, overtollig regenwater, bodemverdichting, geluid, luchtkwaliteit, en nog veel meer te be&iuml;nvloeden. Hoe is uw project inclusief herstel van het milieu, het leren van landschappen, alternatief vervoer, dineren, of nutsbedrijven? Presentaties en workshops binnen dit spoor zal innovatieve projecten van de master planning door middel van operaties en het onderhoud te onderzoeken. Voorstellen dienen met innovatieve projecten of processen die kunnen worden toegepast op andere campussen.&nbsp;
+              <br /> Middelen: De waarde van groene infrastructuur&nbsp;
+              <br /> 5 De Campus als een Learning Laboratory&nbsp;
+              <br /> Als de werkplek en de industrie blijven veranderen aan de eisen en uitdagingen van de 21ste eeuw, moeten we onze leerlingen voor te bereiden op de complexe problemen van de wereld over te nemen. De campus omgeving biedt rijp mogelijkheden voor het onderzoeken en leren over duurzaamheid full-spectrum, die studenten uit te rusten met de kennis, vaardigheden en expertise die nodig is voor dit nieuwe paradigma. Hoe wordt uw instelling hanteren curriculum en onderzoek integratie van duurzaamheid? Welke innovatieve pedagogie ligt aan de nexus van academici en operaties? Hoe is duurzaamheid het voorbereiden van studenten voor succes buiten de campus? Wat pedagogische modellen heb je te delen die kunnen worden gebruikt door anderen in de gemeenschap? Inzendingen moeten omvatten het proces voor de uitvoering, betrokken partijen, de uitdagingen en de lessen samen met successen.&nbsp;
+              <br /> Bronnen: Een gids voor Community Colleges, Hands-On LEED&nbsp;
+              <br /> Te versturen:&nbsp;
+              <br /> Stap 1:&nbsp;
+              <br /> Download en bekijk het indienen van voorstellen en toetsingsproces&nbsp;
+              <br /> Stap 2:&nbsp;
+              <br /> Dien uw voorstel van 10 oktober 2014, 23:59 PDT</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: College park
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: '20742'
+            hippogogreen:province: MD
+            hippogogreen:street: Campus dr
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: University of Maryland
+            hippogogreen:url: http://www.sustainability.umd.edu/content/community/SSCC_CFP.php
+        /slim-en-duurzame-campus-conferentie[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f453e84a-1551-4e77-8063-9664d5802949
+          hippo:availability: [live]
+          hippogogreen:categories: []
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2014-10-10T10:00:00+02:00
+          hippogogreen:enddate: 2014-10-10T18:00:00+02:00
+          hippogogreen:summary: SSCC onderscheidt zich van andere conferenties door
+            het creëren van een programma dat een diepgaande presentaties en workshops
+            voorzien. Sessies zijn 50 en 80 minuten in lengte waardoor dialoog en
+            samen leren.
+          hippogogreen:title: Slim en Duurzame Campus Conferentie
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:56:07.048+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:31:44.814+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-09T10:31:46.202+02:00
+          hippotranslation:id: 5524a1b2-f2f9-4c72-858b-2f618ffef37d
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>De 80 minuten interactieve sessies zal toestaan ​​facilitators en deelnemers om dieper te graven in een bepaald onderwerp gebied met behulp van actieve en participatieve leerstrategie&euml;n. 50-minuten durende presentatie sessies zodat er meer tijd is voor vragen en bijdragen van de deelnemers.&nbsp;
+              <br /> &nbsp;
+              <br /> conferentie Tracks&nbsp;
+              <br /> Wij zijn blij met de presentatie voorstellen in verband met de 2015-conferentie tracks:&nbsp;
+              <br /> 1 Community-Campus Partnerships&nbsp;
+              <br /> Instellingen voor hoger onderwijs en hun gemeenschappen vaak te maken met dezelfde uitdagingen van duurzaamheid en kansen, maar hoe kunnen ze nauwer samen te werken? In het licht van de beperkte financi&euml;le middelen en de gemeentelijke overheid beperkingen, kan co&ouml;peratieve projecten en programma&#39;s hebben een synergetisch effect? Gehele Gemeenschap planning is vooral belangrijk bij het ​​ontwikkelen van strategie&euml;n voor aanpassing en vermindering van de kwetsbaarheid. Hoe goed is uw hogeschool of universiteit studenten voorbereiden - door curriculaire en buitenschoolse activiteiten - voor de uitdagingen van duurzaamheid zullen ze worden geconfronteerd tijdens hun leven? Workshops en presentaties in deze track moeten bespreken hoe we de impact van de campus leren verbreden en verbindingen naar lokale overheden, basisscholen en middelbare scholen, bedrijven en maatschappelijke groeperingen tot stand. Voorstellen moeten de uitdagingen en successen van innovatieve community-campus partnerschappen omvatten.&nbsp;
+              <br /> Bronnen: Transformational Partnerships: een nieuwe agenda voor het hoger onderwijs&nbsp;
+              <br /> 2 Change Management: Op weg naar transformatie&nbsp;
+              <br /> Dus, heb je een duurzaamheidsprogramma op uw campus opgericht. Maar hoe weet je dan integreren van duurzaamheid in uw organisatie-cultuur, identiteit, governance en besluitvorming, waardoor het transformeren van de instelling? We zijn op zoek naar inzendingen die consensusvorming met de belanghebbenden en het vinden van collaborative manieren beperken en te beheersen duurzaamheid en risico&#39;s aan te pakken. Inzendingen in deze track dient tevens een onderzoek naar uw proces in plaats van uw inhoud. Hoe ben je senior leiderschap bezighouden? Welke weg heb je te nemen in de strategische, duurzaamheid, of klimaatactie planning of het stellen van doelen? Hoe heb je verandering weerstanden en / of obstakels te overwinnen? Hoe ben je een systeemdenken benadering in het ontwerp en de uitvoering van uw plannen, projecten of samenwerkingsverbanden van toepassing? Welke uitdagingen heb je te maken? Hobbels in de weg zijn vaak onze grootste leraren. Inzendingen van deze track kan ook de ontwikkeling of de werking van gedragsverandering, sociale normering of community-based social marketing programma&#39;s.&nbsp;
+              <br /> Bronnen: Effectief Change Management in het Hoger Onderwijs&nbsp;
+              <br /> 3 Sociale Duurzaamheid&nbsp;
+              <br /> Sociaal vlak van duurzaamheid is vaak onze meest ergerlijke omdat het een breed scala van onderwerpen die zijn uitdagend om te defini&euml;ren en te meten kan omvatten. Toch kan het ons het meest belangrijk zijn, want het is de basis van een democratische samenleving. Hoe is uw instelling of community building positieve en inclusieve campus klimaat waarin iedereen hun volle potentieel kunnen bereiken? Voorstellen om deze track ingediend moeten de uitdagingen en successen in sociale rechtvaardigheid programmering, inkoop praktijken en strategie&euml;n voor het bevorderen van de individuele, maatschappelijke en ecologische gezondheid en welzijn te nemen. Deel uw model op het vinden van de snijpunten tussen duurzaamheid, diversiteit bewustzijn en culturele competentie.&nbsp;
+              <br /> Hulpbronnen: Verward over Sociale Duurzaamheid ?, &quot;Social Sustainability&quot;: Duidelijkheid is in de context&nbsp;
+              <br /> 4 De Gebouwde Omgeving&nbsp;
+              <br /> Hoe ga je de campus en de gemeenschap welzijn door middel van de gebouwde omgeving te verbeteren? Het gaat niet alleen over de gebouwen; het omvat wegen en paden, parken en groenvoorzieningen, vervoer en maaltijden. Planning voor de gebouwde omgeving van invloed op de natuurlijke omgeving en kan de waterkwaliteit, overtollig regenwater, bodemverdichting, geluid, luchtkwaliteit, en nog veel meer te be&iuml;nvloeden. Hoe is uw project inclusief herstel van het milieu, het leren van landschappen, alternatief vervoer, dineren, of nutsbedrijven? Presentaties en workshops binnen dit spoor zal innovatieve projecten van de master planning door middel van operaties en het onderhoud te onderzoeken. Voorstellen dienen met innovatieve projecten of processen die kunnen worden toegepast op andere campussen.&nbsp;
+              <br /> Middelen: De waarde van groene infrastructuur&nbsp;
+              <br /> 5 De Campus als een Learning Laboratory&nbsp;
+              <br /> Als de werkplek en de industrie blijven veranderen aan de eisen en uitdagingen van de 21ste eeuw, moeten we onze leerlingen voor te bereiden op de complexe problemen van de wereld over te nemen. De campus omgeving biedt rijp mogelijkheden voor het onderzoeken en leren over duurzaamheid full-spectrum, die studenten uit te rusten met de kennis, vaardigheden en expertise die nodig is voor dit nieuwe paradigma. Hoe wordt uw instelling hanteren curriculum en onderzoek integratie van duurzaamheid? Welke innovatieve pedagogie ligt aan de nexus van academici en operaties? Hoe is duurzaamheid het voorbereiden van studenten voor succes buiten de campus? Wat pedagogische modellen heb je te delen die kunnen worden gebruikt door anderen in de gemeenschap? Inzendingen moeten omvatten het proces voor de uitvoering, betrokken partijen, de uitdagingen en de lessen samen met successen.&nbsp;
+              <br /> Bronnen: Een gids voor Community Colleges, Hands-On LEED&nbsp;
+              <br /> Te versturen:&nbsp;
+              <br /> Stap 1:&nbsp;
+              <br /> Download en bekijk het indienen van voorstellen en toetsingsproces&nbsp;
+              <br /> Stap 2:&nbsp;
+              <br /> Dien uw voorstel van 10 oktober 2014, 23:59 PDT</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: College park
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: '20742'
+            hippogogreen:province: MD
+            hippogogreen:street: Campus dr
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: University of Maryland
+            hippogogreen:url: http://www.sustainability.umd.edu/content/community/SSCC_CFP.php
+  /2015:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: cc724edd-8d12-4374-bb92-b11d3b48f90c
+    hippostd:foldertype: [new-event-folder, new-event]
+    hippotranslation:id: e7ceb2a4-4fde-4d65-8913-d76c4d64f1a7
+    hippotranslation:locale: nl
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: a4a800e8-d3fb-4e4b-b4fc-0498072d33f0
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 177d02b2-4fdf-4f93-92cf-bb96dcac6af9
+      hippotranslation:locale: nl
+      /green-living-show:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 7b838097-6340-4d74-9402-196428a4835f
+        hippo:name: Green Living Show
+        /green-living-show[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: a64b49e0-564f-44b1-b143-77f6bbca399d
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home, Kitchen]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2015-04-17T18:00:00+02:00
+          hippogogreen:summary: De Green Living Show is Canada's grootste groene consumentenbeurs
+            gewijd aan het opleiden van het publiek over eenvoudige en werkbare oplossingen
+            voor het leiden van een duurzame levensstijl. Bezoekers kunnen winkelen
+            in meer dan 400 exposities, eet lokaal voedsel bereid door gerenommeerde
+            chefs, proeven milieuvriendelijke wijnen en genieten van een gevarieerde
+            selectie van demonstraties, presentaties en activiteiten. Veel plezier
+            voor het hele gezin.
+          hippogogreen:title: Green Living Show
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:24:44.329+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Exposanten productcategorie&euml;n:&nbsp;
+              <br /> Energie, Voedsel en dranken, Green Building, Transport, Eco-Toerisme &amp; Recreatie, Huis &amp; Tuin, Health &amp; Wellness, Mode &amp; Beauty, Kinderen, huisdieren, Groene Zaken, Milieu Opvoeders, ENGO&#39;s en non-profitorganisaties.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2fe61bc8-376a-468b-a38c-3afe07c57a36
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home, Kitchen]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2015-04-17T18:00:00+02:00
+          hippogogreen:summary: De Green Living Show is Canada's grootste groene consumentenbeurs
+            gewijd aan het opleiden van het publiek over eenvoudige en werkbare oplossingen
+            voor het leiden van een duurzame levensstijl. Bezoekers kunnen winkelen
+            in meer dan 400 exposities, eet lokaal voedsel bereid door gerenommeerde
+            chefs, proeven milieuvriendelijke wijnen en genieten van een gevarieerde
+            selectie van demonstraties, presentaties en activiteiten. Veel plezier
+            voor het hele gezin.
+          hippogogreen:title: Green Living Show
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:24:33.233+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Exposanten productcategorie&euml;n:&nbsp;
+              <br /> Energie, Voedsel en dranken, Green Building, Transport, Eco-Toerisme &amp; Recreatie, Huis &amp; Tuin, Health &amp; Wellness, Mode &amp; Beauty, Kinderen, huisdieren, Groene Zaken, Milieu Opvoeders, ENGO&#39;s en non-profitorganisaties.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: fb2b289b-a536-4458-b1b4-147166a72d97
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home, Kitchen]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2015-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2015-04-17T18:00:00+02:00
+          hippogogreen:summary: De Green Living Show is Canada's grootste groene consumentenbeurs
+            gewijd aan het opleiden van het publiek over eenvoudige en werkbare oplossingen
+            voor het leiden van een duurzame levensstijl. Bezoekers kunnen winkelen
+            in meer dan 400 exposities, eet lokaal voedsel bereid door gerenommeerde
+            chefs, proeven milieuvriendelijke wijnen en genieten van een gevarieerde
+            selectie van demonstraties, presentaties en activiteiten. Veel plezier
+            voor het hele gezin.
+          hippogogreen:title: Green Living Show
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:24:44.329+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-09T10:24:46.049+02:00
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Exposanten productcategorie&euml;n:&nbsp;
+              <br /> Energie, Voedsel en dranken, Green Building, Transport, Eco-Toerisme &amp; Recreatie, Huis &amp; Tuin, Health &amp; Wellness, Mode &amp; Beauty, Kinderen, huisdieren, Groene Zaken, Milieu Opvoeders, ENGO&#39;s en non-profitorganisaties.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /green-festival:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 6d4de9c3-4035-4e0c-8ef3-8e1cfd4e6ef2
+        hippo:name: Green Festival
+        /green-festival[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 7464e02a-769f-418c-a863-f1736f4359e1
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2015-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2015-04-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival lanceert zijn derde jaar
+            26-27 april op een nieuwe locatie, Pier 94! Bij Green Festival®, er is
+            iets voor iedereen die geïnteresseerd in het leven van een duurzamer en
+            gezonder leven. Ervaar de breedste selectie van producten en diensten
+            groen te werken, spelen en groen wonen groen - van voedsel, mode en gezondheid,
+            energie, bouw en ontwerp. Geniet veganistisch en vegetarisch koken demo's,
+            educatieve activiteiten voor kinderen en gezinnen, panelen met inspirerende
+            sprekers, en live muziek en entertainment. Shop in onze unieke markt van
+            meer dan 300 eco-vriendelijke bedrijven - alles van alle-natuurlijke producten
+            voor lichaamsverzorging en biologische kleding aan Fair Trade cadeaus,
+            mooi huis renovaties gemaakt uit hernieuwbare bronnen, plus veganistisch
+            en vegetarische aanbod op basis van organische, niet-GGO of lokale, ambachtelijke
+            gerechten.
+          hippogogreen:title: Green Festival
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:25:07.212+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Voor de afgelopen 13 jaar, heeft Green Festival is
+              gepleegd aan het helpen van mensen in Amerika oplossingen voor onze
+              families en gemeenschappen gezonder te maken te vinden - sociaal, economisch
+              en ecologisch. Bezoek ons ​​op de grootste en langstlopende duurzaamheid
+              evenement in het land, en vieren Earth Month met de beste in groen wonen.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 33926d58-ad17-4b40-96d9-fded1d59751b
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2015-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2015-04-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival lanceert zijn derde jaar
+            26-27 april op een nieuwe locatie, Pier 94! Bij Green Festival®, er is
+            iets voor iedereen die geïnteresseerd in het leven van een duurzamer en
+            gezonder leven. Ervaar de breedste selectie van producten en diensten
+            groen te werken, spelen en groen wonen groen - van voedsel, mode en gezondheid,
+            energie, bouw en ontwerp. Geniet veganistisch en vegetarisch koken demo's,
+            educatieve activiteiten voor kinderen en gezinnen, panelen met inspirerende
+            sprekers, en live muziek en entertainment. Shop in onze unieke markt van
+            meer dan 300 eco-vriendelijke bedrijven - alles van alle-natuurlijke producten
+            voor lichaamsverzorging en biologische kleding aan Fair Trade cadeaus,
+            mooi huis renovaties gemaakt uit hernieuwbare bronnen, plus veganistisch
+            en vegetarische aanbod op basis van organische, niet-GGO of lokale, ambachtelijke
+            gerechten.
+          hippogogreen:title: Green Festival
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:25:01.210+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Voor de afgelopen 13 jaar, heeft Green Festival is
+              gepleegd aan het helpen van mensen in Amerika oplossingen voor onze
+              families en gemeenschappen gezonder te maken te vinden - sociaal, economisch
+              en ecologisch. Bezoek ons ​​op de grootste en langstlopende duurzaamheid
+              evenement in het land, en vieren Earth Month met de beste in groen wonen.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 39efc69f-ea67-415b-913b-90e8b3a920a9
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2015-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2015-04-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival lanceert zijn derde jaar
+            26-27 april op een nieuwe locatie, Pier 94! Bij Green Festival®, er is
+            iets voor iedereen die geïnteresseerd in het leven van een duurzamer en
+            gezonder leven. Ervaar de breedste selectie van producten en diensten
+            groen te werken, spelen en groen wonen groen - van voedsel, mode en gezondheid,
+            energie, bouw en ontwerp. Geniet veganistisch en vegetarisch koken demo's,
+            educatieve activiteiten voor kinderen en gezinnen, panelen met inspirerende
+            sprekers, en live muziek en entertainment. Shop in onze unieke markt van
+            meer dan 300 eco-vriendelijke bedrijven - alles van alle-natuurlijke producten
+            voor lichaamsverzorging en biologische kleding aan Fair Trade cadeaus,
+            mooi huis renovaties gemaakt uit hernieuwbare bronnen, plus veganistisch
+            en vegetarische aanbod op basis van organische, niet-GGO of lokale, ambachtelijke
+            gerechten.
+          hippogogreen:title: Green Festival
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:25:07.212+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-09T10:25:08.682+02:00
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Voor de afgelopen 13 jaar, heeft Green Festival is
+              gepleegd aan het helpen van mensen in Amerika oplossingen voor onze
+              families en gemeenschappen gezonder te maken te vinden - sociaal, economisch
+              en ecologisch. Bezoek ons ​​op de grootste en langstlopende duurzaamheid
+              evenement in het land, en vieren Earth Month met de beste in groen wonen.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 0d00c941-a955-42bc-9b57-9ef25c159671
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: c6eef74f-9822-4adb-ad8e-f02b3cee6f80
+      hippotranslation:locale: nl
+      /natuurlijk-kapitaal:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: f9a50429-dd34-4915-989e-1178d187c86c
+        hippo:name: Natuurlijk Kapitaal
+        /natuurlijk-kapitaal[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 40417363-4082-483a-91a9-cc6efe28735d
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2015-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2015-02-18T15:00:00+01:00
+          hippogogreen:summary: Natuurlijk kapitaal is een term die misschien nog
+            niet veel te betekenen, maar het heeft de potentie om alle bedrijven beïnvloeden.
+            Die bedrijven direct betrokken bij resource-intensieve gebieden zoals
+            agribusiness, bosbouw, mijnbouw of zijn zich terdege bewust van de impact
+            natuurlijk kapitaal verlies kan hebben op een bedrijf. Toch kan het natuurlijk
+            kapitaal van nieuwe zakelijke kansen te bieden, alsmede voor degenen die
+            direct beïnvloed door het natuurlijke kapitaal en indirect beïnvloed door
+            middel van hun supply chain.
+          hippogogreen:title: Natuurlijk Kapitaal
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:25:40.256+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke voor een marktoverzicht\
+              \ van natuurlijk kapitaal. Onderwerpen zijn onder meer de directe en\
+              \ indirecte effecten van natuurlijk kapitaal op supply chains, zakelijke\
+              \ voordelen van het hebben van een natuurlijk kapitaal strategie, waar\
+              \ het natuurlijk kapitaal binnen een duurzame strategie past, uitdagingen\
+              \ die moeten worden beheerd bij de integratie van het natuurlijk kapitaal\
+              \ in uw duurzaamheidsstrategie en de hulpmiddelen die beschikbaar zijn\
+              \ om te helpen .&nbsp;\n<br /> Donderdag 18 februari, 2015&nbsp;\n<br\
+              \ /> 16:00-05:00 (UK)&nbsp;\n<br /> 11:00 - 12 uur (EST)&nbsp;\n<br\
+              \ /> 08:00-09:00 (PST)&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /natuurlijk-kapitaal[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1ac6f7a1-6fba-4ed4-bd04-f4e2b709bb91
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2015-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2015-02-18T15:00:00+01:00
+          hippogogreen:summary: Natuurlijk kapitaal is een term die misschien nog
+            niet veel te betekenen, maar het heeft de potentie om alle bedrijven beïnvloeden.
+            Die bedrijven direct betrokken bij resource-intensieve gebieden zoals
+            agribusiness, bosbouw, mijnbouw of zijn zich terdege bewust van de impact
+            natuurlijk kapitaal verlies kan hebben op een bedrijf. Toch kan het natuurlijk
+            kapitaal van nieuwe zakelijke kansen te bieden, alsmede voor degenen die
+            direct beïnvloed door het natuurlijke kapitaal en indirect beïnvloed door
+            middel van hun supply chain.
+          hippogogreen:title: Natuurlijk Kapitaal
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:25:25.108+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke voor een marktoverzicht\
+              \ van natuurlijk kapitaal. Onderwerpen zijn onder meer de directe en\
+              \ indirecte effecten van natuurlijk kapitaal op supply chains, zakelijke\
+              \ voordelen van het hebben van een natuurlijk kapitaal strategie, waar\
+              \ het natuurlijk kapitaal binnen een duurzame strategie past, uitdagingen\
+              \ die moeten worden beheerd bij de integratie van het natuurlijk kapitaal\
+              \ in uw duurzaamheidsstrategie en de hulpmiddelen die beschikbaar zijn\
+              \ om te helpen .&nbsp;\n<br /> Donderdag 18 februari, 2015&nbsp;\n<br\
+              \ /> 16:00-05:00 (UK)&nbsp;\n<br /> 11:00 - 12 uur (EST)&nbsp;\n<br\
+              \ /> 08:00-09:00 (PST)&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /natuurlijk-kapitaal[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9ea44917-0d30-43fd-b41b-90e333b11667
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2015-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2015-02-18T15:00:00+01:00
+          hippogogreen:summary: Natuurlijk kapitaal is een term die misschien nog
+            niet veel te betekenen, maar het heeft de potentie om alle bedrijven beïnvloeden.
+            Die bedrijven direct betrokken bij resource-intensieve gebieden zoals
+            agribusiness, bosbouw, mijnbouw of zijn zich terdege bewust van de impact
+            natuurlijk kapitaal verlies kan hebben op een bedrijf. Toch kan het natuurlijk
+            kapitaal van nieuwe zakelijke kansen te bieden, alsmede voor degenen die
+            direct beïnvloed door het natuurlijke kapitaal en indirect beïnvloed door
+            middel van hun supply chain.
+          hippogogreen:title: Natuurlijk Kapitaal
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:25:40.256+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-09T10:25:41.794+02:00
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke voor een marktoverzicht\
+              \ van natuurlijk kapitaal. Onderwerpen zijn onder meer de directe en\
+              \ indirecte effecten van natuurlijk kapitaal op supply chains, zakelijke\
+              \ voordelen van het hebben van een natuurlijk kapitaal strategie, waar\
+              \ het natuurlijk kapitaal binnen een duurzame strategie past, uitdagingen\
+              \ die moeten worden beheerd bij de integratie van het natuurlijk kapitaal\
+              \ in uw duurzaamheidsstrategie en de hulpmiddelen die beschikbaar zijn\
+              \ om te helpen .&nbsp;\n<br /> Donderdag 18 februari, 2015&nbsp;\n<br\
+              \ /> 16:00-05:00 (UK)&nbsp;\n<br /> 11:00 - 12 uur (EST)&nbsp;\n<br\
+              \ /> 08:00-09:00 (PST)&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /01:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 3a1550df-1078-4bc7-b6d4-01d0fa36a2d2
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6925cc32-3f50-4e24-92c4-0fc7310abad3
+      hippotranslation:locale: nl
+      /ces-green:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 1eba3366-c8d7-4f61-8935-16665e51cbaf
+        hippo:name: CES Green
+        /ces-green[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 738a6aaf-e711-42f8-b1bc-ba3b4ee6b0e1
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2015-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2015-01-09T18:00:00+01:00
+          hippogogreen:summary: De wereld van de ontmoetingsplaats voor iedereen die
+            op het bedrijf van technologieën consumenten gedijen is ook de groenste.
+            Trade Show Executive Magazine uitgeroepen tot de 2012 International CES®
+            de beurs met de "Most Innovative Green Initiatieven van Show Management,"
+            en in 2010 ", Noord-Amerika's Groenste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: unpublished
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:28:42.717+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Deelnemers: Een kleinere behuizing met grotere kansen&nbsp;\n\
+              <br /> CES biedt onze industrie de gelegenheid om bijeen te roepen op\
+              \ een bepaald moment, op een plaats, op een eco-vriendelijke blockbuster\
+              \ die jaarlijks reizen minimaliseert.&nbsp;\n<br /> CES aanwezigen met\
+              \ elkaar te verbinden, krijgt zaken gedaan en gezamenlijk voorkomen\
+              \ meer dan 1.970.000 mijl in zakenreizen die zij anders zouden moeten\
+              \ nemen als het niet voor de CES&nbsp;\n<br /> Vertegenwoordigers reizen\
+              \ van meer dan 150 landen, biedt een werkelijk wereldwijde zakelijke\
+              \ mogelijkheid.&nbsp;\n<br /> Hoe groen is het International CES?&nbsp;\n\
+              <br /> De 2013 International CES omvatte een breed scala aan groene\
+              \ initiatieven als onderdeel van onze inspanningen om afval te verminderen\
+              \ en terug te geven aan de lokale gemeenschap van Las Vegas.&nbsp;\n\
+              <br /> Verzamelde meer dan 108.000 vierkante meter aan tonen graphics\
+              \ met een opnamesnelheid van 81 procent te hergebruiken en terug te\
+              \ geven aan de lokale gemeenschap&nbsp;\n<br /> 38.000 vierkante meter\
+              \ aan magnetische banners - meer dan &pound; 19.000&nbsp;\n<br /> 21.600\
+              \ vierkante meter aan magnetische banners&nbsp;\n<br /> Meer dan 48.000\
+              \ vierkante meter van de andere tonen graphics - tot 200 procent&nbsp;\n\
+              <br /> &pound; 37.800 van toont publicaties&nbsp;\n<br /> Produceerde\
+              \ meer dan 243.000 pashouders gemaakt van vorig jaar vinyl banners en\
+              \ meer dan 58.000 pashouders verzameld na de show te hergebruiken voor\
+              \ een derde leven&nbsp;\n<br /> Toegenomen totale tonen hergebruik /\
+              \ recycling rate 76-81 procent&nbsp;\n<br /> Gebruik van recycleerbare\
+              \ tapijt voor alle beursvloer gangpaden, Techzones, registratie gebieden\
+              \ en turnkey-booth pakketten&nbsp;\n<br /> Het gebruik van kant en klare\
+              \ stand pakketten met recyclebare panelen en afbeeldingen gedrukt met\
+              \ soja-inkt&nbsp;\n<br /> Mandaat van papierloze exposant persmappen\
+              \ online, of via USB of DVD&nbsp;\n<br /> Materialen worden geprint\
+              \ op gerecycled papier, te gebruiken op basis van soja inkt en voldoen\
+              \ aan de normen van het Sustainable Initiative Forest en Forest Stewardship\
+              \ Council&nbsp;\n<br /> Zorg ervoor dat u een kijkje nemen op de 2014\
+              \ CES Groene Gids voor informatie over CES groene exposanten, de CES\
+              \ vergroening initiatieven, en CEA&#39;s eCycling en duurzaamheid initiatieven.\
+              \ Voor gids van vorig jaar, zie de 2013 CES Groene Gids.&nbsp;</p> \n\
+              <p>Op 6 januari 2014, kondigde de voortzetting van de traditie te kennen\
+              \ verschillende lokale Las Vegas organisaties met fondsen voor duurzame\
+              \ projecten. Dit jaar, CEA doneert $ 10.000 aan de Universiteit van\
+              \ Nevada, Las Vegas (UNLV) DesertSol zonnehuis en $ 25.000 aan het Springs\
+              \ Preserve naar de DesertSol project.&nbsp;\n<br /> De DesertSol zonnehuis,\
+              \ gecre&euml;erd door UNLV, was de tweede plaats winnaar, en de eerste\
+              \ onder Amerikaanse organisaties, bij de 2013 US Department of Energy\
+              \ (DOE) Solar Decathlon. Deze donatie is aan de University of Nevada\
+              \ DesertSol team op hun succes feliciteren en helpen verder de DesertSol\
+              \ project.&nbsp;\n<br /> CEA&#39;s donatie aan het Springs Preserve\
+              \ zal de verhuizing van DesertSol naar de nieuwe locatie te helpen.\
+              \ De Springs Preserve is een faciliteit van wereldklasse die gemeenschap,\
+              \ behoud en duurzaamheid bevordert in de regio Zuid-Nevada, en is &#39;s\
+              \ werelds grootste campus van platina nominale US Green Building Council\
+              \ LEED gebouwen. De Preserve is bedoeld om bezoekers te inspireren om\
+              \ groen wonen praktijken en technologie&euml;n te implementeren in hun\
+              \ eigen huis, en voor het huis om een ​​site voor verder onderzoek en\
+              \ de ontwikkeling van hernieuwbare energie voor UNLV docenten, studenten\
+              \ en professionals uit de industrie blijven.&nbsp;\n<br /> &nbsp;&nbsp;\n\
+              <br /> Op de CES 2013, CEA maakte twee $ 50.000 donaties aan lokale\
+              \ Las Vegas organisaties, Green Chips en het Las Vegas Convention and\
+              \ Visitors Authority (LVCVA). Green Chips gebruikt de donatie van CEA\
+              \ om een zonne-installatie project aan het iconische &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; teken op Las Vegas Boulevard ondersteunen.\
+              \ De LVCVA gebruikten hun donatie van CEA tot enkele elektrische voertuigen\
+              \ laadstations in het Las Vegas Convention Center te installeren.&nbsp;</p>\
+              \ \n<p>&nbsp;</p> \n<p>Word opgeladen Over Electric Vehicles&nbsp;\n\
+              <br /> De GoElectricDrive TechZone in het Las Vegas Convention en het\
+              \ World Trade Center (LVCC), North Hall vitrines een volledig gamma\
+              \ van hoge en lage snelheid elektrische voertuigen, energie-opslag-apparaten\
+              \ en het opladen oplossingen. Gesponsord door de Electric Drive Transportation\
+              \ Association, dit TechZone belicht een oppervlakte van een groot potentieel\
+              \ en groei voor de industrie als elektrische auto&#39;s zijn snel aan\
+              \ populariteit wint bij de consument op zoek naar meer duurzaam te leven\
+              \ door het gebruik van alternatief vervoer.&nbsp;\n<br /> CEA en Groen&nbsp;\n\
+              <br /> Van trends in milieuvriendelijke televisies te verlichten detail\
+              \ over de houding van consumenten over energie-effici&euml;ntie met\
+              \ consumentenelektronica, CEA heeft het laatste onderzoek. Bezoek CE.org/green\
+              \ voor meer informatie.&nbsp;\n<br /> Greener Gadgets&nbsp;\n<br />\
+              \ CEA werkt GreenerGadgets.org, een online bron voor de consument dat\
+              \ de industrie trend naar &quot;groenere gadgets&quot; hoogtepunten\
+              \ - kleiner, slimmer, meer energie-effici&euml;nte apparaten die meer\
+              \ dan ooit kan doen. Tech-savvy shoppers hebben nu meer milieuvriendelijke\
+              \ opties en deze bron heeft waardevolle informatie over hoe u groene\
+              \ elektronica te kopen, effici&euml;nt te gebruiken en te recyclen aan\
+              \ het einde van hun levensduur.&nbsp;\n<br /> De site bevat ook een\
+              \ krachtige energie gebruik rekenmachine met de meest up-to-date producten\
+              \ en energieverbruik cijfers om consumenten te helpen beter inzicht\
+              \ krijgen in hun energieverbruik, evenals een recycling locator tool.\
+              \ Als het gaat om end-of-life elektronica, veel mensen houden zich bezig\
+              \ met wat er gebeurt nadat ze afzetten van hun producten. De recycling\
+              \ locator database bevat industrie programma&#39;s, die strenge normen\
+              \ en derden gecertificeerde recyclingbedrijven te gebruiken, zodat er\
+              \ zeker van uw apparaat kan nu veilig worden gerecycled.&nbsp;</p> \n\
+              <p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e8fd85af-3c91-4843-93f2-57b34e9bf800
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2015-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2015-01-09T18:00:00+01:00
+          hippogogreen:summary: De wereld van de ontmoetingsplaats voor iedereen die
+            op het bedrijf van technologieën consumenten gedijen is ook de groenste.
+            Trade Show Executive Magazine uitgeroepen tot de 2012 International CES®
+            de beurs met de "Most Innovative Green Initiatieven van Show Management,"
+            en in 2010 ", Noord-Amerika's Groenste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: draft
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:28:05.448+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Deelnemers: Een kleinere behuizing met grotere kansen&nbsp;\n\
+              <br /> CES biedt onze industrie de gelegenheid om bijeen te roepen op\
+              \ een bepaald moment, op een plaats, op een eco-vriendelijke blockbuster\
+              \ die jaarlijks reizen minimaliseert.&nbsp;\n<br /> CES aanwezigen met\
+              \ elkaar te verbinden, krijgt zaken gedaan en gezamenlijk voorkomen\
+              \ meer dan 1.970.000 mijl in zakenreizen die zij anders zouden moeten\
+              \ nemen als het niet voor de CES&nbsp;\n<br /> Vertegenwoordigers reizen\
+              \ van meer dan 150 landen, biedt een werkelijk wereldwijde zakelijke\
+              \ mogelijkheid.&nbsp;\n<br /> Hoe groen is het International CES?&nbsp;\n\
+              <br /> De 2013 International CES omvatte een breed scala aan groene\
+              \ initiatieven als onderdeel van onze inspanningen om afval te verminderen\
+              \ en terug te geven aan de lokale gemeenschap van Las Vegas.&nbsp;\n\
+              <br /> Verzamelde meer dan 108.000 vierkante meter aan tonen graphics\
+              \ met een opnamesnelheid van 81 procent te hergebruiken en terug te\
+              \ geven aan de lokale gemeenschap&nbsp;\n<br /> 38.000 vierkante meter\
+              \ aan magnetische banners - meer dan &pound; 19.000&nbsp;\n<br /> 21.600\
+              \ vierkante meter aan magnetische banners&nbsp;\n<br /> Meer dan 48.000\
+              \ vierkante meter van de andere tonen graphics - tot 200 procent&nbsp;\n\
+              <br /> &pound; 37.800 van toont publicaties&nbsp;\n<br /> Produceerde\
+              \ meer dan 243.000 pashouders gemaakt van vorig jaar vinyl banners en\
+              \ meer dan 58.000 pashouders verzameld na de show te hergebruiken voor\
+              \ een derde leven&nbsp;\n<br /> Toegenomen totale tonen hergebruik /\
+              \ recycling rate 76-81 procent&nbsp;\n<br /> Gebruik van recycleerbare\
+              \ tapijt voor alle beursvloer gangpaden, Techzones, registratie gebieden\
+              \ en turnkey-booth pakketten&nbsp;\n<br /> Het gebruik van kant en klare\
+              \ stand pakketten met recyclebare panelen en afbeeldingen gedrukt met\
+              \ soja-inkt&nbsp;\n<br /> Mandaat van papierloze exposant persmappen\
+              \ online, of via USB of DVD&nbsp;\n<br /> Materialen worden geprint\
+              \ op gerecycled papier, te gebruiken op basis van soja inkt en voldoen\
+              \ aan de normen van het Sustainable Initiative Forest en Forest Stewardship\
+              \ Council&nbsp;\n<br /> Zorg ervoor dat u een kijkje nemen op de 2014\
+              \ CES Groene Gids voor informatie over CES groene exposanten, de CES\
+              \ vergroening initiatieven, en CEA&#39;s eCycling en duurzaamheid initiatieven.\
+              \ Voor gids van vorig jaar, zie de 2013 CES Groene Gids.&nbsp;</p> \n\
+              <p>Op 6 januari 2014, kondigde de voortzetting van de traditie te kennen\
+              \ verschillende lokale Las Vegas organisaties met fondsen voor duurzame\
+              \ projecten. Dit jaar, CEA doneert $ 10.000 aan de Universiteit van\
+              \ Nevada, Las Vegas (UNLV) DesertSol zonnehuis en $ 25.000 aan het Springs\
+              \ Preserve naar de DesertSol project.&nbsp;\n<br /> De DesertSol zonnehuis,\
+              \ gecre&euml;erd door UNLV, was de tweede plaats winnaar, en de eerste\
+              \ onder Amerikaanse organisaties, bij de 2013 US Department of Energy\
+              \ (DOE) Solar Decathlon. Deze donatie is aan de University of Nevada\
+              \ DesertSol team op hun succes feliciteren en helpen verder de DesertSol\
+              \ project.&nbsp;\n<br /> CEA&#39;s donatie aan het Springs Preserve\
+              \ zal de verhuizing van DesertSol naar de nieuwe locatie te helpen.\
+              \ De Springs Preserve is een faciliteit van wereldklasse die gemeenschap,\
+              \ behoud en duurzaamheid bevordert in de regio Zuid-Nevada, en is &#39;s\
+              \ werelds grootste campus van platina nominale US Green Building Council\
+              \ LEED gebouwen. De Preserve is bedoeld om bezoekers te inspireren om\
+              \ groen wonen praktijken en technologie&euml;n te implementeren in hun\
+              \ eigen huis, en voor het huis om een ​​site voor verder onderzoek en\
+              \ de ontwikkeling van hernieuwbare energie voor UNLV docenten, studenten\
+              \ en professionals uit de industrie blijven.&nbsp;\n<br /> &nbsp;&nbsp;\n\
+              <br /> Op de CES 2013, CEA maakte twee $ 50.000 donaties aan lokale\
+              \ Las Vegas organisaties, Green Chips en het Las Vegas Convention and\
+              \ Visitors Authority (LVCVA). Green Chips gebruikt de donatie van CEA\
+              \ om een zonne-installatie project aan het iconische &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; teken op Las Vegas Boulevard ondersteunen.\
+              \ De LVCVA gebruikten hun donatie van CEA tot enkele elektrische voertuigen\
+              \ laadstations in het Las Vegas Convention Center te installeren.&nbsp;</p>\
+              \ \n<p>&nbsp;</p> \n<p>Word opgeladen Over Electric Vehicles&nbsp;\n\
+              <br /> De GoElectricDrive TechZone in het Las Vegas Convention en het\
+              \ World Trade Center (LVCC), North Hall vitrines een volledig gamma\
+              \ van hoge en lage snelheid elektrische voertuigen, energie-opslag-apparaten\
+              \ en het opladen oplossingen. Gesponsord door de Electric Drive Transportation\
+              \ Association, dit TechZone belicht een oppervlakte van een groot potentieel\
+              \ en groei voor de industrie als elektrische auto&#39;s zijn snel aan\
+              \ populariteit wint bij de consument op zoek naar meer duurzaam te leven\
+              \ door het gebruik van alternatief vervoer.&nbsp;\n<br /> CEA en Groen&nbsp;\n\
+              <br /> Van trends in milieuvriendelijke televisies te verlichten detail\
+              \ over de houding van consumenten over energie-effici&euml;ntie met\
+              \ consumentenelektronica, CEA heeft het laatste onderzoek. Bezoek CE.org/green\
+              \ voor meer informatie.&nbsp;\n<br /> Greener Gadgets&nbsp;\n<br />\
+              \ CEA werkt GreenerGadgets.org, een online bron voor de consument dat\
+              \ de industrie trend naar &quot;groenere gadgets&quot; hoogtepunten\
+              \ - kleiner, slimmer, meer energie-effici&euml;nte apparaten die meer\
+              \ dan ooit kan doen. Tech-savvy shoppers hebben nu meer milieuvriendelijke\
+              \ opties en deze bron heeft waardevolle informatie over hoe u groene\
+              \ elektronica te kopen, effici&euml;nt te gebruiken en te recyclen aan\
+              \ het einde van hun levensduur.&nbsp;\n<br /> De site bevat ook een\
+              \ krachtige energie gebruik rekenmachine met de meest up-to-date producten\
+              \ en energieverbruik cijfers om consumenten te helpen beter inzicht\
+              \ krijgen in hun energieverbruik, evenals een recycling locator tool.\
+              \ Als het gaat om end-of-life elektronica, veel mensen houden zich bezig\
+              \ met wat er gebeurt nadat ze afzetten van hun producten. De recycling\
+              \ locator database bevat industrie programma&#39;s, die strenge normen\
+              \ en derden gecertificeerde recyclingbedrijven te gebruiken, zodat er\
+              \ zeker van uw apparaat kan nu veilig worden gerecycled.&nbsp;</p> \n\
+              <p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 74766d8b-2586-4165-af20-4f0783fef58d
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2015-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2015-01-09T18:00:00+01:00
+          hippogogreen:summary: De wereld van de ontmoetingsplaats voor iedereen die
+            op het bedrijf van technologieën consumenten gedijen is ook de groenste.
+            Trade Show Executive Magazine uitgeroepen tot de 2012 International CES®
+            de beurs met de "Most Innovative Green Initiatieven van Show Management,"
+            en in 2010 ", Noord-Amerika's Groenste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: published
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2014-10-09T10:28:42.717+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-10-09T10:28:44.514+02:00
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Deelnemers: Een kleinere behuizing met grotere kansen&nbsp;\n\
+              <br /> CES biedt onze industrie de gelegenheid om bijeen te roepen op\
+              \ een bepaald moment, op een plaats, op een eco-vriendelijke blockbuster\
+              \ die jaarlijks reizen minimaliseert.&nbsp;\n<br /> CES aanwezigen met\
+              \ elkaar te verbinden, krijgt zaken gedaan en gezamenlijk voorkomen\
+              \ meer dan 1.970.000 mijl in zakenreizen die zij anders zouden moeten\
+              \ nemen als het niet voor de CES&nbsp;\n<br /> Vertegenwoordigers reizen\
+              \ van meer dan 150 landen, biedt een werkelijk wereldwijde zakelijke\
+              \ mogelijkheid.&nbsp;\n<br /> Hoe groen is het International CES?&nbsp;\n\
+              <br /> De 2013 International CES omvatte een breed scala aan groene\
+              \ initiatieven als onderdeel van onze inspanningen om afval te verminderen\
+              \ en terug te geven aan de lokale gemeenschap van Las Vegas.&nbsp;\n\
+              <br /> Verzamelde meer dan 108.000 vierkante meter aan tonen graphics\
+              \ met een opnamesnelheid van 81 procent te hergebruiken en terug te\
+              \ geven aan de lokale gemeenschap&nbsp;\n<br /> 38.000 vierkante meter\
+              \ aan magnetische banners - meer dan &pound; 19.000&nbsp;\n<br /> 21.600\
+              \ vierkante meter aan magnetische banners&nbsp;\n<br /> Meer dan 48.000\
+              \ vierkante meter van de andere tonen graphics - tot 200 procent&nbsp;\n\
+              <br /> &pound; 37.800 van toont publicaties&nbsp;\n<br /> Produceerde\
+              \ meer dan 243.000 pashouders gemaakt van vorig jaar vinyl banners en\
+              \ meer dan 58.000 pashouders verzameld na de show te hergebruiken voor\
+              \ een derde leven&nbsp;\n<br /> Toegenomen totale tonen hergebruik /\
+              \ recycling rate 76-81 procent&nbsp;\n<br /> Gebruik van recycleerbare\
+              \ tapijt voor alle beursvloer gangpaden, Techzones, registratie gebieden\
+              \ en turnkey-booth pakketten&nbsp;\n<br /> Het gebruik van kant en klare\
+              \ stand pakketten met recyclebare panelen en afbeeldingen gedrukt met\
+              \ soja-inkt&nbsp;\n<br /> Mandaat van papierloze exposant persmappen\
+              \ online, of via USB of DVD&nbsp;\n<br /> Materialen worden geprint\
+              \ op gerecycled papier, te gebruiken op basis van soja inkt en voldoen\
+              \ aan de normen van het Sustainable Initiative Forest en Forest Stewardship\
+              \ Council&nbsp;\n<br /> Zorg ervoor dat u een kijkje nemen op de 2014\
+              \ CES Groene Gids voor informatie over CES groene exposanten, de CES\
+              \ vergroening initiatieven, en CEA&#39;s eCycling en duurzaamheid initiatieven.\
+              \ Voor gids van vorig jaar, zie de 2013 CES Groene Gids.&nbsp;</p> \n\
+              <p>Op 6 januari 2014, kondigde de voortzetting van de traditie te kennen\
+              \ verschillende lokale Las Vegas organisaties met fondsen voor duurzame\
+              \ projecten. Dit jaar, CEA doneert $ 10.000 aan de Universiteit van\
+              \ Nevada, Las Vegas (UNLV) DesertSol zonnehuis en $ 25.000 aan het Springs\
+              \ Preserve naar de DesertSol project.&nbsp;\n<br /> De DesertSol zonnehuis,\
+              \ gecre&euml;erd door UNLV, was de tweede plaats winnaar, en de eerste\
+              \ onder Amerikaanse organisaties, bij de 2013 US Department of Energy\
+              \ (DOE) Solar Decathlon. Deze donatie is aan de University of Nevada\
+              \ DesertSol team op hun succes feliciteren en helpen verder de DesertSol\
+              \ project.&nbsp;\n<br /> CEA&#39;s donatie aan het Springs Preserve\
+              \ zal de verhuizing van DesertSol naar de nieuwe locatie te helpen.\
+              \ De Springs Preserve is een faciliteit van wereldklasse die gemeenschap,\
+              \ behoud en duurzaamheid bevordert in de regio Zuid-Nevada, en is &#39;s\
+              \ werelds grootste campus van platina nominale US Green Building Council\
+              \ LEED gebouwen. De Preserve is bedoeld om bezoekers te inspireren om\
+              \ groen wonen praktijken en technologie&euml;n te implementeren in hun\
+              \ eigen huis, en voor het huis om een ​​site voor verder onderzoek en\
+              \ de ontwikkeling van hernieuwbare energie voor UNLV docenten, studenten\
+              \ en professionals uit de industrie blijven.&nbsp;\n<br /> &nbsp;&nbsp;\n\
+              <br /> Op de CES 2013, CEA maakte twee $ 50.000 donaties aan lokale\
+              \ Las Vegas organisaties, Green Chips en het Las Vegas Convention and\
+              \ Visitors Authority (LVCVA). Green Chips gebruikt de donatie van CEA\
+              \ om een zonne-installatie project aan het iconische &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; teken op Las Vegas Boulevard ondersteunen.\
+              \ De LVCVA gebruikten hun donatie van CEA tot enkele elektrische voertuigen\
+              \ laadstations in het Las Vegas Convention Center te installeren.&nbsp;</p>\
+              \ \n<p>&nbsp;</p> \n<p>Word opgeladen Over Electric Vehicles&nbsp;\n\
+              <br /> De GoElectricDrive TechZone in het Las Vegas Convention en het\
+              \ World Trade Center (LVCC), North Hall vitrines een volledig gamma\
+              \ van hoge en lage snelheid elektrische voertuigen, energie-opslag-apparaten\
+              \ en het opladen oplossingen. Gesponsord door de Electric Drive Transportation\
+              \ Association, dit TechZone belicht een oppervlakte van een groot potentieel\
+              \ en groei voor de industrie als elektrische auto&#39;s zijn snel aan\
+              \ populariteit wint bij de consument op zoek naar meer duurzaam te leven\
+              \ door het gebruik van alternatief vervoer.&nbsp;\n<br /> CEA en Groen&nbsp;\n\
+              <br /> Van trends in milieuvriendelijke televisies te verlichten detail\
+              \ over de houding van consumenten over energie-effici&euml;ntie met\
+              \ consumentenelektronica, CEA heeft het laatste onderzoek. Bezoek CE.org/green\
+              \ voor meer informatie.&nbsp;\n<br /> Greener Gadgets&nbsp;\n<br />\
+              \ CEA werkt GreenerGadgets.org, een online bron voor de consument dat\
+              \ de industrie trend naar &quot;groenere gadgets&quot; hoogtepunten\
+              \ - kleiner, slimmer, meer energie-effici&euml;nte apparaten die meer\
+              \ dan ooit kan doen. Tech-savvy shoppers hebben nu meer milieuvriendelijke\
+              \ opties en deze bron heeft waardevolle informatie over hoe u groene\
+              \ elektronica te kopen, effici&euml;nt te gebruiken en te recyclen aan\
+              \ het einde van hun levensduur.&nbsp;\n<br /> De site bevat ook een\
+              \ krachtige energie gebruik rekenmachine met de meest up-to-date producten\
+              \ en energieverbruik cijfers om consumenten te helpen beter inzicht\
+              \ krijgen in hun energieverbruik, evenals een recycling locator tool.\
+              \ Als het gaat om end-of-life elektronica, veel mensen houden zich bezig\
+              \ met wat er gebeurt nadat ze afzetten van hun producten. De recycling\
+              \ locator database bevat industrie programma&#39;s, die strenge normen\
+              \ en derden gecertificeerde recyclingbedrijven te gebruiken, zodat er\
+              \ zeker van uw apparaat kan nu veilig worden gerecycled.&nbsp;</p> \n\
+              <p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+  /2016:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: e3ef8a46-212c-49ee-8c42-5069b637bdf8
+    hippostd:foldertype: [new-event-folder, new-event]
+    hippotranslation:id: 6859d934-66c3-4123-8f9f-6a3b3fe4863b
+    hippotranslation:locale: nl
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 493645cf-b0ea-4080-a065-8db7bf25b14a
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 13c01d92-dad8-4a70-a408-4d03f18dacc6
+      hippotranslation:locale: nl
+      /green-living-show:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ad43169c-2d4a-4de3-89e9-3264ec49d7ab
+        hippo:name: Green Living Show
+        /green-living-show[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: f7b3a6fa-1b47-4e3c-8a54-478d3abc25f4
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home, Kitchen]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: De Green Living Show is Canada's grootste groene consumentenbeurs
+            gewijd aan het opleiden van het publiek over eenvoudige en werkbare oplossingen
+            voor het leiden van een duurzame levensstijl. Bezoekers kunnen winkelen
+            in meer dan 400 exposities, eet lokaal voedsel bereid door gerenommeerde
+            chefs, proeven milieuvriendelijke wijnen en genieten van een gevarieerde
+            selectie van demonstraties, presentaties en activiteiten. Veel plezier
+            voor het hele gezin.
+          hippogogreen:title: Green Living Show
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:31.045+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Exposanten productcategorie&euml;n:&nbsp;
+              <br /> Energie, Voedsel en dranken, Green Building, Transport, Eco-Toerisme &amp; Recreatie, Huis &amp; Tuin, Health &amp; Wellness, Mode &amp; Beauty, Kinderen, huisdieren, Groene Zaken, Milieu Opvoeders, ENGO&#39;s en non-profitorganisaties.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c0384e91-c4cb-458d-98d4-65c1ea91a273
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home, Kitchen]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: De Green Living Show is Canada's grootste groene consumentenbeurs
+            gewijd aan het opleiden van het publiek over eenvoudige en werkbare oplossingen
+            voor het leiden van een duurzame levensstijl. Bezoekers kunnen winkelen
+            in meer dan 400 exposities, eet lokaal voedsel bereid door gerenommeerde
+            chefs, proeven milieuvriendelijke wijnen en genieten van een gevarieerde
+            selectie van demonstraties, presentaties en activiteiten. Veel plezier
+            voor het hele gezin.
+          hippogogreen:title: Green Living Show
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:22.650+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Exposanten productcategorie&euml;n:&nbsp;
+              <br /> Energie, Voedsel en dranken, Green Building, Transport, Eco-Toerisme &amp; Recreatie, Huis &amp; Tuin, Health &amp; Wellness, Mode &amp; Beauty, Kinderen, huisdieren, Groene Zaken, Milieu Opvoeders, ENGO&#39;s en non-profitorganisaties.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bc4ad150-1660-4969-9bdf-49fe4f18bd73
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home, Kitchen]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: De Green Living Show is Canada's grootste groene consumentenbeurs
+            gewijd aan het opleiden van het publiek over eenvoudige en werkbare oplossingen
+            voor het leiden van een duurzame levensstijl. Bezoekers kunnen winkelen
+            in meer dan 400 exposities, eet lokaal voedsel bereid door gerenommeerde
+            chefs, proeven milieuvriendelijke wijnen en genieten van een gevarieerde
+            selectie van demonstraties, presentaties en activiteiten. Veel plezier
+            voor het hele gezin.
+          hippogogreen:title: Green Living Show
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:31.045+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:31:33.501+02:00
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Exposanten productcategorie&euml;n:&nbsp;
+              <br /> Energie, Voedsel en dranken, Green Building, Transport, Eco-Toerisme &amp; Recreatie, Huis &amp; Tuin, Health &amp; Wellness, Mode &amp; Beauty, Kinderen, huisdieren, Groene Zaken, Milieu Opvoeders, ENGO&#39;s en non-profitorganisaties.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /green-festival:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 727901d4-7330-45e5-886f-c46955c7061d
+        hippo:name: Green Festival
+        /green-festival[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 9f0b91ca-0dcb-4ddb-9dac-80f988123325
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival lanceert zijn derde jaar
+            26-27 april op een nieuwe locatie, Pier 94! Bij Green Festival®, er is
+            iets voor iedereen die geïnteresseerd in het leven van een duurzamer en
+            gezonder leven. Ervaar de breedste selectie van producten en diensten
+            groen te werken, spelen en groen wonen groen - van voedsel, mode en gezondheid,
+            energie, bouw en ontwerp. Geniet veganistisch en vegetarisch koken demo's,
+            educatieve activiteiten voor kinderen en gezinnen, panelen met inspirerende
+            sprekers, en live muziek en entertainment. Shop in onze unieke markt van
+            meer dan 300 eco-vriendelijke bedrijven - alles van alle-natuurlijke producten
+            voor lichaamsverzorging en biologische kleding aan Fair Trade cadeaus,
+            mooi huis renovaties gemaakt uit hernieuwbare bronnen, plus veganistisch
+            en vegetarische aanbod op basis van organische, niet-GGO of lokale, ambachtelijke
+            gerechten.
+          hippogogreen:title: Green Festival
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:43.066+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Voor de afgelopen 13 jaar, heeft Green Festival is
+              gepleegd aan het helpen van mensen in Amerika oplossingen voor onze
+              families en gemeenschappen gezonder te maken te vinden - sociaal, economisch
+              en ecologisch. Bezoek ons ​​op de grootste en langstlopende duurzaamheid
+              evenement in het land, en vieren Earth Month met de beste in groen wonen.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0e726333-d017-44c7-9025-a857b7f07d19
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival lanceert zijn derde jaar
+            26-27 april op een nieuwe locatie, Pier 94! Bij Green Festival®, er is
+            iets voor iedereen die geïnteresseerd in het leven van een duurzamer en
+            gezonder leven. Ervaar de breedste selectie van producten en diensten
+            groen te werken, spelen en groen wonen groen - van voedsel, mode en gezondheid,
+            energie, bouw en ontwerp. Geniet veganistisch en vegetarisch koken demo's,
+            educatieve activiteiten voor kinderen en gezinnen, panelen met inspirerende
+            sprekers, en live muziek en entertainment. Shop in onze unieke markt van
+            meer dan 300 eco-vriendelijke bedrijven - alles van alle-natuurlijke producten
+            voor lichaamsverzorging en biologische kleding aan Fair Trade cadeaus,
+            mooi huis renovaties gemaakt uit hernieuwbare bronnen, plus veganistisch
+            en vegetarische aanbod op basis van organische, niet-GGO of lokale, ambachtelijke
+            gerechten.
+          hippogogreen:title: Green Festival
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:35.738+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Voor de afgelopen 13 jaar, heeft Green Festival is
+              gepleegd aan het helpen van mensen in Amerika oplossingen voor onze
+              families en gemeenschappen gezonder te maken te vinden - sociaal, economisch
+              en ecologisch. Bezoek ons ​​op de grootste en langstlopende duurzaamheid
+              evenement in het land, en vieren Earth Month met de beste in groen wonen.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 890b3b67-5b12-4382-9a36-af922fced24b
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival lanceert zijn derde jaar
+            26-27 april op een nieuwe locatie, Pier 94! Bij Green Festival®, er is
+            iets voor iedereen die geïnteresseerd in het leven van een duurzamer en
+            gezonder leven. Ervaar de breedste selectie van producten en diensten
+            groen te werken, spelen en groen wonen groen - van voedsel, mode en gezondheid,
+            energie, bouw en ontwerp. Geniet veganistisch en vegetarisch koken demo's,
+            educatieve activiteiten voor kinderen en gezinnen, panelen met inspirerende
+            sprekers, en live muziek en entertainment. Shop in onze unieke markt van
+            meer dan 300 eco-vriendelijke bedrijven - alles van alle-natuurlijke producten
+            voor lichaamsverzorging en biologische kleding aan Fair Trade cadeaus,
+            mooi huis renovaties gemaakt uit hernieuwbare bronnen, plus veganistisch
+            en vegetarische aanbod op basis van organische, niet-GGO of lokale, ambachtelijke
+            gerechten.
+          hippogogreen:title: Green Festival
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:43.066+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:31:45.368+02:00
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Voor de afgelopen 13 jaar, heeft Green Festival is
+              gepleegd aan het helpen van mensen in Amerika oplossingen voor onze
+              families en gemeenschappen gezonder te maken te vinden - sociaal, economisch
+              en ecologisch. Bezoek ons ​​op de grootste en langstlopende duurzaamheid
+              evenement in het land, en vieren Earth Month met de beste in groen wonen.&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 9586e40e-2826-4265-9643-18a05e69cfec
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 79ce5b01-4965-4e1e-888d-7e14dbf61159
+      hippotranslation:locale: nl
+      /natuurlijk-kapitaal:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ee72bfe6-a9b3-4d3b-985d-03fd2f5bd2c0
+        hippo:name: Natuurlijk Kapitaal
+        /natuurlijk-kapitaal[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: a7e6e753-c59b-4abf-bdd7-bf50815261ed
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Natuurlijk kapitaal is een term die misschien nog
+            niet veel te betekenen, maar het heeft de potentie om alle bedrijven beïnvloeden.
+            Die bedrijven direct betrokken bij resource-intensieve gebieden zoals
+            agribusiness, bosbouw, mijnbouw of zijn zich terdege bewust van de impact
+            natuurlijk kapitaal verlies kan hebben op een bedrijf. Toch kan het natuurlijk
+            kapitaal van nieuwe zakelijke kansen te bieden, alsmede voor degenen die
+            direct beïnvloed door het natuurlijke kapitaal en indirect beïnvloed door
+            middel van hun supply chain.
+          hippogogreen:title: Natuurlijk Kapitaal
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:57.246+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b30d9f8a-ba04-4024-8f62-545106c63192
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke voor een marktoverzicht\
+              \ van natuurlijk kapitaal. Onderwerpen zijn onder meer de directe en\
+              \ indirecte effecten van natuurlijk kapitaal op supply chains, zakelijke\
+              \ voordelen van het hebben van een natuurlijk kapitaal strategie, waar\
+              \ het natuurlijk kapitaal binnen een duurzame strategie past, uitdagingen\
+              \ die moeten worden beheerd bij de integratie van het natuurlijk kapitaal\
+              \ in uw duurzaamheidsstrategie en de hulpmiddelen die beschikbaar zijn\
+              \ om te helpen .&nbsp;\n<br /> Donderdag 18 februari, 2015&nbsp;\n<br\
+              \ /> 16:00-05:00 (UK)&nbsp;\n<br /> 11:00 - 12 uur (EST)&nbsp;\n<br\
+              \ /> 08:00-09:00 (PST)&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /natuurlijk-kapitaal[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9533c5b0-918c-4ce1-96c1-32fcd2d706a2
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Natuurlijk kapitaal is een term die misschien nog
+            niet veel te betekenen, maar het heeft de potentie om alle bedrijven beïnvloeden.
+            Die bedrijven direct betrokken bij resource-intensieve gebieden zoals
+            agribusiness, bosbouw, mijnbouw of zijn zich terdege bewust van de impact
+            natuurlijk kapitaal verlies kan hebben op een bedrijf. Toch kan het natuurlijk
+            kapitaal van nieuwe zakelijke kansen te bieden, alsmede voor degenen die
+            direct beïnvloed door het natuurlijke kapitaal en indirect beïnvloed door
+            middel van hun supply chain.
+          hippogogreen:title: Natuurlijk Kapitaal
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:49.623+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b30d9f8a-ba04-4024-8f62-545106c63192
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke voor een marktoverzicht\
+              \ van natuurlijk kapitaal. Onderwerpen zijn onder meer de directe en\
+              \ indirecte effecten van natuurlijk kapitaal op supply chains, zakelijke\
+              \ voordelen van het hebben van een natuurlijk kapitaal strategie, waar\
+              \ het natuurlijk kapitaal binnen een duurzame strategie past, uitdagingen\
+              \ die moeten worden beheerd bij de integratie van het natuurlijk kapitaal\
+              \ in uw duurzaamheidsstrategie en de hulpmiddelen die beschikbaar zijn\
+              \ om te helpen .&nbsp;\n<br /> Donderdag 18 februari, 2015&nbsp;\n<br\
+              \ /> 16:00-05:00 (UK)&nbsp;\n<br /> 11:00 - 12 uur (EST)&nbsp;\n<br\
+              \ /> 08:00-09:00 (PST)&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /natuurlijk-kapitaal[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2447e6c1-8db5-484e-9c61-c568d0a1fe10
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Natuurlijk kapitaal is een term die misschien nog
+            niet veel te betekenen, maar het heeft de potentie om alle bedrijven beïnvloeden.
+            Die bedrijven direct betrokken bij resource-intensieve gebieden zoals
+            agribusiness, bosbouw, mijnbouw of zijn zich terdege bewust van de impact
+            natuurlijk kapitaal verlies kan hebben op een bedrijf. Toch kan het natuurlijk
+            kapitaal van nieuwe zakelijke kansen te bieden, alsmede voor degenen die
+            direct beïnvloed door het natuurlijke kapitaal en indirect beïnvloed door
+            middel van hun supply chain.
+          hippogogreen:title: Natuurlijk Kapitaal
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:31:57.246+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:31:59.984+02:00
+          hippotranslation:id: b30d9f8a-ba04-4024-8f62-545106c63192
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke voor een marktoverzicht\
+              \ van natuurlijk kapitaal. Onderwerpen zijn onder meer de directe en\
+              \ indirecte effecten van natuurlijk kapitaal op supply chains, zakelijke\
+              \ voordelen van het hebben van een natuurlijk kapitaal strategie, waar\
+              \ het natuurlijk kapitaal binnen een duurzame strategie past, uitdagingen\
+              \ die moeten worden beheerd bij de integratie van het natuurlijk kapitaal\
+              \ in uw duurzaamheidsstrategie en de hulpmiddelen die beschikbaar zijn\
+              \ om te helpen .&nbsp;\n<br /> Donderdag 18 februari, 2015&nbsp;\n<br\
+              \ /> 16:00-05:00 (UK)&nbsp;\n<br /> 11:00 - 12 uur (EST)&nbsp;\n<br\
+              \ /> 08:00-09:00 (PST)&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /01:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 5cb4e47e-9683-4656-b97a-2318a40f9bde
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6e3866c3-332c-4531-aa4b-295b1162e724
+      hippotranslation:locale: nl
+      /ces-green:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 5b8ee13a-4ba8-4328-ba74-07e5c0398169
+        hippo:name: CES Green
+        /ces-green[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: f65cd522-1959-4598-8956-5a44253cd0f4
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2016-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: De wereld van de ontmoetingsplaats voor iedereen die
+            op het bedrijf van technologieën consumenten gedijen is ook de groenste.
+            Trade Show Executive Magazine uitgeroepen tot de 2012 International CES®
+            de beurs met de "Most Innovative Green Initiatieven van Show Management,"
+            en in 2010 ", Noord-Amerika's Groenste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: unpublished
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:32:10.513+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Deelnemers: Een kleinere behuizing met grotere kansen&nbsp;\n\
+              <br /> CES biedt onze industrie de gelegenheid om bijeen te roepen op\
+              \ een bepaald moment, op een plaats, op een eco-vriendelijke blockbuster\
+              \ die jaarlijks reizen minimaliseert.&nbsp;\n<br /> CES aanwezigen met\
+              \ elkaar te verbinden, krijgt zaken gedaan en gezamenlijk voorkomen\
+              \ meer dan 1.970.000 mijl in zakenreizen die zij anders zouden moeten\
+              \ nemen als het niet voor de CES&nbsp;\n<br /> Vertegenwoordigers reizen\
+              \ van meer dan 150 landen, biedt een werkelijk wereldwijde zakelijke\
+              \ mogelijkheid.&nbsp;\n<br /> Hoe groen is het International CES?&nbsp;\n\
+              <br /> De 2013 International CES omvatte een breed scala aan groene\
+              \ initiatieven als onderdeel van onze inspanningen om afval te verminderen\
+              \ en terug te geven aan de lokale gemeenschap van Las Vegas.&nbsp;\n\
+              <br /> Verzamelde meer dan 108.000 vierkante meter aan tonen graphics\
+              \ met een opnamesnelheid van 81 procent te hergebruiken en terug te\
+              \ geven aan de lokale gemeenschap&nbsp;\n<br /> 38.000 vierkante meter\
+              \ aan magnetische banners - meer dan &pound; 19.000&nbsp;\n<br /> 21.600\
+              \ vierkante meter aan magnetische banners&nbsp;\n<br /> Meer dan 48.000\
+              \ vierkante meter van de andere tonen graphics - tot 200 procent&nbsp;\n\
+              <br /> &pound; 37.800 van toont publicaties&nbsp;\n<br /> Produceerde\
+              \ meer dan 243.000 pashouders gemaakt van vorig jaar vinyl banners en\
+              \ meer dan 58.000 pashouders verzameld na de show te hergebruiken voor\
+              \ een derde leven&nbsp;\n<br /> Toegenomen totale tonen hergebruik /\
+              \ recycling rate 76-81 procent&nbsp;\n<br /> Gebruik van recycleerbare\
+              \ tapijt voor alle beursvloer gangpaden, Techzones, registratie gebieden\
+              \ en turnkey-booth pakketten&nbsp;\n<br /> Het gebruik van kant en klare\
+              \ stand pakketten met recyclebare panelen en afbeeldingen gedrukt met\
+              \ soja-inkt&nbsp;\n<br /> Mandaat van papierloze exposant persmappen\
+              \ online, of via USB of DVD&nbsp;\n<br /> Materialen worden geprint\
+              \ op gerecycled papier, te gebruiken op basis van soja inkt en voldoen\
+              \ aan de normen van het Sustainable Initiative Forest en Forest Stewardship\
+              \ Council&nbsp;\n<br /> Zorg ervoor dat u een kijkje nemen op de 2014\
+              \ CES Groene Gids voor informatie over CES groene exposanten, de CES\
+              \ vergroening initiatieven, en CEA&#39;s eCycling en duurzaamheid initiatieven.\
+              \ Voor gids van vorig jaar, zie de 2013 CES Groene Gids.&nbsp;</p> \n\
+              <p>Op 6 januari 2014, kondigde de voortzetting van de traditie te kennen\
+              \ verschillende lokale Las Vegas organisaties met fondsen voor duurzame\
+              \ projecten. Dit jaar, CEA doneert $ 10.000 aan de Universiteit van\
+              \ Nevada, Las Vegas (UNLV) DesertSol zonnehuis en $ 25.000 aan het Springs\
+              \ Preserve naar de DesertSol project.&nbsp;\n<br /> De DesertSol zonnehuis,\
+              \ gecre&euml;erd door UNLV, was de tweede plaats winnaar, en de eerste\
+              \ onder Amerikaanse organisaties, bij de 2013 US Department of Energy\
+              \ (DOE) Solar Decathlon. Deze donatie is aan de University of Nevada\
+              \ DesertSol team op hun succes feliciteren en helpen verder de DesertSol\
+              \ project.&nbsp;\n<br /> CEA&#39;s donatie aan het Springs Preserve\
+              \ zal de verhuizing van DesertSol naar de nieuwe locatie te helpen.\
+              \ De Springs Preserve is een faciliteit van wereldklasse die gemeenschap,\
+              \ behoud en duurzaamheid bevordert in de regio Zuid-Nevada, en is &#39;s\
+              \ werelds grootste campus van platina nominale US Green Building Council\
+              \ LEED gebouwen. De Preserve is bedoeld om bezoekers te inspireren om\
+              \ groen wonen praktijken en technologie&euml;n te implementeren in hun\
+              \ eigen huis, en voor het huis om een ​​site voor verder onderzoek en\
+              \ de ontwikkeling van hernieuwbare energie voor UNLV docenten, studenten\
+              \ en professionals uit de industrie blijven.&nbsp;\n<br /> &nbsp;&nbsp;\n\
+              <br /> Op de CES 2013, CEA maakte twee $ 50.000 donaties aan lokale\
+              \ Las Vegas organisaties, Green Chips en het Las Vegas Convention and\
+              \ Visitors Authority (LVCVA). Green Chips gebruikt de donatie van CEA\
+              \ om een zonne-installatie project aan het iconische &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; teken op Las Vegas Boulevard ondersteunen.\
+              \ De LVCVA gebruikten hun donatie van CEA tot enkele elektrische voertuigen\
+              \ laadstations in het Las Vegas Convention Center te installeren.&nbsp;</p>\
+              \ \n<p>&nbsp;</p> \n<p>Word opgeladen Over Electric Vehicles&nbsp;\n\
+              <br /> De GoElectricDrive TechZone in het Las Vegas Convention en het\
+              \ World Trade Center (LVCC), North Hall vitrines een volledig gamma\
+              \ van hoge en lage snelheid elektrische voertuigen, energie-opslag-apparaten\
+              \ en het opladen oplossingen. Gesponsord door de Electric Drive Transportation\
+              \ Association, dit TechZone belicht een oppervlakte van een groot potentieel\
+              \ en groei voor de industrie als elektrische auto&#39;s zijn snel aan\
+              \ populariteit wint bij de consument op zoek naar meer duurzaam te leven\
+              \ door het gebruik van alternatief vervoer.&nbsp;\n<br /> CEA en Groen&nbsp;\n\
+              <br /> Van trends in milieuvriendelijke televisies te verlichten detail\
+              \ over de houding van consumenten over energie-effici&euml;ntie met\
+              \ consumentenelektronica, CEA heeft het laatste onderzoek. Bezoek CE.org/green\
+              \ voor meer informatie.&nbsp;\n<br /> Greener Gadgets&nbsp;\n<br />\
+              \ CEA werkt GreenerGadgets.org, een online bron voor de consument dat\
+              \ de industrie trend naar &quot;groenere gadgets&quot; hoogtepunten\
+              \ - kleiner, slimmer, meer energie-effici&euml;nte apparaten die meer\
+              \ dan ooit kan doen. Tech-savvy shoppers hebben nu meer milieuvriendelijke\
+              \ opties en deze bron heeft waardevolle informatie over hoe u groene\
+              \ elektronica te kopen, effici&euml;nt te gebruiken en te recyclen aan\
+              \ het einde van hun levensduur.&nbsp;\n<br /> De site bevat ook een\
+              \ krachtige energie gebruik rekenmachine met de meest up-to-date producten\
+              \ en energieverbruik cijfers om consumenten te helpen beter inzicht\
+              \ krijgen in hun energieverbruik, evenals een recycling locator tool.\
+              \ Als het gaat om end-of-life elektronica, veel mensen houden zich bezig\
+              \ met wat er gebeurt nadat ze afzetten van hun producten. De recycling\
+              \ locator database bevat industrie programma&#39;s, die strenge normen\
+              \ en derden gecertificeerde recyclingbedrijven te gebruiken, zodat er\
+              \ zeker van uw apparaat kan nu veilig worden gerecycled.&nbsp;</p> \n\
+              <p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 37af06f4-73a5-49fc-8bba-17e30a90939d
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2016-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: De wereld van de ontmoetingsplaats voor iedereen die
+            op het bedrijf van technologieën consumenten gedijen is ook de groenste.
+            Trade Show Executive Magazine uitgeroepen tot de 2012 International CES®
+            de beurs met de "Most Innovative Green Initiatieven van Show Management,"
+            en in 2010 ", Noord-Amerika's Groenste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: draft
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:32:03.789+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Deelnemers: Een kleinere behuizing met grotere kansen&nbsp;\n\
+              <br /> CES biedt onze industrie de gelegenheid om bijeen te roepen op\
+              \ een bepaald moment, op een plaats, op een eco-vriendelijke blockbuster\
+              \ die jaarlijks reizen minimaliseert.&nbsp;\n<br /> CES aanwezigen met\
+              \ elkaar te verbinden, krijgt zaken gedaan en gezamenlijk voorkomen\
+              \ meer dan 1.970.000 mijl in zakenreizen die zij anders zouden moeten\
+              \ nemen als het niet voor de CES&nbsp;\n<br /> Vertegenwoordigers reizen\
+              \ van meer dan 150 landen, biedt een werkelijk wereldwijde zakelijke\
+              \ mogelijkheid.&nbsp;\n<br /> Hoe groen is het International CES?&nbsp;\n\
+              <br /> De 2013 International CES omvatte een breed scala aan groene\
+              \ initiatieven als onderdeel van onze inspanningen om afval te verminderen\
+              \ en terug te geven aan de lokale gemeenschap van Las Vegas.&nbsp;\n\
+              <br /> Verzamelde meer dan 108.000 vierkante meter aan tonen graphics\
+              \ met een opnamesnelheid van 81 procent te hergebruiken en terug te\
+              \ geven aan de lokale gemeenschap&nbsp;\n<br /> 38.000 vierkante meter\
+              \ aan magnetische banners - meer dan &pound; 19.000&nbsp;\n<br /> 21.600\
+              \ vierkante meter aan magnetische banners&nbsp;\n<br /> Meer dan 48.000\
+              \ vierkante meter van de andere tonen graphics - tot 200 procent&nbsp;\n\
+              <br /> &pound; 37.800 van toont publicaties&nbsp;\n<br /> Produceerde\
+              \ meer dan 243.000 pashouders gemaakt van vorig jaar vinyl banners en\
+              \ meer dan 58.000 pashouders verzameld na de show te hergebruiken voor\
+              \ een derde leven&nbsp;\n<br /> Toegenomen totale tonen hergebruik /\
+              \ recycling rate 76-81 procent&nbsp;\n<br /> Gebruik van recycleerbare\
+              \ tapijt voor alle beursvloer gangpaden, Techzones, registratie gebieden\
+              \ en turnkey-booth pakketten&nbsp;\n<br /> Het gebruik van kant en klare\
+              \ stand pakketten met recyclebare panelen en afbeeldingen gedrukt met\
+              \ soja-inkt&nbsp;\n<br /> Mandaat van papierloze exposant persmappen\
+              \ online, of via USB of DVD&nbsp;\n<br /> Materialen worden geprint\
+              \ op gerecycled papier, te gebruiken op basis van soja inkt en voldoen\
+              \ aan de normen van het Sustainable Initiative Forest en Forest Stewardship\
+              \ Council&nbsp;\n<br /> Zorg ervoor dat u een kijkje nemen op de 2014\
+              \ CES Groene Gids voor informatie over CES groene exposanten, de CES\
+              \ vergroening initiatieven, en CEA&#39;s eCycling en duurzaamheid initiatieven.\
+              \ Voor gids van vorig jaar, zie de 2013 CES Groene Gids.&nbsp;</p> \n\
+              <p>Op 6 januari 2014, kondigde de voortzetting van de traditie te kennen\
+              \ verschillende lokale Las Vegas organisaties met fondsen voor duurzame\
+              \ projecten. Dit jaar, CEA doneert $ 10.000 aan de Universiteit van\
+              \ Nevada, Las Vegas (UNLV) DesertSol zonnehuis en $ 25.000 aan het Springs\
+              \ Preserve naar de DesertSol project.&nbsp;\n<br /> De DesertSol zonnehuis,\
+              \ gecre&euml;erd door UNLV, was de tweede plaats winnaar, en de eerste\
+              \ onder Amerikaanse organisaties, bij de 2013 US Department of Energy\
+              \ (DOE) Solar Decathlon. Deze donatie is aan de University of Nevada\
+              \ DesertSol team op hun succes feliciteren en helpen verder de DesertSol\
+              \ project.&nbsp;\n<br /> CEA&#39;s donatie aan het Springs Preserve\
+              \ zal de verhuizing van DesertSol naar de nieuwe locatie te helpen.\
+              \ De Springs Preserve is een faciliteit van wereldklasse die gemeenschap,\
+              \ behoud en duurzaamheid bevordert in de regio Zuid-Nevada, en is &#39;s\
+              \ werelds grootste campus van platina nominale US Green Building Council\
+              \ LEED gebouwen. De Preserve is bedoeld om bezoekers te inspireren om\
+              \ groen wonen praktijken en technologie&euml;n te implementeren in hun\
+              \ eigen huis, en voor het huis om een ​​site voor verder onderzoek en\
+              \ de ontwikkeling van hernieuwbare energie voor UNLV docenten, studenten\
+              \ en professionals uit de industrie blijven.&nbsp;\n<br /> &nbsp;&nbsp;\n\
+              <br /> Op de CES 2013, CEA maakte twee $ 50.000 donaties aan lokale\
+              \ Las Vegas organisaties, Green Chips en het Las Vegas Convention and\
+              \ Visitors Authority (LVCVA). Green Chips gebruikt de donatie van CEA\
+              \ om een zonne-installatie project aan het iconische &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; teken op Las Vegas Boulevard ondersteunen.\
+              \ De LVCVA gebruikten hun donatie van CEA tot enkele elektrische voertuigen\
+              \ laadstations in het Las Vegas Convention Center te installeren.&nbsp;</p>\
+              \ \n<p>&nbsp;</p> \n<p>Word opgeladen Over Electric Vehicles&nbsp;\n\
+              <br /> De GoElectricDrive TechZone in het Las Vegas Convention en het\
+              \ World Trade Center (LVCC), North Hall vitrines een volledig gamma\
+              \ van hoge en lage snelheid elektrische voertuigen, energie-opslag-apparaten\
+              \ en het opladen oplossingen. Gesponsord door de Electric Drive Transportation\
+              \ Association, dit TechZone belicht een oppervlakte van een groot potentieel\
+              \ en groei voor de industrie als elektrische auto&#39;s zijn snel aan\
+              \ populariteit wint bij de consument op zoek naar meer duurzaam te leven\
+              \ door het gebruik van alternatief vervoer.&nbsp;\n<br /> CEA en Groen&nbsp;\n\
+              <br /> Van trends in milieuvriendelijke televisies te verlichten detail\
+              \ over de houding van consumenten over energie-effici&euml;ntie met\
+              \ consumentenelektronica, CEA heeft het laatste onderzoek. Bezoek CE.org/green\
+              \ voor meer informatie.&nbsp;\n<br /> Greener Gadgets&nbsp;\n<br />\
+              \ CEA werkt GreenerGadgets.org, een online bron voor de consument dat\
+              \ de industrie trend naar &quot;groenere gadgets&quot; hoogtepunten\
+              \ - kleiner, slimmer, meer energie-effici&euml;nte apparaten die meer\
+              \ dan ooit kan doen. Tech-savvy shoppers hebben nu meer milieuvriendelijke\
+              \ opties en deze bron heeft waardevolle informatie over hoe u groene\
+              \ elektronica te kopen, effici&euml;nt te gebruiken en te recyclen aan\
+              \ het einde van hun levensduur.&nbsp;\n<br /> De site bevat ook een\
+              \ krachtige energie gebruik rekenmachine met de meest up-to-date producten\
+              \ en energieverbruik cijfers om consumenten te helpen beter inzicht\
+              \ krijgen in hun energieverbruik, evenals een recycling locator tool.\
+              \ Als het gaat om end-of-life elektronica, veel mensen houden zich bezig\
+              \ met wat er gebeurt nadat ze afzetten van hun producten. De recycling\
+              \ locator database bevat industrie programma&#39;s, die strenge normen\
+              \ en derden gecertificeerde recyclingbedrijven te gebruiken, zodat er\
+              \ zeker van uw apparaat kan nu veilig worden gerecycled.&nbsp;</p> \n\
+              <p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 810e55b3-fc65-45cb-ba99-2e0371b9e764
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2016-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: De wereld van de ontmoetingsplaats voor iedereen die
+            op het bedrijf van technologieën consumenten gedijen is ook de groenste.
+            Trade Show Executive Magazine uitgeroepen tot de 2012 International CES®
+            de beurs met de "Most Innovative Green Initiatieven van Show Management,"
+            en in 2010 ", Noord-Amerika's Groenste Show."
+          hippogogreen:title: CES Green
+          hippostd:state: published
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2015-05-27T14:32:10.513+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-05-27T14:32:12.692+02:00
+          hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Deelnemers: Een kleinere behuizing met grotere kansen&nbsp;\n\
+              <br /> CES biedt onze industrie de gelegenheid om bijeen te roepen op\
+              \ een bepaald moment, op een plaats, op een eco-vriendelijke blockbuster\
+              \ die jaarlijks reizen minimaliseert.&nbsp;\n<br /> CES aanwezigen met\
+              \ elkaar te verbinden, krijgt zaken gedaan en gezamenlijk voorkomen\
+              \ meer dan 1.970.000 mijl in zakenreizen die zij anders zouden moeten\
+              \ nemen als het niet voor de CES&nbsp;\n<br /> Vertegenwoordigers reizen\
+              \ van meer dan 150 landen, biedt een werkelijk wereldwijde zakelijke\
+              \ mogelijkheid.&nbsp;\n<br /> Hoe groen is het International CES?&nbsp;\n\
+              <br /> De 2013 International CES omvatte een breed scala aan groene\
+              \ initiatieven als onderdeel van onze inspanningen om afval te verminderen\
+              \ en terug te geven aan de lokale gemeenschap van Las Vegas.&nbsp;\n\
+              <br /> Verzamelde meer dan 108.000 vierkante meter aan tonen graphics\
+              \ met een opnamesnelheid van 81 procent te hergebruiken en terug te\
+              \ geven aan de lokale gemeenschap&nbsp;\n<br /> 38.000 vierkante meter\
+              \ aan magnetische banners - meer dan &pound; 19.000&nbsp;\n<br /> 21.600\
+              \ vierkante meter aan magnetische banners&nbsp;\n<br /> Meer dan 48.000\
+              \ vierkante meter van de andere tonen graphics - tot 200 procent&nbsp;\n\
+              <br /> &pound; 37.800 van toont publicaties&nbsp;\n<br /> Produceerde\
+              \ meer dan 243.000 pashouders gemaakt van vorig jaar vinyl banners en\
+              \ meer dan 58.000 pashouders verzameld na de show te hergebruiken voor\
+              \ een derde leven&nbsp;\n<br /> Toegenomen totale tonen hergebruik /\
+              \ recycling rate 76-81 procent&nbsp;\n<br /> Gebruik van recycleerbare\
+              \ tapijt voor alle beursvloer gangpaden, Techzones, registratie gebieden\
+              \ en turnkey-booth pakketten&nbsp;\n<br /> Het gebruik van kant en klare\
+              \ stand pakketten met recyclebare panelen en afbeeldingen gedrukt met\
+              \ soja-inkt&nbsp;\n<br /> Mandaat van papierloze exposant persmappen\
+              \ online, of via USB of DVD&nbsp;\n<br /> Materialen worden geprint\
+              \ op gerecycled papier, te gebruiken op basis van soja inkt en voldoen\
+              \ aan de normen van het Sustainable Initiative Forest en Forest Stewardship\
+              \ Council&nbsp;\n<br /> Zorg ervoor dat u een kijkje nemen op de 2014\
+              \ CES Groene Gids voor informatie over CES groene exposanten, de CES\
+              \ vergroening initiatieven, en CEA&#39;s eCycling en duurzaamheid initiatieven.\
+              \ Voor gids van vorig jaar, zie de 2013 CES Groene Gids.&nbsp;</p> \n\
+              <p>Op 6 januari 2014, kondigde de voortzetting van de traditie te kennen\
+              \ verschillende lokale Las Vegas organisaties met fondsen voor duurzame\
+              \ projecten. Dit jaar, CEA doneert $ 10.000 aan de Universiteit van\
+              \ Nevada, Las Vegas (UNLV) DesertSol zonnehuis en $ 25.000 aan het Springs\
+              \ Preserve naar de DesertSol project.&nbsp;\n<br /> De DesertSol zonnehuis,\
+              \ gecre&euml;erd door UNLV, was de tweede plaats winnaar, en de eerste\
+              \ onder Amerikaanse organisaties, bij de 2013 US Department of Energy\
+              \ (DOE) Solar Decathlon. Deze donatie is aan de University of Nevada\
+              \ DesertSol team op hun succes feliciteren en helpen verder de DesertSol\
+              \ project.&nbsp;\n<br /> CEA&#39;s donatie aan het Springs Preserve\
+              \ zal de verhuizing van DesertSol naar de nieuwe locatie te helpen.\
+              \ De Springs Preserve is een faciliteit van wereldklasse die gemeenschap,\
+              \ behoud en duurzaamheid bevordert in de regio Zuid-Nevada, en is &#39;s\
+              \ werelds grootste campus van platina nominale US Green Building Council\
+              \ LEED gebouwen. De Preserve is bedoeld om bezoekers te inspireren om\
+              \ groen wonen praktijken en technologie&euml;n te implementeren in hun\
+              \ eigen huis, en voor het huis om een ​​site voor verder onderzoek en\
+              \ de ontwikkeling van hernieuwbare energie voor UNLV docenten, studenten\
+              \ en professionals uit de industrie blijven.&nbsp;\n<br /> &nbsp;&nbsp;\n\
+              <br /> Op de CES 2013, CEA maakte twee $ 50.000 donaties aan lokale\
+              \ Las Vegas organisaties, Green Chips en het Las Vegas Convention and\
+              \ Visitors Authority (LVCVA). Green Chips gebruikt de donatie van CEA\
+              \ om een zonne-installatie project aan het iconische &quot;Welcome to\
+              \ Fabulous Las Vegas&quot; teken op Las Vegas Boulevard ondersteunen.\
+              \ De LVCVA gebruikten hun donatie van CEA tot enkele elektrische voertuigen\
+              \ laadstations in het Las Vegas Convention Center te installeren.&nbsp;</p>\
+              \ \n<p>&nbsp;</p> \n<p>Word opgeladen Over Electric Vehicles&nbsp;\n\
+              <br /> De GoElectricDrive TechZone in het Las Vegas Convention en het\
+              \ World Trade Center (LVCC), North Hall vitrines een volledig gamma\
+              \ van hoge en lage snelheid elektrische voertuigen, energie-opslag-apparaten\
+              \ en het opladen oplossingen. Gesponsord door de Electric Drive Transportation\
+              \ Association, dit TechZone belicht een oppervlakte van een groot potentieel\
+              \ en groei voor de industrie als elektrische auto&#39;s zijn snel aan\
+              \ populariteit wint bij de consument op zoek naar meer duurzaam te leven\
+              \ door het gebruik van alternatief vervoer.&nbsp;\n<br /> CEA en Groen&nbsp;\n\
+              <br /> Van trends in milieuvriendelijke televisies te verlichten detail\
+              \ over de houding van consumenten over energie-effici&euml;ntie met\
+              \ consumentenelektronica, CEA heeft het laatste onderzoek. Bezoek CE.org/green\
+              \ voor meer informatie.&nbsp;\n<br /> Greener Gadgets&nbsp;\n<br />\
+              \ CEA werkt GreenerGadgets.org, een online bron voor de consument dat\
+              \ de industrie trend naar &quot;groenere gadgets&quot; hoogtepunten\
+              \ - kleiner, slimmer, meer energie-effici&euml;nte apparaten die meer\
+              \ dan ooit kan doen. Tech-savvy shoppers hebben nu meer milieuvriendelijke\
+              \ opties en deze bron heeft waardevolle informatie over hoe u groene\
+              \ elektronica te kopen, effici&euml;nt te gebruiken en te recyclen aan\
+              \ het einde van hun levensduur.&nbsp;\n<br /> De site bevat ook een\
+              \ krachtige energie gebruik rekenmachine met de meest up-to-date producten\
+              \ en energieverbruik cijfers om consumenten te helpen beter inzicht\
+              \ krijgen in hun energieverbruik, evenals een recycling locator tool.\
+              \ Als het gaat om end-of-life elektronica, veel mensen houden zich bezig\
+              \ met wat er gebeurt nadat ze afzetten van hun producten. De recycling\
+              \ locator database bevat industrie programma&#39;s, die strenge normen\
+              \ en derden gecertificeerde recyclingbedrijven te gebruiken, zodat er\
+              \ zeker van uw apparaat kan nu veilig worden gerecycled.&nbsp;</p> \n\
+              <p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []

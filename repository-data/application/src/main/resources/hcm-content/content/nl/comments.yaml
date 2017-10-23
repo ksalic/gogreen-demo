@@ -1,0 +1,62 @@
+/content/documents/hippogagroen/comments:
+  .meta:order-before: events
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: 95713ae7-4055-43f9-9a41-10c0f3e38c16
+  hippo:name: Commentaar
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 382811ae-4b99-4d01-ac19-161febfac111
+  hippotranslation:locale: nl
+  /news:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: f2eb2169-2be5-4e58-b653-8d28e6fc624c
+    hippo:name: Nieuws
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: e5fbffa4-d94b-4cb3-a067-af9da20f1749
+    hippotranslation:locale: nl
+  /events:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 17293bb9-d708-48d7-8691-b5f779d4da8f
+    hippo:name: Evenementen
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 30ad8760-46b2-4c6a-8b37-2b80b3f609e7
+    hippotranslation:locale: nl
+    /sjf-top-over-de-nieuwe-groene-economie:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a99c6bba-9dec-42f9-8839-0d5af71d0124
+      hippostd:foldertype: [new-document, new-translated-folder]
+      /Comment on sjf-top-over-de-nieuwe-groene-economie 2011-01-21 14.14.11.942:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 46599ee4-f788-45dc-af3b-37192ac166e8
+        /Comment on sjf-top-over-de-nieuwe-groene-economie 2011-01-21 14.14.11.942:
+          jcr:primaryType: hippogogreen:comment
+          jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+          jcr:uuid: 11dd88a8-12dc-4ccf-a3df-e1bbcee896ed
+          hippo:availability: [live, preview]
+          hippogogreen:body: Groete!
+          hippogogreen:email: bob@bob.com
+          hippogogreen:name: Bob
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2011-01-21T14:14:00+01:00
+          hippostdpubwf:lastModificationDate: 2011-01-21T13:14:00Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2011-01-21T13:14:00Z
+          hippotranslation:id: 132a1e8c-ed23-4912-bbc2-ba909ab9b965
+          hippotranslation:locale: en
+          /hippogogreen:documentlink:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 4ef430c1-8302-4515-8ab0-32ede5501637
+  /blogs:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 78cb34d4-8f64-4e39-8e15-a4e07bd3ba1c
+    hippo:name: Blogs
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 5d1e752b-3420-4582-adf3-ea7f92ac6be6
+    hippotranslation:locale: nl

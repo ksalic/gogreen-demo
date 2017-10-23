@@ -1,0 +1,235 @@
+/content/documents/hippogogreen/restapi:
+  .meta:order-before: forms
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: e4dc979c-26c1-4b5e-a4c0-807d2b6a73de
+  hippo:name: Rest API
+  hippostd:foldertype: [new-document]
+  /browser:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a37338c4-4839-43f8-8788-90abb062b6fe
+    hippo:name: REST Browser
+    hippostd:foldertype: [new-document]
+    /index:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 684f58d1-01c0-47fc-b790-b93d133da9bc
+      /index:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 58ac72f9-ce71-4021-b12b-ae740cdb4b71
+        hippo:availability: [live, preview]
+        hippogogreen:contentstage: desire
+        hippogogreen:summary: REST API Browser of the Hippo Go Green services.
+        hippogogreen:title: REST Browser
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2011-01-19T12:32:00Z
+        hippostdpubwf:lastModificationDate: 2011-01-25T16:41:00Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2011-01-25T16:41:00Z
+        hippotranslation:id: 68b7a325-d9f9-46a3-8ee4-901dfdc79bb1
+        hippotranslation:locale: en
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: "<html>\n              <body>\n\n              <p>REST\
+            \ API Browser of the Hippo Go Green services.\_</p>\n\n              </body>\n\
+            \              </html>\n            "
+  /documentation:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 35ad34c6-eb91-45e2-a352-4bd519d86b27
+    hippo:name: Documentation
+    hippostd:foldertype: [new-document]
+    /index:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 606d90ff-66f2-430a-ad2a-6fe9d33d7ad7
+      /index:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 589017a8-e1b7-49b7-bfdd-bf20c547effa
+        hippo:availability: [live, preview]
+        hippogogreen:contentstage: none
+        hippogogreen:summary: Documentation of the REST API. These URLs provide access
+          to the content on the Hippo Go Green web site.
+        hippogogreen:title: REST API Documentation
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2011-01-19T12:32:00Z
+        hippostdpubwf:lastModificationDate: 2011-01-20T14:30:00Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2011-01-20T14:30:00Z
+        hippotranslation:id: 68b7a325-d9f9-46a3-8ee4-901dfdc79bb1
+        hippotranslation:locale: en
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: "<html>\n              <body>\n\n              <p>\_</p>\n\
+            \n              </body>\n              </html>\n            "
+    /product-detail:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+      jcr:uuid: fbd913aa-faac-4ce0-bd28-4e35b11e4630
+      hippo:name: product detail
+      /product-detail:
+        jcr:primaryType: hippogogreen:restapi
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2ea62850-c4e0-4f94-88bf-b8a85d2b127f
+        hippo:availability: [live, preview]
+        hippogogreen:path: /products/${path-to-product}
+        hippogogreen:response: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"\
+          yes\"?>\n            <product>\n            <leaf>false</leaf>\n       \
+          \     <links>\n            <link title=\"Avalon Organic Conditioner\"\n\
+          \            rel=\"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest\"\
+          \n            href=\"http://127.0.0.1:8085/site/restapi/products/health-care/2010/07/avalon-organic-conditioner.html./\"\
+          />\n            <link title=\"Avalon Organic Conditioner\"\n           \
+          \ rel=\"http://www.onehippo.org/cms7/hst/rest/relations/mount:site\"\n \
+          \           href=\"http://127.0.0.1:8085/site/restapi/products/health-care/2010/07/avalon-organic-conditioner.html./\"\
+          />\n            </links>\n            <localizedName>Avalon Organic Conditioner</localizedName>\n\
+          \            <name>avalon-organic-conditioner</name>\n            <path>/hst:hst/hst:sites/hippogogreen-live/hst:content/products/health-care/2010/07/avalon-organic-conditioner/avalon-organic-conditioner</path>\n\
+          \            <primaryNodeTypeName>hippogogreen:product</primaryNodeTypeName>\n\
+          \            <canonicalHandleUuid>6be40055-259e-42ea-8823-b2d173787553</canonicalHandleUuid>\n\
+          \            <description>&lt;p&gt;Therapeutic Conditioner with certified\
+          \ rosemary and lavender floral waters,\n            herbal extracts and\
+          \ pure essential oils will enhance hair health with vital\n            nutrients\
+          \ and moisturizers. Pro-vitamins and phytoproteins penetrate hair\n    \
+          \        strands for extra body and manageability.&lt;/p&gt;\n\n       \
+          \     &lt;p&gt;Ingredients: &lt;br/&gt;\n            Certified organic rosemary\
+          \ and lavender floral waters, herbal infusion of\n            certified\
+          \ organic calendula, horsetail, sage, rosemary, clover blossom,\n      \
+          \      coltsfoot, yarrow, birch and nettle, yucca, organic sea kelp, cetyl\
+          \ alcohol and\n            ceteareth-20 (from coconut), citric acid, jojoba\
+          \ oil, tocopherol (vitamin E),\n            soy protein, certified organic\
+          \ ginkgo biloba and lemon balm, panthenol (vitamin\n            B5), methyl/propyl\
+          \ paraben, pure essential oils of rosemary, sage and\n            peppermint.&lt;/p&gt;\n\
+          \n            &lt;p&gt;No Animal Testing &lt;br/&gt;\n            No Animal\
+          \ Ingredients &lt;br/&gt;\n            pH balanced&lt;/p&gt;\n         \
+          \   </description>\n            <summary>Therapeutic Conditioner with certified\
+          \ rosemary and lavender floral waters,\n            herbal extracts and\
+          \ pure essential oils will enhance hair health with vital nutrients and\n\
+          \            moisturizers. Pro-vitamins and phytoproteins penetrate hair\
+          \ strands for extra body and\n            manageability.</summary>\n   \
+          \         <title>Avalon Organic Conditioner</title>\n            <categories>\n\
+          \            <category>Health care</category>\n            </categories>\n\
+          \            <images>\n            <image>http://127.0.0.1:8085/site/binaries/content/gallery/products/2010/08/koktheraputicshampoo_detail.jpg./</image>\n\
+          \            <image>http://127.0.0.1:8085/site/binaries/content/gallery/products/2010/08/koktheraputicshampoo_detail.jpg./</image>\n\
+          \            </images>\n            <price>26.0</price>\n            <productLink>http://127.0.0.1:8085/site/restapi/products/health-care/2010/07/avalon-organic-conditioner.html./</productLink>\n\
+          \            <rating>0.0</rating>\n            <votes>0.0</votes>\n    \
+          \        </product>\n          "
+        hippogogreen:summary: Retrieve product details through the REST API.
+        hippogogreen:type: GET
+        hippogogreen:url: http://localhost:8085/site/restapi/products/health-care/2010/07/avalon-organic-conditioner.html./
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2011-01-20T14:12:00Z
+        hippostdpubwf:lastModificationDate: 2011-01-25T17:06:00Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2011-01-25T17:06:00Z
+        /hippogogreen:documentation:
+          jcr:primaryType: hippostd:html
+          hippostd:content: "<html>\n              <body>\n\n              <p>Each\
+            \ product in the Hippo Go Green catalog is available through the REST\
+            \ API.\n              \_Any HTTP client can retrieve products, based on\
+            \ their content path using the\n              GET method.</p>\n\n    \
+            \          </body>\n              </html>\n            "
+    /topproducts:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7620c1d5-96e3-493a-8606-be203029e687
+      /topproducts:
+        jcr:primaryType: hippogogreen:restapi
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 736344f3-097e-41e7-b5fc-3a78d5f53c1c
+        hippo:availability: [live, preview]
+        hippogogreen:path: /topproducts./
+        hippogogreen:response: "[\n            {\n            \"productLink\": \"\
+          http://127.0.0.1:8085/site/restapi/products/food/2010/07/organic-cotton-reusable-lunch-bag./\"\
+          ,\n            \"price\": 34,\n            \"rating\": 5,\n            \"\
+          smallThumbnail\": \"http://127.0.0.1:8085/site/binaries/content/gallery/products/2010/06/organic-lunch-bagjpg/organic-lunch-bagjpg/hippogogreengallery%3Asmallthumbnail\"\
+          ,\n            \"canonicalHandleUuid\": \"8454b2df-d1ec-48ec-8556-81bd535acbb2\"\
+          ,\n            \"name\": \"organic-cotton-reusable-lunch-bag\",\n      \
+          \      \"path\": \"/hst:hst/hst:sites/rest-live/hst:content/products/food/2010/07/organic-cotton-reusable-lunch-bag/organic-cotton-reusable-lunch-bag\"\
+          ,\n            \"localizedName\": \"Organic Cotton Reusable Lunch Bag\"\
+          ,\n            \"leaf\": false,\n            \"primaryNodeTypeName\": \"\
+          hippogogreen:product\",\n            \"links\": [\n            {\n     \
+          \       \"rel\": \"http://www.onehippo.org/cms7/hst/rest/relations/mount:rest\"\
+          ,\n            \"href\": \"http://127.0.0.1:8085/site/restapi/products/food/2010/07/organic-cotton-reusable-lunch-bag./\"\
+          ,\n            \"title\": \"Organic Cotton Reusable Lunch Bag\"\n      \
+          \      },\n            {\n            \"rel\": \"http://www.onehippo.org/cms7/hst/rest/relations/mount:site\"\
+          ,\n            \"href\": \"http://127.0.0.1:8085/site/products/food/2010/07/organic-cotton-reusable-lunch-bag.html\"\
+          ,\n            \"title\": \"Organic Cotton Reusable Lunch Bag\"\n      \
+          \      }\n            ]\n            }\n            ]\n          "
+        hippogogreen:summary: Retrieve the list of top products.
+        hippogogreen:type: GET
+        hippogogreen:url: /topproducts./?_type=json&sortby=rating&max=1
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2011-01-20T14:11:00Z
+        hippostdpubwf:lastModificationDate: 2011-01-25T16:50:00Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2011-01-25T16:50:00Z
+        /hippogogreen:documentation:
+          jcr:primaryType: hippostd:html
+          hippostd:content: "<html>\n              <body>\n\n              <p>This\
+            \ resource queries the product catalog, returning a list of matching\n\
+            \              products in XML or JSON format.</p>\n\n              <p>It\
+            \ accepts three optional parameters:</p>\n\n              <ul>\n     \
+            \         <li><strong>sortby</strong>: the field to sort results by, either\n\
+            \              <em>hippogogreen:rating</em> or <em>hippogogreen:price</em></li>\n\
+            \              <li><strong>sortdir</strong>: the direction to order in;\
+            \ <em>ascending</em> or\n              <em>descending</em></li>\n    \
+            \          <li><strong>max</strong>: the maximum number of returned results</li>\n\
+            \              </ul>\n\n              </body>\n              </html>\n\
+            \            "
+  /rest:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 02d77fde-6993-4621-b2a7-176d3e051767
+    /rest:
+      jcr:primaryType: hippogogreen:simpledocument
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 8262bb21-c578-4ed8-a2dc-b2c17417ccea
+      hippo:availability: [live, preview]
+      hippogogreen:contentstage: desire
+      hippogogreen:metadescription: ''
+      hippogogreen:metatitle: ''
+      hippogogreen:summary: Overview of the REST API for Hippo Go Green.
+      hippogogreen:title: REST API Overview
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2011-01-19T12:32:00Z
+      hippostdpubwf:lastModificationDate: 2017-06-29T16:23:01.843+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-06-29T16:23:25.605+02:00
+      hippotranslation:id: 68b7a325-d9f9-46a3-8ee4-901dfdc79bb1
+      hippotranslation:locale: en
+      /hippogogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: "<p>Hippo's default Content REST API is available in all\
+          \ the channels of this demo site. All the published content of each site\
+          \ is therefore available in JSON format. You can retrieve the documents\
+          \ list on the URL <a href=\"/api/documents\">/api/documents</a>. In this\
+          \ list you find a URL to the output per indivdual document.</p>\n\n    \
+          \        <p>Next to this default output some manually built REST endpoints\
+          \ are available. The available for these endpoints can be found under the\
+          \ <a href=\"documentation\">documentation</a>. &nbsp;The <a href=\"browser\"\
+          >demo</a> shows how the REST service can be used to search the list of products.</p>\n\
+          \          "
+        /documentation:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: 35ad34c6-eb91-45e2-a352-4bd519d86b27
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /browser:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: a37338c4-4839-43f8-8788-90abb062b6fe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

@@ -1,0 +1,661 @@
+/content/documents/hippogagroen/products:
+  .meta:order-before: reviews
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:uuid: 3d647e7e-ea21-4208-90a3-a854bdb74783
+  hippo:name: Producten
+  hippostd:foldertype: [new-product-folder, new-product]
+  hippotranslation:id: 35fff2a7-22b7-4423-88dd-aa136f95dffe
+  hippotranslation:locale: nl
+  /facetedproducts:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 26
+    hippo:docbase: 3d647e7e-ea21-4208-90a3-a854bdb74783
+    hippofacnav:facetnodenames: [Prijs, Categorie, Score]
+    hippofacnav:facets: ['hippogogreen:price$[{name:''€ 0 - € 25'', resolution:''double'',
+        end:25}, {name:''€ 25 - € 50'', resolution:''double'', begin:25, end:50},
+        {name:''€ 50 - € 100'', resolution:''double'', begin:50, end:100}, {name:''€
+        100 - € 250'', resolution:''double'', begin:100, end:250}, {name:''€ 250 -
+        € 500'', resolution:''double'', begin:250, end:500}, {name:''€ 500 en meer'',
+        resolution:''double'', begin:500}]', 'hippogogreen:categories', 'hippogogreen:rating$[{name:''1
+        ster of meer'', resolution:''double'', begin:1}, {name:''2 sterren of meer'',
+        resolution:''double'', begin:2}, {name:''3 sterren of meer'', resolution:''double'',
+        begin:3}, {name:''4 sterren of meer'', resolution:''double'', begin:4}, {name:''5
+        sterren'', resolution:''double'', begin:5, end:6}]']
+    hippofacnav:limit: 200
+    hippofacnav:skipresultsetfacetsavailable: true
+  /voedsel:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 43ec4688-4b66-4865-9d8c-27b9ec543a2c
+    hippo:name: Voedsel
+    hippostd:foldertype: [new-product, new-product-folder]
+    hippotranslation:id: 089c6505-1ab5-4ac3-ad81-0bc07ef1427a
+    hippotranslation:locale: nl
+    /2010:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 2db76d8d-8c35-4f44-9d51-d9fb53b37f38
+      hippostd:foldertype: [new-product, new-product-folder]
+      hippotranslation:id: e869716a-8c24-489f-a28f-9e64c6b2f399
+      hippotranslation:locale: nl
+      /07:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: d421f4c4-708a-4314-bae7-25503c1e38bb
+        hippostd:foldertype: [new-product, new-product-folder]
+        hippotranslation:id: 8c586f28-f8a1-4999-87df-6aa96104fb71
+        hippotranslation:locale: nl
+        /berkenhouten-composteerbaar-bestek:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: b46cddbb-46c4-41ef-af16-4e2bf1e99143
+          hippo:name: Berkenhouten composteerbaar bestek
+          /berkenhouten-composteerbaar-bestek:
+            jcr:primaryType: hippogogreen:product
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: d8e2502f-1c97-43f4-8a30-73e83a2b12c0
+            hippo:availability: [live, preview]
+            hippogogreen:categories: [Voedsel, Hergebruik]
+            hippogogreen:contentstage: none
+            hippogogreen:price: 5.0
+            hippogogreen:rating: 0.0
+            hippogogreen:summary: Hier is berkenhout milieuvriendelijk bestek! Gemaakt
+              van hernieuwbare grondstoffen, 100% composteerbaar, en het kan heet
+              voedsel en vloeistoffen weerstaan!
+            hippogogreen:title: Berkenhouten composteerbaar bestek
+            hippogogreen:votes: 0
+            hippostd:holder: admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2010-07-12T12:51:00Z
+            hippostdpubwf:lastModificationDate: 2010-12-25T09:55:00Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2010-12-25T09:55:00Z
+            hippotranslation:id: 5a30d21a-7122-43e0-bf5d-ffe1a2de108f
+            hippotranslation:locale: nl
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <html>
+                <body>
+
+                <p><em>Dit bestek is gegroeid uit herplante berkenbossen in China en is net als
+                de bossen zelf F.S.C. (Forest Stewardship Council) gecertificeerd. Kostbaar
+                water/irrigatie wordt niet afgewend om de bomen te helpen groeien, dit bespaart
+                grondstoffen; en het bestek can composteren in ELKE vorm van afval, compost of
+                vuilnisbak. De messen kunnen biefstuk snijden, de vorken kunnen prima gebruikt
+                worden voor een salade en de lepels zijn ideaal voor yoghurt of gepureerde/dikke
+                soepen.</em></p>
+
+                <p><em>Productkenmerken:</em></p>
+
+                <ul>
+                <li><em>Polyethyleen en polypropyleen vrij</em></li>
+                <li><em>FSC gecertificeerd</em></li>
+                <li><em>Licht</em></li>
+                <li><em>Je kan het verbranden! (lodges, kampeerders, jagers en faciliteiten die
+                niet willen betalen om hun afval te laten verwijderen houden van dit
+                product)</em></li>
+                <li><em>Het zal NOOIT smelten of zacht worden als het ooit wordt achtergelaten
+                in een heet gebied</em></li>
+                <li><em>Het is geen composiet product, het is massief hout</em></li>
+                <li><em>Het bestek voldoet aan alle richtlijnen en eisen die CFIA en USDA
+                stellen</em></li>
+                </ul>
+
+                <p><em>Leuke feitjes:</em></p>
+
+                <ul>
+                <li><em>Als het belandt in een hemelwaterriool en eindigt op een riveroever of
+                strand OF als het eindigt in een stortplaats, blijft het slechts een stuk
+                natuurlijk hout</em></li>
+                <li><em>Hout is een natuurlijke afstoter van bacteriën (koks die dit weten
+                kiezen voor houten snijplanken in plaats van plastic versies)</em></li>
+                <li><em>Voedselmiddelen worden niet gebruikt om het bestek te maken – de bomen
+                zijn niet genetisch bewerkt</em></li>
+                </ul>
+
+                <p><em>Deze producten worden verscheept uit Canada dus extra kosten worden in
+                rekening gebracht.</em></p>
+
+                </body>
+                </html>
+            /relateddocs:docs:
+              jcr:primaryType: relateddocs:docs
+              /relateddocs:reldoc[1]:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: 429c32b6-2df0-484f-93b1-c614fab9c69f
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+              /relateddocs:reldoc[2]:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: a76619c8-c3ce-4b34-b6c6-e7076d51095d
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+            /hippogogreen:image[1]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 78c4391e-9ff7-4618-8c63-4521bbed2782
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[2]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 7cd24906-ce40-42ef-8c52-7223151fafb1
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[3]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 1eb80ac4-02d5-4173-b38e-712fc1684760
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[4]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 76b26948-2bea-441d-9291-2861746b4772
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:copyright:
+              jcr:primaryType: hippogogreen:copyright
+              hippogogreen:description: ''
+              hippogogreen:url: http://www.greenhome.com/products/restaurant_supplies/bowls,_plates_and_trays/117253/
+  /hergebruik:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: ad3d9a84-81ce-4e30-912e-d06f1c419bb9
+    hippo:name: Hergebruik
+    hippostd:foldertype: [new-product, new-product-folder]
+    hippotranslation:id: b0b52823-1f70-485b-ba72-ecb900174665
+    hippotranslation:locale: nl
+    /2010:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: a38c17e7-d421-40a0-ab48-4da1ee9df332
+      hippostd:foldertype: [new-product, new-product-folder]
+      hippotranslation:id: b3859bec-26fa-4b55-a677-b7cb03d59eca
+      hippotranslation:locale: nl
+      /07:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 306cd9cb-2a11-426c-ae99-3b762c163af7
+        hippostd:foldertype: [new-product, new-product-folder]
+        hippotranslation:id: 31a3c3cb-97a6-45ac-b764-9701fe19a075
+        hippotranslation:locale: nl
+        /duurzaam-houten-ipod-geluidsysteem:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: ac14cf9d-51af-4c03-ab36-4980c62fb5b2
+          hippo:name: Duurzaam houten iPod geluidsysteem
+          /duurzaam-houten-ipod-geluidsysteem:
+            jcr:primaryType: hippogogreen:product
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: b111c3e3-24c1-4954-ba58-25b92c048ae8
+            hippo:availability: [live, preview]
+            hippogogreen:categories: [Hergebruik]
+            hippogogreen:contentstage: ''
+            hippogogreen:price: 219.0
+            hippogogreen:rating: 0.0
+            hippogogreen:summary: Vers heeft de populariteit van de iPod gebruikt
+              en heeft een prachtig, briljant klinkend systeem gemaakt dat een minimale
+              impact heeft op het milieu. Dit stereo-systeem is gemaakt van duurzaam
+              hout dat geplant wordt op een plantage (zonder giftige chemicaliën of
+              zware metalen) en versterkt digitale muziek. Elk systeem is uniek, met
+              de hand afgewerkt en duurt een week om te bouwen.
+            hippogogreen:title: Duurzaam houten iPod geluidsysteem
+            hippogogreen:votes: 0
+            hippostd:holder: admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2010-07-12T13:11:00Z
+            hippostdpubwf:lastModificationDate: 2010-12-25T09:56:00Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2010-12-25T09:56:00Z
+            hippotranslation:id: 88dfba73-434b-4136-b654-5457314f51d0
+            hippotranslation:locale: nl
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <html>
+                <body>
+
+                <p><em>Fantastisch geluid: dit systeem is 'stijf' – dit zorgt ervoor dat de
+                behuizing zelf niet meetrilt door de druk van de speaker en daardoor wordt het
+                natuurlijke, bedoelde geluid van de speakers zelf niet verstoord.</em></p>
+
+                <p><em>Een Vers behuizing is meer dan 4 keer zo dik als plastic rivalen – hij is
+                9.5mm dik terwijl een plastic systeem doorgaans 2mm dik is.</em></p>
+
+                <p><em>Hernieuwbaar: De voorraad van eucalyptus-en dennenhout gekozen voor de
+                kern van Vers komt uit een lokaal uitbestede en gemanagede plantage dichtbij de
+                fabriek zelf; elke boom die gebruikt wordt, wordt ook herplant. Het hout dat
+                gebruikt wordt in een Vers systeem vervangt 80% van wat plastic had kunnen zijn.
+                En, de papieren verpakking is gemaakt van 100% hergebruikt materiaal en bijna al
+                de interne plastic verpakking, tasjes en omhulsels zijn vervangen door
+                hergebruikt papier of gewoonweg verwijderd.</em></p>
+
+                </body>
+                </html>
+            /relateddocs:docs:
+              jcr:primaryType: relateddocs:docs
+              /relateddocs:reldoc:
+                jcr:primaryType: hippo:facetselect
+                hippo:docbase: ffa43adb-4cf8-4b62-b6b7-da4fefb15221
+                hippo:facets: []
+                hippo:modes: []
+                hippo:values: []
+            /hippogogreen:image[1]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 71ee7fcd-2ff1-4de0-bfe8-4175800bf08f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[2]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 5637dc20-6ed9-4418-8c99-4b70870d19e3
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[3]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 088123f5-759b-414a-a659-6668537a2b86
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[4]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 278ba984-4cf2-4104-aa9f-36c3a2bce709
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[5]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 881f8556-57c9-4338-9cc6-b741b44d05ad
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:copyright:
+              jcr:primaryType: hippogogreen:copyright
+              hippogogreen:description: Green Home, Inc.
+              hippogogreen:url: http://www.greenhome.com/products/appliances/radios_and_electronics/115714/
+  /transport:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 2da40642-31ba-4ca0-890f-e0d87a0ae8ee
+    hippo:name: Transport
+    hippostd:foldertype: [new-product, new-product-folder]
+    hippotranslation:id: 01d4d4dd-a2c0-446e-a619-ecbda3c503ec
+    hippotranslation:locale: nl
+    /2010:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 38f5a4f6-4ab4-403d-a635-b0875bb46e69
+      hippostd:foldertype: [new-product, new-product-folder]
+      hippotranslation:id: c2dfbd90-0d93-4171-ae20-b00dd122c211
+      hippotranslation:locale: nl
+      /07:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 852dddc7-35e6-4e39-807e-ad5dddd1989e
+        hippostd:foldertype: [new-product, new-product-folder]
+        hippotranslation:id: 243d7b82-554e-45ce-839e-12759b813ec9
+        hippotranslation:locale: nl
+        /tandemfiets:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: ae3eaed4-319a-436a-80ad-0d2bf12c06b3
+          hippo:name: Tandemfiets
+          /tandemfiets:
+            jcr:primaryType: hippogogreen:product
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: fe179dfd-c5a0-44d1-9e4b-46039875c853
+            hippo:availability: [live, preview]
+            hippogogreen:categories: [Transport]
+            hippogogreen:contentstage: awareness
+            hippogogreen:price: 289.99
+            hippogogreen:rating: 0.0
+            hippogogreen:summary: De Pacific Cycle 26 inch Pacific Green Dualie Tandemfiets
+              heeft een extra groot stalen tandem frame. Dit is een 21-traps Shimano
+              fiets met SRAM MRX versnellingen om uw rit prettiger te maken. De fiets
+              heeft ook lichtgewicht aluminium velgen.
+            hippogogreen:title: Pacific Cycle 26 inch Pacific Green Dualie Tandemfiets
+            hippogogreen:votes: 0
+            hippostd:holder: boris
+            hippostd:state: published
+            hippostdpubwf:createdBy: moos hueting
+            hippostdpubwf:creationDate: 2010-07-27T16:05:00Z
+            hippostdpubwf:lastModificationDate: 2010-12-17T10:24:00Z
+            hippostdpubwf:lastModifiedBy: boris
+            hippostdpubwf:publicationDate: 2010-12-24T17:00:00Z
+            hippotranslation:id: a5e6ab37-2432-4549-aec1-d34984c423b5
+            hippotranslation:locale: nl
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <html>
+                <body>
+
+                <p><em>Tandems zijn fietsen die zijn ontworpen voor meer dan 1 berijder.</em>
+                </p>
+
+                <p><em>Pacific Cycle is een leider in de consumentenmarkt voor merkproducten.
+                Pacific Cycle ontwerpt, verkoopt en distribueert fietsen en andere recreationele
+                producten van hoge kwaliteit over de hele wereld. De producten van Pacific Cycle
+                bevatten een groot aantal merken, zoals Schwinn, Mongoose, InSTEP, Pacific,
+                Playsafe en Dyno. Pacific Cycle is een topverkoper van fietsen in Noord-Amerika
+                en is één van de meest succesvolle leveranciers van fietsen.</em></p>
+
+                <p><em>Opmerking: Cadeauverpakking is niet beschikbaar voor dit product.</em>
+                </p>
+
+                </body>
+                </html>
+            /hippogogreen:copyright:
+              jcr:primaryType: hippogogreen:copyright
+              hippogogreen:description: etoys.com
+              hippogogreen:url: http://www.etoys.com/product/index.jsp?productId=3902398&siteID=q5QZHUbCIj8-9qIWSq443Wg8CS3mhYzpSw
+            /relateddocs:docs:
+              jcr:primaryType: relateddocs:docs
+            /hippogogreen:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 746f6f51-4b65-41c5-b3af-b4b06205983d
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+  /gezondheidszorg:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: de95b7f9-a9ba-4ef1-a54b-73c22e34a1f6
+    hippo:name: Gezondheidszorg
+    hippostd:foldertype: [new-product, new-product-folder]
+    hippotranslation:id: 72fb5161-4dec-4df2-b655-79edcf079b97
+    hippotranslation:locale: nl
+    /2010:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 877eff43-f259-4031-a681-96225575cec9
+      hippostd:foldertype: [new-product, new-product-folder]
+      hippotranslation:id: e5daf1e0-e070-4fdf-b6db-db24e8811493
+      hippotranslation:locale: nl
+      /07:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 93dc9bff-aa80-4ba3-8d76-71d0fac4e384
+        hippostd:foldertype: [new-product, new-product-folder]
+        hippotranslation:id: 6636cea9-45e5-4e6e-8af8-ab13cddab5a4
+        hippotranslation:locale: nl
+        /douchegordijn-van-hennep:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: 980dab62-1f3e-4cf9-a2ee-6dbf6e60af8f
+          hippo:name: Douchegordijn van hennep
+          /douchegordijn-van-hennep:
+            jcr:primaryType: hippogogreen:product
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: b8265d79-a3a6-4860-ae8b-351aa0d82fad
+            hippo:availability: [live, preview]
+            hippogogreen:categories: [Gezondheidszorg]
+            hippogogreen:contentstage: action
+            hippogogreen:price: 72.0
+            hippogogreen:rating: 0.0
+            hippogogreen:summary: |-
+              Dit douchegordijn van hennep tovert uw badkamer om door de natuur uw dagelijks leven binnen te brengen!
+
+              Douchegordijnen van hennep zijn prachtig, zacht, subtiel aromatisch en een gezond alternatief voor traditionele vinyl douchegordijnen, die giftige chemicaliën uitstoten die schadelijk zijn voor de menselijke gezondheid en bijdragen aan luchtvervuiling binnenshuis. Deze douchegordijnen van hennep, in tegenstelling tot die van vinyl, kunnen in de wasmachine gewassen worden. Hang na het wassen het douchegordijn simpelweg op aan haar zeilringen om te drogen. Rimpels verdwijnen door de vochtigheid die wordt veroorzaakt tijdens het douchen!
+            hippogogreen:title: Douchegordijn van hennep
+            hippogogreen:votes: 0
+            hippostd:holder: admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: moos hueting
+            hippostdpubwf:creationDate: 2010-07-27T10:17:00Z
+            hippostdpubwf:lastModificationDate: 2010-12-25T09:57:00Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2010-12-25T09:59:00Z
+            hippotranslation:id: eeebc463-da67-4678-a982-85b95e235991
+            hippotranslation:locale: nl
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <html>
+                <body>
+
+                <p><em>Hennepplanten gebruiken minder water dan katoenplanten en leveren meer
+                vezels op per acre. Het gebruiken van een hennep douchegordijn laat zien dat je
+                bezorgd bent over het milieu doordat je het gebruik van chemicaliën en plastic
+                in het productieproces vermindert, dit zorgt weer voor minder vuilstortplaatsen.
+                Bovendien steun je het gebruik van hennep als een veelbelovend alternatief voor
+                katoen en andere conventionele vezels.</em></p>
+
+                <p><em>Let op: Deze douchegordijnen worden met de hand gemaakt en dit proces
+                duurt ongeveer 2 weken. Geef ons alstublieft 3 weken om het product te leveren.
+                Door het handgemaakte karakter van deze gordijnen wordt er een extra 25% in
+                rekening gebracht als het product wordt teruggebracht zonder defecten.
+                Geretourneerde gordijnen worden niet geaccepteerd als ze zijn gewassen of
+                gebruikt. De intrisieke duurzaamheid van hennep en de stevige, roestvrije
+                zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.</em></p>
+
+                </body>
+                </html>
+            /hippogogreen:copyright:
+              jcr:primaryType: hippogogreen:copyright
+              hippogogreen:description: Green Home, Inc.
+              hippogogreen:url: http://www.greenhome.com/products/bath/shower_curtains/111647
+            /relateddocs:docs:
+              jcr:primaryType: relateddocs:docs
+            /hippogogreen:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 2528d787-61f8-4112-b223-688994061458
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+  /dier--tuin:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 0c48a0a9-7734-46f4-ae1f-dc26b129eef9
+    hippo:name: Dier & tuin
+    hippostd:foldertype: [new-product, new-product-folder]
+    hippotranslation:id: e91aa7e9-77d1-4d6a-844c-2f7202567fed
+    hippotranslation:locale: nl
+    /2010:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: d9464933-ee80-4aa1-896c-7ec89a36233f
+      hippostd:foldertype: [new-product, new-product-folder]
+      hippotranslation:id: 9b6aeb61-da31-4550-a583-8a4e579b52b5
+      hippotranslation:locale: nl
+      /07:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 013ea81f-c509-42a1-97a7-f026399c2d0c
+        hippostd:foldertype: [new-product, new-product-folder]
+        hippotranslation:id: ad449043-57ec-41c4-8e35-666e45c63487
+        hippotranslation:locale: nl
+        /de-green-johanna-compostbak:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          jcr:uuid: 6b1432ff-58ca-49cb-bf9d-be930b09a7fc
+          hippo:name: De Green Johanna compostbak
+          /de-green-johanna-compostbak:
+            jcr:primaryType: hippogogreen:product
+            jcr:mixinTypes: ['mix:referenceable']
+            jcr:uuid: a7ab6991-120f-48bf-81a9-c866ccfcc078
+            hippo:availability: [live, preview]
+            hippogogreen:categories: [Dier & Tuin]
+            hippogogreen:contentstage: desire
+            hippogogreen:price: 250.0
+            hippogogreen:rating: 0.0
+            hippogogreen:summary: Alhoewel hij lijkt op een normale compostbak, is
+              de Green Johanna ontworpen met extra functies due de meeste standaard
+              compostbakken niet hebben – hij is knaagdierbestendig en is goed geïsoleerd.
+              Dit betekent dat het composteren sneller gaat dan bij een normale compostbak
+              en dat je elke vorm van voedselafval erin kwijt kan, zelfs gekookt eten,
+              botten, vis en vlees, die men beter niet in een gewone compostbak kan
+              doen.
+            hippogogreen:title: De Green Johanna compostbak
+            hippogogreen:votes: 0
+            hippostd:holder: admin
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2010-07-12T13:26:00Z
+            hippostdpubwf:lastModificationDate: 2010-12-25T09:58:00Z
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2010-12-25T09:59:00Z
+            hippotranslation:id: 280b0f48-7d92-4d6c-beac-b045ad298767
+            hippotranslation:locale: nl
+            /hippogogreen:description:
+              jcr:primaryType: hippostd:html
+              hippostd:content: |-
+                <html>
+                <body>
+
+                <p><em>Kenmerken</em></p>
+
+                <p><em>Inbegrepen: Green Johanna Hot Composter + Roerstok + Home Composting Made
+                Easy handboek</em></p>
+
+                <p><em>Inhoud: 74 Gallons</em></p>
+
+                <p><em>Dimensies: 39'' basis diameter x 21''top diameter x 37'' hoogte</em></p>
+
+                <p><em>Ontworpen om tenminste 10 jaar mee te gaan</em></p>
+
+                <p><em>Werkt het hele jaar door</em></p>
+
+                <p><em>Geschikt voor gezinnen tot 5 mensen (260 pond voedselafval per persoon
+                per jaar)</em></p>
+
+                <p><em>Helpt je vuilnisbakken schoon te houden</em></p>
+
+                <p><em>ELKE vorm van voedselafval kan erin gestop worden waaronder vlees,
+                botten, melkproducten en heeft minimaal 30% extra tuinafval nodig</em></p>
+
+                <p><em>Volledig veilig voor uzelf en uw huisdieren</em></p>
+
+                </body>
+                </html>
+            /relateddocs:docs:
+              jcr:primaryType: relateddocs:docs
+            /hippogogreen:image[1]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 8b5cc983-8b77-4fdf-b2e8-ba3b28a3a072
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[2]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 8d0cdcec-96c5-4238-9784-fcbf1b13d139
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[3]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 6209c3bc-ea24-47e0-b9ce-11fb68977f04
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[4]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 72a0bc68-e713-4998-9861-70a8e1f41e6c
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:image[5]:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 265be1d9-98ac-420c-bf30-0c5ec49fc0fe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /hippogogreen:copyright:
+              jcr:primaryType: hippogogreen:copyright
+              hippogogreen:description: ''
+              hippogogreen:url: ''
+  /tijdschrift:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:uuid: 02d28f6e-b729-457f-bc1d-5eb0e50e66f5
+    hippo:name: Tijdschrift
+    hippostd:foldertype: [new-product, new-product-folder]
+    hippotranslation:id: 6c32bf51-52e2-4acd-a401-5cb6280727d2
+    hippotranslation:locale: nl
+    /naturefriend:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b5fb3cea-7edd-49e8-97a3-19907f5895e1
+      /naturefriend:
+        jcr:primaryType: hippogogreen:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a40d4cdd-7731-4905-806b-f2eb8cc97d9c
+        hippo:availability: [live, preview]
+        hippogogreen:categories: [Voedsel]
+        hippogogreen:contentstage: ''
+        hippogogreen:price: 36.0
+        hippogogreen:rating: 0.0
+        hippogogreen:summary: Nature Friend Magazine is een kindertijdschrift waar
+          de hele familie, ook de grootouders, van kunnen genieten. We publiceren
+          twaalf uitgaves per jaar, waarvan er zes enigszins gericht zijn op een ouder
+          publiek. Er zijn veel manieren waarop wij onze lezers betrekken – we willen
+          uw kunst, foto's, verhalen, puzzels en gedichten. Afgezien van de inzendingen
+          die we elke maand gebruiken, hebben we een jaarlijkse lezersuitgave die
+          bestaat uit enkel inzendingen van onze lezers.
+        hippogogreen:title: Nature Friend Magazine
+        hippogogreen:votes: 0
+        hippostd:holder: admin
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin13
+        hippostdpubwf:creationDate: 2010-07-30T10:31:00Z
+        hippostdpubwf:lastModificationDate: 2010-12-25T09:58:00Z
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2010-12-25T09:59:00Z
+        hippotranslation:id: 305e552e-6648-4013-8849-6f51f6f9140b
+        hippotranslation:locale: nl
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <html>
+            <body>
+
+            <p><em>Nature Friend Magazine is begonnen in 1983 en werd in de eerste instantie
+            gepubliceerd door de Stanley Brubaker family uit Goshen, Indiana. Het idee voor
+            het tijdschrift kwam voort uit Mr. Brubakers wens om kinderen aan te moedigen om
+            in God te geloven als hun Schepper en om Zijn werk op te zoeken, te herkennen en
+            te waarderen.</em></p>
+
+            <p><em>Omdat de leer van Goddelijke schepping de eerste en belangrijkste is in
+            de Bijbel, moeten onze kinderen er op kunnen vertrouwen om de ondermijnende
+            invloeden uit de hedendaagse cultuur te weerstaan. Nature Friend heeft ervoor
+            gekozen niet controversieel of uiterst uitdagend te zijn over de kwestie van
+            evolutie tegenover schepping. Ons beleid is simpelweg om te geloven in de
+            waarheid van Gods woord en om dit te presenteren als een feit waar je van kan
+            genieten terwijl je leert over alle wezens die God heeft geschapen. Nature
+            Friend erkent dat God de bedoeling had om de mens te laten waken over Zijn
+            creatie en dat alleen Hij aanbeden mag worden, niet Zijn creaties.</em></p>
+
+            </body>
+            </html>
+        /hippogogreen:copyright:
+          jcr:primaryType: hippogogreen:copyright
+          hippogogreen:description: ''
+          hippogogreen:url: ''
+        /relateddocs:docs:
+          jcr:primaryType: relateddocs:docs
+          /relateddocs:reldoc[1]:
+            jcr:primaryType: hippo:facetselect
+            hippo:docbase: fb80df2c-9c45-4952-9490-4d1f832f9bb5
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /relateddocs:reldoc[2]:
+            jcr:primaryType: hippo:facetselect
+            hippo:docbase: e9d5be67-8ca4-4517-a575-5c631050956b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hippogogreen:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 4dd07017-9a9d-42c4-b7cb-6fb2446c2e01
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

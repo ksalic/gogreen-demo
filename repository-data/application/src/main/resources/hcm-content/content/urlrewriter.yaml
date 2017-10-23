@@ -1,0 +1,57 @@
+/content/urlrewriter/rules:
+  jcr:primaryType: urlrewriter:ruleset
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 3fd74df1-2ebf-474e-a85c-8c77ceab3d49
+  hippostd:foldertype: [new-urlrewriter-folder, new-urlrewriter-document]
+  /buy---products:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f87bda2a-8d90-4da3-a65a-e716e323fa45
+    hippo:name: Buy -> Products
+    /buy---products[1]:
+      jcr:primaryType: urlrewriter:rule
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3174b7ff-bc8c-4390-a68a-bccd3bcb8acb
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2015-12-01T14:57:13.267+01:00
+      hippostdpubwf:lastModificationDate: 2015-12-01T15:17:54.745+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2008-03-26T12:03:00+01:00
+      urlrewriter:ruledescription: 'Rewrite /buy to /products. Note: the functionality
+        is disabled on the site, unless you have local project modifications.'
+      urlrewriter:rulefrom: /buy
+      urlrewriter:ruleto: products
+      urlrewriter:ruletype: permanent-redirect
+    /buy---products[2]:
+      jcr:primaryType: urlrewriter:rule
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 600fc31d-4fb8-4ded-9713-020e92372225
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2015-12-01T14:57:13.267+01:00
+      hippostdpubwf:lastModificationDate: 2015-12-01T15:17:57.136+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      urlrewriter:ruledescription: 'Rewrite /buy to /products. Note: the functionality
+        is disabled on the site, unless you have local project modifications.'
+      urlrewriter:rulefrom: /buy
+      urlrewriter:ruleto: products
+      urlrewriter:ruletype: permanent-redirect
+    /buy---products[3]:
+      jcr:primaryType: urlrewriter:rule
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5bf50c7b-3605-4900-9754-4bbe82e89ba8
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2015-12-01T14:57:13.267+01:00
+      hippostdpubwf:lastModificationDate: 2015-12-01T15:17:57.136+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2015-12-01T15:17:58.638+01:00
+      urlrewriter:ruledescription: 'Rewrite /buy to /products. Note: the functionality
+        is disabled on the site, unless you have local project modifications.'
+      urlrewriter:rulefrom: /buy
+      urlrewriter:ruleto: products
+      urlrewriter:ruletype: permanent-redirect

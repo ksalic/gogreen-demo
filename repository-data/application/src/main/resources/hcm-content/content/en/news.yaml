@@ -1,0 +1,478 @@
+/content/documents/hippogogreen/news:
+  .meta:order-before: blogs
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:uuid: 90fb1f31-3f44-4d05-ad56-234002d20bd8
+  hippo:name: News
+  hippostd:foldertype: [new-news-folder, new-news]
+  hippotranslation:id: 698c552c-4a05-48b3-a846-8ea0f99c9a14
+  hippotranslation:locale: en
+  /2014:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 9650f338-7276-4b21-b754-f07db0f77c5f
+    hippostd:foldertype: [new-news-folder, new-news]
+    hippotranslation:id: c27d26c4-d67e-4747-a63a-49f2c90abd91
+    hippotranslation:locale: en
+    /10:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 9235d9fa-74cd-49ca-b4b8-cfea5be72d88
+      hippostd:foldertype: [new-news-folder, new-news]
+      hippotranslation:id: 30ac17ee-bf94-4c01-8b09-325de77d7718
+      hippotranslation:locale: en
+      /gogreen-nominated-for-unef-sustainable-business-award:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b5b1c82d-de21-49ac-ab19-86f456ea3e6b
+        hippo:name: GoGreen Nominated for UNEF Sustainable Business Award
+        /gogreen-nominated-for-unef-sustainable-business-award[1]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 1f77faf3-994c-423b-9e18-58ed2a533236
+          hippo:availability: [preview]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2014-10-22T10:22:00+01:00
+          hippogogreen:metadescription: GoGreen Nominated for UNEF Sustainable Business
+            Award
+          hippogogreen:metatitle: GoGreen UNEF nomination
+          hippogogreen:summary: GoGreen is Pleased to Announce its Nomination for
+            a UNEF Sustainable Business Award
+          hippogogreen:title: GoGreen Nominated for UNEF Sustainable Business Award
+          hippostd:holder: admin
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:01:21.336+02:00
+          hippostdpubwf:lastModificationDate: 2015-04-01T10:25:07.232-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 531d3f80-a4de-48e1-8957-ea7dc8c13858
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>New York-Nairobi. GoGreen is among 10 global businesses\
+              \ recognized by the United Nations Environmental Fund with a nomination\
+              \ for the prestigious Sustainable Business Award. According to the Sustainable\
+              \ Business Awards announcement, GoGreen has been nominated for its &ldquo;outstanding\
+              \ contributions to fighting climate change with its global corporate\
+              \ social responsibility strategy.&rdquo;</p> \n<p>&ldquo;We&rsquo;re\
+              \ thrilled to be nominated for Sustainable Business Award&rdquo; notes\
+              \ GoGreen&rsquo;s CEO Robert Greene, &ldquo;we thoroughly respect the\
+              \ work of the UNEF and are proud to be listed among such visionary companies.&rdquo;\
+              \ Winners of the Sustainable Business Award will be announced at a ceremony\
+              \ in Nairobi this December.</p>"
+        /gogreen-nominated-for-unef-sustainable-business-award[2]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0faf622d-348c-40a9-89dc-44dc0283f1e6
+          hippo:availability: []
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2014-10-22T10:22:00+01:00
+          hippogogreen:metadescription: GoGreen Nominated for UNEF Sustainable Business
+            Award
+          hippogogreen:metatitle: GoGreen UNEF nomination
+          hippogogreen:summary: GoGreen is Pleased to Announce its Nomination for
+            a UNEF Sustainable Business Award
+          hippogogreen:title: GoGreen Nominated for UNEF Sustainable Business Award
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:01:21.336+02:00
+          hippostdpubwf:lastModificationDate: 2015-04-01T10:25:07.278-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 531d3f80-a4de-48e1-8957-ea7dc8c13858
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>New York-Nairobi. GoGreen is among 10 global businesses\
+              \ recognized by the United Nations Environmental Fund with a nomination\
+              \ for the prestigious Sustainable Business Award. According to the Sustainable\
+              \ Business Awards announcement, GoGreen has been nominated for its &ldquo;outstanding\
+              \ contributions to fighting climate change with its global corporate\
+              \ social responsibility strategy.&rdquo;</p> \n<p>&ldquo;We&rsquo;re\
+              \ thrilled to be nominated for Sustainable Business Award&rdquo; notes\
+              \ GoGreen&rsquo;s CEO Robert Greene, &ldquo;we thoroughly respect the\
+              \ work of the UNEF and are proud to be listed among such visionary companies.&rdquo;\
+              \ Winners of the Sustainable Business Award will be announced at a ceremony\
+              \ in Nairobi this December.</p>"
+        /gogreen-nominated-for-unef-sustainable-business-award[3]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: eef56274-160e-412a-97d0-428fe0cc33e4
+          hippo:availability: [live]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2014-10-22T10:22:00+01:00
+          hippogogreen:metadescription: GoGreen Nominated for UNEF Sustainable Business
+            Award
+          hippogogreen:metatitle: GoGreen UNEF nomination
+          hippogogreen:summary: GoGreen is Pleased to Announce its Nomination for
+            a UNEF Sustainable Business Award
+          hippogogreen:title: GoGreen Nominated for UNEF Sustainable Business Award
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:01:21.336+02:00
+          hippostdpubwf:lastModificationDate: 2015-04-01T10:25:07.232-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-04-01T10:25:11.606-04:00
+          hippotranslation:id: 531d3f80-a4de-48e1-8957-ea7dc8c13858
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>New York-Nairobi. GoGreen is among 10 global businesses\
+              \ recognized by the United Nations Environmental Fund with a nomination\
+              \ for the prestigious Sustainable Business Award. According to the Sustainable\
+              \ Business Awards announcement, GoGreen has been nominated for its &ldquo;outstanding\
+              \ contributions to fighting climate change with its global corporate\
+              \ social responsibility strategy.&rdquo;</p> \n<p>&ldquo;We&rsquo;re\
+              \ thrilled to be nominated for Sustainable Business Award&rdquo; notes\
+              \ GoGreen&rsquo;s CEO Robert Greene, &ldquo;we thoroughly respect the\
+              \ work of the UNEF and are proud to be listed among such visionary companies.&rdquo;\
+              \ Winners of the Sustainable Business Award will be announced at a ceremony\
+              \ in Nairobi this December.</p>"
+    /09:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: e3812876-9e41-41cb-a274-5d90be6c6f4a
+      hippostd:foldertype: [new-news-folder, new-news]
+      hippotranslation:id: 9153ccef-321b-4b9b-882e-d9bfa4635422
+      hippotranslation:locale: en
+      /sonja-verde-joins-gogreen-as-vp-of-marketing:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 29a34533-5025-4a9f-9eb9-a4de7d6178fc
+        hippo:name: Sonja Verde Joins GoGreen as VP of Marketing
+        /sonja-verde-joins-gogreen-as-vp-of-marketing[1]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 5e186a8d-e586-4ba3-8c59-c3b0b3748fcc
+          hippo:availability: [preview]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2014-09-23T10:22:00+01:00
+          hippogogreen:summary: Position to strengthen regional presence for global
+            leader in sustainable consumer goods.
+          hippogogreen:title: Sonja Verde Joins GoGreen as VP of Marketing
+          hippostd:holder: admin
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:05:19.551+02:00
+          hippostdpubwf:lastModificationDate: 2014-09-08T17:10:44.254+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: dd13a021-26b0-4e22-9095-baed130caa12
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>GoGreen is pleased to welcome Sonja Verde as new\
+              \ VP of Global Marketing in its Amsterdam office. Sonja, who has lectured\
+              \ on Corporate Social Responsibility at the University of Greenland,&nbsp;joins\
+              \ GoGreen with ten years experience managing marketing for some of the\
+              \ world&rsquo;s leading sustainable brands. &ldquo;GoGreen has experienced\
+              \ consistent growth the past several years and looks to continue that\
+              \ trend,&rdquo; says President and Co-Founder, Robert Greene. &ldquo;Sonja&rsquo;s\
+              \ experience and talent is a great addition to our leadership team and\
+              \ will help us take the next leap forward.&rdquo;</p> \n<p>&ldquo;I&rsquo;m\
+              \ thrilled to bring my passion for content marketing and corporate social\
+              \ responsibility to Go Green&rdquo;&nbsp;says Verde. &ldquo;The sustainable\
+              \ consumer goods movement is gaining momentum and joining a team that\
+              \ has been in the mix for so long is exhilarating.&rdquo; Verde will\
+              \ take lead on business and market development; market research; strategic\
+              \ direction for promotion and advertising; and direction of marketing\
+              \ staff.</p>"
+        /sonja-verde-joins-gogreen-as-vp-of-marketing[2]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 29e05e98-1d11-477b-a1c6-b1836de05e71
+          hippo:availability: []
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2014-09-23T10:22:00+01:00
+          hippogogreen:summary: Position to strengthen regional presence for global
+            leader in sustainable consumer goods.
+          hippogogreen:title: Sonja Verde Joins GoGreen as VP of Marketing
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:05:19.551+02:00
+          hippostdpubwf:lastModificationDate: 2014-09-08T17:10:35.780+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: dd13a021-26b0-4e22-9095-baed130caa12
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>GoGreen is pleased to welcome Sonja Verde as new\
+              \ VP of Global Marketing in its Amsterdam office. Sonja, who has lectured\
+              \ on Corporate Social Responsibility at the University of Greenland,&nbsp;joins\
+              \ GoGreen with ten years experience managing marketing for some of the\
+              \ world&rsquo;s leading sustainable brands. &ldquo;GoGreen has experienced\
+              \ consistent growth the past several years and looks to continue that\
+              \ trend,&rdquo; says President and Co-Founder, Robert Greene. &ldquo;Sonja&rsquo;s\
+              \ experience and talent is a great addition to our leadership team and\
+              \ will help us take the next leap forward.&rdquo;</p> \n<p>&ldquo;I&rsquo;m\
+              \ thrilled to bring my passion for content marketing and corporate social\
+              \ responsibility to Go Green&rdquo;&nbsp;says Verde. &ldquo;The sustainable\
+              \ consumer goods movement is gaining momentum and joining a team that\
+              \ has been in the mix for so long is exhilarating.&rdquo; Verde will\
+              \ take lead on business and market development; market research; strategic\
+              \ direction for promotion and advertising; and direction of marketing\
+              \ staff.</p>"
+        /sonja-verde-joins-gogreen-as-vp-of-marketing[3]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 61b39c13-d21c-4caa-82c4-a61e4272f04f
+          hippo:availability: [live]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2014-09-23T10:22:00+01:00
+          hippogogreen:summary: Position to strengthen regional presence for global
+            leader in sustainable consumer goods.
+          hippogogreen:title: Sonja Verde Joins GoGreen as VP of Marketing
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:05:19.551+02:00
+          hippostdpubwf:lastModificationDate: 2014-09-08T17:10:44.254+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-08-18T17:10:45.906+02:00
+          hippotranslation:id: dd13a021-26b0-4e22-9095-baed130caa12
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>GoGreen is pleased to welcome Sonja Verde as new\
+              \ VP of Global Marketing in its Amsterdam office. Sonja, who has lectured\
+              \ on Corporate Social Responsibility at the University of Greenland,&nbsp;joins\
+              \ GoGreen with ten years experience managing marketing for some of the\
+              \ world&rsquo;s leading sustainable brands. &ldquo;GoGreen has experienced\
+              \ consistent growth the past several years and looks to continue that\
+              \ trend,&rdquo; says President and Co-Founder, Robert Greene. &ldquo;Sonja&rsquo;s\
+              \ experience and talent is a great addition to our leadership team and\
+              \ will help us take the next leap forward.&rdquo;</p> \n<p>&ldquo;I&rsquo;m\
+              \ thrilled to bring my passion for content marketing and corporate social\
+              \ responsibility to Go Green&rdquo;&nbsp;says Verde. &ldquo;The sustainable\
+              \ consumer goods movement is gaining momentum and joining a team that\
+              \ has been in the mix for so long is exhilarating.&rdquo; Verde will\
+              \ take lead on business and market development; market research; strategic\
+              \ direction for promotion and advertising; and direction of marketing\
+              \ staff.</p>"
+      /gogreen-announces-record-growth-in-h1:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 49e66eec-208e-4055-b017-b7f38c48d4b2
+        hippo:name: GoGreen Announces record growth in H1
+        /gogreen-announces-record-growth-in-h1[1]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 67e3d688-528e-4250-b474-7ad6ed90086b
+          hippo:availability: [preview]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2014-09-17T10:22:00+01:00
+          hippogogreen:metadescription: GoGreen Announces record growth in H1
+          hippogogreen:metatitle: GoGreen Record Growth
+          hippogogreen:summary: After a historically successful first quarter, GoGreen's
+            rapid growth continues in H1.
+          hippogogreen:title: GoGreen Announces record growth in H1
+          hippostd:holder: admin
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:02:05.152+02:00
+          hippostdpubwf:lastModificationDate: 2015-04-01T10:24:18.625-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3e7d3389-fede-422b-9f16-66f1693bb3a9
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Following a historically successful first quarter,\
+              \ GoGreen today announced an unprecedentedly successful half year--\
+              \ with revenue increases of over 250%.</p> \n<p>With a majority of growth\
+              \ in the United States, GoGreen has made major strides in the North\
+              \ American market, while also demonstrating solid growth in other target\
+              \ regions. &nbsp;Notable North American location openings include Los\
+              \ Angeles, New York, Chicago and Austin. The company has also generated\
+              \ new business in the Netherlands, the United Kingdom, Germany, Belgium\
+              \ and Finland.</p> \n<p> &ldquo;This has been a groundbreaking half\
+              \ year for GoGreen,&rdquo; notes CEO Robert Greene. &ldquo;We&rsquo;re\
+              \ proud to see so many customers recognizing their own eco-friendly\
+              \ values in GoGreen&rsquo;s philosophy. &nbsp;The World is changing,\
+              \ and customers now expect businesses that align with their values,\
+              \ and with the good of the planet&mdash;we&rsquo;re glad to be bringing\
+              \ sustainable products to these new markets.&rdquo;</p>"
+        /gogreen-announces-record-growth-in-h1[2]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 9322abce-a3cc-4922-9bfd-94dc1fea35dc
+          hippo:availability: []
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2014-09-17T10:22:00+01:00
+          hippogogreen:metadescription: GoGreen Announces record growth in H1
+          hippogogreen:metatitle: GoGreen Record Growth
+          hippogogreen:summary: After a historically successful first quarter, GoGreen's
+            rapid growth continues in H1.
+          hippogogreen:title: GoGreen Announces record growth in H1
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:02:05.152+02:00
+          hippostdpubwf:lastModificationDate: 2015-04-01T10:24:18.688-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3e7d3389-fede-422b-9f16-66f1693bb3a9
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Following a historically successful first quarter,\
+              \ GoGreen today announced an unprecedentedly successful half year--\
+              \ with revenue increases of over 250%.</p> \n<p>With a majority of growth\
+              \ in the United States, GoGreen has made major strides in the North\
+              \ American market, while also demonstrating solid growth in other target\
+              \ regions. &nbsp;Notable North American location openings include Los\
+              \ Angeles, New York, Chicago and Austin. The company has also generated\
+              \ new business in the Netherlands, the United Kingdom, Germany, Belgium\
+              \ and Finland.</p> \n<p> &ldquo;This has been a groundbreaking half\
+              \ year for GoGreen,&rdquo; notes CEO Robert Greene. &ldquo;We&rsquo;re\
+              \ proud to see so many customers recognizing their own eco-friendly\
+              \ values in GoGreen&rsquo;s philosophy. &nbsp;The World is changing,\
+              \ and customers now expect businesses that align with their values,\
+              \ and with the good of the planet&mdash;we&rsquo;re glad to be bringing\
+              \ sustainable products to these new markets.&rdquo;</p>"
+        /gogreen-announces-record-growth-in-h1[3]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: dd0a4fd8-8317-4482-a55b-6b12dd31611f
+          hippo:availability: [live]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2014-09-17T10:22:00+01:00
+          hippogogreen:metadescription: GoGreen Announces record growth in H1
+          hippogogreen:metatitle: GoGreen Record Growth
+          hippogogreen:summary: After a historically successful first quarter, GoGreen's
+            rapid growth continues in H1.
+          hippogogreen:title: GoGreen Announces record growth in H1
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:02:05.152+02:00
+          hippostdpubwf:lastModificationDate: 2015-04-01T10:24:18.625-04:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2015-04-01T10:24:23.622-04:00
+          hippotranslation:id: 3e7d3389-fede-422b-9f16-66f1693bb3a9
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Following a historically successful first quarter,\
+              \ GoGreen today announced an unprecedentedly successful half year--\
+              \ with revenue increases of over 250%.</p> \n<p>With a majority of growth\
+              \ in the United States, GoGreen has made major strides in the North\
+              \ American market, while also demonstrating solid growth in other target\
+              \ regions. &nbsp;Notable North American location openings include Los\
+              \ Angeles, New York, Chicago and Austin. The company has also generated\
+              \ new business in the Netherlands, the United Kingdom, Germany, Belgium\
+              \ and Finland.</p> \n<p> &ldquo;This has been a groundbreaking half\
+              \ year for GoGreen,&rdquo; notes CEO Robert Greene. &ldquo;We&rsquo;re\
+              \ proud to see so many customers recognizing their own eco-friendly\
+              \ values in GoGreen&rsquo;s philosophy. &nbsp;The World is changing,\
+              \ and customers now expect businesses that align with their values,\
+              \ and with the good of the planet&mdash;we&rsquo;re glad to be bringing\
+              \ sustainable products to these new markets.&rdquo;</p>"
+      /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b8236fb0-c4e5-48a2-9212-4687b84c526a
+        hippo:name: Hippo and GoGreen Collaborate to Launch a Comprehensive Website
+          Redesign
+        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[1]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 8ed0b057-f1c4-464f-b6f5-f567e6459110
+          hippo:availability: [preview]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2014-09-12T10:22:00+01:00
+          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
+            digitally-native, global authority on sustainable products for the home,
+            office and outdoors has just announced the launch of a completely new
+            GoGreen.com.
+          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
+            Website Redesign
+          hippostd:holder: admin
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:04:19.006+02:00
+          hippostdpubwf:lastModificationDate: 2014-09-08T17:09:45.916+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
+              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
+              \ multi-device customer experience that would broaden the store&rsquo;s\
+              \ customer base while remaining the essential resource for sustainable\
+              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
+              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
+              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
+              \ at our own pace, and work with the tools and solutions we trust. The\
+              \ results give us an unprecedented level of control over the customer\
+              \ experience without sacrificing brand consistency.&rdquo;</p>"
+        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[2]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 256b8ad7-1bc8-4e1b-adda-9687f5b44765
+          hippo:availability: []
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2014-09-12T10:22:00+01:00
+          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
+            digitally-native, global authority on sustainable products for the home,
+            office and outdoors has just announced the launch of a completely new
+            GoGreen.com.
+          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
+            Website Redesign
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:04:19.006+02:00
+          hippostdpubwf:lastModificationDate: 2014-09-08T17:04:19.141+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
+              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
+              \ multi-device customer experience that would broaden the store&rsquo;s\
+              \ customer base while remaining the essential resource for sustainable\
+              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
+              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
+              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
+              \ at our own pace, and work with the tools and solutions we trust. The\
+              \ results give us an unprecedented level of control over the customer\
+              \ experience without sacrificing brand consistency.&rdquo;</p>"
+        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[3]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8ae80272-97b5-40c0-8fab-1fa74902dc8b
+          hippo:availability: [live]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2014-09-12T10:22:00+01:00
+          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
+            digitally-native, global authority on sustainable products for the home,
+            office and outdoors has just announced the launch of a completely new
+            GoGreen.com.
+          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
+            Website Redesign
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2014-09-08T17:04:19.006+02:00
+          hippostdpubwf:lastModificationDate: 2014-09-08T17:09:45.916+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2014-07-15T17:09:48.067+02:00
+          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
+              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
+              \ multi-device customer experience that would broaden the store&rsquo;s\
+              \ customer base while remaining the essential resource for sustainable\
+              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
+              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
+              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
+              \ at our own pace, and work with the tools and solutions we trust. The\
+              \ results give us an unprecedented level of control over the customer\
+              \ experience without sacrificing brand consistency.&rdquo;</p>"
+  /facetednews:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 29
+    hippo:docbase: 90fb1f31-3f44-4d05-ad56-234002d20bd8
+    hippofacnav:facetnodenames: [This year, 'Archive${sortby:''facetvalue'', sortorder:''descending''}']
+    hippofacnav:facets: ["hippogogreen:date$[{name:'This month', resolution:'month',\
+        \ begin:0, end:1},\r\n        {name:'Last month', resolution:'month', begin:-1,\
+        \ end:0}, {name:'This year',\r\n        resolution:'year', begin:0, end:1}]",
+      'hippogogreen:date$year']
+    hippofacnav:limit: 200
+    hippofacnav:skipresultsetfacetsavailable: true
