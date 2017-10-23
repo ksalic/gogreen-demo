@@ -1,6 +1,8 @@
 /content/assets/themes:
+  .meta:order-before: pdf
   jcr:primaryType: hippogallery:stdAssetGallery
   jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 877bd2b8-155a-4ff7-bc77-8a81617eb7b0
   hippostd:foldertype: [new-file-folder]
   hippostd:gallerytype: ['hippogallery:exampleAssetSet']
   /css:
@@ -23,7 +25,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/hippo-green.css/hippo-green.css/asset/hippo-green.css
+            resource: /content/assets/themes/css/hippo-green.css/hippo-green.css/asset/data.bin
           jcr:lastModified: 2014-08-29T14:59:06.016+02:00
           jcr:mimeType: text/css
     /dark-blue.css:
@@ -40,7 +42,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/dark-blue.css/dark-blue.css/asset/dark-blue.css
+            resource: /content/assets/themes/css/dark-blue.css/dark-blue.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:43.685+02:00
           jcr:mimeType: text/css
     /pink.css:
@@ -57,7 +59,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/pink.css/pink.css/asset/pink.css
+            resource: /content/assets/themes/css/pink.css/pink.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:43.685+02:00
           jcr:mimeType: text/css
     /light-blue.css:
@@ -74,7 +76,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/light-blue.css/light-blue.css/asset/light-blue.css
+            resource: /content/assets/themes/css/light-blue.css/light-blue.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:43.716+02:00
           jcr:mimeType: text/css
     /bright-green.css:
@@ -91,7 +93,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/bright-green.css/bright-green.css/asset/bright-green.css
+            resource: /content/assets/themes/css/bright-green.css/bright-green.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:43.771+02:00
           jcr:mimeType: text/css
     /coffee.css:
@@ -108,7 +110,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/coffee.css/coffee.css/asset/coffee.css
+            resource: /content/assets/themes/css/coffee.css/coffee.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:43.801+02:00
           jcr:mimeType: text/css
     /dark-yellow.css:
@@ -125,7 +127,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/dark-yellow.css/dark-yellow.css/asset/dark-yellow.css
+            resource: /content/assets/themes/css/dark-yellow.css/dark-yellow.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:43.930+02:00
           jcr:mimeType: text/css
     /green.css:
@@ -142,7 +144,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/green.css/green.css/asset/green.css
+            resource: /content/assets/themes/css/green.css/green.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:43.962+02:00
           jcr:mimeType: text/css
     /red.css:
@@ -159,7 +161,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/red.css/red.css/asset/red.css
+            resource: /content/assets/themes/css/red.css/red.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:44.004+02:00
           jcr:mimeType: text/css
     /black.css:
@@ -176,7 +178,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/black.css/black.css/asset/black.css
+            resource: /content/assets/themes/css/black.css/black.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:44.071+02:00
           jcr:mimeType: text/css
     /light-purple.css:
@@ -193,7 +195,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/light-purple.css/light-purple.css/asset/light-purple.css
+            resource: /content/assets/themes/css/light-purple.css/light-purple.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:44.108+02:00
           jcr:mimeType: text/css
     /oil.css:
@@ -210,7 +212,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/oil.css/oil.css/asset/oil.css
+            resource: /content/assets/themes/css/oil.css/oil.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:44.198+02:00
           jcr:mimeType: text/css
     /light-brown.css:
@@ -227,7 +229,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/light-brown.css/light-brown.css/asset/light-brown.css
+            resource: /content/assets/themes/css/light-brown.css/light-brown.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:44.346+02:00
           jcr:mimeType: text/css
     /orange.css:
@@ -244,7 +246,7 @@
           jcr:primaryType: hippo:resource
           jcr:data:
             type: binary
-            resource: /content/assets/themes/css/orange.css/orange.css/asset/orange.css
+            resource: /content/assets/themes/css/orange.css/orange.css/asset/data.bin
           jcr:lastModified: 2014-07-29T15:06:44.387+02:00
           jcr:mimeType: text/css
   /images:

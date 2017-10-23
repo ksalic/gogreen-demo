@@ -1,0 +1,23 @@
+/content/assets/pdf/2010:
+  jcr:primaryType: hippogallery:stdAssetGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 95aabae5-5ca3-4bb5-adf3-50f4d5f2bdef
+  hippostd:foldertype: [new-file-folder]
+  hippostd:gallerytype: ['hippogallery:exampleAssetSet']
+  /globalwarming.pdf:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d8ab4bf1-fb66-4d16-aaf7-15bce4a8e77f
+    hippo:discriminator: []
+    /globalwarming.pdf:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6abf0132-8370-42a0-a6db-28f294356467
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/pdf/2010/globalwarming.pdf/globalwarming.pdf/asset/data.pdf
+        jcr:lastModified: 2010-07-30T14:17:00+02:00
+        jcr:mimeType: application/pdf

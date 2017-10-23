@@ -1,0 +1,125 @@
+/content/assets/doc/2010:
+  jcr:primaryType: hippogallery:stdAssetGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 613483bd-43ec-4055-8696-e1f016c50a4e
+  hippostd:foldertype: [new-file-folder]
+  hippostd:gallerytype: ['hippogallery:exampleAssetSet']
+  /globalwarming.html:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 490483d9-2d0f-47e9-b624-bb558edac35a
+    hippo:discriminator: []
+    /globalwarming.html:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1ff04af2-f9cd-43d8-a3f3-512fb32454ab
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/doc/2010/globalwarming.html/globalwarming.html/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:17:00+02:00
+        jcr:mimeType: text/html
+  /warming.odp:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: ba29d4cb-8127-41de-a74f-e253de4ce5cf
+    hippo:discriminator: []
+    /warming.odp:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: df630622-1f9c-460c-8303-f44450ef7d02
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/doc/2010/warming.odp/warming.odp/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:17:00+02:00
+        jcr:mimeType: application/vnd.oasis.opendocument.presentation
+  /globalwarming.doc:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6643a112-d2b0-490c-8f23-3e5ace830470
+    hippo:discriminator: []
+    /globalwarming.doc:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 95bbed6e-d06d-4a77-bf86-e3fa0d80f2bf
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/doc/2010/globalwarming.doc/globalwarming.doc/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:17:00+02:00
+        jcr:mimeType: application/msword
+  /warming.ppt:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 2c979660-39ea-401c-a848-d821f6310048
+    hippo:discriminator: []
+    /warming.ppt:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bfe5e6dc-5c78-4c66-b3d9-e5207c139126
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/doc/2010/warming.ppt/warming.ppt/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:17:00+02:00
+        jcr:mimeType: application/mspowerpoint
+  /globalwarming.txt:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1aee6636-9fd2-4818-8bb2-727531ecb81f
+    hippo:discriminator: []
+    /globalwarming.txt:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f07e486f-c55e-4658-8aef-357a02500f34
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/doc/2010/globalwarming.txt/globalwarming.txt/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:16:00+02:00
+        jcr:mimeType: text/plain
+  /globalwarming.odt:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 83bd93da-8aa8-4ddd-aa58-b9843ee33a5d
+    hippo:discriminator: []
+    /globalwarming.odt:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bd1b8856-69ab-41fe-8071-ff2e93ef3fee
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/doc/2010/globalwarming.odt/globalwarming.odt/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:16:00+02:00
+        jcr:mimeType: application/vnd.oasis.opendocument.text
+  /globalwarming.rtf:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b7b463fe-5b12-4ebb-a8c5-602b5e00b4ad
+    hippo:discriminator: []
+    /globalwarming.rtf:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d1997e42-68a0-41ef-aa6f-eb881de235f1
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/doc/2010/globalwarming.rtf/globalwarming.rtf/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:16:00+02:00
+        jcr:mimeType: text/rtf

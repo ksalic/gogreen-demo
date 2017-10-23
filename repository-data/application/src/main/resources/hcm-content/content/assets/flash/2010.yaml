@@ -1,0 +1,23 @@
+/content/assets/flash/2010:
+  jcr:primaryType: hippogallery:stdAssetGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 7bcd6135-c740-4b01-a089-429cffafa3f0
+  hippostd:foldertype: [new-file-folder]
+  hippostd:gallerytype: ['hippogallery:exampleAssetSet']
+  /windymobility.flv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9d265bea-662f-4325-8c00-7f50dbb254b8
+    hippo:discriminator: []
+    /windymobility.flv:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1c31f648-0d90-430a-80ba-cab8c548393c
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/flash/2010/windymobility.flv/windymobility.flv/asset/data.bin
+        jcr:lastModified: 2010-07-30T16:35:00+02:00
+        jcr:mimeType: video/x-flv

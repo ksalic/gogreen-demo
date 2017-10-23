@@ -1,0 +1,57 @@
+/content/assets/spreadsheets/2010:
+  jcr:primaryType: hippogallery:stdAssetGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 61249770-50d8-4363-a7ca-8ed69df856fe
+  hippostd:foldertype: [new-file-folder]
+  hippostd:gallerytype: ['hippogallery:exampleAssetSet']
+  /greenhousegas.csv:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d7ef3f7d-b62f-4d81-afe6-9df8c0911d8e
+    hippo:discriminator: []
+    /greenhousegas.csv:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b72e4743-0fc8-4c8b-bdaf-af7a2f8bbca5
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/spreadsheets/2010/greenhousegas.csv/greenhousegas.csv/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:16:00+02:00
+        jcr:mimeType: application/octet-stream
+  /greenhousegas.ods:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6f8cb36a-62f0-49a8-b23a-acd22d4d6b8a
+    hippo:discriminator: []
+    /greenhousegas.ods:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8fa0cc4e-4d22-42db-af03-159ba924cffa
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/spreadsheets/2010/greenhousegas.ods/greenhousegas.ods/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:16:00+02:00
+        jcr:mimeType: application/vnd.oasis.opendocument.spreadsheet
+  /greenhousegas.xls:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4ee0eccc-d2b8-4ca2-955a-b776db1b2134
+    hippo:discriminator: []
+    /greenhousegas.xls:
+      jcr:primaryType: hippogallery:exampleAssetSet
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 65346349-ffaa-448a-803c-d185c4918d50
+      hippo:availability: [live, preview]
+      /hippogallery:asset:
+        jcr:primaryType: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/assets/spreadsheets/2010/greenhousegas.xls/greenhousegas.xls/asset/data.bin
+        jcr:lastModified: 2010-07-30T14:16:00+02:00
+        jcr:mimeType: application/excel
