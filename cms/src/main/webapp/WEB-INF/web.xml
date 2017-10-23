@@ -63,6 +63,10 @@
     <filter-name>CMS</filter-name>
     <filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
     <init-param>
+      <param-name>config</param-name>
+      <param-value>cms</param-value>
+    </init-param>
+    <init-param>
       <param-name>applicationClassName</param-name>
       <param-value>org.hippoecm.frontend.Main</param-value>
     </init-param>
@@ -122,7 +126,6 @@
     <filter-name>RssFilter</filter-name>
     <url-pattern>/rss/*</url-pattern>
   </filter-mapping>
-
 
   <filter-mapping>
     <filter-name>ConcurrentLogin</filter-name>
@@ -200,6 +203,7 @@
     </init-param>
   </servlet>
 
+  <!-- TODO: still necessary? not in archetype... -->
   <servlet>
     <servlet-name>StatusServlet</servlet-name>
     <servlet-class>org.hippoecm.repository.StatusServlet</servlet-class>
@@ -226,7 +230,13 @@
       <param-name>repository-address</param-name>
       <param-value>vm://</param-value>
     </init-param>
-    <load-on-startup>2</load-on-startup>
+    <load-on-startup>5</load-on-startup>
+  </servlet>
+
+  <servlet>
+    <servlet-name>RepositoryJaxrsServlet</servlet-name>
+    <servlet-class>org.onehippo.repository.jaxrs.RepositoryJaxrsServlet</servlet-class>
+    <load-on-startup>6</load-on-startup>
   </servlet>
 
   <servlet-mapping>
@@ -264,21 +274,18 @@
     <url-pattern>/skin/*</url-pattern>
   </servlet-mapping>
 
+  <servlet-mapping>
+    <servlet-name>RepositoryJaxrsServlet</servlet-name>
+    <url-pattern>/ws/*</url-pattern>
+  </servlet-mapping>
+
   <!-- Timeout in minutes -->
   <session-config>
     <session-timeout>60</session-timeout>
     <tracking-mode>COOKIE</tracking-mode>
   </session-config>
 
-  <!--
-  <resource-ref>
-    <res-ref-name>jdbc/hreptwo</res-ref-name>
-    <res-type>javax.sql.DataSource</res-type>
-    <res-auth>Container</res-auth>
-  </resource-ref>
-  -->
-
-  <!--<error-page>
+  <error-page>
     <error-code>500</error-code>
     <location>/WEB-INF/error.jsp</location>
   </error-page>
@@ -286,7 +293,7 @@
   <error-page>
     <exception-type>java.lang.Throwable</exception-type>
     <location>/WEB-INF/error.jsp</location>
-  </error-page>-->
+  </error-page>
 
   <env-entry>​
     <env-entry-name>logging/contextName</env-entry-name>
