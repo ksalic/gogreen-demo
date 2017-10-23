@@ -1,0 +1,766 @@
+/content/gallery/logos:
+  .meta:order-before: products
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 56c33897-f6ae-4a5c-90d6-c4037477a7a1
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogogreengallery:imageset']
+  /hippo-go-green.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 6bb9829f-48c5-413c-958d-217c5f50961a
+    hippo:discriminator: []
+    hippo:name: Hippo Go Green.png
+    /hippo-go-green.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 84d438e2-0014-4559-8b88-b6acfbd71b73
+      hippo:availability: [live, preview]
+      hippogallery:filename: gogreen_logo_en.png
+      hippogogreengallery:alt: Hippo Go Green
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 15
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green.png/hippo-go-green.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 15
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green.png/hippo-go-green.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 70
+        hippogallery:width: 275
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green.png/hippo-go-green.png/original/original.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 125
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green.png/hippo-go-green.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 70
+        hippogallery:width: 275
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green.png/hippo-go-green.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 24
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green.png/hippo-go-green.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:copyright:
+        jcr:primaryType: hippogogreen:copyright
+        hippogogreen:description: ''
+        hippogogreen:url: ''
+  /hippo-duurzaam.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 994c3d1f-5268-44da-ac81-827e2d641cc8
+    hippo:discriminator: []
+    hippo:name: Hippo Duurzaam.png
+    /hippo-duurzaam.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1a8daaff-f7d3-4d02-8a0a-ee4e4917a18f
+      hippo:availability: [live, preview]
+      hippogallery:filename: gogreen_logo_nl.png
+      hippogogreengallery:alt: Hippo Duurzaam
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 15
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-duurzaam.png/hippo-duurzaam.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 15
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-duurzaam.png/hippo-duurzaam.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 70
+        hippogallery:width: 275
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-duurzaam.png/hippo-duurzaam.png/original/original.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 125
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-duurzaam.png/hippo-duurzaam.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 70
+        hippogallery:width: 275
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-duurzaam.png/hippo-duurzaam.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 24
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-duurzaam.png/hippo-duurzaam.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:copyright:
+        jcr:primaryType: hippogogreen:copyright
+        hippogogreen:description: ''
+        hippogogreen:url: ''
+  /hippo-mise-au-vert.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d2af998c-123e-4b70-a2c7-b274ae74706f
+    hippo:discriminator: []
+    hippo:name: Hippo Mise au Vert.png
+    /hippo-mise-au-vert.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c41e9d62-c0d3-447e-91a6-3f6bd2fb34fb
+      hippo:availability: [live, preview]
+      hippogallery:filename: gogreen_logo_fr.png
+      hippogogreengallery:alt: Hippo Mise au Vert
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 15
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-mise-au-vert.png/hippo-mise-au-vert.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 15
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-mise-au-vert.png/hippo-mise-au-vert.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 70
+        hippogallery:width: 275
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-mise-au-vert.png/hippo-mise-au-vert.png/original/original.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 125
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-mise-au-vert.png/hippo-mise-au-vert.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 70
+        hippogallery:width: 275
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-mise-au-vert.png/hippo-mise-au-vert.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 24
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-mise-au-vert.png/hippo-mise-au-vert.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2011-07-12T15:58:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:copyright:
+        jcr:primaryType: hippogogreen:copyright
+        hippogogreen:description: ''
+        hippogogreen:url: ''
+  /hippo-go-green-logo---chinese.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4fc425f0-fda7-4ff5-9137-6086511b5a28
+    hippo:discriminator: []
+    hippo:name: Hippo Go Green Logo - Chinese.png
+    /hippo-go-green-logo---chinese.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6076ef9e-c967-44fb-9111-a9d8e26a5b17
+      hippo:availability: [live, preview]
+      hippogallery:filename: Hippo Go Green Logo - Chinese.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---chinese.png/hippo-go-green-logo---chinese.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 14
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---chinese.png/hippo-go-green-logo---chinese.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 227
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---chinese.png/hippo-go-green-logo---chinese.png/original/original.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 134
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---chinese.png/hippo-go-green-logo---chinese.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 227
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---chinese.png/hippo-go-green-logo---chinese.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 23
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---chinese.png/hippo-go-green-logo---chinese.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+  /hippo-go-green-logo---spanish.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 3db6ed9e-ca61-4741-af46-8bcd96c98b27
+    hippo:discriminator: []
+    hippo:name: Hippo Go Green Logo - Spanish.png
+    /hippo-go-green-logo---spanish.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ce728f44-91fb-43b8-8959-95bd22e31d84
+      hippo:availability: [live, preview]
+      hippogallery:filename: Hippo Go Green Logo - Spanish.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 13
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---spanish.png/hippo-go-green-logo---spanish.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 13
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---spanish.png/hippo-go-green-logo---spanish.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 242
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---spanish.png/hippo-go-green-logo---spanish.png/original/original.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 143
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---spanish.png/hippo-go-green-logo---spanish.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 54
+        hippogallery:width: 242
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---spanish.png/hippo-go-green-logo---spanish.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 21
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---spanish.png/hippo-go-green-logo---spanish.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2011-09-20T16:20:00+02:00
+        jcr:mimeType: image/png
+  /hippo-go-green-logo---german.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a3b66aed-4825-45bf-b99d-8d23049c58d8
+    hippo:discriminator: []
+    hippo:name: Hippo Go Green Logo - German.png
+    /hippo-go-green-logo---german.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5b3ffe3c-509d-4430-bc69-9809bb643d4a
+      hippo:availability: [live, preview]
+      hippogallery:filename: Hippo Go Green Logo - German.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 10
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---german.png/hippo-go-green-logo---german.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2011-09-20T16:21:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 10
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---german.png/hippo-go-green-logo---german.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2011-09-20T16:21:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 50
+        hippogallery:width: 284
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---german.png/hippo-go-green-logo---german.png/original/original.png
+        jcr:lastModified: 2011-09-20T16:21:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 181
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---german.png/hippo-go-green-logo---german.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2011-09-20T16:21:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 50
+        hippogallery:width: 284
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---german.png/hippo-go-green-logo---german.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2011-09-20T16:21:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 17
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---german.png/hippo-go-green-logo---german.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2011-09-20T16:21:00+02:00
+        jcr:mimeType: image/png
+  /hippo-go-green-logo---russian.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 00ad52ec-b700-4192-9624-299bfed001ad
+    hippo:discriminator: []
+    hippo:name: Hippo Go Green Logo - Russian.png
+    /hippo-go-green-logo---russian.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b63798ef-c989-4ab6-92c1-73f8820ae581
+      hippo:availability: [live, preview]
+      hippogallery:filename: Hippo Go Green Logo - Russian.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 8
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---russian.png/hippo-go-green-logo---russian.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2011-09-20T16:22:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 8
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---russian.png/hippo-go-green-logo---russian.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2011-09-20T16:22:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 365
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---russian.png/hippo-go-green-logo---russian.png/original/original.png
+        jcr:lastModified: 2011-09-20T16:22:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 31
+        hippogallery:width: 238
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---russian.png/hippo-go-green-logo---russian.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2011-09-20T16:22:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 365
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---russian.png/hippo-go-green-logo---russian.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2011-09-20T16:22:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 13
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/hippo-go-green-logo---russian.png/hippo-go-green-logo---russian.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2011-09-20T16:22:00+02:00
+        jcr:mimeType: image/png
+  /gogreen_logo_box.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 2d70644a-725d-4896-9aac-835d0e059044
+    hippo:discriminator: []
+    hippo:name: GoGreen_logo_box.png
+    /gogreen_logo_box.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 9cafe83d-05b5-464e-afc6-3c3123bf5455
+      hippo:availability: [live, preview]
+      hippogallery:filename: GoGreen_logo_box.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: GoGreen_logo_box.png
+        hippogallery:height: 34
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 34
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 134
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/landscapeimage/landscapeimage.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 56
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 55
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 134
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/bannercarousel/bannercarousel.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 134
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/original/original.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 134
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/banner/banner.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 134
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreen_logo_box.png/gogreen_logo_box.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2014-08-27T16:24:34.976+02:00
+        jcr:mimeType: image/png
+  /gogreenlogo.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f927e024-dac6-46d0-bec2-be3cf4019427
+    hippo:discriminator: []
+    hippo:name: GoGreenlogo.png
+    /gogreenlogo.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: a13b34f2-fb73-4811-92ea-ec409409f69c
+      hippo:availability: [live, preview]
+      hippogallery:filename: GoGreenlogo.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: GoGreenlogo.png
+        hippogallery:height: 37
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 37
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 125
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/landscapeimage/landscapeimage.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 61
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 51
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 125
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/bannercarousel/bannercarousel.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 125
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/original/original.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 125
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/banner/banner.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 125
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo.png/gogreenlogo.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2014-08-27T16:57:47.257+02:00
+        jcr:mimeType: image/png
+  /gogreenlogo2.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 1c4b16e5-935c-4730-8d52-7660c4b26724
+    hippo:discriminator: []
+    hippo:name: GoGreenlogo2.png
+    /gogreenlogo2.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 6e840845-b482-4ae1-9a65-c694ac374c78
+      hippo:availability: [live, preview]
+      hippogallery:filename: GoGreenlogo2.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: GoGreenlogo2.png
+        hippogallery:height: 32
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 107
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/landscapeimage/landscapeimage.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 52
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 31
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 107
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/bannercarousel/bannercarousel.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 107
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/original/original.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 107
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/banner/banner.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 107
+        hippogallery:width: 200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/logos/gogreenlogo2.png/gogreenlogo2.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2014-08-27T17:05:03.408+02:00
+        jcr:mimeType: image/png

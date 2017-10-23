@@ -1,0 +1,64 @@
+/content/gallery/test:
+  .meta:order-before: channels
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: b3899e05-3b4c-4276-9ad3-84404bd36ca9
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogogreengallery:imageset']
+  /going-green-silicon-valley.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 0e8a928c-b83f-4bb9-9e52-1a22b7e9ee21
+    hippo:discriminator: []
+    hippo:name: Going Green Silicon Valley.png
+    /going-green-silicon-valley.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ecd44f1b-4113-4b4a-91dd-d481fde143b5
+      hippo:availability: [live, preview]
+      hippogallery:filename: Going Green Silicon Valley.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 7
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/test/going-green-silicon-valley.png/going-green-silicon-valley.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2010-07-28T15:02:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 11
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/test/going-green-silicon-valley.png/going-green-silicon-valley.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2010-07-28T15:02:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 107
+        hippogallery:width: 915
+        jcr:data:
+          type: binary
+          resource: /content/gallery/test/going-green-silicon-valley.png/going-green-silicon-valley.png/original/original.png
+        jcr:lastModified: 2010-07-28T15:02:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 46
+        hippogallery:width: 400
+        jcr:data:
+          type: binary
+          resource: /content/gallery/test/going-green-silicon-valley.png/going-green-silicon-valley.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2010-07-28T15:02:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 7
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/test/going-green-silicon-valley.png/going-green-silicon-valley.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2010-07-28T15:02:00+02:00
+        jcr:mimeType: image/png

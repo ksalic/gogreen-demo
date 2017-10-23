@@ -1,0 +1,136 @@
+/content/gallery/channels:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 7af9132a-b2fd-469b-978f-ea5cd4159f7f
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogogreengallery:imageset']
+  /website.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d166aa59-8c5e-4c36-bc18-4841b3e9f02c
+    hippo:discriminator: []
+    /website.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0d801108-8b92-4ac5-a853-c3394939dc9f
+      hippo:availability: [live, preview]
+      hippogallery:filename: type-website.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/website.png/website.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2012-02-29T14:40:00+01:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/website.png/website.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2012-02-29T14:40:00+01:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 69
+        hippogallery:width: 102
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/website.png/website.png/original/original.png
+        jcr:lastModified: 2012-02-29T14:40:00+01:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 47
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/website.png/website.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2012-02-29T14:40:00+01:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 69
+        hippogallery:width: 102
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/website.png/website.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2012-02-29T14:40:00+01:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 98
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/website.png/website.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2012-02-29T14:40:00+01:00
+        jcr:mimeType: image/png
+  /facebook.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: db4191f7-9cfa-42af-a02c-6fabf3c05b01
+    hippo:discriminator: []
+    /facebook.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ab8b39a9-457c-40a2-876a-800ca876d132
+      hippo:availability: [live, preview]
+      hippogallery:filename: facebook.png
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 46
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/facebook.png/facebook.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2012-04-09T22:35:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 45
+        hippogallery:width: 58
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/facebook.png/facebook.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2012-04-09T22:35:00+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 77
+        hippogallery:width: 100
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/facebook.png/facebook.png/original/original.png
+        jcr:lastModified: 2012-04-09T22:35:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 41
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/facebook.png/facebook.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2012-04-09T22:35:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 77
+        hippogallery:width: 100
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/facebook.png/facebook.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2012-04-09T22:35:00+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 74
+        hippogallery:width: 96
+        jcr:data:
+          type: binary
+          resource: /content/gallery/channels/facebook.png/facebook.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2012-04-09T22:35:00+02:00
+        jcr:mimeType: image/png
