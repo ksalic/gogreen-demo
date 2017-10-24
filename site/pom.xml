@@ -87,6 +87,12 @@
 
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-wpm-dependencies-site</artifactId>
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
       <version>${hippo.addon-targeting.version}</version>
       <scope>test</scope>
