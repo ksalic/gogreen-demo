@@ -387,17 +387,6 @@
         <es.tcpPort>9300</es.tcpPort>
         <es.skip.start>false</es.skip.start>
       </properties>
-      <dependencies>
-        <dependency>
-          <groupId>com.onehippo.cms7</groupId>
-          <artifactId>hippo-enterprise-services</artifactId>
-        </dependency>
-        <dependency>
-          <groupId>com.onehippo.cms7</groupId>
-          <artifactId>hippo-addon-wpm-camunda</artifactId>
-          <type>war</type>
-        </dependency>
-      </dependencies>
       <build>
         <plugins>
           <plugin>
@@ -473,14 +462,6 @@
                     <context>/essentials</context>
                   </properties>
                 </deployable>
-                <deployable>
-                  <groupId>com.onehippo.cms7</groupId>
-                  <artifactId>hippo-addon-wpm-camunda</artifactId>
-                  <type>war</type>
-                  <properties>
-                    <context>/bpm</context>
-                  </properties>
-                </deployable>
               </deployables>
               <container>
                 <systemProperties>
@@ -491,13 +472,7 @@
                   <es.path>${es.path}</es.path>
                   <es.bootstrap>${es.bootstrap}</es.bootstrap>
                 </systemProperties>
-                <dependencies>
-                  <dependency>
-                    <groupId>com.onehippo.cms7</groupId>
-                    <artifactId>hippo-enterprise-services</artifactId>
-                    <classpath>shared</classpath>
-                  </dependency>
-                </dependencies>
+
               </container>
             </configuration>
           </plugin>
@@ -536,15 +511,6 @@
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-core</artifactId>
           <scope>provided</scope>
-        </dependency>
-        <dependency>
-          <groupId>com.onehippo.cms7</groupId>
-          <artifactId>hippo-addon-wpm-camunda</artifactId>
-          <type>war</type>
-        </dependency>
-        <dependency>
-          <groupId>com.onehippo.cms7</groupId>
-          <artifactId>hippo-enterprise-services</artifactId>
         </dependency>
       </dependencies>
       <build>
