@@ -450,13 +450,6 @@
                     <tofile>logging.properties</tofile>
                   </configfile>
                 </configfiles>
-                <!-- TODO: new in archetype 12 main pom... do we need it? -->
-<!--                <files>
-                  <file>
-                    <file>${project.basedir}/repository-data/development/target/gogreen-two-repository-data-development-${project.version}.jar</file>
-                    <todir>${development-module-deploy-dir}</todir>
-                  </file>
-                </files>-->
               </configuration>
               <deployables>
                 <deployable>
@@ -491,8 +484,6 @@
               </deployables>
               <container>
                 <systemProperties>
-                  <!-- TODO: can be removed? -->
-                 <derby.stream.error.file>${project.basedir}/target/derby.log</derby.stream.error.file>
                   <log4j.configurationFile>file://${project.basedir}/conf/log4j2-dev.xml</log4j.configurationFile>
                   <!-- enables auto export and web files watch: -->
                   <project.basedir>${project.basedir}</project.basedir>
@@ -514,7 +505,6 @@
       </build>
     </profile>
 
-    <!-- TODO: maybe not necessary for this project -->
     <profile>
       <!-- additional profile to combine with cargo:run to *not* bootstrap the development module:
            $ mvn -P cargo.run,without-development-data -->

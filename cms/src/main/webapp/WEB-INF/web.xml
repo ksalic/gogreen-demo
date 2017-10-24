@@ -203,24 +203,17 @@
     </init-param>
   </servlet>
 
-  <!-- TODO: still necessary? not in archetype... -->
-  <servlet>
-    <servlet-name>StatusServlet</servlet-name>
-    <servlet-class>org.hippoecm.repository.StatusServlet</servlet-class>
-    <load-on-startup>2</load-on-startup>
-  </servlet>
-
   <servlet>
     <servlet-name>LoggingServlet</servlet-name>
     <servlet-class>org.hippoecm.repository.LoggingServlet</servlet-class>
-    <load-on-startup>3</load-on-startup>
+    <load-on-startup>1</load-on-startup>
   </servlet>
 
   <!-- Repository -->
   <servlet>
     <servlet-name>Repository</servlet-name>
     <servlet-class>org.hippoecm.repository.RepositoryServlet</servlet-class>
-    <load-on-startup>4</load-on-startup>
+    <load-on-startup>2</load-on-startup>
   </servlet>
 
   <servlet>
@@ -230,19 +223,14 @@
       <param-name>repository-address</param-name>
       <param-value>vm://</param-value>
     </init-param>
-    <load-on-startup>5</load-on-startup>
+    <load-on-startup>3</load-on-startup>
   </servlet>
 
   <servlet>
     <servlet-name>RepositoryJaxrsServlet</servlet-name>
     <servlet-class>org.onehippo.repository.jaxrs.RepositoryJaxrsServlet</servlet-class>
-    <load-on-startup>6</load-on-startup>
+    <load-on-startup>4</load-on-startup>
   </servlet>
-
-  <servlet-mapping>
-    <servlet-name>StatusServlet</servlet-name>
-    <url-pattern>/status/*</url-pattern>
-  </servlet-mapping>
 
   <servlet-mapping>
     <servlet-name>LoggingServlet</servlet-name>
