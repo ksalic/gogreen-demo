@@ -14,8 +14,8 @@ Run it
 Hippo Go Green uses the Maven Cargo plugin to run the CMS and site locally in Tomcat.
 From the project root folder, execute:
 
-  $ mvn clean install
-  $ mvn -P cargo.run
+    mvn clean install
+    mvn -P cargo.run
 
 Storages on when running locally with Cargo:
   The repo.path system property is predefined in the root pom as 'storage', relative to project directory.
@@ -25,7 +25,7 @@ Storages on when running locally with Cargo:
   Note: (on Windows at least) when the repo.path property is supplied on the command line, the Elasticsearch data will
   be 'elasticsearch' in the Tomcat8x directory.
 
-Access the CMS at http://localhost:8080/cms, and the site at http://localhost:8080/site
+Access the CMS at [http://localhost:8080/cms](http://localhost:8080/cms), and the site at [http://localhost:8080/site](http://localhost:8080/site)
 Logs are located in target/tomcat8x/logs
 
 Building distribution
@@ -33,8 +33,8 @@ Building distribution
 
 To build a Tomcat distribution tarball containing only deployable artifacts:
 
-  $ mvn clean install
-  $ mvn -P dist
+    mvn clean install
+    mvn -P dist
 
 See also src/main/assembly/distribution.xml
 
@@ -45,9 +45,9 @@ The demo launcher is an archive containing an executable jar that launches a Tom
 the CMS and the Go Green site application.
 
 To create demo launcher:
-  $ mvn clean install
-  $ cd dist
-  $ mvn clean install -P dist-full,demo-launcher
+    mvn clean install
+    cd dist
+    mvn clean install -P dist-full,demo-launcher
 
 This will create a .tar.gz and .zip archive containing the demo launcher under 'dist/target' directory
 
@@ -57,15 +57,15 @@ Using JRebel
 Set the environment variable REBEL_HOME to the directory containing jrebel.jar.
 Build with:
 
-  $ mvn -Djrebel
+    mvn -Djrebel
 
 or add -Djrebel to your MAVEN_OPTS environment variable:
 
-  $ export MAVEN_OPTS="$MAVEN_OPTS -Djrebel"
+    export MAVEN_OPTS="$MAVEN_OPTS -Djrebel"
 
 Note: the latter *always* enables JRebel. To disable temporarily (e.g. when building/deploying a release) use
 
-  $ mvn -P -jrebel
+    mvn -P -jrebel
 
 Do *not* activate JRebel using "mvn -P jrebel", as it then deactivates the "default" profile.
 
@@ -74,8 +74,8 @@ Hot deploy
 
 To hot deploy, redeploy or undeploy the CMS or site:
 
-  $ cd cms (or site)
-  $ mvn cargo:redeploy (or cargo:undeploy, or cargo:deploy)
+    cd cms (or site)
+    mvn cargo:redeploy (or cargo:undeploy, or cargo:deploy)
 
 
 Special thanks:
