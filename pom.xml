@@ -84,8 +84,8 @@
     <maven.plugin.elasticsearch.version>5.7</maven.plugin.elasticsearch.version>
 
     <lib.geolite2.version>20161123</lib.geolite2.version>
-    <lib.httpcore.version>4.4.3</lib.httpcore.version>
-    <lib.httcplient.version>4.5.1</lib.httcplient.version>
+    <lib.httpcore.version>4.4.6</lib.httpcore.version>
+    <lib.httpclient.version>4.5.3</lib.httpclient.version>
     <lib.json.version>20090211</lib.json.version>
     <lib.rome.version>1.0.0</lib.rome.version>
     <lib.spring-js.version>2.0.5.RELEASE</lib.spring-js.version>
@@ -253,7 +253,7 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>${lib.httcplient.version}</version>
+        <version>${lib.httpclient.version}</version>
       </dependency>
 
       <dependency>
