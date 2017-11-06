@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.gogreen</groupId>
     <artifactId>gogreen-two</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.2-SNAPSHOT</version>
   </parent>
 
   <name>GoGreen Public Demo Site</name>
@@ -49,6 +49,15 @@
     <dependency>
       <groupId>org.apache.taglibs</groupId>
       <artifactId>taglibs-standard-impl</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>xalan</groupId>
+      <artifactId>xalan</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>xalan</groupId>
+      <artifactId>serializer</artifactId>
     </dependency>
 
     <dependency>

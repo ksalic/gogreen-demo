@@ -15,7 +15,7 @@
   <description>GoGreen Public Demo</description>
   <groupId>com.onehippo.gogreen</groupId>
   <artifactId>gogreen-two</artifactId>
-  <version>3.0.0-SNAPSHOT</version>
+  <version>3.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <!--
@@ -56,9 +56,10 @@
   <inceptionYear>2010</inceptionYear>
 
   <scm>
-    <connection>scm:svn:https://svn.onehippo.org/repos/closed/demos/gogreen-2.0/trunk</connection>
-    <developerConnection>scm:svn:https://svn.onehippo.org/repos/closed/demos/gogreen-2.0/trunk</developerConnection>
-    <url>https://svn.onehippo.org/repos/closed/demos/gogreen-2.0/trunk</url>
+    <connection>scm:git:https://code.onehippo.org/br-sites/public-demo.git</connection>
+    <developerConnection>scm:git:git@code.onehippo.org:br-sites/public-demo.git</developerConnection>
+    <url>https://code.onehippo.org/br-sites/public-demo</url>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
@@ -83,8 +84,8 @@
     <maven.plugin.elasticsearch.version>5.7</maven.plugin.elasticsearch.version>
 
     <lib.geolite2.version>20161123</lib.geolite2.version>
-    <lib.httpcore.version>4.4.3</lib.httpcore.version>
-    <lib.httcplient.version>4.5.1</lib.httcplient.version>
+    <lib.httpcore.version>4.4.6</lib.httpcore.version>
+    <lib.httpclient.version>4.5.3</lib.httpclient.version>
     <lib.json.version>20090211</lib.json.version>
     <lib.rome.version>1.0.0</lib.rome.version>
     <lib.spring-js.version>2.0.5.RELEASE</lib.spring-js.version>
@@ -252,7 +253,13 @@
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
-        <version>${lib.httcplient.version}</version>
+        <version>${lib.httpclient.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
@@ -300,7 +307,7 @@
                     <versionRange>[0.0,)</versionRange>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
               </pluginExecutions>
