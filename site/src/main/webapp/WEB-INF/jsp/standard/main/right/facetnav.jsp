@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -25,10 +25,7 @@
     </div>
 </div>
 
-
-
 <c:forEach var="facet" items="${requestScope.facetnav.folders}">
-
     <c:if test="${facet.count gt 0}">
         <c:choose>
             <c:when test="${facet.leaf}">
@@ -68,7 +65,7 @@
                                                                  current="${requestScope.facetnav}" var="removeLink" />
 
                                         <a href="${removeLink}" class="remove"><c:out
-                                                value="${label}}" /><i class="fa fa-times"> </i></a>
+                                                value="${label}" /><i class="fa fa-times"> </i></a>
                                         </c:when>
                                         <c:when test="${item.leaf and item.count eq 0}">
                                         </c:when>
