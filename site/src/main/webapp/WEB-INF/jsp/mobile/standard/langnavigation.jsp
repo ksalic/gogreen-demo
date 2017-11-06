@@ -1,17 +1,17 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
 <%@include file="../../includes/tags.jspf" %>
 
-<c:set var="requestLanguage" value="standard.header.langnav.language.${pageContext.request.locale.language}"/>
+<c:set var="editionCountry" value="standard.header.langnav.edition.${pageContext.request.locale}"/>
 
 <ul id="language">
   <li class="active">
     <fmt:message key="standard.header.langnav.language" />:
-    <fmt:message key="${requestLanguage}"/>
+    <fmt:message key="${editionCountry}"/>
     <span><a href="#"><fmt:message key="mobile.standard.header.edition.change"/></a></span>
   </li>
   <c:forEach var="translation" items="${requestScope.translations}">

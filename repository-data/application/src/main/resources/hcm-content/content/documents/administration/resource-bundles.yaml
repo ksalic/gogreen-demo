@@ -294,9 +294,9 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2015-03-30T15:52:28.727-04:00
-      hippostdpubwf:lastModificationDate: 2017-11-06T13:18:13.818+01:00
+      hippostdpubwf:lastModificationDate: 2017-11-06T13:35:03.671+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2017-11-06T13:18:18.713+01:00
+      hippostdpubwf:publicationDate: 2017-11-06T13:35:07.558+01:00
       hippotranslation:id: f933d582-7ac4-4cbd-9dd8-f41b088b0364
       hippotranslation:locale: document-type-locale
       resourcebundle:descriptions: ['', '', '', '', '', '', '', '', '', '', '', '',
@@ -315,7 +315,7 @@
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-        '', '', '', '', '', '', '', '', '', '', '', '', '']
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
       resourcebundle:id: messages
       resourcebundle:keys: [about.edit, about.subtitle, about.title, blogs.overview.content.commentsfound,
         blogs.overview.content.commentsplural, blogs.overview.content.location.home,
@@ -419,7 +419,10 @@
         standard.main.content.location.label, standard.main.content.todocontent, standard.main.right.todoright,
         blogs.detail.content.commentsfound, blogs.detail.content.commentsplural, blogs.detail.content.nocomments,
         standard.date.format, standard.header.langnav.language.en-gb, search.facet.category,
-        faq.overview.content.title, faq.overview.content.subtitle, faq.overview.content.location.home]
+        faq.overview.content.title, faq.overview.content.subtitle, faq.overview.content.location.home,
+        standard.header.langnav.edition.nl_NL, standard.header.langnav.edition.en_US,
+        standard.header.langnav.edition.de_DE, standard.header.langnav.edition.fr_FR,
+        standard.header.langnav.edition.en_GB, standard.header.langnav.edition.zh_CN]
       resourcebundle:messages: ['', Our story, About, comment, s, Home, No comments,
         Inspire, Blogs, Recent comments, Back to overview, banner image, Comment,
         Please fill in your comment, Email, Please fill in a valid email address,
@@ -511,7 +514,8 @@
         Hippo Go Green, Hippo Go Green RSS, Hippo Go Green, Decrease text size, Increase
           text size, Text size, large, medium, normal, Home, 'You are here:', TODO
           Standard content, 'TODO Standard right ', Comment, s, No comments, 'MMMM
-          d, YYY', English, Category, FAQ, Reseller FAQs, Home]
+          d, YYY', English, Category, FAQ, Reseller FAQs, Home, Netherlands, United
+          States, Germany, France, United Kingdom, China]
       resourcebundle:messages_de: [Editieren, Unsere Geschichte, Über, Kommentar,
         e, Startseite, Keine Kommentare, Inspirieren, Blogs, Aktuelle Kommentare,
         Zurück zur 00DCbersicht, banner image, Kommentar, Bitte fügen Sie hier Ihren
@@ -613,7 +617,8 @@
           Schriftgröße, Vergrößere Schriftgröße, Schriftgröße, groß, medium, normal,
         Startseite, 'Sie sind hier:', TODO Standard Inhalt, TODO Standard Rechts,
         '', '', No comments, dd.MMMM YYYY, United Kingdom, Category, FAQ, Reseller
-          FAQs, '']
+          FAQs, '', Niederlande, Vereinigte Staaten, Deutschland, Frankreich, Großbritannien,
+        China]
       resourcebundle:messages_en: ['', Our story, About, '', '', '', '', Inspire,
         Blogs, Recent comments, '', banner image, Comment, Please fill in your comment,
         Email, Please fill in a valid email address, Comment on this article, Name,
@@ -699,7 +704,8 @@
           Green, Decrease text size, Increase text size, Text size, large, medium,
         normal, Home, 'You are here:', TODO Standard content, 'TODO Standard right ',
         Comment, s, No Comments, 'MMMM d, YYY', United Kingdom, Category, FAQ, Reseller
-          FAQs, Home]
+          FAQs, Home, Netherlands, United States, Germany, France, United Kingdom,
+        China]
       resourcebundle:messages_fr: [Éditer, Notre histoire, À propos, Commentaire,
         e, Accueil, Sans commentaire, Inspirer, Blogs, Commentaires récents, Retour
           au sommaire, bannière, Commentaire, Commentaire obligatoire, E-mail, E-mail
@@ -798,7 +804,7 @@
           du texte, Agrandir la taille du texte, Taille du texte, grand, moyen, normal,
         Accueil, 'Vous êtes ici :', TODO standard contenu, TODO standard droite, '',
         '', No comments, dd/MM/YYYY, United Kingdom, Category, FAQ, Reseller FAQs,
-        '']
+        '', Pays-Bas, Les États Unis, Allemagne, France, Royaume-Uni, Chine]
       resourcebundle:messages_nl: ['', Onze geschiedenis, About, reactie, s, Home,
         Geen reacties, Inspireer, Blogs, Recente reacties, Terug naar het overzicht,
         banner afbeelding, Reageer, Vul alstublieft uw reactie in, Email, Vul alstublieft
@@ -894,7 +900,8 @@
         Hippo Go Green, Verklein tekstgrootte, Vergroot tekstgrootte, Tekstgrootte,
         groot, medium, normaal, Home, 'U bent hier:', TODO Standard content, 'TODO
           Standard right ', '', '', No comments, dd MMMM YYY, United Kingdom, Category,
-        FAQ, Reseller FAQs, '']
+        FAQ, Reseller FAQs, '', Nederland, Verenigde Staten, Duitsland, Frankrijk,
+        Verenigd Koningkrijk, China]
       resourcebundle:messages_zh: ['', 我们的故事, 公司介绍, 条评论, '', 主页, 目前还没有评论, 激励, 博客,
         最近评论, 返回到预览, 横幅图片, 评论语, 请输入评论语, 电子邮箱, 请输入有效的电子邮箱, 写评论, 姓名, 请输入姓名, 发送, 感谢您的评论.
           经编辑批准后您的评论将会登上网页。 为了在CMS里查看或批准您的评论，请打开"Hippo Go Green"->"评论"文件夹。, 活动概览,
@@ -932,7 +939,7 @@
         用户名, 登录, 登出, 我的小册, 没有注册？, 注册, 登录, 用户名, '', 可持续河马, Hippo Go Green RSS, Hippo
           Go Green, 缩小文字, 放大文字, 文字大小, 大, 中, 标准, 主页, '您在这儿:', TODO 标准内容, 'TODO 标准右侧 ',
         '', '', No comments, YYYY MM dd, United Kingdom, Category, FAQ, Reseller FAQs,
-        '']
+        '', 荷兰, 美国, 德国, 法国, 英国, 中国]
     /messages[2]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:referenceable']
@@ -941,7 +948,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2015-03-30T15:52:28.727-04:00
-      hippostdpubwf:lastModificationDate: 2017-11-06T13:17:22.630+01:00
+      hippostdpubwf:lastModificationDate: 2017-11-06T13:23:45.660+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: f933d582-7ac4-4cbd-9dd8-f41b088b0364
       hippotranslation:locale: document-type-locale
@@ -961,7 +968,7 @@
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-        '', '', '', '', '', '', '', '', '', '', '', '', '']
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
       resourcebundle:id: messages
       resourcebundle:keys: [about.edit, about.subtitle, about.title, blogs.overview.content.commentsfound,
         blogs.overview.content.commentsplural, blogs.overview.content.location.home,
@@ -1065,7 +1072,10 @@
         standard.main.content.location.label, standard.main.content.todocontent, standard.main.right.todoright,
         blogs.detail.content.commentsfound, blogs.detail.content.commentsplural, blogs.detail.content.nocomments,
         standard.date.format, standard.header.langnav.language.en-gb, search.facet.category,
-        faq.overview.content.title, faq.overview.content.subtitle, faq.overview.content.location.home]
+        faq.overview.content.title, faq.overview.content.subtitle, faq.overview.content.location.home,
+        standard.header.langnav.edition.nl_NL, standard.header.langnav.edition.en_US,
+        standard.header.langnav.edition.de_DE, standard.header.langnav.edition.fr_FR,
+        standard.header.langnav.edition.en_GB, standard.header.langnav.edition.zh_CN]
       resourcebundle:messages: ['', Our story, About, comment, s, Home, No comments,
         Inspire, Blogs, Recent comments, Back to overview, banner image, Comment,
         Please fill in your comment, Email, Please fill in a valid email address,
@@ -1157,7 +1167,8 @@
         Hippo Go Green, Hippo Go Green RSS, Hippo Go Green, Decrease text size, Increase
           text size, Text size, large, medium, normal, Home, 'You are here:', TODO
           Standard content, 'TODO Standard right ', Comment, s, No comments, 'MMMM
-          d, YYY', English, Category, FAQ, Reseller FAQs, Home]
+          d, YYY', English, Category, FAQ, Reseller FAQs, Home, Netherlands, United
+          States, Germany, France, United Kingdom, China]
       resourcebundle:messages_de: [Editieren, Unsere Geschichte, Über, Kommentar,
         e, Startseite, Keine Kommentare, Inspirieren, Blogs, Aktuelle Kommentare,
         Zurück zur 00DCbersicht, banner image, Kommentar, Bitte fügen Sie hier Ihren
@@ -1259,7 +1270,8 @@
           Schriftgröße, Vergrößere Schriftgröße, Schriftgröße, groß, medium, normal,
         Startseite, 'Sie sind hier:', TODO Standard Inhalt, TODO Standard Rechts,
         '', '', No comments, dd.MMMM YYYY, United Kingdom, Category, FAQ, Reseller
-          FAQs, '']
+          FAQs, '', Niederlande, Vereinigte Staaten, Deutschland, Frankreich, Großbritannien,
+        China]
       resourcebundle:messages_en: ['', Our story, About, '', '', '', '', Inspire,
         Blogs, Recent comments, '', banner image, Comment, Please fill in your comment,
         Email, Please fill in a valid email address, Comment on this article, Name,
@@ -1345,7 +1357,8 @@
           Green, Decrease text size, Increase text size, Text size, large, medium,
         normal, Home, 'You are here:', TODO Standard content, 'TODO Standard right ',
         Comment, s, No Comments, 'MMMM d, YYY', United Kingdom, Category, FAQ, Reseller
-          FAQs, Home]
+          FAQs, Home, Netherlands, United States, Germany, France, United Kingdom,
+        China]
       resourcebundle:messages_fr: [Éditer, Notre histoire, À propos, Commentaire,
         e, Accueil, Sans commentaire, Inspirer, Blogs, Commentaires récents, Retour
           au sommaire, bannière, Commentaire, Commentaire obligatoire, E-mail, E-mail
@@ -1444,7 +1457,7 @@
           du texte, Agrandir la taille du texte, Taille du texte, grand, moyen, normal,
         Accueil, 'Vous êtes ici :', TODO standard contenu, TODO standard droite, '',
         '', No comments, dd/MM/YYYY, United Kingdom, Category, FAQ, Reseller FAQs,
-        '']
+        '', Pays-Bas, Les États Unis, Allemagne, France, Royaume-Uni, Chine]
       resourcebundle:messages_nl: ['', Onze geschiedenis, About, reactie, s, Home,
         Geen reacties, Inspireer, Blogs, Recente reacties, Terug naar het overzicht,
         banner afbeelding, Reageer, Vul alstublieft uw reactie in, Email, Vul alstublieft
@@ -1540,7 +1553,8 @@
         Hippo Go Green, Verklein tekstgrootte, Vergroot tekstgrootte, Tekstgrootte,
         groot, medium, normaal, Home, 'U bent hier:', TODO Standard content, 'TODO
           Standard right ', '', '', No comments, dd MMMM YYY, United Kingdom, Category,
-        FAQ, Reseller FAQs, '']
+        FAQ, Reseller FAQs, '', Nederland, Verenigde Staten, Duitsland, Frankrijk,
+        Verenigd Koningkrijk, China]
       resourcebundle:messages_zh: ['', 我们的故事, 公司介绍, 条评论, '', 主页, 目前还没有评论, 激励, 博客,
         最近评论, 返回到预览, 横幅图片, 评论语, 请输入评论语, 电子邮箱, 请输入有效的电子邮箱, 写评论, 姓名, 请输入姓名, 发送, 感谢您的评论.
           经编辑批准后您的评论将会登上网页。 为了在CMS里查看或批准您的评论，请打开"Hippo Go Green"->"评论"文件夹。, 活动概览,
@@ -1578,7 +1592,7 @@
         用户名, 登录, 登出, 我的小册, 没有注册？, 注册, 登录, 用户名, '', 可持续河马, Hippo Go Green RSS, Hippo
           Go Green, 缩小文字, 放大文字, 文字大小, 大, 中, 标准, 主页, '您在这儿:', TODO 标准内容, 'TODO 标准右侧 ',
         '', '', No comments, YYYY MM dd, United Kingdom, Category, FAQ, Reseller FAQs,
-        '']
+        '', 荷兰, 美国, 德国, 法国, 英国, 中国]
     /messages[3]:
       jcr:primaryType: resourcebundle:resourcebundle
       jcr:mixinTypes: ['mix:versionable']
@@ -1587,7 +1601,7 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2015-03-30T15:52:28.727-04:00
-      hippostdpubwf:lastModificationDate: 2017-11-06T13:18:13.818+01:00
+      hippostdpubwf:lastModificationDate: 2017-11-06T13:35:03.671+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: f933d582-7ac4-4cbd-9dd8-f41b088b0364
       hippotranslation:locale: document-type-locale
@@ -1607,7 +1621,7 @@
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
         '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-        '', '', '', '', '', '', '', '', '', '', '', '', '']
+        '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
       resourcebundle:id: messages
       resourcebundle:keys: [about.edit, about.subtitle, about.title, blogs.overview.content.commentsfound,
         blogs.overview.content.commentsplural, blogs.overview.content.location.home,
@@ -1711,7 +1725,10 @@
         standard.main.content.location.label, standard.main.content.todocontent, standard.main.right.todoright,
         blogs.detail.content.commentsfound, blogs.detail.content.commentsplural, blogs.detail.content.nocomments,
         standard.date.format, standard.header.langnav.language.en-gb, search.facet.category,
-        faq.overview.content.title, faq.overview.content.subtitle, faq.overview.content.location.home]
+        faq.overview.content.title, faq.overview.content.subtitle, faq.overview.content.location.home,
+        standard.header.langnav.edition.nl_NL, standard.header.langnav.edition.en_US,
+        standard.header.langnav.edition.de_DE, standard.header.langnav.edition.fr_FR,
+        standard.header.langnav.edition.en_GB, standard.header.langnav.edition.zh_CN]
       resourcebundle:messages: ['', Our story, About, comment, s, Home, No comments,
         Inspire, Blogs, Recent comments, Back to overview, banner image, Comment,
         Please fill in your comment, Email, Please fill in a valid email address,
@@ -1803,7 +1820,8 @@
         Hippo Go Green, Hippo Go Green RSS, Hippo Go Green, Decrease text size, Increase
           text size, Text size, large, medium, normal, Home, 'You are here:', TODO
           Standard content, 'TODO Standard right ', Comment, s, No comments, 'MMMM
-          d, YYY', English, Category, FAQ, Reseller FAQs, Home]
+          d, YYY', English, Category, FAQ, Reseller FAQs, Home, Netherlands, United
+          States, Germany, France, United Kingdom, China]
       resourcebundle:messages_de: [Editieren, Unsere Geschichte, Über, Kommentar,
         e, Startseite, Keine Kommentare, Inspirieren, Blogs, Aktuelle Kommentare,
         Zurück zur 00DCbersicht, banner image, Kommentar, Bitte fügen Sie hier Ihren
@@ -1905,7 +1923,8 @@
           Schriftgröße, Vergrößere Schriftgröße, Schriftgröße, groß, medium, normal,
         Startseite, 'Sie sind hier:', TODO Standard Inhalt, TODO Standard Rechts,
         '', '', No comments, dd.MMMM YYYY, United Kingdom, Category, FAQ, Reseller
-          FAQs, '']
+          FAQs, '', Niederlande, Vereinigte Staaten, Deutschland, Frankreich, Großbritannien,
+        China]
       resourcebundle:messages_en: ['', Our story, About, '', '', '', '', Inspire,
         Blogs, Recent comments, '', banner image, Comment, Please fill in your comment,
         Email, Please fill in a valid email address, Comment on this article, Name,
@@ -1991,7 +2010,8 @@
           Green, Decrease text size, Increase text size, Text size, large, medium,
         normal, Home, 'You are here:', TODO Standard content, 'TODO Standard right ',
         Comment, s, No Comments, 'MMMM d, YYY', United Kingdom, Category, FAQ, Reseller
-          FAQs, Home]
+          FAQs, Home, Netherlands, United States, Germany, France, United Kingdom,
+        China]
       resourcebundle:messages_fr: [Éditer, Notre histoire, À propos, Commentaire,
         e, Accueil, Sans commentaire, Inspirer, Blogs, Commentaires récents, Retour
           au sommaire, bannière, Commentaire, Commentaire obligatoire, E-mail, E-mail
@@ -2090,7 +2110,7 @@
           du texte, Agrandir la taille du texte, Taille du texte, grand, moyen, normal,
         Accueil, 'Vous êtes ici :', TODO standard contenu, TODO standard droite, '',
         '', No comments, dd/MM/YYYY, United Kingdom, Category, FAQ, Reseller FAQs,
-        '']
+        '', Pays-Bas, Les États Unis, Allemagne, France, Royaume-Uni, Chine]
       resourcebundle:messages_nl: ['', Onze geschiedenis, About, reactie, s, Home,
         Geen reacties, Inspireer, Blogs, Recente reacties, Terug naar het overzicht,
         banner afbeelding, Reageer, Vul alstublieft uw reactie in, Email, Vul alstublieft
@@ -2186,7 +2206,8 @@
         Hippo Go Green, Verklein tekstgrootte, Vergroot tekstgrootte, Tekstgrootte,
         groot, medium, normaal, Home, 'U bent hier:', TODO Standard content, 'TODO
           Standard right ', '', '', No comments, dd MMMM YYY, United Kingdom, Category,
-        FAQ, Reseller FAQs, '']
+        FAQ, Reseller FAQs, '', Nederland, Verenigde Staten, Duitsland, Frankrijk,
+        Verenigd Koningkrijk, China]
       resourcebundle:messages_zh: ['', 我们的故事, 公司介绍, 条评论, '', 主页, 目前还没有评论, 激励, 博客,
         最近评论, 返回到预览, 横幅图片, 评论语, 请输入评论语, 电子邮箱, 请输入有效的电子邮箱, 写评论, 姓名, 请输入姓名, 发送, 感谢您的评论.
           经编辑批准后您的评论将会登上网页。 为了在CMS里查看或批准您的评论，请打开"Hippo Go Green"->"评论"文件夹。, 活动概览,
@@ -2224,7 +2245,7 @@
         用户名, 登录, 登出, 我的小册, 没有注册？, 注册, 登录, 用户名, '', 可持续河马, Hippo Go Green RSS, Hippo
           Go Green, 缩小文字, 放大文字, 文字大小, 大, 中, 标准, 主页, '您在这儿:', TODO 标准内容, 'TODO 标准右侧 ',
         '', '', No comments, YYYY MM dd, United Kingdom, Category, FAQ, Reseller FAQs,
-        '']
+        '', 荷兰, 美国, 德国, 法国, 英国, 中国]
   /typenames:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
