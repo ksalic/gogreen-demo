@@ -1,5 +1,14 @@
 <component xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/component/1.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/component/1.1.2 http://maven.apache.org/xsd/component-1.1.2.xsd">
+  <dependencySets>
+    <dependencySet>
+      <outputDirectory>webapps</outputDirectory>
+      <outputFileNameMapping>bpm.war</outputFileNameMapping>
+      <includes>
+        <include>com.onehippo.cms7:hippo-addon-wpm-camunda:war</include>
+      </includes>
+    </dependencySet>
+  </dependencySets>
   <files>
     <file>
       <source>cms/target/cms.war</source>
