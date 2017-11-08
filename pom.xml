@@ -15,7 +15,7 @@
   <description>GoGreen Public Demo</description>
   <groupId>com.onehippo.gogreen</groupId>
   <artifactId>gogreen-two</artifactId>
-  <version>3.0.2-SNAPSHOT</version>
+  <version>3.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <!--
@@ -59,7 +59,7 @@
     <connection>scm:git:https://code.onehippo.org/br-sites/public-demo.git</connection>
     <developerConnection>scm:git:git@code.onehippo.org:br-sites/public-demo.git</developerConnection>
     <url>https://code.onehippo.org/br-sites/public-demo</url>
-    <tag>HEAD</tag>
+    <tag>gogreen-two-3.0.2</tag>
   </scm>
 
   <properties>
@@ -376,6 +376,17 @@
 
     <profile>
       <id>cargo.run</id>
+      <dependencies>
+        <dependency>
+          <groupId>com.onehippo.cms7</groupId>
+          <artifactId>hippo-enterprise-services</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>com.onehippo.cms7</groupId>
+          <artifactId>hippo-addon-wpm-camunda</artifactId>
+          <type>war</type>
+        </dependency>
+      </dependencies>
       <properties>
         <!--Already defined in hippo-cms-project POM. Override here for project, if necessary-->
         <!--<repo.bootstrap>true</repo.bootstrap>-->
@@ -469,6 +480,14 @@
                     <context>/essentials</context>
                   </properties>
                 </deployable>
+                <deployable>
+                  <groupId>com.onehippo.cms7</groupId>
+                  <artifactId>hippo-addon-wpm-camunda</artifactId>
+                  <type>war</type>
+                  <properties>
+                    <context>/bpm</context>
+                  </properties>
+                </deployable>
               </deployables>
               <container>
                 <systemProperties>
@@ -479,7 +498,13 @@
                   <es.path>${es.path}</es.path>
                   <es.bootstrap>${es.bootstrap}</es.bootstrap>
                 </systemProperties>
-
+                <dependencies>
+                  <dependency>
+                    <groupId>com.onehippo.cms7</groupId>
+                    <artifactId>hippo-enterprise-services</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                </dependencies>
               </container>
             </configuration>
           </plugin>
@@ -518,6 +543,15 @@
           <groupId>org.apache.logging.log4j</groupId>
           <artifactId>log4j-core</artifactId>
           <scope>provided</scope>
+        </dependency>
+        <dependency>
+          <groupId>com.onehippo.cms7</groupId>
+          <artifactId>hippo-addon-wpm-camunda</artifactId>
+          <type>war</type>
+        </dependency>
+        <dependency>
+          <groupId>com.onehippo.cms7</groupId>
+          <artifactId>hippo-enterprise-services</artifactId>
         </dependency>
       </dependencies>
       <build>
