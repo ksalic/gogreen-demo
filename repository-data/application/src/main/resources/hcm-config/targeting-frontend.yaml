@@ -52,12 +52,14 @@ definitions:
         collector: weather
         plugin.class: com.onehippo.gogreen.targeting.WeatherCollectorPlugin
       /collector-geo:
-        locations: [Amsterdam | NL | 52.350006 | 4.9167023 | EU, 'Boston, MA | US
-            | 42.3581 | 71.0636| NA', 'Mountain View, CA | US | 37.389593 | -122.066002
-            | NA', Rio de Janeiro | BR | -22.906847 | -43.172896 | SA, Johannesburg
-            | ZA | -26.204103 | 28.047305 | AF, Sydney | AU | -33.868820 | 151.209296
-            | OC, Beijing | CN | 39.904200 | 116.407396 | AS, Bangalore | IN | 12.978482
-            | 77.665123 | AS]
+        locations: ['Amsterdam | NL | 52.350006 | 4.9167023 | EU',
+          'Boston, MA | US| 42.3581 | 71.0636| NA',
+          'Mountain View, CA | US | 37.389593 | -122.066002 | NA',
+          'Rio de Janeiro | BR | -22.906847 | -43.172896 | SA',
+          'Johannesburg | ZA | -26.204103 | 28.047305 | AF',
+          'Sydney | AU | -33.868820 | 151.209296 | OC',
+          'Beijing | CN | 39.904200 | 116.407396 | AS',
+          'Bangalore | IN | 12.978482 | 77.665123 | AS']
       /characteristic-categories:
         jcr:primaryType: frontend:plugin
         characteristic: categories
