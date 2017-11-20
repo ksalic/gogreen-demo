@@ -6,6 +6,7 @@ definitions:
       /modelTrainer:
         interval: 0.1
         processedUntil: 2016-10-03T16:48:55.423+02:00
+        running: true
         /targeting:lock:
           jcr:primaryType: targeting:lock
           jcr:mixinTypes: ['hippo:lockable']
@@ -13,6 +14,7 @@ definitions:
       /visitsAggregator:
         interval: 0.1
         processedUntil: 2016-10-03T16:49:01.406+02:00
+        running: true
         /targeting:lock:
           jcr:primaryType: targeting:lock
           jcr:mixinTypes: ['hippo:lockable']
