@@ -333,7 +333,7 @@ definitions:
               hst:referencecomponent: search/boxes-right
       /about:
         jcr:primaryType: hst:component
-        hst:referencecomponent: hst:pages/standardpage
+        hst:referencecomponent: hst:abstractpages/defaultpage
         /main:
           jcr:primaryType: hst:component
           hst:template: about.main
