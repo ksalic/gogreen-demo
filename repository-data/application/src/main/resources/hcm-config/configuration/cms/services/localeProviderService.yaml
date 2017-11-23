@@ -3,9 +3,32 @@ definitions:
     /hippo:configuration/hippo:frontend/cms/cms-services/localeProviderService:
       /en-gb:
         jcr:primaryType: frontend:pluginconfig
-        caption: English (GB)
         country: gb
         language: en
+        /translation-en:
+          jcr:primaryType: frontend:pluginconfig
+          hippo:language: en
+          hippo:message: English (UK)
+        /translation-nl:
+          jcr:primaryType: frontend:pluginconfig
+          hippo:language: nl
+          hippo:message: Engels (VK)
+        /translation-de:
+          jcr:primaryType: frontend:pluginconfig
+          hippo:language: de
+          hippo:message: Englisch (VK)
+        /translation-fr:
+          jcr:primaryType: frontend:pluginconfig
+          hippo:language: fr
+          hippo:message: anglais (RU)
+        /translation-es:
+          jcr:primaryType: frontend:pluginconfig
+          hippo:language: es
+          hippo:message: inglés (RU)
+        /translation-zh:
+          jcr:primaryType: frontend:pluginconfig
+          hippo:language: zh
+          hippo:message: 英文 (英国)
       /zh:
         jcr:primaryType: frontend:pluginconfig
         country: cn
