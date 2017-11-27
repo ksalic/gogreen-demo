@@ -1,18 +1,6 @@
 definitions:
   config:
     /hippo:configuration/hippo:groups:
-      /french:
-        jcr:primaryType: hipposys:group
-        hipposys:members: [french-author, french-editor]
-        hipposys:securityprovider: internal
-      /french-authors:
-        jcr:primaryType: hipposys:group
-        hipposys:members: [french-author]
-        hipposys:securityprovider: internal
-      /french-editors:
-        jcr:primaryType: hipposys:group
-        hipposys:members: [french-editor]
-        hipposys:securityprovider: internal
       /english:
         jcr:primaryType: hipposys:group
         hipposys:members: [english-author, english-editor]
@@ -24,4 +12,12 @@ definitions:
       /english-editors:
         jcr:primaryType: hipposys:group
         hipposys:members: [english-editor]
+        hipposys:securityprovider: internal
+      /global-author:
+        jcr:primaryType: hipposys:group
+        hipposys:members: [author]
+        hipposys:securityprovider: internal
+      /global-editor:
+        jcr:primaryType: hipposys:group
+        hipposys:members: [editor]
         hipposys:securityprovider: internal
