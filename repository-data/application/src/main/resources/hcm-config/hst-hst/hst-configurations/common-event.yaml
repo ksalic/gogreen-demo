@@ -93,7 +93,7 @@ definitions:
             <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
                       <#--
 
-                      Copyright 2010-2014 Hippo B.V. (http://www.onehippo.com)
+                      Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
 
                        -->
                       <#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]>
@@ -200,7 +200,7 @@ definitions:
                       </div>
                       <div id="ft-disclaimer">
                       <@fmt.message key="layout.webpage.disclaimer">
-                      <@fmt.param><a href="http://www.onehippo.com/en/why-hippo-cms"></@fmt.param>
+                      <@fmt.param><a href="https://www.bloomreach.com/en/products/experience/hippo-cms"></@fmt.param>
                       <@fmt.param><a href="https://issues.onehippo.com/browse/GOGREEN"></@fmt.param>
                       <@fmt.param></a></@fmt.param>
                       </@fmt.message>

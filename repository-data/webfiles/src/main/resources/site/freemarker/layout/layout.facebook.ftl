@@ -79,7 +79,7 @@
   <@hst.include ref="footer"/>
     <div id="ft-disclaimer">
     <@fmt.message key="layout.webpage.disclaimer">
-      <@fmt.param><a href="http://www.onehippo.com/en/why-hippo-cms"></@fmt.param>
+      <@fmt.param><a href="https://www.bloomreach.com/en/products/experience/hippo-cms"></@fmt.param>
       <@fmt.param><a href="https://issues.onehippo.com/browse/GOGREEN"></@fmt.param>
       <@fmt.param></a></@fmt.param>
     </@fmt.message>

@@ -108,7 +108,7 @@ definitions:
           \n        <div id=\"header\"></div>\r\n        \r\n        <@hst.include\
           \ ref=\"main\"/>\r\n        \r\n        <@hst.include ref=\"footer\"/>\r\
           \n        <div id=\"ft-disclaimer\">\r\n        <@fmt.message key=\"layout.webpage.disclaimer\"\
-          >\r\n        <@fmt.param><a href=\"http://www.onehippo.com/en/why-hippo-cms\"\
+          >\r\n        <@fmt.param><a href=\"https://www.bloomreach.com/en/products/experience/hippo-cms\"\
           ></@fmt.param>\r\n        <@fmt.param><a href=\"https://issues.onehippo.com/browse/GOGREEN\"\
           ></@fmt.param>\r\n        <@fmt.param></a></@fmt.param>\r\n        </@fmt.message>\r\
           \n        </div>\r\n        \r\n        <@hst.headContributions categoryIncludes=\"\
@@ -120,8 +120,8 @@ definitions:
       /standard.header.ftl:
         jcr:primaryType: hst:template
         hst:containers: [topbar, logo, mainnavigation, login]
-        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2014 Hippo B.V.\
-          \ (http://www.onehippo.com)\r\n        \r\n        -->\r\n        \r\n \
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2017 BloomReach B.V.\
+          \ (https://www.bloomreach.com/)\r\n        \r\n        -->\r\n        \r\n \
           \       <#assign hst=JspTaglibs[\"http://www.hippoecm.org/jsp/hst/core\"\
           ]>\r\n        <@hst.include ref=\"topbar\"/>\r\n        \r\n        <!--\
           \ Header -->\r\n        <header id=\"header\">\r\n        <div class=\"\
@@ -135,8 +135,8 @@ definitions:
       /standard.header.topbar.ftl:
         jcr:primaryType: hst:template
         hst:containers: [search, langnavigation]
-        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2014 Hippo B.V.\
-          \ (http://www.onehippo.com)\r\n        \r\n        -->\r\n        \r\n \
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2017 BloomReach B.V.\
+          \ (https://www.bloomreach.com/)\r\n        \r\n        -->\r\n        \r\n \
           \       <#assign hst=JspTaglibs[\"http://www.hippoecm.org/jsp/hst/core\"\
           ]>\r\n        \r\n        <div class=\"top-bar\">\r\n        <div class=\"\
           container\">\r\n        <div class=\"row\">\r\n        <@hst.include ref=\"\
