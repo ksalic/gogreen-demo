@@ -190,11 +190,11 @@
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
     jcr:uuid: 02d77fde-6993-4621-b2a7-176d3e051767
-    /rest:
+    /rest[1]:
       jcr:primaryType: hippogogreen:simpledocument
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: 8262bb21-c578-4ed8-a2dc-b2c17417ccea
-      hippo:availability: [live, preview]
+      hippo:availability: [live]
       hippogogreen:contentstage: desire
       hippogogreen:metadescription: ''
       hippogogreen:metatitle: ''
@@ -204,23 +204,93 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2011-01-19T12:32:00Z
-      hippostdpubwf:lastModificationDate: 2017-06-29T16:23:01.843+02:00
+      hippostdpubwf:lastModificationDate: 2017-12-01T10:43:00.454+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2017-06-29T16:23:25.605+02:00
+      hippostdpubwf:publicationDate: 2017-12-01T10:43:06.115+01:00
       hippotranslation:id: 68b7a325-d9f9-46a3-8ee4-901dfdc79bb1
       hippotranslation:locale: en
       /hippogogreen:description:
         jcr:primaryType: hippostd:html
-        hippostd:content: "<p>Hippo's default Content REST API is available in all\
-          \ the channels of this demo site. All the published content of each site\
-          \ is therefore available in JSON format. You can retrieve the documents\
-          \ list on the URL <a href=\"/api/documents\">/api/documents</a>. In this\
-          \ list you find a URL to the output per indivdual document.</p>\n\n    \
-          \        <p>Next to this default output some manually built REST endpoints\
-          \ are available. The available for these endpoints can be found under the\
-          \ <a href=\"documentation\">documentation</a>. &nbsp;The <a href=\"browser\"\
-          >demo</a> shows how the REST service can be used to search the list of products.</p>\n\
-          \          "
+        hippostd:content: |-
+          <p>Hippo's default Content REST API is available in all the channels of this demo site. All the published content of each site is therefore available in JSON format. You can retrieve the documents list on the URL <a href="/api/documents">/api/documents</a>. In this list you find a URL to the output per indivdual document.</p>
+
+          <p>You can for example configure this output by adding parameters to specify document types and output fields: <a href="/api/documents?_nodetype=hippogogreen:product&amp;_attributes=hippogogreen:title,hippogogreen:summary,hippogogreen:image,hippogogreen:price">/api/documents?_nodetype=hippogogreen:product&amp;_attributes=hippogogreen:title,hippogogreen:summary,hippogogreen:image,hippogogreen:price</a></p>
+
+          <p>Next to this default output some manually built REST endpoints are available. The available for these endpoints can be found under the <a href="documentation">documentation</a>. &nbsp;The <a href="browser">demo</a> shows how the REST service can be used to search the list of products.</p>
+        /documentation:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: 35ad34c6-eb91-45e2-a352-4bd519d86b27
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /browser:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: a37338c4-4839-43f8-8788-90abb062b6fe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /rest[2]:
+      jcr:primaryType: hippogogreen:simpledocument
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 34901ba9-14db-4f9a-835b-fdf916825763
+      hippo:availability: [preview]
+      hippogogreen:contentstage: desire
+      hippogogreen:metadescription: ''
+      hippogogreen:metatitle: ''
+      hippogogreen:summary: Overview of the REST API for Hippo Go Green.
+      hippogogreen:title: REST API Overview
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2011-01-19T12:32:00Z
+      hippostdpubwf:lastModificationDate: 2017-12-01T10:43:00.454+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 68b7a325-d9f9-46a3-8ee4-901dfdc79bb1
+      hippotranslation:locale: en
+      /hippogogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Hippo's default Content REST API is available in all the channels of this demo site. All the published content of each site is therefore available in JSON format. You can retrieve the documents list on the URL <a href="/api/documents">/api/documents</a>. In this list you find a URL to the output per indivdual document.</p>
+
+          <p>You can for example configure this output by adding parameters to specify document types and output fields: <a href="/api/documents?_nodetype=hippogogreen:product&amp;_attributes=hippogogreen:title,hippogogreen:summary,hippogogreen:image,hippogogreen:price">/api/documents?_nodetype=hippogogreen:product&amp;_attributes=hippogogreen:title,hippogogreen:summary,hippogogreen:image,hippogogreen:price</a></p>
+
+          <p>Next to this default output some manually built REST endpoints are available. The available for these endpoints can be found under the <a href="documentation">documentation</a>. &nbsp;The <a href="browser">demo</a> shows how the REST service can be used to search the list of products.</p>
+        /documentation:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: 35ad34c6-eb91-45e2-a352-4bd519d86b27
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /browser:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: a37338c4-4839-43f8-8788-90abb062b6fe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /rest[3]:
+      jcr:primaryType: hippogogreen:simpledocument
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 706cf194-f10d-49ce-a988-106c78de30e8
+      hippo:availability: []
+      hippogogreen:contentstage: desire
+      hippogogreen:metadescription: ''
+      hippogogreen:metatitle: ''
+      hippogogreen:summary: Overview of the REST API for Hippo Go Green.
+      hippogogreen:title: REST API Overview
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2011-01-19T12:32:00Z
+      hippostdpubwf:lastModificationDate: 2017-12-01T10:41:58.693+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 68b7a325-d9f9-46a3-8ee4-901dfdc79bb1
+      hippotranslation:locale: en
+      /hippogogreen:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Hippo's default Content REST API is available in all the channels of this demo site. All the published content of each site is therefore available in JSON format. You can retrieve the documents list on the URL <a href="/api/documents">/api/documents</a>. In this list you find a URL to the output per indivdual document.</p>
+
+          <p>You can for example configure this output by adding parameters to specify document types and output fields: <a href="/api/documents?_nodetype=hippogogreen:product&amp;_attributes=hippogogreen:title,hippogogreen:summary,hippogogreen:image,hippogogreen:price">/api/documents?_nodetype=hippogogreen:product&amp;_attributes=hippogogreen:title,hippogogreen:summary,hippogogreen:image,hippogogreen:price</a></p>
+
+          <p>Next to this default output some manually built REST endpoints are available. The available for these endpoints can be found under the <a href="documentation">documentation</a>. &nbsp;The <a href="browser">demo</a> shows how the REST service can be used to search the list of products.</p>
         /documentation:
           jcr:primaryType: hippo:facetselect
           hippo:docbase: 35ad34c6-eb91-45e2-a352-4bd519d86b27
