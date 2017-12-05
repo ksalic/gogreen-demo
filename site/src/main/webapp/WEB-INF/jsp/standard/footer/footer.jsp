@@ -31,7 +31,7 @@
                             <div class="footer-content-text">
                                 <p><fmt:message key="layout.webpage.disclaimer">
                                         <fmt:param><a href="https://www.bloomreach.com/en/products/experience/hippo-cms" target="_blank"></fmt:param>
-                                        <fmt:param><a href="https://issues.onehippo.com/browse/GOGREEN" target="_blank"></fmt:param>
+                                        <fmt:param><a href="https://groups.google.com/forum/#!forum/hippo-community" target="_blank"></fmt:param>
                                         <fmt:param></a></fmt:param>
                                     </fmt:message>
                                 </p>

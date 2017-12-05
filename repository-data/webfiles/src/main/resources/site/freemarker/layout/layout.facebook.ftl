@@ -80,7 +80,7 @@
     <div id="ft-disclaimer">
     <@fmt.message key="layout.webpage.disclaimer">
       <@fmt.param><a href="https://www.bloomreach.com/en/products/experience/hippo-cms"></@fmt.param>
-      <@fmt.param><a href="https://issues.onehippo.com/browse/GOGREEN"></@fmt.param>
+      <@fmt.param><a href="https://groups.google.com/forum/#!forum/hippo-community"></@fmt.param>
       <@fmt.param></a></@fmt.param>
     </@fmt.message>
     </div>

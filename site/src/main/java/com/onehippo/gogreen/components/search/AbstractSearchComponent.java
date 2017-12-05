@@ -128,7 +128,7 @@ public class AbstractSearchComponent extends TagComponent {
                 filter.addOrFilter(titleFilter);
                 filter.addOrFilter(summaryFilter);
                 filter.addOrFilter(fullTextFilter);
-                //https://issues.onehippo.com/browse/GOGREEN-254
+
                 hstQuery.addOrderByDescending("hippogogreen:rating");
             }else{
                 hstQuery.addOrderByDescending("hippogogreen:title");
