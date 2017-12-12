@@ -1,7 +1,7 @@
 /content/documents/hippogogreen-uk/comments:
-  .meta:order-before: common
+  .meta:order-before: blogs
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 33a3b1be-70fd-42f2-9f0d-277eb2a4a22a
   hippo:name: Comments
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -9,7 +9,7 @@
   hippotranslation:locale: en-gb
   /blogs:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 365d9951-51e1-46af-be35-78b01349941a
     hippo:name: Blogs
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -114,7 +114,7 @@
             hippo:docbase: 0489881e-adf4-4a77-a281-21fc5442a276
   /events:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 165c5f01-99c8-4872-bd16-ebc6ce30b67d
     hippo:name: Events
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -211,7 +211,7 @@
             hippo:docbase: 329b1a06-9f85-4ebb-b831-f866524709dd
   /news:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 9d10e65b-0366-4dba-b4bc-4c64c5f0194d
     hippo:name: News
     hippostd:foldertype: [new-translated-folder, new-document]

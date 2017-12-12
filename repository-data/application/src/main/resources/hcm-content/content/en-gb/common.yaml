@@ -1,7 +1,7 @@
 /content/documents/hippogogreen-uk/common:
-  .meta:order-before: events
+  .meta:order-before: blogs
   jcr:primaryType: hippostd:directory
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: a8150f84-0903-4f13-bf92-68bcf6e3117e
   hippo:availability: [live, preview]
   hippo:name: Common
@@ -10,7 +10,7 @@
   hippotranslation:locale: en-gb
   /banners:
     jcr:primaryType: hippostd:directory
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: a0ce7dc7-6573-4b31-9bbf-22bfcab0d2cd
     hippo:availability: [live, preview]
     hippo:name: Banners
@@ -103,7 +103,7 @@
           hippo:docbase: e1cf2960-47ae-41e8-88e5-4951c1e59f73
     /heroes:
       jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: f39bd859-40e1-44b9-8588-779ce1e2d79b
       hippo:name: Heroes
       hippostd:foldertype: [new-banner-folder, new-banner]
@@ -1112,7 +1112,7 @@
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
     /carousel:
       jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: ea2e7b6c-f69b-4e43-91a2-bff35f59bd25
       hippo:name: Carousel
       hippostd:foldertype: [new-banner-folder, new-banner]
@@ -1375,7 +1375,7 @@
             hippo:docbase: 3fd83b43-3374-4556-a638-816a52d83d19
     /text-banners:
       jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: 082ec020-86b8-421c-b7e3-bc3fb5ecaa5d
       hippo:name: Text banners
       hippostd:foldertype: [new-banner-folder, new-banner]
@@ -2112,7 +2112,7 @@
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
       /season-sale:
         jcr:primaryType: hippostd:folder
-        jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
         jcr:uuid: ef18a6f0-d7e2-4d76-be78-0989753f80be
         hippo:name: Season Sale
         hippostd:foldertype: [new-banner-folder, new-banner]
@@ -2441,7 +2441,7 @@
               hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
     /image-banners:
       jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: bca33b4c-d229-493e-9567-44545a7b04e1
       hippo:name: Image banners
       hippostd:foldertype: [new-banner-folder, new-banner]
@@ -3397,7 +3397,7 @@
           hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
   /valuelists:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 781b07ac-5b85-47b6-93d3-b6810cc187d2
     hippo:name: Value Lists
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -3581,7 +3581,7 @@
           selection:label: Action
   /simpledocuments:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: b9bf8c81-ac97-4cad-b36a-aa8c30b3911a
     hippo:name: Simpledocuments
     hippostd:foldertype: [new-simple-folder, new-simple]
@@ -3589,7 +3589,7 @@
     hippotranslation:locale: en-gb
   /rich-text-snippets:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
     jcr:uuid: 42f870cf-881b-4583-b45a-0e20cf6a64b4
     hippo:name: Rich-text Snippets
     hippostd:foldertype: [new-translated-folder, new-document]

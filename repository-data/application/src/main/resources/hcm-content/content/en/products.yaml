@@ -1,7 +1,7 @@
 /content/documents/hippogogreen/products:
-  .meta:order-before: restapi
+  .meta:order-before: forms
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: c3b1c420-84cb-4e65-bbeb-b43a29a5a9d7
   hippo:name: Products
   hippostd:foldertype: [new-product-folder, new-product]
@@ -9,7 +9,7 @@
   hippotranslation:locale: en
   /transport:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 315a5fd3-52c3-4901-b96d-6c70b5d72cd6
     hippo:name: Transport
     hippostd:foldertype: [new-product-folder, new-product]
@@ -396,7 +396,7 @@
           hippogogreen:url: http://www.amazon.com/gp/product/B002SMU5PS?&tag=shopwiki-us-20&linkCode=as2&camp=1789&creative=9325
   /health-care:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 71310f37-b100-47e4-a2bc-f88d4926e3c0
     hippo:name: Health care
     hippostd:foldertype: [new-product-folder, new-product]
@@ -1056,7 +1056,7 @@
         hippotranslation:locale: en
   /garden:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 3f0b272d-e0c4-4281-af22-0946e0a50b97
     hippo:name: Garden
     hippostd:foldertype: [new-product-folder, new-product]
@@ -1776,7 +1776,6 @@
           hippogogreen:url: http://www.promopeddler.com/03-64/herb-garden-recyclable-potter-qqp463048.htm
   /facetedproducts:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 192
     hippo:docbase: c3b1c420-84cb-4e65-bbeb-b43a29a5a9d7
     hippofacnav:facetnodenames: [Price, Score, Category]
     hippofacnav:facets: ['hippogogreen:price$[{name:''$ 0 - $ 25'', resolution:''double'',
@@ -1793,7 +1792,7 @@
     hippofacnav:skipresultsetfacetsavailable: true
   /office:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 7ed91bb9-18d0-409c-994d-b9815d38d150
     hippo:name: Office
     hippostd:foldertype: [new-product-folder, new-product]
@@ -2649,7 +2648,7 @@
           hippo:values: []
   /outdoors:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 3191b879-a749-472c-8a61-42e557700048
     hippo:name: Outdoors
     hippostd:foldertype: [new-product-folder, new-product]
@@ -3286,7 +3285,7 @@
           hippo:values: []
   /general:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 93bc36f1-ef98-4ac2-a261-436e1de6a7ec
     hippo:name: General
     hippostd:foldertype: [new-product-folder, new-product]
@@ -3438,7 +3437,7 @@
           hippo:values: []
   /gadgets:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 81b6a0f5-bdc8-4505-a7d4-9c3f21535f49
     hippo:name: Gadgets
     hippostd:foldertype: [new-product-folder, new-product]
@@ -5041,7 +5040,7 @@
           hippo:values: []
   /kitchen:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: dee6b108-8f70-4c00-b0d8-6ba1b462fe1b
     hippo:name: Kitchen
     hippostd:foldertype: [new-product-folder, new-product]
@@ -5735,7 +5734,7 @@
           hippo:values: []
   /home:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 77a98974-e9fb-4bda-b7b6-a0cef4d56a3b
     hippo:name: Home
     hippostd:foldertype: [new-product-folder, new-product]
@@ -6404,7 +6403,7 @@
           hippogogreen:url: http://www.amazon.com/gp/product/B0014HFVNE?&tag=shopwiki-us-20&linkCode=as2&camp=1789&creative=9325
   /family:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 7c3d9742-4825-44da-9e19-e1e3b0f222ba
     hippo:name: Family
     hippostd:foldertype: [new-product-folder, new-product]
@@ -6681,7 +6680,7 @@
           hippo:values: []
   /school--college:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: b0a90a3c-8f66-44ff-82bd-33e11c1f1363
     hippo:name: School & College
     hippostd:foldertype: [new-product-folder, new-product]
@@ -6689,7 +6688,7 @@
     hippotranslation:locale: en
   /solar:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: a4678848-c945-4f25-9ce9-c9610aa0c283
     hippo:name: Solar
     hippostd:foldertype: [new-product-folder, new-product]

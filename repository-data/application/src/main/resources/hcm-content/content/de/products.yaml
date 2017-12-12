@@ -1,7 +1,6 @@
 /content/documents/hippo-geht-gruen/products:
-  .meta:order-before: searchfacets
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 7269637a-9d41-4f1b-a7d8-0a317bac6e81
   hippo:name: Produkte
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -9,7 +8,6 @@
   hippotranslation:locale: de
   /facetedproducts:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 43
     hippo:docbase: 7269637a-9d41-4f1b-a7d8-0a317bac6e81
     hippofacnav:facetnodenames: [Preis, Kategorie, Wertung]
     hippofacnav:facets: ['hippogogreen:price$[{name:''0 EUR - 25 EUR'', resolution:''double'',
@@ -26,7 +24,7 @@
     hippofacnav:skipresultsetfacetsavailable: true
   /wiederverwendung:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 02b499ea-fa76-4e3b-9edb-9f693aa7341f
     hippo:name: Wiederverwendung
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -322,7 +320,7 @@
               hippogogreen:url: http://www.greenhome.com/products/appliances/radios_and_electronics/115714/
   /transport:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: e9b680fe-6a4c-447d-b620-e3fe97e8f51d
     hippo:name: Transport
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -426,7 +424,7 @@
               hippo:values: []
   /gesundheitswesen:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: fb99527e-fe78-494c-9db0-755814f1e085
     hippo:name: Gesundheitswesen
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -512,7 +510,7 @@
               hippo:values: []
   /tier--garten:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: be6bfd64-8be8-4d35-ac43-60b096af869b
     hippo:name: Tier & Garten
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -814,7 +812,7 @@
               hippogogreen:url: ''
   /lebensmittel:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: fbdd4baf-4e4b-446b-bebc-839f21a82e87
     hippo:name: Lebensmittel
     hippostd:foldertype: [new-translated-folder, new-document]

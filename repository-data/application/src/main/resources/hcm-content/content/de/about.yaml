@@ -1,7 +1,6 @@
 /content/documents/hippo-geht-gruen/about:
-  .meta:order-before: products
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: fc7f568c-9115-4ebf-84f6-684ceaa96ca2
   hippo:name: Über uns
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -9,7 +8,7 @@
   hippotranslation:locale: de
   /allgemeine-geschaftsbedingungen:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: e6f05b4e-2494-40ed-8a02-1e9b8d303102
     hippo:name: Allgemeine Geschäftsbedingungen
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -20,34 +19,77 @@
       jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
       jcr:uuid: 49cd9458-06da-4b13-b6aa-3587a8fad6b9
       hippo:name: Allgemeine Geschäftsbedingungen
-      /allgemeine-geschaftsbedingungen:
+      /allgemeine-geschaftsbedingungen[1]:
         jcr:primaryType: hippogogreen:simpledocument
         jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
         jcr:uuid: 1fb6c1c9-17c2-4311-892f-1249cc59e863
-        hippo:availability: [live, preview]
+        hippo:availability: [live]
         hippogogreen:contentstage: desire
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
         hippogogreen:summary: Die Inhalte dieser Website sind nur für Demonstrations-Zwecke.
         hippogogreen:title: Allgemeine Geschäftsbedingungen
         hippostd:holder: admin
         hippostd:state: published
         hippostdpubwf:createdBy: tbrenninkmeijer
         hippostdpubwf:creationDate: 2010-07-23T19:13:00+02:00
-        hippostdpubwf:lastModificationDate: 2012-03-26T12:49:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:39:59.822+01:00
         hippostdpubwf:lastModifiedBy: admin
-        hippostdpubwf:publicationDate: 2012-03-26T12:50:00+02:00
+        hippostdpubwf:publicationDate: 2017-12-12T21:40:02.293+01:00
         hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
         hippotranslation:locale: de
         /hippogogreen:description:
           jcr:primaryType: hippostd:html
-          hippostd:content: |-
-            <html>
-            <body>
-
-            <p>Hippo hat versucht nur Inhalte die der Creative Commons Lizenz unterstellt
-            sind zu verwenden und die jeweiligen Urheber zu benennen. Sollten Sie Inhalte
-            finden, die nicht in dieser Demo verwendet werden dürfen teilen Sie uns dieses
-            bitte via Email an: info @ onehippo(punkt)com mit, wir werden die jeweiligen
-            Inhalte schnellstmöglich entfernen.</p>
-
-            </body>
-            </html>
+          hippostd:content: '<p>Hippo hat versucht nur Inhalte die der Creative Commons
+            Lizenz unterstellt sind zu verwenden und die jeweiligen Urheber zu benennen.
+            Sollten Sie Inhalte finden, die nicht in dieser Demo verwendet werden
+            dürfen teilen Sie uns dieses bitte via Email an: info @ bloomrech(punkt)com
+            mit, wir werden die jeweiligen Inhalte schnellstmöglich entfernen.</p>'
+      /allgemeine-geschaftsbedingungen[2]:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: ea687534-e567-4e34-982c-da990fb84e72
+        hippo:availability: [preview]
+        hippogogreen:contentstage: desire
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
+        hippogogreen:summary: Die Inhalte dieser Website sind nur für Demonstrations-Zwecke.
+        hippogogreen:title: Allgemeine Geschäftsbedingungen
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T19:13:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:39:59.822+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
+        hippotranslation:locale: de
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: '<p>Hippo hat versucht nur Inhalte die der Creative Commons
+            Lizenz unterstellt sind zu verwenden und die jeweiligen Urheber zu benennen.
+            Sollten Sie Inhalte finden, die nicht in dieser Demo verwendet werden
+            dürfen teilen Sie uns dieses bitte via Email an: info @ bloomrech(punkt)com
+            mit, wir werden die jeweiligen Inhalte schnellstmöglich entfernen.</p>'
+      /allgemeine-geschaftsbedingungen[3]:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 496ac3f9-b4c6-4e97-8e6a-7b4a9d7b14fb
+        hippo:availability: []
+        hippogogreen:contentstage: desire
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
+        hippogogreen:summary: Die Inhalte dieser Website sind nur für Demonstrations-Zwecke.
+        hippogogreen:title: Allgemeine Geschäftsbedingungen
+        hippostd:state: draft
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T19:13:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:39:52.002+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
+        hippotranslation:locale: de
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: '<p>Hippo hat versucht nur Inhalte die der Creative Commons
+            Lizenz unterstellt sind zu verwenden und die jeweiligen Urheber zu benennen.
+            Sollten Sie Inhalte finden, die nicht in dieser Demo verwendet werden
+            dürfen teilen Sie uns dieses bitte via Email an: info @ bloomrech(punkt)com
+            mit, wir werden die jeweiligen Inhalte schnellstmöglich entfernen.</p>'

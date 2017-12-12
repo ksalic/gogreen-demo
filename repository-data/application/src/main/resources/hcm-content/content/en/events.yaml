@@ -1,7 +1,7 @@
 /content/documents/hippogogreen/events:
-  .meta:order-before: news
+  .meta:order-before: blogs
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 392850eb-ba46-472f-a1d5-e69aeccfb65d
   hippo:name: Events
   hippostd:foldertype: [new-event-folder, new-event]
@@ -1003,7 +1003,7 @@
       hippotranslation:locale: en
     /11:
       jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: 5eae5666-85ea-4f1a-8e2b-13e77358768a
       hippo:name: '11'
       hippostd:foldertype: [new-event-folder, new-event]
@@ -2286,7 +2286,6 @@
       hippotranslation:locale: en
   /facetedevents:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 85
     hippo:docbase: 392850eb-ba46-472f-a1d5-e69aeccfb65d
     hippofacnav:facetnodenames: ['year${hide:''year''}', 'month${after:''year'', hide:''month''}',
       'day${after:''month''}']
@@ -2297,7 +2296,6 @@
     hippofacnav:sortorder: [descending]
   /facetedeventsmobile:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 85
     hippo:docbase: 392850eb-ba46-472f-a1d5-e69aeccfb65d
     hippofacnav:facetnodenames: [Date]
     hippofacnav:facets: ["hippogogreen:date$[{name:'Upcoming', resolution:'day', begin:0},\

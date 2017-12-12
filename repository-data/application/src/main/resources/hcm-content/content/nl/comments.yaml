@@ -1,7 +1,7 @@
 /content/documents/hippogagroen/comments:
-  .meta:order-before: events
+  .meta:order-before: blogs
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 95713ae7-4055-43f9-9a41-10c0f3e38c16
   hippo:name: Commentaar
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -9,7 +9,7 @@
   hippotranslation:locale: nl
   /news:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: f2eb2169-2be5-4e58-b653-8d28e6fc624c
     hippo:name: Nieuws
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -17,7 +17,7 @@
     hippotranslation:locale: nl
   /events:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 17293bb9-d708-48d7-8691-b5f779d4da8f
     hippo:name: Evenementen
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -54,7 +54,7 @@
             hippo:docbase: 4ef430c1-8302-4515-8ab0-32ede5501637
   /blogs:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 78cb34d4-8f64-4e39-8e15-a4e07bd3ba1c
     hippo:name: Blogs
     hippostd:foldertype: [new-translated-folder, new-document]

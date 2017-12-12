@@ -1,7 +1,7 @@
 /content/documents/hippo-geht-gruen/comments:
-  .meta:order-before: common
+  .meta:order-before: blogs
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 83ec2b46-cbab-4eff-a400-30e514b45738
   hippo:name: Comments
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -9,7 +9,7 @@
   hippotranslation:locale: de
   /blogs:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 115175fc-0cc2-4578-9e28-701f8448fde5
     hippo:name: Blogs
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -17,7 +17,7 @@
     hippotranslation:locale: de
   /events:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: f3dd1a6d-ca78-4b25-9896-c04415e66193
     hippo:name: Veranstaltungen
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -25,7 +25,7 @@
     hippotranslation:locale: de
   /news:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 63696d4f-0d65-4353-94ba-59884e76eb41
     hippo:name: Nachrichten
     hippostd:foldertype: [new-translated-folder, new-document]

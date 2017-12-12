@@ -1,7 +1,6 @@
 /content/documents/hippogogreen/about:
-  .meta:order-before: comments
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 0cf38dbe-aa81-4219-b04f-5fba8b63a0cb
   hippo:name: About
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -17,119 +16,98 @@
       jcr:uuid: cd22b988-c832-4443-837a-2c7ee2d05eb1
       hippo:availability: [live]
       hippogogreen:contentstage: ''
+      hippogogreen:metadescription: ''
+      hippogogreen:metatitle: ''
       hippogogreen:summary: This website is a demo website to showcase the options
-        with Hippo CMS .
+        with Hippo CMS and BloomReach Experience .
       hippogogreen:title: About this demo website
       hippostd:holder: tbrenninkmeijer
       hippostd:state: published
       hippostd:tags: [Hippo, Hippo CMS]
       hippostdpubwf:createdBy: vkumar
       hippostdpubwf:creationDate: 2010-07-23T19:04:00+02:00
-      hippostdpubwf:lastModificationDate: 2014-09-19T16:30:45.053+02:00
-      hippostdpubwf:lastModifiedBy: jdoe
-      hippostdpubwf:publicationDate: 2014-09-19T16:30:47.291+02:00
+      hippostdpubwf:lastModificationDate: 2017-12-12T21:32:18.554+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-12-12T21:32:26.595+01:00
       hippotranslation:id: 63b829c1-3386-4fd6-9824-8b870db3aeee
       hippotranslation:locale: en
       /hippogogreen:description:
         jcr:primaryType: hippostd:html
-        hippostd:content: "<p style=\"text-align:start\"><iframe allowfullscreen=\"\
-          \" frameborder=\"0\" height=\"281\" src=\"//player.vimeo.com/video/133562109?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\"\
-          \ width=\"500\"></iframe></p> \n<p><a href=\"http://vimeo.com/133562109\"\
-          >A Quick Overview of Hippo CMS in Just Under 90 seconds</a> on \n<a href=\"\
-          https://vimeo.com\">Vimeo</a>.</p> \n<p style=\"text-align:start\">&nbsp;</p>\
-          \ \n<p style=\"text-align:start\">Hippo CMS is the Content Management System\
-          \ for creating personalized experiences across all channels. Hippo&rsquo;s\
-          \ open standards philosophy makes it the ideal solution for agile development\
-          \ and open integration.</p> \n<p style=\"text-align:start\">Editors love\
-          \ Hippo because it&#39;s easy to use and helps them get their work done\
-          \ quickly and efficiently.</p> \n<p style=\"text-align:start\">&nbsp;</p>\
-          \ \n<p style=\"text-align:start\">Marketers love Hippo because they can\
-          \ roll out and manage channels simply - and increase conversion with targeting\
-          \ and personalization.</p> \n<p style=\"text-align:start\">&nbsp;</p> \n\
-          <p style=\"text-align:start\">IT folks love Hippo because they can create\
-          \ new functionality quickly and can integrate with other systems in no-time.\
-          \ And it&#39;s just fun to work with the latest and coolest technology.</p>\
-          \ \n<p style=\"text-align:start\">&nbsp;</p> \n<p>Find out more at \n<a\
-          \ href=\"https://www.bloomreach.com/\">bloomreach.com</a></p>"
+        hippostd:content: |-
+          <p style="text-align:start">Hippo CMS, and the enterprise product BloomReach Experience, is <u>the</u>&nbsp;system for creating personalized experiences across all channels. Hippo’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p style="text-align:start">Editors love Hippo because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p style="text-align:start">Marketers love Hippo because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p style="text-align:start">IT folks love Hippo because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at <a href="https://www.bloomreach.com/">bloomreach.com</a></p>
     /about[2]:
       jcr:primaryType: hippogogreen:simpledocument
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: 5efc7288-8ef9-4f54-a6ec-779ec9abc92e
       hippo:availability: []
       hippogogreen:contentstage: ''
+      hippogogreen:metadescription: ''
+      hippogogreen:metatitle: ''
       hippogogreen:summary: This website is a demo website to showcase the options
-        with Hippo CMS .
+        with Hippo CMS and BloomReach Experience .
       hippogogreen:title: About this demo website
       hippostd:state: draft
       hippostd:tags: [Hippo, Hippo CMS]
       hippostdpubwf:createdBy: vkumar
       hippostdpubwf:creationDate: 2010-07-23T19:04:00+02:00
-      hippostdpubwf:lastModificationDate: 2014-09-19T16:30:48.931+02:00
-      hippostdpubwf:lastModifiedBy: jdoe
+      hippostdpubwf:lastModificationDate: 2017-12-12T21:29:52.162+01:00
+      hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 63b829c1-3386-4fd6-9824-8b870db3aeee
       hippotranslation:locale: en
       /hippogogreen:description:
         jcr:primaryType: hippostd:html
-        hippostd:content: "<p style=\"text-align:start\"><iframe allowfullscreen=\"\
-          \" frameborder=\"0\" height=\"281\" src=\"//player.vimeo.com/video/133562109?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\"\
-          \ width=\"500\"></iframe></p> \n<p><a href=\"http://vimeo.com/133562109\"\
-          >A Quick Overview of Hippo CMS in Just Under 90 seconds</a> on \n<a href=\"\
-          https://vimeo.com\">Vimeo</a>.</p> \n<p style=\"text-align:start\">&nbsp;</p>\
-          \ \n<p style=\"text-align:start\">Hippo CMS is the Content Management System\
-          \ for creating personalized experiences across all channels. Hippo&rsquo;s\
-          \ open standards philosophy makes it the ideal solution for agile development\
-          \ and open integration.</p> \n<p style=\"text-align:start\">Editors love\
-          \ Hippo because it&#39;s easy to use and helps them get their work done\
-          \ quickly and efficiently.</p> \n<p style=\"text-align:start\">&nbsp;</p>\
-          \ \n<p style=\"text-align:start\">Marketers love Hippo because they can\
-          \ roll out and manage channels simply - and increase conversion with targeting\
-          \ and personalization.</p> \n<p style=\"text-align:start\">&nbsp;</p> \n\
-          <p style=\"text-align:start\">IT folks love Hippo because they can create\
-          \ new functionality quickly and can integrate with other systems in no-time.\
-          \ And it&#39;s just fun to work with the latest and coolest technology.</p>\
-          \ \n<p style=\"text-align:start\">&nbsp;</p> \n<p>Find out more at \n<a\
-          \ href=\"https://www.bloomreach.com/\">bloomreach.com</a></p>"
+        hippostd:content: |-
+          <p style="text-align:start">Hippo CMS, and the enterprise product BloomReach Experience, is <u>the</u>&nbsp;system for creating personalized experiences across all channels. Hippo’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p style="text-align:start">Editors love Hippo because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p style="text-align:start">Marketers love Hippo because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p style="text-align:start">IT folks love Hippo because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at <a href="https://www.bloomreach.com/">bloomreach.com</a></p>
     /about[3]:
       jcr:primaryType: hippogogreen:simpledocument
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
       jcr:uuid: e4016277-468e-40da-9844-45bd596ef9d2
       hippo:availability: [preview]
       hippogogreen:contentstage: ''
+      hippogogreen:metadescription: ''
+      hippogogreen:metatitle: ''
       hippogogreen:summary: This website is a demo website to showcase the options
-        with Hippo CMS .
+        with Hippo CMS and BloomReach Experience .
       hippogogreen:title: About this demo website
       hippostd:state: unpublished
       hippostd:tags: [Hippo, Hippo CMS]
       hippostdpubwf:createdBy: vkumar
       hippostdpubwf:creationDate: 2010-07-23T19:04:00+02:00
-      hippostdpubwf:lastModificationDate: 2014-09-19T16:30:45.053+02:00
-      hippostdpubwf:lastModifiedBy: jdoe
+      hippostdpubwf:lastModificationDate: 2017-12-12T21:32:18.554+01:00
+      hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 63b829c1-3386-4fd6-9824-8b870db3aeee
       hippotranslation:locale: en
       /hippogogreen:description:
         jcr:primaryType: hippostd:html
-        hippostd:content: "<p style=\"text-align:start\"><iframe allowfullscreen=\"\
-          \" frameborder=\"0\" height=\"281\" src=\"//player.vimeo.com/video/133562109?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\"\
-          \ width=\"500\"></iframe></p> \n<p><a href=\"http://vimeo.com/133562109\"\
-          >A Quick Overview of Hippo CMS in Just 90 seconds</a> on \n<a href=\"https://vimeo.com\"\
-          >Vimeo</a>.</p> \n<p style=\"text-align:start\">&nbsp;</p> \n<p style=\"\
-          text-align:start\">Hippo CMS is the Content Management System for creating\
-          \ personalized experiences across all channels. Hippo&rsquo;s open standards\
-          \ philosophy makes it the ideal solution for agile development and open\
-          \ integration.</p> \n<p style=\"text-align:start\">Editors love Hippo because\
-          \ it&#39;s easy to use and helps them get their work done quickly and efficiently.</p>\
-          \ \n<p style=\"text-align:start\">&nbsp;</p> \n<p style=\"text-align:start\"\
-          >Marketers love Hippo because they can roll out and manage channels simply\
-          \ - and increase conversion with targeting and personalization.</p> \n<p\
-          \ style=\"text-align:start\">&nbsp;</p> \n<p style=\"text-align:start\"\
-          >IT folks love Hippo because they can create new functionality quickly and\
-          \ can integrate with other systems in no-time. And it&#39;s just fun to\
-          \ work with the latest and coolest technology.</p> \n<p style=\"text-align:start\"\
-          >&nbsp;</p> \n<p>Find out more at \n<a href=\"https://www.bloomreach.com/\"\
-          >bloomreach.com</a></p>"
+        hippostd:content: |-
+          <p style="text-align:start">Hippo CMS, and the enterprise product BloomReach Experience, is <u>the</u>&nbsp;system for creating personalized experiences across all channels. Hippo’s open standards philosophy makes it the ideal solution for agile development and open integration.</p>
+
+          <p style="text-align:start">Editors love Hippo because it's easy to use and helps them get their work done quickly and efficiently.</p>
+
+          <p style="text-align:start">Marketers love Hippo because they can roll out and manage channels simply - and increase conversion with targeting and personalization.</p>
+
+          <p style="text-align:start">IT folks love Hippo because they can create new functionality quickly and can integrate with other systems in no-time. And it's just fun to work with the latest and coolest technology.</p>
+
+          <p>Find out more at <a href="https://www.bloomreach.com/">bloomreach.com</a></p>
   /quick-facts:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: a5e9763c-047c-4dfc-aaa1-a9234de50b5f
     hippo:name: Quick facts
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -140,43 +118,98 @@
       jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
       jcr:uuid: ed03c047-8451-4727-9000-a9c7fb89cd17
       hippo:name: Quick facts about Hippo
-      /quick-facts-about-hippo:
+      /quick-facts-about-hippo[1]:
         jcr:primaryType: hippogogreen:simpledocument
         jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
         jcr:uuid: f26850d9-d664-42d5-abe7-e5d7eac02a24
-        hippo:availability: [live, preview]
+        hippo:availability: [live]
         hippogogreen:contentstage: action
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
         hippogogreen:summary: ''
         hippogogreen:title: Quick facts about Hippo
         hippostd:holder: tbrenninkmeijer
         hippostd:state: published
         hippostdpubwf:createdBy: tbrenninkmeijer
         hippostdpubwf:creationDate: 2010-07-23T19:11:00+02:00
-        hippostdpubwf:lastModificationDate: 2010-07-23T19:11:00+02:00
-        hippostdpubwf:lastModifiedBy: tbrenninkmeijer
-        hippostdpubwf:publicationDate: 2010-07-23T19:11:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:38:09.580+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-12-12T21:38:13.735+01:00
         hippotranslation:id: 4d3c1451-920a-4dcc-82ad-02c640b2b6fc
         hippotranslation:locale: en
         /hippogogreen:description:
           jcr:primaryType: hippostd:html
           hippostd:content: |-
-            <html>
-            <body>
-
             <ul>
-            <li>Founded in 1999</li>
-            <li>80+ employees</li>
-            <li>Offices in Amsterdam and Boston</li>
-            <li>Privately held</li>
-            <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth
-            </li>
+             <li>Founded in 1999</li>
+             <li>80+ employees</li>
+             <li>Offices in Amsterdam and Boston</li>
+             <li>Privately held</li>
+             <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
             </ul>
 
-            </body>
-            </html>
+            <p>Acquired by BloomReach in 2016.</p>
+      /quick-facts-about-hippo[2]:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: aa2eb544-1998-41b6-b113-6fca5ef68597
+        hippo:availability: [preview]
+        hippogogreen:contentstage: action
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
+        hippogogreen:summary: ''
+        hippogogreen:title: Quick facts about Hippo
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T19:11:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:38:09.580+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4d3c1451-920a-4dcc-82ad-02c640b2b6fc
+        hippotranslation:locale: en
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <ul>
+             <li>Founded in 1999</li>
+             <li>80+ employees</li>
+             <li>Offices in Amsterdam and Boston</li>
+             <li>Privately held</li>
+             <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+            </ul>
+
+            <p>Acquired by BloomReach in 2016.</p>
+      /quick-facts-about-hippo[3]:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 22e1762f-3d9f-4d00-bf7c-691ae2d20beb
+        hippo:availability: []
+        hippogogreen:contentstage: action
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
+        hippogogreen:summary: ''
+        hippogogreen:title: Quick facts about Hippo
+        hippostd:state: draft
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T19:11:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:38:09.646+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4d3c1451-920a-4dcc-82ad-02c640b2b6fc
+        hippotranslation:locale: en
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <ul>
+             <li>Founded in 1999</li>
+             <li>80+ employees</li>
+             <li>Offices in Amsterdam and Boston</li>
+             <li>Privately held</li>
+             <li>2007, 2008 and 2009 Deloitte FAST 500 EMEA Winner based on revenue growth</li>
+            </ul>
+
+            <p>Acquired by BloomReach in 2016.</p>
   /terms--conditions:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: bc4cabbd-1268-44f9-a8ee-172111bad749
     hippo:name: Terms & Conditions
     hippostd:foldertype: [new-translated-folder, new-document]
@@ -187,32 +220,74 @@
       jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
       jcr:uuid: 26f8649b-480a-445d-9992-4fb054bf68c3
       hippo:name: Terms & Conditions
-      /terms--conditions:
+      /terms--conditions[1]:
         jcr:primaryType: hippogogreen:simpledocument
         jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
         jcr:uuid: cf3f7d60-20d8-4a3c-b72d-12c65e0e313b
-        hippo:availability: [live, preview]
+        hippo:availability: [live]
         hippogogreen:contentstage: desire
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
         hippogogreen:summary: All content is only used for demo uses.
         hippogogreen:title: Terms & Conditions
         hippostd:holder: tbrenninkmeijer
         hippostd:state: published
         hippostdpubwf:createdBy: tbrenninkmeijer
         hippostdpubwf:creationDate: 2010-07-23T19:13:00+02:00
-        hippostdpubwf:lastModificationDate: 2010-07-30T11:51:00+02:00
-        hippostdpubwf:lastModifiedBy: tbrenninkmeijer
-        hippostdpubwf:publicationDate: 2010-07-30T11:51:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:40:29.334+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2017-12-12T21:40:32.394+01:00
         hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
         hippotranslation:locale: en
         /hippogogreen:description:
           jcr:primaryType: hippostd:html
-          hippostd:content: |-
-            <html>
-            <body>
-
-            <p>Hippo tried to only use Creative commons license &amp; give the credits to
-            the original owners. If you find some content wihich shouldn't be in our demo,
-            please email us at info @ onehippo(dot)com and we will remove it.</p>
-
-            </body>
-            </html>
+          hippostd:content: <p>Hippo tried to only use Creative commons license &amp;
+            give the credits to the original owners. If you find some content wihich
+            shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+            and we will remove it.</p>
+      /terms--conditions[2]:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: cdcfe641-d0e1-4bdd-886b-5f6d01cacd9a
+        hippo:availability: [preview]
+        hippogogreen:contentstage: desire
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
+        hippogogreen:summary: All content is only used for demo uses.
+        hippogogreen:title: Terms & Conditions
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T19:13:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:40:29.334+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
+        hippotranslation:locale: en
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Hippo tried to only use Creative commons license &amp;
+            give the credits to the original owners. If you find some content wihich
+            shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+            and we will remove it.</p>
+      /terms--conditions[3]:
+        jcr:primaryType: hippogogreen:simpledocument
+        jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+        jcr:uuid: 7bd6e698-34db-4f8f-96c4-f1458bc854f2
+        hippo:availability: []
+        hippogogreen:contentstage: desire
+        hippogogreen:metadescription: ''
+        hippogogreen:metatitle: ''
+        hippogogreen:summary: All content is only used for demo uses.
+        hippogogreen:title: Terms & Conditions
+        hippostd:state: draft
+        hippostdpubwf:createdBy: tbrenninkmeijer
+        hippostdpubwf:creationDate: 2010-07-23T19:13:00+02:00
+        hippostdpubwf:lastModificationDate: 2017-12-12T21:40:21.999+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d195edba-cacd-477a-97b5-c87bbc9c2d97
+        hippotranslation:locale: en
+        /hippogogreen:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Hippo tried to only use Creative commons license &amp;
+            give the credits to the original owners. If you find some content wihich
+            shouldn't be in our demo, please email us at info @ bloomreach(dot)com
+            and we will remove it.</p>

@@ -1,7 +1,6 @@
 /content/documents/hippogagroen/products:
-  .meta:order-before: reviews
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 3d647e7e-ea21-4208-90a3-a854bdb74783
   hippo:name: Producten
   hippostd:foldertype: [new-product-folder, new-product]
@@ -9,7 +8,6 @@
   hippotranslation:locale: nl
   /facetedproducts:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 26
     hippo:docbase: 3d647e7e-ea21-4208-90a3-a854bdb74783
     hippofacnav:facetnodenames: [Prijs, Categorie, Score]
     hippofacnav:facets: ['hippogogreen:price$[{name:''€ 0 - € 25'', resolution:''double'',
@@ -26,7 +24,7 @@
     hippofacnav:skipresultsetfacetsavailable: true
   /voedsel:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 43ec4688-4b66-4865-9d8c-27b9ec543a2c
     hippo:name: Voedsel
     hippostd:foldertype: [new-product, new-product-folder]
@@ -165,7 +163,7 @@
               hippogogreen:url: http://www.greenhome.com/products/restaurant_supplies/bowls,_plates_and_trays/117253/
   /hergebruik:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: ad3d9a84-81ce-4e30-912e-d06f1c419bb9
     hippo:name: Hergebruik
     hippostd:foldertype: [new-product, new-product-folder]
@@ -283,7 +281,7 @@
               hippogogreen:url: http://www.greenhome.com/products/appliances/radios_and_electronics/115714/
   /transport:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 2da40642-31ba-4ca0-890f-e0d87a0ae8ee
     hippo:name: Transport
     hippostd:foldertype: [new-product, new-product-folder]
@@ -367,7 +365,7 @@
               hippo:values: []
   /gezondheidszorg:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: de95b7f9-a9ba-4ef1-a54b-73c22e34a1f6
     hippo:name: Gezondheidszorg
     hippostd:foldertype: [new-product, new-product-folder]
@@ -453,7 +451,7 @@
               hippo:values: []
   /dier--tuin:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 0c48a0a9-7734-46f4-ae1f-dc26b129eef9
     hippo:name: Dier & tuin
     hippostd:foldertype: [new-product, new-product-folder]
@@ -574,7 +572,7 @@
               hippogogreen:url: ''
   /tijdschrift:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 02d28f6e-b729-457f-bc1d-5eb0e50e66f5
     hippo:name: Tijdschrift
     hippostd:foldertype: [new-product, new-product-folder]

@@ -1,7 +1,6 @@
 /content/documents/hippogogreen/blogs:
-  .meta:order-before: searchfacets
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: a7f129aa-4ef8-49ca-863b-d827deaf7cc1
   hippo:name: Blogs
   hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
@@ -10072,7 +10071,6 @@
             hippo:values: []
   /facetedblogs:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 193
     hippo:docbase: a7f129aa-4ef8-49ca-863b-d827deaf7cc1
     hippofacnav:facetnodenames: [Category, This year, 'Archive${sortby:''facetvalue'',
         sortorder:''descending''}']

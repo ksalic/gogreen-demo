@@ -1,7 +1,7 @@
 /content/documents/hippogagroen/news:
-  .meta:order-before: tags
+  .meta:order-before: common
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 46ce7b28-5b99-4764-8fa2-1f4d36505087
   hippo:name: Nieuws
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -382,7 +382,6 @@
               <br /> &quot;Dit is een baanbrekende half jaar voor GoGreen geweest&quot;, aldus CEO Robert Greene. &quot;We zijn er trots op dat zoveel klanten herkennen hun eigen eco-vriendelijke waarden in GoGreen filosofie zien. De wereld is aan het veranderen, en de klanten verwachten nu dat bedrijven die aansluiten bij hun waarden, en met het welzijn van de planeet maken we er blij om het brengen van duurzame producten om deze nieuwe markten.&quot;</p>
   /facetednews:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 29
     hippo:docbase: 46ce7b28-5b99-4764-8fa2-1f4d36505087
     hippofacnav:facetnodenames: [Dit jaar, 'Archief${sortby:''facetvalue'', sortorder:''descending''}']
     hippofacnav:facets: ["hippostdpubwf:publicationDate$[{name:'Deze maand', resolution:'month',\
