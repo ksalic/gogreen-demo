@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>12.1.0</version>
+    <version>12.2.0</version>
   </parent>
 
   <name>GoGreen Public Demo</name>
@@ -59,7 +59,7 @@
     <connection>scm:git:https://code.onehippo.org/br-sites/public-demo.git</connection>
     <developerConnection>scm:git:git@code.onehippo.org:br-sites/public-demo.git</developerConnection>
     <url>https://code.onehippo.org/br-sites/public-demo</url>
-    <tag>gogreen-two-3.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
@@ -67,7 +67,7 @@
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
-    <essentials.version>4.1.0</essentials.version>
+    <essentials.version>4.2.0-1</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
     <xalan.version>2.7.2</xalan.version>
@@ -75,6 +75,7 @@
     <easymock.version>3.4</easymock.version>
 
     <development-module-deploy-dir>shared/lib</development-module-deploy-dir>
+
     <hippo.cms.locales>nl,de,fr,es,en,en-gb,zh</hippo.cms.locales>
     <buildNumber>${maven.build.timestamp}</buildNumber>
 
@@ -146,6 +147,12 @@
         <groupId>org.onehippo.cms7</groupId>
         <artifactId>hippo-plugin-seo-support</artifactId>
         <version>${hippo.plugin.seo-support.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.onehippo.cms7</groupId>
+        <artifactId>hippo-essentials-plugin-sdk-api</artifactId>
+        <version>${essentials.version}</version>
       </dependency>
 
       <dependency>
@@ -305,7 +312,7 @@
                     <versionRange>[0.0,)</versionRange>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -315,23 +322,6 @@
       </plugins>
     </pluginManagement>
     <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>buildnumber-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>validate</phase>
-            <goals>
-              <goal>create</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <doCheck>false</doCheck>
-          <doUpdate>false</doUpdate>
-          <revisionOnScmFailure>-1</revisionOnScmFailure>
-        </configuration>
-      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -400,7 +390,7 @@
         <sql.password />
         <sql.url>jdbc:h2:${repo.path}/targeting/targeting;AUTO_SERVER=TRUE</sql.url>
         <es.httpPort>9200</es.httpPort>
-        <es.tcpPort>9300</es.tcpPort>
+        <es.tcpPort>9301</es.tcpPort>
         <es.skip.start>false</es.skip.start>
       </properties>
       <build>
@@ -440,9 +430,6 @@
             <artifactId>cargo-maven2-plugin</artifactId>
             <configuration>
               <configuration>
-                <properties>
-                  <catalina.servlet.uriencoding>UTF-8</catalina.servlet.uriencoding>
-                </properties>
                 <configfiles>
                   <configfile>
                     <file>${project.basedir}/conf/context.xml</file>
