@@ -3,15 +3,6 @@
 --%>
 <%@include file="../../includes/tags.jspf" %>
 
-<!-- NOTE: Switch on the following variable if you want to eanble Inline Editing feature in this page. -->
-<c:set var="inlineEditingEnabled" value="true" />
-
-<c:if test="${requestScope.preview}">
-  <c:if test="${inlineEditingEnabled}">
-    <jsp:include page="../../inc/inline-editing-head-contributions.jsp"/>
-  </c:if>
-</c:if>
-
 <hippo-gogreen:title title="${requestScope.document.title}"/>
 
 <hst:headContribution category="jsInternal">
