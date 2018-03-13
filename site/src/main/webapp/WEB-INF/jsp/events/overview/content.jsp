@@ -1,9 +1,6 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <c:set var="overviewtitle"><fmt:message key="events.overview.title"/></c:set>
@@ -21,7 +18,7 @@
         </div>
 
         <div class="blog-span">
-            <hst:cmseditlink hippobean="${event}" />
+            <hst:manageContent hippobean="${event}" templateQuery="new-event" defaultPath="events"/>
             <c:set var="image" value="${event.firstImage}"/>
             <c:if test="${image != null and image.landscapeImage != null}">
                 <div class="blog-post-featured-img">
@@ -30,7 +27,7 @@
                 </div>
             </c:if>
             <h2>
-                <hst:cmseditlink hippobean="${event}"/>
+                <hst:manageContent hippobean="${event}" templateQuery="new-event" defaultPath="events"/>
                 <a href="${link}"><c:out value="${event.title}"/></a>
             </h2>
 

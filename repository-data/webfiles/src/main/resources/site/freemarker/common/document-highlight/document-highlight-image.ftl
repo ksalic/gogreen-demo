@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.document??>
   <#if Request.title?? && Request.title!=''>
@@ -20,7 +20,7 @@
 <div class="banner-component section-content no-padding">
   <div class="container">
     <div class="row">
-      <@hst.cmseditlink hippobean=Request.document/>
+      <@hst.manageContent hippobean="Request.document" templateQuery="new-document" parameterName="documentlocation" />
       <div class="col-md-12 col-sm-12 animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
       <#--Create a link to the detail page of this document-->
         <@hst.link hippobean=Request.document var="docLink"/>

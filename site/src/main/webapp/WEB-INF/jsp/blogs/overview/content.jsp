@@ -19,7 +19,7 @@
         </div>
 
         <div class="blog-span">
-            <hst:cmseditlink hippobean="${blogitem}" />
+            <hst:manageContent hippobean="${blogitem}" templateQuery="new-blog" defaultPath="blogs" />
             <c:set var="image" value="${blogitem.firstImage}"/>
             <c:if test="${image != null and image.landscapeImage != null}">
                 <div class="blog-post-featured-img">

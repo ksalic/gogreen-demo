@@ -20,7 +20,7 @@
 <div class="banner-component section-content no-padding">
     <div class="container">
         <div class="row">
-            <@hst.cmseditlink hippobean=Request.document/>
+            <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
             <div class="col-md-12 col-sm-12 animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
                 <#if Request.document.docLink??>
                     <h2 class="h2-section-title"><a href="<@hst.link hippobean=Request.document.docLink/>">${Request.document.title}</a></h2>

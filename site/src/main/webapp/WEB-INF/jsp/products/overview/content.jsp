@@ -1,9 +1,6 @@
 <%--
-
-    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <hst:headContribution keyHint="rateJs" category="headScripts">
@@ -25,7 +22,7 @@
     <hst:link var="link" hippobean="${product}"/>
     <div class="feature blog-masonry isotope-item">
 
-        <hst:cmseditlink hippobean="${product}" />
+        <hst:manageContent hippobean="${product}" templateQuery="new-product" defaultPath="products"/>
         <c:set var="image" value="${product.firstImage}"/>
         <c:if test="${image != null and image.largeThumbnail != null}">
             <div class="feature-image img-overlay">

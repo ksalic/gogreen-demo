@@ -1,7 +1,5 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
 
 <%@ page language="java" %>
@@ -11,8 +9,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/xml" prefix="x" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://www.hippoecm.org/jsp/hst/core" prefix='hst' %>
-
-<hst:cmseditlink hippobean='${requestScope.document}' var="editlink" />
 
 <form id="editorForm" method="post" action="<hst:resourceURL resourceId='/WEB-INF/jsp/common/detailpage-inline-edit-result.jsp' />">
   <div class="yui-skin-sam">
@@ -65,7 +61,8 @@ var loader = new YAHOO.util.YUILoader({
         document.getElementsByTagName("head")[0].appendChild(addcss);
 
         // Initialize editor
-        init_inline_editor("editable_cont", "editorForm", "editor", "editor2", "editorToolbar", "<c:out value="${editlink}"/>&amp;mode=edit");
+        <c:set var="editlink"><hst:manageContent hippobean='${requestScope.document}'/></c:set>
+        init_inline_editor("editable_cont", "editorForm", "editor", "editor2", "editorToolbar", "<c:out value="${editlink}">&amp;mode=edit");
     },
 
     // Configure the Get utility to timeout after 10 seconds for any given node insert

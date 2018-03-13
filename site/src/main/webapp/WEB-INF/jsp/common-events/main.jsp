@@ -1,9 +1,6 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../includes/tags.jspf" %>
 
 <c:set var="abouttitle"><fmt:message key="about.title"/></c:set>
@@ -18,7 +15,7 @@
           <h2 class="title"><c:out value="${requestScope.folderName}"/></h2>
           <c:forEach items="${requestScope.documents}" var="document">
             <ul class="about-item <c:if test="${requestScope.preview}">editable</c:if>">
-              <hst:cmseditlink hippobean="${document}" />
+              <hst:manageContent hippobean="${document}" templateQuery="new-event" defaultPath="events" />
               <hst:link var="link" hippobean="${document}"/>
               <li class="title"><a href="${link}"><c:out value="${document.title}"/></a></li>
               <li class="description"><c:out value="${document.summary}"/></li>
@@ -28,7 +25,7 @@
       </c:when>
       <c:when test="${requestScope.document ne null}">
         <div id="article" class="about <c:if test="${requestScope.preview}">editable</c:if>">
-          <hst:cmseditlink hippobean="${requestScope.document}" />
+          <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-event" defaultPath="events"/>
           <h2 class="title"><c:out value="${requestScope.document.title}"/></h2>
 
           <p class="intro"><c:out value="${requestScope.document.summary}"/></p>

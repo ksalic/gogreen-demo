@@ -1,9 +1,6 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <!-- NOTE: Switch on the following variable if you want to eanble Inline Editing feature in this page. -->
@@ -30,7 +27,7 @@
     <div id="content" class="${style}">
         <h1><c:out value="${requestScope.document.title}"/></h1>
         <c:if test="${requestScope.preview}">
-          <hst:cmseditlink hippobean="${requestScope.document}" />
+          <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-product" defaultPath="products"/>
         </c:if>
         <p id="product-info" class="doc-info">
           <span class="price"><fmt:formatNumber value="${requestScope.document.price}" type="currency"/></span>

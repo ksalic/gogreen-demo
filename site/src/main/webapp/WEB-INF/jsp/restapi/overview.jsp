@@ -1,14 +1,11 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../includes/tags.jspf" %>
 
 <c:set var="resttitle"><fmt:message key="restapi.main.title"/></c:set>
 
-<hst:cmseditlink hippobean="${requestScope.document}" />
+<hst:manageContent hippobean="${requestScope.document}" />
 <h2 class="h2-section-title"><c:out value="${requestScope.document.title}"/></h2>
 <div class="i-section-title"></div>
 

@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018  Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.items??>
   <#if (Request.items?size > 0)>
@@ -28,7 +28,7 @@
       <@fmt.message key="standard.date.format" var="dateformat"/>
       <#list Request.items as item>
         <div class="col-md-${colSize} col-sm-${colSize}">
-          <@hst.cmseditlink hippobean=item/>
+          <@hst.manageContent hippobean="item" templateQuery="new-document" />
           <div class="feature">
 
             <div class="feature-content">

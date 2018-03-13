@@ -1,9 +1,6 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <c:set var="newsoverviewtitle"><fmt:message key="news.overview.content.title"/></c:set>
@@ -20,7 +17,7 @@
         </div>
 
         <div class="blog-span">
-            <hst:cmseditlink hippobean="${newsitem}" />
+            <hst:manageContent hippobean="${newsitem}" templateQuery="new-news" defaultPath="news"/>
             <h2>
                 <a href="${link}"><c:out value="${newsitem.title}"/></a>
             </h2>

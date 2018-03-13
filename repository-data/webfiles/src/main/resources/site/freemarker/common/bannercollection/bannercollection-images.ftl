@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.banners?? && (Request.banners?size > 0)>
     <#if Request.title?? && Request.title!=''>
@@ -54,7 +54,7 @@
                             </#if>
                         </div>
                         <div class="feature-image">
-                            <@hst.cmseditlink hippobean=banner/>
+                            <@hst.manageContent hippobean="banner" templateQuery="new-banner" defaultPath="common/banners"/>
                             <#if banner.image??>
                                 <#if docLink??>
                                     <a href="${docLink}">
