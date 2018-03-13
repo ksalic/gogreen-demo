@@ -1,6 +1,6 @@
 <#include "../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#import "../macro/macro.imagecopyright.ftl" as imageCopyright >
 <#import "../macro/macro.copyright.ftl" as copyright >
@@ -9,7 +9,7 @@
     <i class="icon-news"> </i>
   </div>
   <div class="blog-span">
-  <@hst.manageContent hippobean=Request.document/>
+  <@hst.manageContent hippobean=Request.document templateQuery="new-blog" defaultPath="blogs"/>
   <#assign image=Request.document.firstImage/>
   <#if image?? && image.landscapeImage??>
     <div class="blog-post-featured-img img-overlay">
