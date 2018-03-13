@@ -52,7 +52,7 @@
                         </div>
                         <div class="content-style3-text">
                             ${banner.text}
-                            <@hst.manageContent hippobean="banner" templateQuery="new-banner" defaultPath="common/banners"/>
+                            <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners"/>
                             <#if docLink??>
                                 <div class="banner-button">
                                     <a href="${docLink}" class=" btn btn-sm">

@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6">
-        <@hst.manageContent hippobean="Request.document" templateQuery="new-document"/>
+        <@hst.manageContent hippobean=Request.document templateQuery="new-document"/>
           <@hst.html hippohtml=Request.document.richText/>
       </div>
     </div>

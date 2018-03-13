@@ -20,7 +20,7 @@
 <div class="banner-component section-content no-padding">
   <div class="container">
     <div class="row">
-      <@hst.manageContent hippobean="Request.document" templateQuery="new-document" parameterName="documentlocation" />
+      <@hst.manageContent hippobean=Request.document templateQuery="new-document" parameterName="documentlocation" />
       <div class="col-md-12 col-sm-12 animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
       <#--Create a link to the detail page of this document-->
         <@hst.link hippobean=Request.document var="docLink"/>

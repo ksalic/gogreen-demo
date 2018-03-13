@@ -10,7 +10,7 @@
 
         <li data-transition="fade" data-slotamount="2" data-masterspeed="300">
           <img src="<@hst.link hippobean=banner.image.original/>" alt="rev-full1" data-fullwidthcentering="on">
-          <@hst.manageContent hippobean="banner" templateQuery="new-banner" defaultPath="common/banners" />
+          <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" />
           <div>
             <a href="<@hst.link hippobean=banner.docLink/>" class="link-overlay"></a>
           </div>

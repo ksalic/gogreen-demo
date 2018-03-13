@@ -24,7 +24,7 @@
     <div class="row latest-items">
       <#list Request.items as item>
         <div class="col-md-${colSize} col-sm-${colSize}">
-          <@hst.manageContent hippobean="item" templateQuery="new-document"/>
+          <@hst.manageContent hippobean=item templateQuery="new-document"/>
           <div class="feature">
 
             <div class="feature-content">

@@ -9,7 +9,7 @@
    <#-- @ftlvariable name="document" type="org.hippoecm.hst.content.beans.standard.HippoDocumentBean" -->
     <#list documents as document>
         <li class="list-group-item">
-        <@hst.manageContent hippobean="document" templateQuery="new-faq" defaultPath="resellerfaqs"/>
+        <@hst.manageContent hippobean=document templateQuery="new-faq" defaultPath="resellerfaqs"/>
         <h3>${document.question?html}</h3>
         <div><@hst.html hippohtml=document.answer/></div>
         </li>

@@ -71,7 +71,7 @@
                             </h4>
                             <div class="content-box-text">
                                 <p>${banner.text}
-                                <@hst.manageContent hippobean="banner" templateQuery="new-banner" defaultPath="common/banners"/>
+                                <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners"/>
                                 </p>
                             </div>
                         </div>
