@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <@hst.setBundle basename="messages,typenames"/>
 
@@ -20,7 +20,7 @@
               </#assign>
               <li>
                 <a href="${link}">
-                  ${title}
+                  ${title?html}
                 </a>
               </li>
             </#list>

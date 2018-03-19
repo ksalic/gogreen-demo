@@ -1,6 +1,6 @@
 <#include "../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.items??>
   <#if (Request.items?size > 0)>
@@ -14,7 +14,7 @@
           </h2>
           <#if Request.icon??>
             <div class="i-section-title">
-              <i class="fa ${Request.icon}"></i>
+              <i class="fa ${Request.icon?html}"></i>
             </div>
           </#if>
         </div>
@@ -58,11 +58,11 @@
           <#assign cssClass>${cssClass} border-bottom</#assign>
       </#if>
       <#if Request.separatorMargin?? && cssClass??>
-      <div class="space-sep ${separatorMargin} ${cssClass}"></div>
+      <div class="space-sep ${separatorMargin?html} ${cssClass?html}"></div>
       <#elseif Request.separatorMargin??>
-      <div class="space-sep ${Request.separatorMargin}"></div>
+      <div class="space-sep ${Request.separatorMargin?html}"></div>
       <#elseif cssClass??>
-      <div class="space-sep ${cssClass}"></div>
+      <div class="space-sep ${cssClass?html}"></div>
       </#if>
   </#if>
 </#if>

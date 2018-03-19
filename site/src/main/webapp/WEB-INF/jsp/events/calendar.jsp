@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -9,7 +9,7 @@
 
 <div class="sidebar-block">
     <div class="sidebar-content calendar">
-        <h2><fmt:message key="events.calendar.title"/></h2>
+        <h2><fmt:message key="events.calendar.title" var="calendarTitle"/><c:out value="${calendarTitle}"/></h2>
         <div class="navigation">
             <nav>
                 <h4><c:out value="${requestScope.calendar.monthName}"/>&nbsp;<c:out value="${requestScope.calendar.year}"/></h4>
@@ -20,7 +20,7 @@
                 <span class="nav prev">
                     <a href="${prev}">
                         <i class="icon-arrow-left"></i>
-                        <fmt:message key="events.calendar.previous"/>
+                        <fmt:message key="events.calendar.previous" var="calendarPrevious"/><c:out value="${calendarPrevious}"/>
                     </a>
                 </span>
                 <hst:link var="next">
@@ -29,7 +29,7 @@
                 </hst:link>
                 <span class="nav next">
                     <a href="${next}">
-                        <fmt:message key="events.calendar.next"/>
+                        <fmt:message key="events.calendar.next"var="calendarNext"/><c:out value="${calendarNext}"/>
                         <i class="icon-arrow-right"></i>
                     </a>
                 </span>
@@ -38,13 +38,13 @@
         <table class="table">
             <thead>
                   <tr>
-                      <th><fmt:message key="events.calendar.monday"/></th>
-                      <th><fmt:message key="events.calendar.tuesday"/></th>
-                      <th><fmt:message key="events.calendar.wednesday"/></th>
-                      <th><fmt:message key="events.calendar.thursday"/></th>
-                      <th><fmt:message key="events.calendar.friday"/></th>
-                      <th><fmt:message key="events.calendar.saturday"/></th>
-                      <th><fmt:message key="events.calendar.sunday"/></th>
+                      <th><fmt:message key="events.calendar.monday" var="calendarmonday"/><c:out value="calendarmonday"/></th>
+                      <th><fmt:message key="events.calendar.tuesday" var="calendartuesday"/><c:out value="calendartuesday"/></th>
+                      <th><fmt:message key="events.calendar.wednesday" var="calendarwednesday"/><c:out value="calendarwednesday"/></th>
+                      <th><fmt:message key="events.calendar.thursday" var="calendarthursday"/><c:out value="calendarthursday"/></th>
+                      <th><fmt:message key="events.calendar.friday" var="calendarfriday"/><c:out value="calendarfriday"/></th>
+                      <th><fmt:message key="events.calendar.saturday" var="calendarsaturday"/><c:out value="calendarsaturday"/></th>
+                      <th><fmt:message key="events.calendar.sunday" var="calendarsunday"/><c:out value="calendarsunday"/></th>
                   </tr>
             </thead>
             <c:forEach var="week" items="${requestScope.calendar.weeks}">
@@ -85,7 +85,7 @@
                                     <hst:link var="eventLink" hippobean="${event}" />
                                     <div class="posts-list-thumbnail">
                                         <a href="${eventLink}">
-                                            <img src="<hst:link hippobean="${event.firstImage.smallThumbnail}"/>" alt="${requestScope.doc.firstImage.alt}" class="img-responsive" width="54"/>
+                                            <img src="<hst:link hippobean="${event.firstImage.smallThumbnail}"/>" alt="<c:out value="${requestScope.doc.firstImage.alt}"/>" class="img-responsive" width="54"/>
                                         </a>
                                     </div>
                                     <div class="posts-list-content">

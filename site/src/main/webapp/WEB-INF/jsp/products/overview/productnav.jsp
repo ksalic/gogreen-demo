@@ -1,5 +1,5 @@
 <%--
-    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
 
 <%@include file="../../includes/tags.jspf" %>
@@ -10,10 +10,14 @@
         <ul class="portfolio-filter">
             <c:choose>
               <c:when test="${requestScope.activeFacNavBean.name eq 'facetedproducts'}">
-                <li><a class="portfolio-selected" href="<hst:link siteMapItemRefId="products" navigationStateful="true"/>"><fmt:message key="categories.all"/></a></li>
+                <li>
+                    <a class="portfolio-selected" href="<hst:link siteMapItemRefId="products" navigationStateful="true"/>">
+                        <fmt:message key="categories.all" var="categoriesAll"/><c:out value="${categoriesAll}"/>
+                    </a>
+                </li>
               </c:when>
               <c:otherwise>
-                <li><a href="<hst:link siteMapItemRefId="products" navigationStateful="true"/>"><fmt:message key="categories.all"/></a></li>
+                <li><a href="<hst:link siteMapItemRefId="products" navigationStateful="true"/>"><c:out value="${categoriesAll}"/></a></li>
               </c:otherwise>
             </c:choose>
             <%--@elvariable id="facetnav.folders" type="java.util.List<org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetSubNavigation>"--%>

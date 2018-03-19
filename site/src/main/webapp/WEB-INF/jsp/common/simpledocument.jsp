@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 <%@include file="../includes/tags.jspf" %>
@@ -18,7 +18,7 @@
   </c:when>
   <c:otherwise>
     <ul class="box-general">
-      <li class="title"><fmt:message key="common.simpledocument.nodocfound"/></li>
+      <li class="title"><fmt:message key="common.simpledocument.nodocfound" var="nodoc"/><c:out value="${nodoc}"/></li>
     </ul>
   </c:otherwise>
 </c:choose>

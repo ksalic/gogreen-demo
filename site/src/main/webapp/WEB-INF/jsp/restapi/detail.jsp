@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 <%--@elvariable id="document" type="com.onehippo.gogreen.beans.Product"--%>
@@ -21,19 +21,19 @@
 <div id="restapidoc" class="restapidoc-item <c:if test="${requestScope.preview}">editable</c:if>">
     <hst:cmseditlink hippobean="${requestScope.document}" />
 
-    <h3><fmt:message key="restapi.detail.type" /></h3>
+    <h3><fmt:message key="restapi.detail.type" var="detailtype"/> <c:out value="detailtype"/></h3>
     <p><c:out value="${requestScope.document.type}" /></p>
 
-    <h3><fmt:message key="restapi.detail.description" /></h3>
+    <h3><fmt:message key="restapi.detail.description" var="detaildescription"/> <c:out value="detaildescription"/></h3>
     <p><c:out value="${requestScope.document.summary}"/></p>
 
-    <h3><fmt:message key="restapi.detail.documentation" /></h3>
+    <h3><fmt:message key="restapi.detail.documentation" var="detaildocumentation"/> <c:out value="detaildocumentation"/></h3>
     <p><hst:html hippohtml="${requestScope.document.documentation}"/></p>
 
-    <h3><fmt:message key="restapi.detail.url" /></h3>
+    <h3><fmt:message key="restapi.detail.url" var="detailurl"/> <c:out value="detailurl"/></h3>
     <p><c:out value="${requestScope.document.url}"/></p>
 
-    <h3><fmt:message key="restapi.detail.response" /></h3>
+    <h3><fmt:message key="restapi.detail.response" var="detailresponse"/> <c:out value="detailresponse"/></h3>
     <pre class="brush: js"><c:out value="${requestScope.document.response}"/></pre>
 
 </div>

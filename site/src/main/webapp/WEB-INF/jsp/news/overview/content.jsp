@@ -1,12 +1,12 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
 <%@include file="../../includes/tags.jspf" %>
 
-<c:set var="newsoverviewtitle"><fmt:message key="news.overview.content.title"/></c:set>
+<fmt:message key="news.overview.content.title" var="newsoverviewtitle"/>
 <hippo-gogreen:title title="${newsoverviewtitle}"/>
 
 <div class="news-overview">
@@ -40,7 +40,7 @@
 
                 <div class="blog-post-details-item blog-post-details-item-right">
                     <a href="${link}">
-                        <fmt:message key="common.read.more"/> <i class="fa fa-chevron-right"></i>
+                        <fmt:message key="common.read.more" var="readMore"/><c:out value="${readMore}"/> <i class="fa fa-chevron-right"></i>
                     </a>
                 </div>
 
@@ -51,7 +51,7 @@
 
 <c:choose>
   <c:when test="${requestScope.news.total eq 0}">
-    <p id="results"><fmt:message key="search.results.noresults"/> '${requestScope.query}'</p>
+    <p id="results"><fmt:message key="search.results.noresults" var="noResults"/><c:out value="${noResults}"/> '${requestScope.query}'</p>
   </c:when>
   <c:otherwise>
     <hippo-gogreen:pagination pageableResult="${requestScope.news}" queryName="query" queryValue="${requestScope.query}"/>

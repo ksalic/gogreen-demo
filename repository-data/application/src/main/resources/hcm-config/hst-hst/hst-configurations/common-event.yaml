@@ -9,13 +9,6 @@ definitions:
         /event-catalog:
           jcr:primaryType: hst:containeritempackage
           jcr:uuid: ee65b69a-12aa-4c4e-9ffe-f5294ba4787d
-          /pageactions:
-            jcr:primaryType: hst:containeritemcomponent
-            jcr:uuid: 6e71c1f8-69a2-4af3-925a-e6c4c9fdd5c2
-            hst:iconpath: images/catalog/icon-page-action.png
-            hst:label: Page Actions
-            hst:template: standard.main.left.pageactions
-            hst:xtype: HST.Item
           /feed:
             jcr:primaryType: hst:containeritemcomponent
             jcr:uuid: 152c1113-e4ae-4458-86ea-e98a94712b6c
@@ -41,16 +34,6 @@ definitions:
       /hst:templates:
         jcr:primaryType: hst:templates
         jcr:uuid: f31c0594-2a65-49fa-a029-8095deada501
-        /standard.main.left.leftmenu:
-          jcr:primaryType: hst:template
-          jcr:uuid: 393f7f5b-ada7-48aa-aa58-ef52a50011eb
-          hst:containers: []
-          hst:renderpath: jsp/standard/main/left/leftmenu.jsp
-        /standard.main.left.pageactions:
-          jcr:primaryType: hst:template
-          jcr:uuid: e6be046d-ec66-4e55-af7e-4dd86f1a2d1f
-          hst:containers: []
-          hst:renderpath: jsp/standard/main/left/pageactions.jsp
         /about.main:
           jcr:primaryType: hst:template
           jcr:uuid: f5d46001-1903-43c2-875b-770e5388c3da

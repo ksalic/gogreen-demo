@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -33,7 +33,7 @@
                 <img src="${src}" alt="${fn:escapeXml(image.alt)}" />
                 <div class="item-img-overlay">
                     <div class="item_img_overlay_link">
-                      <a href="${link}" title="${product.title}"> </a>
+                      <a href="${link}" title="<c:out value="${product.title}"/>"> </a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
 
 <c:choose>
   <c:when test="${requestScope.docs.total eq 0}">
-    <p id="results"><fmt:message key="search.results.noresults"/> '${requestScope.query}'</p>
+    <p id="results"><fmt:message key="search.results.noresults" var="noResults"/><c:out value="${noResults}"/> '${requestScope.query}'</p>
   </c:when>
   <c:otherwise>
     <hippo-gogreen:pagination pageableResult="${requestScope.docs}" queryName="query" queryValue="${requestScope.query}"/>

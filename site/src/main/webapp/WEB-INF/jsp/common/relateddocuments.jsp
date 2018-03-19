@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -22,7 +22,7 @@
                         <c:if test="${not empty doc.firstImage}">
                             <div class="posts-list-thumbnail">
                                 <a href="${link}">
-                                    <img src="<hst:link hippobean="${doc.firstImage.smallThumbnail}"/>" alt="${doc.firstImage.alt}" class="img-responsive" width="54"/>
+                                    <img src="<hst:link hippobean="${doc.firstImage.smallThumbnail}"/>" alt="<c:out value="${doc.firstImage.alt}"/>" class="img-responsive" width="54"/>
                                 </a>
                             </div>
                         </c:if>
@@ -57,7 +57,7 @@
                                                 </script>
                                             </c:when>
                                             <c:otherwise>
-                                                <fmt:message key="products.rating.unrated"/>
+                                                <fmt:message key="products.rating.unrated" var="unrated"/> <c:out value="${unrated}"/>
                                             </c:otherwise>
                                         </c:choose>
                                     </span>

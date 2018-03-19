@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 <%--@elvariable id="document" type="com.onehippo.gogreen.beans.Product"--%>
@@ -44,7 +44,7 @@
                         <div class="slider-img">
                             <img src="<hst:link hippobean="${productImage.largeThumbnail}"/>" alt="${fn:escapeXml(productImage.alt)}">
                             <div class="item-img-overlay">
-                                <a class="portfolio-zoom icon-zoom" href="<hst:link hippobean="${productImage.original}"/>" data-rel="prettyPhoto[portfolio]" title="${document.title}"></a>
+                                <a class="portfolio-zoom icon-zoom" href="<hst:link hippobean="${productImage.original}"/>" data-rel="prettyPhoto[portfolio]" title="<c:out value="${document.title}"/>"></a>
                             </div>
                         </div>
                     </c:forEach>
@@ -65,12 +65,12 @@
             <div class="blog-post-details-item blog-post-details-item-left icon-banknote">
                 <span class="${requestScope.reseller ? 'nonresellerprice' : 'price'}"><fmt:formatNumber value="${requestScope.document.price}" type="currency"/></span>
                 <c:if test="${requestScope.reseller}">
-                    <span class="resellerprice"><fmt:message key="products.resellerprice"/>: <fmt:formatNumber value="${requestScope.document.resellerPrice}" type="currency"/></span>
+                    <span class="resellerprice"><fmt:message key="products.resellerprice" var="resellerPrice"/><c:out value="${resellerPrice}"/>: <fmt:formatNumber value="${requestScope.document.resellerPrice}" type="currency"/></span>
                 </c:if>
             </div>
 
             <div class="blog-post-details-item blog-post-details-item-left rating-info">
-                <span id="document-rating" data-score="<c:out value="${requestScope.document.rating}"/>"></span>&nbsp;(<c:out value="${requestScope.votes}"/>&nbsp;<fmt:message key="products.detail.reviews"/>)
+                <span id="document-rating" data-score="<c:out value="${requestScope.document.rating}"/>"></span>&nbsp;(<c:out value="${requestScope.votes}"/>&nbsp;<fmt:message key="products.detail.reviews" var="detailReviews"/><c:out value="${detailReviews}"/>)
             </div>
 
             <%--<div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags icon-files">
@@ -94,7 +94,7 @@
 
                     <hst:link siteMapItemRefId="search-faceted" var="link"/>
                     <fmt:message key="search.facet.category" var="tagname"/>
-                    <a href="${link}/${tagname}/${tag}">${tag}</a>
+                    <a href="${link}/<c:out value="${tagname}"/>/<c:out value="${tag}"/>"><c:out value="${tag}"/></a>
                 </c:forEach>
 
             </div>
@@ -172,7 +172,7 @@
     <div class="blog-span-bottom">
         <div class="title-block clearfix">
             <h3 class="h3-body-title">
-                <fmt:message key="products.detail.review"/>
+                <fmt:message key="products.detail.review" var="detailReview"/><c:out value="${detailReview}"/>
             </h3>
             <div class="title-seperator"></div>
         </div>
@@ -185,23 +185,26 @@
 
     <c:if test="${not empty requestScope.success}">
         <div class="alert alert-success">
-            <div class="msg"><fmt:message key="common.comments.thankyou"/></div>
+            <div class="msg"><fmt:message key="common.comments.thankyou" var="commentsThank"/><c:out value="${commentsThank}"/></div>
             <a href="#" class="alert-remove"><i class="icon-trash"></i></a>
         </div>
     </c:if>
 
+    <fmt:message key="common.comments.name.error" var="nameError"/>
+    <fmt:message key="common.comments.email.error" var="emailError"/>
+    <fmt:message key="common.comments.comment.error" var="commentsError"/>
     <c:if test="${not empty requestScope.errors}">
         <div class="alert alert-danger">
             <div class="msg">
                 <c:forEach items="${requestScope.errors}" var="error">
                     <c:if test="${error eq 'invalid.name-label'}">
-                        <span for="name" class="input_error"><fmt:message key="common.comments.name.error"/></span><br/>
+                        <span for="name" class="input_error"><c:out value="${nameError}"/></span><br/>
                     </c:if>
                     <c:if test="${error eq 'invalid.email-label'}">
-                        <span for="email" class="input_error"><fmt:message key="common.comments.email.error"/></span><br/>
+                        <span for="email" class="input_error"><c:out value="${emailError}"/></span><br/>
                     </c:if>
                     <c:if test="${error eq 'invalid.comment-label'}">
-                        <span for="comment" class="input_error"><fmt:message key="common.comments.comment.error"/></span><br/>
+                        <span for="comment" class="input_error"><c:out value="${commentsError}"/></span><br/>
                     </c:if>
                 </c:forEach>
             </div>
@@ -213,13 +216,13 @@
         <div class="row">
             <div class="col-xs-6">
                 <label for="name">
-                    <fmt:message key="common.comments.name"/> *
+                    <fmt:message key="common.comments.name" var="commentsName"/><c:out value="${commentsName}"/> *
                 </label>
-                <input type="text" id="name" name="name" value="${requestScope.name}" class="form-control" data-errmsg="<fmt:message key="common.comments.name.error"/>" minlength="2" placeholder="Your Name" required="">
+                <input type="text" id="name" name="name" value="${requestScope.name}" class="form-control" data-errmsg="<c:out value="${nameError}"/>" minlength="2" placeholder="Your Name" required="">
                 <c:if test="${not empty requestScope.errors}">
                     <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.name-label'}">
-                            <span for="name" class="input_error"><fmt:message key="common.comments.name.error"/></span><br/>
+                            <span for="name" class="input_error"><c:out value="${nameError}"/></span><br/>
                         </c:if>
                     </c:forEach>
                 </c:if>
@@ -231,13 +234,13 @@
         <div class="row">
             <div class="col-xs-6">
                 <label for="email">
-                    <fmt:message key="common.comments.email"/> *
+                    <fmt:message key="common.comments.email" var="commentsEmail"/><c:out value="${commentsEmail}"/> *
                 </label>
-                <input type="text" id="email" name="email" value="${requestScope.email}" class="form-control" data-errmsg="<fmt:message key="common.comments.email.error"/>" minlength="2" placeholder="Your Email" required="">
+                <input type="text" id="email" name="email" value="${requestScope.email}" class="form-control" data-errmsg="<c:out value="${emailError}"/>" minlength="2" placeholder="Your Email" required="">
                 <c:if test="${not empty requestScope.errors}">
                     <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.email-label'}">
-                            <span for="email" class="input_error"><fmt:message key="common.comments.email.error"/></span><br/>
+                            <span for="email" class="input_error"><c:out value="${emailError}"/></span><br/>
                         </c:if>
                     </c:forEach>
                 </c:if>
@@ -249,7 +252,7 @@
         <div class="row">
             <div class="col-xs-6">
                 <label for="email">
-                    <fmt:message key="products.detail.score"/>
+                    <fmt:message key="products.detail.score" var="detailScore"/><c:out value="${detailScore}"/>
                 </label>
                 <input type="hidden" id="rating" name="rating" value="0" class="form-control">
                 <div id="rating-field">
@@ -262,14 +265,14 @@
         <div class="row">
             <div class="col-xs-7">
                 <label for="message&quot;">
-                    <fmt:message key="common.comments.comment"/>
+                    <fmt:message key="common.comments.comment" var="commentsComment"/><c:out value="${commentsComment}"/>
                 </label>
-                <textarea id="comment" name="comment" class="form-control" data-errmsg="<fmt:message key="common.comments.comment.error"/>"
+                <textarea id="comment" name="comment" class="form-control" data-errmsg="<c:out value="${commentsError}"/>"
                     placeholder="Your Message" rows="3" required=""><c:if test="${not empty requestScope.comment}"><c:out value="${requestScope.comment}"/></c:if></textarea>
                 <c:if test="${not empty requestScope.errors}">
                     <c:forEach items="${requestScope.errors}" var="error">
                         <c:if test="${error eq 'invalid.comment-label'}">
-                            <span for="comment" class="input_error"><fmt:message key="common.comments.comment.error"/></span><br/>
+                            <span for="comment" class="input_error"><<c:out value="${commentsError}"/></span><br/>
                         </c:if>
                     </c:forEach>
                 </c:if>
@@ -280,17 +283,18 @@
     <c:if test="${not empty requestScope.errors}">
         <c:forEach items="${requestScope.errors}" var="error">
             <c:if test="${error eq 'invalid.spam-label'}">
-                <span class="form-error"><fmt:message key="common.spam.error"/></span><br/>
+                <span class="form-error"><fmt:message key="common.spam.error" var="spamError"/><c:out value="${spamError}"/></span><br/>
             </c:if>
         </c:forEach>
     </c:if>
 
+    <fmt:message key="common.spamfield.label" var="spamfieldLabel"/>
     <div id="confirmation">
         <div class="form-group">
             <div class="row">
                 <div class="col-xs-6">
                     <label for="name">
-                        <fmt:message key="common.spamfield.label"/>
+                        <c:out value="${spamfieldLabel}"/>
                     </label>
                     <input type="text" name="confirmation"/>
                 </div>
@@ -301,7 +305,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <label for="name">
-                        <fmt:message key="common.spamfield.label"/>
+                        <c:out value="${spamfieldLabel}"/>
                     </label>
                     <textarea name="feedback" rows="8" cols="50"></textarea>
                 </div>
@@ -311,7 +315,7 @@
 
     <div class="row">
         <div class="col-md-2 col-sm-2 offset2">
-            <input type="submit" value="<fmt:message key="common.comments.submit.label"/>" class="button large">
+            <input type="submit" value="<fmt:message key="common.comments.submit.label" var="submitLabel"/><c:out value="${submitLabel}"/>" class="button large">
         </div>
     </div>
 

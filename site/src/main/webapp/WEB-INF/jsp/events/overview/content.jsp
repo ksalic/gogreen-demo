@@ -1,12 +1,12 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
 <%@include file="../../includes/tags.jspf" %>
 
-<c:set var="overviewtitle"><fmt:message key="events.overview.title"/></c:set>
+<c:set var="overviewtitle"><fmt:message key="events.overview.title" var=""/><c:out value="${}"/></c:set>
 <hippo-gogreen:title title="${overviewtitle}"/>
 
 <%--@elvariable id="documents" type="java.util.List<com.onehippo.gogreen.beans.EventDocument>"--%>
@@ -55,7 +55,7 @@
 
                 <div class="blog-post-details-item blog-post-details-item-right">
                     <a href="${link}">
-                        <fmt:message key="common.read.more"/> <i class="fa fa-chevron-right"></i>
+                        <fmt:message key="common.read.more" var=""/><c:out value="${}"/> <i class="fa fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
@@ -65,19 +65,9 @@
 
 <c:choose>
   <c:when test="${documents.total eq 0}">
-    <p id="results"><fmt:message key="search.results.noresults"/> '${requestScope.query}'</p>
+    <p id="results"><fmt:message key="search.results.noresults" var=""/><c:out value="${}"/> '${requestScope.query}'</p>
   </c:when>
   <c:otherwise>
     <hippo-gogreen:pagination pageableResult="${documents}" queryName="query" queryValue="${requestScope.query}"/>
   </c:otherwise>
 </c:choose>
-
-
-<%--
-<fmt:message key="events.overview.location.label"/></li>
-            <li>
-              <hst:link var="home" siteMapItemRefId="home" />
-              <a href="${home}"><fmt:message key="events.overview.location.home"/></a> &gt;
-            </li>
-            <h2><fmt:message key="events.overview.title"/></h2>
-            --%>

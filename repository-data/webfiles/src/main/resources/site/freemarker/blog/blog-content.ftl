@@ -1,6 +1,6 @@
 <#include "../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#import "../macro/macro.imagecopyright.ftl" as imageCopyright >
 <#import "../macro/macro.copyright.ftl" as copyright >
@@ -15,10 +15,10 @@
     <div class="blog-post-featured-img img-overlay">
       <@hst.link var="src" hippobean=image.landscapeImage/>
       <@hst.link var="imgOrig" hippobean=image.original/>
-      <img class="img-responsive" src="${src}" alt="${image.alt}"/>
+      <img class="img-responsive" src="${src}" alt="${image.alt?html}"/>
       <@imageCopyright.imageCopyright image=image/>
       <div class="item-img-overlay">
-        <a class="portfolio-zoom icon-zoom-in" href="${imgOrig}" data-rel="prettyPhoto[portfolio]" title="${image.alt}"></a>
+        <a class="portfolio-zoom icon-zoom-in" href="${imgOrig}" data-rel="prettyPhoto[portfolio]" title="${image.alt?html}"></a>
       </div>
     </div>
   </#if>
@@ -62,12 +62,12 @@
       <#if Request.commentCount gt 0>
       ${Request.commentCount}
         &nbsp;
-        <@fmt.message key="blogs.detail.content.commentsfound"/>
+        <@fmt.message key="blogs.detail.content.commentsfound" var="contentcommentsfound"/> ${contentcommentsfound?html}
         <#if Request.commentCount gt 1>
-          <@fmt.message key="blogs.detail.content.commentsplural"/>
+          <@fmt.message key="blogs.detail.content.commentsplural" var="contentcommentsplural"/> ${contentcommentsplural?html}
         </#if>
       <#else>
-        <@fmt.message key="blogs.detail.content.nocomments"/>
+        <@fmt.message key="blogs.detail.content.nocomments" var="contentnocomments"/> ${contentnocomments?html}
       </#if>
       </div>
     </div>

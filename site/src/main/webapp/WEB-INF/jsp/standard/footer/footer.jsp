@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -25,11 +25,11 @@
                         <div class="footer-content">
                             <div class="footer-content-logo">
                                 <a href="http://www.onehippo.com" target="_blank">
-                                      <img src="<hst:link path="/images/logo-hippo.png"/>" alt="<fmt:message key="standard.footer.onehippo"/>"/>
+                                      <img src="<hst:link path="/images/logo-hippo.png"/>" alt="<fmt:message key="standard.footer.onehippo" var="standardFooter"/><c:out value="${standardFooter}"/> "/>
                                 </a>
                             </div>
                             <div class="footer-content-text">
-                                <p><fmt:message key="layout.webpage.disclaimer">
+                                <p><fmt:message key="layout.webpage.disclaimer" var="disclaimer"><c:out value="${disclaimer}"/>
                                         <fmt:param><a href="https://www.bloomreach.com/en/products/experience/hippo-cms" target="_blank"></fmt:param>
                                         <fmt:param><a href="https://groups.google.com/forum/#!forum/hippo-community" target="_blank"></fmt:param>
                                         <fmt:param></a></fmt:param>
@@ -44,7 +44,7 @@
                     <!-- Footer Col. -->
                     <div class="col-md-3 col-sm-3 footer-col">
                         <div class="footer-title">
-                            <fmt:message key="standard.footer.servicelabel"/>
+                            <fmt:message key="standard.footer.servicelabel" var="serviceLabel"/><c:out value="${serviceLabel}"/>
                         </div>
                         <div class="footer-content footer-recent-tweets-container">
                             <hst:include ref="service"/>
@@ -66,7 +66,7 @@
                     <!-- Footer Col. -->
                     <div class="col-md-3 col-sm-3 footer-col">
                         <div class="footer-title">
-                            <fmt:message key="standard.footer.sectionslabel"/>
+                            <fmt:message key="standard.footer.sectionslabel" var="sectionsLabel"/><c:out value="${sectionsLabel}"/>
                         </div>
                         <div class="footer-content">
                             <hst:include ref="sections"/>
@@ -96,7 +96,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 center-text">
-                        <div class="copyright-text"><fmt:message key="standard.footer.copyright"/> | <hst:link var="termsLink" path="${requestScope.termsPath}" mount="site"/><a href="${termsLink}"><fmt:message key="standard.footer.termsandconditions"/></a></div>
+                        <div class="copyright-text"><fmt:message key="standard.footer.copyright" var="copyright"/><c:out value="${copyright}"/> | <hst:link var="termsLink" path="${requestScope.termsPath}" mount="site"/><a href="${termsLink}"><fmt:message key="standard.footer.termsandconditions" var="termsAndConditions"/><c:out value="${termsAndConditions}"/></a></div>
                     </div>
 
                 </div>
