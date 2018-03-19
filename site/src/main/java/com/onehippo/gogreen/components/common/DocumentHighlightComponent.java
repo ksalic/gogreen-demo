@@ -1,14 +1,12 @@
-/**
- * Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+/*
+ * Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
  */
-
 package com.onehippo.gogreen.components.common;
 
 import com.onehippo.gogreen.components.BaseComponent;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
-import org.hippoecm.hst.core.parameters.DocumentLink;
 import org.hippoecm.hst.core.parameters.JcrPath;
 import org.hippoecm.hst.core.parameters.Parameter;
 import org.hippoecm.hst.core.parameters.ParametersInfo;
