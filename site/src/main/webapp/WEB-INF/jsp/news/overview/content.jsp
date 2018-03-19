@@ -7,6 +7,7 @@
 <hippo-gogreen:title title="${newsoverviewtitle}"/>
 
 <div class="news-overview">
+<hst:manageContent templateQuery="new-news" defaultPath="news"/>
 <%--@elvariable id="news" type="java.util.List<com.onehippo.gogreen.beans.SimpleDocument>"--%>
 <c:forEach items="${requestScope.news.items}" var="newsitem" varStatus="status">
     <hst:link var="link" hippobean="${newsitem}"/>
@@ -17,7 +18,7 @@
         </div>
 
         <div class="blog-span">
-            <hst:manageContent hippobean="${newsitem}" templateQuery="new-news" defaultPath="news"/>
+            <hst:manageContent hippobean="${newsitem}"/>
             <h2>
                 <a href="${link}"><c:out value="${newsitem.title}"/></a>
             </h2>

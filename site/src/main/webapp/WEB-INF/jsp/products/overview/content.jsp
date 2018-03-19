@@ -16,13 +16,14 @@
 <hst:include ref="productnav"/>
 
 <div class="isotope" id="masonry-elements">
+<hst:manageContent templateQuery="new-product" defaultPath="products"/>
 <%--@elvariable id="docs" type="com.onehippo.gogreen.utils.PageableCollection"--%>
 <c:forEach items="${requestScope.docs.items}" var="product" varStatus="status">
     <%--@elvariable id="product" type="com.onehippo.gogreen.beans.Product"--%>
     <hst:link var="link" hippobean="${product}"/>
     <div class="feature blog-masonry isotope-item">
 
-        <hst:manageContent hippobean="${product}" templateQuery="new-product" defaultPath="products"/>
+        <hst:manageContent hippobean="${product}" />
         <c:set var="image" value="${product.firstImage}"/>
         <c:if test="${image != null and image.largeThumbnail != null}">
             <div class="feature-image img-overlay">

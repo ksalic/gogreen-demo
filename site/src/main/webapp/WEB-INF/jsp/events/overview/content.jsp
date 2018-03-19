@@ -9,6 +9,7 @@
 <%--@elvariable id="documents" type="java.util.List<com.onehippo.gogreen.beans.EventDocument>"--%>
 <hst:setBundle basename="messages"/>
 <fmt:message key="standard.date.format" var="dateformat"/>
+<hst:manageContent templateQuery="new-event" defaultPath="events"/>
 <c:forEach items="${documents.items}" var="event" varStatus="status">
     <hst:link var="link" hippobean="${event}"/>
     <div class="blog-post">
@@ -18,7 +19,7 @@
         </div>
 
         <div class="blog-span">
-            <hst:manageContent hippobean="${event}" templateQuery="new-event" defaultPath="events"/>
+            <hst:manageContent hippobean="${event}" />
             <c:set var="image" value="${event.firstImage}"/>
             <c:if test="${image != null and image.landscapeImage != null}">
                 <div class="blog-post-featured-img">
@@ -27,7 +28,6 @@
                 </div>
             </c:if>
             <h2>
-                <hst:manageContent hippobean="${event}" templateQuery="new-event" defaultPath="events"/>
                 <a href="${link}"><c:out value="${event.title}"/></a>
             </h2>
 
