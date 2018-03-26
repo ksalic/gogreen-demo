@@ -1,13 +1,13 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.document??>
 <div class="richtextsnippet-component">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6">
-        <@hst.cmseditlink hippobean=Request.document/>
+        <@hst.manageContent hippobean=Request.document templateQuery="new-document" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
           <@hst.html hippohtml=Request.document.richText/>
       </div>
     </div>

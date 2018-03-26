@@ -9,7 +9,7 @@
     <i class="icon-news"> </i>
   </div>
   <div class="blog-span">
-  <@hst.cmseditlink hippobean=Request.document/>
+  <@hst.manageContent hippobean=Request.document templateQuery="new-blog" defaultPath="blogs"/>
   <#assign image=Request.document.firstImage/>
   <#if image?? && image.landscapeImage??>
     <div class="blog-post-featured-img img-overlay">

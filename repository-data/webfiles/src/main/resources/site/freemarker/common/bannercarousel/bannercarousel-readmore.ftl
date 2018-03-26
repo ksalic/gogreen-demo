@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.banners??>
 <div class="rev-slider-full">
@@ -10,7 +10,7 @@
 
                 <li data-transition="fade" data-slotamount="2" data-masterspeed="300">
                     <img src="<@hst.link hippobean=banner.image.original/>" alt="rev-full1" data-fullwidthcentering="on">
-                    <@hst.cmseditlink hippobean=banner/>
+                    <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" />
 
                     <div class="tp-caption big_white large_text sft" data-x="38" data-y="72" data-start="0" data-easing="easeOutBack">
                     ${banner.title?html}

@@ -52,7 +52,7 @@
                             </h4>
                             <div class="content-box-text">
                             ${banner.text}
-                                <@hst.cmseditlink hippobean=banner/>
+                                <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners"/>
                                 <#if docLink??>
                                     <div>
                                         <a href="${docLink}" class="read-more">

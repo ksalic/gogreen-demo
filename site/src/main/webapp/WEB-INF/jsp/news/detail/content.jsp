@@ -1,9 +1,6 @@
 <%--
-
     Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
-
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <hippo-gogreen:title title="${requestScope.document.title}"/>
@@ -15,7 +12,7 @@
     </div>
 
     <div class="blog-span">
-        <hst:cmseditlink hippobean="${requestScope.document}" />
+        <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-news" defaultPath="news"/>
         <h2>
             <c:out value="${requestScope.document.title}"/>
         </h2>

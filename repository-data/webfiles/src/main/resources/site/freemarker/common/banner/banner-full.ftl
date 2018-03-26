@@ -1,11 +1,11 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if  Request.document??>
     <#if Request.document.image??>
         <div class="banner-component section-content full-banner no-padding" style="background-image: url('<@hst.link hippobean=Request.document.image.original/>')">
-            <@hst.cmseditlink hippobean=Request.document/>
+            <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
         </div>
     </#if>
 

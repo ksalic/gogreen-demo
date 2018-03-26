@@ -1,15 +1,13 @@
 <%--
-
     Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
-
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <fmt:message key="news.overview.content.title" var="newsoverviewtitle"/>
 <hippo-gogreen:title title="${newsoverviewtitle}"/>
 
 <div class="news-overview">
+<hst:manageContent templateQuery="new-news" defaultPath="news"/>
 <%--@elvariable id="news" type="java.util.List<com.onehippo.gogreen.beans.SimpleDocument>"--%>
 <c:forEach items="${requestScope.news.items}" var="newsitem" varStatus="status">
     <hst:link var="link" hippobean="${newsitem}"/>
@@ -20,7 +18,7 @@
         </div>
 
         <div class="blog-span">
-            <hst:cmseditlink hippobean="${newsitem}" />
+            <hst:manageContent hippobean="${newsitem}"/>
             <h2>
                 <a href="${link}"><c:out value="${newsitem.title}"/></a>
             </h2>

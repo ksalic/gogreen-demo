@@ -49,6 +49,10 @@ definitions:
           /hippogogreen:answer:
             jcr:primaryType: hippostd:html
             hippostd:content: <html><body></body></html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:

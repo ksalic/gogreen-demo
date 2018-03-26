@@ -1,7 +1,5 @@
 <%--
-
     Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
-
 --%>
 <%--@elvariable id="document" type="com.onehippo.gogreen.beans.EventDocument"--%>
 <%@include file="../../includes/tags.jspf" %>
@@ -15,7 +13,7 @@
     </div>
 
     <div class="blog-span">
-        <hst:cmseditlink hippobean="${requestScope.document}" />
+        <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-event" defaultPath="events"/>
         <c:set var="image" value="${requestScope.document.firstImage}"/>
         <c:if test="${image != null and image.landscapeImage != null}">
             <div class="blog-post-featured-img img-overlay">

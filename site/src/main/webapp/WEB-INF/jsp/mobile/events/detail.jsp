@@ -1,9 +1,6 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <hippo-gogreen:title title="${requestScope.document.title}"/>
@@ -14,7 +11,7 @@
     <div id="content" class="${style}">
         <h1><c:out value="${requestScope.document.title}"/></h1>
         <c:if test="${requestScope.preview}">
-          <hst:cmseditlink hippobean="${requestScope.document}" />
+          <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-event" defaultPath="events"/>
         </c:if>
         <p id="event-info" class="doc-info">
             <span class="location"><c:out value="${requestScope.document.location.street}"/>&nbsp;<c:out value="${requestScope.document.location.number}"/>,&nbsp;<c:out value="${requestScope.document.location.city}"/>&nbsp;<c:out value="${requestScope.document.location.postalCode}"/>&nbsp;<c:out value="${requestScope.document.location.province}"/></span>

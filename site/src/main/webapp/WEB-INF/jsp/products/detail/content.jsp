@@ -1,7 +1,5 @@
 <%--
-
     Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
-
 --%>
 <%--@elvariable id="document" type="com.onehippo.gogreen.beans.Product"--%>
 <%@include file="../../includes/tags.jspf" %>
@@ -27,7 +25,7 @@
     </div>
 
     <div class="blog-span">
-        <hst:cmseditlink hippobean="${requestScope.document}" />
+        <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-product" defaultPath="products"/>
         <h2>
             <c:out value="${requestScope.document.title}"/>
         </h2>

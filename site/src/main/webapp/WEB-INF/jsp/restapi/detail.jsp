@@ -1,7 +1,5 @@
 <%--
-
     Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
-
 --%>
 <%--@elvariable id="document" type="com.onehippo.gogreen.beans.Product"--%>
 <%@include file="../includes/tags.jspf" %>
@@ -19,7 +17,7 @@
 <div class="i-section-title"></div>
 
 <div id="restapidoc" class="restapidoc-item <c:if test="${requestScope.preview}">editable</c:if>">
-    <hst:cmseditlink hippobean="${requestScope.document}" />
+    <hst:manageContent hippobean="${requestScope.document}" />
 
     <h3><fmt:message key="restapi.detail.type" var="detailtype"/> <c:out value="detailtype"/></h3>
     <p><c:out value="${requestScope.document.type}" /></p>

@@ -1,9 +1,6 @@
 <%--
-
     Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
-
 --%>
-
 <%@include file="../../includes/tags.jspf" %>
 
 <c:set var="overviewtitle"><fmt:message key="events.overview.title" var=""/><c:out value="${}"/></c:set>
@@ -12,6 +9,7 @@
 <%--@elvariable id="documents" type="java.util.List<com.onehippo.gogreen.beans.EventDocument>"--%>
 <hst:setBundle basename="messages"/>
 <fmt:message key="standard.date.format" var="dateformat"/>
+<hst:manageContent templateQuery="new-event" defaultPath="events"/>
 <c:forEach items="${documents.items}" var="event" varStatus="status">
     <hst:link var="link" hippobean="${event}"/>
     <div class="blog-post">
@@ -21,7 +19,7 @@
         </div>
 
         <div class="blog-span">
-            <hst:cmseditlink hippobean="${event}" />
+            <hst:manageContent hippobean="${event}" />
             <c:set var="image" value="${event.firstImage}"/>
             <c:if test="${image != null and image.landscapeImage != null}">
                 <div class="blog-post-featured-img">
@@ -30,7 +28,6 @@
                 </div>
             </c:if>
             <h2>
-                <hst:cmseditlink hippobean="${event}"/>
                 <a href="${link}"><c:out value="${event.title}"/></a>
             </h2>
 

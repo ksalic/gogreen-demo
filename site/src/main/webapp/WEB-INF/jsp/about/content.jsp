@@ -15,7 +15,7 @@
         <div class="i-section-title"></div>
         <c:forEach items="${documents}" var="document">
             <hst:link var="link" hippobean="${document}"/>
-                <hst:cmseditlink hippobean="${document}" />
+                <hst:manageContent hippobean="${document}" templateQuery="new-document" defaultPath="about" />
                 <h3>
                     <a href="${link}"><c:out value="${document.title}"/></a>
                 </h3>
@@ -25,8 +25,8 @@
         </c:forEach>
     </c:when>
     <c:when test="${document ne null}">
-        <hst:cmseditlink hippobean="${document}" />
-        <h2 ><c:out value="${document.title}"/></h2>
+        <hst:manageContent hippobean="${document}" templateQuery="new-document" defaultPath="about" />
+        <h2><c:out value="${document.title}"/></h2>
 
         <p><c:out value="${document.summary}"/></p>
         <p><hst:html hippohtml="${document.description}"/></p>

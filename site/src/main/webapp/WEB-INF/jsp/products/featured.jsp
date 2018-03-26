@@ -1,9 +1,6 @@
 <%--
-
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
-
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
-
 <%@include file="../includes/tags.jspf" %>
 
 <c:if test="${not empty requestScope.products}">
@@ -45,7 +42,7 @@
         <div class="col-md-${colSize} col-sm-${colSize}">
           <div class="feature product-category">
             <div class="feature-image">
-              <hst:cmseditlink hippobean="${prd}" />
+              <hst:manageContent hippobean="${prd}" templateQuery="new-product" defaultPath="products"/>
               <a href="${fn:escapeXml(prdLink)}"><img src="${fn:escapeXml(prdImgLink)}" alt="${fn:escapeXml(prd.firstImage.alt)}"/></a>
             </div>
             <div class="feature-content">
