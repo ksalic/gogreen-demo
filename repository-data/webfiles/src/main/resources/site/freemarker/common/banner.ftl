@@ -1,6 +1,6 @@
 <#include "../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.document??>
     <#if Request.title?? && Request.title!=''>
