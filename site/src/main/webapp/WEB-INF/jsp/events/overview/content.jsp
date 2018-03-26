@@ -3,7 +3,7 @@
 --%>
 <%@include file="../../includes/tags.jspf" %>
 
-<c:set var="overviewtitle"><fmt:message key="events.overview.title" var=""/><c:out value="${}"/></c:set>
+<fmt:message key="events.overview.title" var="overviewtitle"/>
 <hippo-gogreen:title title="${overviewtitle}"/>
 
 <%--@elvariable id="documents" type="java.util.List<com.onehippo.gogreen.beans.EventDocument>"--%>
@@ -41,18 +41,9 @@
                     <fmt:formatDate value="${event.date.time}" type="date" pattern="${dateformat}"/>
                 </div>
 
-                <%--<div class="blog-post-details-item blog-post-details-item-left blog-post-details-tags icon-files">
-                    <c:forEach items="${event.categories}" var="category">
-                        <a href="">
-                            ${category}
-                        </a>
-                    </c:forEach>
-                    ${event.categories}
-                </div>--%>
-
                 <div class="blog-post-details-item blog-post-details-item-right">
                     <a href="${link}">
-                        <fmt:message key="common.read.more" var=""/><c:out value="${}"/> <i class="fa fa-chevron-right"></i>
+                        <fmt:message key="common.read.more" var="readMore"/><c:out value="${readMore}"/> <i class="fa fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
@@ -62,7 +53,7 @@
 
 <c:choose>
   <c:when test="${documents.total eq 0}">
-    <p id="results"><fmt:message key="search.results.noresults" var=""/><c:out value="${}"/> '${requestScope.query}'</p>
+    <p id="results"><fmt:message key="search.results.noresults" var="noresults"/><c:out value="${noresults}"/> '${requestScope.query}'</p>
   </c:when>
   <c:otherwise>
     <hippo-gogreen:pagination pageableResult="${documents}" queryName="query" queryValue="${requestScope.query}"/>

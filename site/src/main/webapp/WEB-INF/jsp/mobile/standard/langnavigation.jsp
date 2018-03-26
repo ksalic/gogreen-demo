@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -10,9 +10,9 @@
 
 <ul id="language">
   <li class="active">
-    <fmt:message key="standard.header.langnav.language" />:
-    <fmt:message key="${editionCountry}"/>
-    <span><a href="#"><fmt:message key="mobile.standard.header.edition.change"/></a></span>
+    <fmt:message key="standard.header.langnav.language" var="langnavlanguage"/><c:out value="${langnavlanguage}"/>:
+    <fmt:message key="${editionCountry}" var="langnaveditioncountry"/><c:out value="${langnaveditioncountry}"/>
+    <span><a href="#"><fmt:message key="mobile.standard.header.edition.change" var="editionchange"/> <c:out value="editionchange"/></a></span>
   </li>
   <c:forEach var="translation" items="${requestScope.translations}">
     <c:set var="title"><fmt:message key="standard.header.langnav.language.${translation.language}"/></c:set>
