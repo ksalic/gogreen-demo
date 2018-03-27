@@ -1,6 +1,6 @@
 <#include "../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <#macro imageCopyright image>
 
@@ -9,7 +9,7 @@
     <#if copyright?? && copyright.description?? && copyright.url??>
     <p class="copyright">
       &copy;
-    ${copyright.description}
+    ${copyright.description?html}
       <#if copyright.description?? || copyright.url??><br/></#if>
       <#if copyright.url??>
       <#-- <@c.url var="link" value=copyright.url/>-->

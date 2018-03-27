@@ -17,6 +17,20 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.onehippo.cms7.hst</groupId>
+      <artifactId>hst-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7.hst</groupId>
+      <artifactId>hst-client</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+    </dependency>
+    <dependency>
       <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-site</artifactId>
       <version>${project.version}</version>

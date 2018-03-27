@@ -23,9 +23,9 @@
             <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
             <div class="col-md-12 col-sm-12 animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
                 <#if Request.document.docLink??>
-                    <h2 class="h2-section-title"><a href="<@hst.link hippobean=Request.document.docLink/>">${Request.document.title}</a></h2>
+                    <h2 class="h2-section-title"><a href="<@hst.link hippobean=Request.document.docLink/>">${Request.document.title?html}</a></h2>
                 <#else>
-                    <h2 class="h2-section-title">${Request.document.title}</h2>
+                    <h2 class="h2-section-title">${Request.document.title?html}</h2>
                 </#if>
                 <#if Request.document.bannerIcon??>
                     <div class="i-section-title">
@@ -40,7 +40,8 @@
                 <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
                     <div class="align-center">
                         <#if Request.document.image??>
-                            <img src="<@hst.link hippobean=Request.document.image.banner/>" alt="<@fmt.message key=Request.document.image.alt/>" class="img-responsive"/>
+                            <@fmt.message key=Request.document.image.alt var="imageAlt"/>
+                            <img src="<@hst.link hippobean=Request.document.image.banner/>" alt="${imageAlt?html}" class="img-responsive"/>
                         </#if>
                     </div>
                 </div>

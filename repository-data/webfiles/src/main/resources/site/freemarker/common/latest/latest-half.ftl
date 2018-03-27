@@ -34,11 +34,11 @@
             <div class="feature-content">
               <h3 class="h3-body-title blog-title">
                 <a href="<@hst.link hippobean=item/>">
-                ${item.title}
+                ${item.title?html}
                 </a>
               </h3>
               <p>
-              ${item.summary}
+              ${item.summary?html}
               </p>
             </div>
             <div class="feature-details">
