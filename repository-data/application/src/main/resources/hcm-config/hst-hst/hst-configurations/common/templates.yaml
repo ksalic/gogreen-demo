@@ -16,9 +16,6 @@ definitions:
       /common.feed:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/common/feed.jsp
-      /common.images:
-        jcr:primaryType: hst:template
-        hst:renderpath: webfile:/freemarker/common/images.ftl
       /common.latest:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/common/latest.ftl
@@ -329,10 +326,6 @@ definitions:
       /restapi.documentation:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/restapi/documentation.jsp
-      /reseller.contactbox:
-        jcr:primaryType: hst:template
-        hst:containers: []
-        hst:renderpath: jsp/contact/resellerbox.jsp
       /prototypedpages.two-column:
         jcr:primaryType: hst:template
         hst:containers: []
