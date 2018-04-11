@@ -24,7 +24,7 @@
                     <div class="col-md-3 col-sm-3 footer-col">
                         <div class="footer-content">
                             <div class="footer-content-logo">
-                                <a href="http://www.onehippo.com" target="_blank">
+                                <a href="http://www.onehippo.org" target="_blank">
                                       <img src="<hst:link path="/images/logo-hippo.png"/>" alt="<fmt:message key="standard.footer.onehippo" var="standardFooter"/><c:out value="${standardFooter}"/> "/>
                                 </a>
                             </div>
