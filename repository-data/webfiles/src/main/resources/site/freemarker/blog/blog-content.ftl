@@ -15,10 +15,10 @@
     <div class="blog-post-featured-img img-overlay">
       <@hst.link var="src" hippobean=image.landscapeImage/>
       <@hst.link var="imgOrig" hippobean=image.original/>
-      <img class="img-responsive" src="${src}" alt="${image.alt?html}"/>
+      <img class="img-responsive" src="${src}" alt="<#if image.alt??>${image.alt?html}</#if>"/>
       <@imageCopyright.imageCopyright image=image/>
       <div class="item-img-overlay">
-        <a class="portfolio-zoom icon-zoom-in" href="${imgOrig}" data-rel="prettyPhoto[portfolio]" title="${image.alt?html}"></a>
+        <a class="portfolio-zoom icon-zoom-in" href="${imgOrig}" data-rel="prettyPhoto[portfolio]" title="<#if image.alt??>${image.alt?html}</#if>"></a>
       </div>
     </div>
   </#if>

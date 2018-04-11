@@ -58,10 +58,10 @@
                             <#if banner.image??>
                                 <#if docLink??>
                                     <a href="${docLink}">
-                                        <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt?html!""}"/>
+                                        <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="<#if banner.image.alt??>${banner.image.alt?html!""}</#if>"/>
                                     </a>
                                 <#else>
-                                    <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt?html!""}"/>
+                                    <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="<#if banner.image.alt??>${banner.image.alt?html!""}</#if>"/>
                                 </#if>
                             </#if>
                         </div>

@@ -48,7 +48,7 @@
                             <#if banner.icon??>
                                 <i class="fa ${banner.icon}"></i>
                             <#elseif banner.image??>
-                                <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="${banner.image.alt?html}" class="icon-replacement">
+                                <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="<#if banner.image.alt??>${banner.image.alt?html}</#if>" class="icon-replacement">
                             </#if>
                         ${banner.title}
                         </h4>

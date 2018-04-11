@@ -45,7 +45,7 @@
                         <#if banner.icon??>
                             <div class="content-style3-icon ${banner.icon}"></div>
                         <#elseif banner.image??>
-                            <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="${banner.image.alt?html}" class="icon-replacement content-style3-image">
+                            <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="<#if banner.image.alt??>${banner.image.alt?html}</#if>" class="icon-replacement content-style3-image">
                         </#if>
                         <div class="content-style3-title">
                             <h4 class="h4-body-title">${banner.title?html}</h4>

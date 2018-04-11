@@ -41,7 +41,7 @@
                     <div class="align-center">
                         <#if Request.document.image??>
                             <@fmt.message key=Request.document.image.alt var="imageAlt"/>
-                            <img src="<@hst.link hippobean=Request.document.image.banner/>" alt="${imageAlt?html}" class="img-responsive"/>
+                            <img src="<@hst.link hippobean=Request.document.image.banner/>" alt="<#if imageAlt??>${imageAlt?html}</#if>" class="img-responsive"/>
                         </#if>
                     </div>
                 </div>
