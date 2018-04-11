@@ -29,7 +29,7 @@
                 </hst:link>
                 <span class="nav next">
                     <a href="${next}">
-                        <fmt:message key="events.calendar.next"var="calendarNext"/><c:out value="${calendarNext}"/>
+                        <fmt:message key="events.calendar.next" var="calendarNext"/><c:out value="${calendarNext}"/>
                         <i class="icon-arrow-right"></i>
                     </a>
                 </span>
