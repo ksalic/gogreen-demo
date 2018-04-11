@@ -16,7 +16,7 @@
   </c:when>
   <c:otherwise>
     <ul class="box-general">
-      <li class="title"><fmt:message key="common.simpledocument.nodocfound"/></li>
+      <li class="title"><fmt:message key="common.simpledocument.nodocfound" var="nodoc"/><c:out value="${nodoc}"/></li>
     </ul>
   </c:otherwise>
 </c:choose>

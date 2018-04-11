@@ -25,9 +25,9 @@
       <#--Create a link to the detail page of this document-->
         <@hst.link hippobean=Request.document var="docLink"/>
         <#if docLink??>
-          <h2 class="h2-section-title"><a href="${docLink}">${Request.document.title}</a></h2>
+          <h2 class="h2-section-title"><a href="${docLink}">${Request.document.title?html}</a></h2>
         <#else>
-          <h2 class="h2-section-title">${Request.document.title}</h2>
+          <h2 class="h2-section-title">${Request.document.title?html}</h2>
         </#if>
         <#if Request.document.bannerIcon??>
           <div class="i-section-title">

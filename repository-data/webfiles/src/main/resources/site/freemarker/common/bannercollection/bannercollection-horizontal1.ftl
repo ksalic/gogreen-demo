@@ -34,7 +34,7 @@
                     <#if banner.docLink.hippoFolderBean??>
                         <@fmt.message var="path" key="path"/>
                         <@fmt.message var="category" key="category"/>
-                        <@hst.link var="docLink" path="${path}/${category}/${banner.docLink.localizedName}"/>
+                        <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.localizedName?html}"/>
                     <#else>
                         <@hst.link var="docLink" hippobean=banner.docLink/>
                     </#if>
@@ -45,10 +45,10 @@
                         <#if banner.icon??>
                             <div class="content-style3-icon ${banner.icon}"></div>
                         <#elseif banner.image??>
-                            <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="${banner.image.alt}" class="icon-replacement content-style3-image">
+                            <img src="<@hst.link hippobean=banner.image.thumbnail/>" alt="${banner.image.alt?html}" class="icon-replacement content-style3-image">
                         </#if>
                         <div class="content-style3-title">
-                            <h4 class="h4-body-title">${banner.title}</h4>
+                            <h4 class="h4-body-title">${banner.title?html}</h4>
                         </div>
                         <div class="content-style3-text">
                             ${banner.text}
@@ -56,7 +56,7 @@
                             <#if docLink??>
                                 <div class="banner-button">
                                     <a href="${docLink}" class=" btn btn-sm">
-                                        <span><@fmt.message key="common.read.more"/></span>
+                                        <span><@fmt.message key="common.read.more" var="readmore"/> ${readmore?html}</span>
                                     </a>
                                 </div>
                             </#if>

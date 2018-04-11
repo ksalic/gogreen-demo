@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2014 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2014-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -8,7 +8,7 @@
 
 <hst:defineObjects/>
 
-<c:set var="pageTitle" value="${hstRequestContext.resolvedSiteMapItem.pageTitle}"/>
+<c:set var="pageTitle" ><c:out value="${hstRequestContext.resolvedSiteMapItem.pageTitle}"/></c:set>
 <hippo-gogreen:title title="${pageTitle}"/>
 
 <div class="content-wrapper no-container">

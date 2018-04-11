@@ -24,11 +24,11 @@
             <div class="space-sep100"></div>
             <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
             <#if Request.document.docLink??>
-              <h2 class="h2-section-title"><a href="<@hst.link hippobean=Request.document.docLink/>">${Request.document.title}</a></h2>
+              <h2 class="h2-section-title"><a href="<@hst.link hippobean=Request.document.docLink/>">${Request.document.title?html}</a></h2>
             <#else>
-              <h2 class="h2-section-title">${Request.document.title}</h2>
+              <h2 class="h2-section-title">${Request.document.title?html}</h2>
             </#if>
-            <h3 class="h3-section-info">${Request.document.text}</h3>
+            <h3 class="h3-section-info">${Request.document.text?html}</h3>
           </div>
           <div class="col-md-6 col-sm-6 animated fadeInRightBig animatedVisi" data-animtype="fadeInRightBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
             <div class="right-image-container">

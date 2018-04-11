@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -43,7 +43,7 @@
                         <hst:manageContent hippobean="${item}" templateQuery="new-blog" defaultPath="blogs" />
                         <div class="feature">
                               <div class="feature-image">
-                                  <a href="<hst:link hippobean="${item}"/>"><img src="<hst:link hippobean="${item.firstImage.largeThumbnail}"/>" alt="${item.firstImage.alt}"></a>
+                                  <a href="<hst:link hippobean="${item}"/>"><img src="<hst:link hippobean="${item.firstImage.largeThumbnail}"/>" alt="<c:out value="${item.firstImage.alt}"/>"></a>
                               </div>
 
                             <div class="feature-content">

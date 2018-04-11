@@ -35,7 +35,7 @@
             <div class="blog-post-details-item blog-post-details-item-right">
                 <hst:link var="link" siteMapItemRefId="news"/>
                 <a href="${link}">
-                  <i class="fa fa-chevron-left"></i> <fmt:message key="common.back.overview"/>
+                  <i class="fa fa-chevron-left"></i> <fmt:message key="common.back.overview" var="overview"/><c:out value="${overview}"/>
                 </a>
             </div>
 

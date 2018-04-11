@@ -16,12 +16,6 @@ definitions:
       /common.feed:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/common/feed.jsp
-      /common.header:
-        jcr:primaryType: hst:template
-        hst:renderpath: jsp/common/header.jsp
-      /common.images:
-        jcr:primaryType: hst:template
-        hst:renderpath: webfile:/freemarker/common/images.ftl
       /common.latest:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/common/latest.ftl
@@ -29,9 +23,6 @@ definitions:
         jcr:primaryType: hst:template
         hst:containers: []
         hst:renderpath: jsp/common/relateddocuments.jsp
-      /common.separator:
-        jcr:primaryType: hst:template
-        hst:renderpath: jsp/common/separator.jsp
       /common.simpledocument:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/common/simpledocument.jsp
@@ -189,10 +180,6 @@ definitions:
         jcr:primaryType: hst:template
         hst:containers: []
         hst:renderpath: jsp/standard/main/hero.jsp
-      /standard.main.content:
-        jcr:primaryType: hst:template
-        hst:containers: []
-        hst:renderpath: jsp/standard/main/content.jsp
       /standard.main.right:
         jcr:primaryType: hst:template
         hst:containers: []
@@ -217,15 +204,6 @@ definitions:
       /home.main:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/home/main.jsp
-      /home.boxes:
-        jcr:primaryType: hst:template
-        hst:renderpath: jsp/home/boxes.jsp
-      /home.latest:
-        jcr:primaryType: hst:template
-        hst:renderpath: jsp/home/latest.jsp
-      /home.products.facetnav:
-        jcr:primaryType: hst:template
-        hst:renderpath: jsp/home/productsfacetnav.jsp
       /home.facebook.main:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/facebook/home/main.jsp
@@ -290,9 +268,6 @@ definitions:
       /products.featured:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/products/featured.jsp
-      /products.featured.facebook:
-        jcr:primaryType: hst:template
-        hst:renderpath: jsp/products/featured-facebook.jsp
       /blogs.overview.content:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/blogs/overview/content.jsp
@@ -312,17 +287,9 @@ definitions:
         jcr:primaryType: hst:template
         hst:containers: []
         hst:renderpath: jsp/blogs/latest.jsp
-      /comments.latest:
-        jcr:primaryType: hst:template
-        hst:containers: []
-        hst:renderpath: jsp/comments/latest.jsp
       /search.top:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/search/top.jsp
-      /search.error.right:
-        jcr:primaryType: hst:template
-        hst:containers: []
-        hst:renderpath: jsp/search/error-right.jsp
       /search.content:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/search/content.jsp
@@ -338,10 +305,6 @@ definitions:
       /about.top:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/about/top.jsp
-      /reviews.latest:
-        jcr:primaryType: hst:template
-        hst:containers: []
-        hst:renderpath: jsp/reviews/latest.jsp
       /rss.news:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/rss/rss-news.jsp
@@ -363,10 +326,6 @@ definitions:
       /restapi.documentation:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/restapi/documentation.jsp
-      /reseller.contactbox:
-        jcr:primaryType: hst:template
-        hst:containers: []
-        hst:renderpath: jsp/contact/resellerbox.jsp
       /prototypedpages.two-column:
         jcr:primaryType: hst:template
         hst:containers: []
@@ -389,9 +348,6 @@ definitions:
       /eforms.validation.default:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/eforms/eforms-validation-default.jsp
-      /contact.main.content:
-        jcr:primaryType: hst:template
-        hst:renderpath: jsp/contact/main/content.jsp
       /faq.overview.content.ftl:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/faq/overview/content.ftl

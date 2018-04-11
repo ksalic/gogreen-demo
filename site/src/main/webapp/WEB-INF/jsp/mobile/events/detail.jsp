@@ -31,10 +31,9 @@
         <div class="description">
             <hst:html hippohtml="${requestScope.document.description}"/>
         </div>
-        <p id="event-extra"><span><fmt:message key="mobile.events.detail.vieweventlabel"/></span>
+        <p id="event-extra"><span><fmt:message key="mobile.events.detail.vieweventlabel" var="detailvieweventlabel"/> <c:out value="detailvieweventlabel"/></span>
             <c:url var="url" value="https://maps.google.com/?q=${requestScope.document.location.street} ${requestScope.document.location.number}, ${requestScope.document.location.city} ${requestScope.document.location.postalCode} ${requestScope.document.location.province}"/>
-            <a href="${fn:escapeXml(url)}"><img src="<hst:link path="/images/mobile/logo-gmaps.png"/>" alt="<fmt:message key="mobile.events.detail.ingoogle"/>" /></a>
-            <%--<a href="#view-json-xml"><img src="<hst:link path="/images/mobile/logo-layar.png"/>" alt="<fmt:message key="mobile.events.detail.inlayar"/>"/></a>--%>
+            <a href="${fn:escapeXml(url)}"><img src="<hst:link path="/images/mobile/logo-gmaps.png"/>" alt="<fmt:message key="mobile.events.detail.ingoogle" var="detailingoogle"/> <c:out value="detailingoogle"/>" /></a>
         </p>
     </div>
 

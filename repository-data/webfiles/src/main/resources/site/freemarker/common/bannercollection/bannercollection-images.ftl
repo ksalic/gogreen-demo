@@ -34,7 +34,7 @@
                     <#if banner.docLink.hippoFolderBean??>
                         <@fmt.message var="path" key="path"/>
                         <@fmt.message var="category" key="category"/>
-                        <@hst.link var="docLink" path="${path}/${category}/${banner.docLink.localizedName}"/>
+                        <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.localizedName?html}"/>
                     <#else>
                         <@hst.link var="docLink" hippobean=banner.docLink/>
                     </#if>
@@ -45,11 +45,11 @@
                         <div class="feature-content">
                             <#if docLink??>
                                 <h3 class="h3-body-title">
-                                    <a href="${docLink}">${banner.title}</a>
+                                    <a href="${docLink}">${banner.title?html}</a>
                                 </h3>
                             <#else>
                                 <h3 class="h3-body-title">
-                                    ${banner.title}
+                                    ${banner.title?html}
                                 </h3>
                             </#if>
                         </div>
@@ -58,10 +58,10 @@
                             <#if banner.image??>
                                 <#if docLink??>
                                     <a href="${docLink}">
-                                        <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt!""}"/>
+                                        <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt?html!""}"/>
                                     </a>
                                 <#else>
-                                    <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt!""}"/>
+                                    <img src="<@hst.link hippobean=banner.image.largeThumbnail/>" alt="${banner.image.alt?html!""}"/>
                                 </#if>
                             </#if>
                         </div>

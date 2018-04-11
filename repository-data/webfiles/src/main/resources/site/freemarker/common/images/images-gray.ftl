@@ -27,7 +27,7 @@
             <#assign image=doc.firstImage/>
             <a href="<@hst.link hippobean=doc/>">
               <#if image.alt??>
-                <img src="<@hst.link hippobean=image.largeThumbnail/>" alt="${image.alt}">
+                <img src="<@hst.link hippobean=image.largeThumbnail/>" alt="${image.alt?html}">
               <#else>
                 <img src="<@hst.link hippobean=image.largeThumbnail/>">
               </#if>

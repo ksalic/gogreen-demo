@@ -1,5 +1,5 @@
 <%--
-    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
 
 <%@include file="../../includes/tags.jspf" %>
@@ -29,7 +29,7 @@
           <c:when test="${item.expanded}">
             <li>
               <a href="${link}" class="activelink"><span class="label-nav"><c:out value="${item.name}"/></span>
-                <c:set var="subName" value='${item.getParameter("subname")}'/>
+                <c:set var="subName"> <c:out value='${item.getParameter("subname")}'/> </c:set>
                 <c:if test="${not empty subName}">
                   <span class="label-nav-sub" data-hover="${subName}">${subName}</span>
                 </c:if>
@@ -58,7 +58,7 @@
               <a href="${link}"><span class="label-nav"><c:out value="${item.name}"/></span>
                 <c:set var="subName" value='${item.getParameter("subname")}'/>
                 <c:if test="${not empty subName}">
-                  <span class="label-nav-sub" data-hover="${subName}">${subName}</span>
+                  <span class="label-nav-sub" data-hover="<c:out value="${subName}"/>"/><c:out value="${subName}"/></span>
                 </c:if>
               </a>
               <c:if test="${not empty item.childMenuItems}">

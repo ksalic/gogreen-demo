@@ -1,6 +1,6 @@
 <#include "../include/imports.ftl">
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 
 <div class="container">
@@ -13,14 +13,14 @@
         </h2>
         <#if Request.icon??>
           <div class="i-section-title">
-            <i class="fa ${Request.icon}"></i>
+            <i class="fa ${Request.icon?html}"></i>
           </div>
         </#if>
       </div>
     </div>
   </#if>
   <#if Request.videoURL??>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/${Request.videoURL}" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/${Request.videoURL?html}" frameborder="0" allowfullscreen></iframe>
   <#elseif editMode>
     <h2 class="not-configured">Click to configure Video component</h2>
   </#if>

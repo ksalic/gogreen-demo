@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -38,11 +38,12 @@
                       <c:set var="howMany" value="${requestScope.count - requestScope.pageSize}" />
                   </c:otherwise>
                 </c:choose>
-                <img id="load" style="float:right;display:none;" src=" <hst:link path="/images/mobile/spinner.gif"/>" alt="<fmt:message key="mobile.events.searchresults.loading"/>" />
+                <img id="load" style="float:right;display:none;" src=" <hst:link path="/images/mobile/spinner.gif"/>" alt="<fmt:message key="mobile.events.searchresults.loading" var="searchresultsloading"/> <c:out value="searchresultsloading"/>" />
                 <a class="more" href="?jsEnabled=false&amp;pageSize=${requestScope.pageSize + 25}&amp;from=${requestScope.pageSize}&amp;count=${requestScope.count}">
-                  <fmt:message key="mobile.events.searchresults.showmore">
+                  <fmt:message key="mobile.events.searchresults.showmore" var="searchresultsshowmore">
             		<fmt:param value="${howMany}"/>            		
-            	  </fmt:message>  
+            	  </fmt:message>
+                  <c:out value="${searchresultsshowmore}"/>
                 </a>
             </div>
     </c:if>

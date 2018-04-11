@@ -3,7 +3,7 @@
 --%>
 <%@include file="../includes/tags.jspf" %>
 
-<c:set var="resttitle"><fmt:message key="restapi.documentation.title"/></c:set>
+<c:set var="resttitle"><fmt:message key="restapi.documentation.title" var="documentationtitle"/> <c:out value="documentationtitle"/></c:set>
 <hippo-gogreen:title title="${resttitle}"/>
 
 <hst:manageContent hippobean="${requestScope.text}" />

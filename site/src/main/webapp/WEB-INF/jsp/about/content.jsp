@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 

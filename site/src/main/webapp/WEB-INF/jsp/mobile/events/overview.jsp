@@ -1,12 +1,12 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
 <%@include file="../../includes/tags.jspf" %>
 
-<c:set var="mobileeventstitle"><fmt:message key="mobile.events.overview.title"/></c:set>
+<c:set var="mobileeventstitle"><fmt:message key="mobile.events.overview.title" var="overviewtitle"/> <c:out value="overviewtitle"/></c:set>
 <hippo-gogreen:title title="${mobileeventstitle}"/>
 
 <!-- body / main -->
@@ -46,17 +46,18 @@
                       <c:set var="howMany" value="${requestScope.count - requestScope.pageSize}" />
                   </c:otherwise>
                 </c:choose>
-                <img id="load" style="float:right;display:none;" src=" <hst:link path="/images/mobile/spinner.gif"/>" alt="<fmt:message key="mobile.events.overview.loading"/>" />
+                <img id="load" style="float:right;display:none;" src=" <hst:link path="/images/mobile/spinner.gif"/>" alt="<fmt:message key="mobile.events.overview.loading" var="overviewloading"/> <c:out value="overviewloading"/>" />
                 <a class="more" href="?jsEnabled=false&amp;pageSize=${requestScope.pageSize + 25}&amp;from=${requestScope.pageSize}&amp;lcount=${requestScope.count}">
-                  <fmt:message key="mobile.events.overview.showmore">
+                  <fmt:message key="mobile.events.overview.showmore" var="overviewShowMore">
             		<fmt:param value="${howMany}"/>            		
-            	  </fmt:message>   
+            	  </fmt:message>
+                  <c:out value="${overviewShowMore}"/>
                 </a>
             </div>
         </c:if>
     </div>
     <div id="extra">
-        <a href="layar://gogreenevents"><fmt:message key="mobile.events.overview.viewinlayar"/></a>
+        <a href="layar://gogreenevents"><fmt:message key="mobile.events.overview.viewinlayar" var="overviewviewinlayar"/> <c:out value="overviewviewinlayar"/></a>
     </div>
   </div>
 </div>

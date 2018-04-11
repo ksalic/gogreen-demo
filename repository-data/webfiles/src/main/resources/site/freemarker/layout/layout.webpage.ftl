@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <#--
-  Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2018 Hippo B.V. (http://www.onehippo.com)
 -->
 
 <!--[if lt IE 7]>
@@ -26,12 +26,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
     <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
-    <meta name="DC.keywords" content="<@fmt.message key="layout.webpage.metadckeywords"/>" />
-    <meta name="description" content="<@fmt.message key="layout.webpage.metadescription"/>" />
+    <meta name="DC.keywords" content="<@fmt.message key="layout.webpage.metadckeywords" var="webpagemetadckeywords"/> ${webpagemetadckeywords?html}" />
+    <meta name="description" content="<@fmt.message key="layout.webpage.metadescription" var="webpagemetadescription"/> ${webpagemetadescription?html}" />
     <meta name="DC.type" content="webpagina" scheme="DCMIType" />
     <meta name="DCTERMS.issued" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" />
     <meta name="DCTERMS.available" content="2009-07-09T10:31" scheme="DCTERMS.W3CDTF" />
-    <meta name="DC.title" content="<@fmt.message key="layout.webpage.metadctitle"/>" />
+    <meta name="DC.title" content="<@fmt.message key="layout.webpage.metadctitle" var="webpagemetadctitle"/> ${webpagemetadctitle?html}" />
     <meta name="DC.language" content="${lang}" scheme="DCTERMS.RFC3066" />
 
 <@hst.link var="css_revolution" path="/css/revolution_settings.css"/>
@@ -122,7 +122,7 @@
 
 <@hst.link var="rssHref" path="/rss" />
 <@fmt.message var="rssTitle" key="standard.header.rss"/>
-    <link rel="alternate" type="application/rss+xml" title="${rssTitle}" href="${rssHref}"/>
+    <link rel="alternate" type="application/rss+xml" title="${rssTitle?html}" href="${rssHref}"/>
 
 <@hst.link var="css_color_chooser" path="/css/color-chooser.css" />
     <link rel="stylesheet" href="${css_color_chooser}">

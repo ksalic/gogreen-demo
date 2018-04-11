@@ -3,8 +3,6 @@
 --%>
 <%@include file="../includes/tags.jspf" %>
 
-<c:set var="resttitle"><fmt:message key="restapi.main.title"/></c:set>
-
 <hst:manageContent hippobean="${requestScope.document}" />
 <h2 class="h2-section-title"><c:out value="${requestScope.document.title}"/></h2>
 <div class="i-section-title"></div>

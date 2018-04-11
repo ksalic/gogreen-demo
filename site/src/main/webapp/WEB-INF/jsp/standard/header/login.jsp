@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2016 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -22,8 +22,8 @@
     <div id="login" class="logged-in">
       <i class="fa fa-user"></i>
       <span class="username">
-        <c:if test="${not empty requestScope.user.firstname}">${requestScope.user.firstname}</c:if>
-        <c:if test="${not empty requestScope.user.lastname}">&nbsp;${requestScope.user.lastname}</c:if>
+        <c:if test="${not empty requestScope.user.firstname}"><c:out value="${requestScope.user.firstname}"/></c:if>
+        <c:if test="${not empty requestScope.user.lastname}">&nbsp;<c:out value="${requestScope.user.lastname}"/></c:if>
       </span>
       <hst:link var="logoutLink" path="/login/logout" />
       <c:choose>
@@ -46,7 +46,7 @@
         <input type="hidden" name="destination" value="${destination}" />
         <c:if test="${requestScope.error}">
           <div class="alert alert-warning login-alert">
-            <fmt:message key="standard.header.login.error"/>
+            <fmt:message key="standard.header.login.error" var="loginError"/><c:out value="${loginError}"/>
           </div>
           <script type="text/javascript">
             $("#login").toggle();
@@ -55,12 +55,12 @@
         </c:if>
         <div class="open-icon close-icon"></div>
         <div class="form-group">
-          <input class="form-control" type="text" name="username" placeholder="<fmt:message key="standard.header.login.input.username"/>"/>
+          <input class="form-control" type="text" name="username" placeholder="<fmt:message key="standard.header.login.input.username" var="inputUsername"/><c:out value="${inputUsername}"/> " "/>
         </div>
         <div class="form-group">
-          <input class="form-control" type="password" name="password" placeholder="<fmt:message key="standard.header.login.input.password"/>" />
+          <input class="form-control" type="password" name="password" placeholder="<fmt:message key="standard.header.login.input.password" var="inputPassword"/><c:out value="${inputPassword}"/>" />
         </div>
-        <input type="submit" value="<fmt:message key="standard.header.login.submit.label"/>" id="login-button" class="btn-default"/>
+        <input type="submit" value="<fmt:message key="standard.header.login.submit.label" var="submitLabel"/><c:out value="${submitLabel}"/> " id="login-button" class="btn-default"/>
       </form>
     </div>
     <script type="text/javascript">

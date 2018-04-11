@@ -1,12 +1,12 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
 <%@include file="../includes/tags.jspf" %>
 
-<c:set var="searchresultstitle"><fmt:message key="search.results.title"/></c:set>
+<fmt:message key="search.results.title" var="searchresultstitle"/>
 <hippo-gogreen:title title="${searchresultstitle}"/>
 
 <c:set var="isFound" value="${requestScope.tags != null or requestScope.searchResult.total > 0}"/>
@@ -15,39 +15,41 @@
 <c:choose>
     <%-- When page is not found --%>
     <c:when test="${requestScope.pagenotfound}">
-        <h4><fmt:message key="search.results.pagenotfound"/></h4>
+        <h4><fmt:message key="search.results.pagenotfound" var="resultspagenotfound"/><c:out value="${resultspagenotfound}"/></h4>
         <p>
-            <fmt:message key="search.results.notfounddescr"/>
+            <fmt:message key="search.results.notfounddescr" var="resultsnotfounddescr"/><c:out value="${resultsnotfounddescr}"/>
             <c:if test="${not isFound}">
-                <br/><br/><fmt:message key="search.results.norelatedpages"/>
+                <br/><br/><fmt:message key="search.results.norelatedpages" var="resultsnorelatedpages"/><c:out value="${resultsnorelatedpages}"/>
             </c:if>
         </p>
         <c:if test="${isFound}">
-            <p class="b"><fmt:message key="search.results.suggestion"/></p>
+            <p class="b"><fmt:message key="search.results.suggestion" var="resultssuggestion"/><c:out value="${resultssuggestion}"/></p>
         </c:if>
     </c:when>
     <%-- When a search is done, but no results where found --%>
     <c:when test="${not isFound}">
-        <h4><fmt:message key="search.results.noresults"/> '${searched}'</h4>
+        <h4><fmt:message key="search.results.noresults" var="resultsnoresults"/><c:out value="${resultsnoresults}"/> '${searched}'</h4>
     </c:when>
     <%-- When a search is done and there is a result --%>
     <c:otherwise>
         <h4>
             <c:choose>
                 <c:when test="${empty requestScope.query}">
-                    <fmt:message key="search.results.found">
+                    <fmt:message key="search.results.found" var="resultsFound">
                         <fmt:param value="${requestScope.searchResult.startOffset + 1}"/>
                         <fmt:param value="${requestScope.searchResult.endOffset}"/>
                         <fmt:param value="${requestScope.searchResult.total}"/>
                     </fmt:message>
+                    <c:out value="${resultsFound}"/>
                 </c:when>
                 <c:otherwise>
-                    <fmt:message key="search.results.resultsfound">
+                    <fmt:message key="search.results.resultsfound" var="resultsResultsfound">
                         <fmt:param value="${requestScope.searchResult.startOffset + 1}"/>
                         <fmt:param value="${requestScope.searchResult.endOffset}"/>
                         <fmt:param value="${requestScope.searchResult.total}"/>
                         <fmt:param value="${searched}"/>
                      </fmt:message>
+                    <c:out value="${resultsResultsfound}"/>
                 </c:otherwise>
             </c:choose>
         </h4>
@@ -100,7 +102,7 @@
 
                                 <div class="blog-post-details-item blog-post-details-item-right">
                                     <a href="${link}">
-                                        <fmt:message key="common.read.more"/> <i class="fa fa-chevron-right"></i>
+                                        <fmt:message key="common.read.more" var="readmore"/><c:out value="${resultsnoresults}"/> <i class="fa fa-chevron-right"></i>
                                     </a>
                                 </div>
                             </div>

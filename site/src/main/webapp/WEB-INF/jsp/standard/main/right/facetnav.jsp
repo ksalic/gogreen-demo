@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2017 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 
@@ -16,7 +16,7 @@
             <div class="input-group">
                 <input type="text" value="${requestScope.query}" name="query"
                        class="form-control blog-search-input text-input"
-                       placeholder='<fmt:message key="news.overview.facetnav.submit.label"/>...'>
+                       placeholder='<fmt:message key="news.overview.facetnav.submit.label" var="submitLabel"/><c:out value="${submitLabel}"/> ...'>
                 <span class="input-group-addon">
                     <button class="blog-search-button icon-search "></button>
                 </span>
@@ -64,14 +64,12 @@
                                         <hst:facetnavigationlink remove="${item}"
                                                                  current="${requestScope.facetnav}" var="removeLink" />
 
-                                        <a href="${removeLink}" class="remove"><c:out
-                                                value="${label}" /><i class="fa fa-times"> </i></a>
+                                        <a href="${removeLink}" class="remove"><c:out value="${label}" /><i class="fa fa-times"> </i></a>
                                         </c:when>
                                         <c:when test="${item.leaf and item.count eq 0}">
                                         </c:when>
                                         <c:otherwise>
-                                            <hst:link var="link" hippobean="${item}"
-                                                      navigationStateful="true" />
+                                            <hst:link var="link" hippobean="${item}" navigationStateful="true" />
                                             <c:choose>
                                                 <c:when test="${requestScope.query eq null}">
                                                 <a href="${link}"><c:out value="${label}" />&nbsp;(${item.count})</a>

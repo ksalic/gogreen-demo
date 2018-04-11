@@ -61,7 +61,7 @@
 
             <c:if test="${not empty requestScope.document.location}">
                 <input id="address" type="hidden"
-                       value="${requestScope.document.location.street}&nbsp;${requestScope.document.location.number},&nbsp;${requestScope.document.location.city}&nbsp;${requestScope.document.location.postalCode}&nbsp;${requestScope.document.location.province}"/>
+                       value="<c:out value="${requestScope.document.location.street}&nbsp;${requestScope.document.location.number},&nbsp;${requestScope.document.location.city}&nbsp;${requestScope.document.location.postalCode}&nbsp;${requestScope.document.location.province}"/>"/>
             </c:if>
         </div>
              <!-- If there are any tags for this document, then display them with links -->
@@ -72,7 +72,7 @@
                 <c:forEach var="tag" items="${requestScope.document.tags}">
                     <hst:link siteMapItemRefId="search-faceted" var="link"/>
                     <fmt:message key="search.facet.tags" var="tagname" />
-                    <a href="${link}/${tagname}/${tag}">${tag}</a>
+                    <a href="${link}/<c:out value="${tagname}"/>/<c:out value="${tag}"/>"><c:out value="${tag}"/></a>
                 </c:forEach>
 
 
@@ -83,10 +83,8 @@
                 <c:forEach var="tag" items="${requestScope.document.categories}">
                     <hst:link siteMapItemRefId="search-faceted" var="link"/>
                     <fmt:message key="search.facet.category" var="tagname" />
-                    <a href="${link}/${tagname}/${tag}">${tag}</a>
+                    <a href="${link}/<c:out value="${tagname}"/>/<c:out value="${tag}"/>"><c:out value="${tag}"/></a>
                 </c:forEach>
-
-
             </c:if>
         </div>
     </div>

@@ -11,7 +11,7 @@
       </h2>
       <#if Request.icon??>
         <div class="i-section-title">
-          <i class="fa  ${Request.icon}"></i>
+          <i class="fa  ${Request.icon?html}"></i>
         </div>
       </#if>
     </div>
@@ -25,13 +25,13 @@
         <#--Create a link to the detail page of this document-->
           <@hst.link hippobean=Request.document var="docLink"/>
         <#if docLink??>
-          <h2 class="h2-section-title"><a href="${docLink}">${Request.document.title}</a></h2>
+          <h2 class="h2-section-title"><a href="${docLink}">${Request.document.title?html}</a></h2>
         <#else>
-          <h2 class="h2-section-title">${Request.document.title}</h2>
+          <h2 class="h2-section-title">${Request.document.title?html}</h2>
         </#if>
         <#if Request.document.bannerIcon??>
           <div class="i-section-title">
-            <i class="fa ${Request.bannerIcon}">
+            <i class="fa ${Request.bannerIcon?html}">
 
             </i>
           </div>
@@ -53,9 +53,9 @@
 
   </#if>
   <#if Request.separatorMargin?? && cssClass??>
-  <div class="space-sep ${Request.separatorMargin} ${cssClass}"></div>
+  <div class="space-sep ${Request.separatorMargin?html} ${cssClass}"></div>
   <#elseif Request.separatorMargin??>
-  <div class="space-sep ${Request.separatorMargin}"></div>
+  <div class="space-sep ${Request.separatorMargin?html}"></div>
   <#elseif cssClass??>
   <div class="space-sep ${cssClass}"></div>
   </#if>

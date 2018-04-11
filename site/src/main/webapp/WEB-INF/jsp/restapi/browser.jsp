@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 <%@include file="../includes/tags.jspf" %>
@@ -23,7 +23,7 @@
 </hst:headContribution>
 
 <hst:headContribution>
-  <title><fmt:message key="standard.header.title"/> - <c:out value="${requestScope.document.title}"/></title>
+  <title><fmt:message key="standard.header.title" var="headertitle"/> <c:out value="headertitle"/> - <c:out value="${requestScope.document.title}"/></title>
 </hst:headContribution>
 
 <script type="text/javascript">
