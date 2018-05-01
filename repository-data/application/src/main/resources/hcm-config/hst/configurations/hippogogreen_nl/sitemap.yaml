@@ -6,6 +6,7 @@ definitions:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/events-overview
         hst:refId: events
+        hst:pagetitle: Evenementenoverzicht
         hst:relativecontentpath: events
         /_any_.html:
           jcr:primaryType: hst:sitemapitem
@@ -14,15 +15,18 @@ definitions:
       /root:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/homepage
+        hst:pagetitle: Homepage
         hst:refId: home
       /nieuws:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/news-overview
+        hst:pagetitle: Nieuwsoverzicht
         hst:refId: news
         hst:relativecontentpath: news
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/news-overview
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: ${parent}
           /_any_:
             jcr:primaryType: hst:sitemapitem
@@ -35,6 +39,7 @@ definitions:
       /producten:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/products-overview-nl
+        hst:pagetitle: Producten
         hst:refId: products
         hst:relativecontentpath: products/facetedproducts
         /_any_:
@@ -49,6 +54,7 @@ definitions:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/blogs-overview
         hst:refId: blogs
+        hst:pagetitle: Blogs
         hst:relativecontentpath: blogs
         /_any_.html:
           jcr:primaryType: hst:sitemapitem
@@ -61,10 +67,12 @@ definitions:
       /zoek:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/search
+        hst:pagetitle: Zoeken
         hst:refId: search-faceted
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/search
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: searchfacets
           /_any_:
             jcr:primaryType: hst:sitemapitem
@@ -73,6 +81,7 @@ definitions:
       /over:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/about
+        hst:pagetitle: Over deze demo
         hst:relativecontentpath: about
         /_any_:
           jcr:primaryType: hst:sitemapitem
@@ -84,6 +93,7 @@ definitions:
       /rss:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:components/rss-news
+        hst:hiddeninchannelmanager: true
         hst:parameternames: [scope]
         hst:parametervalues: [news]
         /_any_:

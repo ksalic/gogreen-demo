@@ -14,6 +14,7 @@ definitions:
       /root:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/homepage
+        hst:pagetitle: 首页
         hst:refId: home
       /搜索:
         jcr:primaryType: hst:sitemapitem
@@ -22,6 +23,7 @@ definitions:
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/search
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: searchfacets
           /_any_:
             jcr:primaryType: hst:sitemapitem
@@ -33,6 +35,7 @@ definitions:
       /rss:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:components/rss-news
+        hst:hiddeninchannelmanager: true
         hst:parameternames: [scope]
         hst:parametervalues: [新闻]
         /_any_:
@@ -52,6 +55,7 @@ definitions:
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/news-overview
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: ${parent}
           /_any_:
             jcr:primaryType: hst:sitemapitem

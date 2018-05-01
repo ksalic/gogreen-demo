@@ -5,6 +5,7 @@ definitions:
       /evenements:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/events-overview
+        hst:pagetitle: Évènements
         hst:refId: events
         hst:relativecontentpath: events
         /_any_.html:
@@ -14,15 +15,18 @@ definitions:
       /root:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/homepage
+        hst:pagetitle: Page d'accueil
         hst:refId: home
       /actualites:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/news-overview
+        hst:pagetitle: Actualités
         hst:refId: news
         hst:relativecontentpath: news
         /facettes:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/news-overview
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: ${parent}
           /_any_:
             jcr:primaryType: hst:sitemapitem
@@ -35,6 +39,7 @@ definitions:
       /produits:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/products-overview-fr
+        hst:pagetitle: Produits
         hst:refId: products
         hst:relativecontentpath: products/facetedproducts
         /_any_:
@@ -48,10 +53,12 @@ definitions:
       /recherche:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/search
+        hst:pagetitle: Chercher
         hst:refId: search
         /facettes:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/search
+          hst:hiddeninchannelmanager: true
           hst:refId: search-faceted
           hst:relativecontentpath: searchfacets
           /_any_:
@@ -61,6 +68,7 @@ definitions:
       /a-propos:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/about
+        hst:pagetitle: À propos de cette démo
         hst:relativecontentpath: about
         /_any_:
           jcr:primaryType: hst:sitemapitem
@@ -72,6 +80,7 @@ definitions:
       /rss:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:components/rss-news
+        hst:hiddeninchannelmanager: true
         hst:parameternames: [scope]
         hst:parametervalues: [news]
         /_any_:
@@ -82,6 +91,7 @@ definitions:
       /blogs:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/blogs-overview
+        hst:pagetitle: Blogs
         hst:refId: blogs
         hst:relativecontentpath: blogs
         /_any_.html:

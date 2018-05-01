@@ -5,11 +5,13 @@ definitions:
       /nachrichten:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/news-overview
+        hst:pagetitle: Nachrichten
         hst:refId: news
         hst:relativecontentpath: news
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/news-overview
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: nachrichten
           /_any_:
             jcr:primaryType: hst:sitemapitem
@@ -22,6 +24,7 @@ definitions:
       /veranstaltungen:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/events-overview
+        hst:pagetitle: Veranstaltungen
         hst:refId: events
         hst:relativecontentpath: events
         /_any_.html:
@@ -31,10 +34,12 @@ definitions:
       /root:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/homepage
+        hst:pagetitle: Homepage
         hst:refId: home
       /blogs:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/blogs-overview
+        hst:pagetitle: Blogs
         hst:refId: blogs
         hst:relativecontentpath: blogs
         /_any_.html:
@@ -48,6 +53,7 @@ definitions:
       /produkte:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/products-overview-de
+        hst:pagetitle: Produkte
         hst:refId: products
         hst:relativecontentpath: products/facetedproducts
         /_any_:
@@ -61,10 +67,12 @@ definitions:
       /suchen:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/search
+        hst:pagetitle: Suchen
         hst:refId: search
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/search
+          hst:hiddeninchannelmanager: true
           hst:refId: search-faceted
           hst:relativecontentpath: searchfacets
           /_any_:
@@ -74,6 +82,7 @@ definitions:
       /ueber-uns:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/about
+        hst:pagetitle: Über uns
         hst:relativecontentpath: about
         /_any_:
           jcr:primaryType: hst:sitemapitem
@@ -85,6 +94,7 @@ definitions:
       /rss:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:components/rss-news
+        hst:hiddeninchannelmanager: true
         hst:parameternames: [scope]
         hst:parametervalues: [nachrichten]
         /_any_:
@@ -95,11 +105,13 @@ definitions:
       /rest:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/restapi-overview
+        hst:hiddeninchannelmanager: true
         hst:refId: restapi
         hst:relativecontentpath: restapi
         /browser:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/restapi-browser
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: restapi/browser
           /_any_.html:
             jcr:primaryType: hst:sitemapitem
@@ -108,6 +120,7 @@ definitions:
         /documentation:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/restapi-documentation
+          hst:hiddeninchannelmanager: true
           hst:refId: restapi-documentation
           hst:relativecontentpath: restapi/documentation
           /_any_.html:

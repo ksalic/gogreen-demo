@@ -5,11 +5,13 @@ definitions:
       /news:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/news-overview
+        hst:pagetitle: News Overview
         hst:refId: news
         hst:relativecontentpath: news
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/news-overview
+          hst:hiddeninchannelmanager: true
           hst:refId: newsFacets
           hst:relativecontentpath: ${parent}
           /_any_:
@@ -23,6 +25,7 @@ definitions:
       /events:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/events-overview
+        hst:pagetitle: Events Overview
         hst:refId: events
         hst:relativecontentpath: events
         /_any_.html:
@@ -32,10 +35,12 @@ definitions:
       /root:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/homepage
+        hst:pagetitle: Home Page
         hst:refId: home
       /products:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/products-overview
+        hst:pagetitle: Products
         hst:refId: products
         hst:relativecontentpath: products/facetedproducts
         /_any_:
@@ -49,6 +54,7 @@ definitions:
       /blogs:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/blogs-overview
+        hst:pagetitle: Blogs
         hst:refId: blogs
         hst:relativecontentpath: blogs
         /_any_.html:
@@ -62,10 +68,12 @@ definitions:
       /search:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/search
+        hst:pagetitle: Search
         hst:refId: search
         /faceted:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/search
+          hst:hiddeninchannelmanager: true
           hst:refId: search-faceted
           hst:relativecontentpath: searchfacets
           /_any_:
@@ -78,6 +86,7 @@ definitions:
       /about:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/about
+        hst:pagetitle: About this demo
         hst:relativecontentpath: about
         /_any_:
           jcr:primaryType: hst:sitemapitem
@@ -86,6 +95,7 @@ definitions:
       /rss:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:components/rss-news
+        hst:hiddeninchannelmanager: true
         hst:parameternames: [scope]
         hst:parametervalues: [news]
         /_any_:
@@ -96,11 +106,13 @@ definitions:
       /rest:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/restapi-overview
+        hst:pagetitle: REST API
         hst:refId: restapi
         hst:relativecontentpath: restapi
         /browser:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/restapi-browser
+          hst:pagetitle: REST API Browser
           hst:relativecontentpath: restapi/browser
           /_any_.html:
             jcr:primaryType: hst:sitemapitem
@@ -109,6 +121,7 @@ definitions:
         /documentation:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/restapi-documentation
+          hst:pagetitle: REST API Documentation
           hst:refId: restapi-documentation
           hst:relativecontentpath: restapi/documentation
           /_any_.html:
@@ -118,39 +131,48 @@ definitions:
       /contact:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/contact
+        hst:pagetitle: Contact
         hst:relativecontentpath: common/contact
       /forms:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/about
+        hst:pagetitle: Forms
         hst:relativecontentpath: common/forms
         /contact-form:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contact
+          hst:pagetitle: Contact Form
           hst:relativecontentpath: forms/contact-form
         /registration-form:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contact
+          hst:pagetitle: Registration Form
           hst:relativecontentpath: forms/registration-form
         /multi-page-form:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contact
+          hst:pagetitle: Multi-page Form
           hst:relativecontentpath: forms/multi-page-form
         /all-fields-form:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contact
+          hst:pagetitle: All Fields Form
           hst:relativecontentpath: forms/all-fields-form
         /pluggedin-form:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contact
+          hst:pagetitle: Plugged-in Form
           hst:relativecontentpath: forms/pluggedin-form
         /confirmation:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/about
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: common/form-confirmation
       /resellerfaq:
         jcr:primaryType: hst:sitemapitem
         hst:authenticated: true
         hst:componentconfigurationid: hst:pages/faq-overview
+        hst:pagetitle: Reseller FAQs
         hst:refId: resellerfaq
         hst:relativecontentpath: resellerfaqs
         hst:roles: [reseller]

@@ -5,6 +5,7 @@ definitions:
       /produkte:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/mobile.redirect
+        hst:pagetitle: Produkte
         hst:parameternames: [redirect]
         hst:parametervalues: [produkte/beliebt]
         /_any_.html:
@@ -13,23 +14,28 @@ definitions:
           hst:relativecontentpath: products/${1}
         /beliebt:
           jcr:primaryType: hst:sitemapitem
-          hst:componentconfigurationid: hst:pages/mobile-products-overview-popular
+          hst:pagetitle: Beliebte Produkte
+          hst:componentconfigurationid: hst:pages/mobile-products-overview-recent
           hst:relativecontentpath: products
         /beliebt.ajax:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-popular
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: products
         /letzte:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-products-overview-recent
+          hst:pagetitle: Letzte Produkte
           hst:relativecontentpath: products
         /letzte.ajax:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-ajax-products-overview-recent
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: products
         /suchen:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-products-search
+          hst:pagetitle: Produkte Suchen
           hst:relativecontentpath: products
           /_any_.ajax:
             jcr:primaryType: hst:sitemapitem
@@ -42,10 +48,12 @@ definitions:
         /suchen.ajax:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-ajax-products-search
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: products
       /veranstaltungen:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/mobile.redirect
+        hst:pagetitle: Veranstaltungen
         hst:parameternames: [redirect]
         hst:parametervalues: [veranstaltungen/anstehende]
         /_any_.html:
@@ -55,10 +63,12 @@ definitions:
         /veranstaltungen.poi:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/events-layar
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: events
         /suchen:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-events-search
+          hst:pagetitle: Veranstaltungen suchen
           hst:relativecontentpath: events
           /_any_.ajax:
             jcr:primaryType: hst:sitemapitem
@@ -71,22 +81,27 @@ definitions:
         /suchen.ajax:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-ajax-events-search
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: events
         /anstehende:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-events-overview-upcoming
+          hst:pagetitle: Anstehende Veranstaltungen
           hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
         /anstehende.ajax:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-upcoming
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: events/facetedeventsmobile/Date/Upcoming
         /vergangenheit:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-events-overview-past
+          hst:pagetitle: Vergangene Veranstaltungen
           hst:relativecontentpath: events/facetedeventsmobile/Date/Past
         /vergangenheit.ajax:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/mobile-ajax-events-overview-past
+          hst:hiddeninchannelmanager: true
           hst:relativecontentpath: events/facetedeventsmobile/Date/Past
       /_any_:
         jcr:primaryType: hst:sitemapitem
@@ -94,3 +109,4 @@ definitions:
       /pagenotfound:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/error
+        hst:hiddeninchannelmanager: true
