@@ -303,6 +303,18 @@
         </exclusion>
       </exclusions>
     </dependency>
+
+    <dependency>
+      <groupId>com.bloomreach.cms.plugin</groupId>
+      <artifactId>bloomreach-where-used-plugin-cms</artifactId>
+      <version>${whereused.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.bloomreach.cms.plugin</groupId>
+      <artifactId>bloomreach-where-used-plugin-repository</artifactId>
+      <version>${whereused.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
