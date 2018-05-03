@@ -25,9 +25,6 @@ definitions:
         jcr:primaryType: targeting:collector
         targeting:className: com.onehippo.cms7.targeting.collectors.TagsCollector
         targeting:termsProperty: hippogogreen:categories
-      /agevisitor:
-        jcr:primaryType: targeting:collector
-        targeting:className: com.onehippo.gogreen.targeting.RemoteVisitorAgeCollector
       /devicetype:
         jcr:primaryType: targeting:collector
         targeting:className: com.onehippo.gogreen.targeting.DeviceTypeCollector

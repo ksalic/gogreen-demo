@@ -89,15 +89,6 @@ definitions:
         collector: dayofweek
         plugin.class: com.onehippo.cms7.targeting.frontend.plugin.dayofweek.DayOfWeekCharacteristicPlugin
         visitor.characteristic.visible: true
-      /collector-agevisitor:
-        jcr:primaryType: frontend:plugin
-        collector: agevisitor
-        plugin.class: com.onehippo.gogreen.targeting.AgeCollectorPlugin
-      /characteristic-agevisitor:
-        jcr:primaryType: frontend:plugin
-        characteristic: agevisitor
-        collector: agevisitor
-        plugin.class: com.onehippo.gogreen.targeting.AgeCharacteristicPlugin
       /characteristic-weather:
         jcr:primaryType: frontend:plugin
         characteristic: weather

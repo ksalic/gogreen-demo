@@ -152,10 +152,6 @@ definitions:
           jcr:primaryType: targeting:targetgroup
           targeting:name: Reseller
           targeting:propertynames: [resellers]
-      /agevisitor:
-        jcr:primaryType: targeting:characteristic
-        targeting:collector: agevisitor
-        targeting:scorerClassName: com.onehippo.gogreen.targeting.AgeScorer
       /devicetype:
         jcr:primaryType: targeting:characteristic
         targeting:collector: devicetype
