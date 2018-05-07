@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 -->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -18,13 +18,6 @@
             <bean class="com.onehippo.gogreen.jaxrs.services.TopProductsResource" />
           </constructor-arg>
         </bean>
-        <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
-          <constructor-arg>
-            <bean class="com.onehippo.gogreen.jaxrs.services.SimpleAgeServiceResource">
-              <property name="dataResourcePath" value="/WEB-INF/classes/age.properties"/>
-            </bean>
-          </constructor-arg>
-        </bean>
       </list>
     </property>
   </bean>
@@ -33,21 +26,6 @@
   <bean id="customRestContentResourceProviders" class="org.springframework.beans.factory.config.ListFactoryBean">
     <property name="sourceList">
       <list>
-        <!-- These came from the hst demosuite, I 'm not deleting them since we should structure 
-        the ContentResource classes in the same hierarchical manner as the ProductRepresentation, which extends 
-        DocumentRepresentation which extends BaseDocumentRepresentation......... 
-        
-        <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
-          <constructor-arg>
-            <bean class="com.onehippo.gogreen.jaxrs.services.BaseDocumentContentResource" />
-          </constructor-arg>
-        </bean>
-        <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
-          <constructor-arg>
-            <bean class="com.onehippo.gogreen.jaxrs.services.DocumentContentResource" />
-          </constructor-arg>
-        </bean>
-        -->
         <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
           <constructor-arg>
             <bean class="com.onehippo.gogreen.jaxrs.services.ProductContentResource" />

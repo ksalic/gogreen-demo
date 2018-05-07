@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
  */
 package com.onehippo.gogreen.targeting;
 
@@ -43,7 +43,7 @@ public class DeviceTypeCharacteristicPlugin extends CharacteristicPlugin {
 
     @Override
     protected ResourceReference getIcon() {
-        return new PackageResourceReference(AgeCharacteristicPlugin.class, "smartphone.png");
+        return new PackageResourceReference(DeviceTypeCharacteristicPlugin.class, "smartphone.png");
     }
 
 }
