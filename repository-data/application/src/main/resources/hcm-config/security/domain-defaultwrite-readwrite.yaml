@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/defaultwrite/readwrite:
+      hipposys:groups:
+        operation: add
+        type: string
+        value: [english-author]
