@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-        <@hst.manageContent hippobean=Request.document templateQuery="new-document" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
+        <@hst.manageContent hippobean=Request.document templateQuery="new-richcontextsnippet" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
           <@hst.html hippohtml=Request.document.richText/>
       </div>
     </div>
