@@ -69,5 +69,8 @@
         <div class="space-sep ${cssClass}"></div>
     </#if>
 <#elseif editMode>
-<h2 class="not-configured">Click to configure banner</h2>
+    <div class="not-configured">
+        <h2>Click to configure banner</h2>
+        <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
+    </div>
 </#if>
