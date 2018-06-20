@@ -24,7 +24,7 @@
 <#elseif editMode>
     <div class="not-configured">
         <h2>Click to configure banner carousel</h2>
-        <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
+        <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
     </div>
 </#if>
 

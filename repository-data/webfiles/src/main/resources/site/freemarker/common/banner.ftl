@@ -71,6 +71,6 @@
 <#elseif editMode>
     <div class="not-configured">
         <h2>Click to configure banner</h2>
-        <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
+        <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
     </div>
 </#if>

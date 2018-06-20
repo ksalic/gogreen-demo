@@ -16,6 +16,6 @@
 <#elseif editMode>
 <div class="not-configured">
     <h2>Click to configure Rich text snippet</h2>
-    <@hst.manageContent hippobean=Request.document templateQuery="new-richcontextsnippet" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
+    <@hst.manageContent templateQuery="new-richcontextsnippet" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
 </div>
 </#if>

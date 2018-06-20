@@ -72,6 +72,6 @@
 <#elseif editMode>
 <div class="not-configured">
     <h2>Click to configure Document Highlight</h2>
-  <@hst.manageContent hippobean=Request.document templateQuery="new-document" parameterName="documentlocation" />
+  <@hst.manageContent templateQuery="new-document" parameterName="documentlocation" />
 </div>
 </#if>
