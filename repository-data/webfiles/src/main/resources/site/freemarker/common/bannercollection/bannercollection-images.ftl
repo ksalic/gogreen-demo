@@ -54,7 +54,7 @@
                             </#if>
                         </div>
                         <div class="feature-image">
-                            <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners"/>
+                            <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" parameterName="banner"+(banner_index+1)/>
                             <#if banner.image??>
                                 <#if docLink??>
                                     <a href="${docLink}">

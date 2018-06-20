@@ -53,7 +53,7 @@
 
                         <div class="content-box-text">
                             ${banner.text}
-                            <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners"/>
+                            <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" parameterName="banner"+(banner_index+1)/>
                             <#if docLink??>
                                 <div>
                                     <a href="${docLink}" class="read-more">
