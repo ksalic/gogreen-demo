@@ -2,7 +2,7 @@
 <#--
   Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
 -->
-<#if Request.banners??>
+<#if Request.banners?? && (Request.banners?size > 0)>
 <div class="rev-slider-full">
   <div class="revolution-carousel-${bannerIndex} rev-slider-banner-full rev-slider-full">
     <ul>
@@ -21,9 +21,11 @@
     <div class="tp-bannertimer tp-bottom"></div>
   </div>
 </div>
-</#if>
-<#if Request.banners?? == false && editMode>
-<h2 class="not-configured">Click to configure banner carousel</h2>
+<#elseif editMode>
+    <div class="not-configured">
+        <h2>Click to configure banner carousel</h2>
+        <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
+    </div>
 </#if>
 
 <script>
