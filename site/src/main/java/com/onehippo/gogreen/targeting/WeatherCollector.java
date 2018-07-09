@@ -1,14 +1,11 @@
 /**
- * Copyright 2012-2013 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2012-2018 Hippo B.V. (http://www.onehippo.com)
  */
 package com.onehippo.gogreen.targeting;
 
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.net.UnknownHostException;
+import java.io.InputStream;
+import java.net.*;
 import java.util.concurrent.TimeUnit;
 
 import javax.jcr.Node;
@@ -34,30 +31,64 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
 
     private static final Logger log = LoggerFactory.getLogger(WeatherCollector.class);
 
-    private static final String DEFAULT_WWO_SERVICE_URL = "http://api.worldweatheronline.com/free/v2/weather.ashx";
+    private static final String DEFAULT_APIXU_API_URL = "http://api.apixu.com/v1";
     public static final int INVALID_WEATHER_CODE = -1;
+    public static final String APIXU_SERVICE_URL_PROPERTY = "apixuServiceUrl";
+    public static final String APIXU_API_KEY_PROPERTY = "apixuApiKey";
 
     private static int[] SIMULATION_CODES = {
-        389, // Moderate or heavy rain in area with thunder
-        365, // Moderate or heavy sleet showers
-        359, // Torrential rain shower
-        356, // Moderate or heavy rain shower
-        353, // Light rain shower
-        314, // Moderate or Heavy freezing rain
-        308, // Heavy rain
-        302, // Moderate rain
-        296, // Light rain
-        248, // Fog
-        230, // Blizzard
-        143, // Mist
-        122, // Overcast
-        119, // Cloudy
-        116, // Partly Cloudy
-        113 // Clear/Sunny
+            1000, //Sunny
+            1003, //Partly cloudy
+            1006, //Cloudy
+            1009, //Overcast
+            1030, //Mist
+            1063, //Patchy rain possible
+            1066, //Patchy snow possible
+            1069, //Patchy sleet possible
+            1072, //Patchy freezing drizzle possible
+            1087, //Thundery outbreaks possible
+            1114, //Blowing snow
+            1117, //Blizzard
+            1135, //Fog
+            1147, //Freezing fog
+            1150, //Patchy light drizzle
+            1153, //Light drizzle
+            1168, //Freezing drizzle
+            1171, //Heavy freezing drizzle
+            1180, //Patchy light rain
+            1183, //Light rain
+            1186, //Moderate rain at times
+            1189, //Moderate rain
+            1192, //Heavy rain at times
+            1195, //Heavy rain
+            1198, //Light freezing rain
+            1201, //Moderate or heavy freezing rain
+            1204, //Light sleet
+            1207, //Moderate or heavy sleet
+            1210, //Patchy light snow
+            1213, //Light snow
+            1216, //Patchy moderate snow
+            1219, //Moderate snow
+            1222, //Patchy heavy snow
+            1225, //Heavy snow
+            1237, //Ice pellets
+            1240, //Light rain shower
+            1243, //Moderate or heavy rain shower
+            1246, //Torrential rain shower
+            1249, //Light sleet showers
+            1252, //Moderate or heavy sleet showers
+            1255, //Light snow showers
+            1258, //Moderate or heavy snow showers
+            1261, //Light showers of ice pellets
+            1264, //Moderate or heavy showers of ice pellets
+            1273, //Patchy light rain with thunder
+            1276, //Moderate or heavy rain with thunder
+            1279, //Patchy light snow with thunder
+            1282 //Moderate or heavy snow with thunder
     };
 
-    private final String wwoApiKey;
-    private final String wwoServiceUrl;
+    private final String apixuApiKey;
+    private final String apixuServiceUrl;
 
     private final LoadingCache<String, Integer> cache = CacheBuilder.newBuilder()
             .maximumSize(1000)
@@ -88,7 +119,7 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
                             log.warn(message + ": " + e.getMessage());
                         }
                     } catch (IOException e) {
-                        final String message = "Failed to get weather data for '" + ip + "' from wwo service";
+                        final String message = "Failed to get weather data for '" + ip + "' from Apixu service";
                         if (log.isDebugEnabled()) {
                             log.warn(message, e);
                         } else {
@@ -104,14 +135,14 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
 
     public WeatherCollector(String id, Node node) throws IllegalArgumentException, RepositoryException {
         super(id);
-        wwoServiceUrl = JcrUtils.getStringProperty(node, "wwoServiceUrl", DEFAULT_WWO_SERVICE_URL);
-        wwoApiKey = JcrUtils.getStringProperty(node, "wwoApiKey", null);
+        apixuServiceUrl = JcrUtils.getStringProperty(node, APIXU_SERVICE_URL_PROPERTY, DEFAULT_APIXU_API_URL);
+        apixuApiKey = JcrUtils.getStringProperty(node, APIXU_API_KEY_PROPERTY, null);
         enabled = JcrUtils.getBooleanProperty(node, "enabled", true);
-        if (wwoApiKey == null) {
+        if (apixuApiKey == null) {
             final String nodePath = JcrUtils.getNodePathQuietly(node);
-            throw new IllegalArgumentException("WeatherCollector should be configured with property 'wwoApiKey'."
+            throw new IllegalArgumentException("WeatherCollector should be configured with property 'apixuApiKey'."
                     + ((nodePath == null) ? "" : "Set the value of this property at '"
-                    + nodePath + "/@wwoApiKey'"));
+                    + nodePath + "/@apixuApiKey'"));
 
         }
     }
@@ -153,47 +184,54 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
 
     static Integer parseWeatherCode(final String context, String weatherData) {
         try {
-            final JSONObject json = (JSONObject) JSONSerializer.toJSON(weatherData);
-            final JSONObject data = json.getJSONObject("data");
-            if (data.has("error")) {
-                final String errorMsg = data.getJSONArray("error").getJSONObject(0).getString("msg");
-                log.warn("Wwo service responded with error for '" + context + "': " + errorMsg);
+            JSONObject json = (JSONObject) JSONSerializer.toJSON(weatherData);
+            if (json.has("error")) {
+                final JSONObject error = json.getJSONObject("error");
+                final String errorMsg = error.getString("message");
+                final int errorCode = error.getInt("code");
+                log.warn("Apixu service responded with error for '" + context + "' message: '" + errorMsg + "' code: '" + errorCode + "'");
             } else {
-                JSONObject current = data.getJSONArray("current_condition").getJSONObject(0);
-                int weatherCode = current.getInt("weatherCode");
+                JSONObject condition = json.getJSONObject("current").getJSONObject("condition");
+                int weatherCode = condition.getInt("code");
                 String weatherDescription;
                 try {
-                    weatherDescription = current.getJSONArray("weatherDesc").getJSONObject(0).getString("value");
+                    weatherDescription = condition.getString("text");
                 } catch (JSONException e) {
                     weatherDescription = "(no description)";
                 }
-                log.debug("Wwo service returned {}/{} for '{}'", weatherCode, weatherDescription, context);
+                log.debug("Apixu service returned {}/{} for '{}'", weatherCode, weatherDescription, context);
                 return weatherCode;
             }
         } catch (JSONException e) {
-            log.error("Failed to parse response from wwo service", e);
+            log.error("Failed to parse response from Apixu service", e);
         }
         return INVALID_WEATHER_CODE;
     }
 
     private String getWeatherData(String ip) throws IOException {
-        final URL wwoUrl = getWwoUrl(ip);
+        final URL apixuUrl = getApixuUrl(ip);
         long start = System.currentTimeMillis();
+        URLConnection urlConnection = null;
         try {
-            final URLConnection urlConnection = wwoUrl.openConnection();
+            urlConnection = apixuUrl.openConnection();
             urlConnection.setReadTimeout(1000);
             return IOUtils.toString(urlConnection.getInputStream());
-        } finally {
+        } catch (IOException e) {
+            InputStream error = ((HttpURLConnection)urlConnection).getErrorStream();
+            if (error != null) {
+                return IOUtils.toString(error);
+            }
+            throw e;
+        }
+        finally {
             log.debug("Getting weather data for '{}' took {} ms", ip, String.valueOf(System.currentTimeMillis() - start));
         }
     }
 
-    private URL getWwoUrl(String ip) throws MalformedURLException {
-        final StringBuilder sb = new StringBuilder(wwoServiceUrl);
-        sb.append("?format=json");
-        sb.append("&key=").append(wwoApiKey);
-        sb.append("&date=today");
-        sb.append("&fx=no");     // omit forecast to reduce response size.
+    private URL getApixuUrl(String ip) throws MalformedURLException {
+        final StringBuilder sb = new StringBuilder(apixuServiceUrl);
+        sb.append("/current.json");
+        sb.append("?key=").append(apixuApiKey);
         sb.append("&q=").append(ip);
         log.debug("Weather data URL for '{}' is {}", ip, sb.toString());
         return new URL(sb.toString());
