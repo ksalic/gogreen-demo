@@ -39,8 +39,15 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 no-bottom-margin animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-animspeed="1s" data-animdelay="0.7s" style="-webkit-animation: 1s 0.7s;">
                     <div class="align-center">
+
                         <#if Request.document.image??>
-                            <@fmt.message key=Request.document.image.alt var="imageAlt"/>
+                            <#if Request.document.image.alt?has_content>
+                                <@fmt.message key=Request.document.image.alt var="imageAlt"/>
+                                <#if imageAlt?starts_with("???")>
+                                    <#assign imageAlt = Request.document.image.alt/>
+                                </#if>
+                            </#if>
+
                             <img src="<@hst.link hippobean=Request.document.image.banner/>" alt="<#if imageAlt??>${imageAlt?html}</#if>" class="img-responsive"/>
                         </#if>
                     </div>
