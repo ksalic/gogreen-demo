@@ -1,5 +1,5 @@
 <%--
-  Copyright 2014 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2014-2018 Hippo B.V. (http://www.onehippo.com)
 --%>
 <%@ tag description="render form field item" pageEncoding="UTF-8" %>
 <%@ attribute name="field" type="com.onehippo.cms7.eforms.hst.model.AbstractField" required="true" %>
@@ -173,6 +173,31 @@
                 </c:forEach>
             </table>
         </div>
+    </c:when>
+    <c:when test="${field.type eq 'antispam'}">
+        <c:choose>
+            <c:when test="${field.honeyPot}">
+                <div class="${fieldCssClass}"<c:if test="${empty field.extraCssClass}"> style="display:none"</c:if>>
+                    <label><c:out value='${field.label}'/><span class="eforms-req"><c:out value='${field.requiredMarker}'/></span></label>
+                    <input type="text" name="${field.formRelativeUniqueName}" class="${field.styleClass}" value="${field.value}"/>
+                </div>
+            </c:when>
+            <c:when test="${field.slider}">
+                <div class="${fieldCssClass}">
+                    <div id="slider"></div>
+                    <input type="hidden" id="sliderInput" name="${field.formRelativeUniqueName}" value=""/>
+                    <div id="notSlided" style="display:block">
+                        <p>Slide to be able to submit</p>
+                    </div>
+                    <div id="slided" style="display:none">
+                        <p>You may submit the form</p>
+                    </div>
+                </div>
+            </c:when>
+            <c:otherwise>
+                ${field.antiSpamType}
+            </c:otherwise>
+        </c:choose>
     </c:when>
 </c:choose>
 

@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2015 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 <%@include file="../includes/tags.jspf" %>
@@ -156,6 +156,31 @@
 <script type="text/javascript">
   $(document).ready(function() {
 
+      $(function() {
+          if ($( "#slider" )) {
+              $("#submitButton").prop('disabled', true);
+              $("#slider").slider({
+                  stop: function (event, ui) {
+                      var selection = $("#slider").slider("value");
+                      var max = $("#slider").slider("option", "max");
+                      if (selection >= 70) {
+                          $("#slider").slider("value", max);
+                          $('#slided').css({'display': 'block'});
+                          $('#notSlided').css({'display': 'none'});
+                          $("#sliderInput").prop("value", max);
+                          $("#submitButton").prop('disabled', false);
+                      }
+                      else {
+                          $("#slider").slider("value", 0);
+                          $('#slided').css({'display': 'none'});
+                          $('#notSlided').css({'display': 'block'});
+                          $("#sliderInput").prop("value", "");
+                          $("#submitButton").prop('disabled', true);
+                      }
+                  }
+              });
+          };
+      });
     $('form[name="${requestScope.form.name}"]').validate({errorElement:'div'});
 
     var resetPagesVisible = function() {
