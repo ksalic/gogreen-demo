@@ -32,7 +32,7 @@
           </div>
           <div class="col-md-6 col-sm-6 animated fadeInRightBig animatedVisi" data-animtype="fadeInRightBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
             <div class="right-image-container">
-              <img src="<@hst.link hippobean=Request.document.image/>" height="300" alt="" />
+              <img src="<@hst.link hippobean=Request.document.image/>" height="300" alt="<#if Request.document.image.alt?has_content>${Request.document.image.alt?html}</#if>" />
             </div>
           </div>
       </div>
