@@ -130,20 +130,18 @@ definitions:
         /sunnyweather-1351008022787:
           jcr:primaryType: targeting:targetgroup
           targeting:name: Sunny weather
-          targeting:propertynames: ['116', '113']
+          targeting:propertynames: ['1000', '1003']
         /changeableweather-1351008037076:
           jcr:primaryType: targeting:targetgroup
           targeting:name: Changeable weather
-          targeting:propertynames: ['368', '353', '329', '299', '293', '263', '176',
-            '119']
+          targeting:propertynames: ['1006','1063','1150','1180','1186','1216']
         /rainyweather-1351008048544:
           jcr:primaryType: targeting:targetgroup
           targeting:name: Rainy weather
-          targeting:propertynames: ['395', '392', '389', '386', '377', '374', '371',
-            '365', '362', '359', '359', '356', '350', '338', '335', '332', '326',
-            '323', '320', '317', '314', '311', '308', '305', '302', '296', '284',
-            '281', '266', '260', '248', '230', '227', '200', '185', '182', '179',
-            '143', '122']
+          targeting:propertynames: ['1009', '1030', '1135', '1153', '1183', '1189', '1195',
+                                    '1240', '1243', '1246', '1072', '1168', '1171', '1198', '1201', '1204', '1207',
+                                    '1237', '1249', '1252', '1261', '1264', '1114', '1117', '1210', '1213', '1216',
+                                    '1219', '1222', '1225', '1255', '1258', '1087', '1273', '1276', '1279', '1282']
       /groups:
         jcr:primaryType: targeting:characteristic
         targeting:collector: groups
