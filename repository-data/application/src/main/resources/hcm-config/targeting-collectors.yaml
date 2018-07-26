@@ -9,9 +9,9 @@ definitions:
         targeting:className: com.onehippo.cms7.targeting.collectors.ReturningVisitorCollector
       /weather:
         jcr:primaryType: targeting:collector
-        enabled: false
+        enabled: true
         targeting:className: com.onehippo.gogreen.targeting.WeatherCollector
-        wwoApiKey: 588d05a7a76dbfb156158d7595987
+        apixuApiKey: f25324e2223d42a0853130050180507
       /dayofweek:
         jcr:primaryType: targeting:collector
         targeting:className: com.onehippo.cms7.targeting.collectors.DayOfWeekCollector
