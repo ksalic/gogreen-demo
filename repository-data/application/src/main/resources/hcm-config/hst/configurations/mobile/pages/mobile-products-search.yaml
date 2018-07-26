@@ -2,22 +2,22 @@ definitions:
   config:
     /hst:hst/hst:configurations/mobile/hst:pages/mobile-products-search:
       jcr:primaryType: hst:component
-      jcr:uuid: 04506daf-5cfc-4f84-8d19-331e6245be55
+      jcr:uuid: 04506daf-5cfc-4f84-8d19-331e6245be56
       hst:referencecomponent: hst:pages/mobile-standardpage
       /body:
         jcr:primaryType: hst:component
-        jcr:uuid: e0c48a3d-de63-4b2b-b495-e41a8faa4142
+        jcr:uuid: e0c48a3d-de63-4b2b-b495-e41a8faa4143
         hst:template: mobile.products.search
         /facets:
           jcr:primaryType: hst:component
-          jcr:uuid: 4ab1a040-7d24-4fcb-a540-0e50aa1e69e3
+          jcr:uuid: 4ab1a040-7d24-4fcb-a540-0e50aa1e69e4
           hst:componentclassname: com.onehippo.gogreen.components.common.FacetNavigation
           hst:parameternames: [facetnav.location]
           hst:parametervalues: [products/facetedproducts]
           hst:template: mobile.products.search.facets
         /results:
           jcr:primaryType: hst:component
-          jcr:uuid: 96013617-2d43-4d9a-84ca-e4feaf00e86b
+          jcr:uuid: 96013617-2d43-4d9a-84ca-e4feaf00e87b
           hst:componentclassname: com.onehippo.gogreen.components.products.Overview
           hst:parameternames: []
           hst:parametervalues: []
