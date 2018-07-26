@@ -1,11 +1,17 @@
-/**
+/*
  * Copyright 2012-2018 Hippo B.V. (http://www.onehippo.com)
  */
 package com.onehippo.gogreen.targeting;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.*;
+import java.net.HttpURLConnection;
+import java.net.InetAddress;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.UnknownHostException;
+import java.nio.charset.Charset;
 import java.util.concurrent.TimeUnit;
 
 import javax.jcr.Node;
@@ -27,14 +33,15 @@ import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
 
+@SuppressWarnings("unused")
 public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
 
     private static final Logger log = LoggerFactory.getLogger(WeatherCollector.class);
 
     private static final String DEFAULT_APIXU_API_URL = "http://api.apixu.com/v1";
-    public static final int INVALID_WEATHER_CODE = -1;
-    public static final String APIXU_SERVICE_URL_PROPERTY = "apixuServiceUrl";
-    public static final String APIXU_API_KEY_PROPERTY = "apixuApiKey";
+    private static final int INVALID_WEATHER_CODE = -1;
+    private static final String APIXU_SERVICE_URL_PROPERTY = "apixuServiceUrl";
+    private static final String APIXU_API_KEY_PROPERTY = "apixuApiKey";
 
     private static int[] SIMULATION_CODES = {
             1000, //Sunny
@@ -133,6 +140,7 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
 
     private final boolean enabled;
 
+    @SuppressWarnings("unused")
     public WeatherCollector(String id, Node node) throws IllegalArgumentException, RepositoryException {
         super(id);
         apixuServiceUrl = JcrUtils.getStringProperty(node, APIXU_SERVICE_URL_PROPERTY, DEFAULT_APIXU_API_URL);
@@ -182,7 +190,7 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
         return weatherData;
     }
 
-    static Integer parseWeatherCode(final String context, String weatherData) {
+    private static Integer parseWeatherCode(final String context, String weatherData) {
         try {
             JSONObject json = (JSONObject) JSONSerializer.toJSON(weatherData);
             if (json.has("error")) {
@@ -215,11 +223,11 @@ public class WeatherCollector extends AbstractCollector<WeatherData, Integer> {
         try {
             urlConnection = apixuUrl.openConnection();
             urlConnection.setReadTimeout(1000);
-            return IOUtils.toString(urlConnection.getInputStream());
+            return IOUtils.toString(urlConnection.getInputStream(), Charset.defaultCharset());
         } catch (IOException e) {
-            InputStream error = ((HttpURLConnection)urlConnection).getErrorStream();
+            final InputStream error = (urlConnection instanceof HttpURLConnection) ? ((HttpURLConnection) urlConnection).getErrorStream() : null;
             if (error != null) {
-                return IOUtils.toString(error);
+                return IOUtils.toString(error, Charset.defaultCharset());
             }
             throw e;
         }
