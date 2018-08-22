@@ -68,11 +68,11 @@ public class LanguageComponent extends BaseComponent {
                 currentLocale = baseLocale;
             }
         }
+        request.setAttribute("currentLocale", currentLocale);
 
         for (String baseLocale : availableBaseTranslations.getAvailableLocales()) {
             // skip the current locale
             if (baseLocale.equals(currentLocale)) {
-                request.setAttribute("currentLocale", baseLocale);
                 continue;
             }
 
