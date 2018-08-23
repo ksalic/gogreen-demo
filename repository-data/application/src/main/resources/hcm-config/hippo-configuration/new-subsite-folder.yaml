@@ -2,7 +2,7 @@ definitions:
   config:
     /hippo:configuration/hippo:queries/hippo:templates/new-subsite-folder:
       jcr:primaryType: hippostd:templatequery
-      jcr:mixinTypes: ['hipposys:implementation', 'hippo:translated', 'hippostd:translated']
+      jcr:mixinTypes: ['hipposys:implementation']
       hippostd:icon: addfolder_ico
       hippostd:modify: [./_name, $name]
       hipposys:classname: org.hippoecm.repository.impl.query.DirectPath
@@ -15,23 +15,3 @@ definitions:
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 04b85733-19ef-4b29-afde-92cd7e30e27e
           hippostd:foldertype: [new-subsite-folder, new-subsite-document]
-      /hippo:translation[1]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: en
-        hippo:message: new simple folder
-      /hippo:translation[2]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: nl
-        hippo:message: nieuwe map (simpel)
-      /hippo:translation[3]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: fr
-        hippo:message: un nouveau dossier (simple)
-      /hippo:translation[4]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: de
-        hippo:message: Neuer Ordner (simple)

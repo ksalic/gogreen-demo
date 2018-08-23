@@ -2,7 +2,7 @@ definitions:
   config:
     /hippo:configuration/hippo:queries/hippo:templates/new-event-folder:
       jcr:primaryType: hippostd:templatequery
-      jcr:mixinTypes: ['hipposys:implementation', 'hippo:translated', 'hippostd:translated']
+      jcr:mixinTypes: ['hipposys:implementation']
       hippostd:icon: addfolder_ico
       hippostd:modify: [./_name, $name, './hippotranslation:id', $uuid, './hippotranslation:locale',
         $inherited]
@@ -17,23 +17,3 @@ definitions:
           hippostd:foldertype: [new-event-folder, new-event]
           hippotranslation:id: generated id
           hippotranslation:locale: inherited locale
-      /hippo:translation[1]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: en
-        hippo:message: new event folder
-      /hippo:translation[2]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: nl
-        hippo:message: nieuwe evenementenmap
-      /hippo:translation[3]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: fr
-        hippo:message: un nouveau dossier d'évènements
-      /hippo:translation[4]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: de
-        hippo:message: Neuer Events Ordner

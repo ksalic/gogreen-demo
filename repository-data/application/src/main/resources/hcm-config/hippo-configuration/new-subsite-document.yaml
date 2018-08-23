@@ -2,7 +2,6 @@ definitions:
   config:
     /hippo:configuration/hippo:queries/hippo:templates/new-subsite-document:
       jcr:primaryType: hippostd:templatequery
-      jcr:mixinTypes: ['hippo:translated', 'hippostd:translated']
       hippostd:icon: adddocument_ico
       hippostd:modify: [./_name, $name, './_node/hippostdpubwf:createdBy', $holder,
         './_node/hippostdpubwf:creationDate', $now, './_node/hippostdpubwf:lastModifiedBy',
@@ -10,26 +9,6 @@ definitions:
         $holder, ./_node/_name, $name]
       jcr:language: xpath
       jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-subsite-document/hippostd:templates/node()
-      /hippo:translation[1]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: en
-        hippo:message: new simple document
-      /hippo:translation[2]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: nl
-        hippo:message: nieuw document (simpel)
-      /hippo:translation[3]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: fr
-        hippo:message: nouveau document (simple)
-      /hippo:translation[4]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: de
-        hippo:message: Neues Dokument (simple)
       /hippostd:templates:
         jcr:primaryType: hippostd:templates
         /new-document:
@@ -46,10 +25,10 @@ definitions:
             hippostd:holder: ''
             hippostd:state: draft
             hippostdpubwf:createdBy: ''
-            hippostdpubwf:creationDate: 2011-10-18T15:20:00+02:00
-            hippostdpubwf:lastModificationDate: 2011-10-18T15:20:00+02:00
+            hippostdpubwf:creationDate: 2018-01-01T00:00:00.000+02:00
+            hippostdpubwf:lastModificationDate: 2018-01-01T00:00:00.000+02:00
             hippostdpubwf:lastModifiedBy: ''
-            hippostdpubwf:publicationDate: 2011-10-18T15:34:00+02:00
+            hippostdpubwf:publicationDate: 2018-01-01T00:00:00.000+02:00
             /hippogogreen:description:
               jcr:primaryType: hippostd:html
               hippostd:content: <html><body></body></html>

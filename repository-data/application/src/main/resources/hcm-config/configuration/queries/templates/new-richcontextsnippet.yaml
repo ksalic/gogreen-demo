@@ -2,7 +2,6 @@ definitions:
   config:
     /hippo:configuration/hippo:queries/hippo:templates/new-richcontextsnippet:
       jcr:primaryType: hippostd:templatequery
-      jcr:mixinTypes: ['hippo:translated', 'hippostd:translated']
       hippostd:icon: adddocument_ico
       hippostd:modify: [./_name, $name, './hippotranslation:locale', $inherited, './hippotranslation:id',
         $uuid, './hippostdpubwf:createdBy', $holder, './hippostdpubwf:creationDate',
@@ -10,23 +9,3 @@ definitions:
         $now, './hippostd:holder', $holder]
       jcr:language: xpath
       jcr:statement: //element(*,hipposysedit:namespacefolder)/element(*,mix:referenceable)/element(*,hipposysedit:templatetype)/hipposysedit:prototypes/element(hipposysedit:prototype,hippogogreen:richtextsnippet)
-      /hippo:translation[1]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: en
-        hippo:message: new richtextsnippet
-      /hippo:translation[2]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: nl
-        hippo:message: nieuwe richtextsnippet
-      /hippo:translation[3]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: de
-        hippo:message: Neuer Richtextsnippet
-      /hippo:translation[4]:
-        jcr:primaryType: hippo:translation
-        hippo:class: org.hippoecm.repository.standardworkflow.FolderWorkflow
-        hippo:language: fr
-        hippo:message: nouvelle richtextsnippet
