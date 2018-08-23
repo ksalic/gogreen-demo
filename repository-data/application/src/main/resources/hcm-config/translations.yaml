@@ -64,6 +64,9 @@ definitions:
       /en:
         jcr:primaryType: hipposys:resourcebundle
         jcr:name: Paragraph
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Paragraaf
     /hippo:configuration/hippo:translations/hippo:types/hippogogreen:address:
       jcr:primaryType: hipposys:resourcebundles
       /de:
@@ -578,16 +581,16 @@ definitions:
         new-news-viawizard: News Dokument
         new-product: Produkt
         new-product-folder: Produkt Ordner
-        new-simple: Dokument (simple)
+        new-simple: Dokument
         new-simple-folder: Ordner
-        new-subsite-document: Dokument (simple)
+        new-subsite-document: Dokument
         new-subsite-folder: Ordner
       /en:
         jcr:primaryType: hipposys:resourcebundle
         new-banner: banner
         new-banner-folder: banner folder
-        new-blog: blog article
-        new-blogcb: blog article with content blocks
+        new-blog: blog
+        new-blogcb: blog with content blocks
         new-blogs-folder: blogs folder
         new-event: event
         new-event-folder: event folder
@@ -598,6 +601,7 @@ definitions:
         new-news-viawizard: news article
         new-product: product
         new-product-folder: product folder
+        new-richcontextsnippet: rich-text snippet
         new-simple: simple document
         new-simple-folder: simple folder
         new-subsite-document: simple document
@@ -618,27 +622,27 @@ definitions:
         new-news-viawizard: actualité
         new-product: produit
         new-product-folder: un dossier de produits
-        new-simple: document (simple)
+        new-simple: document simple
         new-simple-folder: un dossier
-        new-subsite-document: document (simple)
+        new-subsite-document: document simple
         new-subsite-folder: un dossier
       /nl:
         jcr:primaryType: hipposys:resourcebundle
         new-banner: banner
         new-banner-folder: bannermap
-        new-blog: blogdocument
-        new-blogcb: blogdocument met inhoud blokken
+        new-blog: blog
+        new-blogcb: blog met inhoudsblokken
         new-blogs-folder: blogsmap
         new-event: evenement
         new-event-folder: evenementenmap
         new-event-viawizard: evenement
-        new-faq: veel gestelde vraag
+        new-faq: veelgestelde vraag
         new-news: nieuwsdocument
         new-news-folder: nieuwsmap
         new-news-viawizard: nieuwsdocument
         new-product: product
         new-product-folder: productenmap
-        new-simple: document (eenvoudig)
+        new-simple: eenvoudig document
         new-simple-folder: map
-        new-subsite-document: document (eenvoudig)
+        new-subsite-document: eenvoudig document
         new-subsite-folder: map
