@@ -2,30 +2,25 @@ definitions:
   config:
     /hippo:configuration/hippo:queries/hippo:templates/new-subsite/hippostd:templates/event-subsite:
       jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippo:translated', 'mix:referenceable', 'hippogogreen:deletecontentwithchannel']
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable', 'hippogogreen:deletecontentwithchannel']
+      hippo:name: Event Blueprint
       hippostd:foldertype: [new-subsite-folder]
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Event Blueprint
+      hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000000
+      hippotranslation:locale: en
       /pages:
         jcr:primaryType: hippostd:folder
-        jcr:mixinTypes: ['hippo:translated', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+        hippo:name: Pages
         hippostd:foldertype: [new-subsite-folder, new-subsite-document]
-        /hippo:translation:
-          jcr:primaryType: hippo:translation
-          hippo:language: ''
-          hippo:message: Pages
+        hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000001
+        hippotranslation:locale: en
         /home:
           jcr:primaryType: hippo:handle
-          jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
-          /hippo:translation:
-            jcr:primaryType: hippo:translation
-            hippo:language: ''
-            hippo:message: Home
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          hippo:name: Home
           /home:
             jcr:primaryType: hippogogreen:simpledocument
-            jcr:mixinTypes: ['mix:referenceable']
+            jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
             hippo:availability: [live, preview]
             hippogogreen:summary: ''
             hippogogreen:title: Welcome
@@ -36,19 +31,18 @@ definitions:
             hippostdpubwf:lastModificationDate: 2011-10-18T15:20:00+02:00
             hippostdpubwf:lastModifiedBy: acahn-admin
             hippostdpubwf:publicationDate: 2011-10-18T15:34:00+02:00
+            hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000002
+            hippotranslation:locale: en
             /hippogogreen:description:
               jcr:primaryType: hippostd:html
               hippostd:content: <html><body></body></html>
         /about:
           jcr:primaryType: hippo:handle
-          jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
-          /hippo:translation:
-            jcr:primaryType: hippo:translation
-            hippo:language: ''
-            hippo:message: About
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          hippo:name: About
           /about:
             jcr:primaryType: hippogogreen:simpledocument
-            jcr:mixinTypes: ['mix:referenceable']
+            jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
             hippo:availability: [live, preview]
             hippogogreen:summary: ''
             hippogogreen:title: About
@@ -59,19 +53,18 @@ definitions:
             hippostdpubwf:lastModificationDate: 2011-10-18T15:20:00+02:00
             hippostdpubwf:lastModifiedBy: acahn-admin
             hippostdpubwf:publicationDate: 2011-10-18T15:34:00+02:00
+            hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000003
+            hippotranslation:locale: en
             /hippogogreen:description:
               jcr:primaryType: hippostd:html
               hippostd:content: <html><body></body></html>
         /programme:
           jcr:primaryType: hippo:handle
-          jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
-          /hippo:translation:
-            jcr:primaryType: hippo:translation
-            hippo:language: ''
-            hippo:message: Programme
+          jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+          hippo:name: Programme
           /programme:
             jcr:primaryType: hippogogreen:simpledocument
-            jcr:mixinTypes: ['mix:referenceable']
+            jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
             hippo:availability: [live, preview]
             hippogogreen:summary: ''
             hippogogreen:title: Programme
@@ -82,19 +75,32 @@ definitions:
             hippostdpubwf:lastModificationDate: 2011-10-18T15:21:00+02:00
             hippostdpubwf:lastModifiedBy: acahn-admin
             hippostdpubwf:publicationDate: 2011-10-18T15:34:00+02:00
+            hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000004
+            hippotranslation:locale: en
             /hippogogreen:description:
               jcr:primaryType: hippostd:html
               hippostd:content: <html><body></body></html>
       /common:
         jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+        hippo:name: Common
+        hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000006
+        hippotranslation:locale: en
+        hippostd:foldertype: [new-document]
         /banners:
           jcr:primaryType: hippostd:folder
+          jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+          hippo:name: Banners
+          hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000007
+          hippotranslation:locale: en
+          hippostd:foldertype: [new-banner, new-banner-folder]
           /heroes:
             jcr:primaryType: hippostd:folder
-            /hippo:translation:
-              jcr:primaryType: hippo:translation
-              hippo:language: ''
-              hippo:message: Heroes
+            jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+            hippo:name: Heroes
+            hippotranslation:id: aaaaaaaa-d41e-4291-a958-000000000008
+            hippotranslation:locale: en
+            hippostd:foldertype: [new-banner]
             /blogs-1:
               jcr:primaryType: hippo:handle
               jcr:mixinTypes: ['mix:referenceable']
@@ -107,8 +113,8 @@ definitions:
                 hippogogreen:title: Blogs
                 hippostd:state: draft
                 hippostdpubwf:createdBy: admin
-                hippostdpubwf:creationDate: 2014-08-28T16:50:40.530+02:00
-                hippostdpubwf:lastModificationDate: 2014-08-28T16:50:40.580+02:00
+                hippostdpubwf:creationDate: 2018-01-01T00:00:00.000+02:00
+                hippostdpubwf:lastModificationDate: 2018-01-01T00:00:00.000+02:00
                 hippostdpubwf:lastModifiedBy: admin
                 hippotranslation:id: fd52b1a3-d41e-4291-a958-8c999c3c7a13
                 hippotranslation:locale: en
@@ -131,8 +137,8 @@ definitions:
                 hippogogreen:title: Blogs
                 hippostd:state: unpublished
                 hippostdpubwf:createdBy: admin
-                hippostdpubwf:creationDate: 2014-08-28T16:50:40.530+02:00
-                hippostdpubwf:lastModificationDate: 2014-08-28T16:50:48.314+02:00
+                hippostdpubwf:creationDate: 2018-01-01T00:00:00.000+02:00
+                hippostdpubwf:lastModificationDate: 2018-01-01T00:00:00.000+02:00
                 hippostdpubwf:lastModifiedBy: admin
                 hippotranslation:id: a0e1fcc1-5e6e-4da5-b9e8-c05ed6cd8233
                 hippotranslation:locale: en
@@ -154,10 +160,10 @@ definitions:
                 hippogogreen:title: Blogs
                 hippostd:state: published
                 hippostdpubwf:createdBy: admin
-                hippostdpubwf:creationDate: 2014-08-28T16:50:40.530+02:00
-                hippostdpubwf:lastModificationDate: 2014-08-28T16:50:48.314+02:00
+                hippostdpubwf:creationDate: 2018-01-01T00:00:00.000+02:00
+                hippostdpubwf:lastModificationDate: 2018-01-01T00:00:00.000+02:00
                 hippostdpubwf:lastModifiedBy: admin
-                hippostdpubwf:publicationDate: 2014-08-28T16:50:49.822+02:00
+                hippostdpubwf:publicationDate: 2018-01-01T00:00:00.000+02:00
                 hippotranslation:id: 62d2af40-765c-4fbf-ab85-4fa94e7d5779
                 hippotranslation:locale: en
                 /hippogogreen:image:
@@ -169,11 +175,3 @@ definitions:
                 /hippogogreen:doclink:
                   jcr:primaryType: hippo:mirror
                   hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-          /hippo:translation:
-            jcr:primaryType: hippo:translation
-            hippo:language: ''
-            hippo:message: Banners
-        /hippo:translation:
-          jcr:primaryType: hippo:translation
-          hippo:language: ''
-          hippo:message: Common
