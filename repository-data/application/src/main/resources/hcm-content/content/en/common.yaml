@@ -3226,12 +3226,9 @@
             hippo:docbase: 7c3d9742-4825-44da-9e19-e1e3b0f222ba
       /cosmetics-category:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:translated', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: ca15f7e0-69c2-4a24-876b-4d63cf16e8fd
-        /hippo:translation:
-          jcr:primaryType: hippo:translation
-          hippo:language: ''
-          hippo:message: Cosmetics category
+        hippo:name: Cosmetics category
         /cosmetics-category[1]:
           jcr:primaryType: hippogogreen:banner
           jcr:mixinTypes: ['mix:referenceable']
@@ -3307,8 +3304,9 @@
             hippo:docbase: 71310f37-b100-47e4-a2bc-f88d4926e3c0
       /cosmetics-category-2:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:translated', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: fe0c2f73-f370-4045-9faa-8696aa82da46
+        hippo:name: Cosmetics category 2
         /cosmetics-category-2[1]:
           jcr:primaryType: hippogogreen:banner
           jcr:mixinTypes: ['mix:referenceable']
@@ -3333,10 +3331,6 @@
           /hippogogreen:doclink:
             jcr:primaryType: hippo:mirror
             hippo:docbase: 71310f37-b100-47e4-a2bc-f88d4926e3c0
-        /hippo:translation:
-          jcr:primaryType: hippo:translation
-          hippo:language: ''
-          hippo:message: Cosmetics category 2
         /cosmetics-category-2[2]:
           jcr:primaryType: hippogogreen:banner
           jcr:mixinTypes: ['mix:versionable']

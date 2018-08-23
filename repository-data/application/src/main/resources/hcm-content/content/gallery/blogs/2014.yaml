@@ -12,13 +12,10 @@
     hippostd:gallerytype: ['hippogogreengallery:imageset']
     /upperatmoslight.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 5044a402-5412-4c76-a069-bdf2aa2d2764
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Upper atmosphere light.jpg
+      hippo:name: Upper atmosphere light.jpg
       /upperatmoslight.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -73,13 +70,10 @@
           jcr:mimeType: image/jpeg
     /sprites-jets-diagram.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: c86c5034-e905-484f-9b45-a244af4f0fb7
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Sprites jets diagram.jpg
+      hippo:name: Sprites jets diagram.jpg
       /sprites-jets-diagram.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -133,13 +127,10 @@
           jcr:mimeType: image/jpeg
     /magna-plaza.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: b73655fc-7749-4aad-a484-53f6812197a7
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Magna Plaza.jpg
+      hippo:name: Magna Plaza.jpg
       /magna-plaza.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -193,13 +184,10 @@
           jcr:mimeType: image/jpeg
     /iceberg.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 7da43e9b-de6b-4145-b41f-bb13c9db3cfd
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Iceberg.jpg
+      hippo:name: Iceberg.jpg
       /iceberg.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -253,13 +241,10 @@
           jcr:mimeType: image/jpeg
     /tesla-model.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 3793ea40-b94d-49d1-8241-c85333665997
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Tesla model.jpg
+      hippo:name: Tesla model.jpg
       /tesla-model.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -313,13 +298,10 @@
           jcr:mimeType: image/jpeg
     /solar-panel-house.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 955fd9bc-e73a-4ab4-8de0-5be30da03523
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Solar panel house.jpg
+      hippo:name: Solar panel house.jpg
       /solar-panel-house.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -373,13 +355,10 @@
           jcr:mimeType: image/jpeg
     /e126.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 5acde2bc-3194-43ed-bc25-219d3618a6dc
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: E-126.jpg
+      hippo:name: E-126.jpg
       /e126.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -433,13 +412,10 @@
           jcr:mimeType: image/jpeg
     /glacier-blanket.png:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 0d990656-f544-450a-b4c9-d633f068309c
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Glacier blanket.png
+      hippo:name: Glacier blanket.png
       /glacier-blanket.png:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -493,13 +469,10 @@
           jcr:mimeType: image/png
     /glacier-blanket-people.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 32cefa88-25ff-4f6a-994d-d9963b86b9a6
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Glacier blanket people.jpg
+      hippo:name: Glacier blanket people.jpg
       /glacier-blanket-people.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -553,13 +526,10 @@
           jcr:mimeType: image/jpeg
     /racks.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: c6827307-dbb9-4683-82e5-7d93b8b3879d
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Racks.jpg
+      hippo:name: Racks.jpg
       /racks.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -613,13 +583,10 @@
           jcr:mimeType: image/jpeg
     /cables.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: afaccb48-e0c3-4431-9028-76433cdbd936
       hippo:discriminator: []
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Cables.jpg
+      hippo:name: Cables.jpg
       /cables.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -673,9 +640,10 @@
           jcr:mimeType: image/jpeg
     /bigriverman.png:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: d67fbc13-bb46-4008-b764-2aa335a9a7ce
       hippo:discriminator: []
+      hippo:name: BigRiverMan.png
       /bigriverman.png:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -727,15 +695,12 @@
             resource: /content/gallery/blogs/2014/07/bigriverman.png/bigriverman.png/mobilethumbnail/mobilethumbnail.png
           jcr:lastModified: 2010-07-29T08:42:00+02:00
           jcr:mimeType: image/png
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: BigRiverMan.png
     /fixies.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: b59a047e-30d2-43e2-aa58-941b4b610e5f
       hippo:discriminator: []
+      hippo:name: Fixies.jpg
       /fixies.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -787,10 +752,6 @@
             resource: /content/gallery/blogs/2014/07/fixies.jpg/fixies.jpg/mobilethumbnail/mobilethumbnail.jpg
           jcr:lastModified: 2010-07-29T08:54:00+02:00
           jcr:mimeType: image/jpeg
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: Fixies.jpg
     /toyota-a-glass-of-water-image.jpg:
       jcr:primaryType: hippo:handle
       jcr:mixinTypes: ['mix:referenceable']
@@ -1018,9 +979,10 @@
           jcr:mimeType: image/jpeg
     /0409abengoasolar_610x406.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: de624f25-e294-47af-a371-a30d381d2a1e
       hippo:discriminator: []
+      hippo:name: 0409AbengoaSolar_610x406.JPG
       /0409abengoasolar_610x406.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -1072,15 +1034,12 @@
             resource: /content/gallery/blogs/2014/07/0409abengoasolar_610x406.jpg/0409abengoasolar_610x406.jpg/mobilethumbnail/mobilethumbnail.jpg
           jcr:lastModified: 2010-07-30T04:06:00+02:00
           jcr:mimeType: image/jpeg
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: 0409AbengoaSolar_610x406.JPG
     /0510brightsource_610x432.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 633e4f9c-7427-4bb4-810e-850444237d06
       hippo:discriminator: []
+      hippo:name: 0510Brightsource_610x432.jpg
       /0510brightsource_610x432.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -1132,15 +1091,12 @@
             resource: /content/gallery/blogs/2014/07/0510brightsource_610x432.jpg/0510brightsource_610x432.jpg/mobilethumbnail/mobilethumbnail.jpg
           jcr:lastModified: 2010-07-30T04:06:00+02:00
           jcr:mimeType: image/jpeg
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: 0510Brightsource_610x432.jpg
   /toyota.jpg:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+    jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
     jcr:uuid: d4b698c9-8afe-49f4-998e-bd682d43e474
     hippo:discriminator: []
+    hippo:name: Toyota.jpg
     /toyota.jpg:
       jcr:primaryType: hippogogreengallery:imageset
       jcr:mixinTypes: ['mix:referenceable']
@@ -1192,10 +1148,6 @@
           resource: /content/gallery/blogs/2014/toyota.jpg/toyota.jpg/mobilethumbnail/mobilethumbnail.jpg
         jcr:lastModified: 2010-07-28T14:50:00+02:00
         jcr:mimeType: image/jpeg
-    /hippo:translation:
-      jcr:primaryType: hippo:translation
-      hippo:language: ''
-      hippo:message: Toyota.jpg
   /01:
     jcr:primaryType: hippogallery:stdImageGallery
     jcr:mixinTypes: ['mix:referenceable']
@@ -1204,9 +1156,10 @@
     hippostd:gallerytype: ['hippogogreengallery:imageset']
     /180px-160658main2_ozone_large_350.png:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 900d45c2-a263-499c-8b83-f95e67a6480d
       hippo:discriminator: []
+      hippo:name: 180px-160658main2_OZONE_large_350.png
       /180px-160658main2_ozone_large_350.png:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -1258,10 +1211,6 @@
             resource: /content/gallery/blogs/2014/01/180px-160658main2_ozone_large_350.png/180px-160658main2_ozone_large_350.png/mobilethumbnail/mobilethumbnail.png
           jcr:lastModified: 2010-07-29T16:53:00+02:00
           jcr:mimeType: image/png
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: 180px-160658main2_OZONE_large_350.png
   /04:
     jcr:primaryType: hippogallery:stdImageGallery
     jcr:mixinTypes: ['mix:referenceable']
@@ -1270,9 +1219,10 @@
     hippostd:gallerytype: ['hippogogreengallery:imageset']
     /300px-sfc.contrail.1.26.01.jpg:
       jcr:primaryType: hippo:handle
-      jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+      jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
       jcr:uuid: 4d179546-beee-4917-8d4b-647d0552c736
       hippo:discriminator: []
+      hippo:name: 300px-Sfc.contrail.1.26.01.jpg
       /300px-sfc.contrail.1.26.01.jpg:
         jcr:primaryType: hippogogreengallery:imageset
         jcr:mixinTypes: ['mix:referenceable']
@@ -1333,10 +1283,6 @@
             resource: /content/gallery/blogs/2014/04/300px-sfc.contrail.1.26.01.jpg/300px-sfc.contrail.1.26.01.jpg/smallthumbnail/smallthumbnail.jpg
           jcr:lastModified: 2012-12-10T13:14:00+01:00
           jcr:mimeType: image/jpeg
-      /hippo:translation:
-        jcr:primaryType: hippo:translation
-        hippo:language: ''
-        hippo:message: 300px-Sfc.contrail.1.26.01.jpg
     /magnify-clip.png:
       jcr:primaryType: hippo:handle
       jcr:mixinTypes: ['mix:referenceable']

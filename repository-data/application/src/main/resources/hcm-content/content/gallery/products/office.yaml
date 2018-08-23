@@ -198,9 +198,10 @@
         jcr:mimeType: image/jpeg
   /hemp-envelopes-ecopaper.jpg:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+    jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
     jcr:uuid: 991074c3-0d97-49a9-a683-cb770de848ac
     hippo:discriminator: []
+    hippo:name: Hemp envelopes ecopaper.jpg
     /hemp-envelopes-ecopaper.jpg:
       jcr:primaryType: hippogogreengallery:imageset
       jcr:mixinTypes: ['mix:versionable']
@@ -289,15 +290,12 @@
           resource: /content/gallery/products/office/hemp-envelopes-ecopaper.jpg/hemp-envelopes-ecopaper.jpg/largethumbnail/largethumbnail.jpg
         jcr:lastModified: 2014-09-08T14:32:14.545+02:00
         jcr:mimeType: image/jpeg
-    /hippo:translation:
-      jcr:primaryType: hippo:translation
-      hippo:language: ''
-      hippo:message: Hemp envelopes ecopaper.jpg
   /banana-business-card.jpg:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['mix:referenceable', 'hippo:translated']
+    jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
     jcr:uuid: dfaa3a4b-b058-49b7-a283-bddb5f60a88b
     hippo:discriminator: []
+    hippo:name: Banana Business card.jpg
     /banana-business-card.jpg:
       jcr:primaryType: hippogogreengallery:imageset
       jcr:mixinTypes: ['mix:versionable']
@@ -391,10 +389,6 @@
         jcr:primaryType: hippogogreen:copyright
         hippogogreen:description: ''
         hippogogreen:url: ''
-    /hippo:translation:
-      jcr:primaryType: hippo:translation
-      hippo:language: ''
-      hippo:message: Banana Business card.jpg
   /business-cards.jpg:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['mix:referenceable']
