@@ -3,7 +3,7 @@
   jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
   jcr:uuid: e2731db0-58ff-488f-a3a1-95296fb026fc
   hippo:name: Blogs
-  hippostd:foldertype: [new-blogs-folder, new-blog]
+  hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
   hippotranslation:id: 08864dfd-8e37-44eb-ba58-63c4e42ff078
   hippotranslation:locale: nl
   /facetedblogs:
@@ -22,7 +22,7 @@
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 800544f2-c7b0-4e78-9941-b44a843d0917
-    hippostd:foldertype: [new-blogs-folder, new-blog]
+    hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
     hippotranslation:id: 97286e8e-3f9f-45a6-b8de-6253310fd7c9
     hippotranslation:locale: nl
     /10:
@@ -267,7 +267,7 @@
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: eaa8fc68-b0d7-40b4-86d8-c13932f98ad4
-      hippostd:foldertype: [new-news-folder, new-news]
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
       hippotranslation:id: f3d5ce04-ba17-4021-b944-25099631edb8
       hippotranslation:locale: nl
       /is-een-slimme-thermostaat-de-investering-waard:
@@ -1608,7 +1608,7 @@
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: 3dd4532f-fdd5-4df8-b015-073aa2499ba6
-      hippostd:foldertype: [new-news-folder, new-news]
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
       hippotranslation:id: 476e9e00-7c5b-4fe4-98a8-ba7c0634d086
       hippotranslation:locale: nl
       /groene-kantoor-week:
@@ -2598,7 +2598,7 @@
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 114b0d64-a075-46d0-881c-dded623455cf
-    hippostd:foldertype: [new-blogs-folder, new-blog]
+    hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
     hippotranslation:id: 09389c7d-93a5-4491-af9d-9fbb362adc1a
     hippotranslation:locale: nl
     /02:
