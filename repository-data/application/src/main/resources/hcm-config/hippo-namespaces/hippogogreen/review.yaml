@@ -123,7 +123,7 @@ definitions:
             wicket.id: ${cluster.id}.left.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
-              nodetypes: hippogogreen:product
+              nodetypes: ['hippogogreen:product']
           /contentstage:
             jcr:primaryType: frontend:plugin
             field: contentstage

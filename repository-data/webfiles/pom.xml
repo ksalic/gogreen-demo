@@ -16,20 +16,7 @@
   <packaging>jar</packaging>
 
   <dependencies>
-    <dependency>
-      <groupId>org.onehippo.cms7.hst</groupId>
-      <artifactId>hst-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7.hst</groupId>
-      <artifactId>hst-client</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.4</version>
-    </dependency>
+    <!-- Add dependency on the site war for IntelliJ bean-definition code completion in ftl files -->
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-site</artifactId>
@@ -43,12 +30,8 @@
       <type>pom</type>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-essentials-components-hst</artifactId>
-      <scope>provided</scope>
-    </dependency>
   </dependencies>
+
   <build>
     <plugins>
       <plugin>
@@ -59,4 +42,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>
