@@ -18,6 +18,12 @@
   <properties>
     <sonar.l10n.locales>en_US,nl_NL,fr_FR</sonar.l10n.locales>
     <json-lib.version>2.4</json-lib.version>
+    <commons-jexl2.version>2.1.1</commons-jexl2.version>
+    <joox.version>1.2.0</joox.version>
+
+    <!-- TODO: mm: plugin deprecated-->
+    <forge.tcmp.version>1.09.00</forge.tcmp.version>
+
     <gogreen-two-relevance-data.version>1.0.0</gogreen-two-relevance-data.version>
   </properties>
 
@@ -116,7 +122,7 @@
     <dependency>
       <groupId>org.onehippo.forge</groupId>
       <artifactId>tcmp-component</artifactId>
-      <version>1.09.00</version>
+      <version>${forge.tcmp.version}</version>
     </dependency>
 
     <dependency>
@@ -264,7 +270,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-jexl</artifactId>
-      <version>2.1.1</version>
+      <version>${commons-jexl2.version}</version>
     </dependency>
 
     <dependency>
@@ -285,13 +291,13 @@
     <dependency>
       <groupId>org.jooq</groupId>
       <artifactId>joox</artifactId>
-      <version>1.2.0</version>
+      <version>${joox.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-core-asl</artifactId>
-      <version>1.9.13</version>
+      <version>${jackson.version}</version>
     </dependency>
 
     <dependency>
