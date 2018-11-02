@@ -20,7 +20,7 @@ definitions:
           /title:
             jcr:primaryType: hipposysedit:field
             hipposysedit:path: hippogogreen:title
-            hipposysedit:type: Label
+            hipposysedit:type: String
             hipposysedit:validators: [non-empty, required]
           /summary:
             jcr:primaryType: hipposysedit:field
