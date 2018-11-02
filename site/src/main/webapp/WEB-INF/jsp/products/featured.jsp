@@ -42,7 +42,7 @@
         <div class="col-md-${colSize} col-sm-${colSize}">
           <div class="feature product-category">
             <div class="feature-image">
-              <hst:manageContent hippobean="${prd}" templateQuery="new-product" defaultPath="products"/>
+              <hst:manageContent hippobean="${prd}" documentTemplateQuery="new-product" defaultPath="products"/>
               <a href="${fn:escapeXml(prdLink)}"><img src="${fn:escapeXml(prdImgLink)}" alt="${fn:escapeXml(prd.firstImage.alt)}"/></a>
             </div>
             <div class="feature-content">

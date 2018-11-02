@@ -40,7 +40,7 @@
             <div class="row latest-items">
                 <c:forEach items="${requestScope.items}" var="item">
                     <div class="col-md-${colSize} col-sm-${colSize}">
-                        <hst:manageContent hippobean="${item}" templateQuery="new-blog" defaultPath="blogs" />
+                        <hst:manageContent hippobean="${item}" documentTemplateQuery="new-blog" defaultPath="blogs" />
                         <div class="feature">
                               <div class="feature-image">
                                   <a href="<hst:link hippobean="${item}"/>"><img src="<hst:link hippobean="${item.firstImage.largeThumbnail}"/>" alt="<c:out value="${item.firstImage.alt}"/>"></a>

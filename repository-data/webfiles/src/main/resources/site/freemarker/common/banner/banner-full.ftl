@@ -5,7 +5,7 @@
 <#if  Request.document??>
     <#if Request.document.image??>
         <div class="banner-component section-content full-banner no-padding" style="background-image: url('<@hst.link hippobean=Request.document.image.original/>')">
-            <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
+            <@hst.manageContent hippobean=Request.document documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
         </div>
     </#if>
 
@@ -28,6 +28,6 @@
 <#elseif editMode>
     <div class="not-configured">
         <h2>Click to configure banner</h2>
-        <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
+        <@hst.manageContent documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
     </div>
 </#if>

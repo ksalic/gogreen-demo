@@ -15,7 +15,7 @@
           <h2 class="title"><c:out value="${requestScope.folderName}"/></h2>
           <c:forEach items="${requestScope.documents}" var="document">
             <ul class="about-item <c:if test="${requestScope.preview}">editable</c:if>">
-              <hst:manageContent hippobean="${document}" templateQuery="new-event" defaultPath="events" />
+              <hst:manageContent hippobean="${document}" documentTemplateQuery="new-event" defaultPath="events" />
               <hst:link var="link" hippobean="${document}"/>
               <li class="title"><a href="${link}"><c:out value="${document.title}"/></a></li>
               <li class="description"><c:out value="${document.summary}"/></li>
@@ -25,7 +25,7 @@
       </c:when>
       <c:when test="${requestScope.document ne null}">
         <div id="article" class="about <c:if test="${requestScope.preview}">editable</c:if>">
-          <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-event" defaultPath="events"/>
+          <hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-event" defaultPath="events"/>
           <h2 class="title"><c:out value="${requestScope.document.title}"/></h2>
 
           <p class="intro"><c:out value="${requestScope.document.summary}"/></p>

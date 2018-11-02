@@ -20,7 +20,7 @@
 <div class="banner-component section-content no-padding">
   <div class="container">
     <div class="row">
-      <@hst.manageContent hippobean=Request.document templateQuery="new-document" parameterName="documentlocation" />
+      <@hst.manageContent hippobean=Request.document documentTemplateQuery="new-document" parameterName="documentlocation" />
       <div class="col-md-12 col-sm-12 animated fadeInUp animatedVisi" data-animtype="fadeInUp" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
         <#--Create a link to the detail page of this document-->
           <@hst.link hippobean=Request.document var="docLink"/>
@@ -62,6 +62,6 @@
 <#elseif editMode>
 <div class="not-configured">
     <h2>Click to configure Document Highlight</h2>
-    <@hst.manageContent templateQuery="new-document" parameterName="documentlocation" />
+    <@hst.manageContent documentTemplateQuery="new-document" parameterName="documentlocation" />
 </div>
 </#if>

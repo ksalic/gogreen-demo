@@ -24,7 +24,7 @@
       <div class="row">
         <div class="col-md-9 col-sm-9">
           <c:if test="${requestScope.document ne null}">
-            <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-document"/>
+            <hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-document"/>
             <h2><c:out value="${requestScope.document.title}"/></h2>
 
             <p><c:out value="${requestScope.document.summary}"/></p>

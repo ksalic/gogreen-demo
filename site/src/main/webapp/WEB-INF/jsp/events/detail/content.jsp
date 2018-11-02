@@ -13,7 +13,7 @@
     </div>
 
     <div class="blog-span">
-        <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-event" defaultPath="events"/>
+        <hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-event" defaultPath="events"/>
         <c:set var="image" value="${requestScope.document.firstImage}"/>
         <c:if test="${image != null and image.landscapeImage != null}">
             <div class="blog-post-featured-img img-overlay">

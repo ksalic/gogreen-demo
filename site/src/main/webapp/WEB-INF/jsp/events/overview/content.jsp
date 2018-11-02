@@ -9,7 +9,7 @@
 <%--@elvariable id="documents" type="java.util.List<com.onehippo.gogreen.beans.EventDocument>"--%>
 <hst:setBundle basename="messages"/>
 <fmt:message key="standard.date.format" var="dateformat"/>
-<hst:manageContent templateQuery="new-event" defaultPath="events"/>
+<hst:manageContent documentTemplateQuery="new-event" defaultPath="events"/>
 <c:forEach items="${documents.items}" var="event" varStatus="status">
     <hst:link var="link" hippobean="${event}"/>
     <div class="blog-post">

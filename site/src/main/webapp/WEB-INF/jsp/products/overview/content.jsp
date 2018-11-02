@@ -16,7 +16,7 @@
 <hst:include ref="productnav"/>
 
 <div class="isotope" id="masonry-elements">
-<hst:manageContent templateQuery="new-product" defaultPath="products"/>
+<hst:manageContent documentTemplateQuery="new-product" defaultPath="products"/>
 <%--@elvariable id="docs" type="com.onehippo.gogreen.utils.PageableCollection"--%>
 <c:forEach items="${requestScope.docs.items}" var="product" varStatus="status">
     <%--@elvariable id="product" type="com.onehippo.gogreen.beans.Product"--%>

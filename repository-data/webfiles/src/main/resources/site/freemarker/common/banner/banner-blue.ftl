@@ -22,7 +22,7 @@
       <div class="row">
           <div class="col-md-6 col-sm-6 animated fadeInLeftBig animatedVisi" data-animtype="fadeInLeftBig" data-animrepeat="0" data-speed="1s" data-delay="0.4s">
             <div class="space-sep100"></div>
-            <@hst.manageContent hippobean=Request.document templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
+            <@hst.manageContent hippobean=Request.document documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
             <#if Request.document.docLink??>
               <h2 class="h2-section-title"><a href="<@hst.link hippobean=Request.document.docLink/>">${Request.document.title?html}</a></h2>
             <#else>
@@ -56,6 +56,6 @@
 <#elseif editMode>
   <div class="not-configured">
       <h2>Click to configure banner</h2>
-      <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
+      <@hst.manageContent documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="bannerlocation"/>
   </div>
 </#if>

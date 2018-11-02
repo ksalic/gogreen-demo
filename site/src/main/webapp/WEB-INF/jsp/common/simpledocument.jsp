@@ -7,7 +7,7 @@
   <c:when test="${not empty requestScope.document}">
     <ul class="box-general box-simple <c:if test="${requestScope.preview}">editable</c:if>">
       <c:if test="${requestScope.preview}">
-        <li><hst:manageContent hippobean="${requestScope.document}" templateQuery="new-document"/></li>
+        <li><hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-document"/></li>
       </c:if>
       <li class="title"><c:out value="${requestScope.document.title}"/></li>
       <li class="subtitle"><c:out value="${requestScope.document.summary}"/></li>

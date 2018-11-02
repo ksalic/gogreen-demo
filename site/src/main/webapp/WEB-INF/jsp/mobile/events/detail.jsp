@@ -11,7 +11,7 @@
     <div id="content" class="${style}">
         <h1><c:out value="${requestScope.document.title}"/></h1>
         <c:if test="${requestScope.preview}">
-          <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-event" defaultPath="events"/>
+          <hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-event" defaultPath="events"/>
         </c:if>
         <p id="event-info" class="doc-info">
             <span class="location"><c:out value="${requestScope.document.location.street}"/>&nbsp;<c:out value="${requestScope.document.location.number}"/>,&nbsp;<c:out value="${requestScope.document.location.city}"/>&nbsp;<c:out value="${requestScope.document.location.postalCode}"/>&nbsp;<c:out value="${requestScope.document.location.province}"/></span>

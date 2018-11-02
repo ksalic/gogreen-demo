@@ -54,7 +54,7 @@
                             </#if>
                         </div>
                         <div class="feature-image">
-                            <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" parameterName="banner"+(banner_index+1)/>
+                            <@hst.manageContent hippobean=banner documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="banner"+(banner_index+1)/>
                             <#if banner.image??>
                                 <#if docLink??>
                                     <a href="${docLink}">
@@ -90,6 +90,6 @@
 <#elseif editMode>
     <div class="not-configured">
         <h2>Click to configure banner collection</h2>
-        <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
+        <@hst.manageContent documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
     </div>
 </#if>

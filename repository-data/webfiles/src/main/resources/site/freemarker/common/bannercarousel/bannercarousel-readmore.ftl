@@ -10,7 +10,7 @@
 
                 <li data-transition="fade" data-slotamount="2" data-masterspeed="300">
                     <img src="<@hst.link hippobean=banner.image.original/>" alt="rev-full1" data-fullwidthcentering="on">
-                    <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" />
+                    <@hst.manageContent hippobean=banner documentTemplateQuery="new-banner" defaultPath="common/banners" />
 
                     <div class="tp-caption big_white large_text sft" data-x="38" data-y="72" data-start="0" data-easing="easeOutBack">
                     ${banner.title?html}
@@ -34,7 +34,7 @@
 <#elseif editMode>
     <div class="not-configured">
         <h2>Click to configure banner carousel</h2>
-        <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
+        <@hst.manageContent documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
     </div>
 </#if>
 

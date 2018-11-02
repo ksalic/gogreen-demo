@@ -18,7 +18,7 @@
     <div id="content" class="${style}">
         <h1><c:out value="${requestScope.document.title}"/></h1>
         <c:if test="${requestScope.preview}">
-          <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-product" defaultPath="products"/>
+          <hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-product" defaultPath="products"/>
         </c:if>
         <p id="product-info" class="doc-info">
           <span class="price"><fmt:formatNumber value="${requestScope.document.price}" type="currency"/></span>

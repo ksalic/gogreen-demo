@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-12">
-        <@hst.manageContent hippobean=Request.document templateQuery="new-richcontextsnippet" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
+        <@hst.manageContent hippobean=Request.document documentTemplateQuery="new-richcontextsnippet" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
           <@hst.html hippohtml=Request.document.richText/>
       </div>
     </div>
@@ -16,6 +16,6 @@
 <#elseif editMode>
 <div class="not-configured">
     <h2>Click to configure Rich text snippet</h2>
-    <@hst.manageContent templateQuery="new-richcontextsnippet" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
+    <@hst.manageContent documentTemplateQuery="new-richcontextsnippet" defaultPath="common/rich-text-snippets" parameterName="bannerlocation"/>
 </div>
 </#if>

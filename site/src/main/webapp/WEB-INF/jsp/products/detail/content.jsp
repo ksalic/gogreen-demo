@@ -25,7 +25,7 @@
     </div>
 
     <div class="blog-span">
-        <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-product" defaultPath="products"/>
+        <hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-product" defaultPath="products"/>
         <h2>
             <c:out value="${requestScope.document.title}"/>
         </h2>

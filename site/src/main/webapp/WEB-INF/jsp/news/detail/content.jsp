@@ -12,7 +12,7 @@
     </div>
 
     <div class="blog-span">
-        <hst:manageContent hippobean="${requestScope.document}" templateQuery="new-news" defaultPath="news"/>
+        <hst:manageContent hippobean="${requestScope.document}" documentTemplateQuery="new-news" defaultPath="news"/>
         <h2>
             <c:out value="${requestScope.document.title}"/>
         </h2>

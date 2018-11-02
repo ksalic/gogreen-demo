@@ -8,7 +8,7 @@
 
 <fmt:message key="blogs.overview.content.title" var="blogsoverviewtitle"/>
 <hippo-gogreen:title title="${blogsoverviewtitle}"/>
-<hst:manageContent templateQuery="new-blog" defaultPath="blogs" />
+<hst:manageContent documentTemplateQuery="new-blog" defaultPath="blogs" />
 
 <%--@elvariable id="blogs" type="java.util.List<com.onehippo.gogreen.beans.BlogsItem>"--%>
 <c:forEach items="${requestScope.blogs.items}" var="blogitem" varStatus="status">

@@ -71,7 +71,7 @@
                             </h4>
                             <div class="content-box-text">
                                 <p>${banner.text?html}
-                                <@hst.manageContent hippobean=banner templateQuery="new-banner" defaultPath="common/banners" parameterName="banner"+(banner_index+1)/>
+                                <@hst.manageContent hippobean=banner documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="banner"+(banner_index+1)/>
                                 </p>
                             </div>
                         </div>
@@ -102,6 +102,6 @@
 <#elseif editMode>
     <div class="not-configured">
         <h2>Click to configure banner collection</h2>
-        <@hst.manageContent templateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
+        <@hst.manageContent documentTemplateQuery="new-banner" defaultPath="common/banners" parameterName="banner1"/>
     </div>
 </#if>
