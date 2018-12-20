@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:platform/hst:hosts/acct/com:
+      jcr:primaryType: hst:virtualhost
+      /onehippo:
+        jcr:primaryType: hst:virtualhost
+        /demo:
+          jcr:primaryType: hst:virtualhost
+          /cms:
+            jcr:primaryType: hst:virtualhost
+            /hst:root:
+              jcr:primaryType: hst:mount
+              hst:ismapped: false
+              hst:namedpipeline: WebApplicationInvokingPipeline
+              hst:showcontextpath: false
+              hst:showport: false
