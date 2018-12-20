@@ -1,5 +1,5 @@
-/*
- * Copyright 2017 Hippo B.V. (https://www.onehippo.com)
+ /*
+ * Copyright 2017-2018 Hippo B.V. (https://www.onehippo.com)
  */
 package com.onehippo.gogreen.channels;
 
@@ -10,25 +10,23 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 
 import org.onehippo.cms7.services.hst.Channel;
+import org.onehippo.cms7.services.eventbus.Subscribe;
+
 import org.hippoecm.hst.configuration.hosting.Mount;
-import org.hippoecm.hst.core.container.ComponentManager;
-import org.hippoecm.hst.core.container.ComponentManagerAware;
+
 import org.hippoecm.hst.pagecomposer.jaxrs.api.BeforeChannelDeleteEvent;
 import org.hippoecm.hst.pagecomposer.jaxrs.services.exceptions.ClientError;
 import org.hippoecm.hst.pagecomposer.jaxrs.services.exceptions.ClientException;
+import org.hippoecm.hst.pagecomposer.jaxrs.api.ChannelEventListenerRegistry;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.eventbus.AllowConcurrentEvents;
-import com.google.common.eventbus.Subscribe;
-
-public class DeleteChannelDemoContent implements ComponentManagerAware {
+public class DeleteChannelDemoContent {
 
     private static Logger log = LoggerFactory.getLogger(DeleteChannelDemoContent.class);
-    private ComponentManager componentManager;
 
     @Subscribe
-    @AllowConcurrentEvents
     @SuppressWarnings({"ThrowableResultOfMethodCallIgnored", "unused"})
     public void onChannelDeleteEvent(BeforeChannelDeleteEvent event) {
         // no action if an exception is already set
@@ -45,7 +43,7 @@ public class DeleteChannelDemoContent implements ComponentManagerAware {
             for(Mount mount : mounts) {
                 final String contentPath = mount.getContentPath();
                 final Node node = session.getNode(contentPath);
-                if(node.isNodeType("hippogogreen:deletecontentwithchannel")) {
+                if (node.isNodeType("hippogogreen:deletecontentwithchannel")) {
                     node.remove();
                 }
             }
@@ -56,16 +54,13 @@ public class DeleteChannelDemoContent implements ComponentManagerAware {
         }
     }
 
-    @Override
-    public void setComponentManager(ComponentManager componentManager) {
-        this.componentManager = componentManager;
-    }
-
+    @SuppressWarnings("UnusedDeclaration")
     public void init() {
-        componentManager.registerEventSubscriber(this);
+        ChannelEventListenerRegistry.get().register(this);
     }
 
+    @SuppressWarnings("UnusedDeclaration")
     public void destroy() {
-        componentManager.unregisterEventSubscriber(this);
+        ChannelEventListenerRegistry.get().unregister(this);
     }
 }
