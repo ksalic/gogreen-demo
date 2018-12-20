@@ -174,10 +174,10 @@
     <servlet-class>org.hippoecm.hst.servlet.BinariesServlet</servlet-class>
   </servlet>
 
-  <servlet>
-    <servlet-name>PingServlet</servlet-name>
-    <servlet-class>org.hippoecm.hst.servlet.HstPingServlet</servlet-class>
-  </servlet>
+  <filter>
+    <filter-name>PingFilter</filter-name>
+    <filter-class>org.hippoecm.hst.container.PingFilter</filter-class>
+  </filter>
 
   <servlet>
     <servlet-name>PageComposerResourceServlet</servlet-name>
@@ -245,10 +245,11 @@
     <url-pattern>/binaries/*</url-pattern>
   </servlet-mapping>
 
-  <servlet-mapping>
-    <servlet-name>PingServlet</servlet-name>
+  <filter-mapping>
+    <filter-name>PingFilter</filter-name>
     <url-pattern>/ping/*</url-pattern>
-  </servlet-mapping>
+    <dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
 
   <servlet-mapping>
     <servlet-name>YUIResourceServlet</servlet-name>
