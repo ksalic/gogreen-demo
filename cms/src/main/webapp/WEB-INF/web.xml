@@ -58,6 +58,11 @@
     </init-param>
   </filter>
 
+  <filter>
+    <filter-name>HstFilter</filter-name>
+    <filter-class>org.hippoecm.hst.container.HstFilter</filter-class>
+  </filter>
+
   <!--Default application-->
   <filter>
     <filter-name>CMS</filter-name>
@@ -128,6 +133,11 @@
   </filter-mapping>
 
   <filter-mapping>
+    <filter-name>HstFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
     <filter-name>ConcurrentLogin</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
@@ -144,6 +154,10 @@
 
   <listener>
     <listener-class>org.hippoecm.frontend.plugins.login.ConcurrentLoginListener</listener-class>
+  </listener>
+
+  <listener>
+    <listener-class>org.hippoecm.hst.platform.container.HstCmsContextLoaderListener</listener-class>
   </listener>
 
   <servlet>
