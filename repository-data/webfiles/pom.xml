@@ -25,9 +25,14 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.onehippo.cms7.hst.dependencies</groupId>
-      <artifactId>hst-client-dependencies</artifactId>
-      <type>pom</type>
+      <groupId>org.onehippo.cms7.hst</groupId>
+      <artifactId>hst-content-beans</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <!-- support ftl auto completion -->
+    <dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
       <scope>provided</scope>
     </dependency>
   </dependencies>

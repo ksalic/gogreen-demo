@@ -31,16 +31,30 @@
 
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>gogreen-two-relevance-data</artifactId>
-      <version>${gogreen-two-relevance-data.version}</version>
-      <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-site-assembly</artifactId>
       <version>${project.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-package-site-dependencies</artifactId>
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-enterprise-package-site-dependencies</artifactId>
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.gogreen</groupId>
+      <artifactId>gogreen-two-relevance-data</artifactId>
+      <version>${gogreen-two-relevance-data.version}</version>
+      <type>war</type>
+    </dependency>
+
+<!-- FIXME JH
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
@@ -55,6 +69,7 @@
       <groupId>org.apache.taglibs</groupId>
       <artifactId>taglibs-standard-impl</artifactId>
     </dependency>
+-->
 
     <dependency>
       <groupId>xalan</groupId>
@@ -63,29 +78,6 @@
     <dependency>
       <groupId>xalan</groupId>
       <artifactId>serializer</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.dependencies</groupId>
-      <artifactId>hst-server-dependencies</artifactId>
-      <type>pom</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.dependencies</groupId>
-      <artifactId>hst-spring-dependencies</artifactId>
-      <type>pom</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.dependencies</groupId>
-      <artifactId>hst-client-dependencies</artifactId>
-      <type>pom</type>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.components</groupId>
-      <artifactId>hst-security</artifactId>
     </dependency>
 
     <dependency>
@@ -108,13 +100,13 @@
 
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-dependencies-site</artifactId>
+      <artifactId>hippo-addon-targeting-site-dependencies</artifactId>
       <type>pom</type>
     </dependency>
 
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-wpm-dependencies-site</artifactId>
+      <artifactId>hippo-addon-wpm-site-dependencies</artifactId>
       <type>pom</type>
     </dependency>
 
@@ -172,16 +164,6 @@
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.client-modules</groupId>
-      <artifactId>hst-cms-rest</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.client-modules</groupId>
-      <artifactId>hst-page-composer</artifactId>
     </dependency>
 
     <dependency>
@@ -294,11 +276,13 @@
       <version>${joox.version}</version>
     </dependency>
 
+<!-- FIXME
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-core-asl</artifactId>
       <version>${jackson.version}</version>
     </dependency>
+-->
 
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
