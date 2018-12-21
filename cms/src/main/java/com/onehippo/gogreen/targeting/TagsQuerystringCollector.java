@@ -17,9 +17,12 @@ import javax.servlet.http.HttpServletRequest;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.fasterxml.jackson.databind.node.POJONode;
+
 import com.onehippo.cms7.targeting.TargetingJcrConstants;
 import com.onehippo.cms7.targeting.collectors.AbstractTermsCollector;
 import com.onehippo.cms7.targeting.data.TermsTargetingData;
+import com.onehippo.cms7.targeting.data.TermsTargetingDataImpl;
 
 
 public class TagsQuerystringCollector extends AbstractTermsCollector {
@@ -50,12 +53,12 @@ public class TagsQuerystringCollector extends AbstractTermsCollector {
     }
 
     @Override
-    public TermsTargetingData convertJsonToTargetingData(final ObjectNode objectNode, final ObjectMapper objectMapper) throws IOException {
+    public TermsTargetingDataImpl convertJsonToTargetingData(final ObjectNode objectNode, final ObjectMapper objectMapper) throws IOException {
         return null;
     }
 
     @Override
-    public JsonNode convertTargetingDataToJson(final TermsTargetingData termsTargetingData, final ObjectMapper objectMapper) throws IOException {
+    public JsonNode convertTargetingDataToJson(TermsTargetingDataImpl data, ObjectMapper objectMapper) throws IOException {
         return null;
     }
 

@@ -16,11 +16,6 @@
   <packaging>war</packaging>
 
   <properties>
-    <sonar.l10n.locales>en_US,nl_NL,fr_FR</sonar.l10n.locales>
-    <json-lib.version>2.4</json-lib.version>
-    <commons-jexl2.version>2.1.1</commons-jexl2.version>
-    <joox.version>1.2.0</joox.version>
-
     <!-- TODO: mm: plugin deprecated-->
     <forge.tcmp.version>1.09.00</forge.tcmp.version>
 
@@ -53,23 +48,6 @@
       <version>${gogreen-two-relevance-data.version}</version>
       <type>war</type>
     </dependency>
-
-<!-- FIXME JH
-    <dependency>
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>jsp-api</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.taglibs</groupId>
-      <artifactId>taglibs-standard-spec</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.taglibs</groupId>
-      <artifactId>taglibs-standard-impl</artifactId>
-    </dependency>
--->
 
     <dependency>
       <groupId>xalan</groupId>
@@ -226,33 +204,10 @@
       <scope>runtime</scope>
     </dependency>
 
-    <dependency>
-      <groupId>net.sf.json-lib</groupId>
-      <artifactId>json-lib</artifactId>
-      <version>${json-lib.version}</version>
-      <classifier>jdk15</classifier>
-      <exclusions>
-        <exclusion>
-          <groupId>commons-logging</groupId>
-          <artifactId>commons-logging</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-collectors</artifactId>
-    </dependency>
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-seo-support</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-jexl</artifactId>
-      <version>${commons-jexl2.version}</version>
     </dependency>
 
     <dependency>
@@ -269,20 +224,6 @@
       <artifactId>org.springframework.js</artifactId>
       <version>${lib.spring-js.version}</version>
     </dependency>
-
-    <dependency>
-      <groupId>org.jooq</groupId>
-      <artifactId>joox</artifactId>
-      <version>${joox.version}</version>
-    </dependency>
-
-<!-- FIXME
-    <dependency>
-      <groupId>org.codehaus.jackson</groupId>
-      <artifactId>jackson-core-asl</artifactId>
-      <version>${jackson.version}</version>
-    </dependency>
--->
 
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
