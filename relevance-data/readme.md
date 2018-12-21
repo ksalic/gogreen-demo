@@ -1,4 +1,4 @@
-1) download or generate: [GENERATING DEMO RELEVANCE DATA](https://code.onehippo.org/cms-enterprise/hippo-addon-targeting/blob/master/demo-support/data-generator/README) relevance data files into: ```src/main/resources``` directory
+1) download or generate: [GENERATING DEMO RELEVANCE DATA](https://code.onehippo.org/cms-enterprise/hippo-addon-targeting/blob/13.0/demo-support/data-generator/README) relevance data files into: ```src/main/resources``` directory
 2) run:
 
 ```mvn clean package```
