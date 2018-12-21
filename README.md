@@ -38,19 +38,6 @@ To build a Tomcat distribution tarball containing only deployable artifacts:
 
 See also src/main/assembly/distribution.xml
 
-Creating the demo launcher
-==========================
-
-The demo launcher is an archive containing an executable jar that launches a Tomcat instance containing
-the CMS and the Go Green site application.
-
-To create demo launcher:
-    mvn clean install
-    cd dist
-    mvn clean install -P dist-full,demo-launcher
-
-This will create a .tar.gz and .zip archive containing the demo launcher under 'dist/target' directory
-
 Using JRebel
 ============
 
