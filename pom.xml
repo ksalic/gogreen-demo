@@ -136,12 +136,6 @@
       </dependency>
 
       <dependency>
-        <groupId>com.onehippo.cms7</groupId>
-        <artifactId>hippo-addon-targeting-shared-api</artifactId>
-        <scope>provided</scope>
-      </dependency>
-
-      <dependency>
         <groupId>org.onehippo.cms7</groupId>
         <artifactId>hippo-plugin-seo-support-repository</artifactId>
         <version>${hippo.plugin.seo-support.version}</version>
@@ -286,6 +280,14 @@
      </dependencies>
   </dependencyManagement>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-targeting-shared-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
   <build>
     <defaultGoal>package</defaultGoal>
     <pluginManagement>
@@ -371,6 +373,13 @@
           <type>war</type>
         </dependency>
       </dependencies>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>hippo-maven2-enterprise</id>
+          <name>Hippo Maven 2 Enterprise Repository</name>
+          <url>https://maven.onehippo.com/maven2-enterprise/</url>
+        </pluginRepository>
+      </pluginRepositories>
       <properties>
         <!--Already defined in hippo-cms-project POM. Override here for project, if necessary-->
         <!--<repo.bootstrap>true</repo.bootstrap>-->
