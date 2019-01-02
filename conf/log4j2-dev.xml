@@ -137,6 +137,8 @@
     <Logger name="com.onehippo.gogreen" level="info"/>
     <Logger name="com.onehippo.gogreen.targeting" level="ALL"/>
 
+    <Logger name="org.onehippo.cm.engine.ConfigurationServiceImpl" level="info"/>
+
     <Root level="warn">
       <AppenderRef ref="site"/>
       <AppenderRef ref="cms"/>
