@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2010-2019 Hippo B.V. (http://www.onehippo.com)
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -28,6 +28,21 @@
       <groupId>com.onehippo.gogreen</groupId>
       <artifactId>gogreen-two-site-assembly</artifactId>
       <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.taglibs</groupId>
+      <artifactId>taglibs-standard-spec</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.taglibs</groupId>
+      <artifactId>taglibs-standard-impl</artifactId>
     </dependency>
 
     <dependency>
@@ -195,6 +210,18 @@
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-targeting-demo-data-loader</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.onehippo.cms7.hst.client-modules</groupId>
+          <artifactId>hst-page-composer</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+        <groupId>org.onehippo.cms7.hst.client-modules</groupId>
+        <artifactId>hst-page-composer</artifactId>
+        <scope>provided</scope>
     </dependency>
 
     <dependency>
@@ -217,12 +244,6 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.webflow</groupId>
-      <artifactId>org.springframework.js</artifactId>
-      <version>${lib.spring-js.version}</version>
     </dependency>
 
     <dependency>
