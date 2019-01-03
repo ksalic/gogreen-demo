@@ -13,7 +13,7 @@ public class SearchComponent extends AbstractSearchComponent {
     public void doBeforeRender(HstRequest request, HstResponse response) {
         super.doBeforeRender(request, response);
 
-        if (!showTaggedDocuments(request) && !showFacetedDocuments(request)) {
+        if (!showFacetedDocuments(request)) {
             String query = getQuery(request);
             searchDocuments(request, query);
         }

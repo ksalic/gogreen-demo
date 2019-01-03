@@ -11,8 +11,8 @@ import java.util.List;
 import com.onehippo.gogreen.beans.BlogItem;
 import com.onehippo.gogreen.beans.BlogItemContentBlocks;
 import com.onehippo.gogreen.beans.Comment;
+import com.onehippo.gogreen.components.BaseComponent;
 import com.onehippo.gogreen.components.ComponentUtil;
-import com.onehippo.gogreen.components.TagComponent;
 import com.onehippo.gogreen.utils.Constants;
 import com.onehippo.gogreen.utils.GoGreenUtil;
 import com.onehippo.gogreen.utils.PageableCollection;
@@ -70,7 +70,7 @@ import org.slf4j.LoggerFactory;
  * <li>query: the free text to combine with the facets to limit the fetched blog items.</li>
  * </ul>
  */
-public class Overview extends TagComponent {
+public class Overview extends BaseComponent {
 
     public static final Logger log = LoggerFactory.getLogger(Overview.class);
 
@@ -112,12 +112,7 @@ public class Overview extends TagComponent {
     }
 
     private PageableCollection getBlogs(HstRequest request, HippoBean scope, int pageSize, int currentPage, String query) throws QueryException {
-        List<? extends HippoBean> relatedBeans = getRelatedBeans(request);
 
-        if (!relatedBeans.isEmpty()) {
-            // only show tagged blogs items
-            return new PageableCollection(relatedBeans, pageSize, currentPage);
-        }
         final HstRequestContext ctx = request.getRequestContext();
         final HstQuery hstQuery = ctx.getQueryManager().createQuery(ctx.getSiteContentBaseBean(), BlogItem.class, BlogItemContentBlocks.class);
 

@@ -10,8 +10,8 @@ import java.util.List;
 
 import com.onehippo.gogreen.beans.*;
 import com.onehippo.gogreen.beans.BlogItem;
+import com.onehippo.gogreen.components.BaseComponent;
 import com.onehippo.gogreen.components.ComponentUtil;
-import com.onehippo.gogreen.components.TagComponent;
 import com.onehippo.gogreen.utils.Constants;
 import com.onehippo.gogreen.utils.PageableCollection;
 
@@ -35,7 +35,7 @@ import org.hippoecm.hst.util.SearchInputParsingUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class AbstractSearchComponent extends TagComponent {
+public class AbstractSearchComponent extends BaseComponent {
 
     private static final String PARAM_QUERY = "query";
 
@@ -58,36 +58,6 @@ public class AbstractSearchComponent extends TagComponent {
     protected int getCurrentPage(HstRequest request) {
         String currentPageParam = getPublicRequestParameter(request, Constants.PAGE);
         return ComponentUtil.parseIntParameter(Constants.PAGE, currentPageParam, Constants.DEFAULT_PAGE_NUMBER, log);
-    }
-
-    protected boolean showTaggedDocuments(HstRequest request) {
-        List<? extends HippoBean> taggedBeans = getRelatedBeans(request);
-
-        if (taggedBeans.isEmpty()) {
-            // no tagged documents available
-            return false;
-        } else {
-            // only show tagged documents
-
-            // we only want subtypes of hippogogreen:document.
-            // TODO: replace this by limiting the search tag sources to 
-            // hippogogreen:documents once the tagcloud plugin supports this.
-            List<HippoBean> taggedDocuments = new ArrayList<HippoBean>();
-            for (HippoBean bean : taggedBeans) {
-                if (bean instanceof Document) {
-                    taggedDocuments.add(bean);
-                }
-            }
-
-            int pageSize = getPageSize(request);
-            int currentPage = getCurrentPage(request);
-
-            @SuppressWarnings("unchecked")
-            PageableCollection tagged = new PageableCollection(taggedDocuments, pageSize, currentPage);
-            request.setAttribute("searchResult", tagged);
-
-            return true;
-        }
     }
 
     protected void searchDocuments(final HstRequest request,final String query) {

@@ -25,8 +25,6 @@ public class Newspage extends GoGreenTest {
 		assertTrue(selenium.isElementPresent("link=About"));
 		assertTrue(selenium.isElementPresent("//div[@id='news']/ul[4]/li[5]"));
 		assertTrue(selenium.isElementPresent("//div[@id='left']/div/div[2]/ul/li[3]"));
-		assertEquals(selenium.getText("//ul[@id='tagcloud']/li[2]"), "Turbines Climate Green Energy Tesla CO2");
-		assertTrue(selenium.isElementPresent("//ul[@id='tagcloud']/li[2]"));
 		assertEquals(selenium.getText("link=Next"), "Next");
 		assertEquals(selenium.getText("text-size"), "Text size: A A A");
 		assertTrue(selenium.isTextPresent("Text size: A A A \n \n \n Edition: United States France Nederland Home News & Events Jobs Products About"));

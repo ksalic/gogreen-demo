@@ -8,8 +8,8 @@ import java.util.Collections;
 import java.util.List;
 
 import com.onehippo.gogreen.beans.NewsItem;
+import com.onehippo.gogreen.components.BaseComponent;
 import com.onehippo.gogreen.components.ComponentUtil;
-import com.onehippo.gogreen.components.TagComponent;
 import com.onehippo.gogreen.utils.Constants;
 import com.onehippo.gogreen.utils.GoGreenUtil;
 import com.onehippo.gogreen.utils.PageableCollection;
@@ -63,7 +63,7 @@ import org.slf4j.LoggerFactory;
   *<li>query: the free text to combine with the facets to limit the fetched news items.</li>
  * </ul>
  */
-public class NewsOverview extends TagComponent {
+public class NewsOverview extends BaseComponent {
 
     public static final Logger log = LoggerFactory.getLogger(NewsOverview.class);
 
@@ -121,12 +121,7 @@ public class NewsOverview extends TagComponent {
     }
 
     private PageableCollection getNews(HstRequest request, HippoBean scope, HippoBean facet, int pageSize, int currentPage, String query) throws QueryException {
-        List<? extends HippoBean> relatedBeans = getRelatedBeans(request);
 
-        if (!relatedBeans.isEmpty()) {
-            // only show tagged news items
-            return new PageableCollection((List<HippoBean>) relatedBeans, pageSize, currentPage);
-        }
         final HstRequestContext ctx = request.getRequestContext();
         final HstQuery hstQuery = ctx.getQueryManager().createQuery(scope, NewsItem.class);
         final BaseFilter filter = new PrimaryNodeTypeFilterImpl("hippogogreen:newsitem");
