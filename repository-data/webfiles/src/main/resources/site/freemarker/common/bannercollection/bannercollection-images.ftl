@@ -34,7 +34,11 @@
                     <#if banner.docLink.hippoFolderBean??>
                         <@fmt.message var="path" key="path"/>
                         <@fmt.message var="category" key="category"/>
-                        <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.localizedName?html}"/>
+                        <#if banner.docLink.localizedName??>
+                            <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.localizedName?html}"/>
+                        <#else>
+                            <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.name?html}"/>
+                        </#if>
                     <#else>
                         <@hst.link var="docLink" hippobean=banner.docLink/>
                     </#if>
