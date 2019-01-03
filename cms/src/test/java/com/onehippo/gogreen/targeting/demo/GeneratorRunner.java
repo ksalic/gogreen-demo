@@ -1,8 +1,8 @@
 /*
- * Copyright 2015 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2015-2019 Hippo B.V. (http://www.onehippo.com)
  */
 
-package com.onehippo.cms7.targeting.demo;
+package com.onehippo.gogreen.targeting.demo;
 
 import com.onehippo.cms7.targeting.demo.generator.DataGenerator;
 

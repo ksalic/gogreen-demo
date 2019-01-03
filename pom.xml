@@ -135,6 +135,12 @@
       </dependency>
 
       <dependency>
+        <groupId>com.onehippo.cms7</groupId>
+        <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
+        <version>${hippo.addon-targeting.version}</version>
+      </dependency>
+
+      <dependency>
         <groupId>org.onehippo.cms7</groupId>
         <artifactId>hippo-plugin-seo-support-repository</artifactId>
         <version>${hippo.plugin.seo-support.version}</version>
@@ -387,7 +393,7 @@
 <!--
         <es.path>${project.build.directory}/storage</es.path>
 -->
-        <targeting.bootstrap>false</targeting.bootstrap>
+        <targeting.bootstrap>true</targeting.bootstrap>
         <targeting.truncate>true</targeting.truncate>
         <sql.driver>org.h2.Driver</sql.driver>
         <sql.username>sa</sql.username>
@@ -486,6 +492,8 @@
                   <send.usage.statistics.to.hippo>true</send.usage.statistics.to.hippo>
                   <es.path>${es.path}</es.path>
                   <es.bootstrap>${es.bootstrap}</es.bootstrap>
+                  <targeting.bootstrap>${targeting.bootstrap}</targeting.bootstrap>
+                  <targeting.truncate>${targeting.truncate}</targeting.truncate>
                 </systemProperties>
                 <dependencies>
                   <dependency>

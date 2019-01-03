@@ -15,10 +15,6 @@
   <artifactId>gogreen-two-site</artifactId>
   <packaging>war</packaging>
 
-  <properties>
-    <gogreen-two-relevance-data.version>1.0.0</gogreen-two-relevance-data.version>
-  </properties>
-
   <dependencies>
 
     <dependency>
@@ -55,13 +51,6 @@
     </dependency>
 
     <dependency>
-      <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>gogreen-two-relevance-data</artifactId>
-      <version>${gogreen-two-relevance-data.version}</version>
-      <type>war</type>
-    </dependency>
-
-    <dependency>
       <groupId>xalan</groupId>
       <artifactId>xalan</artifactId>
     </dependency>
@@ -78,13 +67,6 @@
     <dependency>
       <groupId>org.onehippo.cms7.hst</groupId>
       <artifactId>hst-mock</artifactId>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
-      <version>${hippo.addon-targeting.version}</version>
       <scope>test</scope>
     </dependency>
 
@@ -189,23 +171,6 @@
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-eforms-hst</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-common</artifactId>
-      <version>${hippo.addon-targeting.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-demo-data-loader</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>org.onehippo.cms7.hst.client-modules</groupId>
-          <artifactId>hst-page-composer</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
 
     <dependency>

@@ -5,6 +5,7 @@
 
        <bean id="com.onehippo.cms.LoadData" class="com.onehippo.cms7.targeting.demo.bootstrap.DataLoader" init-method="trigger">
          <property name="repository" ref="javax.jcr.Repository.delegating"/>
-         <property name="doBootstrap" value="${es.bootstrap:true}"/>
+         <property name="doBootstrap" value="${targeting.bootstrap:true}"/>
+         <property name="doTruncate" value="${targeting.truncate:true}"/>
        </bean>
 </beans>
