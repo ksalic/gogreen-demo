@@ -1,85 +1,50 @@
 <!--
-  Copyright 2016-2017 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2019 Hippo B.V. (http://www.onehippo.com)
 -->
 <wicket:extend xmlns:wicket="http://wicket.apache.org/">
   <script type="text/javascript" src="skin/js/rss.js"></script>
   <link rel="stylesheet" media="screen" type="text/css" href="skin/rss-info.css"/>
-    <table width="100%">
-      <tr>
-        <td width="40%" valign="top">
-          <div id="infoboxs">
-            <div id="info-login" class="hippo-login-panel">
-              <h2>
-                Login credentials
-              </h2>
-              <table>
-                <tbody>
-                  <tr>
-                    <th>
-                      <p>
-                        Role
-                      </p>
-                    </th>
-                    <th>
-                      <p>
-                        Username
-                        -
-                        Password
-                      </p>
-                    </th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>
-                        Author
-                      </p>
-                    </td>
-                    <td><span id="RandomAuthor"></span></td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>
-                        Editor
-                      </p>
-                    </td>
-                    <td><span id="RandomEditor"></span></td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>
-                        Administrator
-                      </p>
-                    </td>
-                    <td><span id="RandomAdmin"></span></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div id="feeds" class="hippo-login-panel">
-              <ul id="events">
-                <li class="type">
-                  <h2>
-                    <wicket:message key="info-events"/>
-                  </h2>
-                </li>
-              </ul>
-              <ul id="news">
-                <li class="type">
-                  <h2>
-                    <wicket:message key="info-news"/>
-                  </h2>
-                </li>
-              </ul>
-              <ul id="blogs">
-                <li class="type">
-                  <h2>
-                    <wicket:message key="info-blogs"/>
-                  </h2>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </td>
-      </tr>
-    </table>
+     <div id="infobox">
+       <div id="info-login" class="login-panel">
+         <h2><wicket:message key="info-credentials"/></h2>
+         <table>
+           <tbody>
+             <tr>
+               <th><wicket:message key="login-role"/></th>
+               <th><wicket:message key="login-username-password"/></th>
+             </tr>
+             <tr>
+               <td>Author</td>
+               <td><span id="RandomAuthor"></span></td>
+             </tr>
+             <tr>
+               <td>Editor</td>
+               <td><span id="RandomEditor"></span></td>
+             </tr>
+             <tr>
+               <td>Administrator</td>
+               <td><span id="RandomAdmin"></span></td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+       <div id="feeds">
+         <ul id="events" class="login-panel">
+           <li>
+             <h2>
+               <wicket:message key="info-events"/>
+             </h2>
+           </li>
+         </ul>
+         <ul id="news" class="login-panel">
+           <li>
+             <h2><wicket:message key="info-news"/></h2>
+           </li>
+         </ul>
+         <ul id="blogs" class="login-panel">
+           <li><h2><wicket:message key="info-blogs"/></h2>
+           </li>
+         </ul>
+       </div>
+     </div>
 </wicket:extend>
