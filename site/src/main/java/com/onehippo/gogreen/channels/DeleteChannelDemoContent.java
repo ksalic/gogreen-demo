@@ -1,5 +1,5 @@
  /*
- * Copyright 2017-2018 Hippo B.V. (https://www.onehippo.com)
+ * Copyright 2017-2019 Hippo B.V. (https://www.onehippo.com)
  */
 package com.onehippo.gogreen.channels;
 
@@ -15,8 +15,6 @@ import org.onehippo.cms7.services.eventbus.Subscribe;
 import org.hippoecm.hst.configuration.hosting.Mount;
 
 import org.hippoecm.hst.pagecomposer.jaxrs.api.BeforeChannelDeleteEvent;
-import org.hippoecm.hst.pagecomposer.jaxrs.services.exceptions.ClientError;
-import org.hippoecm.hst.pagecomposer.jaxrs.services.exceptions.ClientException;
 import org.hippoecm.hst.pagecomposer.jaxrs.api.ChannelEventListenerRegistry;
 
 import org.slf4j.Logger;
@@ -40,7 +38,7 @@ public class DeleteChannelDemoContent {
             final Session session = event.getRequestContext().getSession();
             final List<Mount> mounts = event.getMounts();
 
-            for(Mount mount : mounts) {
+            for (Mount mount : mounts) {
                 final String contentPath = mount.getContentPath();
                 final Node node = session.getNode(contentPath);
                 if (node.isNodeType("hippogogreen:deletecontentwithchannel")) {
@@ -50,7 +48,7 @@ public class DeleteChannelDemoContent {
 
         } catch (RepositoryException e) {
             log.error("Deleting the content when deleting a channel failed.", e);
-            event.setException(new ClientException("Deleting the content failed", ClientError.UNKNOWN));
+            event.setException(new IllegalStateException("Deleting the content failed because of a " + e.getClass().getSimpleName()));
         }
     }
 
