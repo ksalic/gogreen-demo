@@ -4,9 +4,9 @@ definitions:
       jcr:primaryType: hst:virtualhost
       /onehippo:
         jcr:primaryType: hst:virtualhost
-        /demo:
+        /acct:
           jcr:primaryType: hst:virtualhost
-          /cms:
+          /cms-demo:
             jcr:primaryType: hst:virtualhost
             /hst:root:
               jcr:primaryType: hst:mount
@@ -14,3 +14,211 @@ definitions:
               hst:namedpipeline: WebApplicationInvokingPipeline
               hst:showcontextpath: false
               hst:showport: false
+    /hst:hst/hst:hosts/acct/com:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:virtualhost
+      hst:scheme: http
+      hst:showcontextpath: false
+      hst:showport: false
+      /onehippo:
+        .meta:residual-child-node-category: content
+        jcr:primaryType: hst:virtualhost
+        /acct:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:virtualhost
+          /demo:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:virtualhost
+            /www:
+              .meta:residual-child-node-category: content
+              jcr:primaryType: hst:virtualhost
+              /hst:root:
+                .meta:residual-child-node-category: content
+                jcr:primaryType: hst:mount
+                hst:alias: site
+                hst:mountpoint: /hst:hst/hst:sites/hippogogreen
+                hst:subjectbasedsession: true
+                /restapi:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: restapi
+                  hst:authenticated: false
+                  hst:mountpoint: /hst:hst/hst:sites/rest
+                  hst:mountsite: site
+                  hst:namedpipeline: JaxrsRestContentPipeline
+                  hst:roles: [everybody]
+                  hst:showport: true
+                  hst:subjectbasedsession: true
+                  hst:types: [rest]
+                /fr:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: site-fr
+                  hst:locale: fr_FR
+                  hst:mountmobile: mobile-fr
+                  hst:mountpoint: /hst:hst/hst:sites/hippogogreen_fr
+                  /api:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: content-restapi-fr-site
+                    hst:ismapped: false
+                    hst:namedpipeline: RestApiPipeline
+                    hst:types: [rest]
+                /nl:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: site-nl
+                  hst:locale: nl_NL
+                  hst:mountmobile: mobile-nl
+                  hst:mountpoint: /hst:hst/hst:sites/hippogogreen_nl
+                  /api:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: content-restapi-nl-site
+                    hst:ismapped: false
+                    hst:namedpipeline: RestApiPipeline
+                    hst:types: [rest]
+                /mobile:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: mobile
+                  hst:homepage: products
+                  hst:mountpoint: /hst:hst/hst:sites/mobile
+                  hst:mountsite: site
+                  hst:types: [mobile]
+                  /fr:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: mobile-fr
+                    hst:homepage: produits
+                    hst:locale: fr_FR
+                    hst:mountpoint: /hst:hst/hst:sites/mobile_fr
+                    hst:mountsite: site-fr
+                    hst:types: [mobile]
+                    /api:
+                      .meta:residual-child-node-category: content
+                      jcr:primaryType: hst:mount
+                      hst:alias: content-restapi-fr-mobile
+                      hst:ismapped: false
+                      hst:namedpipeline: RestApiPipeline
+                      hst:types: [rest]
+                  /nl:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: mobile-nl
+                    hst:homepage: producten
+                    hst:locale: nl_NL
+                    hst:mountpoint: /hst:hst/hst:sites/mobile_nl
+                    hst:mountsite: site-nl
+                    hst:types: [mobile]
+                    /api:
+                      .meta:residual-child-node-category: content
+                      jcr:primaryType: hst:mount
+                      hst:alias: content-restapi-nl-mobile
+                      hst:ismapped: false
+                      hst:namedpipeline: RestApiPipeline
+                      hst:types: [rest]
+                  /de:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: mobile-de
+                    hst:homepage: produkte
+                    hst:locale: de_DE
+                    hst:mountpoint: /hst:hst/hst:sites/mobile_de
+                    hst:mountsite: site-de
+                    hst:types: [mobile]
+                    /api:
+                      .meta:residual-child-node-category: content
+                      jcr:primaryType: hst:mount
+                      hst:alias: content-restapi-de-mobile
+                      hst:ismapped: false
+                      hst:namedpipeline: RestApiPipeline
+                      hst:types: [rest]
+                  /zh:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: mobile-zh
+                    hst:homepage: products
+                    hst:locale: zh_CN
+                    hst:mountpoint: /hst:hst/hst:sites/mobile_zh
+                    hst:mountsite: site-zh
+                    hst:types: [mobile]
+                    /api:
+                      .meta:residual-child-node-category: content
+                      jcr:primaryType: hst:mount
+                      hst:alias: content-restapi-zh-mobile
+                      hst:ismapped: false
+                      hst:namedpipeline: RestApiPipeline
+                      hst:types: [rest]
+                  /uk:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: mobile-uk
+                    hst:homepage: products
+                    hst:locale: en_GB
+                    hst:mountpoint: /hst:hst/hst:sites/mobile_uk
+                    hst:mountsite: site-uk
+                    hst:types: [mobile]
+                    /api:
+                      .meta:residual-child-node-category: content
+                      jcr:primaryType: hst:mount
+                      hst:alias: content-restapi-uk-mobile
+                      hst:ismapped: false
+                      hst:namedpipeline: RestApiPipeline
+                      hst:types: [rest]
+                  /api:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: content-restapi-us-mobile
+                    hst:ismapped: false
+                    hst:namedpipeline: RestApiPipeline
+                    hst:types: [rest]
+                /zh:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: site-zh
+                  hst:locale: zh_CN
+                  hst:mountmobile: mobile-zh
+                  hst:mountpoint: /hst:hst/hst:sites/hippogogreen_zh
+                  /api:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: content-restapi-zh-site
+                    hst:ismapped: false
+                    hst:namedpipeline: RestApiPipeline
+                    hst:types: [rest]
+                /de:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: site-de
+                  hst:locale: de_DE
+                  hst:mountmobile: mobile-de
+                  hst:mountpoint: /hst:hst/hst:sites/hippogogreen_de
+                  /api:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: content-restapi-de-site
+                    hst:ismapped: false
+                    hst:namedpipeline: RestApiPipeline
+                    hst:types: [rest]
+                /uk:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: site-uk
+                  hst:locale: en_GB
+                  hst:mountmobile: mobile-uk
+                  hst:mountpoint: /hst:hst/hst:sites/hippogogreen_uk
+                  /api:
+                    .meta:residual-child-node-category: content
+                    jcr:primaryType: hst:mount
+                    hst:alias: content-restapi-uk-site
+                    hst:ismapped: false
+                    hst:namedpipeline: RestApiPipeline
+                    hst:types: [rest]
+                /api:
+                  .meta:residual-child-node-category: content
+                  jcr:primaryType: hst:mount
+                  hst:alias: content-restapi-us-site
+                  hst:ismapped: false
+                  hst:namedpipeline: RestApiPipeline
+                  hst:types: [rest]
