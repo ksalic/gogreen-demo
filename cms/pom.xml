@@ -29,10 +29,12 @@
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-package-cms-dependencies</artifactId>
       <type>pom</type>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.toolkit-resources.addon</groupId>
-      <artifactId>hst-addon-hcm-site</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>com.sun.activation</groupId>
+          <artifactId>javax.activation</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>com.onehippo.gogreen</groupId>
@@ -83,11 +85,23 @@
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>
+<!--- begin: In a default project, these 3 hcm-site modules are in the site.
+             Doing that would need splitting up repository-data/application module as well  -->
+    <dependency>
+      <groupId>org.onehippo.cms7.hst.toolkit-resources.addon</groupId>
+      <artifactId>hst-addon-hcm-site</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-eforms-hcm-site</artifactId>
+    </dependency>
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-sitemap-hcm-site</artifactId>
     </dependency>
+<!-- end -->
 
     <dependency>
       <groupId>org.onehippo.cms7</groupId>
@@ -181,11 +195,6 @@
     <dependency>
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-eforms-repository</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-eforms-hcm-site</artifactId>
     </dependency>
 
     <dependency>

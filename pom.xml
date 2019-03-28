@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>13.0.0</version>
+    <version>13.1.0</version>
   </parent>
 
   <name>GoGreen Public Demo</name>
@@ -59,7 +59,6 @@
     <connection>scm:git:https://code.onehippo.org/br-sites/public-demo.git</connection>
     <developerConnection>scm:git:git@code.onehippo.org:br-sites/public-demo.git</developerConnection>
     <url>https://code.onehippo.org/br-sites/public-demo</url>
-    <tag>gogreen-two-4.0.0</tag>
   </scm>
 
   <properties>
@@ -67,10 +66,9 @@
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
-    <essentials.version>13.0.0</essentials.version>
+    <essentials.version>13.1.0</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
-    <xalan.version>2.7.2</xalan.version>
     <junit.version>4.12</junit.version>
     <easymock.version>3.4</easymock.version>
 
@@ -175,19 +173,6 @@
         <scope>runtime</scope>
       </dependency>
 
-      <dependency>
-        <groupId>xalan</groupId>
-        <artifactId>xalan</artifactId>
-        <version>${xalan.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-      <dependency>
-        <groupId>xalan</groupId>
-        <artifactId>serializer</artifactId>
-        <version>${xalan.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-
       <!-- other predefined compile scope versioned dependencies -->
       <dependency>
         <groupId>org.freemarker</groupId>
@@ -265,7 +250,7 @@
         </exclusions>
       </dependency>
 
-      <dependency>
+ <!--     <dependency>
         <groupId>org.onehippo.forge.urlrewriter</groupId>
         <artifactId>urlrewriter-module-cms</artifactId>
         <version>${hippo.addon-urlrewriter.version}</version>
@@ -282,7 +267,7 @@
         <artifactId>urlrewriter-module-hst</artifactId>
         <version>${hippo.addon-urlrewriter.version}</version>
       </dependency>
-
+-->
      </dependencies>
   </dependencyManagement>
 
@@ -318,7 +303,7 @@
                     <versionRange>[0.0,)</versionRange>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
