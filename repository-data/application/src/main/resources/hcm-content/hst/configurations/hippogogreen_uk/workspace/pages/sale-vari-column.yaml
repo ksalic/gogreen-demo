@@ -33,7 +33,6 @@
           common/banners/image-banners/home-category, common/banners/image-banners/office-category,
           '20', common/banners/image-banners/sports-category, white]
         hst:template: common.bannercollection
-        hst:xtype: HST.Item
       /featuredproducts:
         jcr:primaryType: hst:containeritemcomponent
         hst:componentclassname: com.onehippo.gogreen.components.products.FeaturedProducts
@@ -46,7 +45,6 @@
             on sale, products/general/goal-zero-guide-10-plus-solar-recharging-kit,
           products/outdoors/lowepro-terraclime-50]
         hst:template: products.featured
-        hst:xtype: HST.Item
     /top:
       jcr:primaryType: hst:containercomponent
       hst:lastmodified: 2015-02-02T11:05:03.622+01:00
@@ -59,7 +57,6 @@
         hst:parameternames: [bannerlocation]
         hst:parametervalues: [common/rich-text-snippets/season-sale]
         hst:template: common.richtextsnippet
-        hst:xtype: HST.Item
     /right1:
       jcr:primaryType: hst:containercomponent
       hst:lastmodified: 2015-02-02T11:10:49.592+01:00
@@ -72,7 +69,6 @@
         hst:parameternames: [bannerlocation]
         hst:parametervalues: [common/rich-text-snippets/store-locator]
         hst:template: common.richtextsnippet
-        hst:xtype: HST.Item
       /map:
         jcr:primaryType: hst:containeritemcomponent
         hst:componentclassname: com.onehippo.gogreen.components.common.Map
@@ -81,4 +77,3 @@
         hst:parameternames: [address, zoomlevel]
         hst:parametervalues: ['11, Oosteinde, Amsterdam', '11']
         hst:template: common.map
-        hst:xtype: HST.Item
