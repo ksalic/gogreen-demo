@@ -7,7 +7,7 @@ definitions:
         /richtextsnippet:
           jcr:primaryType: hst:containeritemcomponent
           hst:componentclassname: com.onehippo.gogreen.components.common.RichTextSnippet
-          hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+          hst:iconpath: images/catalog/ss-icon__html.svg
           hst:label: Rich-text Snippet
           hst:template: common.richtextsnippet
           hst:xtype: HST.Item
@@ -16,7 +16,7 @@ definitions:
         /banner:
           jcr:primaryType: hst:containeritemcomponent
           hst:componentclassname: com.onehippo.gogreen.components.common.Banner
-          hst:iconpath: images/catalog/component-banner-30x30.png
+          hst:iconpath: images/catalog/ss-icon__banner.svg
           hst:label: Banner
           hst:parameternames: [bannerlocation]
           hst:parametervalues: ['']

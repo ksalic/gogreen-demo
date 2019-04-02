@@ -14,7 +14,7 @@ definitions:
             jcr:uuid: 152c1113-e4ae-4458-86ea-e98a94712b6c
             hst:async: true
             hst:componentclassname: com.onehippo.gogreen.components.Feed
-            hst:iconpath: images/catalog/icon-feed.png
+            hst:iconpath: images/catalog/ss-icon__rest-service.svg
             hst:label: RSS Feed
             hst:parameternames: [numberOfItems, updateInterval, title, feedURL, connectTimeout]
             hst:parametervalues: ['3', '15', Feed, 'https://www.bloomreach.com/en/news-rss/',
@@ -25,7 +25,7 @@ definitions:
             jcr:primaryType: hst:containeritemcomponent
             jcr:uuid: beb6f846-d460-48ed-a448-431c1f6308d2
             hst:componentclassname: com.onehippo.gogreen.components.common.Map
-            hst:iconpath: images/catalog/icon-map.png
+            hst:iconpath: images/catalog/ss-icon__google-maps.svg
             hst:label: Google Map
             hst:parameternames: [address]
             hst:parametervalues: ['11, Oosteinde, Amsterdam']

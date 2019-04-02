@@ -25,7 +25,7 @@
       /bannercollection:
         jcr:primaryType: hst:containeritemcomponent
         hst:componentclassname: com.onehippo.gogreen.components.common.BannerCollection
-        hst:iconpath: images/catalog/component-banner-collection-30x30.png
+        hst:iconpath: images/catalog/ss-icon__banner-grid.svg
         hst:label: Banner Collection
         hst:parameternames: [separatorBorderBottom, icon, title, banner4, separatorBorderTop,
           bannerType, banner1, banner2, separatorMargin, banner3, bannerBackground]
@@ -36,7 +36,7 @@
       /featuredproducts:
         jcr:primaryType: hst:containeritemcomponent
         hst:componentclassname: com.onehippo.gogreen.components.products.FeaturedProducts
-        hst:iconpath: images/catalog/component-products-30x30.png
+        hst:iconpath: images/catalog/ss-icon__products-grid-sch.svg
         hst:label: Featured Products
         hst:parameternames: [product2, icon, separatorMargin, product1, separatorBorderTop,
           separatorBorderBottom, title, product4, product3]
@@ -52,7 +52,7 @@
       /richtextsnippet:
         jcr:primaryType: hst:containeritemcomponent
         hst:componentclassname: com.onehippo.gogreen.components.common.RichTextSnippet
-        hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+        hst:iconpath: images/catalog/ss-icon__html.svg
         hst:label: Rich-text Snippet
         hst:parameternames: [bannerlocation]
         hst:parametervalues: [common/rich-text-snippets/season-sale]
@@ -64,7 +64,7 @@
       /richtextsnippet1:
         jcr:primaryType: hst:containeritemcomponent
         hst:componentclassname: com.onehippo.gogreen.components.common.RichTextSnippet
-        hst:iconpath: images/catalog/component-richtextsnippet-30x30.png
+        hst:iconpath: images/catalog/ss-icon__html.svg
         hst:label: Rich-text Snippet
         hst:parameternames: [bannerlocation]
         hst:parametervalues: [common/rich-text-snippets/store-locator]
@@ -72,7 +72,7 @@
       /map:
         jcr:primaryType: hst:containeritemcomponent
         hst:componentclassname: com.onehippo.gogreen.components.common.Map
-        hst:iconpath: images/catalog/icon-map.png
+        hst:iconpath: images/catalog/ss-icon__google-maps.svg
         hst:label: Google Map
         hst:parameternames: [address, zoomlevel]
         hst:parametervalues: ['11, Oosteinde, Amsterdam', '11']
