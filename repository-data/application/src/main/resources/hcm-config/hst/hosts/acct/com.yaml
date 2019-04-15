@@ -17,14 +17,6 @@ definitions:
               hst:namedpipeline: WebApplicationInvokingPipeline
               hst:showcontextpath: false
               hst:showport: false
-          /demo:
-            jcr:primaryType: hst:virtualhost
-            /www:
-              jcr:primaryType: hst:virtualhost
-              /hst:root:
-                jcr:primaryType: hst:mount
-                hst:ismapped: false
-                hst:namedpipeline: WebApplicationInvokingPipeline
     /hst:hst/hst:hosts/acct/com:
       .meta:residual-child-node-category: content
       jcr:primaryType: hst:virtualhost
