@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 <#--
-  Copyright 2016-2018 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2016-2019 Hippo B.V. (http://www.onehippo.com)
 -->
 <#if Request.banners?? && (Request.banners?size > 0)>
     <#if Request.title?? && Request.title!=''>
@@ -34,8 +34,8 @@
                     <#if banner.docLink.hippoFolderBean??>
                         <@fmt.message var="path" key="path"/>
                         <@fmt.message var="category" key="category"/>
-                        <#if banner.docLink.localizedName??>
-                            <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.localizedName?html}"/>
+                        <#if banner.docLink.displayName??>
+                            <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.displayName?html}"/>
                         <#else>
                             <@hst.link var="docLink" path="${path?html}/${category?html}/${banner.docLink.name?html}"/>
                         </#if>
