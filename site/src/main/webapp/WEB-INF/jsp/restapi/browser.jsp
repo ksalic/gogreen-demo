@@ -1,6 +1,6 @@
 <%--
 
-    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2019 Hippo B.V. (http://www.onehippo.com)
 
 --%>
 <%@include file="../includes/tags.jspf" %>
@@ -143,7 +143,7 @@ $(document).ready(function() {
       function(data, textStatus, xmlHttp) {
         $.each(data, function(i, item) {
           $("#productDetailDropdownList").append(
-            "<option value='" + item.productLink + "'>" + item.localizedName + "</option>\n");
+            "<option value='" + item.productLink + "'>" + item.displayName + "</option>\n");
         });
         $("#productDetailDropdownList select:first").select();
       }
@@ -204,7 +204,7 @@ $(document).ready(function() {
         <form action="">
             <h4>Required Parameters</h4>
             <div class="params">
-                <p>Show details of the selected product type.</p>
+                <p>Show details of the selected product.</p>
                 <p>
                     <label>Product</label>
                     <select id="productDetailDropdownList"></select>
