@@ -1,5 +1,5 @@
 /**
- * Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2010-2019 Hippo B.V. (http://www.onehippo.com)
  */
 
 package com.onehippo.gogreen.components;
@@ -37,7 +37,7 @@ public class AboutList extends BaseComponent {
             if (documents.size() == 1) {
                 request.setAttribute("document", documents.get(0));
             } else {
-                String folderName = RepoSiteMenuItem.retrieveLocalizedName(folder);
+                String folderName = folder.getDisplayName();
                 request.setAttribute("folderName", folderName);
                 request.setAttribute("documents", documents);
             }

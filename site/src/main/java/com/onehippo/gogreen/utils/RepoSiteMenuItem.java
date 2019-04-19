@@ -1,5 +1,5 @@
 /**
- * Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2010-2019 Hippo B.V. (http://www.onehippo.com)
  */
 
 package com.onehippo.gogreen.utils;
@@ -26,7 +26,7 @@ public class RepoSiteMenuItem extends EditableMenuItemImpl {
             HippoBean currentContentBean) {
         super(parent);
 
-        name = retrieveLocalizedName(folder);
+        name = folder.getDisplayName();
         depth = parent.getDepth() - 1;
         repositoryBased = true;
         properties = folder.getProperties();
@@ -62,34 +62,5 @@ public class RepoSiteMenuItem extends EditableMenuItemImpl {
     public int getChildCount() {
         return childCount;
     }
-    
-    /**
-     * Retrieves the localized name of a folder. When the localized name cannot be found, the plain JCR node
-     * name is returned. This method is a workaround for issue HSTTWO-1149. When that issue is fixed, this 
-     * method can be replaced by folder.getLocalizedName().
-     *  
-     * @param folder the hippo folder to retrieve the name of
-     * @return the localized name of the folder, or the JCR node name when the localized name cannot be retrieved.
-     */
-    public static String retrieveLocalizedName(HippoFolderBean folder) {
-        String localizedName = folder.getDisplayName();
-        
-        HippoNode node = (HippoNode)folder.getNode();
-        
-        try {
-            String jcrNodeName = node.getName();
-            if (jcrNodeName.equals(localizedName)) {
-                // we hit issue HSTTWO-1149: try harder
-                Node canonical = node.getCanonicalNode();
-                if (canonical != null) {
-                    return ((HippoNode)canonical).getDisplayName();
-                }
-            }
-        } catch (RepositoryException ignored) {
-            // ignore
-        }
 
-        return localizedName;
-    }    
-    
 }
