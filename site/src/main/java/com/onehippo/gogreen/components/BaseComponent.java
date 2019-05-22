@@ -34,6 +34,6 @@ public class BaseComponent extends BaseHstComponent {
     }
 
     protected void setEditMode(final HstRequest request) {
-        request.setAttribute(REQUEST_ATTR_CMS_EDIT, RequestContextProvider.get().isCmsRequest());
+        request.setAttribute(REQUEST_ATTR_CMS_EDIT, RequestContextProvider.get().isChannelManagerPreviewRequest());
     }
 }

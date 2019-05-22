@@ -53,6 +53,6 @@
 
 
 <hst:defineObjects/>
-<c:if test="${hstRequest.requestContext.cmsRequest}">
+<c:if test="${hstRequest.requestContext.channelManagerPreviewRequest}">
   <img src="<hst:link path='/images/essentials/catalog-component-icons/seo.svg'/>"> Click to edit SEO parameters
 </c:if>
