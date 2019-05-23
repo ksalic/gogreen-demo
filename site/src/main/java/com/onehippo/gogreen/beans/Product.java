@@ -10,6 +10,7 @@ import javax.jcr.RepositoryException;
 
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import org.hippoecm.hst.content.beans.Node;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 
 /**
@@ -20,6 +21,7 @@ import org.hippoecm.hst.content.beans.Node;
  * - hippogogreen:categories (string) multiple
  * + hippogogreen:images (hippogallerypicker:imagelink) multiple
  */
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:product")
 public class Product extends Document {
 

@@ -6,10 +6,12 @@ package com.onehippo.gogreen.beans.compound;
 
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoItem;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 /**
  * Bean mapping class for the 'hippogogreen:address' document type
  */
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:address")
 public class Address extends HippoItem {
     public String getStreet() {

@@ -11,9 +11,11 @@ import javax.jcr.RepositoryException;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.repository.api.HippoNode;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:basedocument")
 public class BaseDocument extends HippoDocument {
 

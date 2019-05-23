@@ -25,11 +25,13 @@ import org.hippoecm.hst.content.beans.standard.HippoFacetSelect;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.hippoecm.hst.content.beans.standard.HippoMirror;
 import org.hippoecm.hst.utils.SimpleHtmlExtractor;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 import com.onehippo.gogreen.beans.compound.Copyright;
 import com.onehippo.gogreen.beans.compound.ImageSet;
 import com.onehippo.gogreen.utils.Constants;
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:document")
 public class Document extends BaseDocument implements ContentNodeBinder {
 

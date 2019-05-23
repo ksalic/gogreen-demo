@@ -9,7 +9,9 @@ import com.onehippo.gogreen.beans.compound.Address;
 import com.onehippo.gogreen.utils.Constants;
 
 import org.hippoecm.hst.content.beans.Node;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:event")
 public class EventDocument extends Document {
 

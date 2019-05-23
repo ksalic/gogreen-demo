@@ -8,10 +8,12 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoCompound;
 import org.hippoecm.hst.content.beans.standard.HippoCompoundBean;
 import org.hippoecm.hst.content.beans.standard.HippoItem;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 /**
  * Bean mapping class for the 'hippogogreen:paragraphblock' document type
  */
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:paragraphblock")
 public class ContentBlockParagraph extends HippoItem implements HippoCompoundBean {
 

@@ -7,9 +7,11 @@ package com.onehippo.gogreen.beans.compound;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoResourceBean;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 import com.onehippo.gogreen.DocumentTypes;
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = DocumentTypes.IMAGE_SET)
 public class ImageSet extends HippoGalleryImageSet {
 

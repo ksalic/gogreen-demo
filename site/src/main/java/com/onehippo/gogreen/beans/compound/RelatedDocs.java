@@ -13,9 +13,11 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.content.beans.standard.HippoFacetSelect;
 import org.hippoecm.hst.content.beans.standard.HippoFolder;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "relateddocs:docs")
 public class RelatedDocs extends HippoFolder {
 

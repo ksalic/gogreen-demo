@@ -6,6 +6,7 @@ package com.onehippo.gogreen.beans;
 
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import org.hippoecm.hst.content.beans.Node;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 import javax.jcr.ItemExistsException;
 import javax.jcr.PathNotFoundException;
@@ -17,6 +18,7 @@ import javax.jcr.nodetype.NoSuchNodeTypeException;
 import javax.jcr.version.VersionException;
 import java.util.List;
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:blogitemcb")
 public class BlogItemContentBlocks extends BlogItem {
 

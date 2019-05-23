@@ -13,6 +13,7 @@ import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.content.beans.standard.HippoMirror;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -33,6 +34,7 @@ import static com.onehippo.gogreen.utils.Constants.PROP_RATING;
  * + hippogogreen:productlink (hippo:mirror)
  */
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = Constants.NT_REVIEW)
 public class Review extends BaseDocument implements ContentNodeBinder {
 

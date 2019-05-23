@@ -11,6 +11,7 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.hst.content.beans.standard.HippoMirror;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 
 /**
@@ -20,6 +21,7 @@ import org.hippoecm.hst.content.beans.standard.HippoMirror;
  * + hippogogreen:doclink (hippo:mirror)
  */
 
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:banner")
 public class Banner extends HippoDocument {
 

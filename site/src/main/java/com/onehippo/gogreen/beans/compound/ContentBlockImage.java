@@ -8,10 +8,12 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoCompoundBean;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSetBean;
 import org.hippoecm.hst.content.beans.standard.HippoItem;
+import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
 /**
  * Bean mapping class for the 'hippogogreen:imageblock' document type
  */
+@HippoEssentialsGenerated(allowModifications = false)
 @Node(jcrType = "hippogogreen:imageblock")
 public class ContentBlockImage extends HippoItem implements HippoCompoundBean {
 
