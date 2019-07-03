@@ -3,7 +3,7 @@ definitions:
     /hst:platform/hst:hosts/democloud/net:
       jcr:primaryType: hst:virtualhost
       hst:scheme: https
-      hst:showcontextpath: false
+      hst:showcontextpath: true
       hst:showport: false
       /brdemo:
         jcr:primaryType: hst:virtualhost
@@ -19,7 +19,7 @@ definitions:
       .meta:residual-child-node-category: content
       jcr:primaryType: hst:virtualhost
       hst:scheme: https
-      hst:showcontextpath: false
+      hst:showcontextpath: true
       hst:showport: false
       /brdemo:
         .meta:residual-child-node-category: content
