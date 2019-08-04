@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
+    Copyright 2010-2019 Hippo B.V. (http://www.onehippo.com)
 -->
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -297,7 +297,7 @@
     <location>/WEB-INF/error.jsp</location>
   </error-page>
 
-  <env-entry>​
+  <env-entry>
     <env-entry-name>logging/contextName</env-entry-name>
     <env-entry-type>java.lang.String</env-entry-type>
     <env-entry-value>cms</env-entry-value>

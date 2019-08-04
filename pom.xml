@@ -384,7 +384,6 @@
         <targeting.truncate>true</targeting.truncate>
         <sql.driver>org.h2.Driver</sql.driver>
         <sql.username>sa</sql.username>
-        <sql.password />
         <sql.url>jdbc:h2:${repo.path}/targeting/targeting;AUTO_SERVER=TRUE</sql.url>
         <es.httpPort>9200</es.httpPort>
         <es.tcpPort>9301</es.tcpPort>

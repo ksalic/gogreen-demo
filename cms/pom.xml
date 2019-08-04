@@ -277,6 +277,11 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-lucene-export</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
@@ -286,14 +291,12 @@
 
     <resources>
       <resource>
-        <filtering>false</filtering>
         <directory>src/main/resources</directory>
         <includes>
           <include>**</include>
         </includes>
       </resource>
       <resource>
-        <filtering>false</filtering>
         <directory>src/main/java</directory>
         <includes>
           <include>**</include>
