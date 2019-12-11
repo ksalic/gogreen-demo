@@ -22,11 +22,11 @@ public class ContentBlockParagraph extends HippoItem implements HippoCompoundBea
     }
 
     public String getText() {
-        return getProperty("hippogogreen:text");
+        return getSingleProperty("hippogogreen:text");
     }
 
     public String getHeader() {
-        return getProperty("hippogogreen:header");
+        return getSingleProperty("hippogogreen:header");
     }
 
 }

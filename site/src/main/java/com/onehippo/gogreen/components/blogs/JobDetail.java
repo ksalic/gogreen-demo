@@ -25,12 +25,12 @@ public class JobDetail extends Detail {
         super.doBeforeRender(request, response);
         HippoFacetNavigation facnav = ((HippoFacetNavigation)request.getRequestContext().getSiteContentBaseBean().getBean("jobfacets"));
         List<String> facets = new ArrayList<String>();
-        String[] facetArray = facnav.getProperty("hippofacnav:facets");
+        String[] facetArray = facnav.getMultipleProperty("hippofacnav:facets");
         Collections.addAll(facets, facetArray);
         int employerIndex = facets.indexOf("hippogogreen:employer");
 
-        if(employerIndex >= 0 && employerIndex < ((String[])facnav.getProperty("hippofacnav:facetnodenames")).length) {
-            request.setAttribute("employer", ((String[])facnav.getProperty("hippofacnav:facetnodenames"))[employerIndex]);
+        if(employerIndex >= 0 && employerIndex < ((String[])facnav.getMultipleProperty("hippofacnav:facetnodenames")).length) {
+            request.setAttribute("employer", ((String[])facnav.getMultipleProperty("hippofacnav:facetnodenames"))[employerIndex]);
         }
         else {
             log.warn("Error occurred during fetching of employer facet translation");

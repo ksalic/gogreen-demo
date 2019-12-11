@@ -41,26 +41,26 @@ public class BaseDocument extends HippoDocument {
     }
 
     public String getLastModifiedBy() {
-        return getProperty("hippostdpubwf:lastModifiedBy");
+        return getSingleProperty("hippostdpubwf:lastModifiedBy");
     }
 
     public String getCreatedBy() {
-        return getProperty("hippostdpubwf:createdBy");
+        return getSingleProperty("hippostdpubwf:createdBy");
     }
 
     public Calendar getLastModificationDate() {
-        return getProperty("hippostdpubwf:lastModificationDate");
+        return getSingleProperty("hippostdpubwf:lastModificationDate");
     }
 
     public Calendar getCreationDate() {
-        return getProperty("hippostdpubwf:creationDate");
+        return getSingleProperty("hippostdpubwf:creationDate");
     }
 
     public Calendar getPublicationDate() {
-        return getProperty("hippostdpubwf:publicationDate");
+        return getSingleProperty("hippostdpubwf:publicationDate");
     }
 
     public String [] getCampaigns() {
-        return getProperty("hippogogreen:campaign");
+        return getMultipleProperty("hippogogreen:campaign");
     }
 }

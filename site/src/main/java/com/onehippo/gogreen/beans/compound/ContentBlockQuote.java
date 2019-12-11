@@ -21,11 +21,11 @@ public class ContentBlockQuote extends HippoItem implements HippoCompoundBean {
     }
 
     public String getQuote() {
-        return getProperty("hippogogreen:quote");
+        return getSingleProperty("hippogogreen:quote");
     }
 
     public String getAlignment() {
-        return getProperty("hippogogreen:alignment");
+        return getSingleProperty("hippogogreen:alignment");
     }
 
 }

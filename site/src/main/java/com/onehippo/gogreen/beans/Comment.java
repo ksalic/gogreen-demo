@@ -34,15 +34,15 @@ public class Comment extends BaseDocument implements ContentNodeBinder {
     private String documentUuid;
 
     public String getName() {
-        return (name == null) ? (String) getProperty(Constants.PROP_NAME) : name;
+        return (name == null) ? (String) getSingleProperty(Constants.PROP_NAME) : name;
     }
 
     public String getEmail() {
-        return (email == null) ? (String) getProperty(Constants.PROP_EMAIL) : email;
+        return (email == null) ? (String) getSingleProperty(Constants.PROP_EMAIL) : email;
     }
 
     public String getBody() {
-        return (body == null) ? (String) getProperty(Constants.PROP_BODY) : body;
+        return (body == null) ? (String) getSingleProperty(Constants.PROP_BODY) : body;
     }
 
     public void setName(String name) {

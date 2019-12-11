@@ -17,7 +17,7 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 public class NewsItem extends SimpleDocument {
     
     public Calendar getDate() {
-        return getProperty(Constants.PROP_DATE);
+        return getSingleProperty(Constants.PROP_DATE);
     }
 
 }

@@ -16,7 +16,7 @@ import com.onehippo.gogreen.DocumentTypes;
 public class ImageSet extends HippoGalleryImageSet {
 
     public String getAlt() {
-        return getProperty(DocumentTypes.ImageSet.ALT);
+        return getSingleProperty(DocumentTypes.ImageSet.ALT);
     }
 
     public HippoResourceBean getSmallThumbnail() {

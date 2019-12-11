@@ -48,23 +48,23 @@ public class Review extends BaseDocument implements ContentNodeBinder {
     private Calendar date;
 
     public Calendar getDate() {
-        return (date == null) ? (Calendar) getProperty(PROP_DATE) : date;
+        return (date == null) ? (Calendar) getSingleProperty(PROP_DATE) : date;
     }
 
     public String getName() {
-        return (name == null) ? (String) getProperty(PROP_NAME) : name;
+        return (name == null) ? (String) getSingleProperty(PROP_NAME) : name;
     }
 
     public String getEmail() {
-        return (email == null) ? (String) getProperty(PROP_EMAIL) : email;
+        return (email == null) ? (String) getSingleProperty(PROP_EMAIL) : email;
     }
 
     public Long getRating() {
-        return (rating == null) ? (Long) getProperty(PROP_RATING) : rating;
+        return (rating == null) ? (Long) getSingleProperty(PROP_RATING) : rating;
     }
 
     public String getComment() {
-        return (comment == null) ? (String) getProperty(PROP_COMMENT) : comment;
+        return (comment == null) ? (String) getSingleProperty(PROP_COMMENT) : comment;
     }
 
     public String getProductUuid() {

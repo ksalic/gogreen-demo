@@ -26,7 +26,7 @@ public class ContentBlockImage extends HippoItem implements HippoCompoundBean {
     }
 
     public String getAlignment() {
-        return getProperty("hippogogreen:alignment");
+        return getSingleProperty("hippogogreen:alignment");
     }
 
 }

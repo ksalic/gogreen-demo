@@ -16,11 +16,11 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 public class SimpleDocument extends BaseDocument {
 
     public String getTitle() {
-        return getProperty(Constants.PROP_TITLE);
+        return getSingleProperty(Constants.PROP_TITLE);
     }
 
     public String getSummary() {
-        return getProperty(Constants.PROP_SUMMARY);
+        return getSingleProperty(Constants.PROP_SUMMARY);
     }
 
     public HippoHtml getDescription() {

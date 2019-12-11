@@ -16,7 +16,7 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 public class Faq extends BaseDocument {
 
     public String getQuestion() {
-        return getProperty(Constants.PROP_QUESTION);
+        return getSingleProperty(Constants.PROP_QUESTION);
     }
 
     public HippoHtml getAnswer() {

@@ -15,54 +15,54 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 @Node(jcrType = "hippogogreen:address")
 public class Address extends HippoItem {
     public String getStreet() {
-        return getProperty("hippogogreen:street");
+        return getSingleProperty("hippogogreen:street");
     }
 
     public String getNumber() {
-        return getProperty("hippogogreen:number");
+        return getSingleProperty("hippogogreen:number");
     }
 
     public String getCity() {
-        return getProperty("hippogogreen:city");
+        return getSingleProperty("hippogogreen:city");
     }
 
     public String getPostalCode() {
-        return getProperty("hippogogreen:postalcode");
+        return getSingleProperty("hippogogreen:postalcode");
     }
 
     public String getProvince() {
-        return getProperty("hippogogreen:province");
+        return getSingleProperty("hippogogreen:province");
     }
 
     public String getCountry() {
-        return getProperty("hippogogreen:country");
+        return getSingleProperty("hippogogreen:country");
     }
 
     public String getTelephone() {
-        return getProperty("hippogogreen:telephone");
+        return getSingleProperty("hippogogreen:telephone");
     }
 
     public String getFax() {
-        return getProperty("hippogogreen:fax");
+        return getSingleProperty("hippogogreen:fax");
     }
 
     public String getEmail() {
-        return getProperty("hippogogreen:email");
+        return getSingleProperty("hippogogreen:email");
     }
 
     public String getWebsite() {
-        return getProperty("hippogogreen:website");
+        return getSingleProperty("hippogogreen:website");
     }
 
     public String getOptionalText() {
-        return getProperty("hippogogreen:optionalText");
+        return getSingleProperty("hippogogreen:optionalText");
     }
 
     public Double getLatitude() {
-        return getProperty("hippogogreen:latitude");
+        return getSingleProperty("hippogogreen:latitude");
     }
 
     public Double getLongitude() {
-        return getProperty("hippogogreen:longitude");
+        return getSingleProperty("hippogogreen:longitude");
     }
 }

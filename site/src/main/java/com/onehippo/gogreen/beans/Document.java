@@ -43,7 +43,7 @@ public class Document extends BaseDocument implements ContentNodeBinder {
     private List<ImageSet> images;
 
     public String getTitle() {
-        return (title == null) ? (String) getProperty("hippogogreen:title") : title;
+        return (title == null) ? (String) getSingleProperty("hippogogreen:title") : title;
     }
 
     public void setTitle(String title) {
@@ -51,7 +51,7 @@ public class Document extends BaseDocument implements ContentNodeBinder {
     }
 
     public String getSummary() {
-        return (summary == null) ? (String) getProperty("hippogogreen:summary") : summary;
+        return (summary == null) ? (String) getSingleProperty("hippogogreen:summary") : summary;
     }
 
     public void setSummary(String summary) {

@@ -16,23 +16,23 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 public class EventDocument extends Document {
 
     public Calendar getDate() {
-        return getProperty(Constants.PROP_DATE);
+        return getSingleProperty(Constants.PROP_DATE);
     }
 
     public Calendar getEndDate() {
-        return getProperty(Constants.PROP_ENDDATE);
+        return getSingleProperty(Constants.PROP_ENDDATE);
     }
 
     public Address getLocation() {
-        return getBean(Constants.PROP_LOCATION);
+        return getSingleProperty(Constants.PROP_LOCATION);
     }
 
     public String[] getTags() {
-        return getProperty(Constants.PROP_TAGS);
+        return getMultipleProperty(Constants.PROP_TAGS);
     }
 
     public String[] getCategories() {
-        return getProperty(Constants.PROP_CATEGORIES);
+        return getMultipleProperty(Constants.PROP_CATEGORIES);
     }
 
 }

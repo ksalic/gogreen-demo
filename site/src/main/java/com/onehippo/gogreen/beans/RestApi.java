@@ -33,15 +33,15 @@ public class RestApi extends BaseDocument {
 
 
     public String getApiPath() {
-        return (path == null) ? (String) getProperty("hippogogreen:path") : path;
+        return (path == null) ? (String) getSingleProperty("hippogogreen:path") : path;
     }
 
     public String getType() {
-        return (type == null) ? (String) getProperty("hippogogreen:type") : type;
+        return (type == null) ? (String) getSingleProperty("hippogogreen:type") : type;
     }
 
     public String getSummary() {
-        return (summary == null) ? (String) getProperty("hippogogreen:summary") : summary;
+        return (summary == null) ? (String) getSingleProperty("hippogogreen:summary") : summary;
     }
 
     public HippoHtml getDocumentation() {
@@ -52,11 +52,11 @@ public class RestApi extends BaseDocument {
     }
 
     public String getUrl() {
-        return (url == null) ? (String) getProperty("hippogogreen:url") : url;
+        return (url == null) ? (String) getSingleProperty("hippogogreen:url") : url;
     }
 
     public String getResponse() {
-        return (response == null) ? (String) getProperty("hippogogreen:response") : response;
+        return (response == null) ? (String) getSingleProperty("hippogogreen:response") : response;
     }
 
 }

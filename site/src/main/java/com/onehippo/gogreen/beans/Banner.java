@@ -26,15 +26,15 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 public class Banner extends HippoDocument {
 
     public String getTitle() {
-        return getProperty("hippogogreen:title");
+        return getSingleProperty("hippogogreen:title");
     }
 
     public String getIcon() {
-        return getProperty("hippogogreen:icon");
+        return getSingleProperty("hippogogreen:icon");
     }
 
     public String getText() {
-        return getProperty("hippogogreen:bannertext");
+        return getSingleProperty("hippogogreen:bannertext");
     }
 
     public HippoBean getDocLink() {

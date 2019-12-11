@@ -17,14 +17,14 @@ import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerat
 public class BlogItem extends Document {
 
     public Calendar getDate() {
-        return getProperty(Constants.PROP_DATE);
+        return getSingleProperty(Constants.PROP_DATE);
     }
 
     public String[] getCategories() {
-        return getProperty(Constants.PROP_CATEGORIES);
+        return getMultipleProperty(Constants.PROP_CATEGORIES);
     }
     
      public String[] getTags() {
-        return getProperty(Constants.PROP_TAGS);
+        return getMultipleProperty(Constants.PROP_TAGS);
     }
 }

@@ -17,11 +17,11 @@ import com.onehippo.gogreen.utils.Constants;
 @Node(jcrType = Constants.NT_COPYRIGHT)
 public class Copyright extends HippoItem {
     public String getDescription() {
-        return getProperty(Constants.PROP_COPYRIGHT_DESCRIPTION);
+        return getSingleProperty(Constants.PROP_COPYRIGHT_DESCRIPTION);
     }
 
     public String getUrl() {
-        return getProperty(Constants.PROP_COPYRIGHT_URL);
+        return getSingleProperty(Constants.PROP_COPYRIGHT_URL);
     }
 
 }

@@ -33,7 +33,7 @@ public class Product extends Document {
     
     public Double getPrice() {
         if (price == null) {
-            price = getProperty("hippogogreen:price");
+            price = getSingleProperty("hippogogreen:price");
         }
         return price;
     }
@@ -43,15 +43,15 @@ public class Product extends Document {
     }
 
     public Double getRating() {
-        return getProperty("hippogogreen:rating");
+        return getSingleProperty("hippogogreen:rating");
     }
 
     public Long getVotes() {
-        return getProperty("hippogogreen:votes");
+        return getSingleProperty("hippogogreen:votes");
     }
 
     public String[] getCategories() {
-        return getProperty("hippogogreen:categories");
+        return getMultipleProperty("hippogogreen:categories");
     }
 
     @Override
