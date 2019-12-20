@@ -1,23 +1,76 @@
 definitions:
   config:
     /hippo:configuration/hippo:groups:
-      /english:
-        jcr:primaryType: hipposys:group
-        hipposys:members: [english-author, english-editor]
-        hipposys:securityprovider: internal
+      #/english:
+        #jcr:primaryType: hipposys:group
+        #hipposys:members: [english-author, english-editor]
+        #hipposys:securityprovider: internal  
       /english-authors:
         jcr:primaryType: hipposys:group
-        hipposys:members: [english-author]
+        hipposys:members:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [english-author]
         hipposys:securityprovider: internal
+        hipposys:userroles:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [xm.cms.user, xm.content.user, xm.channel.user, xm.report.user, xm.dashboard.user,
+            xm.channel.viewer]
       /english-editors:
         jcr:primaryType: hipposys:group
-        hipposys:members: [english-editor]
+        hipposys:members:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [english-editor]
         hipposys:securityprovider: internal
+        hipposys:userroles:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [xm.cms.user, xm.content.user, xm.channel.user, xm.report.user, xm.dashboard.user,
+            xm.channel.webmaster]
       /global-author:
         jcr:primaryType: hipposys:group
-        hipposys:members: [author, author01, author02, author03, author04, author05, author06, author07, author08, author09, author10, author11, author12, author13, author14, author15, author16, author17, author18, author19, author20]
+        hipposys:members: [author, author01, author02, author03, author04, author05,
+          author06, author07, author08, author09, author10, author11, author12, author13,
+          author14, author15, author16, author17, author18, author19, author20]
         hipposys:securityprovider: internal
       /global-editor:
         jcr:primaryType: hipposys:group
-        hipposys:members: [editor, editor01, editor02, editor03, editor04, editor05, editor06, editor07, editor08, editor09, editor10, editor11, editor12, editor13, editor14, editor15, editor16, editor17, editor18, editor19, editor20]
+        hipposys:members: [editor, editor01, editor02, editor03, editor04, editor05,
+          editor06, editor07, editor08, editor09, editor10, editor11, editor12, editor13,
+          editor14, editor15, editor16, editor17, editor18, editor19, editor20]
         hipposys:securityprovider: internal
+      #Add french-author and french-editor groups  
+      /french-authors:
+        jcr:primaryType: hipposys:group
+        hipposys:members:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [french-author]
+        hipposys:securityprovider: internal
+        hipposys:userroles:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [xm.cms.user, xm.content.user, xm.channel.user, xm.report.user, xm.dashboard.user,
+            xm.channel.viewer]
+      /french-editors:
+        jcr:primaryType: hipposys:group
+        hipposys:members:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [french-editor]
+        hipposys:securityprovider: internal
+        hipposys:userroles:
+          .meta:category: system
+          .meta:add-new-system-values: true
+          type: string
+          value: [xm.cms.user, xm.content.user, xm.channel.user, xm.report.user, xm.dashboard.user,
+            xm.channel.webmaster]
