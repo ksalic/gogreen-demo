@@ -1,0 +1,7 @@
+definitions:
+  config:
+    /collections/hippocollection:domains/collection:
+      /readwrite:
+        hipposys:groups: [english-editors, english-authors, french-editors, french-authors]
+      /editor:
+        hipposys:groups: [english-editors, french-editors]
