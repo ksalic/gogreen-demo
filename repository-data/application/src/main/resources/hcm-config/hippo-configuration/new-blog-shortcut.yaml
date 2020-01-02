@@ -8,7 +8,7 @@ definitions:
       documentType: hippogogreen:blogitem
       plugin.class: org.onehippo.forge.dashboard.documentwizard.NewDocumentWizardPlugin
       wicket.id: shortcut
-      workaround: 8
+      sortingWeight: 8
       /nl:
         jcr:primaryType: frontend:pluginconfig
         shortcut-link-label: Maak een blog document

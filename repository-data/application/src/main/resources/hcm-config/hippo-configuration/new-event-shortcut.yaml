@@ -9,7 +9,7 @@ definitions:
       plugin.class: org.onehippo.forge.dashboard.documentwizard.NewDocumentWizardPlugin
       query: new-event-viawizard
       wicket.id: shortcut
-      workaround: 7
+      sortingWeight: 7
       /nl:
         jcr:primaryType: frontend:pluginconfig
         shortcut-link-label: Maak een evenementdocument aan
