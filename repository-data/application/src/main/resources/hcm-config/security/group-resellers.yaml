@@ -3,4 +3,5 @@ definitions:
     /hippo:configuration/hippo:groups/resellers:
       jcr:primaryType: hipposys:group
       hipposys:members: [filippo]
+      hipposys:userroles: [xm.repository.reader, site-reseller]
       hipposys:securityprovider: internal
