@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--
-  Copyright 2011-2017 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2011-2020 Hippo B.V. (http://www.onehippo.com)
 -->
 <Context>
     <!-- Disable session persistence across Tomcat restarts -->
@@ -31,7 +31,7 @@
               timeBetweenEvictionRunsMillis="10000" minEvictableIdleTimeMillis="60000"
               username="sa" password=""
               driverClassName="org.h2.Driver"
-              url="jdbc:h2:${repo.path}/targeting/targeting;MVCC=TRUE"/>
+              url="jdbc:h2:${repo.path}/targeting/targeting"/>
 
     <Environment name="elasticsearch/targetingDS" type="java.lang.String"
                  value="{'indexName':'visits', 'locations':['http://localhost:9200/']}" />
