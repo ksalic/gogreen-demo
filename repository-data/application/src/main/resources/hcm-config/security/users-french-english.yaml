@@ -5,24 +5,24 @@ definitions:
         jcr:primaryType: hipposys:user
         hipposys:active: true
         hipposys:password: english-author
-        hipposys:passwordlastmodified: 2015-04-02T17:56:42.538-07:00
+        hipposys:passwordlastmodified: 2019-04-02T17:56:42.538-07:00
         hipposys:securityprovider: internal
       /english-editor:
         jcr:primaryType: hipposys:user
         hipposys:active: true
         hipposys:password: english-editor
-        hipposys:passwordlastmodified: 2015-04-02T17:56:53.319-07:00
+        hipposys:passwordlastmodified: 2019-04-02T17:56:53.319-07:00
         hipposys:securityprovider: internal
       #Add french-author and french-editor users  
       /french-author:
         jcr:primaryType: hipposys:user
         hipposys:active: true
-        hipposys:password: english-author
-        hipposys:passwordlastmodified: 2015-04-02T17:56:42.538-07:00
+        hipposys:password: french-author
+        hipposys:passwordlastmodified: 2019-04-02T17:56:42.538-07:00
         hipposys:securityprovider: internal
       /french-editor:
         jcr:primaryType: hipposys:user
         hipposys:active: true
-        hipposys:password: english-editor
-        hipposys:passwordlastmodified: 2015-04-02T17:56:42.538-07:00
+        hipposys:password: french-editor
+        hipposys:passwordlastmodified: 2019-04-02T17:56:42.538-07:00
         hipposys:securityprovider: internal  
