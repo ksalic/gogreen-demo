@@ -11,6 +11,24 @@ definitions:
           hipposys:facet: jcr:path
           hipposys:type: Reference
           hipposys:value: /content/documents/hippogogreen
+      /gallery:
+       jcr:primaryType: hipposys:domainrule
+       /gallery-french:
+         jcr:primaryType: hipposys:facetrule
+         hipposys:equals: true
+         hipposys:facet: jcr:path
+         hipposys:filter: false
+         hipposys:type: Reference
+         hipposys:value: /content/gallery
+      /assets:
+       jcr:primaryType: hipposys:domainrule
+       /assets-french:
+         jcr:primaryType: hipposys:facetrule
+         hipposys:equals: true
+         hipposys:facet: jcr:path
+         hipposys:filter: false
+         hipposys:type: Reference
+         hipposys:value: /content/assets
       /author:
         jcr:primaryType: hipposys:authrole
         hipposys:groups:
