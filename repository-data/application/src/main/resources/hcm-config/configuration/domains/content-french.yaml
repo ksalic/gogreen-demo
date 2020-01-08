@@ -22,13 +22,31 @@ definitions:
          hipposys:value: /content/gallery
       /assets:
        jcr:primaryType: hipposys:domainrule
-       /assets-french:
+       /assets:
          jcr:primaryType: hipposys:facetrule
          hipposys:equals: true
          hipposys:facet: jcr:path
          hipposys:filter: false
          hipposys:type: Reference
          hipposys:value: /content/assets
+      /taxonomies:
+        jcr:primaryType: hipposys:domainrule
+        /taxonomies:
+          jcr:primaryType: hipposys:facetrule
+          hipposys:equals: true
+          hipposys:facet: jcr:path
+          hipposys:filter: false
+          hipposys:type: Reference
+          hipposys:value: /content/taxonomies
+      /eforms:
+        jcr:primaryType: hipposys:domainrule
+        /eforms:
+          jcr:primaryType: hipposys:facetrule
+          hipposys:equals: true
+          hipposys:facet: jcr:path
+          hipposys:filter: false
+          hipposys:type: Reference
+          hipposys:value: /content/eforms
       /author:
         jcr:primaryType: hipposys:authrole
         hipposys:groups:
