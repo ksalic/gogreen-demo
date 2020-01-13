@@ -101,11 +101,11 @@
         <c:choose>
           <c:when test="${button.type eq 'nextbutton'}">
             <input id="nextPageButton" type="button" name="nextPageButton" class="${button.styleClass}" style="display: none"
-                   value="<c:choose><c:when test='${empty button.value}'><c:out value='${button.name}'/></c:when><c:otherwise><c:out value='${button.value}' escapeXml="false"/></c:otherwise></c:choose>" />
+                   value="<c:choose><c:when test='${empty button.value}'><c:out value='${button.name}'/></c:when><c:otherwise><c:out value='${button.value}' escapeXml="true"/></c:otherwise></c:choose>" />
           </c:when>
           <c:when test="${button.type eq 'previousbutton'}">
             <input id="previousPageButton" type="button" name="previousPageButton" class="${button.styleClass}" style="display: none"
-                   value="<c:choose><c:when test='${empty button.value}'><c:out value='${button.name}'/></c:when><c:otherwise><c:out value='${button.value}' escapeXml="false"/></c:otherwise></c:choose>" />
+                   value="<c:choose><c:when test='${empty button.value}'><c:out value='${button.name}'/></c:when><c:otherwise><c:out value='${button.value}' escapeXml="true"/></c:otherwise></c:choose>" />
           </c:when>
           <c:when test="${button.type eq 'resetbutton'}">
             <input type="reset" name="${button.formRelativeUniqueName}" class="${button.styleClass}"
@@ -113,7 +113,7 @@
           </c:when>
           <c:when test="${button.type eq 'submitbutton'}">
             <input type="submit" name="${button.formRelativeUniqueName}" class="${button.styleClass}"
-                   value="<c:choose><c:when test='${empty button.value}'><c:out value='${button.name}'/></c:when><c:otherwise><c:out value='${button.value}' escapeXml="false"/></c:otherwise></c:choose>" />
+                   value="<c:choose><c:when test='${empty button.value}'><c:out value='${button.name}'/></c:when><c:otherwise><c:out value='${button.value}' escapeXml="true"/></c:otherwise></c:choose>" />
           </c:when>
           <c:otherwise>
             <input type="button" name="${button.formRelativeUniqueName}" class="${button.styleClass}"
@@ -252,7 +252,8 @@
 
     <%-- real-time ajax-based single field validation --%>
     var fields = $('.eforms-field *:input');
-    var ajaxValidationUrl = '<hst:resourceURL escapeXml="false" resourceId="validation"/>';
+    var ajaxValidationUrl = '<hst:resourceURL escapeXml="true" resourceId="validation"/>';
+    ajaxValidationUrl = ajaxValidationUrl.replace(/&amp;/g, "&");
 
     $('.eforms-field *:input').blur(function() {
       // on leaving form field, post field name/value for ajax validation
