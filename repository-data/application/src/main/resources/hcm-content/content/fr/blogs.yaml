@@ -1,6 +1,6 @@
 /content/documents/hippomiseauvert/blogs:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 51e8a589-4d50-4015-a181-cc1df366a394
   hippo:name: Blogs
   hippostd:foldertype: [new-blogs-folder, new-blog]
@@ -8,7 +8,6 @@
   hippotranslation:locale: fr
   /facetedblogs:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 72
     hippo:docbase: 51e8a589-4d50-4015-a181-cc1df366a394
     hippofacnav:facetnodenames: [Catégorie, Cette année, 'Archives${sortby:''facetvalue'',
         sortorder:''descending''}']
@@ -18,13 +17,8 @@
         begin:0, end:1}]', 'hippogogreen:date$year']
     hippofacnav:limit: 200
     hippofacnav:skipresultsetfacetsavailable: true
-  /2014:
+  /2019:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-    jcr:uuid: 86e7d304-af0d-47df-bf09-186f6ca69b20
-    hippostd:foldertype: [new-blogs-folder, new-blog]
-    hippotranslation:id: 97286e8e-3f9f-45a6-b8de-6253310fd7c9
-    hippotranslation:locale: fr
     /10:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -1764,6 +1758,78 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+      /conference-sur-le-climat-a-copenhague:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 38ea876e-4121-49e4-bf03-6c7840c225fb
+        hippo:name: Conférence sur le climat à Copenhague
+        /conference-sur-le-climat-a-copenhague:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 56b1c86e-f449-4f71-9725-0db5003839b8
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Réchauffement, Climat, Conférence]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-06-22T10:22:00+02:00
+          hippogogreen:summary: "La conférence de Copenhague a été la 15e « Confé\
+            rence des parties » (COP 15) de la\n              Convention-cadre des\
+            \ Nations unies sur les changements climatiques. Elle s'est tenue à Copenhague\n\
+            \              (Danemark), du 7 au 18 décembre 2009. Conformément à la\
+            \ feuille de route adoptée en 2007 lors de la COP\n              13, elle\
+            \ devait être l'occasion, pour les 192 pays ayant ratifié la Convention,\
+            \ de renégocier un accord\n              international sur le climat remplaç\
+            ant le protocole de Kyoto, initié lors de la COP 3 en 1997 et dont la\n\
+            \              première étape prend fin en 2012. Cette COP 15 était é\
+            galement la MOP 5, soit la 5e réunion annuelle\n              depuis l'entré\
+            e en vigueur du protocole de Kyoto en 2005.\n            "
+          hippogogreen:title: Conférence sur le climat à Copenhague
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [Réchauffement, Climat, Conférence, Copenhague]
+          hippostdpubwf:createdBy: admin20
+          hippostdpubwf:creationDate: 2019-07-30T15:29:00+02:00
+          hippostdpubwf:lastModificationDate: 2018-12-13T17:15:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-12-13T17:15:00+01:00
+          hippotranslation:id: 0faa3f16-bddc-4405-ac6e-0106804872c5
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html> <body>
+
+                              <p>Quinzième édition du sommet annuel des représentants des pays ayant ratifié la <a
+                              title="Convention-cadre des Nations unies sur le changement climatique"
+                              href="http://fr.wikipedia.org/wiki/Convention-cadre_des_Nations_unies_sur_le_changement_climatique">Convention-cadre
+                              des Nations unies sur le changement climatique</a>, la COP 15 a abouti au <em>« premier
+                              accord réellement mondial »</em> (selon le secrétaire général de l'ONU) visant à réduire de moitié
+                              les émissions de <a title="Gaz à effet de serre"
+                              href="http://fr.wikipedia.org/wiki/Gaz_%E0_effet_de_serre">gaz à effet de serre</a> en 2050 par
+                              rapport à celles de 1990, pour ne pas dépasser une augmentation moyenne de 2 °C en 2100 par rapport à
+                              l'ère pré-industrielle, soit 1850 (et non pas à 1,5 °C comme le souhaitaient vivement les représentants
+                              des pays insulaires (<a title="AOSIS" href="http://fr.wikipedia.org/wiki/AOSIS">AOSIS</a>),
+                              le G77, la Chine et l'<a title="ALBA" href="http://fr.wikipedia.org/wiki/ALBA">ALBA</a>.</p>
+
+                              <p>Cet accord n'est pas juridiquement contraignant, car il ne prolonge pas le <a
+                              title="Protocole de Kyoto" href="http://fr.wikipedia.org/wiki/Protocole_de_Kyoto">protocole de Kyoto</a>,
+                              censé prendre fin en 2013. Il n'est en outre pas assorti de dates-butoirs ni d'objectifs quantitatifs
+                              alors que pour stabiliser la hausse de températures à 2 degrés par rapport à l'ère pré-industrielle, les
+                              pays industrialisés doivent réduire de 40 % les émissions de gaz à effet de serre avant 2020. A l’heure
+                              actuelle (fin décembre 2009), le cumul des objectifs négociés ne dépasse pas les 20 %. Chaque pays s'est
+                              engagé à formuler avant fin janvier 2013 ses objectifs de baisse d'émission de gaz à effet de serre pour
+                              l'horizon 2015-2020. Certains pays en développement ont néanmoins accepté de mettre en œuvre des mesures
+                              d’atténuation et de lutte contre la <a title="Déforestation"
+                              href="http://fr.wikipedia.org/wiki/D%E9forestation">déforestation</a>, au niveau national, et
+                              de publier un bilan bisannuel de ces efforts tandis que les pays riches ont accepté de consacrer
+                              annuellement (de 2020 à 2100) 100 milliards de dollars américains aux pays en développement.</p>
+
+                              </body> </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikipedia
+            hippogogreen:url: http://fr.wikipedia.org/wiki/Conf%C3%A9rence_de_Copenhague_de_2009_sur_le_climat
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
     /04:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -3578,20 +3644,6 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-  /2013:
-    jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-    jcr:uuid: 8095ed18-5b4b-4fef-b4ff-337e434f1084
-    hippostd:foldertype: [new-blogs-folder, new-blog]
-    hippotranslation:id: 09389c7d-93a5-4491-af9d-9fbb362adc1a
-    hippotranslation:locale: fr
-    /07:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: e06f5b42-c017-4b3d-80db-864c19c90932
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 0a885364-4a6a-4492-83f6-8092981d42da
-      hippotranslation:locale: fr
       /toyota-placer-verre-eau-tableau-bord:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -3647,82 +3699,3 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-    /06:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 8d5614f3-d0ec-4951-9f13-19e17fc2a8fc
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: b59e46a3-ff73-4cdc-b102-6cf5045b2548
-      hippotranslation:locale: fr
-      /conference-sur-le-climat-a-copenhague:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 38ea876e-4121-49e4-bf03-6c7840c225fb
-        hippo:name: Conférence sur le climat à Copenhague
-        /conference-sur-le-climat-a-copenhague:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 56b1c86e-f449-4f71-9725-0db5003839b8
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Réchauffement, Climat, Conférence]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2019-06-22T10:22:00+02:00
-          hippogogreen:summary: "La conférence de Copenhague a été la 15e « Confé\
-            rence des parties » (COP 15) de la\n              Convention-cadre des\
-            \ Nations unies sur les changements climatiques. Elle s'est tenue à Copenhague\n\
-            \              (Danemark), du 7 au 18 décembre 2009. Conformément à la\
-            \ feuille de route adoptée en 2007 lors de la COP\n              13, elle\
-            \ devait être l'occasion, pour les 192 pays ayant ratifié la Convention,\
-            \ de renégocier un accord\n              international sur le climat remplaç\
-            ant le protocole de Kyoto, initié lors de la COP 3 en 1997 et dont la\n\
-            \              première étape prend fin en 2012. Cette COP 15 était é\
-            galement la MOP 5, soit la 5e réunion annuelle\n              depuis l'entré\
-            e en vigueur du protocole de Kyoto en 2005.\n            "
-          hippogogreen:title: Conférence sur le climat à Copenhague
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [Réchauffement, Climat, Conférence, Copenhague]
-          hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2019-07-30T15:29:00+02:00
-          hippostdpubwf:lastModificationDate: 2018-12-13T17:15:00+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-12-13T17:15:00+01:00
-          hippotranslation:id: 0faa3f16-bddc-4405-ac6e-0106804872c5
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html> <body>
-
-                              <p>Quinzième édition du sommet annuel des représentants des pays ayant ratifié la <a
-                              title="Convention-cadre des Nations unies sur le changement climatique"
-                              href="http://fr.wikipedia.org/wiki/Convention-cadre_des_Nations_unies_sur_le_changement_climatique">Convention-cadre
-                              des Nations unies sur le changement climatique</a>, la COP 15 a abouti au <em>« premier
-                              accord réellement mondial »</em> (selon le secrétaire général de l'ONU) visant à réduire de moitié
-                              les émissions de <a title="Gaz à effet de serre"
-                              href="http://fr.wikipedia.org/wiki/Gaz_%E0_effet_de_serre">gaz à effet de serre</a> en 2050 par
-                              rapport à celles de 1990, pour ne pas dépasser une augmentation moyenne de 2 °C en 2100 par rapport à
-                              l'ère pré-industrielle, soit 1850 (et non pas à 1,5 °C comme le souhaitaient vivement les représentants
-                              des pays insulaires (<a title="AOSIS" href="http://fr.wikipedia.org/wiki/AOSIS">AOSIS</a>),
-                              le G77, la Chine et l'<a title="ALBA" href="http://fr.wikipedia.org/wiki/ALBA">ALBA</a>.</p>
-
-                              <p>Cet accord n'est pas juridiquement contraignant, car il ne prolonge pas le <a
-                              title="Protocole de Kyoto" href="http://fr.wikipedia.org/wiki/Protocole_de_Kyoto">protocole de Kyoto</a>,
-                              censé prendre fin en 2013. Il n'est en outre pas assorti de dates-butoirs ni d'objectifs quantitatifs
-                              alors que pour stabiliser la hausse de températures à 2 degrés par rapport à l'ère pré-industrielle, les
-                              pays industrialisés doivent réduire de 40 % les émissions de gaz à effet de serre avant 2020. A l’heure
-                              actuelle (fin décembre 2009), le cumul des objectifs négociés ne dépasse pas les 20 %. Chaque pays s'est
-                              engagé à formuler avant fin janvier 2013 ses objectifs de baisse d'émission de gaz à effet de serre pour
-                              l'horizon 2015-2020. Certains pays en développement ont néanmoins accepté de mettre en œuvre des mesures
-                              d’atténuation et de lutte contre la <a title="Déforestation"
-                              href="http://fr.wikipedia.org/wiki/D%E9forestation">déforestation</a>, au niveau national, et
-                              de publier un bilan bisannuel de ces efforts tandis que les pays riches ont accepté de consacrer
-                              annuellement (de 2020 à 2100) 100 milliards de dollars américains aux pays en développement.</p>
-
-                              </body> </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikipedia
-            hippogogreen:url: http://fr.wikipedia.org/wiki/Conf%C3%A9rence_de_Copenhague_de_2009_sur_le_climat
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs

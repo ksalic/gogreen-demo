@@ -1,18 +1,23 @@
 /content/documents/hippomiseauvert/news:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 64e7b617-d61f-4371-bc66-f786d7d46360
   hippo:name: Nouvelles
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 698c552c-4a05-48b3-a846-8ea0f99c9a14
   hippotranslation:locale: fr
-  /2014:
+  /facetednews:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:docbase: 64e7b617-d61f-4371-bc66-f786d7d46360
+    hippofacnav:facetnodenames: [Cette année, 'Archives${sortby:''facetvalue'', sortorder:''descending''}']
+    hippofacnav:facets: ["hippostdpubwf:publicationDate$[{name:'Ce mois-ci', resolution:'month',\
+        \ begin:0, end:1},\r\n        {name:'Mois dernier', resolution:'month', begin:-1,\
+        \ end:0}, {name:'Cette année',\r\n        resolution:'year', begin:0, end:1}]",
+                         'hippostdpubwf:publicationDate$year']
+    hippofacnav:limit: 200
+    hippofacnav:skipresultsetfacetsavailable: true
+  /2019:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
-    jcr:uuid: 59c8c93f-0a3a-4075-8d57-0b103f77c555
-    hippostd:foldertype: [new-translated-folder, new-document]
-    hippotranslation:id: c27d26c4-d67e-4747-a63a-49f2c90abd91
-    hippotranslation:locale: fr
     /09:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
@@ -335,14 +340,3 @@
             hippostd:content: |-
               <p>De New York &agrave; Nairobi. GoGreen est parmi les 10 entreprises mondiales reconnues par le Fonds pour l&#39;environnement des Nations Unies avec une nomination pour le prestigieux prix de d&eacute;veloppement durable des entreprises. Selon l&#39;annonce Business Awards durable, GoGreen a &eacute;t&eacute; nomin&eacute; pour ses &laquo;contributions exceptionnelles &agrave; la lutte contre le changement climatique avec sa strat&eacute;gie globale de responsabilit&eacute; sociale des entreprises.&quot;
               <br /> &laquo;Nous sommes ravis d&#39;&ecirc;tre nomin&eacute; pour le Prix d&#39;affaires durable&raquo;, note le PDG de GoGreen Robert Greene, &laquo;nous respectons bien le travail de l&#39;UNEF et sommes fiers d&#39;&ecirc;tre class&eacute; parmi les entreprises visionnaires.&quot; Les laur&eacute;ats du Prix de l&#39;entreprise durable seront annonc&eacute;s &agrave; une c&eacute;r&eacute;monie &agrave; Nairobi en D&eacute;cembre.</p>
-  /facetednews:
-    jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 29
-    hippo:docbase: 64e7b617-d61f-4371-bc66-f786d7d46360
-    hippofacnav:facetnodenames: [Cette année, 'Archives${sortby:''facetvalue'', sortorder:''descending''}']
-    hippofacnav:facets: ["hippostdpubwf:publicationDate$[{name:'Ce mois-ci', resolution:'month',\
-        \ begin:0, end:1},\r\n        {name:'Mois dernier', resolution:'month', begin:-1,\
-        \ end:0}, {name:'Cette année',\r\n        resolution:'year', begin:0, end:1}]",
-      'hippostdpubwf:publicationDate$year']
-    hippofacnav:limit: 200
-    hippofacnav:skipresultsetfacetsavailable: true
