@@ -1,12 +1,12 @@
 /content/documents/hippogogreen-uk/news:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 0c3937d6-29a5-49b7-8fd2-800317751c1d
   hippo:name: News
   hippostd:foldertype: [new-news-folder, new-news]
   hippotranslation:id: 698c552c-4a05-48b3-a846-8ea0f99c9a14
   hippotranslation:locale: en-gb
-  /2014:
+  /2019:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
     jcr:uuid: 2f2ae98b-c493-41bf-8e24-95e1e01523e4
@@ -466,12 +466,11 @@
               \ experience without sacrificing brand consistency.&rdquo;</p>"
   /facetednews:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 29
     hippo:docbase: 0c3937d6-29a5-49b7-8fd2-800317751c1d
     hippofacnav:facetnodenames: [This year, 'Archive${sortby:''facetvalue'', sortorder:''descending''}']
     hippofacnav:facets: ["hippogogreen:date$[{name:'This month', resolution:'month',\
         \ begin:0, end:1},\r\n        {name:'Last month', resolution:'month', begin:-1,\
         \ end:0}, {name:'This year',\r\n        resolution:'year', begin:0, end:1}]",
-      'hippogogreen:date$year']
+                         'hippogogreen:date$year']
     hippofacnav:limit: 200
     hippofacnav:skipresultsetfacetsavailable: true
