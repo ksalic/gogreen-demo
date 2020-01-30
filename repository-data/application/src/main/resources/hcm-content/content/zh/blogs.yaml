@@ -1,12 +1,12 @@
 /content/documents/河马转到绿/blogs:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: c6328f80-fd68-428e-8ddc-99e97b8d92db
   hippo:name: 博客
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 08864dfd-8e37-44eb-ba58-63c4e42ff078
   hippotranslation:locale: zh
-  /2014:
+  /2019:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: f13cf631-1c3f-4895-999b-c53294892a90
@@ -1599,7 +1599,6 @@
             hippo:values: []
   /facetedblogs:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 36
     hippo:docbase: c6328f80-fd68-428e-8ddc-99e97b8d92db
     hippofacnav:facetnodenames: [期, 博客分类, '一年${sortby:''facetvalue'', sortorder:''descending''}']
     hippofacnav:facets: ['hippogogreen:date$[{name:''本月'', resolution:''month'', begin:0,
