@@ -6,7 +6,7 @@
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 2a57de96-bc3c-4a63-a61f-869c0cebd9cd
   hippotranslation:locale: de
-  /2014:
+  /2019:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 764fc901-0c86-446b-b092-f986015eef7b
@@ -924,7 +924,7 @@
     jcr:primaryType: hippofacnav:facetnavigation
     hippo:docbase: eca927c3-27fc-4af0-ae7c-38652b18ffb1
     hippofacnav:facetnodenames: ['year${hide:''year''}', 'month${after:''year'', hide:''month''}',
-      'day${after:''month''}']
+                                 'day${after:''month''}']
     hippofacnav:facets: ['hippogogreen:date$year', 'hippogogreen:date$month', 'hippogogreen:date$day']
     hippofacnav:limit: 100
     hippofacnav:skipresultsetfacetsavailable: true
@@ -940,7 +940,7 @@
     hippofacnav:skipresultsetfacetsavailable: true
     hippofacnav:sortby: ['hippogogreen:date']
     hippofacnav:sortorder: [descending]
-  /2015:
+  /2020:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
     jcr:uuid: a0c38cd4-5881-4e8e-a586-d6699dcbb0d7
@@ -954,7 +954,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: 177d02b2-4fdf-4f93-92cf-bb96dcac6af9
       hippotranslation:locale: de
-      /green-living-show:
+      /green-living-show[1]:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: ab252aa9-0a44-4651-8695-b3fa1e4d049e
@@ -1113,7 +1113,7 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-      /green-festival:
+      /green-festival[1]:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: fd3b70c7-0c8e-404f-99ea-a851a6cb23e9
@@ -1296,6 +1296,360 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+      /green-living-show[2]:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 9c8268df-e298-4a86-9f18-a8402a629fa0
+        hippo:name: Green Living Show
+        /green-living-show[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 23c10cef-5ace-495f-8519-03a1f49ded93
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:55.871+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4fb96f16-deea-4779-8a78-dac39cf42ea0
+          hippo:availability: []
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:48.589+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a1a097cc-cd0b-4f8a-a732-875b4d80403c
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2016-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
+            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
+            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
+            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
+            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
+            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
+            und Aktivitäten. Ein großer Spaß für die ganze Familie.
+          hippogogreen:title: Green Living Anzeigen
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:55.871+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2020-05-27T14:32:57.982+02:00
+          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Ausstellerverzeichnis Produktkategorien:
+              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /green-festival[2]:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: fe355793-1784-4efd-aea0-7098da14b326
+        hippo:name: Green Festival
+        /green-festival[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 50a05e48-bffd-4e06-8308-da2c72e816fb
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:07.090+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 82934f1b-c934-4283-8cf0-64e0077b0973
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:59.952+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f0123fba-d5aa-45de-9583-252c73de1585
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: New York City Green Festival startet seine dritte
+            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
+            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
+            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
+            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
+            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
+            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
+            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
+            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
+            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
+            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
+            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
+          hippogogreen:title: Green Festival
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:07.090+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2020-05-27T14:33:09.089+02:00
+          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
+              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
+              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
+              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
+              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
+              mit den besten Umwelt-und Natur.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
     /02:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -1303,7 +1657,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: c6eef74f-9822-4adb-ad8e-f02b3cee6f80
       hippotranslation:locale: de
-      /naturkapital:
+      /naturkapital[1]:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: 75072950-40e4-4cda-82f1-cb3a4252805c
@@ -1474,6 +1828,183 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+      /naturkapital[2]:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 3f70d4dd-7c47-418e-83a0-28ee894d443d
+        hippo:name: Naturkapital
+        /naturkapital[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 9559c72d-32b3-4371-956e-aeec2e890154
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:18.879+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /naturkapital[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bd309768-ffc7-4a4b-8056-f12c7831a2a3
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:12.956+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /naturkapital[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 247af76b-99af-4938-b4ae-537cbbfc1874
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2016-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
+            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
+            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
+            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
+            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
+            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
+            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
+            werden.
+          hippogogreen:title: Naturkapital
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:18.879+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2020-05-27T14:33:20.747+02:00
+          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
+          hippotranslation:locale: de
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
+              <br /> Thursday, 18. Februar 2015
+              <br /> 16.00 bis 05.00 Uhr (UK)
+              <br /> 11 - 12 Uhr (EST)
+              <br /> 08.00 bis 09.00 Uhr (PST)</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
     /01:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -1481,7 +2012,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: 6925cc32-3f50-4e24-92c4-0fc7310abad3
       hippotranslation:locale: de
-      /ces-green:
+      /ces-green[1]:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: 2bacfac0-f369-4a91-9224-4b4b12ba11c8
@@ -1895,566 +2426,7 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-  /2016:
-    jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
-    jcr:uuid: a31d743b-8a44-4306-8aa5-11a6c07cadc8
-    hippostd:foldertype: [new-event-folder, new-event]
-    hippotranslation:id: 1f123074-6971-426d-9da2-847a09031e9f
-    hippotranslation:locale: de
-    /04:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 098339be-6c76-4236-b91a-9da12b46e21d
-      hippostd:foldertype: [new-event-folder, new-event]
-      hippotranslation:id: 13c01d92-dad8-4a70-a408-4d03f18dacc6
-      hippotranslation:locale: de
-      /green-living-show:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 9c8268df-e298-4a86-9f18-a8402a629fa0
-        hippo:name: Green Living Show
-        /green-living-show[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 23c10cef-5ace-495f-8519-03a1f49ded93
-          hippo:availability: [preview]
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: desire
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
-            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
-            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
-            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
-            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
-            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
-            und Aktivitäten. Ein großer Spaß für die ganze Familie.
-          hippogogreen:title: Green Living Anzeigen
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:55.871+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Ausstellerverzeichnis Produktkategorien:
-              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-living-show[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 4fb96f16-deea-4779-8a78-dac39cf42ea0
-          hippo:availability: []
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: desire
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
-            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
-            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
-            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
-            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
-            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
-            und Aktivitäten. Ein großer Spaß für die ganze Familie.
-          hippogogreen:title: Green Living Anzeigen
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:48.589+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Ausstellerverzeichnis Produktkategorien:
-              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-living-show[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: a1a097cc-cd0b-4f8a-a732-875b4d80403c
-          hippo:availability: [live]
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: desire
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: Ist die Green Living anzeigen Kanadas größte grüne
-            Verbraucherschau auf die Aufklärung der Öffentlichkeit über eine einfache
-            und praktikable Lösungen für führende einen nachhaltigen Lebensstil gewidmet.
-            Die Besucher können an mehr als 400 Exponate einkaufen, essen Lebensmittel
-            aus der Region von renommierten Köchen zubereitet, schmecken umweltfreundliche
-            Weine und genießen Sie eine vielfältige Auswahl an Demonstrationen, Präsentationen
-            und Aktivitäten. Ein großer Spaß für die ganze Familie.
-          hippogogreen:title: Green Living Anzeigen
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:55.871+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-05-27T14:32:57.982+02:00
-          hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Ausstellerverzeichnis Produktkategorien:
-              <br /> Energie, Lebensmittel und Getr&auml;nke, Green Building, Transporter, &Ouml;ko-Tourismus und Freizeit, Haus &amp; Garten, Gesundheit &amp; Wellness, Mode &amp; Beauty, Kinder, Haustiere, Green Business, Umwelt P&auml;dagogen, ENGO und Non-Profits.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /green-festival:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: fe355793-1784-4efd-aea0-7098da14b326
-        hippo:name: Green Festival
-        /green-festival[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 50a05e48-bffd-4e06-8308-da2c72e816fb
-          hippo:availability: [preview]
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: New York City Green Festival startet seine dritte
-            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
-            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
-            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
-            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
-            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
-            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
-            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
-            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
-            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
-            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
-            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
-          hippogogreen:title: Green Festival
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:07.090+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
-              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
-              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
-              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
-              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
-              mit den besten Umwelt-und Natur.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-festival[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 82934f1b-c934-4283-8cf0-64e0077b0973
-          hippo:availability: []
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: New York City Green Festival startet seine dritte
-            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
-            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
-            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
-            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
-            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
-            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
-            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
-            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
-            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
-            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
-            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
-          hippogogreen:title: Green Festival
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:32:59.952+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
-              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
-              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
-              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
-              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
-              mit den besten Umwelt-und Natur.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-festival[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: f0123fba-d5aa-45de-9583-252c73de1585
-          hippo:availability: [live]
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: New York City Green Festival startet seine dritte
-            Jahr April 26-27 an einem neuen Veranstaltungsort, Pier 94! Bei Green
-            Festival®, es ist etwas für alle, die sich im Wohn eine nachhaltigere
-            und gesündere Leben. Erleben Sie die größte Auswahl an Produkten und Dienstleistungen
-            zu arbeiten grün, grün und spielen leben grün - von Lebensmitteln, Mode
-            und Gesundheit, Energie, Bau und Design. Genießen Sie vegane und vegetarische
-            Koch Demos, Bildungsaktivitäten für Kinder und Familien, Tafeln mit inspirierenden
-            Referenten und Live-Musik und Unterhaltung. Shop in unserer einzigartigen
-            Marktplatz für mehr als 300 Öko-Unternehmen - alles aus natürlichen Körperpflegeprodukte
-            und Bio-Kleidung zu Fair Trade Geschenke, schöne Haus Renovierungen aus
-            nachwachsenden Rohstoffen, sowie vegane und vegetarische Angebote auf
-            Basis von organischen, nicht-GVO oder lokalen, handwerklichen Lebensmitteln.
-          hippogogreen:title: Green Festival
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:07.090+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-05-27T14:33:09.089+02:00
-          hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>Sozial, wirtschaftlich und &ouml;kologisch - f&uuml;r
-              die vergangenen 13 Jahre hat sich Green Festival, damit Menschen in
-              Amerika L&ouml;sungen zu finden, um unsere Familien und Gemeinden ges&uuml;nder
-              verpflichtet. Begleiten Sie uns auf der gr&ouml;&szlig;ten und am l&auml;ngsten
-              laufende Nachhaltigkeit Veranstaltung im Land, und feiern Earth Month
-              mit den besten Umwelt-und Natur.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-    /02:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 8bb2cf2c-7897-4af4-8b8b-c99c09b61600
-      hippostd:foldertype: [new-event-folder, new-event]
-      hippotranslation:id: 79ce5b01-4965-4e1e-888d-7e14dbf61159
-      hippotranslation:locale: de
-      /naturkapital:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 3f70d4dd-7c47-418e-83a0-28ee894d443d
-        hippo:name: Naturkapital
-        /naturkapital[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 9559c72d-32b3-4371-956e-aeec2e890154
-          hippo:availability: [preview]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
-            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
-            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
-            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
-            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
-            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
-            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
-            werden.
-          hippogogreen:title: Naturkapital
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:18.879+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
-              <br /> Thursday, 18. Februar 2015
-              <br /> 16.00 bis 05.00 Uhr (UK)
-              <br /> 11 - 12 Uhr (EST)
-              <br /> 08.00 bis 09.00 Uhr (PST)</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /naturkapital[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: bd309768-ffc7-4a4b-8056-f12c7831a2a3
-          hippo:availability: []
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
-            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
-            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
-            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
-            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
-            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
-            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
-            werden.
-          hippogogreen:title: Naturkapital
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:12.956+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
-              <br /> Thursday, 18. Februar 2015
-              <br /> 16.00 bis 05.00 Uhr (UK)
-              <br /> 11 - 12 Uhr (EST)
-              <br /> 08.00 bis 09.00 Uhr (PST)</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /naturkapital[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 247af76b-99af-4938-b4ae-537cbbfc1874
-          hippo:availability: [live]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: Naturkapital ist ein Begriff, der nicht, kann viel
-            für Sie noch nicht, aber es hat das Potenzial, alle Unternehmen zu beeinflussen
-            hat. Diese Unternehmen direkt in ressourcenintensiven Bereichen wie Landwirtschaft,
-            Forstwirtschaft, Bergbau oder beteiligt sind uns bewusst über die Auswirkungen
-            natürlichen Kapitalverlust kann auf einem Geschäft haben. Allerdings natürliche
-            Kapital kann neue Geschäftschancen sowie für diejenigen, die direkt von
-            Naturkapital beeinflusst und indirekt über ihre Lieferkette beeinflusst
-            werden.
-          hippogogreen:title: Naturkapital
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:33:18.879+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-05-27T14:33:20.747+02:00
-          hippotranslation:id: b28727c1-6601-4fb4-8ae4-bc84d83c48b2
-          hippotranslation:locale: de
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Registriert Verdantix Analyst Derrek Clarke f&uuml;r einen Markt&uuml;berblick &uuml;ber das Naturkapital. Themen sind unter anderem direkte und indirekte Auswirkungen von Naturkapital &uuml;ber die Absatzkette, Gesch&auml;fts Vorteile eines nat&uuml;rlichen Kapitalstrategie, wo Naturkapital passt in eine Nachhaltigkeitsstrategie, Herausforderungen bew&auml;ltigt werden, wenn die Integration von Naturkapital in Ihre Nachhaltigkeitsstrategie und die Werkzeuge zur Verf&uuml;gung, um .
-              <br /> Thursday, 18. Februar 2015
-              <br /> 16.00 bis 05.00 Uhr (UK)
-              <br /> 11 - 12 Uhr (EST)
-              <br /> 08.00 bis 09.00 Uhr (PST)</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-    /01:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: d51c6c47-1bdf-4621-9c63-073c3084d65e
-      hippostd:foldertype: [new-event-folder, new-event]
-      hippotranslation:id: 6e3866c3-332c-4531-aa4b-295b1162e724
-      hippotranslation:locale: de
-      /ces-green:
+      /ces-green[2]:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: e4cfd9ac-e4be-4bc5-ac29-05ab114c6784
