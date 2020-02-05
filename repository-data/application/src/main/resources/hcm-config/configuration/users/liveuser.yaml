@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:users/liveuser:
+      hipposys:userroles:
+        .meta:category: system
+        .meta:add-new-system-values: true
+        type: string
+        value: [xm.live-documents.reader, xm.frontend-config.reader]

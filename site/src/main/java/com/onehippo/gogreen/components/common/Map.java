@@ -1,7 +1,6 @@
 /**
- * Copyright 2010-2018 Hippo B.V. (http://www.onehippo.com)
+ * Copyright 2010-2020 Hippo B.V. (http://www.onehippo.com)
  */
-
 package com.onehippo.gogreen.components.common;
 
 import com.onehippo.gogreen.components.BaseComponent;
@@ -18,7 +17,7 @@ import javax.jcr.RepositoryException;
 public class Map extends BaseComponent {
 
     public static final Logger log = LoggerFactory.getLogger(Map.class);
-    public static final String EXPERIENCE_OPTIMIZER_PERSPECTIVE = "/hippo:configuration/hippo:frontend/cms/hippo-targeting/experience-optimizer-perspective/";
+    public static final String EXPERIENCE_OPTIMIZER_PERSPECTIVE = "/hippo:configuration/hippo:frontend/cms/hippo-targeting/experience-optimizer-perspective";
     public static final String GOOGLE_API_KEY = "google.api.key";
 
     @Override
@@ -37,13 +36,13 @@ public class Map extends BaseComponent {
         request.setAttribute("zoomlevel", zoomlevel);
 
         try {
-            Node experiencePerpsective = request.getRequestContext().getSession().getNode(EXPERIENCE_OPTIMIZER_PERSPECTIVE);
-            if (experiencePerpsective.hasProperty(GOOGLE_API_KEY)) {
-                String apiKey = experiencePerpsective.getProperty(GOOGLE_API_KEY).getString();
+            final Node experiencePerspective = request.getRequestContext().getSession().getNode(EXPERIENCE_OPTIMIZER_PERSPECTIVE);
+            if (experiencePerspective.hasProperty(GOOGLE_API_KEY)) {
+                String apiKey = experiencePerspective.getProperty(GOOGLE_API_KEY).getString();
                 request.setAttribute("googleApiKey", apiKey);
             }
         } catch (RepositoryException e) {
-            log.warn("could not retrieve Exeperience Optimizer Perspective confirguration node");
+            log.warn("could not retrieve configuration node {}", EXPERIENCE_OPTIMIZER_PERSPECTIVE);
         }
 
     }
