@@ -6,18 +6,13 @@
   hippostd:foldertype: [new-news-folder, new-news]
   hippotranslation:id: 698c552c-4a05-48b3-a846-8ea0f99c9a14
   hippotranslation:locale: en
-  /facetednews:
-    jcr:primaryType: hippofacnav:facetnavigation
-    hippo:docbase: 90fb1f31-3f44-4d05-ad56-234002d20bd8
-    hippofacnav:facetnodenames: [This year, 'Archive${sortby:''facetvalue'', sortorder:''descending''}']
-    hippofacnav:facets: ["hippogogreen:date$[{name:'This month', resolution:'month',\
-        \ begin:0, end:1},\r\n        {name:'Last month', resolution:'month', begin:-1,\
-        \ end:0}, {name:'This year',\r\n        resolution:'year', begin:0, end:1}]",
-                         'hippogogreen:date$year']
-    hippofacnav:limit: 200
-    hippofacnav:skipresultsetfacetsavailable: true
   /2019:
     jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 9650f338-7276-4b21-b754-f07db0f77c5f
+    hippostd:foldertype: [new-news-folder, new-news]
+    hippotranslation:id: c27d26c4-d67e-4747-a63a-49f2c90abd91
+    hippotranslation:locale: en
     /10:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
@@ -250,114 +245,6 @@
               \ take lead on business and market development; market research; strategic\
               \ direction for promotion and advertising; and direction of marketing\
               \ staff.</p>"
-      /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: b8236fb0-c4e5-48a2-9212-4687b84c526a
-        hippo:name: Hippo and GoGreen Collaborate to Launch a Comprehensive Website
-          Redesign
-        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[1]:
-          jcr:primaryType: hippogogreen:newsitem
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 8ed0b057-f1c4-464f-b6f5-f567e6459110
-          hippo:availability: [preview]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2019-09-12T10:22:00+01:00
-          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
-            digitally-native, global authority on sustainable products for the home,
-            office and outdoors has just announced the launch of a completely new
-            GoGreen.com.
-          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
-            Website Redesign
-          hippostd:holder: admin
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-08T17:04:19.006+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-08T17:09:45.916+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
-          hippotranslation:locale: en
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
-              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
-              \ multi-device customer experience that would broaden the store&rsquo;s\
-              \ customer base while remaining the essential resource for sustainable\
-              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
-              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
-              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
-              \ at our own pace, and work with the tools and solutions we trust. The\
-              \ results give us an unprecedented level of control over the customer\
-              \ experience without sacrificing brand consistency.&rdquo;</p>"
-        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[2]:
-          jcr:primaryType: hippogogreen:newsitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 256b8ad7-1bc8-4e1b-adda-9687f5b44765
-          hippo:availability: []
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2019-09-12T10:22:00+01:00
-          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
-            digitally-native, global authority on sustainable products for the home,
-            office and outdoors has just announced the launch of a completely new
-            GoGreen.com.
-          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
-            Website Redesign
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-08T17:04:19.006+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-08T17:04:19.141+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
-          hippotranslation:locale: en
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
-              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
-              \ multi-device customer experience that would broaden the store&rsquo;s\
-              \ customer base while remaining the essential resource for sustainable\
-              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
-              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
-              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
-              \ at our own pace, and work with the tools and solutions we trust. The\
-              \ results give us an unprecedented level of control over the customer\
-              \ experience without sacrificing brand consistency.&rdquo;</p>"
-        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[3]:
-          jcr:primaryType: hippogogreen:newsitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 8ae80272-97b5-40c0-8fab-1fa74902dc8b
-          hippo:availability: [live]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2019-09-12T10:22:00+01:00
-          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
-            digitally-native, global authority on sustainable products for the home,
-            office and outdoors has just announced the launch of a completely new
-            GoGreen.com.
-          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
-            Website Redesign
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-08T17:04:19.006+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-08T17:09:45.916+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2019-07-15T17:09:48.067+02:00
-          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
-          hippotranslation:locale: en
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
-              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
-              \ multi-device customer experience that would broaden the store&rsquo;s\
-              \ customer base while remaining the essential resource for sustainable\
-              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
-              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
-              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
-              \ at our own pace, and work with the tools and solutions we trust. The\
-              \ results give us an unprecedented level of control over the customer\
-              \ experience without sacrificing brand consistency.&rdquo;</p>"
-  /2020:
-    jcr:primaryType: hippostd:folder
-    /09:
-      jcr:primaryType: hippostd:folder
       /gogreen-announces-record-growth-in-h1:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -473,3 +360,117 @@
               \ and customers now expect businesses that align with their values,\
               \ and with the good of the planet&mdash;we&rsquo;re glad to be bringing\
               \ sustainable products to these new markets.&rdquo;</p>"
+      /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b8236fb0-c4e5-48a2-9212-4687b84c526a
+        hippo:name: Hippo and GoGreen Collaborate to Launch a Comprehensive Website
+          Redesign
+        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[1]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 8ed0b057-f1c4-464f-b6f5-f567e6459110
+          hippo:availability: [preview]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-09-12T10:22:00+01:00
+          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
+            digitally-native, global authority on sustainable products for the home,
+            office and outdoors has just announced the launch of a completely new
+            GoGreen.com.
+          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
+            Website Redesign
+          hippostd:holder: admin
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-08T17:04:19.006+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-08T17:09:45.916+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
+              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
+              \ multi-device customer experience that would broaden the store&rsquo;s\
+              \ customer base while remaining the essential resource for sustainable\
+              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
+              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
+              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
+              \ at our own pace, and work with the tools and solutions we trust. The\
+              \ results give us an unprecedented level of control over the customer\
+              \ experience without sacrificing brand consistency.&rdquo;</p>"
+        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[2]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 256b8ad7-1bc8-4e1b-adda-9687f5b44765
+          hippo:availability: []
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-09-12T10:22:00+01:00
+          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
+            digitally-native, global authority on sustainable products for the home,
+            office and outdoors has just announced the launch of a completely new
+            GoGreen.com.
+          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
+            Website Redesign
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-08T17:04:19.006+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-08T17:04:19.141+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
+              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
+              \ multi-device customer experience that would broaden the store&rsquo;s\
+              \ customer base while remaining the essential resource for sustainable\
+              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
+              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
+              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
+              \ at our own pace, and work with the tools and solutions we trust. The\
+              \ results give us an unprecedented level of control over the customer\
+              \ experience without sacrificing brand consistency.&rdquo;</p>"
+        /hippo-and-gogreen-collaborate-to-launch-a-comprehensive-website-redesign[3]:
+          jcr:primaryType: hippogogreen:newsitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8ae80272-97b5-40c0-8fab-1fa74902dc8b
+          hippo:availability: [live]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-09-12T10:22:00+01:00
+          hippogogreen:summary: Working closely with Hippo, GoGreen, the world’s first,
+            digitally-native, global authority on sustainable products for the home,
+            office and outdoors has just announced the launch of a completely new
+            GoGreen.com.
+          hippogogreen:title: Hippo and GoGreen Collaborate to Launch a Comprehensive
+            Website Redesign
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-08T17:04:19.006+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-08T17:09:45.916+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-07-15T17:09:48.067+02:00
+          hippotranslation:id: 0e38b8c5-e41c-48da-85dd-de0625c36d1a
+          hippotranslation:locale: en
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Using GoGreen&rsquo;s CSR philosophy as the starting\
+              \ point, the team set out to create a holistic, hyper-engaging, multi-channel,\
+              \ multi-device customer experience that would broaden the store&rsquo;s\
+              \ customer base while remaining the essential resource for sustainable\
+              \ living.</p> \n<p> &ldquo;Hippo&rsquo;s solid and easy to integrate\
+              \ architecture made this implementation a breeze&rdquo; notes GoGreen\
+              \ CTO Joanna Groen, &ldquo;we&rsquo;ve been able to migrate to Hippo\
+              \ at our own pace, and work with the tools and solutions we trust. The\
+              \ results give us an unprecedented level of control over the customer\
+              \ experience without sacrificing brand consistency.&rdquo;</p>"
+  /facetednews:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:docbase: 90fb1f31-3f44-4d05-ad56-234002d20bd8
+    hippofacnav:facetnodenames: [This year, 'Archive${sortby:''facetvalue'', sortorder:''descending''}']
+    hippofacnav:facets: ["hippogogreen:date$[{name:'This month', resolution:'month',\
+        \ begin:0, end:1},\r\n        {name:'Last month', resolution:'month', begin:-1,\
+        \ end:0}, {name:'This year',\r\n        resolution:'year', begin:0, end:1}]",
+      'hippogogreen:date$year']
+    hippofacnav:limit: 200
+    hippofacnav:skipresultsetfacetsavailable: true
