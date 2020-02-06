@@ -19,943 +19,11 @@
     hippofacnav:skipresultsetfacetsavailable: true
   /2019:
     jcr:primaryType: hippostd:folder
-    /02:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 7493e668-b337-4b1f-9c58-8d45b79f6166
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 1c06680d-635e-4624-90c8-4728efa859c3
-      hippotranslation:locale: nl
-      /de-nieuwe-enercon-e-126-windturbine:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: ea549f94-65bd-4d34-a834-7095cfddcf4d
-        hippo:name: De nieuwe Enercon E-126 Windturbine
-        /de-nieuwe-enercon-e-126-windturbine:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 68be2b91-8d60-4fbf-872c-c7a494798b4f
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Green, Energy]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-02-13T15:51:00+01:00
-          hippogogreen:summary: De grootste windturbine ter wereld is nu de Enercon
-            E-126. Deze turbine heeft een rotordiameter van 126 meter (413 voet).
-            De E-126 is een meer geavanceerde versie van de E-112, voorheen de grootste
-            windturbine ter wereld, deze produceerde 6 megawatts.
-          hippogogreen:title: The new Enercon E-126 Wind Turbine
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [Turbines]
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2017-07-12T12:28:00Z
-          hippostdpubwf:lastModificationDate: 2018-01-07T13:48:00Z
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-01-07T13:48:00Z
-          hippotranslation:id: 25bf4f5f-ccee-48bf-a13e-9aa69ab03392
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>De nieuwe turbine wordt officieel beoordeeld op 6 megawatts, maar zal
-              waarschijnlijk meer dan 7 megawatts produceren (oftewel 20 miljoen kilowattuur
-              per jaar). Dat is genoeg energie om ongeveer 5000 Europese huishoudens van vier
-              te voorzien van stroom. Een snelle berekening voor de VS komt neer op 938 kwh
-              per huishouden per maand, oftwel 11,256 per huishouden per jaar. 1776
-              Amerikaanse huishoudens kunnen dus worden voorzien van stroom door slechts één
-              windturbine.</p>
-
-              <p> </p>
-
-              <p>De turbine wordt opgezet in Emden, Duitsland door Enercon. Zij zijn van plan
-              om verschillende opslagsystemen te testen in combinatie met de multi-megawatt
-              windturbinees.</p>
-
-              <p> </p>
-
-              <p>Deze turbines zijn uitgerust met een aantal nieuwe functies: een
-              geoptimaliseerd design van de bladen met een spoiler die doorloopt tot de spil
-              en een voorgegoten betonnen basis. Door de hogere spil en het nieuwe profiel van
-              de bladen, wordt verwacht dat de E-126 veel beter zal presteren dan de E-112.
-              </p>
-
-              </body>
-              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5acde2bc-3194-43ed-bc25-219d3618a6dc
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wind Turbine
-            hippogogreen:url: ''
-    /07:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: bfecf70c-a2c7-45f3-bbe3-ee11d385ef6f
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 0a885364-4a6a-4492-83f6-8092981d42da
-      hippotranslation:locale: nl
-      /evolutie-kan-sneller-plaatsvinden-dan-verwacht:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 169c5cd2-3cc1-4624-bbd5-18ed30d1e2d0
-        hippo:name: Evolutie kan sneller plaatsvinden dan verwacht
-        /evolutie-kan-sneller-plaatsvinden-dan-verwacht:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: c45f5be0-a25d-4529-8176-d8a50875abe0
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Biosphere Technology]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-07-06T10:22:00+02:00
-          hippogogreen:summary: Twee afgestudeerde studenten van de Harvard universiteit
-            beweren dat zij hebben laten zien dat evolutie veel sneller kan plaatsvinden
-            dan voorheen werd gedacht. Natuurkundestudent Peter Lu en zijn voormalige
-            kamergenoot, econoom Motohiro Yogo, besloten om een economisch model toe
-            te passen op een document van een welbekend zeefossiel om te voorspellen
-            hoe snel leven zich kan aanpassen aan veranderingen in haar omgeving.
-            De methode, vector autoregressie, wordt gebruikt om de aandelenmarkt te
-            voorspellen op basis van historisch gedrag.
-          hippogogreen:title: Evolutie kan sneller optreden dan eens werd gedacht
-          hippostd:holder: boris
-          hippostd:state: published
-          hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2019-07-20T11:43:00Z
-          hippostdpubwf:lastModificationDate: 2019-12-17T09:29:00Z
-          hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
-          hippotranslation:id: 5f4dfddf-dad3-4152-91c6-d30a27df1239
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p> </p>
-
-              <p>Aanvankelijk bevestigde hun model voorgaande analyses dat leven zich langzaam
-              aanpaste. Sommige rotsen waarin fossielen worden ontdekt worden echter vaker
-              gevonden dan anderen. Toen zij hier rekening mee hielden verdween de vertraging.
-              Voor zover kon worden opgemaakt uit geologische documenten leek de biosfeer zich
-              meteen aan te passen aan veranderingen. Dit zou betekenen dat leven zich zeer
-              snel kan herstellen na grote uitstervingen; voorheen werd gedacht dat dergelijk
-              herstel miljoenen jaren zou duren.</p>
-
-              </body>
-              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 3e52f519-f905-407d-bdc3-6378897b0ba7
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 2e44d9c2-64ac-4769-b8a2-5d2cc485eeed
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: http://en.wikinews.org/wiki/Evolution_may_occur_faster_than_once_thought,_scientists_claim
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: b491c993-3e62-4db0-9840-6c6fbade277b
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /smeltende-gletsjer-in-italie-krijgt-een-thermische-deken:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: be8e9426-6979-4808-9274-c889273b2d9f
-        hippo:name: Smeltende gletsjer in Italië krijgt een thermische deken
-        /smeltende-gletsjer-in-italie-krijgt-een-thermische-deken:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 5f066e19-ae8f-46f1-aadc-bba7611f70bf
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Global Warming]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2019-07-09T17:04:00+02:00
-          hippogogreen:summary: In de hoop het tempo waarin het ijs in de bergen van
-            Noord-Italië smelt te verlagen, zijn ambtenaren begonnen met het bedekken
-            van één van de meest dreigende gletsjers met isolerende stof, waardoor
-            er in feite een gigantische veiligheidsdeken wordt gecreëerd die het smelten
-            van het ijs in de zomerhitte tegengaat. Het klinkt wellicht een beetje
-            ongebruikelijk, maar testen hebben laten zien dat de thermische deken
-            precies hetgeen kan zijn om het volledige verdwijnen van de gletsjers
-            in de regio te voorkomen, voorlopig tenminste.
-          hippogogreen:title: Smeltende gletsjer in Italië krijgt een thermische deken
-          hippostd:holder: boris
-          hippostd:state: published
-          hippostd:tags: [Smeltende Gletsjer, Klimaat]
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-07-12T12:34:00Z
-          hippostdpubwf:lastModificationDate: 2019-12-17T09:31:00Z
-          hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
-          hippotranslation:id: 9c3705dd-574d-40ef-8352-cb3d42bd7e73
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Gewapend met bijna 970 duizend vierkante voet van 4 millimeter dik thermisch
-              materiaal, haasten arbeiders zich om de ernstig bedreigde Presena gletsjer te
-              beschermen tegen de ultraviolette straling van de zon. Met enig geluk zal het
-              isolerend materiaal de hoeveelheid ijs die smelt door de zomerhitte verminderen
-              totdat zij is verwijderd aan het einde van het seizoen.</p>
-
-              <p>Dit is niet de eerste keer dat Italië dit materiaal gebruikt om haar
-              gletsjers te beschermen. Twee jaar geleden werd er een kleinschaligere test
-              gedaan en de resultaten toonden aan dat de methode vrij effectief was. Ijs
-              bedekt met het isolerende materiaal smolt 60 procent minder dan blootgestelde
-              gebieden, die verloren gemiddeld 5 voet aan dikte tijdens de test.</p>
-
-              <p>Het creatieve plan kon niet op een beter moment zijn gekomen voor de
-              gletsjers in de Italiaanse provincie Trento, zij, zoals zoveel van de gletsjers
-              op aarde, hebben dramatische verminderingen gezien in de afgelopen decennia.
-              Volgens BBC Brasil, heeft de Presena gletsjer in Trento tussen 1993 en 2003
-              alleen al 39 procent van haar massa verloren.</p>
-
-              <p>En de dader? U raadt het al.</p>
-
-              <p>“Eén ding is zeker: het smelten van de gletsjers gebeurt vanwege de stijging
-              van de temperatuur op aarde,”vertelt Nicola Paoli, een milieu-ingenieur, aan BBC
-              Brasil. “In de afgelopen vier, vijf jaar, hebben we geobserveerd dat de
-              smeltende sneeuw is verdubbeld in vergelijking tot het normale ritme.”</p>
-
-              <p>Hoe ambitieus of creaftief locale innitiatieven ook zijn in de regio's die
-              het meest worden</p>
-
-              <p>beïnvloed door de stijging in de temperatuur, het is helaas een wereldwijd
-              probleem dat internationale moeite nodig heeft om verminderd te worden. Dus al
-              het harde werk om de Presena gletsjer te redden is wellicht slechts een
-              uitstelling van het onvermijdelijke.</p>
-
-              </body>
-              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 2e44d9c2-64ac-4769-b8a2-5d2cc485eeed
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: fc234d21-a769-49e5-ba1c-6a0f176fd6c0
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:image[1]:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 0d990656-f544-450a-b4c9-d633f068309c
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-          /hippogogreen:image[2]:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 32cefa88-25ff-4f6a-994d-d9963b86b9a6
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-      /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 55f5e983-f687-48cd-8012-a2288a504f6f
-        hippo:name: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
-        /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 02d433be-3175-41c3-a5b7-490ac752873f
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Electricity, Automotive, Green]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2019-07-17T10:22:00+02:00
-          hippogogreen:summary: De Toyota Motor Company heeft aangekondigd dat zij
-            een overeenkomst hebben geformaliseerd om een elektrische versie van de
-            RAV4 SUV te maken samen met Tesla Motors.
-          hippogogreen:title: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
-          hippostd:holder: boris
-          hippostd:state: published
-          hippostdpubwf:createdBy: katja
-          hippostdpubwf:creationDate: 2019-07-28T12:35:00Z
-          hippostdpubwf:lastModificationDate: 2019-12-17T09:52:00Z
-          hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
-          hippotranslation:id: bd547d36-520d-452e-a41b-ce8d92c39d34
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>In mei 2014 hebben Akio Toyoda en Elon Musk, leiders van Toyota en Tesla
-              respectievelijk, aangekondigd dat zij zouden gaan samenwerken aan elektrische
-              voertuigen. De overeenkomst formaliseert deze aankondiging en zou Tesla toelaten
-              om samen te werken met Toyota in een productiefabriek in Californië.</p>
-
-              <p>De fabriek zal opengaan in 2011 als Tesla haar heropent in Fremont,
-              Californië, na de aankoop. Eerder werd de fabriek gebruikt door Toyota en
-              General Motors, maar zij werd gesloten nadat Toyota aankondigde geen auto's te
-              produceren in Californië.</p>
-
-              <p>Tesla produceert op het moment slechts 1 model, de $109,000 kostende
-              Roadster, maar het is bezig met de ontwikkeling van een nieuw model, de Model S,
-              die zal worden geproduceerd in de Fremont fabriek.</p>
-
-              <p>Analysten steunden de beslissing; John Boesel, CEO van een groene transport
-              handelgroep, zei dat “Toyota's bereidheid om samen te werken met Tesla om een
-              elektrische versie van één van haar bestaande modellen te maken aantoont dat de
-              samenwerking tussen de twee bedrijven van veel betekenis zal zijn.”</p>
-
-              <p>Na deze aankondiging steeg Tesla's aandelenprijs met $0.75, die van Toyota
-              daalde met $1.65.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Toyota, Tesla to develop electric SUV
-            hippogogreen:url: http://en.wikinews.org/wiki/Toyota,_Tesla_to_develop_electric_SUV
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: eda53e2d-e245-439d-9825-045664233920
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 4a35cad1-dbd2-408a-9342-70d4cfa238f5
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 6d81d6de-8956-48a0-8e3c-ebd3923fbd32
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /groene-kantoor-week:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: cda79c41-ebdd-48e6-9408-0cd69833fc90
-        hippo:name: Groene Kantoor Week
-        /groene-kantoor-week[1]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: ac69d19c-a4b4-4fd9-9eeb-b61526cbe4de
-          hippo:availability: [preview]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2019-07-14T16:33:00+02:00
-          hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
-            leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
-            elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
-            passen in uw eigen werkplek. U kunt een verschil maken voor het milieu
-            door het maken van een paar kleine veranderingen. We moeten allemaal doen
-            wat we kunnen 52 weken van het jaar. Je kon kiezen uit een willekeurige
-            week van het jaar om uw eigen bedrijf Green Office week te zijn en gebruik
-            maken van onze dagelijkse thema's.
-          hippogogreen:title: Groene Kantoor Week
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2019-10-09T10:23:11.772+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Maandag - Aan de slag&nbsp;
-              <br /> Drop een snelle e-mail naar uw collega&#39;s (of gewoon downloaden van de e-mail die we hebben bedacht om u wat tijd), om je werk vrienden weten dat het Green Office Week - hoe meer mensen die zich bezighouden&nbsp;
-              <br /> met GOW hoe beter de resultaten.&nbsp;
-              <br /> Als uw werkplek is over verschillende verdiepingen kan het een goed idee om de hulp van enkele collega&#39;s te werven en vormen een Green Team, die een oogje houden op hun werkgebied en zorgen ervoor dat machines en verlichting zijn uitgeschakeld en papier gerecycled worden.&nbsp;
-              <br /> Machines: Zorg ervoor dat de stand-by modus is ingeschakeld op alle machines en dat aan het eind van de dag alle machines zijn uitgeschakeld - het zou een goed idee zijn om te investeren in een aantal 7-dagen timer schakelt het automatisch maken.&nbsp;
-              <br /> Lichten: Download onze handige herinnering stickers en pop ze op lichtschakelaars rond het kantoor.&nbsp;
-              <br /> Mobile: Haal opladers voor mobiele telefoons als de telefoon volledig is opgeladen, zal dit ook de levensduur van de batterij te verlengen!&nbsp;
-              <br /> Om ervoor te zorgen dat het kantoor is klaar om te recyclen, maken recycling bakken direct beschikbaar en in duidelijke website. Wist u dat alle bakken in de Avery DTR Eco Range zijn gemaakt van 100% gerecycled materiaal, zodat u kunt verdubbelen uw recycling prestaties gewoon door ze te gebruiken!&nbsp;
-              <br /> Dinsdag - Recycle&nbsp;
-              <br /> Papier is waarschijnlijk een van de grootste verbruiksgoederen die een kantoor nodig heeft, kunt u zuiniger in het gebruik ervan door zijn;&nbsp;
-              <br /> Vermijd het afdrukken van e-mails, of waarom niet gaan retro en pak de telefoon en praat het door!&nbsp;
-              <br /> Wanneer u afdrukt met beide zijden van het papier&nbsp;
-              <br /> Houd een van uw printer trays gevuld met enkelzijdige oud papier&nbsp;
-              <br /> Toon neer! En gebruiken minder inkt, waar mogelijk gebruik maken van kleinere fonts en schakel over naar de kwaliteit op te stellen waar mogelijk; minder toner = minder kosten = minder gifstoffen op het papier wanneer het wordt gerecycled afdrukken&nbsp;
-              <br /> Challenge: je zou ook kunnen kijken naar uw impact op het milieu door de manier waarop je kiest om te reizen te verminderen.&nbsp;
-              <br /> Proberen:&nbsp;
-              <br /> Reis slim en het verminderen van de tijd en de emissies die u besteedt in auto&#39;s en vervoer&nbsp;
-              <br /> Moedig je collega&#39;s om het openbaar vervoer te nemen&nbsp;
-              <br /> Het opzetten van een deelautosysteem binnen uw bedrijf - weer een Meerijden naar boord Work&nbsp;
-              <br /> Hergebruiken interne enveloppen en voor externe bericht blik op het gebruik van Blockout &trade; etiketten&nbsp;
-              <br /> Verlies de plastic bekers, flessen en roerstaafjes en het gebruik van herbruikbare drinkbussen, mokken en lepeltjes moedigen.&nbsp;
-              <br /> Ban de nieten en kampioen van het gebruik van de paperclip&nbsp;
-              <br /> Zorg voor bakken voor aluminium blikjes in de keuken, het restaurant en automaten gebieden&nbsp;
-              <br /> Recycle tonercartridges voor kopieerapparaten en faxtoestellen&nbsp;
-              <br /> Bij het kopen van nieuwe elektronica overwegen een lease-programma dat een correct hergebruik en recycling termen bevat, als onderdeel van de deal&nbsp;
-              <br /> Doneren oude kantoormeubilair aan scholen, hogescholen en start-up bedrijven&nbsp;
-              <br /> Bij de aankoop van producten te controleren dat ze zijn gemaakt van gerecycled of duurzaam materiaal - zoals Avery recycled etiketten!&nbsp;
-              <br /> Moedig uw bedrijf om mobiele telefoons te recyclen, kan dit eenvoudig worden gedaan online&nbsp;
-              <br /> Recycle verpakkingsmateriaal en gebruik BlockOut &trade; etiketten waar mogelijk naar oude adres etiketten dekken&nbsp;
-              <br /> Shred vertrouwelijk afval en recyclen&nbsp;
-              <br /> Woensdag - Energie&nbsp;
-              <br /> Niet te vullen! Als je gewoon het maken van een kopje hoeft de ketel niet tanken teveel, besparen op water en elektriciteit&nbsp;
-              <br /> Als alternatief kan er ronde in! Als je in een groot kantoor werken vullen de waterkoker en maak een brouwsel voor je collega&#39;s!&nbsp;
-              <br /> Als je een nieuwe ketel bron een eco-vriendelijk ketel nodig die meer energie-effici&euml;nter dan de magnetron en vaak kook je water in de helft van de tijd&nbsp;
-              <br /> Bak de papieren bekertjes - breng je favoriete mok aan het werk, niet alleen zal het bezuinigen op papier, maar het zal zo veel beter smaken.&nbsp;
-              <br /> Donderdag - Milieu&nbsp;
-              <br /> Groen uw werkplek! Niet alleen planten maken een kantoor kijkje groener ze dragen ook bij aan het algehele welzijn. Door het absorberen van luchtvervuiling binnenshuis en het vergroten van de toevoer van zuurstof, ze maken het kantoor van een betere en gezondere plek om te vertoeven.&nbsp;
-              <br /> De kalmerende invloed van natuurlijke omgevingen is bevorderlijk voor positieve werk door het verhogen van het vermogen van een persoon om zich te concentreren op de taak bij de hand.&nbsp;
-              <br /> Studies uitgevoerd door Dr Andrew Smith, Docent Facility Management aan de Universiteit van Central Lancashire, hebben aangetoond dat planten niet alleen gewezen op de luchtvochtigheid om ruimte comfortabeler te maken, maar ook verminderde andere giftige stoffen in het milieu en het leek te helpen de productiviteit te verhogen.&nbsp;
-              <br /> Een extra bonus is dat op korte termijn ziekteverzuim werd verminderd met 50% in een beplante kamer terwijl een unplanted kamer licht gestegen&nbsp;
-              <br /> In aanvulling op uw kantoor vergroening aan een gezondere werkplek andere stappen zijn onder te bevorderen:&nbsp;
-              <br /> Open uw ramen om de luchtstroom te verhogen. Als u geen ramen kunt openen, neemt enkele korte frisse lucht pauzes buiten&nbsp;
-              <br /> Gebruik van niet-giftige schoonmaakmiddelen, vochtige doeken zijn voldoende om de meeste stoffige werkplekken schoon&nbsp;
-              <br /> Gebruik geen spuitbussen gebruiken, kunnen ze schadelijke drijfgassen bevatten - kiezen voor vloeistoffen en spuiten producten in plaats&nbsp;
-              <br /> Lift Gratis Dag - overtuigen management om de liften stoppen voor een dag om te bevorderen het nemen van de trap&nbsp;
-              <br /> Vrijdag - Blijf doorgaan&nbsp;
-              <br /> Krijg Networking - waarom niet verder verspreiden uw succes een beetje: afgifte van een afbeelding persbericht en in naam van uw bedrijf en laat de bredere zakelijke omgeving kennen van je succes&nbsp;
-              <br /> Stel een doel van het opnemen van drie milieuvriendelijke social media berichten en tweets over uw bedrijf pagina&#39;s per week. Waarom geen gebruik maken # greenoffice14&nbsp;
-              <br /> Dank je collega&#39;s voor hun steun en streven naar het opzetten van een groene idee&euml;n regeling die stimuleert en beloont lean, green thinking in uw bedrijf&nbsp;
-              <br /> Check je kantoor en vind de vijf dingen die moeten veranderen - streven om hen gedaan tegen het einde van mei</p>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Avery UK
-            hippogogreen:url: http://www.avery.co.uk/avery/en_gb/Projects-%26-Ideas/Ideas-for-Work/GOW/Green-Office-Week-Monday.htm
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 57b553a2-42d0-4a2f-a7e1-0520e157ce88
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /groene-kantoor-week[2]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: a0effa62-a007-42c4-b8ad-6390ef75233e
-          hippo:availability: []
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2019-07-14T16:33:00+02:00
-          hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
-            leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
-            elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
-            passen in uw eigen werkplek. U kunt een verschil maken voor het milieu
-            door het maken van een paar kleine veranderingen. We moeten allemaal doen
-            wat we kunnen 52 weken van het jaar. Je kon kiezen uit een willekeurige
-            week van het jaar om uw eigen bedrijf Green Office week te zijn en gebruik
-            maken van onze dagelijkse thema's.
-          hippogogreen:title: Groene Kantoor Week
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2019-10-09T10:22:51.236+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Maandag - Aan de slag&nbsp;
-              <br /> Drop een snelle e-mail naar uw collega&#39;s (of gewoon downloaden van de e-mail die we hebben bedacht om u wat tijd), om je werk vrienden weten dat het Green Office Week - hoe meer mensen die zich bezighouden&nbsp;
-              <br /> met GOW hoe beter de resultaten.&nbsp;
-              <br /> Als uw werkplek is over verschillende verdiepingen kan het een goed idee om de hulp van enkele collega&#39;s te werven en vormen een Green Team, die een oogje houden op hun werkgebied en zorgen ervoor dat machines en verlichting zijn uitgeschakeld en papier gerecycled worden.&nbsp;
-              <br /> Machines: Zorg ervoor dat de stand-by modus is ingeschakeld op alle machines en dat aan het eind van de dag alle machines zijn uitgeschakeld - het zou een goed idee zijn om te investeren in een aantal 7-dagen timer schakelt het automatisch maken.&nbsp;
-              <br /> Lichten: Download onze handige herinnering stickers en pop ze op lichtschakelaars rond het kantoor.&nbsp;
-              <br /> Mobile: Haal opladers voor mobiele telefoons als de telefoon volledig is opgeladen, zal dit ook de levensduur van de batterij te verlengen!&nbsp;
-              <br /> Om ervoor te zorgen dat het kantoor is klaar om te recyclen, maken recycling bakken direct beschikbaar en in duidelijke website. Wist u dat alle bakken in de Avery DTR Eco Range zijn gemaakt van 100% gerecycled materiaal, zodat u kunt verdubbelen uw recycling prestaties gewoon door ze te gebruiken!&nbsp;
-              <br /> Dinsdag - Recycle&nbsp;
-              <br /> Papier is waarschijnlijk een van de grootste verbruiksgoederen die een kantoor nodig heeft, kunt u zuiniger in het gebruik ervan door zijn;&nbsp;
-              <br /> Vermijd het afdrukken van e-mails, of waarom niet gaan retro en pak de telefoon en praat het door!&nbsp;
-              <br /> Wanneer u afdrukt met beide zijden van het papier&nbsp;
-              <br /> Houd een van uw printer trays gevuld met enkelzijdige oud papier&nbsp;
-              <br /> Toon neer! En gebruiken minder inkt, waar mogelijk gebruik maken van kleinere fonts en schakel over naar de kwaliteit op te stellen waar mogelijk; minder toner = minder kosten = minder gifstoffen op het papier wanneer het wordt gerecycled afdrukken&nbsp;
-              <br /> Challenge: je zou ook kunnen kijken naar uw impact op het milieu door de manier waarop je kiest om te reizen te verminderen.&nbsp;
-              <br /> Proberen:&nbsp;
-              <br /> Reis slim en het verminderen van de tijd en de emissies die u besteedt in auto&#39;s en vervoer&nbsp;
-              <br /> Moedig je collega&#39;s om het openbaar vervoer te nemen&nbsp;
-              <br /> Het opzetten van een deelautosysteem binnen uw bedrijf - weer een Meerijden naar boord Work&nbsp;
-              <br /> Hergebruiken interne enveloppen en voor externe bericht blik op het gebruik van Blockout &trade; etiketten&nbsp;
-              <br /> Verlies de plastic bekers, flessen en roerstaafjes en het gebruik van herbruikbare drinkbussen, mokken en lepeltjes moedigen.&nbsp;
-              <br /> Ban de nieten en kampioen van het gebruik van de paperclip&nbsp;
-              <br /> Zorg voor bakken voor aluminium blikjes in de keuken, het restaurant en automaten gebieden&nbsp;
-              <br /> Recycle tonercartridges voor kopieerapparaten en faxtoestellen&nbsp;
-              <br /> Bij het kopen van nieuwe elektronica overwegen een lease-programma dat een correct hergebruik en recycling termen bevat, als onderdeel van de deal&nbsp;
-              <br /> Doneren oude kantoormeubilair aan scholen, hogescholen en start-up bedrijven&nbsp;
-              <br /> Bij de aankoop van producten te controleren dat ze zijn gemaakt van gerecycled of duurzaam materiaal - zoals Avery recycled etiketten!&nbsp;
-              <br /> Moedig uw bedrijf om mobiele telefoons te recyclen, kan dit eenvoudig worden gedaan online&nbsp;
-              <br /> Recycle verpakkingsmateriaal en gebruik BlockOut &trade; etiketten waar mogelijk naar oude adres etiketten dekken&nbsp;
-              <br /> Shred vertrouwelijk afval en recyclen&nbsp;
-              <br /> Woensdag - Energie&nbsp;
-              <br /> Niet te vullen! Als je gewoon het maken van een kopje hoeft de ketel niet tanken teveel, besparen op water en elektriciteit&nbsp;
-              <br /> Als alternatief kan er ronde in! Als je in een groot kantoor werken vullen de waterkoker en maak een brouwsel voor je collega&#39;s!&nbsp;
-              <br /> Als je een nieuwe ketel bron een eco-vriendelijk ketel nodig die meer energie-effici&euml;nter dan de magnetron en vaak kook je water in de helft van de tijd&nbsp;
-              <br /> Bak de papieren bekertjes - breng je favoriete mok aan het werk, niet alleen zal het bezuinigen op papier, maar het zal zo veel beter smaken.&nbsp;
-              <br /> Donderdag - Milieu&nbsp;
-              <br /> Groen uw werkplek! Niet alleen planten maken een kantoor kijkje groener ze dragen ook bij aan het algehele welzijn. Door het absorberen van luchtvervuiling binnenshuis en het vergroten van de toevoer van zuurstof, ze maken het kantoor van een betere en gezondere plek om te vertoeven.&nbsp;
-              <br /> De kalmerende invloed van natuurlijke omgevingen is bevorderlijk voor positieve werk door het verhogen van het vermogen van een persoon om zich te concentreren op de taak bij de hand.&nbsp;
-              <br /> Studies uitgevoerd door Dr Andrew Smith, Docent Facility Management aan de Universiteit van Central Lancashire, hebben aangetoond dat planten niet alleen gewezen op de luchtvochtigheid om ruimte comfortabeler te maken, maar ook verminderde andere giftige stoffen in het milieu en het leek te helpen de productiviteit te verhogen.&nbsp;
-              <br /> Een extra bonus is dat op korte termijn ziekteverzuim werd verminderd met 50% in een beplante kamer terwijl een unplanted kamer licht gestegen&nbsp;
-              <br /> In aanvulling op uw kantoor vergroening aan een gezondere werkplek andere stappen zijn onder te bevorderen:&nbsp;
-              <br /> Open uw ramen om de luchtstroom te verhogen. Als u geen ramen kunt openen, neemt enkele korte frisse lucht pauzes buiten&nbsp;
-              <br /> Gebruik van niet-giftige schoonmaakmiddelen, vochtige doeken zijn voldoende om de meeste stoffige werkplekken schoon&nbsp;
-              <br /> Gebruik geen spuitbussen gebruiken, kunnen ze schadelijke drijfgassen bevatten - kiezen voor vloeistoffen en spuiten producten in plaats&nbsp;
-              <br /> Lift Gratis Dag - overtuigen management om de liften stoppen voor een dag om te bevorderen het nemen van de trap&nbsp;
-              <br /> Vrijdag - Blijf doorgaan&nbsp;
-              <br /> Krijg Networking - waarom niet verder verspreiden uw succes een beetje: afgifte van een afbeelding persbericht en in naam van uw bedrijf en laat de bredere zakelijke omgeving kennen van je succes&nbsp;
-              <br /> Stel een doel van het opnemen van drie milieuvriendelijke social media berichten en tweets over uw bedrijf pagina&#39;s per week. Waarom geen gebruik maken # greenoffice14&nbsp;
-              <br /> Dank je collega&#39;s voor hun steun en streven naar het opzetten van een groene idee&euml;n regeling die stimuleert en beloont lean, green thinking in uw bedrijf&nbsp;
-              <br /> Check je kantoor en vind de vijf dingen die moeten veranderen - streven om hen gedaan tegen het einde van mei</p>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Avery UK
-            hippogogreen:url: http://www.avery.co.uk/avery/en_gb/Projects-%26-Ideas/Ideas-for-Work/GOW/Green-Office-Week-Monday.htm
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 57b553a2-42d0-4a2f-a7e1-0520e157ce88
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /groene-kantoor-week[3]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 29d4d008-b2bd-43e4-9a4f-333f5ca8e5a1
-          hippo:availability: [live]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2019-07-14T16:33:00+02:00
-          hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
-            leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
-            elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
-            passen in uw eigen werkplek. U kunt een verschil maken voor het milieu
-            door het maken van een paar kleine veranderingen. We moeten allemaal doen
-            wat we kunnen 52 weken van het jaar. Je kon kiezen uit een willekeurige
-            week van het jaar om uw eigen bedrijf Green Office week te zijn en gebruik
-            maken van onze dagelijkse thema's.
-          hippogogreen:title: Groene Kantoor Week
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2019-10-09T10:23:11.772+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2019-10-09T10:23:13.412+02:00
-          hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>Maandag - Aan de slag&nbsp;
-              <br /> Drop een snelle e-mail naar uw collega&#39;s (of gewoon downloaden van de e-mail die we hebben bedacht om u wat tijd), om je werk vrienden weten dat het Green Office Week - hoe meer mensen die zich bezighouden&nbsp;
-              <br /> met GOW hoe beter de resultaten.&nbsp;
-              <br /> Als uw werkplek is over verschillende verdiepingen kan het een goed idee om de hulp van enkele collega&#39;s te werven en vormen een Green Team, die een oogje houden op hun werkgebied en zorgen ervoor dat machines en verlichting zijn uitgeschakeld en papier gerecycled worden.&nbsp;
-              <br /> Machines: Zorg ervoor dat de stand-by modus is ingeschakeld op alle machines en dat aan het eind van de dag alle machines zijn uitgeschakeld - het zou een goed idee zijn om te investeren in een aantal 7-dagen timer schakelt het automatisch maken.&nbsp;
-              <br /> Lichten: Download onze handige herinnering stickers en pop ze op lichtschakelaars rond het kantoor.&nbsp;
-              <br /> Mobile: Haal opladers voor mobiele telefoons als de telefoon volledig is opgeladen, zal dit ook de levensduur van de batterij te verlengen!&nbsp;
-              <br /> Om ervoor te zorgen dat het kantoor is klaar om te recyclen, maken recycling bakken direct beschikbaar en in duidelijke website. Wist u dat alle bakken in de Avery DTR Eco Range zijn gemaakt van 100% gerecycled materiaal, zodat u kunt verdubbelen uw recycling prestaties gewoon door ze te gebruiken!&nbsp;
-              <br /> Dinsdag - Recycle&nbsp;
-              <br /> Papier is waarschijnlijk een van de grootste verbruiksgoederen die een kantoor nodig heeft, kunt u zuiniger in het gebruik ervan door zijn;&nbsp;
-              <br /> Vermijd het afdrukken van e-mails, of waarom niet gaan retro en pak de telefoon en praat het door!&nbsp;
-              <br /> Wanneer u afdrukt met beide zijden van het papier&nbsp;
-              <br /> Houd een van uw printer trays gevuld met enkelzijdige oud papier&nbsp;
-              <br /> Toon neer! En gebruiken minder inkt, waar mogelijk gebruik maken van kleinere fonts en schakel over naar de kwaliteit op te stellen waar mogelijk; minder toner = minder kosten = minder gifstoffen op het papier wanneer het wordt gerecycled afdrukken&nbsp;
-              <br /> Challenge: je zou ook kunnen kijken naar uw impact op het milieu door de manier waarop je kiest om te reizen te verminderen.&nbsp;
-              <br /> Proberen:&nbsp;
-              <br /> Reis slim en het verminderen van de tijd en de emissies die u besteedt in auto&#39;s en vervoer&nbsp;
-              <br /> Moedig je collega&#39;s om het openbaar vervoer te nemen&nbsp;
-              <br /> Het opzetten van een deelautosysteem binnen uw bedrijf - weer een Meerijden naar boord Work&nbsp;
-              <br /> Hergebruiken interne enveloppen en voor externe bericht blik op het gebruik van Blockout &trade; etiketten&nbsp;
-              <br /> Verlies de plastic bekers, flessen en roerstaafjes en het gebruik van herbruikbare drinkbussen, mokken en lepeltjes moedigen.&nbsp;
-              <br /> Ban de nieten en kampioen van het gebruik van de paperclip&nbsp;
-              <br /> Zorg voor bakken voor aluminium blikjes in de keuken, het restaurant en automaten gebieden&nbsp;
-              <br /> Recycle tonercartridges voor kopieerapparaten en faxtoestellen&nbsp;
-              <br /> Bij het kopen van nieuwe elektronica overwegen een lease-programma dat een correct hergebruik en recycling termen bevat, als onderdeel van de deal&nbsp;
-              <br /> Doneren oude kantoormeubilair aan scholen, hogescholen en start-up bedrijven&nbsp;
-              <br /> Bij de aankoop van producten te controleren dat ze zijn gemaakt van gerecycled of duurzaam materiaal - zoals Avery recycled etiketten!&nbsp;
-              <br /> Moedig uw bedrijf om mobiele telefoons te recyclen, kan dit eenvoudig worden gedaan online&nbsp;
-              <br /> Recycle verpakkingsmateriaal en gebruik BlockOut &trade; etiketten waar mogelijk naar oude adres etiketten dekken&nbsp;
-              <br /> Shred vertrouwelijk afval en recyclen&nbsp;
-              <br /> Woensdag - Energie&nbsp;
-              <br /> Niet te vullen! Als je gewoon het maken van een kopje hoeft de ketel niet tanken teveel, besparen op water en elektriciteit&nbsp;
-              <br /> Als alternatief kan er ronde in! Als je in een groot kantoor werken vullen de waterkoker en maak een brouwsel voor je collega&#39;s!&nbsp;
-              <br /> Als je een nieuwe ketel bron een eco-vriendelijk ketel nodig die meer energie-effici&euml;nter dan de magnetron en vaak kook je water in de helft van de tijd&nbsp;
-              <br /> Bak de papieren bekertjes - breng je favoriete mok aan het werk, niet alleen zal het bezuinigen op papier, maar het zal zo veel beter smaken.&nbsp;
-              <br /> Donderdag - Milieu&nbsp;
-              <br /> Groen uw werkplek! Niet alleen planten maken een kantoor kijkje groener ze dragen ook bij aan het algehele welzijn. Door het absorberen van luchtvervuiling binnenshuis en het vergroten van de toevoer van zuurstof, ze maken het kantoor van een betere en gezondere plek om te vertoeven.&nbsp;
-              <br /> De kalmerende invloed van natuurlijke omgevingen is bevorderlijk voor positieve werk door het verhogen van het vermogen van een persoon om zich te concentreren op de taak bij de hand.&nbsp;
-              <br /> Studies uitgevoerd door Dr Andrew Smith, Docent Facility Management aan de Universiteit van Central Lancashire, hebben aangetoond dat planten niet alleen gewezen op de luchtvochtigheid om ruimte comfortabeler te maken, maar ook verminderde andere giftige stoffen in het milieu en het leek te helpen de productiviteit te verhogen.&nbsp;
-              <br /> Een extra bonus is dat op korte termijn ziekteverzuim werd verminderd met 50% in een beplante kamer terwijl een unplanted kamer licht gestegen&nbsp;
-              <br /> In aanvulling op uw kantoor vergroening aan een gezondere werkplek andere stappen zijn onder te bevorderen:&nbsp;
-              <br /> Open uw ramen om de luchtstroom te verhogen. Als u geen ramen kunt openen, neemt enkele korte frisse lucht pauzes buiten&nbsp;
-              <br /> Gebruik van niet-giftige schoonmaakmiddelen, vochtige doeken zijn voldoende om de meeste stoffige werkplekken schoon&nbsp;
-              <br /> Gebruik geen spuitbussen gebruiken, kunnen ze schadelijke drijfgassen bevatten - kiezen voor vloeistoffen en spuiten producten in plaats&nbsp;
-              <br /> Lift Gratis Dag - overtuigen management om de liften stoppen voor een dag om te bevorderen het nemen van de trap&nbsp;
-              <br /> Vrijdag - Blijf doorgaan&nbsp;
-              <br /> Krijg Networking - waarom niet verder verspreiden uw succes een beetje: afgifte van een afbeelding persbericht en in naam van uw bedrijf en laat de bredere zakelijke omgeving kennen van je succes&nbsp;
-              <br /> Stel een doel van het opnemen van drie milieuvriendelijke social media berichten en tweets over uw bedrijf pagina&#39;s per week. Waarom geen gebruik maken # greenoffice14&nbsp;
-              <br /> Dank je collega&#39;s voor hun steun en streven naar het opzetten van een groene idee&euml;n regeling die stimuleert en beloont lean, green thinking in uw bedrijf&nbsp;
-              <br /> Check je kantoor en vind de vijf dingen die moeten veranderen - streven om hen gedaan tegen het einde van mei</p>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Avery UK
-            hippogogreen:url: http://www.avery.co.uk/avery/en_gb/Projects-%26-Ideas/Ideas-for-Work/GOW/Green-Office-Week-Monday.htm
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 57b553a2-42d0-4a2f-a7e1-0520e157ce88
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-    /06:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 4b62df51-bcf8-467b-b903-5d89e4c52b9c
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: b59e46a3-ff73-4cdc-b102-6cf5045b2548
-      hippotranslation:locale: nl
-      /klimaatconferentie-in-kopenhagen:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: b989e4bd-f115-47c1-a5dc-98bc81b184de
-        hippo:name: Klimaatconferentie in Kopenhagen
-        /klimaatconferentie-in-kopenhagen:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: c1696f86-bab7-4d32-9b22-e88947be90a6
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Global Warming, Conference]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2019-06-22T10:22:00+02:00
-          hippogogreen:summary: Een overeenkomst is binnen ons bereik – Deense premier,
-            Lars Løkke Rasmussen.
-          hippogogreen:title: Klimaatconferentie opent in Kopenhagen
-          hippostd:holder: boris
-          hippostd:state: published
-          hippostd:tags: [Global Warming, Copenhagen treaty]
-          hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2019-07-30T13:29:00Z
-          hippostdpubwf:lastModificationDate: 2019-12-17T09:27:00Z
-          hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
-          hippotranslation:id: 0faa3f16-bddc-4405-ac6e-0106804872c5
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>De United Nations Climate Change Conference (COP15) is maandag geopend met
-              oproepen voor dringende maatregelen om de veranderingen in het klimaat en de
-              effecten van het broeikaseffect te beteugelen. De grootste klimaat conferentie
-              in de geschiedenis in het Bella Center in Kopenhagen, Denemarken zal twee weken
-              duren van 7 december tot 18 december. Ongeveer 15,000 gedelegeerden waaronder
-              vertegenwoordigers van de private sector, milieuorganisaties,
-              onderzoeksinstituten en overheidsambtenaren, zowel als 110 staatshoofden en
-              regeringsleiders uit 192 landen, zullen aanwezig zijn.</p>
-
-              <p> </p>
-
-              <p>De COP15<em> Culturele Openings Ceremonie </em>speelde een film die vier
-              minuten duurde genaamd <em>Please help the world</em> van de Deense regisseur
-              Mikkel Blaabjerg Poulsen om het gevaar van stijgende temperaturen uit te
-              lichten. De film laat een jong meisje zien dat schreeuwt vanwege een eco-ramp
-              met opwarming van de aarde, verlaten woestenij en beangstigende overstromingen.
-              Zodra het meisje wakker wordt uit haar nachtmerrie smeken zij en anderen
-              kinderen ons om alsjeblieft de aarde te helpen ('Please save the world').
-              Poulsen zei, “We hebben een film gemaakt die naar het hart spreekt in plaats van
-              naar het brein”. Er was ook muziek van een trompettist, een harpist en het
-              Deense nationale meisjeskoor.</p>
-
-              <p> </p>
-
-              <p>De VN klimaatconferentie, het resultaat van twee jaar contentieuze
-              onderhandelingen, werd geopend in een hoopvolle sfeer. Er heerste een
-              optimistische stemming over het bereiken van een overeenkomst binnen twee weken.
-              Op een persbriefing zei Connie Hedegaard, de voorzitter van de conferentie, dat
-              “de deadline werkt”, maar “in de tijd die wij hebben, moeten we de taak
-              oplossen”. Lars Løkke Rasmussen benadrukte echter dat de gesprekken het
-              wantrouwen tussen rijke en arme landen moesten overkomen met betrekking tot het
-              delen van de last van het terugdringen van de emissies. Er is een reeks van
-              beloften gedaan door de rijke en opkomende economiëen om hun uitstoot van
-              broeikasgassen terug te dringen, maar er zijn grote problemen die nog opgelost
-              moeten worden. De VN secretaris-generaal Ban Ki-moon zei dat een juridisch
-              bindend verdrag over klimaatsverandering bereikt zal worden in 2014.</p>
-
-              <p> </p>
-
-              <p>De EU is een verplichting aangegaan om haar broeikasgassen terug te dringen
-              met 20% in 2020 in vergelijking met de niveaus in 1990, maar zij is bereid deze
-              verplichting op te hogen naar 30% als andere grote spelers “vergelijkbare
-              verplichtingen” aangaan. Het nieuws dat de United States Environmental
-              Protection Agency heeft geoordeeld dat broeikasgassen de gezondheid van mensen
-              aantast kan zorgen voor een verlaging van de emissie van broeikasgassen in de
-              VS. Onder vermelding van een anonieme diplomatieke bron zei de Financial Times
-              Deutschland dat de EU moet zorgen voor “ 1-3 miljard euro” om
-              ontwikkelingslanden te helpen over de komende drie jaar zodat zij de effecten
-              van klimaatsverandering kunnen tegengaan en om te zorgen voor verzachting en
-              adaptatie van de klimaatsveranderingen.</p>
-
-              <p> </p>
-
-              <p>De conferentie werd beschuldigd van hypocrisie met betrekking tot het milieu
-              vanwege haar substantiële carbon footprint, waaronder het gebruik van privé-jets
-              en limousines. Om de invloed van de conferentie op het milieu en klimaat te
-              reduceren, heeft de Deense overheid besloten geen cadeaus te geven aan
-              deelnemers. Het geld zal worden gebruikt voor klimaatbeurzen die <em>COP15
-              Climate Scholarships </em>gaan heten, die zullen zorgen dat 10-12 kandidaten
-              klimaatgerelateerde masteropleidingen kunnen volgen aan Deense universiteiten.
-              Duizenden mensen staan buiten het gebouw waar de conferentie plaatsvindt,
-              waaronder groepen zoals Climate Justice Action, Friends of the Earth, Camp for
-              Climate Action, 350.org en Greenpeace, met dringende oproepen voor actie. De
-              milieuorganisatie Friends of the Earth veroordeelde wat zij noemden
-              “ondemocratische praktijken aangenomen door het Deens presidentsschap van het
-              bijeenroepen van kleine en exclusieve groepen landen voor de conferentie in
-              Kopenhagen”. Een eerste versie van de onderhandelingstekst is vrijgegeven aan
-              het publiek, maar er heersen geruchten dat er een “alternatief” verdragsdocument
-              wordt ontwikkeld door een aantal grote landen in de onderhandelingen, waaronder
-              de organisators van de conferentie.</p>
-
-              <p> </p>
-
-              <p>Volgens de Bali Road Map moeten de partijen in de vijftiende conferentie van
-              de United Nations Framework Convention on Climate Change (COP15) en de vijfde
-              vergadering van de deelnemers in het Kyoto Protocol (COP/MOP5) tot
-              overeenstemming komen over een kader voor de verzachting van klimaatsverandering
-              na 2012. Staatshoofden en regeringsleiders van 110 landen hebben aangekondigd
-              dat zij naar Kopenhagen zullen komen voor 18 december in een poging om tot een
-              overeenkomst te komen over een politiek wereldklimaatsverdrag. Als er een
-              overeenkomst wordt bereikt zal de VN proberen deze juridisch bindend te maken om
-              zo het Kyoto Protocol te vervangen, haar regulaties over emissies vervallen
-              immers in 2012.</p>
-
-              <p>Zie ook: over het Broeikaseffect, wat is het broeikaseffect, en
-              broeikasgassen tabel</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Copenhagen_climate_conference_opens
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 97f87c90-4f88-4de1-a6dd-0f212479f03e
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: ba3afefe-92f6-4103-9e83-339b27166e69
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /tweede-ronde-van-de-bonn-vn-klimaatsveranderingen-onderhandelingen-gaan-verder:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: d987aab4-e713-4965-a58a-bff9de030d98
-        hippo:name: Tweede ronde van de Bonn VN klimaatsveranderingen onderhandelingen
-          gaan verder
-        /tweede-ronde-van-de-bonn-vn-klimaatsveranderingen-onderhandelingen-gaan-verder:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 32baa14c-16cb-43d7-a790-4b754c42fc8c
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Global Warming]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2019-06-22T10:22:00+02:00
-          hippogogreen:summary: De onderhandelingen van de 2014 Verenigde Naties Klimaatsveranderingconferentie
-            (COP 16) gaan deze week verder in Bonn, Duitsland.
-          hippogogreen:title: Tweede ronde van de Bonn VN klimaatsveranderingen onderhandelingen
-            gaan verder
-          hippostd:holder: boris
-          hippostd:state: published
-          hippostd:tags: [Global Warming, conference]
-          hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2019-07-30T13:17:00Z
-          hippostdpubwf:lastModificationDate: 2019-12-17T09:38:00Z
-          hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
-          hippotranslation:id: f1b0bcc7-7432-46a3-a0b1-e43f41f8df70
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>De onderhandelingen van de 2014 Verenigde Naties
-              Klimaatsveranderingconferentie (COP 16) gaan deze week verder in Bonn,
-              Duitsland. Onder de 4500 aanwezigen zijn gedelegeerden van 182 overheden,
-              vertegenwoordigers uit het zakenleven en de industrie, milieuorganisaties en
-              onderzoeksinstituten. COP 16 zal plaatsvinden van 29 november tot 10 december
-              2014 in Cancún, Mexico.</p>
-
-              <p>Luis Alfonso de Alba, Mexico's speciale vertegenwoordiger voor
-              klimaatsverandering, zei tegen Reuters, “Mexico wil geen valse verwachtigen
-              opwekken, maar we zijn zeker ambitieus.” Hij bekritiseerde het uitgaande hoofd
-              van het klimaatsecretariaat van de VN, Yvo de Boer en de klimaatcommissaris van
-              de EU, Connie Hedegaard, voor hun scepticisme.</p>
-
-              <p>Onderhandelend onder de United Nations Framework Convention on Climate Change
-              (UNFCCC) is de volgende onderhandelingssessie ingeroosterd in augustus, gevolgd
-              door een andere, laatste één week durende tussen-vergadering voor Cancún. De
-              onderhandelingen zijn bedoeld om onderwerpen te bespreken die niet zijn opgelost
-              op de 2009 Verenigde Naties Klimaatsveranderingsconferentie (COP 15) in
-              Kopenhagen.</p>
-
-              <p>De twee werkende groepen zijn de Ad Hoc Working Group on Long-Term
-              Cooperative Action (AWG-LCA) en de Ad Hoc Working Group on Further Commitments
-              for Annex (AWG-KP). Deze groepen zijn specifiek ontworpen om een oplossing te
-              vinden voor een langetermijn respons voor de klimaatsveranderingen.</p>
-
-              <p>De AWG-LCA is de onderhandelende groep die verantwoordelijk is voor het
-              opzetten een nieuwe “COP16 onderhandelingstekst” voor de onderhandelingssessie
-              in juni. Het doel van de AWG-KP is om zich te concentreren op de verplichtingen
-              tot emissieverlaging van de 37 ge<em>ï</em>ndustrialiseerde landen die het
-              protocol van Kyoto geratificeerd hebben voor de periode na 2012.</p>
-
-              <p>Er zijn ook twee UNFCCC committee vergaderingen die op de agenda staan, de
-              Subsidiary Body for Scientific and Technological Advice (SBSTA) en de Subsidiary
-              Body for Implementation (SBI).</p>
-
-              <p>Officiëel wordt de conferentie als de zestiende sessie aangeduid van de
-              Conference of the Parties (COP 16) to the United Nations Framework Convention on
-              Climate Change (UNFCCC) en de zesde sessie van de Conference of Parties die
-              dienen als een vergadering van de partijen (CMP 6) van het Kyoto protocol.</p>
-
-              <p>Zie ook: over het broeikaseffect</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Second_round_of_Bonn_UN_Climate_Change_negotiations_continue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: bd065aa8-5f0b-44a5-bc72-6e37eed2ee68
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: f490e905-57e7-4846-a13a-23136836a357
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[3]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 3e740aa9-6714-48e3-8fd0-914c9ed3a7cd
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 94638e46-2a0f-412d-b5d8-608e26c6d1ad
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /nasa-eerste-grote-test-zonne-zeil-slaagt:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 53d4662b-d158-4b33-85db-e76d692fcd32
-        hippo:name: NASA eerste grote test zonne-zeil slaagt
-        /nasa-eerste-grote-test-zonne-zeil-slaagt:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 8aa201af-a996-4e86-9e80-c55c460163f7
-          hippo:availability: [live, preview]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2019-06-02T10:22:00+02:00
-          hippogogreen:summary: NASA heeft een belangrijke test van een 20-meter vierkante
-            zonne-zeil afgerond, dit markeerd een "belangrijke mijlpaal" in de ruimte
-            aandrijftechnologie. Het is niet de eerste test voor zonne-zeilen,  de
-            Japanners hebben ingezet op twee zonne zeilen in de ruimte. De Planetary
-            Society is van plan om mogelijk op 21 juni een zonne-zeil te lanceren.
-          hippogogreen:title: NASA eerste grote test zonne-zeil slaagt
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [technology]
-          hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2017-07-20T16:16:00+02:00
-          hippostdpubwf:lastModificationDate: 2018-05-23T15:08:00+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-05-23T15:08:00+02:00
-          hippotranslation:id: 3e6805d4-75e8-43c4-8dca-39e39e7f90f2
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-                              <body>
-
-                              <p>Shot in een baan door een geconverteerde intercontinentale ballistische raket
-                              (ICBM), zou de Cosmos 1 worden gelanceerd vanaf een Russische duikboot onder
-                              water vanuit de Barentszzee. Het ruimtevaartuig, aangedreven door het zeil, zal
-                              geen bestemming. Het doel is gewoon om te testen het aandrijfsysteem dat de druk
-                              van zonne-lichtdeeltjes om het schip naar buiten verplaatsen van een beginnende
-                              baan rond de aarde op 500 mijl gebruikt.</p>
-
-                              <p>De voortstuwing technologie wordt momenteel beschouwd als de meest efficiënte
-                              beschikbaar voor interstellaire ruimtevaart. Theoretisch een ambacht aangedreven
-                              door de druk van een constante lichtbron, zoals een speciaal gebouwde laser, kon
-                              bereiken snelheden het naderen van de snelheid van het licht. Dit komt door de
-                              efficiëntie van het ruimtevaartuig niet hoeft te zijn eigen brandstof dragen.
-                              Het naderen van de snelheid van het licht zou echter een lange periode van
-                              constante versnelling. Dergelijke hoge snelheid zal het onmogelijk zijn voor de
-                              huidige test voertuigen en gelanceerd in de nabije toekomst, omdat ze vertrouwen
-                              op het licht van de zon, die snel zwakker wordt met toenemende afstand.</p>
-
-                              <p>Volgens de National Geographic News, "NASA, het Europees Ruimteagentschap,
-                              Japan, en Rusland al hebben ontwikkeld zonne zeilen, maar geen enkele heeft nog
-                              geprobeerd te bewijzen dat de zeilen kan een ruimtevaartuig drijven onder
-                              gecontroleerde vlucht."</p>
-
-                              </body>
-                              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5044a402-5412-4c76-a069-bdf2aa2d2764
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 800544f2-c7b0-4e78-9941-b44a843d0917
+    hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+    hippotranslation:id: 97286e8e-3f9f-45a6-b8de-6253310fd7c9
+    hippotranslation:locale: nl
     /10:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -2535,6 +1603,866 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+    /07:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 3dd4532f-fdd5-4df8-b015-073aa2499ba6
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: 476e9e00-7c5b-4fe4-98a8-ba7c0634d086
+      hippotranslation:locale: nl
+      /groene-kantoor-week:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: cda79c41-ebdd-48e6-9408-0cd69833fc90
+        hippo:name: Groene Kantoor Week
+        /groene-kantoor-week[1]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: ac69d19c-a4b4-4fd9-9eeb-b61526cbe4de
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
+          hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
+            leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
+            elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
+            passen in uw eigen werkplek. U kunt een verschil maken voor het milieu
+            door het maken van een paar kleine veranderingen. We moeten allemaal doen
+            wat we kunnen 52 weken van het jaar. Je kon kiezen uit een willekeurige
+            week van het jaar om uw eigen bedrijf Green Office week te zijn en gebruik
+            maken van onze dagelijkse thema's.
+          hippogogreen:title: Groene Kantoor Week
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:23:11.772+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Maandag - Aan de slag&nbsp;
+              <br /> Drop een snelle e-mail naar uw collega&#39;s (of gewoon downloaden van de e-mail die we hebben bedacht om u wat tijd), om je werk vrienden weten dat het Green Office Week - hoe meer mensen die zich bezighouden&nbsp;
+              <br /> met GOW hoe beter de resultaten.&nbsp;
+              <br /> Als uw werkplek is over verschillende verdiepingen kan het een goed idee om de hulp van enkele collega&#39;s te werven en vormen een Green Team, die een oogje houden op hun werkgebied en zorgen ervoor dat machines en verlichting zijn uitgeschakeld en papier gerecycled worden.&nbsp;
+              <br /> Machines: Zorg ervoor dat de stand-by modus is ingeschakeld op alle machines en dat aan het eind van de dag alle machines zijn uitgeschakeld - het zou een goed idee zijn om te investeren in een aantal 7-dagen timer schakelt het automatisch maken.&nbsp;
+              <br /> Lichten: Download onze handige herinnering stickers en pop ze op lichtschakelaars rond het kantoor.&nbsp;
+              <br /> Mobile: Haal opladers voor mobiele telefoons als de telefoon volledig is opgeladen, zal dit ook de levensduur van de batterij te verlengen!&nbsp;
+              <br /> Om ervoor te zorgen dat het kantoor is klaar om te recyclen, maken recycling bakken direct beschikbaar en in duidelijke website. Wist u dat alle bakken in de Avery DTR Eco Range zijn gemaakt van 100% gerecycled materiaal, zodat u kunt verdubbelen uw recycling prestaties gewoon door ze te gebruiken!&nbsp;
+              <br /> Dinsdag - Recycle&nbsp;
+              <br /> Papier is waarschijnlijk een van de grootste verbruiksgoederen die een kantoor nodig heeft, kunt u zuiniger in het gebruik ervan door zijn;&nbsp;
+              <br /> Vermijd het afdrukken van e-mails, of waarom niet gaan retro en pak de telefoon en praat het door!&nbsp;
+              <br /> Wanneer u afdrukt met beide zijden van het papier&nbsp;
+              <br /> Houd een van uw printer trays gevuld met enkelzijdige oud papier&nbsp;
+              <br /> Toon neer! En gebruiken minder inkt, waar mogelijk gebruik maken van kleinere fonts en schakel over naar de kwaliteit op te stellen waar mogelijk; minder toner = minder kosten = minder gifstoffen op het papier wanneer het wordt gerecycled afdrukken&nbsp;
+              <br /> Challenge: je zou ook kunnen kijken naar uw impact op het milieu door de manier waarop je kiest om te reizen te verminderen.&nbsp;
+              <br /> Proberen:&nbsp;
+              <br /> Reis slim en het verminderen van de tijd en de emissies die u besteedt in auto&#39;s en vervoer&nbsp;
+              <br /> Moedig je collega&#39;s om het openbaar vervoer te nemen&nbsp;
+              <br /> Het opzetten van een deelautosysteem binnen uw bedrijf - weer een Meerijden naar boord Work&nbsp;
+              <br /> Hergebruiken interne enveloppen en voor externe bericht blik op het gebruik van Blockout &trade; etiketten&nbsp;
+              <br /> Verlies de plastic bekers, flessen en roerstaafjes en het gebruik van herbruikbare drinkbussen, mokken en lepeltjes moedigen.&nbsp;
+              <br /> Ban de nieten en kampioen van het gebruik van de paperclip&nbsp;
+              <br /> Zorg voor bakken voor aluminium blikjes in de keuken, het restaurant en automaten gebieden&nbsp;
+              <br /> Recycle tonercartridges voor kopieerapparaten en faxtoestellen&nbsp;
+              <br /> Bij het kopen van nieuwe elektronica overwegen een lease-programma dat een correct hergebruik en recycling termen bevat, als onderdeel van de deal&nbsp;
+              <br /> Doneren oude kantoormeubilair aan scholen, hogescholen en start-up bedrijven&nbsp;
+              <br /> Bij de aankoop van producten te controleren dat ze zijn gemaakt van gerecycled of duurzaam materiaal - zoals Avery recycled etiketten!&nbsp;
+              <br /> Moedig uw bedrijf om mobiele telefoons te recyclen, kan dit eenvoudig worden gedaan online&nbsp;
+              <br /> Recycle verpakkingsmateriaal en gebruik BlockOut &trade; etiketten waar mogelijk naar oude adres etiketten dekken&nbsp;
+              <br /> Shred vertrouwelijk afval en recyclen&nbsp;
+              <br /> Woensdag - Energie&nbsp;
+              <br /> Niet te vullen! Als je gewoon het maken van een kopje hoeft de ketel niet tanken teveel, besparen op water en elektriciteit&nbsp;
+              <br /> Als alternatief kan er ronde in! Als je in een groot kantoor werken vullen de waterkoker en maak een brouwsel voor je collega&#39;s!&nbsp;
+              <br /> Als je een nieuwe ketel bron een eco-vriendelijk ketel nodig die meer energie-effici&euml;nter dan de magnetron en vaak kook je water in de helft van de tijd&nbsp;
+              <br /> Bak de papieren bekertjes - breng je favoriete mok aan het werk, niet alleen zal het bezuinigen op papier, maar het zal zo veel beter smaken.&nbsp;
+              <br /> Donderdag - Milieu&nbsp;
+              <br /> Groen uw werkplek! Niet alleen planten maken een kantoor kijkje groener ze dragen ook bij aan het algehele welzijn. Door het absorberen van luchtvervuiling binnenshuis en het vergroten van de toevoer van zuurstof, ze maken het kantoor van een betere en gezondere plek om te vertoeven.&nbsp;
+              <br /> De kalmerende invloed van natuurlijke omgevingen is bevorderlijk voor positieve werk door het verhogen van het vermogen van een persoon om zich te concentreren op de taak bij de hand.&nbsp;
+              <br /> Studies uitgevoerd door Dr Andrew Smith, Docent Facility Management aan de Universiteit van Central Lancashire, hebben aangetoond dat planten niet alleen gewezen op de luchtvochtigheid om ruimte comfortabeler te maken, maar ook verminderde andere giftige stoffen in het milieu en het leek te helpen de productiviteit te verhogen.&nbsp;
+              <br /> Een extra bonus is dat op korte termijn ziekteverzuim werd verminderd met 50% in een beplante kamer terwijl een unplanted kamer licht gestegen&nbsp;
+              <br /> In aanvulling op uw kantoor vergroening aan een gezondere werkplek andere stappen zijn onder te bevorderen:&nbsp;
+              <br /> Open uw ramen om de luchtstroom te verhogen. Als u geen ramen kunt openen, neemt enkele korte frisse lucht pauzes buiten&nbsp;
+              <br /> Gebruik van niet-giftige schoonmaakmiddelen, vochtige doeken zijn voldoende om de meeste stoffige werkplekken schoon&nbsp;
+              <br /> Gebruik geen spuitbussen gebruiken, kunnen ze schadelijke drijfgassen bevatten - kiezen voor vloeistoffen en spuiten producten in plaats&nbsp;
+              <br /> Lift Gratis Dag - overtuigen management om de liften stoppen voor een dag om te bevorderen het nemen van de trap&nbsp;
+              <br /> Vrijdag - Blijf doorgaan&nbsp;
+              <br /> Krijg Networking - waarom niet verder verspreiden uw succes een beetje: afgifte van een afbeelding persbericht en in naam van uw bedrijf en laat de bredere zakelijke omgeving kennen van je succes&nbsp;
+              <br /> Stel een doel van het opnemen van drie milieuvriendelijke social media berichten en tweets over uw bedrijf pagina&#39;s per week. Waarom geen gebruik maken # greenoffice14&nbsp;
+              <br /> Dank je collega&#39;s voor hun steun en streven naar het opzetten van een groene idee&euml;n regeling die stimuleert en beloont lean, green thinking in uw bedrijf&nbsp;
+              <br /> Check je kantoor en vind de vijf dingen die moeten veranderen - streven om hen gedaan tegen het einde van mei</p>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Avery UK
+            hippogogreen:url: http://www.avery.co.uk/avery/en_gb/Projects-%26-Ideas/Ideas-for-Work/GOW/Green-Office-Week-Monday.htm
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 57b553a2-42d0-4a2f-a7e1-0520e157ce88
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /groene-kantoor-week[2]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a0effa62-a007-42c4-b8ad-6390ef75233e
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
+          hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
+            leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
+            elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
+            passen in uw eigen werkplek. U kunt een verschil maken voor het milieu
+            door het maken van een paar kleine veranderingen. We moeten allemaal doen
+            wat we kunnen 52 weken van het jaar. Je kon kiezen uit een willekeurige
+            week van het jaar om uw eigen bedrijf Green Office week te zijn en gebruik
+            maken van onze dagelijkse thema's.
+          hippogogreen:title: Groene Kantoor Week
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:22:51.236+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Maandag - Aan de slag&nbsp;
+              <br /> Drop een snelle e-mail naar uw collega&#39;s (of gewoon downloaden van de e-mail die we hebben bedacht om u wat tijd), om je werk vrienden weten dat het Green Office Week - hoe meer mensen die zich bezighouden&nbsp;
+              <br /> met GOW hoe beter de resultaten.&nbsp;
+              <br /> Als uw werkplek is over verschillende verdiepingen kan het een goed idee om de hulp van enkele collega&#39;s te werven en vormen een Green Team, die een oogje houden op hun werkgebied en zorgen ervoor dat machines en verlichting zijn uitgeschakeld en papier gerecycled worden.&nbsp;
+              <br /> Machines: Zorg ervoor dat de stand-by modus is ingeschakeld op alle machines en dat aan het eind van de dag alle machines zijn uitgeschakeld - het zou een goed idee zijn om te investeren in een aantal 7-dagen timer schakelt het automatisch maken.&nbsp;
+              <br /> Lichten: Download onze handige herinnering stickers en pop ze op lichtschakelaars rond het kantoor.&nbsp;
+              <br /> Mobile: Haal opladers voor mobiele telefoons als de telefoon volledig is opgeladen, zal dit ook de levensduur van de batterij te verlengen!&nbsp;
+              <br /> Om ervoor te zorgen dat het kantoor is klaar om te recyclen, maken recycling bakken direct beschikbaar en in duidelijke website. Wist u dat alle bakken in de Avery DTR Eco Range zijn gemaakt van 100% gerecycled materiaal, zodat u kunt verdubbelen uw recycling prestaties gewoon door ze te gebruiken!&nbsp;
+              <br /> Dinsdag - Recycle&nbsp;
+              <br /> Papier is waarschijnlijk een van de grootste verbruiksgoederen die een kantoor nodig heeft, kunt u zuiniger in het gebruik ervan door zijn;&nbsp;
+              <br /> Vermijd het afdrukken van e-mails, of waarom niet gaan retro en pak de telefoon en praat het door!&nbsp;
+              <br /> Wanneer u afdrukt met beide zijden van het papier&nbsp;
+              <br /> Houd een van uw printer trays gevuld met enkelzijdige oud papier&nbsp;
+              <br /> Toon neer! En gebruiken minder inkt, waar mogelijk gebruik maken van kleinere fonts en schakel over naar de kwaliteit op te stellen waar mogelijk; minder toner = minder kosten = minder gifstoffen op het papier wanneer het wordt gerecycled afdrukken&nbsp;
+              <br /> Challenge: je zou ook kunnen kijken naar uw impact op het milieu door de manier waarop je kiest om te reizen te verminderen.&nbsp;
+              <br /> Proberen:&nbsp;
+              <br /> Reis slim en het verminderen van de tijd en de emissies die u besteedt in auto&#39;s en vervoer&nbsp;
+              <br /> Moedig je collega&#39;s om het openbaar vervoer te nemen&nbsp;
+              <br /> Het opzetten van een deelautosysteem binnen uw bedrijf - weer een Meerijden naar boord Work&nbsp;
+              <br /> Hergebruiken interne enveloppen en voor externe bericht blik op het gebruik van Blockout &trade; etiketten&nbsp;
+              <br /> Verlies de plastic bekers, flessen en roerstaafjes en het gebruik van herbruikbare drinkbussen, mokken en lepeltjes moedigen.&nbsp;
+              <br /> Ban de nieten en kampioen van het gebruik van de paperclip&nbsp;
+              <br /> Zorg voor bakken voor aluminium blikjes in de keuken, het restaurant en automaten gebieden&nbsp;
+              <br /> Recycle tonercartridges voor kopieerapparaten en faxtoestellen&nbsp;
+              <br /> Bij het kopen van nieuwe elektronica overwegen een lease-programma dat een correct hergebruik en recycling termen bevat, als onderdeel van de deal&nbsp;
+              <br /> Doneren oude kantoormeubilair aan scholen, hogescholen en start-up bedrijven&nbsp;
+              <br /> Bij de aankoop van producten te controleren dat ze zijn gemaakt van gerecycled of duurzaam materiaal - zoals Avery recycled etiketten!&nbsp;
+              <br /> Moedig uw bedrijf om mobiele telefoons te recyclen, kan dit eenvoudig worden gedaan online&nbsp;
+              <br /> Recycle verpakkingsmateriaal en gebruik BlockOut &trade; etiketten waar mogelijk naar oude adres etiketten dekken&nbsp;
+              <br /> Shred vertrouwelijk afval en recyclen&nbsp;
+              <br /> Woensdag - Energie&nbsp;
+              <br /> Niet te vullen! Als je gewoon het maken van een kopje hoeft de ketel niet tanken teveel, besparen op water en elektriciteit&nbsp;
+              <br /> Als alternatief kan er ronde in! Als je in een groot kantoor werken vullen de waterkoker en maak een brouwsel voor je collega&#39;s!&nbsp;
+              <br /> Als je een nieuwe ketel bron een eco-vriendelijk ketel nodig die meer energie-effici&euml;nter dan de magnetron en vaak kook je water in de helft van de tijd&nbsp;
+              <br /> Bak de papieren bekertjes - breng je favoriete mok aan het werk, niet alleen zal het bezuinigen op papier, maar het zal zo veel beter smaken.&nbsp;
+              <br /> Donderdag - Milieu&nbsp;
+              <br /> Groen uw werkplek! Niet alleen planten maken een kantoor kijkje groener ze dragen ook bij aan het algehele welzijn. Door het absorberen van luchtvervuiling binnenshuis en het vergroten van de toevoer van zuurstof, ze maken het kantoor van een betere en gezondere plek om te vertoeven.&nbsp;
+              <br /> De kalmerende invloed van natuurlijke omgevingen is bevorderlijk voor positieve werk door het verhogen van het vermogen van een persoon om zich te concentreren op de taak bij de hand.&nbsp;
+              <br /> Studies uitgevoerd door Dr Andrew Smith, Docent Facility Management aan de Universiteit van Central Lancashire, hebben aangetoond dat planten niet alleen gewezen op de luchtvochtigheid om ruimte comfortabeler te maken, maar ook verminderde andere giftige stoffen in het milieu en het leek te helpen de productiviteit te verhogen.&nbsp;
+              <br /> Een extra bonus is dat op korte termijn ziekteverzuim werd verminderd met 50% in een beplante kamer terwijl een unplanted kamer licht gestegen&nbsp;
+              <br /> In aanvulling op uw kantoor vergroening aan een gezondere werkplek andere stappen zijn onder te bevorderen:&nbsp;
+              <br /> Open uw ramen om de luchtstroom te verhogen. Als u geen ramen kunt openen, neemt enkele korte frisse lucht pauzes buiten&nbsp;
+              <br /> Gebruik van niet-giftige schoonmaakmiddelen, vochtige doeken zijn voldoende om de meeste stoffige werkplekken schoon&nbsp;
+              <br /> Gebruik geen spuitbussen gebruiken, kunnen ze schadelijke drijfgassen bevatten - kiezen voor vloeistoffen en spuiten producten in plaats&nbsp;
+              <br /> Lift Gratis Dag - overtuigen management om de liften stoppen voor een dag om te bevorderen het nemen van de trap&nbsp;
+              <br /> Vrijdag - Blijf doorgaan&nbsp;
+              <br /> Krijg Networking - waarom niet verder verspreiden uw succes een beetje: afgifte van een afbeelding persbericht en in naam van uw bedrijf en laat de bredere zakelijke omgeving kennen van je succes&nbsp;
+              <br /> Stel een doel van het opnemen van drie milieuvriendelijke social media berichten en tweets over uw bedrijf pagina&#39;s per week. Waarom geen gebruik maken # greenoffice14&nbsp;
+              <br /> Dank je collega&#39;s voor hun steun en streven naar het opzetten van een groene idee&euml;n regeling die stimuleert en beloont lean, green thinking in uw bedrijf&nbsp;
+              <br /> Check je kantoor en vind de vijf dingen die moeten veranderen - streven om hen gedaan tegen het einde van mei</p>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Avery UK
+            hippogogreen:url: http://www.avery.co.uk/avery/en_gb/Projects-%26-Ideas/Ideas-for-Work/GOW/Green-Office-Week-Monday.htm
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 57b553a2-42d0-4a2f-a7e1-0520e157ce88
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /groene-kantoor-week[3]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 29d4d008-b2bd-43e4-9a4f-333f5ca8e5a1
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
+          hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
+            leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
+            elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
+            passen in uw eigen werkplek. U kunt een verschil maken voor het milieu
+            door het maken van een paar kleine veranderingen. We moeten allemaal doen
+            wat we kunnen 52 weken van het jaar. Je kon kiezen uit een willekeurige
+            week van het jaar om uw eigen bedrijf Green Office week te zijn en gebruik
+            maken van onze dagelijkse thema's.
+          hippogogreen:title: Groene Kantoor Week
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:23:11.772+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-10-09T10:23:13.412+02:00
+          hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Maandag - Aan de slag&nbsp;
+              <br /> Drop een snelle e-mail naar uw collega&#39;s (of gewoon downloaden van de e-mail die we hebben bedacht om u wat tijd), om je werk vrienden weten dat het Green Office Week - hoe meer mensen die zich bezighouden&nbsp;
+              <br /> met GOW hoe beter de resultaten.&nbsp;
+              <br /> Als uw werkplek is over verschillende verdiepingen kan het een goed idee om de hulp van enkele collega&#39;s te werven en vormen een Green Team, die een oogje houden op hun werkgebied en zorgen ervoor dat machines en verlichting zijn uitgeschakeld en papier gerecycled worden.&nbsp;
+              <br /> Machines: Zorg ervoor dat de stand-by modus is ingeschakeld op alle machines en dat aan het eind van de dag alle machines zijn uitgeschakeld - het zou een goed idee zijn om te investeren in een aantal 7-dagen timer schakelt het automatisch maken.&nbsp;
+              <br /> Lichten: Download onze handige herinnering stickers en pop ze op lichtschakelaars rond het kantoor.&nbsp;
+              <br /> Mobile: Haal opladers voor mobiele telefoons als de telefoon volledig is opgeladen, zal dit ook de levensduur van de batterij te verlengen!&nbsp;
+              <br /> Om ervoor te zorgen dat het kantoor is klaar om te recyclen, maken recycling bakken direct beschikbaar en in duidelijke website. Wist u dat alle bakken in de Avery DTR Eco Range zijn gemaakt van 100% gerecycled materiaal, zodat u kunt verdubbelen uw recycling prestaties gewoon door ze te gebruiken!&nbsp;
+              <br /> Dinsdag - Recycle&nbsp;
+              <br /> Papier is waarschijnlijk een van de grootste verbruiksgoederen die een kantoor nodig heeft, kunt u zuiniger in het gebruik ervan door zijn;&nbsp;
+              <br /> Vermijd het afdrukken van e-mails, of waarom niet gaan retro en pak de telefoon en praat het door!&nbsp;
+              <br /> Wanneer u afdrukt met beide zijden van het papier&nbsp;
+              <br /> Houd een van uw printer trays gevuld met enkelzijdige oud papier&nbsp;
+              <br /> Toon neer! En gebruiken minder inkt, waar mogelijk gebruik maken van kleinere fonts en schakel over naar de kwaliteit op te stellen waar mogelijk; minder toner = minder kosten = minder gifstoffen op het papier wanneer het wordt gerecycled afdrukken&nbsp;
+              <br /> Challenge: je zou ook kunnen kijken naar uw impact op het milieu door de manier waarop je kiest om te reizen te verminderen.&nbsp;
+              <br /> Proberen:&nbsp;
+              <br /> Reis slim en het verminderen van de tijd en de emissies die u besteedt in auto&#39;s en vervoer&nbsp;
+              <br /> Moedig je collega&#39;s om het openbaar vervoer te nemen&nbsp;
+              <br /> Het opzetten van een deelautosysteem binnen uw bedrijf - weer een Meerijden naar boord Work&nbsp;
+              <br /> Hergebruiken interne enveloppen en voor externe bericht blik op het gebruik van Blockout &trade; etiketten&nbsp;
+              <br /> Verlies de plastic bekers, flessen en roerstaafjes en het gebruik van herbruikbare drinkbussen, mokken en lepeltjes moedigen.&nbsp;
+              <br /> Ban de nieten en kampioen van het gebruik van de paperclip&nbsp;
+              <br /> Zorg voor bakken voor aluminium blikjes in de keuken, het restaurant en automaten gebieden&nbsp;
+              <br /> Recycle tonercartridges voor kopieerapparaten en faxtoestellen&nbsp;
+              <br /> Bij het kopen van nieuwe elektronica overwegen een lease-programma dat een correct hergebruik en recycling termen bevat, als onderdeel van de deal&nbsp;
+              <br /> Doneren oude kantoormeubilair aan scholen, hogescholen en start-up bedrijven&nbsp;
+              <br /> Bij de aankoop van producten te controleren dat ze zijn gemaakt van gerecycled of duurzaam materiaal - zoals Avery recycled etiketten!&nbsp;
+              <br /> Moedig uw bedrijf om mobiele telefoons te recyclen, kan dit eenvoudig worden gedaan online&nbsp;
+              <br /> Recycle verpakkingsmateriaal en gebruik BlockOut &trade; etiketten waar mogelijk naar oude adres etiketten dekken&nbsp;
+              <br /> Shred vertrouwelijk afval en recyclen&nbsp;
+              <br /> Woensdag - Energie&nbsp;
+              <br /> Niet te vullen! Als je gewoon het maken van een kopje hoeft de ketel niet tanken teveel, besparen op water en elektriciteit&nbsp;
+              <br /> Als alternatief kan er ronde in! Als je in een groot kantoor werken vullen de waterkoker en maak een brouwsel voor je collega&#39;s!&nbsp;
+              <br /> Als je een nieuwe ketel bron een eco-vriendelijk ketel nodig die meer energie-effici&euml;nter dan de magnetron en vaak kook je water in de helft van de tijd&nbsp;
+              <br /> Bak de papieren bekertjes - breng je favoriete mok aan het werk, niet alleen zal het bezuinigen op papier, maar het zal zo veel beter smaken.&nbsp;
+              <br /> Donderdag - Milieu&nbsp;
+              <br /> Groen uw werkplek! Niet alleen planten maken een kantoor kijkje groener ze dragen ook bij aan het algehele welzijn. Door het absorberen van luchtvervuiling binnenshuis en het vergroten van de toevoer van zuurstof, ze maken het kantoor van een betere en gezondere plek om te vertoeven.&nbsp;
+              <br /> De kalmerende invloed van natuurlijke omgevingen is bevorderlijk voor positieve werk door het verhogen van het vermogen van een persoon om zich te concentreren op de taak bij de hand.&nbsp;
+              <br /> Studies uitgevoerd door Dr Andrew Smith, Docent Facility Management aan de Universiteit van Central Lancashire, hebben aangetoond dat planten niet alleen gewezen op de luchtvochtigheid om ruimte comfortabeler te maken, maar ook verminderde andere giftige stoffen in het milieu en het leek te helpen de productiviteit te verhogen.&nbsp;
+              <br /> Een extra bonus is dat op korte termijn ziekteverzuim werd verminderd met 50% in een beplante kamer terwijl een unplanted kamer licht gestegen&nbsp;
+              <br /> In aanvulling op uw kantoor vergroening aan een gezondere werkplek andere stappen zijn onder te bevorderen:&nbsp;
+              <br /> Open uw ramen om de luchtstroom te verhogen. Als u geen ramen kunt openen, neemt enkele korte frisse lucht pauzes buiten&nbsp;
+              <br /> Gebruik van niet-giftige schoonmaakmiddelen, vochtige doeken zijn voldoende om de meeste stoffige werkplekken schoon&nbsp;
+              <br /> Gebruik geen spuitbussen gebruiken, kunnen ze schadelijke drijfgassen bevatten - kiezen voor vloeistoffen en spuiten producten in plaats&nbsp;
+              <br /> Lift Gratis Dag - overtuigen management om de liften stoppen voor een dag om te bevorderen het nemen van de trap&nbsp;
+              <br /> Vrijdag - Blijf doorgaan&nbsp;
+              <br /> Krijg Networking - waarom niet verder verspreiden uw succes een beetje: afgifte van een afbeelding persbericht en in naam van uw bedrijf en laat de bredere zakelijke omgeving kennen van je succes&nbsp;
+              <br /> Stel een doel van het opnemen van drie milieuvriendelijke social media berichten en tweets over uw bedrijf pagina&#39;s per week. Waarom geen gebruik maken # greenoffice14&nbsp;
+              <br /> Dank je collega&#39;s voor hun steun en streven naar het opzetten van een groene idee&euml;n regeling die stimuleert en beloont lean, green thinking in uw bedrijf&nbsp;
+              <br /> Check je kantoor en vind de vijf dingen die moeten veranderen - streven om hen gedaan tegen het einde van mei</p>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Avery UK
+            hippogogreen:url: http://www.avery.co.uk/avery/en_gb/Projects-%26-Ideas/Ideas-for-Work/GOW/Green-Office-Week-Monday.htm
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 57b553a2-42d0-4a2f-a7e1-0520e157ce88
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /evolutie-kan-sneller-plaatsvinden-dan-verwacht:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 169c5cd2-3cc1-4624-bbd5-18ed30d1e2d0
+        hippo:name: Evolutie kan sneller plaatsvinden dan verwacht
+        /evolutie-kan-sneller-plaatsvinden-dan-verwacht:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c45f5be0-a25d-4529-8176-d8a50875abe0
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Biosphere Technology]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2019-07-06T10:22:00+02:00
+          hippogogreen:summary: Twee afgestudeerde studenten van de Harvard universiteit
+            beweren dat zij hebben laten zien dat evolutie veel sneller kan plaatsvinden
+            dan voorheen werd gedacht. Natuurkundestudent Peter Lu en zijn voormalige
+            kamergenoot, econoom Motohiro Yogo, besloten om een economisch model toe
+            te passen op een document van een welbekend zeefossiel om te voorspellen
+            hoe snel leven zich kan aanpassen aan veranderingen in haar omgeving.
+            De methode, vector autoregressie, wordt gebruikt om de aandelenmarkt te
+            voorspellen op basis van historisch gedrag.
+          hippogogreen:title: Evolutie kan sneller optreden dan eens werd gedacht
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostdpubwf:createdBy: Katja de Wit
+          hippostdpubwf:creationDate: 2019-07-20T11:43:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:29:00Z
+          hippostdpubwf:lastModifiedBy: boris
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
+          hippotranslation:id: 5f4dfddf-dad3-4152-91c6-d30a27df1239
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p> </p>
+
+              <p>Aanvankelijk bevestigde hun model voorgaande analyses dat leven zich langzaam
+              aanpaste. Sommige rotsen waarin fossielen worden ontdekt worden echter vaker
+              gevonden dan anderen. Toen zij hier rekening mee hielden verdween de vertraging.
+              Voor zover kon worden opgemaakt uit geologische documenten leek de biosfeer zich
+              meteen aan te passen aan veranderingen. Dit zou betekenen dat leven zich zeer
+              snel kan herstellen na grote uitstervingen; voorheen werd gedacht dat dergelijk
+              herstel miljoenen jaren zou duren.</p>
+
+              </body>
+              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 3e52f519-f905-407d-bdc3-6378897b0ba7
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 2e44d9c2-64ac-4769-b8a2-5d2cc485eeed
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: http://en.wikinews.org/wiki/Evolution_may_occur_faster_than_once_thought,_scientists_claim
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: b491c993-3e62-4db0-9840-6c6fbade277b
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 55f5e983-f687-48cd-8012-a2288a504f6f
+        hippo:name: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
+        /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 02d433be-3175-41c3-a5b7-490ac752873f
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Electricity, Automotive, Green]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-07-17T10:22:00+02:00
+          hippogogreen:summary: De Toyota Motor Company heeft aangekondigd dat zij
+            een overeenkomst hebben geformaliseerd om een elektrische versie van de
+            RAV4 SUV te maken samen met Tesla Motors.
+          hippogogreen:title: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostdpubwf:createdBy: katja
+          hippostdpubwf:creationDate: 2019-07-28T12:35:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:52:00Z
+          hippostdpubwf:lastModifiedBy: boris
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
+          hippotranslation:id: bd547d36-520d-452e-a41b-ce8d92c39d34
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>In mei 2014 hebben Akio Toyoda en Elon Musk, leiders van Toyota en Tesla
+              respectievelijk, aangekondigd dat zij zouden gaan samenwerken aan elektrische
+              voertuigen. De overeenkomst formaliseert deze aankondiging en zou Tesla toelaten
+              om samen te werken met Toyota in een productiefabriek in Californië.</p>
+
+              <p>De fabriek zal opengaan in 2011 als Tesla haar heropent in Fremont,
+              Californië, na de aankoop. Eerder werd de fabriek gebruikt door Toyota en
+              General Motors, maar zij werd gesloten nadat Toyota aankondigde geen auto's te
+              produceren in Californië.</p>
+
+              <p>Tesla produceert op het moment slechts 1 model, de $109,000 kostende
+              Roadster, maar het is bezig met de ontwikkeling van een nieuw model, de Model S,
+              die zal worden geproduceerd in de Fremont fabriek.</p>
+
+              <p>Analysten steunden de beslissing; John Boesel, CEO van een groene transport
+              handelgroep, zei dat “Toyota's bereidheid om samen te werken met Tesla om een
+              elektrische versie van één van haar bestaande modellen te maken aantoont dat de
+              samenwerking tussen de twee bedrijven van veel betekenis zal zijn.”</p>
+
+              <p>Na deze aankondiging steeg Tesla's aandelenprijs met $0.75, die van Toyota
+              daalde met $1.65.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Toyota, Tesla to develop electric SUV
+            hippogogreen:url: http://en.wikinews.org/wiki/Toyota,_Tesla_to_develop_electric_SUV
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: eda53e2d-e245-439d-9825-045664233920
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 4a35cad1-dbd2-408a-9342-70d4cfa238f5
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 6d81d6de-8956-48a0-8e3c-ebd3923fbd32
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /smeltende-gletsjer-in-italie-krijgt-een-thermische-deken:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: be8e9426-6979-4808-9274-c889273b2d9f
+        hippo:name: Smeltende gletsjer in Italië krijgt een thermische deken
+        /smeltende-gletsjer-in-italie-krijgt-een-thermische-deken:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5f066e19-ae8f-46f1-aadc-bba7611f70bf
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Global Warming]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-07-09T17:04:00+02:00
+          hippogogreen:summary: In de hoop het tempo waarin het ijs in de bergen van
+            Noord-Italië smelt te verlagen, zijn ambtenaren begonnen met het bedekken
+            van één van de meest dreigende gletsjers met isolerende stof, waardoor
+            er in feite een gigantische veiligheidsdeken wordt gecreëerd die het smelten
+            van het ijs in de zomerhitte tegengaat. Het klinkt wellicht een beetje
+            ongebruikelijk, maar testen hebben laten zien dat de thermische deken
+            precies hetgeen kan zijn om het volledige verdwijnen van de gletsjers
+            in de regio te voorkomen, voorlopig tenminste.
+          hippogogreen:title: Smeltende gletsjer in Italië krijgt een thermische deken
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostd:tags: [Smeltende Gletsjer, Klimaat]
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-07-12T12:34:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:31:00Z
+          hippostdpubwf:lastModifiedBy: boris
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
+          hippotranslation:id: 9c3705dd-574d-40ef-8352-cb3d42bd7e73
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Gewapend met bijna 970 duizend vierkante voet van 4 millimeter dik thermisch
+              materiaal, haasten arbeiders zich om de ernstig bedreigde Presena gletsjer te
+              beschermen tegen de ultraviolette straling van de zon. Met enig geluk zal het
+              isolerend materiaal de hoeveelheid ijs die smelt door de zomerhitte verminderen
+              totdat zij is verwijderd aan het einde van het seizoen.</p>
+
+              <p>Dit is niet de eerste keer dat Italië dit materiaal gebruikt om haar
+              gletsjers te beschermen. Twee jaar geleden werd er een kleinschaligere test
+              gedaan en de resultaten toonden aan dat de methode vrij effectief was. Ijs
+              bedekt met het isolerende materiaal smolt 60 procent minder dan blootgestelde
+              gebieden, die verloren gemiddeld 5 voet aan dikte tijdens de test.</p>
+
+              <p>Het creatieve plan kon niet op een beter moment zijn gekomen voor de
+              gletsjers in de Italiaanse provincie Trento, zij, zoals zoveel van de gletsjers
+              op aarde, hebben dramatische verminderingen gezien in de afgelopen decennia.
+              Volgens BBC Brasil, heeft de Presena gletsjer in Trento tussen 1993 en 2003
+              alleen al 39 procent van haar massa verloren.</p>
+
+              <p>En de dader? U raadt het al.</p>
+
+              <p>“Eén ding is zeker: het smelten van de gletsjers gebeurt vanwege de stijging
+              van de temperatuur op aarde,”vertelt Nicola Paoli, een milieu-ingenieur, aan BBC
+              Brasil. “In de afgelopen vier, vijf jaar, hebben we geobserveerd dat de
+              smeltende sneeuw is verdubbeld in vergelijking tot het normale ritme.”</p>
+
+              <p>Hoe ambitieus of creaftief locale innitiatieven ook zijn in de regio's die
+              het meest worden</p>
+
+              <p>beïnvloed door de stijging in de temperatuur, het is helaas een wereldwijd
+              probleem dat internationale moeite nodig heeft om verminderd te worden. Dus al
+              het harde werk om de Presena gletsjer te redden is wellicht slechts een
+              uitstelling van het onvermijdelijke.</p>
+
+              </body>
+              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 2e44d9c2-64ac-4769-b8a2-5d2cc485eeed
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: fc234d21-a769-49e5-ba1c-6a0f176fd6c0
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image[1]:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0d990656-f544-450a-b4c9-d633f068309c
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:image[2]:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 32cefa88-25ff-4f6a-994d-d9963b86b9a6
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+    /06:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 04fa8975-d3b8-4ff5-871f-9dc81f6f5358
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: fe87127d-1ca9-4e5d-a2d0-7ceb0f4bc7eb
+      hippotranslation:locale: nl
+      /nasa-eerste-grote-test-zonne-zeil-slaagt:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 53d4662b-d158-4b33-85db-e76d692fcd32
+        hippo:name: NASA eerste grote test zonne-zeil slaagt
+        /nasa-eerste-grote-test-zonne-zeil-slaagt:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8aa201af-a996-4e86-9e80-c55c460163f7
+          hippo:availability: [live, preview]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-06-02T10:22:00+02:00
+          hippogogreen:summary: NASA heeft een belangrijke test van een 20-meter vierkante
+            zonne-zeil afgerond, dit markeerd een "belangrijke mijlpaal" in de ruimte
+            aandrijftechnologie. Het is niet de eerste test voor zonne-zeilen,  de
+            Japanners hebben ingezet op twee zonne zeilen in de ruimte. De Planetary
+            Society is van plan om mogelijk op 21 juni een zonne-zeil te lanceren.
+          hippogogreen:title: NASA eerste grote test zonne-zeil slaagt
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [technology]
+          hippostdpubwf:createdBy: Katja de Wit
+          hippostdpubwf:creationDate: 2017-07-20T16:16:00+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-23T15:08:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-05-23T15:08:00+02:00
+          hippotranslation:id: 3e6805d4-75e8-43c4-8dca-39e39e7f90f2
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                              <body>
+
+                              <p>Shot in een baan door een geconverteerde intercontinentale ballistische raket
+                              (ICBM), zou de Cosmos 1 worden gelanceerd vanaf een Russische duikboot onder
+                              water vanuit de Barentszzee. Het ruimtevaartuig, aangedreven door het zeil, zal
+                              geen bestemming. Het doel is gewoon om te testen het aandrijfsysteem dat de druk
+                              van zonne-lichtdeeltjes om het schip naar buiten verplaatsen van een beginnende
+                              baan rond de aarde op 500 mijl gebruikt.</p>
+
+                              <p>De voortstuwing technologie wordt momenteel beschouwd als de meest efficiënte
+                              beschikbaar voor interstellaire ruimtevaart. Theoretisch een ambacht aangedreven
+                              door de druk van een constante lichtbron, zoals een speciaal gebouwde laser, kon
+                              bereiken snelheden het naderen van de snelheid van het licht. Dit komt door de
+                              efficiëntie van het ruimtevaartuig niet hoeft te zijn eigen brandstof dragen.
+                              Het naderen van de snelheid van het licht zou echter een lange periode van
+                              constante versnelling. Dergelijke hoge snelheid zal het onmogelijk zijn voor de
+                              huidige test voertuigen en gelanceerd in de nabije toekomst, omdat ze vertrouwen
+                              op het licht van de zon, die snel zwakker wordt met toenemende afstand.</p>
+
+                              <p>Volgens de National Geographic News, "NASA, het Europees Ruimteagentschap,
+                              Japan, en Rusland al hebben ontwikkeld zonne zeilen, maar geen enkele heeft nog
+                              geprobeerd te bewijzen dat de zeilen kan een ruimtevaartuig drijven onder
+                              gecontroleerde vlucht."</p>
+
+                              </body>
+                              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5044a402-5412-4c76-a069-bdf2aa2d2764
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /klimaatconferentie-in-kopenhagen:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b989e4bd-f115-47c1-a5dc-98bc81b184de
+        hippo:name: Klimaatconferentie in Kopenhagen
+        /klimaatconferentie-in-kopenhagen:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c1696f86-bab7-4d32-9b22-e88947be90a6
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Global Warming, Conference]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2019-06-22T10:22:00+02:00
+          hippogogreen:summary: Een overeenkomst is binnen ons bereik – Deense premier,
+            Lars Løkke Rasmussen.
+          hippogogreen:title: Klimaatconferentie opent in Kopenhagen
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostd:tags: [Global Warming, Copenhagen treaty]
+          hippostdpubwf:createdBy: admin20
+          hippostdpubwf:creationDate: 2019-07-30T13:29:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:27:00Z
+          hippostdpubwf:lastModifiedBy: boris
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
+          hippotranslation:id: 0faa3f16-bddc-4405-ac6e-0106804872c5
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>De United Nations Climate Change Conference (COP15) is maandag geopend met
+              oproepen voor dringende maatregelen om de veranderingen in het klimaat en de
+              effecten van het broeikaseffect te beteugelen. De grootste klimaat conferentie
+              in de geschiedenis in het Bella Center in Kopenhagen, Denemarken zal twee weken
+              duren van 7 december tot 18 december. Ongeveer 15,000 gedelegeerden waaronder
+              vertegenwoordigers van de private sector, milieuorganisaties,
+              onderzoeksinstituten en overheidsambtenaren, zowel als 110 staatshoofden en
+              regeringsleiders uit 192 landen, zullen aanwezig zijn.</p>
+
+              <p> </p>
+
+              <p>De COP15<em> Culturele Openings Ceremonie </em>speelde een film die vier
+              minuten duurde genaamd <em>Please help the world</em> van de Deense regisseur
+              Mikkel Blaabjerg Poulsen om het gevaar van stijgende temperaturen uit te
+              lichten. De film laat een jong meisje zien dat schreeuwt vanwege een eco-ramp
+              met opwarming van de aarde, verlaten woestenij en beangstigende overstromingen.
+              Zodra het meisje wakker wordt uit haar nachtmerrie smeken zij en anderen
+              kinderen ons om alsjeblieft de aarde te helpen ('Please save the world').
+              Poulsen zei, “We hebben een film gemaakt die naar het hart spreekt in plaats van
+              naar het brein”. Er was ook muziek van een trompettist, een harpist en het
+              Deense nationale meisjeskoor.</p>
+
+              <p> </p>
+
+              <p>De VN klimaatconferentie, het resultaat van twee jaar contentieuze
+              onderhandelingen, werd geopend in een hoopvolle sfeer. Er heerste een
+              optimistische stemming over het bereiken van een overeenkomst binnen twee weken.
+              Op een persbriefing zei Connie Hedegaard, de voorzitter van de conferentie, dat
+              “de deadline werkt”, maar “in de tijd die wij hebben, moeten we de taak
+              oplossen”. Lars Løkke Rasmussen benadrukte echter dat de gesprekken het
+              wantrouwen tussen rijke en arme landen moesten overkomen met betrekking tot het
+              delen van de last van het terugdringen van de emissies. Er is een reeks van
+              beloften gedaan door de rijke en opkomende economiëen om hun uitstoot van
+              broeikasgassen terug te dringen, maar er zijn grote problemen die nog opgelost
+              moeten worden. De VN secretaris-generaal Ban Ki-moon zei dat een juridisch
+              bindend verdrag over klimaatsverandering bereikt zal worden in 2014.</p>
+
+              <p> </p>
+
+              <p>De EU is een verplichting aangegaan om haar broeikasgassen terug te dringen
+              met 20% in 2020 in vergelijking met de niveaus in 1990, maar zij is bereid deze
+              verplichting op te hogen naar 30% als andere grote spelers “vergelijkbare
+              verplichtingen” aangaan. Het nieuws dat de United States Environmental
+              Protection Agency heeft geoordeeld dat broeikasgassen de gezondheid van mensen
+              aantast kan zorgen voor een verlaging van de emissie van broeikasgassen in de
+              VS. Onder vermelding van een anonieme diplomatieke bron zei de Financial Times
+              Deutschland dat de EU moet zorgen voor “ 1-3 miljard euro” om
+              ontwikkelingslanden te helpen over de komende drie jaar zodat zij de effecten
+              van klimaatsverandering kunnen tegengaan en om te zorgen voor verzachting en
+              adaptatie van de klimaatsveranderingen.</p>
+
+              <p> </p>
+
+              <p>De conferentie werd beschuldigd van hypocrisie met betrekking tot het milieu
+              vanwege haar substantiële carbon footprint, waaronder het gebruik van privé-jets
+              en limousines. Om de invloed van de conferentie op het milieu en klimaat te
+              reduceren, heeft de Deense overheid besloten geen cadeaus te geven aan
+              deelnemers. Het geld zal worden gebruikt voor klimaatbeurzen die <em>COP15
+              Climate Scholarships </em>gaan heten, die zullen zorgen dat 10-12 kandidaten
+              klimaatgerelateerde masteropleidingen kunnen volgen aan Deense universiteiten.
+              Duizenden mensen staan buiten het gebouw waar de conferentie plaatsvindt,
+              waaronder groepen zoals Climate Justice Action, Friends of the Earth, Camp for
+              Climate Action, 350.org en Greenpeace, met dringende oproepen voor actie. De
+              milieuorganisatie Friends of the Earth veroordeelde wat zij noemden
+              “ondemocratische praktijken aangenomen door het Deens presidentsschap van het
+              bijeenroepen van kleine en exclusieve groepen landen voor de conferentie in
+              Kopenhagen”. Een eerste versie van de onderhandelingstekst is vrijgegeven aan
+              het publiek, maar er heersen geruchten dat er een “alternatief” verdragsdocument
+              wordt ontwikkeld door een aantal grote landen in de onderhandelingen, waaronder
+              de organisators van de conferentie.</p>
+
+              <p> </p>
+
+              <p>Volgens de Bali Road Map moeten de partijen in de vijftiende conferentie van
+              de United Nations Framework Convention on Climate Change (COP15) en de vijfde
+              vergadering van de deelnemers in het Kyoto Protocol (COP/MOP5) tot
+              overeenstemming komen over een kader voor de verzachting van klimaatsverandering
+              na 2012. Staatshoofden en regeringsleiders van 110 landen hebben aangekondigd
+              dat zij naar Kopenhagen zullen komen voor 18 december in een poging om tot een
+              overeenkomst te komen over een politiek wereldklimaatsverdrag. Als er een
+              overeenkomst wordt bereikt zal de VN proberen deze juridisch bindend te maken om
+              zo het Kyoto Protocol te vervangen, haar regulaties over emissies vervallen
+              immers in 2012.</p>
+
+              <p>Zie ook: over het Broeikaseffect, wat is het broeikaseffect, en
+              broeikasgassen tabel</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Copenhagen_climate_conference_opens
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 97f87c90-4f88-4de1-a6dd-0f212479f03e
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: ba3afefe-92f6-4103-9e83-339b27166e69
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /tweede-ronde-van-de-bonn-vn-klimaatsveranderingen-onderhandelingen-gaan-verder:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: d987aab4-e713-4965-a58a-bff9de030d98
+        hippo:name: Tweede ronde van de Bonn VN klimaatsveranderingen onderhandelingen
+          gaan verder
+        /tweede-ronde-van-de-bonn-vn-klimaatsveranderingen-onderhandelingen-gaan-verder:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 32baa14c-16cb-43d7-a790-4b754c42fc8c
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Global Warming]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2019-06-22T10:22:00+02:00
+          hippogogreen:summary: De onderhandelingen van de 2014 Verenigde Naties Klimaatsveranderingconferentie
+            (COP 16) gaan deze week verder in Bonn, Duitsland.
+          hippogogreen:title: Tweede ronde van de Bonn VN klimaatsveranderingen onderhandelingen
+            gaan verder
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostd:tags: [Global Warming, conference]
+          hippostdpubwf:createdBy: admin20
+          hippostdpubwf:creationDate: 2019-07-30T13:17:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:38:00Z
+          hippostdpubwf:lastModifiedBy: boris
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
+          hippotranslation:id: f1b0bcc7-7432-46a3-a0b1-e43f41f8df70
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>De onderhandelingen van de 2014 Verenigde Naties
+              Klimaatsveranderingconferentie (COP 16) gaan deze week verder in Bonn,
+              Duitsland. Onder de 4500 aanwezigen zijn gedelegeerden van 182 overheden,
+              vertegenwoordigers uit het zakenleven en de industrie, milieuorganisaties en
+              onderzoeksinstituten. COP 16 zal plaatsvinden van 29 november tot 10 december
+              2014 in Cancún, Mexico.</p>
+
+              <p>Luis Alfonso de Alba, Mexico's speciale vertegenwoordiger voor
+              klimaatsverandering, zei tegen Reuters, “Mexico wil geen valse verwachtigen
+              opwekken, maar we zijn zeker ambitieus.” Hij bekritiseerde het uitgaande hoofd
+              van het klimaatsecretariaat van de VN, Yvo de Boer en de klimaatcommissaris van
+              de EU, Connie Hedegaard, voor hun scepticisme.</p>
+
+              <p>Onderhandelend onder de United Nations Framework Convention on Climate Change
+              (UNFCCC) is de volgende onderhandelingssessie ingeroosterd in augustus, gevolgd
+              door een andere, laatste één week durende tussen-vergadering voor Cancún. De
+              onderhandelingen zijn bedoeld om onderwerpen te bespreken die niet zijn opgelost
+              op de 2009 Verenigde Naties Klimaatsveranderingsconferentie (COP 15) in
+              Kopenhagen.</p>
+
+              <p>De twee werkende groepen zijn de Ad Hoc Working Group on Long-Term
+              Cooperative Action (AWG-LCA) en de Ad Hoc Working Group on Further Commitments
+              for Annex (AWG-KP). Deze groepen zijn specifiek ontworpen om een oplossing te
+              vinden voor een langetermijn respons voor de klimaatsveranderingen.</p>
+
+              <p>De AWG-LCA is de onderhandelende groep die verantwoordelijk is voor het
+              opzetten een nieuwe “COP16 onderhandelingstekst” voor de onderhandelingssessie
+              in juni. Het doel van de AWG-KP is om zich te concentreren op de verplichtingen
+              tot emissieverlaging van de 37 ge<em>ï</em>ndustrialiseerde landen die het
+              protocol van Kyoto geratificeerd hebben voor de periode na 2012.</p>
+
+              <p>Er zijn ook twee UNFCCC committee vergaderingen die op de agenda staan, de
+              Subsidiary Body for Scientific and Technological Advice (SBSTA) en de Subsidiary
+              Body for Implementation (SBI).</p>
+
+              <p>Officiëel wordt de conferentie als de zestiende sessie aangeduid van de
+              Conference of the Parties (COP 16) to the United Nations Framework Convention on
+              Climate Change (UNFCCC) en de zesde sessie van de Conference of Parties die
+              dienen als een vergadering van de partijen (CMP 6) van het Kyoto protocol.</p>
+
+              <p>Zie ook: over het broeikaseffect</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Second_round_of_Bonn_UN_Climate_Change_negotiations_continue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: bd065aa8-5f0b-44a5-bc72-6e37eed2ee68
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: f490e905-57e7-4846-a13a-23136836a357
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[3]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 3e740aa9-6714-48e3-8fd0-914c9ed3a7cd
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 94638e46-2a0f-412d-b5d8-608e26c6d1ad
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
     /04:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -3168,3 +3096,80 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 7493e668-b337-4b1f-9c58-8d45b79f6166
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: 1c06680d-635e-4624-90c8-4728efa859c3
+      hippotranslation:locale: nl
+      /de-nieuwe-enercon-e-126-windturbine:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ea549f94-65bd-4d34-a834-7095cfddcf4d
+        hippo:name: De nieuwe Enercon E-126 Windturbine
+        /de-nieuwe-enercon-e-126-windturbine:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 68be2b91-8d60-4fbf-872c-c7a494798b4f
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Green, Energy]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2019-02-13T15:51:00+01:00
+          hippogogreen:summary: De grootste windturbine ter wereld is nu de Enercon
+            E-126. Deze turbine heeft een rotordiameter van 126 meter (413 voet).
+            De E-126 is een meer geavanceerde versie van de E-112, voorheen de grootste
+            windturbine ter wereld, deze produceerde 6 megawatts.
+          hippogogreen:title: The new Enercon E-126 Wind Turbine
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [Turbines]
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-12T12:28:00Z
+          hippostdpubwf:lastModificationDate: 2018-01-07T13:48:00Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-01-07T13:48:00Z
+          hippotranslation:id: 25bf4f5f-ccee-48bf-a13e-9aa69ab03392
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>De nieuwe turbine wordt officieel beoordeeld op 6 megawatts, maar zal
+              waarschijnlijk meer dan 7 megawatts produceren (oftewel 20 miljoen kilowattuur
+              per jaar). Dat is genoeg energie om ongeveer 5000 Europese huishoudens van vier
+              te voorzien van stroom. Een snelle berekening voor de VS komt neer op 938 kwh
+              per huishouden per maand, oftwel 11,256 per huishouden per jaar. 1776
+              Amerikaanse huishoudens kunnen dus worden voorzien van stroom door slechts één
+              windturbine.</p>
+
+              <p> </p>
+
+              <p>De turbine wordt opgezet in Emden, Duitsland door Enercon. Zij zijn van plan
+              om verschillende opslagsystemen te testen in combinatie met de multi-megawatt
+              windturbinees.</p>
+
+              <p> </p>
+
+              <p>Deze turbines zijn uitgerust met een aantal nieuwe functies: een
+              geoptimaliseerd design van de bladen met een spoiler die doorloopt tot de spil
+              en een voorgegoten betonnen basis. Door de hogere spil en het nieuwe profiel van
+              de bladen, wordt verwacht dat de E-126 veel beter zal presteren dan de E-112.
+              </p>
+
+              </body>
+              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5acde2bc-3194-43ed-bc25-219d3618a6dc
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wind Turbine
+            hippogogreen:url: ''

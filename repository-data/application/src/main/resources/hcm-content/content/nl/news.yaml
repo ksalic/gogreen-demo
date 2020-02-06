@@ -6,19 +6,14 @@
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 698c552c-4a05-48b3-a846-8ea0f99c9a14
   hippotranslation:locale: nl
-  /facetednews:
-    jcr:primaryType: hippofacnav:facetnavigation
-    hippo:docbase: 46ce7b28-5b99-4764-8fa2-1f4d36505087
-    hippofacnav:facetnodenames: [Dit jaar, 'Archief${sortby:''facetvalue'', sortorder:''descending''}']
-    hippofacnav:facets: ["hippostdpubwf:publicationDate$[{name:'Deze maand', resolution:'month',\
-        \ begin:0, end:1},\r\n        {name:'Afgelopen maand', resolution:'month',\
-        \ begin:-1, end:0}, {name:'Dit jaar',\r\n        resolution:'year', begin:0,\
-        \ end:1}]", 'hippostdpubwf:publicationDate$year']
-    hippofacnav:limit: 200
-    hippofacnav:skipresultsetfacetsavailable: true
-  /2019:
+  /2020:
     jcr:primaryType: hippostd:folder
-    /10:
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: ecd63e4d-93f6-4baa-901e-fa9a9ea23fb2
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: c27d26c4-d67e-4747-a63a-49f2c90abd91
+    hippotranslation:locale: nl
+    /02:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
       jcr:uuid: 23bdb0d3-27b2-4ce4-a313-bc69c0fbd3aa
@@ -36,7 +31,7 @@
           jcr:uuid: 4b374bfe-3fa5-4226-8b01-c5a40a8f6028
           hippo:availability: [preview]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2019-10-22T17:28:00+02:00
+          hippogogreen:date: 2020-02-22T17:28:00+02:00
           hippogogreen:summary: GoGreen is blij om haar Nominatie kondigen voor een
             UNEF Sustainable Business Award
           hippogogreen:title: GoGreen Genomineerd voor UNEF Sustainable Business Award
@@ -59,7 +54,7 @@
           jcr:uuid: bceae378-cde0-4844-b3e8-cc187dd31504
           hippo:availability: []
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2019-10-22T17:28:00+02:00
+          hippogogreen:date: 2020-02-22T17:28:00+02:00
           hippogogreen:summary: GoGreen is blij om haar Nominatie kondigen voor een
             UNEF Sustainable Business Award
           hippogogreen:title: GoGreen Genomineerd voor UNEF Sustainable Business Award
@@ -81,7 +76,7 @@
           jcr:uuid: 431c319c-68fc-4531-afb5-5ebea9086fa2
           hippo:availability: [live]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2019-10-22T17:28:00+02:00
+          hippogogreen:date: 2020-02-22T17:28:00+02:00
           hippogogreen:summary: GoGreen is blij om haar Nominatie kondigen voor een
             UNEF Sustainable Business Award
           hippogogreen:title: GoGreen Genomineerd voor UNEF Sustainable Business Award
@@ -98,7 +93,7 @@
             hippostd:content: |-
               <p>New York-Nairobi. GoGreen is een van 10 internationale bedrijven erkend door de Environmental Fund van de Verenigde Naties met een nominatie voor de prestigieuze Sustainable Business Award. Volgens de aankondiging Sustainable Business Awards, heeft GoGreen is genomineerd voor zijn &quot;uitmuntende bijdragen aan het bestrijden van de klimaatverandering met zijn wereldwijde maatschappelijk verantwoord ondernemen.&quot;&nbsp;
               <br /> &quot;We zijn erg blij om te worden genomineerd voor Sustainable Business Award&quot;, aldus CEO GoGreen Robert Greene, &quot;we grondig respecteren het werk van de UNEF en zijn er trots op om opgenomen te worden bij zulke visionaire bedrijven.&quot; De winnaars van de Sustainable Business Award zal op worden aangekondigd een ceremonie in Nairobi in december.</p>
-    /09:
+    /01:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
       jcr:uuid: 658bd775-94b9-4644-8b87-7c1fdddce494
@@ -116,7 +111,7 @@
           jcr:uuid: 73f7bb82-9114-4580-90ea-b77acd59b9d4
           hippo:availability: [preview]
           hippogogreen:contentstage: action
-          hippogogreen:date: 2019-09-23T17:27:00+02:00
+          hippogogreen:date: 2020-01-23T17:27:00+02:00
           hippogogreen:summary: Positie om de regionale aanwezigheid voor de wereldwijde
             leider op het gebied van duurzame consumptiegoederen te versterken.
           hippogogreen:title: Sonja Verde sluit zich GoGreen als VP van Marketing
@@ -155,7 +150,7 @@
           jcr:uuid: 543abe2f-c0c4-497d-9120-e6d12d4927d8
           hippo:availability: []
           hippogogreen:contentstage: action
-          hippogogreen:date: 2019-09-23T17:27:00+02:00
+          hippogogreen:date: 2020-01-23T17:27:00+02:00
           hippogogreen:summary: Positie om de regionale aanwezigheid voor de wereldwijde
             leider op het gebied van duurzame consumptiegoederen te versterken.
           hippogogreen:title: Sonja Verde sluit zich GoGreen als VP van Marketing
@@ -193,7 +188,7 @@
           jcr:uuid: 3c9a58a2-61de-4f0d-9d49-5b24448a818f
           hippo:availability: [live]
           hippogogreen:contentstage: action
-          hippogogreen:date: 2019-09-23T17:27:00+02:00
+          hippogogreen:date: 2020-01-23T17:27:00+02:00
           hippogogreen:summary: Positie om de regionale aanwezigheid voor de wereldwijde
             leider op het gebied van duurzame consumptiegoederen te versterken.
           hippogogreen:title: Sonja Verde sluit zich GoGreen als VP van Marketing
@@ -237,7 +232,7 @@
           jcr:uuid: f027157d-a1dc-4134-8c0b-d40ab2d594a7
           hippo:availability: [preview]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-09-12T17:19:00+02:00
+          hippogogreen:date: 2020-01-12T17:19:00+02:00
           hippogogreen:summary: In nauwe samenwerking met Hippo, GoGreen, 's werelds
             eerste, digitaal-native, wereldwijde autoriteit op het gebied van duurzame
             producten voor thuis, kantoor en buiten heeft zojuist aangekondigd dat
@@ -263,7 +258,7 @@
           jcr:uuid: 169b1901-bd10-4b00-96b3-e9f36c58f737
           hippo:availability: []
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-09-12T17:19:00+02:00
+          hippogogreen:date: 2020-01-12T17:19:00+02:00
           hippogogreen:summary: In nauwe samenwerking met Hippo, GoGreen, 's werelds
             eerste, digitaal-native, wereldwijde autoriteit op het gebied van duurzame
             producten voor thuis, kantoor en buiten heeft zojuist aangekondigd dat
@@ -288,7 +283,7 @@
           jcr:uuid: 35721c58-119f-4e36-8a2f-fb5fe77c6039
           hippo:availability: [live]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-09-12T17:19:00+02:00
+          hippogogreen:date: 2020-01-12T17:19:00+02:00
           hippogogreen:summary: In nauwe samenwerking met Hippo, GoGreen, 's werelds
             eerste, digitaal-native, wereldwijde autoriteit op het gebied van duurzame
             producten voor thuis, kantoor en buiten heeft zojuist aangekondigd dat
@@ -319,7 +314,7 @@
           jcr:uuid: 72042739-4b63-4d0f-bb6f-7c2bd4ba479e
           hippo:availability: [preview]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-09-17T17:26:00+02:00
+          hippogogreen:date: 2020-01-17T17:26:00+02:00
           hippogogreen:summary: Na een historisch succesvolle eerste kwartaal, de
             snelle groei GoGreen's blijft in H1.
           hippogogreen:title: GoGreen kondigt recordgroei in H1
@@ -343,7 +338,7 @@
           jcr:uuid: 6002f66b-d278-44aa-9099-be3249eef43c
           hippo:availability: []
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-09-17T17:26:00+02:00
+          hippogogreen:date: 2020-01-17T17:26:00+02:00
           hippogogreen:summary: Na een historisch succesvolle eerste kwartaal, de
             snelle groei GoGreen's blijft in H1.
           hippogogreen:title: GoGreen kondigt recordgroei in H1
@@ -366,7 +361,7 @@
           jcr:uuid: 4178e645-af66-40a1-9dfa-a8eaa0a7ab19
           hippo:availability: [live]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2019-09-17T17:26:00+02:00
+          hippogogreen:date: 2020-01-17T17:26:00+02:00
           hippogogreen:summary: Na een historisch succesvolle eerste kwartaal, de
             snelle groei GoGreen's blijft in H1.
           hippogogreen:title: GoGreen kondigt recordgroei in H1
@@ -384,3 +379,13 @@
               <p>Na een historisch succesvolle eerste kwartaal, GoGreen kondigde vandaag een ongekend succesvol half jaar-- met omzetstijgingen van meer dan 250%.&nbsp;
               <br /> Met een meerderheid van de groei in de Verenigde Staten, heeft GoGreen belangrijke stappen in de Noord-Amerikaanse markt gemaakt, terwijl ook het aantonen van een solide groei in andere doelgebieden. Opmerkelijke Noord-Amerikaanse locatie openingen omvatten Los Angeles, New York, Chicago en Austin. Het bedrijf heeft ook gegenereerd nieuwe business in Nederland, het Verenigd Koninkrijk, Duitsland, Belgi&euml; en Finland.&nbsp;
               <br /> &quot;Dit is een baanbrekende half jaar voor GoGreen geweest&quot;, aldus CEO Robert Greene. &quot;We zijn er trots op dat zoveel klanten herkennen hun eigen eco-vriendelijke waarden in GoGreen filosofie zien. De wereld is aan het veranderen, en de klanten verwachten nu dat bedrijven die aansluiten bij hun waarden, en met het welzijn van de planeet maken we er blij om het brengen van duurzame producten om deze nieuwe markten.&quot;</p>
+  /facetednews:
+    jcr:primaryType: hippofacnav:facetnavigation
+    hippo:docbase: 46ce7b28-5b99-4764-8fa2-1f4d36505087
+    hippofacnav:facetnodenames: [Dit jaar, 'Archief${sortby:''facetvalue'', sortorder:''descending''}']
+    hippofacnav:facets: ["hippostdpubwf:publicationDate$[{name:'Deze maand', resolution:'month',\
+        \ begin:0, end:1},\r\n        {name:'Afgelopen maand', resolution:'month',\
+        \ begin:-1, end:0}, {name:'Dit jaar',\r\n        resolution:'year', begin:0,\
+        \ end:1}]", 'hippostdpubwf:publicationDate$year']
+    hippofacnav:limit: 200
+    hippofacnav:skipresultsetfacetsavailable: true
