@@ -6,6 +6,986 @@
   hippostd:foldertype: [new-event-folder, new-event]
   hippotranslation:id: 2a57de96-bc3c-4a63-a61f-869c0cebd9cd
   hippotranslation:locale: en-gb
+  /2020:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 4568900b-5baf-4d33-8958-80ac18f44d46
+    hippostd:foldertype: [new-event-folder, new-event]
+    hippotranslation:id: e7ceb2a4-4fde-4d65-8913-d76c4d64f1a7
+    hippotranslation:locale: en-gb
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: ced126fa-182a-4a42-ae44-5bcfea9eee3a
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 177d02b2-4fdf-4f93-92cf-bb96dcac6af9
+      hippotranslation:locale: en-gb
+      /green-living-show:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ed241b62-e220-4194-8625-f57bfa2ef8d9
+        hippo:name: Green Living Show
+        /green-living-show[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3a8d35ab-522d-4c56-b364-b35465d6bd03
+          hippo:availability: []
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2020-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2020-04-17T18:00:00+02:00
+          hippogogreen:summary: The Green Living Show is Canada's largest green consumer
+            show dedicated to educating the public about easy and workable solutions
+            for leading a sustainable lifestyle. Visitors can shop at over 400 exhibits,
+            eat local foods prepared by renowned chefs, taste eco-friendly wines and
+            enjoy a diverse selection of demonstrations, presentations, and activities.
+            Great fun for the whole family.
+          hippogogreen:title: Green Living Show
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-04-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2020-04-09T11:45:59.562+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Exhibitors product categories:</p> \n<p>Energy,\
+              \ Food &amp; Beverage, Green Building, Transportation, Eco-Tourism &amp;\
+              \ Recreation, Home &amp; Garden, Health &amp; Wellness, Fashion &amp;\
+              \ Beauty, Kids, Pets, Green Business, Environmental Educators, ENGO&#39;s\
+              \ and Non-Profits.</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 8bee0d1f-58b7-48d0-b3c0-f6c7f9f3e870
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2020-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2020-04-17T18:00:00+02:00
+          hippogogreen:summary: The Green Living Show is Canada's largest green consumer
+            show dedicated to educating the public about easy and workable solutions
+            for leading a sustainable lifestyle. Visitors can shop at over 400 exhibits,
+            eat local foods prepared by renowned chefs, taste eco-friendly wines and
+            enjoy a diverse selection of demonstrations, presentations, and activities.
+            Great fun for the whole family.
+          hippogogreen:title: Green Living Show
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-04-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2020-04-09T17:46:50.435+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Exhibitors product categories:</p> \n<p>Energy,\
+              \ Food &amp; Beverage, Green Building, Transportation, Eco-Tourism &amp;\
+              \ Recreation, Home &amp; Garden, Health &amp; Wellness, Fashion &amp;\
+              \ Beauty, Kids, Pets, Green Business, Environmental Educators, ENGO&#39;s\
+              \ and Non-Profits.</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-living-show[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 858f78c5-6e52-4559-8472-524080f582ce
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2020-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2020-04-17T18:00:00+02:00
+          hippogogreen:summary: The Green Living Show is Canada's largest green consumer
+            show dedicated to educating the public about easy and workable solutions
+            for leading a sustainable lifestyle. Visitors can shop at over 400 exhibits,
+            eat local foods prepared by renowned chefs, taste eco-friendly wines and
+            enjoy a diverse selection of demonstrations, presentations, and activities.
+            Great fun for the whole family.
+          hippogogreen:title: Green Living Show
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-04-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2020-04-09T17:46:50.435+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2020-04-09T17:46:52.120+02:00
+          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Exhibitors product categories:</p> \n<p>Energy,\
+              \ Food &amp; Beverage, Green Building, Transportation, Eco-Tourism &amp;\
+              \ Recreation, Home &amp; Garden, Health &amp; Wellness, Fashion &amp;\
+              \ Beauty, Kids, Pets, Green Business, Environmental Educators, ENGO&#39;s\
+              \ and Non-Profits.</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /green-festival:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: d9a5a115-3269-4669-9e78-203ca51d8c73
+        hippo:name: Green Festival
+        /green-festival[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: de5213b2-86fb-49d8-ae22-4fb7b1810910
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2020-01-26T12:22:00+02:00
+          hippogogreen:enddate: 2020-01-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival launches its third year
+            April 26-27 at a new venue, Pier 94! At Green Festival®, there is something
+            for everyone interested in living a more sustainable and healthier life.
+            Experience the widest selection of products and services to work green,
+            play green and live green – from food, fashion and health, to energy,
+            construction and design. Enjoy vegan and vegetarian cooking demos, educational
+            activities for kids and families, panels featuring inspirational speakers,
+            and live music and entertainment. Shop in our unique marketplace of more
+            than 300 eco-friendly businesses - everything from all-natural body care
+            products and organic clothing to Fair Trade gifts, beautiful home renovations
+            made from renewable resources, plus vegan and vegetarian offerings based
+            on organic, non-GMO or local, artisanal foods.
+          hippogogreen:title: Green Festival
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-09T17:46:53.871+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>For the past 13 years, Green Festival has been committed
+              to helping people in America find solutions to make our families and
+              communities healthier &ndash; socially, economically and environmentally.
+              Join us at the largest and longest-running sustainability event in the
+              country, and celebrate Earth Month with the best in green living.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: fa17768f-9545-41a3-a6fd-63c140cca91d
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2020-01-26T12:22:00+02:00
+          hippogogreen:enddate: 2020-01-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival launches its third year
+            April 26-27 at a new venue, Pier 94! At Green Festival®, there is something
+            for everyone interested in living a more sustainable and healthier life.
+            Experience the widest selection of products and services to work green,
+            play green and live green – from food, fashion and health, to energy,
+            construction and design. Enjoy vegan and vegetarian cooking demos, educational
+            activities for kids and families, panels featuring inspirational speakers,
+            and live music and entertainment. Shop in our unique marketplace of more
+            than 300 eco-friendly businesses - everything from all-natural body care
+            products and organic clothing to Fair Trade gifts, beautiful home renovations
+            made from renewable resources, plus vegan and vegetarian offerings based
+            on organic, non-GMO or local, artisanal foods.
+          hippogogreen:title: Green Festival
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:04.931+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>For the past 13 years, Green Festival has been committed
+              to helping people in America find solutions to make our families and
+              communities healthier &ndash; socially, economically and environmentally.
+              Join us at the largest and longest-running sustainability event in the
+              country, and celebrate Earth Month with the best in green living.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /green-festival[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b1e5a3a0-63e7-4cff-ae06-c2e939442e8c
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2020-01-26T12:22:00+02:00
+          hippogogreen:enddate: 2020-01-27T18:00:00+02:00
+          hippogogreen:summary: New York City Green Festival launches its third year
+            April 26-27 at a new venue, Pier 94! At Green Festival®, there is something
+            for everyone interested in living a more sustainable and healthier life.
+            Experience the widest selection of products and services to work green,
+            play green and live green – from food, fashion and health, to energy,
+            construction and design. Enjoy vegan and vegetarian cooking demos, educational
+            activities for kids and families, panels featuring inspirational speakers,
+            and live music and entertainment. Shop in our unique marketplace of more
+            than 300 eco-friendly businesses - everything from all-natural body care
+            products and organic clothing to Fair Trade gifts, beautiful home renovations
+            made from renewable resources, plus vegan and vegetarian offerings based
+            on organic, non-GMO or local, artisanal foods.
+          hippogogreen:title: Green Festival
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:04.931+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-09-09T17:47:06.727+02:00
+          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>For the past 13 years, Green Festival has been committed
+              to helping people in America find solutions to make our families and
+              communities healthier &ndash; socially, economically and environmentally.
+              Join us at the largest and longest-running sustainability event in the
+              country, and celebrate Earth Month with the best in green living.</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /03:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: eefe2464-b515-4e73-83c9-09b5c837d351
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 96c0f339-ecf4-4226-9ae5-db8fbd252340
+      hippotranslation:locale: en-gb
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: e1655d9d-7563-4eb6-a691-3d40321fdc58
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: c6eef74f-9822-4adb-ad8e-f02b3cee6f80
+      hippotranslation:locale: en-gb
+      /natural-capital:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: eee4807a-6aac-41b3-907b-d95e0f65fa12
+        hippo:name: Natural Capital
+        /natural-capital[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: b1051620-b5e8-4159-9b89-150d5a3abb84
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2020-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2020-02-18T15:00:00+01:00
+          hippogogreen:summary: Natural capital is a term that may not mean much to
+            you yet, but it has the potential to impact all businesses. Those businesses
+            directly involved in resource intensive areas such as agribusiness, forestry,
+            or mining are well aware of the impact natural capital loss can have on
+            a business. However, natural capital can provide new business opportunities
+            as well for those directly impacted by natural capital and indirectly
+            impacted through their supply chain.
+          hippogogreen:title: Natural Capital
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-02-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2020-02-06T13:47:06.877+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke for a market\
+              \ overview of natural capital. Topics covered include direct and indirect\
+              \ impacts of natural capital on supply chains, business benefits of\
+              \ having a natural capital strategy, where natural capital fits within\
+              \ a sustainability strategy, challenges to be managed when integrating\
+              \ natural capital into your sustainability strategy and the tools available\
+              \ to help.</p> \n<p>Thursday, February 18, 2015\n<br /> 4.00pm - 5.00pm\
+              \ (UK)\n<br /> 11am - 12 noon (EST)\n<br /> 8am - 9am (PST)</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /natural-capital[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: ebdd7da8-453e-46d9-9130-c9a42f2d42d5
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2020-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2020-02-18T15:00:00+01:00
+          hippogogreen:summary: Natural capital is a term that may not mean much to
+            you yet, but it has the potential to impact all businesses. Those businesses
+            directly involved in resource intensive areas such as agribusiness, forestry,
+            or mining are well aware of the impact natural capital loss can have on
+            a business. However, natural capital can provide new business opportunities
+            as well for those directly impacted by natural capital and indirectly
+            impacted through their supply chain.
+          hippogogreen:title: Natural Capital
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-19T16:31:17.788+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke for a market\
+              \ overview of natural capital. Topics covered include direct and indirect\
+              \ impacts of natural capital on supply chains, business benefits of\
+              \ having a natural capital strategy, where natural capital fits within\
+              \ a sustainability strategy, challenges to be managed when integrating\
+              \ natural capital into your sustainability strategy and the tools available\
+              \ to help.</p> \n<p>Thursday, February 18, 2015\n<br /> 4.00pm - 5.00pm\
+              \ (UK)\n<br /> 11am - 12 noon (EST)\n<br /> 8am - 9am (PST)</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /natural-capital[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: cb63ae05-4772-4def-bb9a-bf7279d658ae
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2020-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2020-02-18T15:00:00+01:00
+          hippogogreen:summary: Natural capital is a term that may not mean much to
+            you yet, but it has the potential to impact all businesses. Those businesses
+            directly involved in resource intensive areas such as agribusiness, forestry,
+            or mining are well aware of the impact natural capital loss can have on
+            a business. However, natural capital can provide new business opportunities
+            as well for those directly impacted by natural capital and indirectly
+            impacted through their supply chain.
+          hippogogreen:title: Natural Capital
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-19T16:31:17.788+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-09-19T16:31:19.352+02:00
+          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke for a market\
+              \ overview of natural capital. Topics covered include direct and indirect\
+              \ impacts of natural capital on supply chains, business benefits of\
+              \ having a natural capital strategy, where natural capital fits within\
+              \ a sustainability strategy, challenges to be managed when integrating\
+              \ natural capital into your sustainability strategy and the tools available\
+              \ to help.</p> \n<p>Thursday, February 18, 2015\n<br /> 4.00pm - 5.00pm\
+              \ (UK)\n<br /> 11am - 12 noon (EST)\n<br /> 8am - 9am (PST)</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /01:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 2d415c4a-177c-479c-9f63-00dc6b4e21f1
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6925cc32-3f50-4e24-92c4-0fc7310abad3
+      hippotranslation:locale: en-gb
+      /ces-green:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 0b1c22b7-62ff-4e58-9de2-8388fad7f22e
+        hippo:name: CES Green
+        /ces-green[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4a10e927-80f5-4306-adb2-93ccf8adcfea
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2020-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2020-01-09T18:00:00+01:00
+          hippogogreen:summary: The world’s gathering place for all who thrive on
+            the business of consumer technologies is also the greenest. Trade Show
+            Executive magazine named the 2012 International CES® the tradeshow with
+            the “Most Innovative Green Initiatives by Show Management,” and in 2010,
+            “North America's Greenest Show.”
+          hippogogreen:title: CES Green
+          hippostd:state: draft
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-07T11:03:24.974+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Attendees: A Smaller Footprint with Bigger Opportunities</h3>\
+              \ \n<p>CES provides our industry with an opportunity to convene at one\
+              \ time, in one place, at an eco-friendly blockbuster that minimizes\
+              \ annual travel.&nbsp;</p> \n<ul> \n<li> \n<p>CES attendees connect\
+              \ with one another, get business done and collectively avoid over 1.97\
+              \ million miles in business trips that they otherwise would have to\
+              \ take if not for CES</p> </li> \n<li> \n<p>Representatives travel from\
+              \ more than 150 countries, offering a truly global opportunity.</p>\
+              \ </li> </ul> \n<h3>How Green is the International CES?</h3> \n<p>The\
+              \ 2013 International CES included a vast array of green initiatives\
+              \ as part of our efforts to reduce waste and give back to the local\
+              \ Las Vegas community.</p> \n<ul> \n<li> \n<p>Collected over 108,000\
+              \ square feet of show graphics with a capture rate of 81 percent to\
+              \ repurpose and give back to the local community</p> \n<ul> \n<li> \n\
+              <p>38,000 square feet of magnetic banners &ndash; over 19,000 pounds</p>\
+              \ </li> \n<li> \n<p>21,600 square feet of magnetic banners</p> </li>\
+              \ \n<li> \n<p>Over 48,000 square feet of other show graphics &ndash;\
+              \ up 200 percent</p> </li> \n<li> \n<p>37,800 pounds of show publications</p>\
+              \ </li> </ul> </li> \n<li> \n<p>Produced over 243,000 badge holders\
+              \ made from last year&rsquo;s vinyl banners and collected over 58,000\
+              \ badge holders after the show to repurpose for a third life</p> </li>\
+              \ \n<li> \n<p>Increased overall show reuse/recycle rate from 76 to 81\
+              \ percent</p> </li> \n<li> \n<p>Use of recyclable carpet for all exhibit\
+              \ floor aisles, TechZones, registration areas and turnkey booth packages</p>\
+              \ </li> \n<li> \n<p>Use of turnkey booth packages with recyclable panels\
+              \ and graphics printed using soy ink</p> </li> \n<li> \n<p>Mandate of\
+              \ paperless exhibitor press kits online, or via USB or DVD</p> </li>\
+              \ </ul> \n<ul> \n<li> \n<p>Materials are printed on recycled paper,\
+              \ use soy-based ink and meet the standards of the Sustainable Forest\
+              \ Initiative and Forest Stewardship Council</p> </li> \n<li> \n<p>Be\
+              \ sure to take a look at the&nbsp; \n<a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2019-CES-Green-Guide.pdf\"\
+              ><strong>2014 CES Green Guide</strong></a>&nbsp;for information on CES\
+              \ green exhibitors, the CES greening initiatives, and CEA&rsquo;s ecycling\
+              \ and sustainability initiatives. For last year&rsquo;s Guide, see the\
+              \ \n<a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
+              >&nbsp;</a><strong><a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
+              \ target=\"_blank\">2013 CES Green Guide</a><a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
+              >.</a></strong></p> </li> </ul> \n<p><br /> On January 6, 2014, announced\
+              \ the continuation of its tradition to award several local Las Vegas\
+              \ organizations with funds for sustainability projects. This year, CEA\
+              \ is donating $10,000 to University of Nevada, Las Vegas&rsquo;s (UNLV)\
+              \ DesertSol solar house and $25,000 to the Springs Preserve toward the\
+              \ DesertSol project.</p> \n<ul> \n<li>The DesertSol solar house, created\
+              \ by UNLV, was the second-place winner, and first among U.S. organizations,&nbsp;\
+              \ at the 2013 U.S. Department of Energy&rsquo;s (DOE) Solar Decathlon.\
+              \ This donation is to congratulate the UNLV DesertSol team on their\
+              \ success and help further the DesertSol project.</li> </ul> \n<ul>\
+              \ \n<li>CEA&rsquo;s donation to the Springs Preserve will assist the\
+              \ move of DesertSol to its new location. The Springs Preserve is a world-class\
+              \ facility that promotes community, conservation, preservation and sustainability\
+              \ in the Southern Nevada region, and is the world&rsquo;s largest campus\
+              \ of platinum-rated U.S. Green Building Council LEED buildings. The\
+              \ Preserve aims to inspire visitors to implement green living practices\
+              \ and technologies into their own homes, and for the house to remain\
+              \ a site for continued research and development of renewable energy\
+              \ for UNLV faculty, students and industry professionals.</li> </ul>\
+              \ \n<p>&nbsp;\n<br /> At the 2013 CES, CEA made two $50,000 donations\
+              \ to local Las Vegas organizations, Green Chips and the Las Vegas Convention\
+              \ and Visitors Authority (LVCVA). Green Chips used the donation from\
+              \ CEA to support a solar installation project at the iconic &ldquo;Welcome\
+              \ to Fabulous Las Vegas&rdquo; sign on Las Vegas Boulevard. The LVCVA\
+              \ used their donation from CEA to install several electric vehicle charging\
+              \ stations at the Las Vegas Convention Center.\n<br /> \n<br /> &nbsp;</p>\
+              \ \n<h3>Get Charged Up About Electric Vehicles</h3> \n<p>The&nbsp; \n\
+              <a href=\"http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx\"\
+              >GoElectricDrive</a>&nbsp;TechZone in the Las Vegas Convention and World\
+              \ Trade Center (LVCC), North Hall showcases a full range of high- and\
+              \ low-speed electric vehicles, energy storage devices and charging solutions.\
+              \ Sponsored by the Electric Drive Transportation Association, this TechZone\
+              \ highlights an area of great potential and growth for the industry\
+              \ as electric vehicles are quickly gaining popularity among consumers\
+              \ seeking to live more sustainably by using alternative transportation.</p>\
+              \ \n<h3>CEA and Green</h3> \n<p>From trends in eco-friendly TVs to illuminating\
+              \ detail about consumer attitudes on energy efficiency with consumer\
+              \ electronics, CEA has the latest research. Visit&nbsp; \n<a href=\"\
+              http://www.ce.org/green\" target=\"_blank\">CE.org/green</a>&nbsp;for\
+              \ more information.&nbsp;</p> \n<h3>Greener Gadgets</h3> \n<p>CEA operates&nbsp;\
+              \ \n<a href=\"http://www.greenergadgets.org/\" target=\"_blank\">GreenerGadgets.org</a>,\
+              \ an online resource for consumers that highlights the industry trend\
+              \ toward &ldquo;greener gadgets&rdquo; &ndash; smaller, smarter, more\
+              \ energy efficient devices that can do more than ever before. Tech-savvy\
+              \ shoppers now have more eco-friendly options and this resource has\
+              \ valuable information about how to buy green electronics, use them\
+              \ efficiently and recycle them at the end of their useful life.</p>\
+              \ \n<p>The site also features a powerful&nbsp; \n<a href=\"http://www.greenergadgets.org/Energy-Calc.aspx\"\
+              \ target=\"_blank\">energy use calculator</a>&nbsp;with the most up-to-date\
+              \ products and energy use figures to help consumers better understand\
+              \ their energy usage, as well as a&nbsp; \n<a href=\"http://www.greenergadgets.org/Recycle-Electronics.aspx\"\
+              \ target=\"_blank\">recycling locator tool.</a>&nbsp;When it comes to\
+              \ end-of-life electronics, many people are concerned with what happens\
+              \ after they drop off their products. The recycling locator database\
+              \ includes industry programs, which use strict standards and third-party\
+              \ certified recyclers, so rest assured your device will be safely recycled.</p>\
+              \ \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: d71d7f01-1310-4eaf-a4e3-84996e9f1909
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2020-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2020-01-09T18:00:00+01:00
+          hippogogreen:summary: The world’s gathering place for all who thrive on
+            the business of consumer technologies is also the greenest. Trade Show
+            Executive magazine named the 2012 International CES® the tradeshow with
+            the “Most Innovative Green Initiatives by Show Management,” and in 2010,
+            “North America's Greenest Show.”
+          hippogogreen:title: CES Green
+          hippostd:state: unpublished
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:20.885+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Attendees: A Smaller Footprint with Bigger Opportunities</h3>\
+              \ \n<p>CES provides our industry with an opportunity to convene at one\
+              \ time, in one place, at an eco-friendly blockbuster that minimizes\
+              \ annual travel.&nbsp;</p> \n<ul> \n<li> \n<p>CES attendees connect\
+              \ with one another, get business done and collectively avoid over 1.97\
+              \ million miles in business trips that they otherwise would have to\
+              \ take if not for CES</p> </li> \n<li> \n<p>Representatives travel from\
+              \ more than 150 countries, offering a truly global opportunity.</p>\
+              \ </li> </ul> \n<h3>How Green is the International CES?</h3> \n<p>The\
+              \ 2013 International CES included a vast array of green initiatives\
+              \ as part of our efforts to reduce waste and give back to the local\
+              \ Las Vegas community.</p> \n<ul> \n<li> \n<p>Collected over 108,000\
+              \ square feet of show graphics with a capture rate of 81 percent to\
+              \ repurpose and give back to the local community</p> \n<ul> \n<li> \n\
+              <p>38,000 square feet of magnetic banners &ndash; over 19,000 pounds</p>\
+              \ </li> \n<li> \n<p>21,600 square feet of magnetic banners</p> </li>\
+              \ \n<li> \n<p>Over 48,000 square feet of other show graphics &ndash;\
+              \ up 200 percent</p> </li> \n<li> \n<p>37,800 pounds of show publications</p>\
+              \ </li> </ul> </li> \n<li> \n<p>Produced over 243,000 badge holders\
+              \ made from last year&rsquo;s vinyl banners and collected over 58,000\
+              \ badge holders after the show to repurpose for a third life</p> </li>\
+              \ \n<li> \n<p>Increased overall show reuse/recycle rate from 76 to 81\
+              \ percent</p> </li> \n<li> \n<p>Use of recyclable carpet for all exhibit\
+              \ floor aisles, TechZones, registration areas and turnkey booth packages</p>\
+              \ </li> \n<li> \n<p>Use of turnkey booth packages with recyclable panels\
+              \ and graphics printed using soy ink</p> </li> \n<li> \n<p>Mandate of\
+              \ paperless exhibitor press kits online, or via USB or DVD</p> </li>\
+              \ </ul> \n<ul> \n<li> \n<p>Materials are printed on recycled paper,\
+              \ use soy-based ink and meet the standards of the Sustainable Forest\
+              \ Initiative and Forest Stewardship Council</p> </li> \n<li> \n<p>Be\
+              \ sure to take a look at the&nbsp;\n<a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
+              ><strong>2014 CES Green Guide</strong></a>&nbsp;for information on CES\
+              \ green exhibitors, the CES greening initiatives, and CEA&rsquo;s ecycling\
+              \ and sustainability initiatives. For last year&rsquo;s Guide, see the\n\
+              <a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
+              >&nbsp;</a><strong><a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
+              \ target=\"_blank\">2013 CES Green Guide</a><a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
+              >.</a></strong></p> </li> </ul> \n<p><br /> On January 6, 2014, announced\
+              \ the continuation of its tradition to award several local Las Vegas\
+              \ organizations with funds for sustainability projects. This year, CEA\
+              \ is donating $10,000 to University of Nevada, Las Vegas&rsquo;s (UNLV)\
+              \ DesertSol solar house and $25,000 to the Springs Preserve toward the\
+              \ DesertSol project.</p> \n<ul> \n<li>The DesertSol solar house, created\
+              \ by UNLV, was the second-place winner, and first among U.S. organizations,&nbsp;\
+              \ at the 2013 U.S. Department of Energy&rsquo;s (DOE) Solar Decathlon.\
+              \ This donation is to congratulate the UNLV DesertSol team on their\
+              \ success and help further the DesertSol project.</li> </ul> \n<ul>\
+              \ \n<li>CEA&rsquo;s donation to the Springs Preserve will assist the\
+              \ move of DesertSol to its new location. The Springs Preserve is a world-class\
+              \ facility that promotes community, conservation, preservation and sustainability\
+              \ in the Southern Nevada region, and is the world&rsquo;s largest campus\
+              \ of platinum-rated U.S. Green Building Council LEED buildings. The\
+              \ Preserve aims to inspire visitors to implement green living practices\
+              \ and technologies into their own homes, and for the house to remain\
+              \ a site for continued research and development of renewable energy\
+              \ for UNLV faculty, students and industry professionals.</li> </ul>\
+              \ \n<p>&nbsp;\n<br /> At the 2013 CES, CEA made two $50,000 donations\
+              \ to local Las Vegas organizations, Green Chips and the Las Vegas Convention\
+              \ and Visitors Authority (LVCVA). Green Chips used the donation from\
+              \ CEA to support a solar installation project at the iconic &ldquo;Welcome\
+              \ to Fabulous Las Vegas&rdquo; sign on Las Vegas Boulevard. The LVCVA\
+              \ used their donation from CEA to install several electric vehicle charging\
+              \ stations at the Las Vegas Convention Center.\n<br /> \n<br /> &nbsp;</p>\
+              \ \n<h3>Get Charged Up About Electric Vehicles</h3> \n<p>The&nbsp;\n\
+              <a href=\"http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx\"\
+              >GoElectricDrive</a>&nbsp;TechZone in the Las Vegas Convention and World\
+              \ Trade Center (LVCC), North Hall showcases a full range of high- and\
+              \ low-speed electric vehicles, energy storage devices and charging solutions.\
+              \ Sponsored by the Electric Drive Transportation Association, this TechZone\
+              \ highlights an area of great potential and growth for the industry\
+              \ as electric vehicles are quickly gaining popularity among consumers\
+              \ seeking to live more sustainably by using alternative transportation.</p>\
+              \ \n<h3>CEA and Green</h3> \n<p>From trends in eco-friendly TVs to illuminating\
+              \ detail about consumer attitudes on energy efficiency with consumer\
+              \ electronics, CEA has the latest research. Visit&nbsp;\n<a href=\"\
+              http://www.ce.org/green\" target=\"_blank\">CE.org/green</a>&nbsp;for\
+              \ more information.&nbsp;</p> \n<h3>Greener Gadgets</h3> \n<p>CEA operates&nbsp;\n\
+              <a href=\"http://www.greenergadgets.org/\" target=\"_blank\">GreenerGadgets.org</a>,\
+              \ an online resource for consumers that highlights the industry trend\
+              \ toward &ldquo;greener gadgets&rdquo; &ndash; smaller, smarter, more\
+              \ energy efficient devices that can do more than ever before. Tech-savvy\
+              \ shoppers now have more eco-friendly options and this resource has\
+              \ valuable information about how to buy green electronics, use them\
+              \ efficiently and recycle them at the end of their useful life.</p>\
+              \ \n<p>The site also features a powerful&nbsp;\n<a href=\"http://www.greenergadgets.org/Energy-Calc.aspx\"\
+              \ target=\"_blank\">energy use calculator</a>&nbsp;with the most up-to-date\
+              \ products and energy use figures to help consumers better understand\
+              \ their energy usage, as well as a&nbsp;\n<a href=\"http://www.greenergadgets.org/Recycle-Electronics.aspx\"\
+              \ target=\"_blank\">recycling locator tool.</a>&nbsp;When it comes to\
+              \ end-of-life electronics, many people are concerned with what happens\
+              \ after they drop off their products. The recycling locator database\
+              \ includes industry programs, which use strict standards and third-party\
+              \ certified recyclers, so rest assured your device will be safely recycled.</p>\
+              \ \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /ces-green[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 5f6e8b93-dcf4-462f-b7ae-8523e349f6d6
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2020-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2020-01-09T18:00:00+01:00
+          hippogogreen:summary: The world’s gathering place for all who thrive on
+            the business of consumer technologies is also the greenest. Trade Show
+            Executive magazine named the 2012 International CES® the tradeshow with
+            the “Most Innovative Green Initiatives by Show Management,” and in 2010,
+            “North America's Greenest Show.”
+          hippogogreen:title: CES Green
+          hippostd:state: published
+          hippostd:tags: ['']
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2020-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:20.885+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-09-09T17:47:22.783+02:00
+          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
+          hippotranslation:locale: en-gb
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h3>Attendees: A Smaller Footprint with Bigger Opportunities</h3>\
+              \ \n<p>CES provides our industry with an opportunity to convene at one\
+              \ time, in one place, at an eco-friendly blockbuster that minimizes\
+              \ annual travel.&nbsp;</p> \n<ul> \n<li> \n<p>CES attendees connect\
+              \ with one another, get business done and collectively avoid over 1.97\
+              \ million miles in business trips that they otherwise would have to\
+              \ take if not for CES</p> </li> \n<li> \n<p>Representatives travel from\
+              \ more than 150 countries, offering a truly global opportunity.</p>\
+              \ </li> </ul> \n<h3>How Green is the International CES?</h3> \n<p>The\
+              \ 2013 International CES included a vast array of green initiatives\
+              \ as part of our efforts to reduce waste and give back to the local\
+              \ Las Vegas community.</p> \n<ul> \n<li> \n<p>Collected over 108,000\
+              \ square feet of show graphics with a capture rate of 81 percent to\
+              \ repurpose and give back to the local community</p> \n<ul> \n<li> \n\
+              <p>38,000 square feet of magnetic banners &ndash; over 19,000 pounds</p>\
+              \ </li> \n<li> \n<p>21,600 square feet of magnetic banners</p> </li>\
+              \ \n<li> \n<p>Over 48,000 square feet of other show graphics &ndash;\
+              \ up 200 percent</p> </li> \n<li> \n<p>37,800 pounds of show publications</p>\
+              \ </li> </ul> </li> \n<li> \n<p>Produced over 243,000 badge holders\
+              \ made from last year&rsquo;s vinyl banners and collected over 58,000\
+              \ badge holders after the show to repurpose for a third life</p> </li>\
+              \ \n<li> \n<p>Increased overall show reuse/recycle rate from 76 to 81\
+              \ percent</p> </li> \n<li> \n<p>Use of recyclable carpet for all exhibit\
+              \ floor aisles, TechZones, registration areas and turnkey booth packages</p>\
+              \ </li> \n<li> \n<p>Use of turnkey booth packages with recyclable panels\
+              \ and graphics printed using soy ink</p> </li> \n<li> \n<p>Mandate of\
+              \ paperless exhibitor press kits online, or via USB or DVD</p> </li>\
+              \ </ul> \n<ul> \n<li> \n<p>Materials are printed on recycled paper,\
+              \ use soy-based ink and meet the standards of the Sustainable Forest\
+              \ Initiative and Forest Stewardship Council</p> </li> \n<li> \n<p>Be\
+              \ sure to take a look at the&nbsp;\n<a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
+              ><strong>2014 CES Green Guide</strong></a>&nbsp;for information on CES\
+              \ green exhibitors, the CES greening initiatives, and CEA&rsquo;s ecycling\
+              \ and sustainability initiatives. For last year&rsquo;s Guide, see the\n\
+              <a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
+              >&nbsp;</a><strong><a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
+              \ target=\"_blank\">2013 CES Green Guide</a><a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
+              >.</a></strong></p> </li> </ul> \n<p><br /> On January 6, 2014, announced\
+              \ the continuation of its tradition to award several local Las Vegas\
+              \ organizations with funds for sustainability projects. This year, CEA\
+              \ is donating $10,000 to University of Nevada, Las Vegas&rsquo;s (UNLV)\
+              \ DesertSol solar house and $25,000 to the Springs Preserve toward the\
+              \ DesertSol project.</p> \n<ul> \n<li>The DesertSol solar house, created\
+              \ by UNLV, was the second-place winner, and first among U.S. organizations,&nbsp;\
+              \ at the 2013 U.S. Department of Energy&rsquo;s (DOE) Solar Decathlon.\
+              \ This donation is to congratulate the UNLV DesertSol team on their\
+              \ success and help further the DesertSol project.</li> </ul> \n<ul>\
+              \ \n<li>CEA&rsquo;s donation to the Springs Preserve will assist the\
+              \ move of DesertSol to its new location. The Springs Preserve is a world-class\
+              \ facility that promotes community, conservation, preservation and sustainability\
+              \ in the Southern Nevada region, and is the world&rsquo;s largest campus\
+              \ of platinum-rated U.S. Green Building Council LEED buildings. The\
+              \ Preserve aims to inspire visitors to implement green living practices\
+              \ and technologies into their own homes, and for the house to remain\
+              \ a site for continued research and development of renewable energy\
+              \ for UNLV faculty, students and industry professionals.</li> </ul>\
+              \ \n<p>&nbsp;\n<br /> At the 2013 CES, CEA made two $50,000 donations\
+              \ to local Las Vegas organizations, Green Chips and the Las Vegas Convention\
+              \ and Visitors Authority (LVCVA). Green Chips used the donation from\
+              \ CEA to support a solar installation project at the iconic &ldquo;Welcome\
+              \ to Fabulous Las Vegas&rdquo; sign on Las Vegas Boulevard. The LVCVA\
+              \ used their donation from CEA to install several electric vehicle charging\
+              \ stations at the Las Vegas Convention Center.\n<br /> \n<br /> &nbsp;</p>\
+              \ \n<h3>Get Charged Up About Electric Vehicles</h3> \n<p>The&nbsp;\n\
+              <a href=\"http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx\"\
+              >GoElectricDrive</a>&nbsp;TechZone in the Las Vegas Convention and World\
+              \ Trade Center (LVCC), North Hall showcases a full range of high- and\
+              \ low-speed electric vehicles, energy storage devices and charging solutions.\
+              \ Sponsored by the Electric Drive Transportation Association, this TechZone\
+              \ highlights an area of great potential and growth for the industry\
+              \ as electric vehicles are quickly gaining popularity among consumers\
+              \ seeking to live more sustainably by using alternative transportation.</p>\
+              \ \n<h3>CEA and Green</h3> \n<p>From trends in eco-friendly TVs to illuminating\
+              \ detail about consumer attitudes on energy efficiency with consumer\
+              \ electronics, CEA has the latest research. Visit&nbsp;\n<a href=\"\
+              http://www.ce.org/green\" target=\"_blank\">CE.org/green</a>&nbsp;for\
+              \ more information.&nbsp;</p> \n<h3>Greener Gadgets</h3> \n<p>CEA operates&nbsp;\n\
+              <a href=\"http://www.greenergadgets.org/\" target=\"_blank\">GreenerGadgets.org</a>,\
+              \ an online resource for consumers that highlights the industry trend\
+              \ toward &ldquo;greener gadgets&rdquo; &ndash; smaller, smarter, more\
+              \ energy efficient devices that can do more than ever before. Tech-savvy\
+              \ shoppers now have more eco-friendly options and this resource has\
+              \ valuable information about how to buy green electronics, use them\
+              \ efficiently and recycle them at the end of their useful life.</p>\
+              \ \n<p>The site also features a powerful&nbsp;\n<a href=\"http://www.greenergadgets.org/Energy-Calc.aspx\"\
+              \ target=\"_blank\">energy use calculator</a>&nbsp;with the most up-to-date\
+              \ products and energy use figures to help consumers better understand\
+              \ their energy usage, as well as a&nbsp;\n<a href=\"http://www.greenergadgets.org/Recycle-Electronics.aspx\"\
+              \ target=\"_blank\">recycling locator tool.</a>&nbsp;When it comes to\
+              \ end-of-life electronics, many people are concerned with what happens\
+              \ after they drop off their products. The recycling locator database\
+              \ includes industry programs, which use strict standards and third-party\
+              \ certified recyclers, so rest assured your device will be safely recycled.</p>\
+              \ \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Las Vegas
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '1'
+            hippogogreen:postalcode: ''
+            hippogogreen:province: NV
+            hippogogreen:street: Las Vegas Boulevard
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: CEA
+            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
   /2019:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -1307,7 +2287,7 @@
     jcr:primaryType: hippofacnav:facetnavigation
     hippo:docbase: 68c32bb5-70f5-4a4b-ad91-7963bb172142
     hippofacnav:facetnodenames: ['year${hide:''year''}', 'month${after:''year'', hide:''month''}',
-                                 'day${after:''month''}']
+      'day${after:''month''}']
     hippofacnav:facets: ['hippogogreen:date$year', 'hippogogreen:date$month', 'hippogogreen:date$day']
     hippofacnav:limit: 100
     hippofacnav:skipresultsetfacetsavailable: true
@@ -1323,7 +2303,7 @@
     hippofacnav:skipresultsetfacetsavailable: true
     hippofacnav:sortby: ['hippogogreen:date']
     hippofacnav:sortorder: [descending]
-  /2020:
+  /2018:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 7a7c28eb-ac1b-4eba-a1dd-606daf91c206
@@ -1337,7 +2317,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: 13c01d92-dad8-4a70-a408-4d03f18dacc6
       hippotranslation:locale: en-gb
-      /green-living-show[1]:
+      /green-living-show:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: bf91c659-afb2-4d28-ae91-b39b98b24b99
@@ -1349,8 +2329,8 @@
           hippo:availability: []
           hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:date: 2018-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2018-04-17T18:00:00+02:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: The Green Living Show is Canada's largest green consumer
@@ -1362,8 +2342,8 @@
           hippogogreen:title: Green Living Show
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:16:32.968+02:00
+          hippostdpubwf:creationDate: 2018-04-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2018-04-27T14:16:32.968+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
           hippotranslation:locale: en-gb
@@ -1403,8 +2383,8 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:date: 2018-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2018-04-17T18:00:00+02:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: The Green Living Show is Canada's largest green consumer
@@ -1416,8 +2396,8 @@
           hippogogreen:title: Green Living Show
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-27T14:16:45.244+02:00
+          hippostdpubwf:creationDate: 2016-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2016-05-27T14:16:45.244+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: a7529614-3149-4110-a2f2-ca2952b6ef57
           hippotranslation:locale: en-gb
@@ -1457,8 +2437,8 @@
           hippo:availability: [live]
           hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
+          hippogogreen:date: 2018-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2018-04-17T18:00:00+02:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: The Green Living Show is Canada's largest green consumer
@@ -1470,7 +2450,7 @@
           hippogogreen:title: Green Living Show
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
+          hippostdpubwf:creationDate: 2017-09-09T11:03:47.718+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T14:16:45.244+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippostdpubwf:publicationDate: 2020-05-27T14:16:47.941+02:00
@@ -1505,7 +2485,7 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-      /green-festival[1]:
+      /green-festival:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: 7fd08150-5484-45e8-b556-0122996cf58e
@@ -1517,8 +2497,8 @@
           hippo:availability: []
           hippogogreen:categories: [Family, Health care, Home]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:date: 2018-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2018-04-27T18:00:00+02:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: New York City Green Festival launches its third year
@@ -1536,7 +2516,7 @@
           hippogogreen:title: Green Festival
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:creationDate: 2017-09-09T11:18:34.313+02:00
           hippostdpubwf:lastModificationDate: 2020-01-27T15:12:16.737+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
@@ -1577,8 +2557,8 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Family, Health care, Home]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:date: 2018-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2018-04-27T18:00:00+02:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: New York City Green Festival launches its third year
@@ -1596,7 +2576,7 @@
           hippogogreen:title: Green Festival
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:creationDate: 2017-09-09T11:18:34.313+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:12:25.128+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
@@ -1637,8 +2617,8 @@
           hippo:availability: [live]
           hippogogreen:categories: [Family, Health care, Home]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
+          hippogogreen:date: 2018-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2018-04-27T18:00:00+02:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: New York City Green Festival launches its third year
@@ -1656,353 +2636,11 @@
           hippogogreen:title: Green Festival
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
+          hippostdpubwf:creationDate: 2017-09-09T11:18:34.313+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:12:25.128+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippostdpubwf:publicationDate: 2020-05-27T15:12:27.290+02:00
           hippotranslation:id: a143d9c1-6186-4b82-b909-9cd9654504de
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>For the past 13 years, Green Festival has been committed
-              to helping people in America find solutions to make our families and
-              communities healthier &ndash; socially, economically and environmentally.
-              Join us at the largest and longest-running sustainability event in the
-              country, and celebrate Earth Month with the best in green living.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /green-living-show[2]:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: ed241b62-e220-4194-8625-f57bfa2ef8d9
-        hippo:name: Green Living Show
-        /green-living-show[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 3a8d35ab-522d-4c56-b364-b35465d6bd03
-          hippo:availability: []
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: desire
-          hippogogreen:date: 2020-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2020-04-17T18:00:00+02:00
-          hippogogreen:summary: The Green Living Show is Canada's largest green consumer
-            show dedicated to educating the public about easy and workable solutions
-            for leading a sustainable lifestyle. Visitors can shop at over 400 exhibits,
-            eat local foods prepared by renowned chefs, taste eco-friendly wines and
-            enjoy a diverse selection of demonstrations, presentations, and activities.
-            Great fun for the whole family.
-          hippogogreen:title: Green Living Show
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2019-10-09T11:45:59.562+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Exhibitors product categories:</p> \n<p>Energy,\
-              \ Food &amp; Beverage, Green Building, Transportation, Eco-Tourism &amp;\
-              \ Recreation, Home &amp; Garden, Health &amp; Wellness, Fashion &amp;\
-              \ Beauty, Kids, Pets, Green Business, Environmental Educators, ENGO&#39;s\
-              \ and Non-Profits.</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-living-show[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 8bee0d1f-58b7-48d0-b3c0-f6c7f9f3e870
-          hippo:availability: [preview]
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: desire
-          hippogogreen:date: 2020-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2020-04-17T18:00:00+02:00
-          hippogogreen:summary: The Green Living Show is Canada's largest green consumer
-            show dedicated to educating the public about easy and workable solutions
-            for leading a sustainable lifestyle. Visitors can shop at over 400 exhibits,
-            eat local foods prepared by renowned chefs, taste eco-friendly wines and
-            enjoy a diverse selection of demonstrations, presentations, and activities.
-            Great fun for the whole family.
-          hippogogreen:title: Green Living Show
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-09T17:46:50.435+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Exhibitors product categories:</p> \n<p>Energy,\
-              \ Food &amp; Beverage, Green Building, Transportation, Eco-Tourism &amp;\
-              \ Recreation, Home &amp; Garden, Health &amp; Wellness, Fashion &amp;\
-              \ Beauty, Kids, Pets, Green Business, Environmental Educators, ENGO&#39;s\
-              \ and Non-Profits.</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-living-show[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 858f78c5-6e52-4559-8472-524080f582ce
-          hippo:availability: [live]
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: desire
-          hippogogreen:date: 2020-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2020-04-17T18:00:00+02:00
-          hippogogreen:summary: The Green Living Show is Canada's largest green consumer
-            show dedicated to educating the public about easy and workable solutions
-            for leading a sustainable lifestyle. Visitors can shop at over 400 exhibits,
-            eat local foods prepared by renowned chefs, taste eco-friendly wines and
-            enjoy a diverse selection of demonstrations, presentations, and activities.
-            Great fun for the whole family.
-          hippogogreen:title: Green Living Show
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-09T17:46:50.435+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2019-09-09T17:46:52.120+02:00
-          hippotranslation:id: e176e54a-7458-4bac-8b69-9026483f1f05
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Exhibitors product categories:</p> \n<p>Energy,\
-              \ Food &amp; Beverage, Green Building, Transportation, Eco-Tourism &amp;\
-              \ Recreation, Home &amp; Garden, Health &amp; Wellness, Fashion &amp;\
-              \ Beauty, Kids, Pets, Green Business, Environmental Educators, ENGO&#39;s\
-              \ and Non-Profits.</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /green-festival[2]:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: d9a5a115-3269-4669-9e78-203ca51d8c73
-        hippo:name: Green Festival
-        /green-festival[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: de5213b2-86fb-49d8-ae22-4fb7b1810910
-          hippo:availability: []
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2020-01-26T12:22:00+02:00
-          hippogogreen:enddate: 2020-01-27T18:00:00+02:00
-          hippogogreen:summary: New York City Green Festival launches its third year
-            April 26-27 at a new venue, Pier 94! At Green Festival®, there is something
-            for everyone interested in living a more sustainable and healthier life.
-            Experience the widest selection of products and services to work green,
-            play green and live green – from food, fashion and health, to energy,
-            construction and design. Enjoy vegan and vegetarian cooking demos, educational
-            activities for kids and families, panels featuring inspirational speakers,
-            and live music and entertainment. Shop in our unique marketplace of more
-            than 300 eco-friendly businesses - everything from all-natural body care
-            products and organic clothing to Fair Trade gifts, beautiful home renovations
-            made from renewable resources, plus vegan and vegetarian offerings based
-            on organic, non-GMO or local, artisanal foods.
-          hippogogreen:title: Green Festival
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-09T17:46:53.871+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>For the past 13 years, Green Festival has been committed
-              to helping people in America find solutions to make our families and
-              communities healthier &ndash; socially, economically and environmentally.
-              Join us at the largest and longest-running sustainability event in the
-              country, and celebrate Earth Month with the best in green living.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-festival[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: fa17768f-9545-41a3-a6fd-63c140cca91d
-          hippo:availability: [preview]
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2020-01-26T12:22:00+02:00
-          hippogogreen:enddate: 2020-01-27T18:00:00+02:00
-          hippogogreen:summary: New York City Green Festival launches its third year
-            April 26-27 at a new venue, Pier 94! At Green Festival®, there is something
-            for everyone interested in living a more sustainable and healthier life.
-            Experience the widest selection of products and services to work green,
-            play green and live green – from food, fashion and health, to energy,
-            construction and design. Enjoy vegan and vegetarian cooking demos, educational
-            activities for kids and families, panels featuring inspirational speakers,
-            and live music and entertainment. Shop in our unique marketplace of more
-            than 300 eco-friendly businesses - everything from all-natural body care
-            products and organic clothing to Fair Trade gifts, beautiful home renovations
-            made from renewable resources, plus vegan and vegetarian offerings based
-            on organic, non-GMO or local, artisanal foods.
-          hippogogreen:title: Green Festival
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:04.931+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>For the past 13 years, Green Festival has been committed
-              to helping people in America find solutions to make our families and
-              communities healthier &ndash; socially, economically and environmentally.
-              Join us at the largest and longest-running sustainability event in the
-              country, and celebrate Earth Month with the best in green living.</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /green-festival[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: b1e5a3a0-63e7-4cff-ae06-c2e939442e8c
-          hippo:availability: [live]
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2020-01-26T12:22:00+02:00
-          hippogogreen:enddate: 2020-01-27T18:00:00+02:00
-          hippogogreen:summary: New York City Green Festival launches its third year
-            April 26-27 at a new venue, Pier 94! At Green Festival®, there is something
-            for everyone interested in living a more sustainable and healthier life.
-            Experience the widest selection of products and services to work green,
-            play green and live green – from food, fashion and health, to energy,
-            construction and design. Enjoy vegan and vegetarian cooking demos, educational
-            activities for kids and families, panels featuring inspirational speakers,
-            and live music and entertainment. Shop in our unique marketplace of more
-            than 300 eco-friendly businesses - everything from all-natural body care
-            products and organic clothing to Fair Trade gifts, beautiful home renovations
-            made from renewable resources, plus vegan and vegetarian offerings based
-            on organic, non-GMO or local, artisanal foods.
-          hippogogreen:title: Green Festival
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:04.931+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2019-09-09T17:47:06.727+02:00
-          hippotranslation:id: 0a988256-8c04-4063-bda3-dea1443b5a8c
           hippotranslation:locale: en-gb
           /hippogogreen:description:
             jcr:primaryType: hippostd:html
@@ -2047,7 +2685,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: 79ce5b01-4965-4e1e-888d-7e14dbf61159
       hippotranslation:locale: en-gb
-      /natural-capital[1]:
+      /natural-capital:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: 9ecc932c-9734-4192-9d49-b2f06cc5241e
@@ -2059,8 +2697,8 @@
           hippo:availability: []
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:date: 2018-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2018-02-18T15:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: Natural capital is a term that may not mean much to
@@ -2073,7 +2711,7 @@
           hippogogreen:title: Natural Capital
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:creationDate: 2017-09-09T11:31:23.333+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:12:40.058+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: f9e53d63-977a-4beb-9b44-dd442333fa97
@@ -2117,8 +2755,8 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:date: 2018-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2018-02-18T15:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: Natural capital is a term that may not mean much to
@@ -2131,7 +2769,7 @@
           hippogogreen:title: Natural Capital
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:creationDate: 2017-09-09T11:31:23.333+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:12:47.643+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: f9e53d63-977a-4beb-9b44-dd442333fa97
@@ -2175,8 +2813,8 @@
           hippo:availability: [live]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
+          hippogogreen:date: 2018-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2018-02-18T15:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: Natural capital is a term that may not mean much to
@@ -2189,185 +2827,11 @@
           hippogogreen:title: Natural Capital
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
+          hippostdpubwf:creationDate: 2017-09-09T11:31:23.333+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:12:47.643+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippostdpubwf:publicationDate: 2020-05-27T15:12:49.744+02:00
           hippotranslation:id: f9e53d63-977a-4beb-9b44-dd442333fa97
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke for a market\
-              \ overview of natural capital. Topics covered include direct and indirect\
-              \ impacts of natural capital on supply chains, business benefits of\
-              \ having a natural capital strategy, where natural capital fits within\
-              \ a sustainability strategy, challenges to be managed when integrating\
-              \ natural capital into your sustainability strategy and the tools available\
-              \ to help.</p> \n<p>Thursday, February 18, 2015\n<br /> 4.00pm - 5.00pm\
-              \ (UK)\n<br /> 11am - 12 noon (EST)\n<br /> 8am - 9am (PST)</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /natural-capital[2]:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: eee4807a-6aac-41b3-907b-d95e0f65fa12
-        hippo:name: Natural Capital
-        /natural-capital[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: b1051620-b5e8-4159-9b89-150d5a3abb84
-          hippo:availability: []
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2020-01-18T16:00:00+01:00
-          hippogogreen:enddate: 2020-01-18T15:00:00+01:00
-          hippogogreen:summary: Natural capital is a term that may not mean much to
-            you yet, but it has the potential to impact all businesses. Those businesses
-            directly involved in resource intensive areas such as agribusiness, forestry,
-            or mining are well aware of the impact natural capital loss can have on
-            a business. However, natural capital can provide new business opportunities
-            as well for those directly impacted by natural capital and indirectly
-            impacted through their supply chain.
-          hippogogreen:title: Natural Capital
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2019-10-06T13:47:06.877+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke for a market\
-              \ overview of natural capital. Topics covered include direct and indirect\
-              \ impacts of natural capital on supply chains, business benefits of\
-              \ having a natural capital strategy, where natural capital fits within\
-              \ a sustainability strategy, challenges to be managed when integrating\
-              \ natural capital into your sustainability strategy and the tools available\
-              \ to help.</p> \n<p>Thursday, February 18, 2015\n<br /> 4.00pm - 5.00pm\
-              \ (UK)\n<br /> 11am - 12 noon (EST)\n<br /> 8am - 9am (PST)</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /natural-capital[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: ebdd7da8-453e-46d9-9130-c9a42f2d42d5
-          hippo:availability: [preview]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2020-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2020-02-18T15:00:00+01:00
-          hippogogreen:summary: Natural capital is a term that may not mean much to
-            you yet, but it has the potential to impact all businesses. Those businesses
-            directly involved in resource intensive areas such as agribusiness, forestry,
-            or mining are well aware of the impact natural capital loss can have on
-            a business. However, natural capital can provide new business opportunities
-            as well for those directly impacted by natural capital and indirectly
-            impacted through their supply chain.
-          hippogogreen:title: Natural Capital
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-19T16:31:17.788+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>Join Verdantix Analyst Derrek Clarke for a market\
-              \ overview of natural capital. Topics covered include direct and indirect\
-              \ impacts of natural capital on supply chains, business benefits of\
-              \ having a natural capital strategy, where natural capital fits within\
-              \ a sustainability strategy, challenges to be managed when integrating\
-              \ natural capital into your sustainability strategy and the tools available\
-              \ to help.</p> \n<p>Thursday, February 18, 2015\n<br /> 4.00pm - 5.00pm\
-              \ (UK)\n<br /> 11am - 12 noon (EST)\n<br /> 8am - 9am (PST)</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /natural-capital[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: cb63ae05-4772-4def-bb9a-bf7279d658ae
-          hippo:availability: [live]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2020-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2020-02-18T15:00:00+01:00
-          hippogogreen:summary: Natural capital is a term that may not mean much to
-            you yet, but it has the potential to impact all businesses. Those businesses
-            directly involved in resource intensive areas such as agribusiness, forestry,
-            or mining are well aware of the impact natural capital loss can have on
-            a business. However, natural capital can provide new business opportunities
-            as well for those directly impacted by natural capital and indirectly
-            impacted through their supply chain.
-          hippogogreen:title: Natural Capital
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-19T16:31:17.788+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2019-09-19T16:31:19.352+02:00
-          hippotranslation:id: a656fcfc-5401-4f91-b331-814df23405f8
           hippotranslation:locale: en-gb
           /hippogogreen:description:
             jcr:primaryType: hippostd:html
@@ -2408,7 +2872,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: 6e3866c3-332c-4531-aa4b-295b1162e724
       hippotranslation:locale: en-gb
-      /ces-green[1]:
+      /ces-green:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: b344a8d9-52eb-4654-a6cc-e525ef1ac270
@@ -2420,8 +2884,8 @@
           hippo:availability: []
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2016-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:date: 2018-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2018-01-09T18:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: The world’s gathering place for all who thrive on
@@ -2433,7 +2897,7 @@
           hippostd:state: draft
           hippostd:tags: ['']
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
+          hippostdpubwf:creationDate: 2017-09-09T10:45:13.782+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:12:57.577+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
@@ -2563,8 +3027,8 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2016-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:date: 2018-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2018-01-09T18:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: The world’s gathering place for all who thrive on
@@ -2576,7 +3040,7 @@
           hippostd:state: unpublished
           hippostd:tags: ['']
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
+          hippostdpubwf:creationDate: 2017-09-09T10:45:13.782+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:13:06.031+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
@@ -2706,8 +3170,8 @@
           hippo:availability: [live]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2016-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:date: 2018-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2018-01-09T18:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: The world’s gathering place for all who thrive on
@@ -2719,440 +3183,11 @@
           hippostd:state: published
           hippostd:tags: ['']
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
+          hippostdpubwf:creationDate: 2017-09-09T10:45:13.782+02:00
           hippostdpubwf:lastModificationDate: 2020-05-27T15:13:06.031+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippostdpubwf:publicationDate: 2020-05-27T15:13:08.037+02:00
           hippotranslation:id: edc7e29f-7c6f-4f8a-89a7-e28c0b64747b
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<h3>Attendees: A Smaller Footprint with Bigger Opportunities</h3>\
-              \ \n<p>CES provides our industry with an opportunity to convene at one\
-              \ time, in one place, at an eco-friendly blockbuster that minimizes\
-              \ annual travel.&nbsp;</p> \n<ul> \n<li> \n<p>CES attendees connect\
-              \ with one another, get business done and collectively avoid over 1.97\
-              \ million miles in business trips that they otherwise would have to\
-              \ take if not for CES</p> </li> \n<li> \n<p>Representatives travel from\
-              \ more than 150 countries, offering a truly global opportunity.</p>\
-              \ </li> </ul> \n<h3>How Green is the International CES?</h3> \n<p>The\
-              \ 2013 International CES included a vast array of green initiatives\
-              \ as part of our efforts to reduce waste and give back to the local\
-              \ Las Vegas community.</p> \n<ul> \n<li> \n<p>Collected over 108,000\
-              \ square feet of show graphics with a capture rate of 81 percent to\
-              \ repurpose and give back to the local community</p> \n<ul> \n<li> \n\
-              <p>38,000 square feet of magnetic banners &ndash; over 19,000 pounds</p>\
-              \ </li> \n<li> \n<p>21,600 square feet of magnetic banners</p> </li>\
-              \ \n<li> \n<p>Over 48,000 square feet of other show graphics &ndash;\
-              \ up 200 percent</p> </li> \n<li> \n<p>37,800 pounds of show publications</p>\
-              \ </li> </ul> </li> \n<li> \n<p>Produced over 243,000 badge holders\
-              \ made from last year&rsquo;s vinyl banners and collected over 58,000\
-              \ badge holders after the show to repurpose for a third life</p> </li>\
-              \ \n<li> \n<p>Increased overall show reuse/recycle rate from 76 to 81\
-              \ percent</p> </li> \n<li> \n<p>Use of recyclable carpet for all exhibit\
-              \ floor aisles, TechZones, registration areas and turnkey booth packages</p>\
-              \ </li> \n<li> \n<p>Use of turnkey booth packages with recyclable panels\
-              \ and graphics printed using soy ink</p> </li> \n<li> \n<p>Mandate of\
-              \ paperless exhibitor press kits online, or via USB or DVD</p> </li>\
-              \ </ul> \n<ul> \n<li> \n<p>Materials are printed on recycled paper,\
-              \ use soy-based ink and meet the standards of the Sustainable Forest\
-              \ Initiative and Forest Stewardship Council</p> </li> \n<li> \n<p>Be\
-              \ sure to take a look at the&nbsp;\n<a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
-              ><strong>2014 CES Green Guide</strong></a>&nbsp;for information on CES\
-              \ green exhibitors, the CES greening initiatives, and CEA&rsquo;s ecycling\
-              \ and sustainability initiatives. For last year&rsquo;s Guide, see the\n\
-              <a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
-              >&nbsp;</a><strong><a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
-              \ target=\"_blank\">2013 CES Green Guide</a><a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
-              >.</a></strong></p> </li> </ul> \n<p><br /> On January 6, 2014, announced\
-              \ the continuation of its tradition to award several local Las Vegas\
-              \ organizations with funds for sustainability projects. This year, CEA\
-              \ is donating $10,000 to University of Nevada, Las Vegas&rsquo;s (UNLV)\
-              \ DesertSol solar house and $25,000 to the Springs Preserve toward the\
-              \ DesertSol project.</p> \n<ul> \n<li>The DesertSol solar house, created\
-              \ by UNLV, was the second-place winner, and first among U.S. organizations,&nbsp;\
-              \ at the 2013 U.S. Department of Energy&rsquo;s (DOE) Solar Decathlon.\
-              \ This donation is to congratulate the UNLV DesertSol team on their\
-              \ success and help further the DesertSol project.</li> </ul> \n<ul>\
-              \ \n<li>CEA&rsquo;s donation to the Springs Preserve will assist the\
-              \ move of DesertSol to its new location. The Springs Preserve is a world-class\
-              \ facility that promotes community, conservation, preservation and sustainability\
-              \ in the Southern Nevada region, and is the world&rsquo;s largest campus\
-              \ of platinum-rated U.S. Green Building Council LEED buildings. The\
-              \ Preserve aims to inspire visitors to implement green living practices\
-              \ and technologies into their own homes, and for the house to remain\
-              \ a site for continued research and development of renewable energy\
-              \ for UNLV faculty, students and industry professionals.</li> </ul>\
-              \ \n<p>&nbsp;\n<br /> At the 2013 CES, CEA made two $50,000 donations\
-              \ to local Las Vegas organizations, Green Chips and the Las Vegas Convention\
-              \ and Visitors Authority (LVCVA). Green Chips used the donation from\
-              \ CEA to support a solar installation project at the iconic &ldquo;Welcome\
-              \ to Fabulous Las Vegas&rdquo; sign on Las Vegas Boulevard. The LVCVA\
-              \ used their donation from CEA to install several electric vehicle charging\
-              \ stations at the Las Vegas Convention Center.\n<br /> \n<br /> &nbsp;</p>\
-              \ \n<h3>Get Charged Up About Electric Vehicles</h3> \n<p>The&nbsp;\n\
-              <a href=\"http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx\"\
-              >GoElectricDrive</a>&nbsp;TechZone in the Las Vegas Convention and World\
-              \ Trade Center (LVCC), North Hall showcases a full range of high- and\
-              \ low-speed electric vehicles, energy storage devices and charging solutions.\
-              \ Sponsored by the Electric Drive Transportation Association, this TechZone\
-              \ highlights an area of great potential and growth for the industry\
-              \ as electric vehicles are quickly gaining popularity among consumers\
-              \ seeking to live more sustainably by using alternative transportation.</p>\
-              \ \n<h3>CEA and Green</h3> \n<p>From trends in eco-friendly TVs to illuminating\
-              \ detail about consumer attitudes on energy efficiency with consumer\
-              \ electronics, CEA has the latest research. Visit&nbsp;\n<a href=\"\
-              http://www.ce.org/green\" target=\"_blank\">CE.org/green</a>&nbsp;for\
-              \ more information.&nbsp;</p> \n<h3>Greener Gadgets</h3> \n<p>CEA operates&nbsp;\n\
-              <a href=\"http://www.greenergadgets.org/\" target=\"_blank\">GreenerGadgets.org</a>,\
-              \ an online resource for consumers that highlights the industry trend\
-              \ toward &ldquo;greener gadgets&rdquo; &ndash; smaller, smarter, more\
-              \ energy efficient devices that can do more than ever before. Tech-savvy\
-              \ shoppers now have more eco-friendly options and this resource has\
-              \ valuable information about how to buy green electronics, use them\
-              \ efficiently and recycle them at the end of their useful life.</p>\
-              \ \n<p>The site also features a powerful&nbsp;\n<a href=\"http://www.greenergadgets.org/Energy-Calc.aspx\"\
-              \ target=\"_blank\">energy use calculator</a>&nbsp;with the most up-to-date\
-              \ products and energy use figures to help consumers better understand\
-              \ their energy usage, as well as a&nbsp;\n<a href=\"http://www.greenergadgets.org/Recycle-Electronics.aspx\"\
-              \ target=\"_blank\">recycling locator tool.</a>&nbsp;When it comes to\
-              \ end-of-life electronics, many people are concerned with what happens\
-              \ after they drop off their products. The recycling locator database\
-              \ includes industry programs, which use strict standards and third-party\
-              \ certified recyclers, so rest assured your device will be safely recycled.</p>\
-              \ \n<p>&nbsp;</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Las Vegas
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '1'
-            hippogogreen:postalcode: ''
-            hippogogreen:province: NV
-            hippogogreen:street: Las Vegas Boulevard
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: CEA
-            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /ces-green[2]:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 0b1c22b7-62ff-4e58-9de2-8388fad7f22e
-        hippo:name: CES Green
-        /ces-green[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 4a10e927-80f5-4306-adb2-93ccf8adcfea
-          hippo:availability: []
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2020-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2020-01-09T18:00:00+01:00
-          hippogogreen:summary: The world’s gathering place for all who thrive on
-            the business of consumer technologies is also the greenest. Trade Show
-            Executive magazine named the 2012 International CES® the tradeshow with
-            the “Most Innovative Green Initiatives by Show Management,” and in 2010,
-            “North America's Greenest Show.”
-          hippogogreen:title: CES Green
-          hippostd:state: draft
-          hippostd:tags: ['']
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
-          hippostdpubwf:lastModificationDate: 2019-10-07T11:03:24.974+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<h3>Attendees: A Smaller Footprint with Bigger Opportunities</h3>\
-              \ \n<p>CES provides our industry with an opportunity to convene at one\
-              \ time, in one place, at an eco-friendly blockbuster that minimizes\
-              \ annual travel.&nbsp;</p> \n<ul> \n<li> \n<p>CES attendees connect\
-              \ with one another, get business done and collectively avoid over 1.97\
-              \ million miles in business trips that they otherwise would have to\
-              \ take if not for CES</p> </li> \n<li> \n<p>Representatives travel from\
-              \ more than 150 countries, offering a truly global opportunity.</p>\
-              \ </li> </ul> \n<h3>How Green is the International CES?</h3> \n<p>The\
-              \ 2013 International CES included a vast array of green initiatives\
-              \ as part of our efforts to reduce waste and give back to the local\
-              \ Las Vegas community.</p> \n<ul> \n<li> \n<p>Collected over 108,000\
-              \ square feet of show graphics with a capture rate of 81 percent to\
-              \ repurpose and give back to the local community</p> \n<ul> \n<li> \n\
-              <p>38,000 square feet of magnetic banners &ndash; over 19,000 pounds</p>\
-              \ </li> \n<li> \n<p>21,600 square feet of magnetic banners</p> </li>\
-              \ \n<li> \n<p>Over 48,000 square feet of other show graphics &ndash;\
-              \ up 200 percent</p> </li> \n<li> \n<p>37,800 pounds of show publications</p>\
-              \ </li> </ul> </li> \n<li> \n<p>Produced over 243,000 badge holders\
-              \ made from last year&rsquo;s vinyl banners and collected over 58,000\
-              \ badge holders after the show to repurpose for a third life</p> </li>\
-              \ \n<li> \n<p>Increased overall show reuse/recycle rate from 76 to 81\
-              \ percent</p> </li> \n<li> \n<p>Use of recyclable carpet for all exhibit\
-              \ floor aisles, TechZones, registration areas and turnkey booth packages</p>\
-              \ </li> \n<li> \n<p>Use of turnkey booth packages with recyclable panels\
-              \ and graphics printed using soy ink</p> </li> \n<li> \n<p>Mandate of\
-              \ paperless exhibitor press kits online, or via USB or DVD</p> </li>\
-              \ </ul> \n<ul> \n<li> \n<p>Materials are printed on recycled paper,\
-              \ use soy-based ink and meet the standards of the Sustainable Forest\
-              \ Initiative and Forest Stewardship Council</p> </li> \n<li> \n<p>Be\
-              \ sure to take a look at the&nbsp; \n<a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2019-CES-Green-Guide.pdf\"\
-              ><strong>2014 CES Green Guide</strong></a>&nbsp;for information on CES\
-              \ green exhibitors, the CES greening initiatives, and CEA&rsquo;s ecycling\
-              \ and sustainability initiatives. For last year&rsquo;s Guide, see the\
-              \ \n<a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
-              >&nbsp;</a><strong><a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
-              \ target=\"_blank\">2013 CES Green Guide</a><a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
-              >.</a></strong></p> </li> </ul> \n<p><br /> On January 6, 2014, announced\
-              \ the continuation of its tradition to award several local Las Vegas\
-              \ organizations with funds for sustainability projects. This year, CEA\
-              \ is donating $10,000 to University of Nevada, Las Vegas&rsquo;s (UNLV)\
-              \ DesertSol solar house and $25,000 to the Springs Preserve toward the\
-              \ DesertSol project.</p> \n<ul> \n<li>The DesertSol solar house, created\
-              \ by UNLV, was the second-place winner, and first among U.S. organizations,&nbsp;\
-              \ at the 2013 U.S. Department of Energy&rsquo;s (DOE) Solar Decathlon.\
-              \ This donation is to congratulate the UNLV DesertSol team on their\
-              \ success and help further the DesertSol project.</li> </ul> \n<ul>\
-              \ \n<li>CEA&rsquo;s donation to the Springs Preserve will assist the\
-              \ move of DesertSol to its new location. The Springs Preserve is a world-class\
-              \ facility that promotes community, conservation, preservation and sustainability\
-              \ in the Southern Nevada region, and is the world&rsquo;s largest campus\
-              \ of platinum-rated U.S. Green Building Council LEED buildings. The\
-              \ Preserve aims to inspire visitors to implement green living practices\
-              \ and technologies into their own homes, and for the house to remain\
-              \ a site for continued research and development of renewable energy\
-              \ for UNLV faculty, students and industry professionals.</li> </ul>\
-              \ \n<p>&nbsp;\n<br /> At the 2013 CES, CEA made two $50,000 donations\
-              \ to local Las Vegas organizations, Green Chips and the Las Vegas Convention\
-              \ and Visitors Authority (LVCVA). Green Chips used the donation from\
-              \ CEA to support a solar installation project at the iconic &ldquo;Welcome\
-              \ to Fabulous Las Vegas&rdquo; sign on Las Vegas Boulevard. The LVCVA\
-              \ used their donation from CEA to install several electric vehicle charging\
-              \ stations at the Las Vegas Convention Center.\n<br /> \n<br /> &nbsp;</p>\
-              \ \n<h3>Get Charged Up About Electric Vehicles</h3> \n<p>The&nbsp; \n\
-              <a href=\"http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx\"\
-              >GoElectricDrive</a>&nbsp;TechZone in the Las Vegas Convention and World\
-              \ Trade Center (LVCC), North Hall showcases a full range of high- and\
-              \ low-speed electric vehicles, energy storage devices and charging solutions.\
-              \ Sponsored by the Electric Drive Transportation Association, this TechZone\
-              \ highlights an area of great potential and growth for the industry\
-              \ as electric vehicles are quickly gaining popularity among consumers\
-              \ seeking to live more sustainably by using alternative transportation.</p>\
-              \ \n<h3>CEA and Green</h3> \n<p>From trends in eco-friendly TVs to illuminating\
-              \ detail about consumer attitudes on energy efficiency with consumer\
-              \ electronics, CEA has the latest research. Visit&nbsp; \n<a href=\"\
-              http://www.ce.org/green\" target=\"_blank\">CE.org/green</a>&nbsp;for\
-              \ more information.&nbsp;</p> \n<h3>Greener Gadgets</h3> \n<p>CEA operates&nbsp;\
-              \ \n<a href=\"http://www.greenergadgets.org/\" target=\"_blank\">GreenerGadgets.org</a>,\
-              \ an online resource for consumers that highlights the industry trend\
-              \ toward &ldquo;greener gadgets&rdquo; &ndash; smaller, smarter, more\
-              \ energy efficient devices that can do more than ever before. Tech-savvy\
-              \ shoppers now have more eco-friendly options and this resource has\
-              \ valuable information about how to buy green electronics, use them\
-              \ efficiently and recycle them at the end of their useful life.</p>\
-              \ \n<p>The site also features a powerful&nbsp; \n<a href=\"http://www.greenergadgets.org/Energy-Calc.aspx\"\
-              \ target=\"_blank\">energy use calculator</a>&nbsp;with the most up-to-date\
-              \ products and energy use figures to help consumers better understand\
-              \ their energy usage, as well as a&nbsp; \n<a href=\"http://www.greenergadgets.org/Recycle-Electronics.aspx\"\
-              \ target=\"_blank\">recycling locator tool.</a>&nbsp;When it comes to\
-              \ end-of-life electronics, many people are concerned with what happens\
-              \ after they drop off their products. The recycling locator database\
-              \ includes industry programs, which use strict standards and third-party\
-              \ certified recyclers, so rest assured your device will be safely recycled.</p>\
-              \ \n<p>&nbsp;</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Las Vegas
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '1'
-            hippogogreen:postalcode: ''
-            hippogogreen:province: NV
-            hippogogreen:street: Las Vegas Boulevard
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: CEA
-            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /ces-green[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: d71d7f01-1310-4eaf-a4e3-84996e9f1909
-          hippo:availability: [preview]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2020-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2020-01-09T18:00:00+01:00
-          hippogogreen:summary: The world’s gathering place for all who thrive on
-            the business of consumer technologies is also the greenest. Trade Show
-            Executive magazine named the 2012 International CES® the tradeshow with
-            the “Most Innovative Green Initiatives by Show Management,” and in 2010,
-            “North America's Greenest Show.”
-          hippogogreen:title: CES Green
-          hippostd:state: unpublished
-          hippostd:tags: ['']
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:20.885+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
-          hippotranslation:locale: en-gb
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<h3>Attendees: A Smaller Footprint with Bigger Opportunities</h3>\
-              \ \n<p>CES provides our industry with an opportunity to convene at one\
-              \ time, in one place, at an eco-friendly blockbuster that minimizes\
-              \ annual travel.&nbsp;</p> \n<ul> \n<li> \n<p>CES attendees connect\
-              \ with one another, get business done and collectively avoid over 1.97\
-              \ million miles in business trips that they otherwise would have to\
-              \ take if not for CES</p> </li> \n<li> \n<p>Representatives travel from\
-              \ more than 150 countries, offering a truly global opportunity.</p>\
-              \ </li> </ul> \n<h3>How Green is the International CES?</h3> \n<p>The\
-              \ 2013 International CES included a vast array of green initiatives\
-              \ as part of our efforts to reduce waste and give back to the local\
-              \ Las Vegas community.</p> \n<ul> \n<li> \n<p>Collected over 108,000\
-              \ square feet of show graphics with a capture rate of 81 percent to\
-              \ repurpose and give back to the local community</p> \n<ul> \n<li> \n\
-              <p>38,000 square feet of magnetic banners &ndash; over 19,000 pounds</p>\
-              \ </li> \n<li> \n<p>21,600 square feet of magnetic banners</p> </li>\
-              \ \n<li> \n<p>Over 48,000 square feet of other show graphics &ndash;\
-              \ up 200 percent</p> </li> \n<li> \n<p>37,800 pounds of show publications</p>\
-              \ </li> </ul> </li> \n<li> \n<p>Produced over 243,000 badge holders\
-              \ made from last year&rsquo;s vinyl banners and collected over 58,000\
-              \ badge holders after the show to repurpose for a third life</p> </li>\
-              \ \n<li> \n<p>Increased overall show reuse/recycle rate from 76 to 81\
-              \ percent</p> </li> \n<li> \n<p>Use of recyclable carpet for all exhibit\
-              \ floor aisles, TechZones, registration areas and turnkey booth packages</p>\
-              \ </li> \n<li> \n<p>Use of turnkey booth packages with recyclable panels\
-              \ and graphics printed using soy ink</p> </li> \n<li> \n<p>Mandate of\
-              \ paperless exhibitor press kits online, or via USB or DVD</p> </li>\
-              \ </ul> \n<ul> \n<li> \n<p>Materials are printed on recycled paper,\
-              \ use soy-based ink and meet the standards of the Sustainable Forest\
-              \ Initiative and Forest Stewardship Council</p> </li> \n<li> \n<p>Be\
-              \ sure to take a look at the&nbsp;\n<a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
-              ><strong>2014 CES Green Guide</strong></a>&nbsp;for information on CES\
-              \ green exhibitors, the CES greening initiatives, and CEA&rsquo;s ecycling\
-              \ and sustainability initiatives. For last year&rsquo;s Guide, see the\n\
-              <a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
-              >&nbsp;</a><strong><a href=\"http://www.cesweb.org/CES/media/2014/landing%20pages/About%20CES/Green/2014-CES-Green-Guide.pdf\"\
-              \ target=\"_blank\">2013 CES Green Guide</a><a href=\"http://www.cesweb.org/CES/media/2014/Green/2013-CES-Green-Guide.pdf\"\
-              >.</a></strong></p> </li> </ul> \n<p><br /> On January 6, 2014, announced\
-              \ the continuation of its tradition to award several local Las Vegas\
-              \ organizations with funds for sustainability projects. This year, CEA\
-              \ is donating $10,000 to University of Nevada, Las Vegas&rsquo;s (UNLV)\
-              \ DesertSol solar house and $25,000 to the Springs Preserve toward the\
-              \ DesertSol project.</p> \n<ul> \n<li>The DesertSol solar house, created\
-              \ by UNLV, was the second-place winner, and first among U.S. organizations,&nbsp;\
-              \ at the 2013 U.S. Department of Energy&rsquo;s (DOE) Solar Decathlon.\
-              \ This donation is to congratulate the UNLV DesertSol team on their\
-              \ success and help further the DesertSol project.</li> </ul> \n<ul>\
-              \ \n<li>CEA&rsquo;s donation to the Springs Preserve will assist the\
-              \ move of DesertSol to its new location. The Springs Preserve is a world-class\
-              \ facility that promotes community, conservation, preservation and sustainability\
-              \ in the Southern Nevada region, and is the world&rsquo;s largest campus\
-              \ of platinum-rated U.S. Green Building Council LEED buildings. The\
-              \ Preserve aims to inspire visitors to implement green living practices\
-              \ and technologies into their own homes, and for the house to remain\
-              \ a site for continued research and development of renewable energy\
-              \ for UNLV faculty, students and industry professionals.</li> </ul>\
-              \ \n<p>&nbsp;\n<br /> At the 2013 CES, CEA made two $50,000 donations\
-              \ to local Las Vegas organizations, Green Chips and the Las Vegas Convention\
-              \ and Visitors Authority (LVCVA). Green Chips used the donation from\
-              \ CEA to support a solar installation project at the iconic &ldquo;Welcome\
-              \ to Fabulous Las Vegas&rdquo; sign on Las Vegas Boulevard. The LVCVA\
-              \ used their donation from CEA to install several electric vehicle charging\
-              \ stations at the Las Vegas Convention Center.\n<br /> \n<br /> &nbsp;</p>\
-              \ \n<h3>Get Charged Up About Electric Vehicles</h3> \n<p>The&nbsp;\n\
-              <a href=\"http://www.cesweb.org/Show-Floor/TechZones/GoElectricDrive.aspx\"\
-              >GoElectricDrive</a>&nbsp;TechZone in the Las Vegas Convention and World\
-              \ Trade Center (LVCC), North Hall showcases a full range of high- and\
-              \ low-speed electric vehicles, energy storage devices and charging solutions.\
-              \ Sponsored by the Electric Drive Transportation Association, this TechZone\
-              \ highlights an area of great potential and growth for the industry\
-              \ as electric vehicles are quickly gaining popularity among consumers\
-              \ seeking to live more sustainably by using alternative transportation.</p>\
-              \ \n<h3>CEA and Green</h3> \n<p>From trends in eco-friendly TVs to illuminating\
-              \ detail about consumer attitudes on energy efficiency with consumer\
-              \ electronics, CEA has the latest research. Visit&nbsp;\n<a href=\"\
-              http://www.ce.org/green\" target=\"_blank\">CE.org/green</a>&nbsp;for\
-              \ more information.&nbsp;</p> \n<h3>Greener Gadgets</h3> \n<p>CEA operates&nbsp;\n\
-              <a href=\"http://www.greenergadgets.org/\" target=\"_blank\">GreenerGadgets.org</a>,\
-              \ an online resource for consumers that highlights the industry trend\
-              \ toward &ldquo;greener gadgets&rdquo; &ndash; smaller, smarter, more\
-              \ energy efficient devices that can do more than ever before. Tech-savvy\
-              \ shoppers now have more eco-friendly options and this resource has\
-              \ valuable information about how to buy green electronics, use them\
-              \ efficiently and recycle them at the end of their useful life.</p>\
-              \ \n<p>The site also features a powerful&nbsp;\n<a href=\"http://www.greenergadgets.org/Energy-Calc.aspx\"\
-              \ target=\"_blank\">energy use calculator</a>&nbsp;with the most up-to-date\
-              \ products and energy use figures to help consumers better understand\
-              \ their energy usage, as well as a&nbsp;\n<a href=\"http://www.greenergadgets.org/Recycle-Electronics.aspx\"\
-              \ target=\"_blank\">recycling locator tool.</a>&nbsp;When it comes to\
-              \ end-of-life electronics, many people are concerned with what happens\
-              \ after they drop off their products. The recycling locator database\
-              \ includes industry programs, which use strict standards and third-party\
-              \ certified recyclers, so rest assured your device will be safely recycled.</p>\
-              \ \n<p>&nbsp;</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Las Vegas
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '1'
-            hippogogreen:postalcode: ''
-            hippogogreen:province: NV
-            hippogogreen:street: Las Vegas Boulevard
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: CEA
-            hippogogreen:url: http://www.cesweb.org/About-Us/An-Eco-Friendly-Global-Event
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 0e33e8b5-2554-4c46-9bed-0efbdadccf87
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /ces-green[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 5f6e8b93-dcf4-462f-b7ae-8523e349f6d6
-          hippo:availability: [live]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2020-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2020-01-09T18:00:00+01:00
-          hippogogreen:summary: The world’s gathering place for all who thrive on
-            the business of consumer technologies is also the greenest. Trade Show
-            Executive magazine named the 2012 International CES® the tradeshow with
-            the “Most Innovative Green Initiatives by Show Management,” and in 2010,
-            “North America's Greenest Show.”
-          hippogogreen:title: CES Green
-          hippostd:state: published
-          hippostd:tags: ['']
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2020-09-09T10:45:13.782+02:00
-          hippostdpubwf:lastModificationDate: 2019-09-09T17:47:20.885+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2019-09-09T17:47:22.783+02:00
-          hippotranslation:id: db58ff63-468a-4580-bd76-c0c456c17f6f
           hippotranslation:locale: en-gb
           /hippogogreen:description:
             jcr:primaryType: hippostd:html

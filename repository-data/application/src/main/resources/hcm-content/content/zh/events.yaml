@@ -1,6 +1,6 @@
 /content/documents/河马转到绿/events:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
   jcr:uuid: 60d08120-1c36-432e-975e-2053861e985f
   hippo:name: 活动
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -671,9 +671,10 @@
             hippogogreen:url: http://www.sustainability.umd.edu/content/community/SSCC_CFP.php
   /facetedevents:
     jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 59
     hippo:docbase: 60d08120-1c36-432e-975e-2053861e985f
     hippofacnav:facetnodenames: ['year${hide:''year''}', 'month${after:''year'', hide:''month''}',
-                                 'day${after:''month''}']
+      'day${after:''month''}']
     hippofacnav:facets: ['hippogogreen:date$year', 'hippogogreen:date$month', 'hippogogreen:date$day']
     hippofacnav:limit: 100
     hippofacnav:skipresultsetfacetsavailable: true
@@ -681,6 +682,7 @@
     hippofacnav:sortorder: [descending]
   /facetedeventsmobile:
     jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 59
     hippo:docbase: 60d08120-1c36-432e-975e-2053861e985f
     hippofacnav:facetnodenames: [Date]
     hippofacnav:facets: ["hippogogreen:date$[{name:'Upcoming', resolution:'day', begin:0},\
@@ -703,7 +705,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: 177d02b2-4fdf-4f93-92cf-bb96dcac6af9
       hippotranslation:locale: zh
-      /绿色生活展[1]:
+      /绿色生活展:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
         jcr:uuid: 7cc02cd4-34af-4776-aeb0-0b6719a0c0a1
@@ -843,7 +845,7 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-      /环保节[1]:
+      /环保节:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
         jcr:uuid: 56c6db6b-79b4-4e48-bc84-d583bdc11b54
@@ -984,299 +986,6 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-      /绿色生活展[2]:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: a9e5320b-640f-4768-8edc-620f04ea10ad
-        /绿色生活展[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 0ef54447-3e73-4e2b-9e08-34f1efc6131e
-          hippo:availability: [preview]
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 绿色生活展是加拿大最大的绿色消费展致力于教育公众容易和可行的解决方案，领先的可持续发展的生活方式。游客可以在超过400个展品购物，吃饭准备由著名厨师当地的食物，味道环保型的葡萄酒，并享受示范，演示文稿和活动多元化的选择。大乐趣为整个家庭。
-          hippogogreen:title: 绿色生活展
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:23:43.850+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 7c4d828a-56a4-44fa-8b2b-10d12c584c8b
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>参展产品类别：&nbsp;
-              <br /> 能源，食品和饮料，绿色建筑，交通运输，生态旅游，休闲，家居用品，卫生与健康，时尚，美容，儿童，宠物，绿色企业，环境教育，环保NGO组织的和非营利性。</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /绿色生活展[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 1431bc8a-64bf-44f5-814c-3e43ce968934
-          hippo:availability: []
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 绿色生活展是加拿大最大的绿色消费展致力于教育公众容易和可行的解决方案，领先的可持续发展的生活方式。游客可以在超过400个展品购物，吃饭准备由著名厨师当地的食物，味道环保型的葡萄酒，并享受示范，演示文稿和活动多元化的选择。大乐趣为整个家庭。
-          hippogogreen:title: 绿色生活展
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:23:32.376+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 7c4d828a-56a4-44fa-8b2b-10d12c584c8b
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>参展产品类别：&nbsp;
-              <br /> 能源，食品和饮料，绿色建筑，交通运输，生态旅游，休闲，家居用品，卫生与健康，时尚，美容，儿童，宠物，绿色企业，环境教育，环保NGO组织的和非营利性。</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /绿色生活展[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 2509117a-ca16-4ba2-968c-b0a6b9cc0626
-          hippo:availability: [live]
-          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2016-04-17T12:00:00+02:00
-          hippogogreen:enddate: 2016-04-17T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 绿色生活展是加拿大最大的绿色消费展致力于教育公众容易和可行的解决方案，领先的可持续发展的生活方式。游客可以在超过400个展品购物，吃饭准备由著名厨师当地的食物，味道环保型的葡萄酒，并享受示范，演示文稿和活动多元化的选择。大乐趣为整个家庭。
-          hippogogreen:title: 绿色生活展
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:03:47.718+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:23:43.850+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-05-29T13:24:36.859+02:00
-          hippotranslation:id: 7c4d828a-56a4-44fa-8b2b-10d12c584c8b
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>参展产品类别：&nbsp;
-              <br /> 能源，食品和饮料，绿色建筑，交通运输，生态旅游，休闲，家居用品，卫生与健康，时尚，美容，儿童，宠物，绿色企业，环境教育，环保NGO组织的和非营利性。</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: Toronto
-            hippogogreen:country: Canada
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '100'
-            hippogogreen:postalcode: M6K 3C3
-            hippogogreen:province: 'ON'
-            hippogogreen:street: Princes' Blvd.
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Living Enterprises Inc.
-            hippogogreen:url: http://www.greenlivingshow.ca/
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /环保节[2]:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 18bf1499-3476-40fc-a96e-f0a4234ed086
-        hippo:name: '环保节 '
-        /环保节[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 0cecf24e-1164-42f1-aa14-ded6c59d3e54
-          hippo:availability: [preview]
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 纽约市环保节推出其第三年4月26日至27日在一个新的场地，码头94！在绿色Festival®，也有一些是为大家感兴趣的生活更加可持续和健康的生活。体验的产品和服务的最广泛的选择，以环保工作，发挥绿色和绿色生活
-            - 从美食，时尚和健康，能源，建筑和设计。享受素食主义者和素食烹饪演示，为孩子和家庭，面板具有鼓舞人心的演讲教育活动，以及现场音乐和娱乐节目。我们拥有独特的300多名环保企业市场店
-            - 一切从全天然身体护理产品和有机服装公平贸易礼物，从可再生资源制成美丽的家居装修，加上素食主义者和素食产品基于有机，非转基因或地方，手工食品。
-          hippogogreen:title: 环保节
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:23:56.462+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 70ee3ce2-71e9-4aac-8cff-95bd1bbfd03c
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>在过去的13年里，绿节一直致力于帮助人们在美国找到解决方案，使我们的家庭和社区健康 - 社会，经济和环境。请加入我们在全国规模最大，持续时间最长的可持续性活动，并庆祝地球月与上最好的绿色生活。&nbsp;</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /环保节[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 91e5220d-8b2c-4029-b2f8-68c9f2a6c5b1
-          hippo:availability: []
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 纽约市环保节推出其第三年4月26日至27日在一个新的场地，码头94！在绿色Festival®，也有一些是为大家感兴趣的生活更加可持续和健康的生活。体验的产品和服务的最广泛的选择，以环保工作，发挥绿色和绿色生活
-            - 从美食，时尚和健康，能源，建筑和设计。享受素食主义者和素食烹饪演示，为孩子和家庭，面板具有鼓舞人心的演讲教育活动，以及现场音乐和娱乐节目。我们拥有独特的300多名环保企业市场店
-            - 一切从全天然身体护理产品和有机服装公平贸易礼物，从可再生资源制成美丽的家居装修，加上素食主义者和素食产品基于有机，非转基因或地方，手工食品。
-          hippogogreen:title: 环保节
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:23:47.330+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 70ee3ce2-71e9-4aac-8cff-95bd1bbfd03c
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>在过去的13年里，绿节一直致力于帮助人们在美国找到解决方案，使我们的家庭和社区健康 - 社会，经济和环境。请加入我们在全国规模最大，持续时间最长的可持续性活动，并庆祝地球月与上最好的绿色生活。&nbsp;</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /环保节[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 0eaa5bb1-9369-4dd4-850c-6f91a9da76c0
-          hippo:availability: [live]
-          hippogogreen:categories: [Family, Health care, Home]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2016-04-26T12:22:00+02:00
-          hippogogreen:enddate: 2016-04-27T18:00:00+02:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 纽约市环保节推出其第三年4月26日至27日在一个新的场地，码头94！在绿色Festival®，也有一些是为大家感兴趣的生活更加可持续和健康的生活。体验的产品和服务的最广泛的选择，以环保工作，发挥绿色和绿色生活
-            - 从美食，时尚和健康，能源，建筑和设计。享受素食主义者和素食烹饪演示，为孩子和家庭，面板具有鼓舞人心的演讲教育活动，以及现场音乐和娱乐节目。我们拥有独特的300多名环保企业市场店
-            - 一切从全天然身体护理产品和有机服装公平贸易礼物，从可再生资源制成美丽的家居装修，加上素食主义者和素食产品基于有机，非转基因或地方，手工食品。
-          hippogogreen:title: 环保节
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:18:34.313+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:23:56.462+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-05-29T13:24:36.969+02:00
-          hippotranslation:id: 70ee3ce2-71e9-4aac-8cff-95bd1bbfd03c
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>在过去的13年里，绿节一直致力于帮助人们在美国找到解决方案，使我们的家庭和社区健康 - 社会，经济和环境。请加入我们在全国规模最大，持续时间最长的可持续性活动，并庆祝地球月与上最好的绿色生活。&nbsp;</p>
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: New York
-            hippogogreen:country: United States
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: '711'
-            hippogogreen:postalcode: '10019'
-            hippogogreen:province: NY
-            hippogogreen:street: 12th Avenue
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Green Festival®
-            hippogogreen:url: http://www.greenfestivals.org/nyc
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
     /02:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -1284,7 +993,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: c6eef74f-9822-4adb-ad8e-f02b3cee6f80
       hippotranslation:locale: zh
-      /自然资本[1]:
+      /自然资本:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
         jcr:uuid: 71bf31c0-18db-44cd-9dae-5c659c155ca9
@@ -1430,158 +1139,6 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-      /自然资本[2]:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 527c8c45-be4f-4e92-9823-274e9625494a
-        /自然资本[1]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 820de22b-7b9e-4b1e-92b7-2b548461ae1e
-          hippo:availability: [preview]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 自然资本是一个术语，可能并不意味着多给你，但它有可能影响所有企业的潜力。直接参与资源密集型领域，如农业，林业，矿业和这些企业都深知的影响自然资本损失可能对一个企业。然而，自然资本可以为那些直接受影响的自然资本，并通过自己的供应链间接影响提供了新的商业机遇。
-          hippogogreen:title: 自然资本
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:24:11.167+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 60dd8d6d-7229-45ec-a6f1-e074fa387c6d
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>加入Verdantix分析师德瑞克&middot;克拉克对自然资本的市场概况。涵盖的主题包括自然\
-              资本对供应链，具有天然的资本战略，其中自然资本中的可持续发展战略，符合商业利益，挑战的直接和间接影响，当整合自然资本到可持续发展战略和可\
-              用的工具来帮助管理。&nbsp;\n<br /> 周四，2015年2月18日&nbsp;\n<br /> 下午4时 - 下午5时（英国）\
-              &nbsp;\n<br /> 上午11时 - 中午12时（美国东部时间）&nbsp;\n<br /> 上午8时 - 上午09点（太平洋标\
-              准时间）&nbsp;</p> \n<p>&nbsp;</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /自然资本[2]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: c70148f7-56d1-44bc-a34a-f2a161a18c13
-          hippo:availability: []
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 自然资本是一个术语，可能并不意味着多给你，但它有可能影响所有企业的潜力。直接参与资源密集型领域，如农业，林业，矿业和这些企业都深知的影响自然资本损失可能对一个企业。然而，自然资本可以为那些直接受影响的自然资本，并通过自己的供应链间接影响提供了新的商业机遇。
-          hippogogreen:title: 自然资本
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:24:01.513+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 60dd8d6d-7229-45ec-a6f1-e074fa387c6d
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>加入Verdantix分析师德瑞克&middot;克拉克对自然资本的市场概况。涵盖的主题包括自然\
-              资本对供应链，具有天然的资本战略，其中自然资本中的可持续发展战略，符合商业利益，挑战的直接和间接影响，当整合自然资本到可持续发展战略和可\
-              用的工具来帮助管理。&nbsp;\n<br /> 周四，2015年2月18日&nbsp;\n<br /> 下午4时 - 下午5时（英国）\
-              &nbsp;\n<br /> 上午11时 - 中午12时（美国东部时间）&nbsp;\n<br /> 上午8时 - 上午09点（太平洋标\
-              准时间）&nbsp;</p> \n<p>&nbsp;</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /自然资本[3]:
-          jcr:primaryType: hippogogreen:event
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 2f0e6aac-4162-4eee-8575-e0958421fbdf
-          hippo:availability: [live]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2016-02-18T16:00:00+01:00
-          hippogogreen:enddate: 2016-02-18T15:00:00+01:00
-          hippogogreen:metadescription: ''
-          hippogogreen:metatitle: ''
-          hippogogreen:summary: 自然资本是一个术语，可能并不意味着多给你，但它有可能影响所有企业的潜力。直接参与资源密集型领域，如农业，林业，矿业和这些企业都深知的影响自然资本损失可能对一个企业。然而，自然资本可以为那些直接受影响的自然资本，并通过自己的供应链间接影响提供了新的商业机遇。
-          hippogogreen:title: 自然资本
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T11:31:23.333+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:24:11.167+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-05-29T13:24:36.919+02:00
-          hippotranslation:id: 60dd8d6d-7229-45ec-a6f1-e074fa387c6d
-          hippotranslation:locale: zh
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<p>加入Verdantix分析师德瑞克&middot;克拉克对自然资本的市场概况。涵盖的主题包括自然\
-              资本对供应链，具有天然的资本战略，其中自然资本中的可持续发展战略，符合商业利益，挑战的直接和间接影响，当整合自然资本到可持续发展战略和可\
-              用的工具来帮助管理。&nbsp;\n<br /> 周四，2015年2月18日&nbsp;\n<br /> 下午4时 - 下午5时（英国）\
-              &nbsp;\n<br /> 上午11时 - 中午12时（美国东部时间）&nbsp;\n<br /> 上午8时 - 上午09点（太平洋标\
-              准时间）&nbsp;</p> \n<p>&nbsp;</p>"
-          /hippogogreen:location:
-            jcr:primaryType: hippogogreen:address
-            hippogogreen:city: London
-            hippogogreen:country: United Kingdom
-            hippogogreen:latitude: 0.0
-            hippogogreen:longitude: 0.0
-            hippogogreen:number: ''
-            hippogogreen:postalcode: ''
-            hippogogreen:province: ''
-            hippogogreen:street: ''
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: ''
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
     /01:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -1589,7 +1146,7 @@
       hippostd:foldertype: [new-event-folder, new-event]
       hippotranslation:id: 6925cc32-3f50-4e24-92c4-0fc7310abad3
       hippotranslation:locale: zh
-      /国际消费电子展绿[1]:
+      /国际消费电子展绿:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
         jcr:uuid: 2ef058a3-a2a5-4e5a-8c98-dce5ff6ce9d3
@@ -1822,7 +1379,480 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-      /国际消费电子展绿[2]:
+  /2018:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: f0f0b3a7-7cc8-4eef-ab9c-325f1738c46a
+    hippostd:foldertype: [new-event-folder, new-event]
+    hippotranslation:id: 2796910b-4e22-41a5-9442-e4b7107a1cc4
+    hippotranslation:locale: zh
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: ca78883f-cd1a-4a29-a591-cb49aad88f76
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 13c01d92-dad8-4a70-a408-4d03f18dacc6
+      hippotranslation:locale: zh
+      /绿色生活展:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a9e5320b-640f-4768-8edc-620f04ea10ad
+        /绿色生活展[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 0ef54447-3e73-4e2b-9e08-34f1efc6131e
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2018-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2018-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 绿色生活展是加拿大最大的绿色消费展致力于教育公众容易和可行的解决方案，领先的可持续发展的生活方式。游客可以在超过400个展品购物，吃饭准备由著名厨师当地的食物，味道环保型的葡萄酒，并享受示范，演示文稿和活动多元化的选择。大乐趣为整个家庭。
+          hippogogreen:title: 绿色生活展
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:23:43.850+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 7c4d828a-56a4-44fa-8b2b-10d12c584c8b
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>参展产品类别：&nbsp;
+              <br /> 能源，食品和饮料，绿色建筑，交通运输，生态旅游，休闲，家居用品，卫生与健康，时尚，美容，儿童，宠物，绿色企业，环境教育，环保NGO组织的和非营利性。</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /绿色生活展[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1431bc8a-64bf-44f5-814c-3e43ce968934
+          hippo:availability: []
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2018-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2018-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 绿色生活展是加拿大最大的绿色消费展致力于教育公众容易和可行的解决方案，领先的可持续发展的生活方式。游客可以在超过400个展品购物，吃饭准备由著名厨师当地的食物，味道环保型的葡萄酒，并享受示范，演示文稿和活动多元化的选择。大乐趣为整个家庭。
+          hippogogreen:title: 绿色生活展
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:23:32.376+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 7c4d828a-56a4-44fa-8b2b-10d12c584c8b
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>参展产品类别：&nbsp;
+              <br /> 能源，食品和饮料，绿色建筑，交通运输，生态旅游，休闲，家居用品，卫生与健康，时尚，美容，儿童，宠物，绿色企业，环境教育，环保NGO组织的和非营利性。</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /绿色生活展[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2509117a-ca16-4ba2-968c-b0a6b9cc0626
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Animal & Garden, Health care, Home, Kitchen]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2018-04-17T12:00:00+02:00
+          hippogogreen:enddate: 2018-04-17T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 绿色生活展是加拿大最大的绿色消费展致力于教育公众容易和可行的解决方案，领先的可持续发展的生活方式。游客可以在超过400个展品购物，吃饭准备由著名厨师当地的食物，味道环保型的葡萄酒，并享受示范，演示文稿和活动多元化的选择。大乐趣为整个家庭。
+          hippogogreen:title: 绿色生活展
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:03:47.718+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:23:43.850+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-05-29T13:24:36.859+02:00
+          hippotranslation:id: 7c4d828a-56a4-44fa-8b2b-10d12c584c8b
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>参展产品类别：&nbsp;
+              <br /> 能源，食品和饮料，绿色建筑，交通运输，生态旅游，休闲，家居用品，卫生与健康，时尚，美容，儿童，宠物，绿色企业，环境教育，环保NGO组织的和非营利性。</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: Toronto
+            hippogogreen:country: Canada
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '100'
+            hippogogreen:postalcode: M6K 3C3
+            hippogogreen:province: 'ON'
+            hippogogreen:street: Princes' Blvd.
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Living Enterprises Inc.
+            hippogogreen:url: http://www.greenlivingshow.ca/
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 318a9135-a65b-49e5-96d3-411042c5d771
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /环保节:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 18bf1499-3476-40fc-a96e-f0a4234ed086
+        hippo:name: '环保节 '
+        /环保节[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 0cecf24e-1164-42f1-aa14-ded6c59d3e54
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2018-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2018-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 纽约市环保节推出其第三年4月26日至27日在一个新的场地，码头94！在绿色Festival®，也有一些是为大家感兴趣的生活更加可持续和健康的生活。体验的产品和服务的最广泛的选择，以环保工作，发挥绿色和绿色生活
+            - 从美食，时尚和健康，能源，建筑和设计。享受素食主义者和素食烹饪演示，为孩子和家庭，面板具有鼓舞人心的演讲教育活动，以及现场音乐和娱乐节目。我们拥有独特的300多名环保企业市场店
+            - 一切从全天然身体护理产品和有机服装公平贸易礼物，从可再生资源制成美丽的家居装修，加上素食主义者和素食产品基于有机，非转基因或地方，手工食品。
+          hippogogreen:title: 环保节
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:23:56.462+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 70ee3ce2-71e9-4aac-8cff-95bd1bbfd03c
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>在过去的13年里，绿节一直致力于帮助人们在美国找到解决方案，使我们的家庭和社区健康 - 社会，经济和环境。请加入我们在全国规模最大，持续时间最长的可持续性活动，并庆祝地球月与上最好的绿色生活。&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /环保节[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 91e5220d-8b2c-4029-b2f8-68c9f2a6c5b1
+          hippo:availability: []
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2018-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2018-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 纽约市环保节推出其第三年4月26日至27日在一个新的场地，码头94！在绿色Festival®，也有一些是为大家感兴趣的生活更加可持续和健康的生活。体验的产品和服务的最广泛的选择，以环保工作，发挥绿色和绿色生活
+            - 从美食，时尚和健康，能源，建筑和设计。享受素食主义者和素食烹饪演示，为孩子和家庭，面板具有鼓舞人心的演讲教育活动，以及现场音乐和娱乐节目。我们拥有独特的300多名环保企业市场店
+            - 一切从全天然身体护理产品和有机服装公平贸易礼物，从可再生资源制成美丽的家居装修，加上素食主义者和素食产品基于有机，非转基因或地方，手工食品。
+          hippogogreen:title: 环保节
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:23:47.330+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 70ee3ce2-71e9-4aac-8cff-95bd1bbfd03c
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>在过去的13年里，绿节一直致力于帮助人们在美国找到解决方案，使我们的家庭和社区健康 - 社会，经济和环境。请加入我们在全国规模最大，持续时间最长的可持续性活动，并庆祝地球月与上最好的绿色生活。&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /环保节[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0eaa5bb1-9369-4dd4-850c-6f91a9da76c0
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Health care, Home]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2018-04-26T12:22:00+02:00
+          hippogogreen:enddate: 2018-04-27T18:00:00+02:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 纽约市环保节推出其第三年4月26日至27日在一个新的场地，码头94！在绿色Festival®，也有一些是为大家感兴趣的生活更加可持续和健康的生活。体验的产品和服务的最广泛的选择，以环保工作，发挥绿色和绿色生活
+            - 从美食，时尚和健康，能源，建筑和设计。享受素食主义者和素食烹饪演示，为孩子和家庭，面板具有鼓舞人心的演讲教育活动，以及现场音乐和娱乐节目。我们拥有独特的300多名环保企业市场店
+            - 一切从全天然身体护理产品和有机服装公平贸易礼物，从可再生资源制成美丽的家居装修，加上素食主义者和素食产品基于有机，非转基因或地方，手工食品。
+          hippogogreen:title: 环保节
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:18:34.313+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:23:56.462+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-05-29T13:24:36.969+02:00
+          hippotranslation:id: 70ee3ce2-71e9-4aac-8cff-95bd1bbfd03c
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>在过去的13年里，绿节一直致力于帮助人们在美国找到解决方案，使我们的家庭和社区健康 - 社会，经济和环境。请加入我们在全国规模最大，持续时间最长的可持续性活动，并庆祝地球月与上最好的绿色生活。&nbsp;</p>
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: New York
+            hippogogreen:country: United States
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: '711'
+            hippogogreen:postalcode: '10019'
+            hippogogreen:province: NY
+            hippogogreen:street: 12th Avenue
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Green Festival®
+            hippogogreen:url: http://www.greenfestivals.org/nyc
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7ae124f1-cf26-49d0-bbf0-d6d4c7cd5232
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 36f16858-1c64-43cf-a4a7-0ecf404cd4e4
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 79ce5b01-4965-4e1e-888d-7e14dbf61159
+      hippotranslation:locale: zh
+      /自然资本:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 527c8c45-be4f-4e92-9823-274e9625494a
+        /自然资本[1]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 820de22b-7b9e-4b1e-92b7-2b548461ae1e
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2018-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2018-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 自然资本是一个术语，可能并不意味着多给你，但它有可能影响所有企业的潜力。直接参与资源密集型领域，如农业，林业，矿业和这些企业都深知的影响自然资本损失可能对一个企业。然而，自然资本可以为那些直接受影响的自然资本，并通过自己的供应链间接影响提供了新的商业机遇。
+          hippogogreen:title: 自然资本
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:24:11.167+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 60dd8d6d-7229-45ec-a6f1-e074fa387c6d
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>加入Verdantix分析师德瑞克&middot;克拉克对自然资本的市场概况。涵盖的主题包括自然\
+              资本对供应链，具有天然的资本战略，其中自然资本中的可持续发展战略，符合商业利益，挑战的直接和间接影响，当整合自然资本到可持续发展战略和可\
+              用的工具来帮助管理。&nbsp;\n<br /> 周四，2015年2月18日&nbsp;\n<br /> 下午4时 - 下午5时（英国）\
+              &nbsp;\n<br /> 上午11时 - 中午12时（美国东部时间）&nbsp;\n<br /> 上午8时 - 上午09点（太平洋标\
+              准时间）&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /自然资本[2]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c70148f7-56d1-44bc-a34a-f2a161a18c13
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2018-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2018-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 自然资本是一个术语，可能并不意味着多给你，但它有可能影响所有企业的潜力。直接参与资源密集型领域，如农业，林业，矿业和这些企业都深知的影响自然资本损失可能对一个企业。然而，自然资本可以为那些直接受影响的自然资本，并通过自己的供应链间接影响提供了新的商业机遇。
+          hippogogreen:title: 自然资本
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:24:01.513+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 60dd8d6d-7229-45ec-a6f1-e074fa387c6d
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>加入Verdantix分析师德瑞克&middot;克拉克对自然资本的市场概况。涵盖的主题包括自然\
+              资本对供应链，具有天然的资本战略，其中自然资本中的可持续发展战略，符合商业利益，挑战的直接和间接影响，当整合自然资本到可持续发展战略和可\
+              用的工具来帮助管理。&nbsp;\n<br /> 周四，2015年2月18日&nbsp;\n<br /> 下午4时 - 下午5时（英国）\
+              &nbsp;\n<br /> 上午11时 - 中午12时（美国东部时间）&nbsp;\n<br /> 上午8时 - 上午09点（太平洋标\
+              准时间）&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /自然资本[3]:
+          jcr:primaryType: hippogogreen:event
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2f0e6aac-4162-4eee-8575-e0958421fbdf
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2018-02-18T16:00:00+01:00
+          hippogogreen:enddate: 2018-02-18T15:00:00+01:00
+          hippogogreen:metadescription: ''
+          hippogogreen:metatitle: ''
+          hippogogreen:summary: 自然资本是一个术语，可能并不意味着多给你，但它有可能影响所有企业的潜力。直接参与资源密集型领域，如农业，林业，矿业和这些企业都深知的影响自然资本损失可能对一个企业。然而，自然资本可以为那些直接受影响的自然资本，并通过自己的供应链间接影响提供了新的商业机遇。
+          hippogogreen:title: 自然资本
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-09-09T11:31:23.333+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:24:11.167+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-05-29T13:24:36.919+02:00
+          hippotranslation:id: 60dd8d6d-7229-45ec-a6f1-e074fa387c6d
+          hippotranslation:locale: zh
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<p>加入Verdantix分析师德瑞克&middot;克拉克对自然资本的市场概况。涵盖的主题包括自然\
+              资本对供应链，具有天然的资本战略，其中自然资本中的可持续发展战略，符合商业利益，挑战的直接和间接影响，当整合自然资本到可持续发展战略和可\
+              用的工具来帮助管理。&nbsp;\n<br /> 周四，2015年2月18日&nbsp;\n<br /> 下午4时 - 下午5时（英国）\
+              &nbsp;\n<br /> 上午11时 - 中午12时（美国东部时间）&nbsp;\n<br /> 上午8时 - 上午09点（太平洋标\
+              准时间）&nbsp;</p> \n<p>&nbsp;</p>"
+          /hippogogreen:location:
+            jcr:primaryType: hippogogreen:address
+            hippogogreen:city: London
+            hippogogreen:country: United Kingdom
+            hippogogreen:latitude: 0.0
+            hippogogreen:longitude: 0.0
+            hippogogreen:number: ''
+            hippogogreen:postalcode: ''
+            hippogogreen:province: ''
+            hippogogreen:street: ''
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: ''
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5b0d4bf8-b07f-4d93-852f-1f9edae55263
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /01:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 97521d96-73e6-4222-a65a-c2297012a7d0
+      hippostd:foldertype: [new-event-folder, new-event]
+      hippotranslation:id: 6e3866c3-332c-4531-aa4b-295b1162e724
+      hippotranslation:locale: zh
+      /国际消费电子展绿:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
         jcr:uuid: e8113d0d-d20b-4074-bd60-ad82db4c3e5f
@@ -1833,8 +1863,8 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2016-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:date: 2018-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2018-01-09T18:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: 世界上聚集的地方，所有谁兴旺消费类技术的企业，也是最环保的。展会经理人杂志评为2012年国际CES®与该展会“最具创新绿色倡议通过展会管理”，并在2010年，“北美最环保展”。
@@ -1842,8 +1872,8 @@
           hippostd:state: unpublished
           hippostd:tags: ['']
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:24:25.738+02:00
+          hippostdpubwf:creationDate: 2018-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:24:25.738+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: f0abe5e4-ffa4-4686-8bea-84aa554ea265
           hippotranslation:locale: zh
@@ -1911,8 +1941,8 @@
           hippo:availability: []
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2016-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:date: 2018-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2018-01-09T18:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: 世界上聚集的地方，所有谁兴旺消费类技术的企业，也是最环保的。展会经理人杂志评为2012年国际CES®与该展会“最具创新绿色倡议通过展会管理”，并在2010年，“北美最环保展”。
@@ -1920,8 +1950,8 @@
           hippostd:state: draft
           hippostd:tags: ['']
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:24:18.022+02:00
+          hippostdpubwf:creationDate: 2018-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:24:18.022+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: f0abe5e4-ffa4-4686-8bea-84aa554ea265
           hippotranslation:locale: zh
@@ -1989,8 +2019,8 @@
           hippo:availability: [live]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2016-01-06T12:00:00+01:00
-          hippogogreen:enddate: 2016-01-09T18:00:00+01:00
+          hippogogreen:date: 2018-01-06T12:00:00+01:00
+          hippogogreen:enddate: 2018-01-09T18:00:00+01:00
           hippogogreen:metadescription: ''
           hippogogreen:metatitle: ''
           hippogogreen:summary: 世界上聚集的地方，所有谁兴旺消费类技术的企业，也是最环保的。展会经理人杂志评为2012年国际CES®与该展会“最具创新绿色倡议通过展会管理”，并在2010年，“北美最环保展”。
@@ -1998,10 +2028,10 @@
           hippostd:state: published
           hippostd:tags: ['']
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2019-09-09T10:45:13.782+02:00
-          hippostdpubwf:lastModificationDate: 2020-05-29T13:24:25.738+02:00
+          hippostdpubwf:creationDate: 2018-09-09T10:45:13.782+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-29T13:24:25.738+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2020-05-29T13:24:37.013+02:00
+          hippostdpubwf:publicationDate: 2018-05-29T13:24:37.013+02:00
           hippotranslation:id: f0abe5e4-ffa4-4686-8bea-84aa554ea265
           hippotranslation:locale: zh
           /hippogogreen:description:

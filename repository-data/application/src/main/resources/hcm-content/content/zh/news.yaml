@@ -1,6 +1,6 @@
 /content/documents/河马转到绿/news:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable', 'hippo:named']
   jcr:uuid: 7f157126-827a-42d4-bf1a-c0291b87d0b8
   hippo:name: 新闻
   hippostd:foldertype: [new-translated-folder, new-document]
@@ -308,6 +308,7 @@
               <br /> &ldquo;我们很高兴被提名为可持续发展企业奖&rdquo;笔记保绿公司的首席执行官罗伯特&middot;格林，&ldquo;我们完全尊重联合国紧急部队的工作，并自豪地列出这样有远见的企业之一。&rdquo;的可持续发展企业奖获奖者在将揭晓仪式在内罗毕今年十二月。</p>
   /facetednews:
     jcr:primaryType: hippofacnav:facetnavigation
+    hippo:count: 17
     hippo:docbase: 7f157126-827a-42d4-bf1a-c0291b87d0b8
     hippofacnav:facetnodenames: [今年, '存档${sortby:''facetvalue'', sortorder:''descending''}']
     hippofacnav:facets: ["hippostdpubwf:publicationDate$[{name:'这个月 ', resolution:'month',\
