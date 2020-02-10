@@ -1,6 +1,6 @@
 /content/documents/hippogagroen/blogs:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: e2731db0-58ff-488f-a3a1-95296fb026fc
   hippo:name: Blogs
   hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
@@ -8,7 +8,6 @@
   hippotranslation:locale: nl
   /facetedblogs:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 80
     hippo:docbase: e2731db0-58ff-488f-a3a1-95296fb026fc
     hippofacnav:facetnodenames: [Categorie, Dit jaar, 'Archief${sortby:''facetvalue'',
         sortorder:''descending''}']
@@ -18,7 +17,7 @@
         \ begin:0, end:1}]", 'hippogogreen:date$year']
     hippofacnav:limit: 200
     hippofacnav:skipresultsetfacetsavailable: true
-  /2014:
+  /2019:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 800544f2-c7b0-4e78-9941-b44a843d0917
@@ -44,7 +43,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Family, Home]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-10-02T16:34:00+02:00
+          hippogogreen:date: 2019-10-02T16:34:00+02:00
           hippogogreen:summary: "Onze huizen zijn krachtige plaatsen voor wonen en\
             \ leren. Als we door de dagelijkse en wekelijkse ritmes van huis te gaan,\
             \ ontdekken we een arsenaal aan leermomenten voor onze jonge kinderen.\r\
@@ -55,8 +54,8 @@
           hippogogreen:title: Thuis Leren
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:41:47.839+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:11:23.559+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:41:47.839+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:11:23.559+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: ed3fd749-3f7f-426a-9b41-b0eb3495a9df
           hippotranslation:locale: nl
@@ -119,7 +118,7 @@
           hippo:availability: []
           hippogogreen:categories: [Family, Home]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-10-02T16:34:00+02:00
+          hippogogreen:date: 2019-10-02T16:34:00+02:00
           hippogogreen:summary: "Onze huizen zijn krachtige plaatsen voor wonen en\
             \ leren. Als we door de dagelijkse en wekelijkse ritmes van huis te gaan,\
             \ ontdekken we een arsenaal aan leermomenten voor onze jonge kinderen.\r\
@@ -130,8 +129,8 @@
           hippogogreen:title: Thuis Leren
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:41:47.839+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:10:55.161+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:41:47.839+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:10:55.161+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: ed3fd749-3f7f-426a-9b41-b0eb3495a9df
           hippotranslation:locale: nl
@@ -194,7 +193,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [Family, Home]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-10-02T16:34:00+02:00
+          hippogogreen:date: 2019-10-02T16:34:00+02:00
           hippogogreen:summary: "Onze huizen zijn krachtige plaatsen voor wonen en\
             \ leren. Als we door de dagelijkse en wekelijkse ritmes van huis te gaan,\
             \ ontdekken we een arsenaal aan leermomenten voor onze jonge kinderen.\r\
@@ -205,10 +204,10 @@
           hippogogreen:title: Thuis Leren
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:41:47.839+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:11:23.559+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:41:47.839+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:11:23.559+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-09T10:11:25.691+02:00
+          hippostdpubwf:publicationDate: 2019-10-09T10:11:25.691+02:00
           hippotranslation:id: ed3fd749-3f7f-426a-9b41-b0eb3495a9df
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -282,7 +281,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Home, Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-09-02T13:38:00+02:00
+          hippogogreen:date: 2019-09-02T13:38:00+02:00
           hippogogreen:summary: Het besteden van $ 200 of meer aan dat oudere, nog
             werkende thermostaat met een nieuwe whiz-bang "slimme" verscheidenheid
             lijkt misschien een verspilling van geld te vervangen, maar het kan een
@@ -291,8 +290,8 @@
           hippogogreen:title: Is een slimme thermostaat de investering waard?
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:38:16.821+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:11:56.511+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:38:16.821+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:11:56.511+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 64b48fc4-aa1a-4512-a1d6-6e35c54f1cc8
           hippotranslation:locale: nl
@@ -325,7 +324,7 @@
           hippo:availability: []
           hippogogreen:categories: [Home, Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-09-02T13:38:00+02:00
+          hippogogreen:date: 2019-09-02T13:38:00+02:00
           hippogogreen:summary: Het besteden van $ 200 of meer aan dat oudere, nog
             werkende thermostaat met een nieuwe whiz-bang "slimme" verscheidenheid
             lijkt misschien een verspilling van geld te vervangen, maar het kan een
@@ -334,8 +333,8 @@
           hippogogreen:title: Is een slimme thermostaat de investering waard?
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:38:16.821+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:11:42.372+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:38:16.821+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:11:42.372+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 64b48fc4-aa1a-4512-a1d6-6e35c54f1cc8
           hippotranslation:locale: nl
@@ -368,7 +367,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [Home, Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-09-02T13:38:00+02:00
+          hippogogreen:date: 2019-09-02T13:38:00+02:00
           hippogogreen:summary: Het besteden van $ 200 of meer aan dat oudere, nog
             werkende thermostaat met een nieuwe whiz-bang "slimme" verscheidenheid
             lijkt misschien een verspilling van geld te vervangen, maar het kan een
@@ -377,10 +376,10 @@
           hippogogreen:title: Is een slimme thermostaat de investering waard?
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:38:16.821+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:11:56.511+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:38:16.821+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:11:56.511+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-09T10:11:58.190+02:00
+          hippostdpubwf:publicationDate: 2019-10-09T10:11:58.190+02:00
           hippotranslation:id: 64b48fc4-aa1a-4512-a1d6-6e35c54f1cc8
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -417,7 +416,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [School & College]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T14:15:00+02:00
+          hippogogreen:date: 2019-08-28T14:15:00+02:00
           hippogogreen:summary: Elk jaar, onverschrokken jonge mannen en vrouwen op
             weg naar college. Nog spannender dan dit, is dat voor velen van hen, het
             is hun eerste kans om uitwonend. Maar, met de opwinding en het plezier
@@ -430,8 +429,8 @@
           hippogogreen:title: Maak je studentenkamer duurzamer
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T14:15:19.611+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:16:55.750+02:00
+          hippostdpubwf:creationDate: 2019-08-28T14:15:19.611+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:16:55.750+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 7546c319-0eb2-496a-84e7-d77a50d7a552
           hippotranslation:locale: nl
@@ -576,7 +575,7 @@
           hippo:availability: []
           hippogogreen:categories: [School & College]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T14:15:00+02:00
+          hippogogreen:date: 2019-08-28T14:15:00+02:00
           hippogogreen:summary: Elk jaar, onverschrokken jonge mannen en vrouwen op
             weg naar college. Nog spannender dan dit, is dat voor velen van hen, het
             is hun eerste kans om uitwonend. Maar, met de opwinding en het plezier
@@ -589,8 +588,8 @@
           hippogogreen:title: Maak je studentenkamer duurzamer
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T14:15:19.611+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:16:53.197+02:00
+          hippostdpubwf:creationDate: 2019-08-28T14:15:19.611+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:16:53.197+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 7546c319-0eb2-496a-84e7-d77a50d7a552
           hippotranslation:locale: nl
@@ -735,7 +734,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [School & College]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T14:15:00+02:00
+          hippogogreen:date: 2019-08-28T14:15:00+02:00
           hippogogreen:summary: Elk jaar, onverschrokken jonge mannen en vrouwen op
             weg naar college. Nog spannender dan dit, is dat voor velen van hen, het
             is hun eerste kans om uitwonend. Maar, met de opwinding en het plezier
@@ -748,10 +747,10 @@
           hippogogreen:title: Maak je studentenkamer duurzamer
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T14:15:19.611+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:16:55.750+02:00
+          hippostdpubwf:creationDate: 2019-08-28T14:15:19.611+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:16:55.750+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-09T10:16:57.467+02:00
+          hippostdpubwf:publicationDate: 2019-10-09T10:16:57.467+02:00
           hippotranslation:id: 7546c319-0eb2-496a-84e7-d77a50d7a552
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -901,7 +900,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [School & College]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2014-09-19T16:33:00+02:00
+          hippogogreen:date: 2019-09-19T16:33:00+02:00
           hippogogreen:summary: In de tijden van opwarming van de aarde, toen de Aarde
             heeft echt 'verwarmd' op, de gedachte dat de geest van iedereen prikstokken
             is wat 'meer' kan worden gedaan om een milieuvriendelijke en duurzame
@@ -914,8 +913,8 @@
             duurzamer te worden?
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:10:55.081+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:17:26.269+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:10:55.081+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:17:26.269+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 39d5a51e-ff2e-46d1-8293-111446f8faa4
           hippotranslation:locale: nl
@@ -967,7 +966,7 @@
           hippo:availability: []
           hippogogreen:categories: [School & College]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2014-09-19T16:33:00+02:00
+          hippogogreen:date: 2019-09-19T16:33:00+02:00
           hippogogreen:summary: In de tijden van opwarming van de aarde, toen de Aarde
             heeft echt 'verwarmd' op, de gedachte dat de geest van iedereen prikstokken
             is wat 'meer' kan worden gedaan om een milieuvriendelijke en duurzame
@@ -980,8 +979,8 @@
             duurzamer te worden?
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:10:55.081+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:15:58.977+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:10:55.081+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:15:58.977+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 39d5a51e-ff2e-46d1-8293-111446f8faa4
           hippotranslation:locale: nl
@@ -1033,7 +1032,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [School & College]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2014-09-19T16:33:00+02:00
+          hippogogreen:date: 2019-09-19T16:33:00+02:00
           hippogogreen:summary: In de tijden van opwarming van de aarde, toen de Aarde
             heeft echt 'verwarmd' op, de gedachte dat de geest van iedereen prikstokken
             is wat 'meer' kan worden gedaan om een milieuvriendelijke en duurzame
@@ -1046,10 +1045,10 @@
             duurzamer te worden?
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:10:55.081+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:17:26.269+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:10:55.081+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:17:26.269+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-09T10:17:27.759+02:00
+          hippostdpubwf:publicationDate: 2019-10-09T10:17:27.759+02:00
           hippotranslation:id: 39d5a51e-ff2e-46d1-8293-111446f8faa4
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -1112,15 +1111,15 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T13:23:00+02:00
+          hippogogreen:date: 2019-08-28T13:23:00+02:00
           hippogogreen:summary: De volgende lijst voor de vergroening van uw kantoor
             is zeker niet uitputtend, maar een manier om te beginnen in het maken
             van uw werkplek milieuvriendelijker.
           hippogogreen:title: 10 eenvoudige stappen naar groener kantoor
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:23:49.688+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:19:26.636+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:23:49.688+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:19:26.636+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
           hippotranslation:locale: nl
@@ -1206,15 +1205,15 @@
           hippo:availability: []
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T13:23:00+02:00
+          hippogogreen:date: 2019-08-28T13:23:00+02:00
           hippogogreen:summary: De volgende lijst voor de vergroening van uw kantoor
             is zeker niet uitputtend, maar een manier om te beginnen in het maken
             van uw werkplek milieuvriendelijker.
           hippogogreen:title: 10 eenvoudige stappen naar groener kantoor
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:23:49.688+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:17:53.664+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:23:49.688+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:17:53.664+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
           hippotranslation:locale: nl
@@ -1300,17 +1299,17 @@
           hippo:availability: [live]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T13:23:00+02:00
+          hippogogreen:date: 2019-08-28T13:23:00+02:00
           hippogogreen:summary: De volgende lijst voor de vergroening van uw kantoor
             is zeker niet uitputtend, maar een manier om te beginnen in het maken
             van uw werkplek milieuvriendelijker.
           hippogogreen:title: 10 eenvoudige stappen naar groener kantoor
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:23:49.688+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:19:26.636+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:23:49.688+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:19:26.636+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-09T10:19:28.771+02:00
+          hippostdpubwf:publicationDate: 2019-10-09T10:19:28.771+02:00
           hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -1400,7 +1399,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Family, Home]
           hippogogreen:contentstage: action
-          hippogogreen:date: 2014-08-18T16:32:00+02:00
+          hippogogreen:date: 2019-08-18T16:32:00+02:00
           hippogogreen:summary: Het kan verleidelijk zijn om het gemak te verkiezen
             boven milieuvriendelijk zijn bij het plannen van feesten, picknicks of
             andere feesten met een grote gastenlijst. Gelukkig, met deze eenvoudige
@@ -1408,8 +1407,8 @@
           hippogogreen:title: Tips voor Eco-vriendelijk Evenement-planning
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:04:38.332+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:21:18.657+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:04:38.332+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:21:18.657+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
           hippotranslation:locale: nl
@@ -1470,7 +1469,7 @@
           hippo:availability: []
           hippogogreen:categories: [Family, Home]
           hippogogreen:contentstage: action
-          hippogogreen:date: 2014-08-18T16:32:00+02:00
+          hippogogreen:date: 2019-08-18T16:32:00+02:00
           hippogogreen:summary: Het kan verleidelijk zijn om het gemak te verkiezen
             boven milieuvriendelijk zijn bij het plannen van feesten, picknicks of
             andere feesten met een grote gastenlijst. Gelukkig, met deze eenvoudige
@@ -1478,8 +1477,8 @@
           hippogogreen:title: Tips voor Eco-vriendelijk Evenement-planning
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:04:38.332+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:20:12.158+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:04:38.332+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:20:12.158+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
           hippotranslation:locale: nl
@@ -1540,7 +1539,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [Family, Home]
           hippogogreen:contentstage: action
-          hippogogreen:date: 2014-08-18T16:32:00+02:00
+          hippogogreen:date: 2019-08-18T16:32:00+02:00
           hippogogreen:summary: Het kan verleidelijk zijn om het gemak te verkiezen
             boven milieuvriendelijk zijn bij het plannen van feesten, picknicks of
             andere feesten met een grote gastenlijst. Gelukkig, met deze eenvoudige
@@ -1548,10 +1547,10 @@
           hippogogreen:title: Tips voor Eco-vriendelijk Evenement-planning
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:04:38.332+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:21:18.657+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:04:38.332+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:21:18.657+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-09T10:21:20.311+02:00
+          hippostdpubwf:publicationDate: 2019-10-09T10:21:20.311+02:00
           hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -1623,7 +1622,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-07-14T16:33:00+02:00
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
           hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
             leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
             elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
@@ -1635,8 +1634,8 @@
           hippogogreen:title: Groene Kantoor Week
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:23:11.772+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:23:11.772+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
           hippotranslation:locale: nl
@@ -1712,7 +1711,7 @@
           hippo:availability: []
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-07-14T16:33:00+02:00
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
           hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
             leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
             elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
@@ -1724,8 +1723,8 @@
           hippogogreen:title: Groene Kantoor Week
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:22:51.236+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:22:51.236+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
           hippotranslation:locale: nl
@@ -1801,7 +1800,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-07-14T16:33:00+02:00
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
           hippogogreen:summary: Green Office Week (GOW) is een actievolle week vol
             leuke en eenvoudige ideeën om uw kantoor groener te maken. Zie wat er
             elke dag gebeurt en vind dan manieren waarop u kunt deze milieu-ideeën
@@ -1813,10 +1812,10 @@
           hippogogreen:title: Groene Kantoor Week
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-09T10:23:11.772+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-09T10:23:11.772+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-09T10:23:13.412+02:00
+          hippostdpubwf:publicationDate: 2019-10-09T10:23:13.412+02:00
           hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -1884,807 +1883,6 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-    /06:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 04fa8975-d3b8-4ff5-871f-9dc81f6f5358
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: fe87127d-1ca9-4e5d-a2d0-7ceb0f4bc7eb
-      hippotranslation:locale: nl
-      /nasa-eerste-grote-test-zonne-zeil-slaagt:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 53d4662b-d158-4b33-85db-e76d692fcd32
-        hippo:name: NASA eerste grote test zonne-zeil slaagt
-        /nasa-eerste-grote-test-zonne-zeil-slaagt:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 8aa201af-a996-4e86-9e80-c55c460163f7
-          hippo:availability: [live, preview]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-06-02T10:22:00+02:00
-          hippogogreen:summary: NASA heeft een belangrijke test van een 20-meter vierkante
-            zonne-zeil afgerond, dit markeerd een "belangrijke mijlpaal" in de ruimte
-            aandrijftechnologie. Het is niet de eerste test voor zonne-zeilen,  de
-            Japanners hebben ingezet op twee zonne zeilen in de ruimte. De Planetary
-            Society is van plan om mogelijk op 21 juni een zonne-zeil te lanceren.
-          hippogogreen:title: NASA eerste grote test zonne-zeil slaagt
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [technology]
-          hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2010-07-20T16:16:00+02:00
-          hippostdpubwf:lastModificationDate: 2012-05-23T15:08:00+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2012-05-23T15:08:00+02:00
-          hippotranslation:id: 3e6805d4-75e8-43c4-8dca-39e39e7f90f2
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-                              <body>
-
-                              <p>Shot in een baan door een geconverteerde intercontinentale ballistische raket
-                              (ICBM), zou de Cosmos 1 worden gelanceerd vanaf een Russische duikboot onder
-                              water vanuit de Barentszzee. Het ruimtevaartuig, aangedreven door het zeil, zal
-                              geen bestemming. Het doel is gewoon om te testen het aandrijfsysteem dat de druk
-                              van zonne-lichtdeeltjes om het schip naar buiten verplaatsen van een beginnende
-                              baan rond de aarde op 500 mijl gebruikt.</p>
-
-                              <p>De voortstuwing technologie wordt momenteel beschouwd als de meest efficiënte
-                              beschikbaar voor interstellaire ruimtevaart. Theoretisch een ambacht aangedreven
-                              door de druk van een constante lichtbron, zoals een speciaal gebouwde laser, kon
-                              bereiken snelheden het naderen van de snelheid van het licht. Dit komt door de
-                              efficiëntie van het ruimtevaartuig niet hoeft te zijn eigen brandstof dragen.
-                              Het naderen van de snelheid van het licht zou echter een lange periode van
-                              constante versnelling. Dergelijke hoge snelheid zal het onmogelijk zijn voor de
-                              huidige test voertuigen en gelanceerd in de nabije toekomst, omdat ze vertrouwen
-                              op het licht van de zon, die snel zwakker wordt met toenemende afstand.</p>
-
-                              <p>Volgens de National Geographic News, "NASA, het Europees Ruimteagentschap,
-                              Japan, en Rusland al hebben ontwikkeld zonne zeilen, maar geen enkele heeft nog
-                              geprobeerd te bewijzen dat de zeilen kan een ruimtevaartuig drijven onder
-                              gecontroleerde vlucht."</p>
-
-                              </body>
-                              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5044a402-5412-4c76-a069-bdf2aa2d2764
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-    /04:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 2f588f4e-642a-4f42-94ae-5c634463a3e3
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 9e3441c2-8b73-4bc2-903e-3eea2a1bf107
-      hippotranslation:locale: nl
-      /pbs-show-beweert-dat-broeikasgassen:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: fea19248-24c4-407d-97fc-540483fa256c
-        hippo:name: PBS show beweert dat broeikasgassen
-        /pbs-show-beweert-dat-broeikasgassen:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 7c7bdfdc-3d9b-4dd3-8eb7-ab8853c03256
-          hippo:availability: [live, preview]
-          hippogogreen:contentstage: none
-          hippogogreen:date: 2014-04-22T10:22:00+02:00
-          hippogogreen:summary: Deze week heeft de Public Broadcasting Service een
-            programme getiteld ' Dimming the Earth' uitgezonden, dit presenteerde
-            onderzoek door toonaangevende wetenschappers over de complexe systemen
-            van ons wereldklimaat en het effect dat de mens erop heeft. Eén van de
-            grootste manieren waarop de mens de atmosfeer beïnvloedt is het steeds
-            stijgende gebruik van fossiele brandstoffen. Consumptie is jaarlijks gestegen
-            met 2% in de afgelopen tien jaar.
-          hippogogreen:title: PBS show beweert dat broeikasgassen en verontreinigende
-            stoffen in de atmosfeer voor een schemerige toekomst zorgen
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin13
-          hippostdpubwf:creationDate: 2014-07-30T12:22:00+02:00
-          hippostdpubwf:lastModificationDate: 2012-12-10T16:15:00+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2012-12-10T16:15:00+01:00
-          hippotranslation:id: e9968639-a497-4c89-972f-d51126aa7536
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Fossiele brandstoffen die in fabrieken en auto's worden verbrand sturen hun
-              afval in twee vormen de atmosfeer in. De eerste is koolstofdioxide en andere
-              broeikasgassen, deze hebben de afgelopen jaren veel aandacht gekregen vanwege
-              het feit dat ze warmte vasthouden in de atmosfeer. De tweede vorm zijn de kleine
-              deeltjes zwaveldioxide, roet en as, welke wetenschappers <em>aerosols</em>
-              (smog) noemen. Onderzoek naar het begrijpen van de negatieve effecten van
-              luchtvervuiling op de gezondheid heeft geresulteerd in de ontwikkeling van
-              katalysatoren voor auto's en ook naar machines die bepaalde vaste stoffen uit
-              industriëel afval halen voordat het de lucht bereikt.</p>
-
-              <p>Recent zijn wetenschappers gespecialiseerd op het gebied van de atmosfeer tot
-              de ontdekking gekomen van het fenomeen van de vermindering van direct zonlicht
-              dat de oppervlakte van de aarde bereikt – zij observeerden een vermindering van
-              5% tussen 1960 en 1990 met enig bewijs van herstel na die periode. Dit wordt
-              sindsdien het 'Global-dimming' effect genoemd en is waarschijnlijk het resultaat
-              van de manier waarop de aerosols zich gedragen op wolken. Het is belangrijk te
-              realiseren dat dit niet een netto verlies van zoveel zonlicht in ons
-              klimaatsysteem voorstelt – als dat het geval was, waren er grote
-              temperatuurdalingen geobserveerd. Het zonlicht wordt namelijk elders in het
-              systeem geabsorbeerd, met een veel kleiner netto-verlies.</p>
-              <a href="http://en.wikinews.org/w/index.php?title=File:Sfc.contrail.1.26.01.JPG&amp;filetimestamp=20050609163104"><img src="300px-sfc.contrail.1.26.01.jpg/{_document}/hippogallery:original"/></a><a title="Enlarge" href="http://en.wikinews.org/w/index.php?title=File:Sfc.contrail.1.26.01.JPG&amp;filetimestamp=20050609163104"><img src="magnify-clip.png/{_document}/hippogallery:original"/></a>
-              <p> </p>
-
-              <p>Een foto van NASA die vliegtuigsporen en natuurlijke wolken laat zien.
-              Genomen vanaf de I-95 in het noorden van Virginia, 26 januari, 2001, door NASA
-              wetenschapper Louis Nguyen.</p>
-
-              <p>Wolken worden gevormd wanneer vocht zich verzameld rond deeltjes in de lucht,
-              zoals pollen of stof. Wolken die gevormd worden door de aerosols deeltjes die
-              uitgestoten worden door de emissie van fossiele brandstoffen zijn gemaakt van
-              meer druppels dan 'normale' wolken. Deze door smog gemaakte wolken hebben twee
-              aparte effecten: ze schermen de aarde af van zonlicht en, door de reflectieve
-              natuur van water, de miljoenen zwevende druppels reflecteren zonlicht terug de
-              ruimte in, waardoor nog minder licht de aarde bereikt.</p>
-
-              <p>Veel wetenschappers geloven nu dat de global-dimming die veroorzaakt wordt
-              door deze deeltjes het broeikaseffect enigszins heeft verzacht. In de laatste
-              dertig jaar is de temperatuur op aarde met ongeveer 0.5 graden celsius gestegen.
-              </p>
-
-              <p>Als er geen sprake was geweest van global-dimming zou de temperatuur op aarde
-              wellicht 0.3 graden hoger zijn dan het huidige niveau, dit suggereert dat de
-              broeikasgassen en de vaste deeltjes die vrijkomen tijdens de verbranding van
-              fossiele brandstoffen een tegengesteld effect hebben. Pogingen om de schade aan
-              de gezondheid van de mens terug te dringen door smog tegen te gaan hebben
-              gezorgd voor meer hitte in onze atmosfeer en dat heeft weer gezorgd voor een
-              snellere stijging van de temperatuur.</p>
-
-              <p>Dr. James E. Hansen, leraar aan de universiteit van Columbia en het hoofd van
-              het Goddard Institute for Space Studies, gelooft dat als we ons huidige patroon
-              doorzetten, deze temperatuurstijging kan toenemen tot 5 graden in de komende
-              dertig jaar en tien tot veertien graden over de loop van een eeuw. Een
-              dergelijke temperatuurstijging zou het leven op aarde verwoesten, waarschijnlijk
-              met zich meebrengend een cascade van zichzelf versterkende opwarmingseffecten.
-              Het afsterven en branden van de bossen op aarde, een gestage ontdooiing van
-              Groenland en de Arctische ijskappen en het gevaarlijkste van allemaal; een
-              bevrijding van de methaanhydraten die nu bevroren op de oceanbodem liggen zouden
-              er allemaal voor zorgen dat de aarde hoogstwaarschijnlijk onbewoonbaar wordt
-              voor de mens. Dr. Hansen waarschuwt ervoor dat, volgens zijn onderzoek, de mens
-              slechts 10 jaar heeft om de uitstoot van broeikasgassen terug te dringen voordat
-              het broeikaseffect en andere reacties op de menselijke activiteit op aarde een
-              kritiek punt bereiken, waardoor zij niet langer te stoppen zijn.</p>
-
-              </body>
-              </html>
-            /300px-sfc.contrail.1.26.01.jpg:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 4d179546-beee-4917-8d4b-647d0552c736
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /magnify-clip.png:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 83b1a383-fbd3-49a3-a9cb-643798035434
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: WikiNews
-            hippogogreen:url: http://en.wikinews.org/wiki/Greenhouse_gases,_atmospheric_pollutants_dimming_future
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: a51a36df-6394-4fe9-9a89-06cceb835015
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: f98bcab4-6018-47bf-8417-638a3b380528
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-      /amerikaanse-huis-commissie-keurt-zomertijd-wijziging-goed:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 465f71b1-5735-4eca-8196-c8d60674e05f
-        hippo:name: Amerikaanse Huis commissie keurt zomertijd wijziging goed
-        /amerikaanse-huis-commissie-keurt-zomertijd-wijziging-goed:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 4cf3fc66-99da-4375-bea4-7a74ec6eebf0
-          hippo:availability: [live, preview]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2014-04-07T10:22:00+02:00
-          hippogogreen:summary: Het Amerikaanse House Energy and Commerce Committee
-            heeft een amendement aangenomen op woensdag om de zomertijd te verlengen
-            met twee maanden. De tweeledige maatregel wordt gesponsord door Rep Fred
-            Upton, Republikeins van Michigan, en Rep Ed Markey, Democraat van Massachusetts.
-          hippogogreen:title: Amerikaanse Huis commissie keurt zomertijd wijziging
-            goed
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2010-07-20T14:39:00+02:00
-          hippostdpubwf:lastModificationDate: 2012-05-23T15:22:00+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2012-05-23T15:22:00+02:00
-          hippotranslation:id: 0e91d753-9d13-40c8-b5b1-41dbabebada8
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-                              <body>
-
-                              <p>"Hoe meer daglicht we hebben, hoe minder elektriciteit die we gebruiken," Rep
-                              Ed Markey zei. Markey ook ondersteund de maatregel door te wijzen op de
-                              zakelijke voordelen. "Er is meer economische activiteit, omdat mensen denken dat
-                              ze kunnen rond veilig lopen," zei hij.</p>
-
-                              <p>"De uitbreiding zomertijd is logisch, vooral met torenhoge energiekosten,"
-                              Rep Fred Upton gezegd.</p>
-
-                              <p>Het wetsvoorstel verlengt zomertijd om te beginnen op de eerste zondag in
-                              maart en eindigen op de laatste zondag in november. De zomertijd begint op dit
-                              moment op de eerste zondag in april en eindigt op de eerste zondag in oktober.
-                              </p>
-
-                              <p>Het Amerikaanse ministerie van Transport schat dat de uitbreiding van de
-                              zomertijd zou een besparing van 10.000 vaten olie per dag. De Verenigde Staten
-                              verbruikt ongeveer 20 miljoen vaten olie per dag.</p>
-
-                              <p>Het Huis is van plan om de energierekening waarop het amendement werd
-                              bevestigd in een aantal weken goed te keuren. Diverse andere wijzigingen in het
-                              wetsvoorstel worden nog steeds gedebatteerd.</p>
-
-                              </body>
-                              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: http://en.wikinews.org/wiki/US_House_committee_approves_daylight_saving_time_amendment
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 2ac72a9e-1558-49c3-b8f5-01019e57703d
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-    /03:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: b99e3148-c1c7-4d49-b6ab-fb585f1ba44e
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: c7f6d7fb-c7b6-4ef9-b965-5d6b64152c8d
-      hippotranslation:locale: nl
-      /betwist-eiland-verdwijnt:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: b008c716-89ba-4400-9f12-1db3c7258a0c
-        hippo:name: Betwist eiland verdwijnt
-        /betwist-eiland-verdwijnt:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 4bd14db3-cb06-4801-8536-be6fb4aa4fd8
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Global Warming]
-          hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-03-25T10:22:00+01:00
-          hippogogreen:summary: Het eiland New Moore, een onbewoond gebied dicht bij
-            de Baai van Bengal tussen India en Bangladesh, is verdwenen, volgens Indiase
-            wetenschappers.
-          hippogogreen:title: Betwist eiland verdwijnt onder de zee op de grens tussen
-            India en Bangladesh
-          hippostd:holder: boris
-          hippostd:state: published
-          hippostd:tags: [global warming, rising sea level, islands]
-          hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2014-07-30T13:14:00Z
-          hippostdpubwf:lastModificationDate: 2014-12-17T09:34:00Z
-          hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2014-12-24T17:00:00Z
-          hippotranslation:id: 0c36dece-422a-4bf7-84f8-459c9ec2faff
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Het eiland, dat zich ten zuiden van de Hariabhanga rivier bevindt, wordt al
-              bijna dertig jaar door zowel India als Bangladesh opgeëist, sinds het voor het
-              eerst tevoorschijn kwam in de jaren zeventig. De School van Oceanografische
-              Studies in Calcutta liet weten dat de verdwijning van het eiland is bevestigd
-              door satellietbeelden.</p>
-
-              <p>“Er is geen spoor meer te bekennen van het eiland. Na het bestuderen van
-              satellietbeelden heb ik dit ook bevestigd gekregen van vissers,” aldus Sugato
-              Hazra, de directeur van de school van oceanografische studies aan de
-              universiteit van Jadavpur. Volgens de Times of India, komt het eiland alleen
-              boven water tijdens extreem lage getijden. “Wat deze twee landen jarelang niet
-              konden oplossen is opgelost door het broeikaseffect.”</p>
-
-              <p>Volgens Hazra steeg het waterpeil in het gebied tot 2000 ongeveer 3
-              millimeter per jaar, maar het cijfer voor het afgelopen jaar bleek ongeveer 5
-              millimeter te zijn. De directeur zei dat tien andere eilanden in de buurt van
-              New Moore ook dreigen te verdwijnen.</p>
-
-              <p>Hazra noemt het broeikaseffect als reden voor de verdwijning van het eiland,
-              hij zei: “Erosie aan de kust en de stijgende temperatuur in de Baai van Bengal
-              tussen 2000 en 2009 hebben geleid tot de onderdompeling van het Purbasha eiland.
-              De temperatuur in de regio stijgt jaarlijks 0.4 graden celsius.”</p>
-
-              <p>In 1996, verdween een ander nabijgelegen eiland, Lohachara, onder de
-              zeespiegel, waardoor haar bewoners zich moesten verplaatsen; ondertussen heeft
-              het Ghoramara eiland ongeveer de helft van haar landoppervlak verloren, Hazra
-              zei: “Er zal een grotere groep mensen zich genoodzaakt voelen te verplaatsen
-              naarmate de Sunderbans en meer eilanden onder water belanden.”</p>
-
-              <p>Volgens ambtenaren zal achttien procent van het Bangladese kustgebied onder
-              het zeepeil komen te liggen als het peil met één meter stijgt tot 2050, twintig
-              miljoen mensen zullen dan geherlokaliseerd moeten worden.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Disputed_island_disappears_beneath_sea_on_India-Bangladesh_border
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: a51a36df-6394-4fe9-9a89-06cceb835015
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-      /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 00a31d80-2b89-41f3-b0b0-c52e8e12a367
-        hippo:name: Herstel van de ozonlaag draagt wellicht bij aan het broeikaseffect
-        /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect[1]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 8e2431f5-4abc-4dfd-b016-210757d12c4c
-          hippo:availability: [live]
-          hippogogreen:categories: [Climate Change, Global Warming]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2014-03-22T10:22:00+01:00
-          hippogogreen:summary: Het gat in de ozonlaag was een potentiëel ernstige
-            ramp voor de planeet die alleen is afgewend door het Montreal Protocol,
-            dus daar kunnen wij niet naar terug – Professor Ken Carslaw
-          hippogogreen:title: Herstel van de ozonlaag draagt wellicht bij aan het
-            broeikaseffect
-          hippostd:holder: boris
-          hippostd:state: published
-          hippostd:tags: [ozone, global warming]
-          hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2014-07-29T14:49:00Z
-          hippostdpubwf:lastModificationDate: 2013-12-06T14:56:41.101+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-12-06T14:56:59.902+01:00
-          hippotranslation:id: 2fd5bdad-06d1-4cd0-bf08-ad9763c96dfc
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Wetenschappers van de universiteit van Leeds in Engeland en de universiteit
-              van Kuopio in Finland rapporteren dat het gat in de ozonlaag van de aarde boven
-              Antarctica wellicht heeft gezorgd voor een vermindering van de effecten van het
-              veranderende klimaat en dat terwijl de ozonlaag herstelt de opwarming van de
-              aarde kan versnellen. Hun verslag is vandaag gepubliceerd in <em>The Journal of
-              Geophysical Research Letters.</em></p>
-
-              <p>De groep heeft twintig jaar aan documenten bestudeerd over wereldwijde
-              weerscondities en windsnelheden. Zij stellen dat onder het ozongat de
-              windsnelheid hoger is, wat zorgt voor meer opwaaiende zeedruppels. Zout uit deze
-              druppels wordt omhoog gedragen en zorgt ervoor dat de wolken helderder zijn, dit
-              zorgt er weer voor dat er meer van de straling van de zon wordt gereflecteerd.
-              Dit houdt de Aarde koeler, hetgeen het broeikaseffect tegengaat.</p>
-
-              <p>De ozonlaag in de atmosfeer beschermt het leven tegen de schadelijke effecten
-              van ultraviolette straling en de ontdekking van haar snelle uitputting in de
-              jaren tachtig zorgde voor wijdverspreide alarmering. Het Montreal Protocol dat
-              in 1987 werd aangenomen dwong landen om hun uitstoot van
-              chloorfluorkoolstoffen(CFKs), de door mensen gemaakte chemicaliën die gedacht
-              worden verantwoordelijk te zijn voor het gat, stop te zetten.</p>
-
-              <p>Professor Ken Carslaw, van de universiteit van Leeds School of Earth and
-              Environment, was een van de auteurs van het verslag. Hij waarschuwde ervoor dat
-              naarmate het gat zich herstelt, de temperatuur in sommige gebieden van het
-              zuidelijk halfrond sneller kan gaan stijgen.</p>
-
-              <p>“Als, zoals het geval lijkt te zijn, deze winden gaan liggen kunnen stijgende
-              CO<sub>2</sub> emissies ervoor zorgen dat de temperatuur sneller gaat stijgen op
-              het zuidelijk halfrond, dit zal invloed hebben op toekomstige
-              klimaatsvoorspellingen”, zei hij.</p>
-
-              <p>De vondsten beschrijvend als “onverwachte en complexe klimaatfeedback”
-              benadrukte professor Carslaw dat dit onderzoek geen reden is om het gat open te
-              houden: “Je kan niet twee fouten op die manier oplossen. Het gat in de ozonlaag
-              was een potentiëel ernstige ramp voor de planeet die alleen is afgewend door het
-              Montreal Protocol, dus daar kunnen wij niet naar terug.”</p>
-
-              <p>In plaats daarvan stelde hij dat koolstofemissies drastisch moeten worden
-              teruggedrongen.</p>
-
-              <p>Het onderzoek was gefinanceerd door de Natural Environment Research Council
-              en de Academy of Finland Centre of Excellence Programme.</p>
-
-              <p>Judith Perlwitz, een onderzoekster bij de Nation Oceanic and Atmospheric
-              Administration, zei dat de data van de groep correct was maar dat ze het oneens
-              was met sommige conclusies in het verslag. Perlwitz beweerde dat de stijgende
-              temperaturen als gevolg van het broeikaseffect de windsnelheden sowieso zouden
-              hebben verhoogd, dit zou tot hetzelfde effect leiden als het ozongat.</p>
-
-              <p>“De vraag is of de windsnelheid echt langzamer zal worden en dat betwijfel
-              ik,” stelde zij.</p>
-
-              <p>Volgens een rapport van de World Meteorological Organization in 2006 duurt
-              het zeker nog vijftig jaar voordat het ozon boven Antarctica op hetzelfde niveau
-              is als voor de jaren tachtig.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Healing_ozone_layer_may_contribute_to_global_warming
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 89ad974c-28ff-4d5c-a505-03cb6f72a742
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 900d45c2-a263-499c-8b83-f95e67a6480d
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect[2]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['hippo:skipindex', 'mix:referenceable']
-          jcr:uuid: 56047e3b-4f2d-41ca-b8cb-1d559bf54b05
-          hippogogreen:categories: [Climate Change, Global Warming]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2014-03-22T10:22:00+01:00
-          hippogogreen:summary: Het gat in de ozonlaag was een potentiëel ernstige
-            ramp voor de planeet die alleen is afgewend door het Montreal Protocol,
-            dus daar kunnen wij niet naar terug – Professor Ken Carslaw
-          hippogogreen:title: Herstel van de ozonlaag draagt wellicht bij aan het
-            broeikaseffect
-          hippostd:state: draft
-          hippostd:tags: [ozone, global warming]
-          hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2014-07-29T14:49:00Z
-          hippostdpubwf:lastModificationDate: 2013-12-06T14:56:41.101+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 2fd5bdad-06d1-4cd0-bf08-ad9763c96dfc
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Wetenschappers van de universiteit van Leeds in Engeland en de universiteit
-              van Kuopio in Finland rapporteren dat het gat in de ozonlaag van de aarde boven
-              Antarctica wellicht heeft gezorgd voor een vermindering van de effecten van het
-              veranderende klimaat en dat terwijl de ozonlaag herstelt de opwarming van de
-              aarde kan versnellen. Hun verslag is vandaag gepubliceerd in <em>The Journal of
-              Geophysical Research Letters.</em></p>
-
-              <p>De groep heeft twintig jaar aan documenten bestudeerd over wereldwijde
-              weerscondities en windsnelheden. Zij stellen dat onder het ozongat de
-              windsnelheid hoger is, wat zorgt voor meer opwaaiende zeedruppels. Zout uit deze
-              druppels wordt omhoog gedragen en zorgt ervoor dat de wolken helderder zijn, dit
-              zorgt er weer voor dat er meer van de straling van de zon wordt gereflecteerd.
-              Dit houdt de Aarde koeler, hetgeen het broeikaseffect tegengaat.</p>
-
-              <p>De ozonlaag in de atmosfeer beschermt het leven tegen de schadelijke effecten
-              van ultraviolette straling en de ontdekking van haar snelle uitputting in de
-              jaren tachtig zorgde voor wijdverspreide alarmering. Het Montreal Protocol dat
-              in 1987 werd aangenomen dwong landen om hun uitstoot van
-              chloorfluorkoolstoffen(CFKs), de door mensen gemaakte chemicaliën die gedacht
-              worden verantwoordelijk te zijn voor het gat, stop te zetten.</p>
-
-              <p>Professor Ken Carslaw, van de universiteit van Leeds School of Earth and
-              Environment, was een van de auteurs van het verslag. Hij waarschuwde ervoor dat
-              naarmate het gat zich herstelt, de temperatuur in sommige gebieden van het
-              zuidelijk halfrond sneller kan gaan stijgen.</p>
-
-              <p>“Als, zoals het geval lijkt te zijn, deze winden gaan liggen kunnen stijgende
-              CO<sub>2</sub> emissies ervoor zorgen dat de temperatuur sneller gaat stijgen op
-              het zuidelijk halfrond, dit zal invloed hebben op toekomstige
-              klimaatsvoorspellingen”, zei hij.</p>
-
-              <p>De vondsten beschrijvend als “onverwachte en complexe klimaatfeedback”
-              benadrukte professor Carslaw dat dit onderzoek geen reden is om het gat open te
-              houden: “Je kan niet twee fouten op die manier oplossen. Het gat in de ozonlaag
-              was een potentiëel ernstige ramp voor de planeet die alleen is afgewend door het
-              Montreal Protocol, dus daar kunnen wij niet naar terug.”</p>
-
-              <p>In plaats daarvan stelde hij dat koolstofemissies drastisch moeten worden
-              teruggedrongen.</p>
-
-              <p>Het onderzoek was gefinanceerd door de Natural Environment Research Council
-              en de Academy of Finland Centre of Excellence Programme.</p>
-
-              <p>Judith Perlwitz, een onderzoekster bij de Nation Oceanic and Atmospheric
-              Administration, zei dat de data van de groep correct was maar dat ze het oneens
-              was met sommige conclusies in het verslag. Perlwitz beweerde dat de stijgende
-              temperaturen als gevolg van het broeikaseffect de windsnelheden sowieso zouden
-              hebben verhoogd, dit zou tot hetzelfde effect leiden als het ozongat.</p>
-
-              <p>“De vraag is of de windsnelheid echt langzamer zal worden en dat betwijfel
-              ik,” stelde zij.</p>
-
-              <p>Volgens een rapport van de World Meteorological Organization in 2006 duurt
-              het zeker nog vijftig jaar voordat het ozon boven Antarctica op hetzelfde niveau
-              is als voor de jaren tachtig.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Healing_ozone_layer_may_contribute_to_global_warming
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 89ad974c-28ff-4d5c-a505-03cb6f72a742
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 900d45c2-a263-499c-8b83-f95e67a6480d
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect[3]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 8fa9a97c-3fd9-4eb2-b0f9-899c21ea555a
-          hippo:availability: [preview]
-          hippogogreen:categories: [Climate Change, Global Warming]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2014-03-22T10:22:00+01:00
-          hippogogreen:summary: Het gat in de ozonlaag was een potentiëel ernstige
-            ramp voor de planeet die alleen is afgewend door het Montreal Protocol,
-            dus daar kunnen wij niet naar terug – Professor Ken Carslaw
-          hippogogreen:title: Herstel van de ozonlaag draagt wellicht bij aan het
-            broeikaseffect
-          hippostd:state: unpublished
-          hippostd:tags: [ozone, global warming]
-          hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2014-07-29T14:49:00Z
-          hippostdpubwf:lastModificationDate: 2013-12-06T14:56:41.101+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 2fd5bdad-06d1-4cd0-bf08-ad9763c96dfc
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Wetenschappers van de universiteit van Leeds in Engeland en de universiteit
-              van Kuopio in Finland rapporteren dat het gat in de ozonlaag van de aarde boven
-              Antarctica wellicht heeft gezorgd voor een vermindering van de effecten van het
-              veranderende klimaat en dat terwijl de ozonlaag herstelt de opwarming van de
-              aarde kan versnellen. Hun verslag is vandaag gepubliceerd in <em>The Journal of
-              Geophysical Research Letters.</em></p>
-
-              <p>De groep heeft twintig jaar aan documenten bestudeerd over wereldwijde
-              weerscondities en windsnelheden. Zij stellen dat onder het ozongat de
-              windsnelheid hoger is, wat zorgt voor meer opwaaiende zeedruppels. Zout uit deze
-              druppels wordt omhoog gedragen en zorgt ervoor dat de wolken helderder zijn, dit
-              zorgt er weer voor dat er meer van de straling van de zon wordt gereflecteerd.
-              Dit houdt de Aarde koeler, hetgeen het broeikaseffect tegengaat.</p>
-
-              <p>De ozonlaag in de atmosfeer beschermt het leven tegen de schadelijke effecten
-              van ultraviolette straling en de ontdekking van haar snelle uitputting in de
-              jaren tachtig zorgde voor wijdverspreide alarmering. Het Montreal Protocol dat
-              in 1987 werd aangenomen dwong landen om hun uitstoot van
-              chloorfluorkoolstoffen(CFKs), de door mensen gemaakte chemicaliën die gedacht
-              worden verantwoordelijk te zijn voor het gat, stop te zetten.</p>
-
-              <p>Professor Ken Carslaw, van de universiteit van Leeds School of Earth and
-              Environment, was een van de auteurs van het verslag. Hij waarschuwde ervoor dat
-              naarmate het gat zich herstelt, de temperatuur in sommige gebieden van het
-              zuidelijk halfrond sneller kan gaan stijgen.</p>
-
-              <p>“Als, zoals het geval lijkt te zijn, deze winden gaan liggen kunnen stijgende
-              CO<sub>2</sub> emissies ervoor zorgen dat de temperatuur sneller gaat stijgen op
-              het zuidelijk halfrond, dit zal invloed hebben op toekomstige
-              klimaatsvoorspellingen”, zei hij.</p>
-
-              <p>De vondsten beschrijvend als “onverwachte en complexe klimaatfeedback”
-              benadrukte professor Carslaw dat dit onderzoek geen reden is om het gat open te
-              houden: “Je kan niet twee fouten op die manier oplossen. Het gat in de ozonlaag
-              was een potentiëel ernstige ramp voor de planeet die alleen is afgewend door het
-              Montreal Protocol, dus daar kunnen wij niet naar terug.”</p>
-
-              <p>In plaats daarvan stelde hij dat koolstofemissies drastisch moeten worden
-              teruggedrongen.</p>
-
-              <p>Het onderzoek was gefinanceerd door de Natural Environment Research Council
-              en de Academy of Finland Centre of Excellence Programme.</p>
-
-              <p>Judith Perlwitz, een onderzoekster bij de Nation Oceanic and Atmospheric
-              Administration, zei dat de data van de groep correct was maar dat ze het oneens
-              was met sommige conclusies in het verslag. Perlwitz beweerde dat de stijgende
-              temperaturen als gevolg van het broeikaseffect de windsnelheden sowieso zouden
-              hebben verhoogd, dit zou tot hetzelfde effect leiden als het ozongat.</p>
-
-              <p>“De vraag is of de windsnelheid echt langzamer zal worden en dat betwijfel
-              ik,” stelde zij.</p>
-
-              <p>Volgens een rapport van de World Meteorological Organization in 2006 duurt
-              het zeker nog vijftig jaar voordat het ozon boven Antarctica op hetzelfde niveau
-              is als voor de jaren tachtig.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Healing_ozone_layer_may_contribute_to_global_warming
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 89ad974c-28ff-4d5c-a505-03cb6f72a742
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 900d45c2-a263-499c-8b83-f95e67a6480d
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-  /2013:
-    jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-    jcr:uuid: 114b0d64-a075-46d0-881c-dded623455cf
-    hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-    hippotranslation:id: 09389c7d-93a5-4491-af9d-9fbb362adc1a
-    hippotranslation:locale: nl
-    /02:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 7493e668-b337-4b1f-9c58-8d45b79f6166
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 1c06680d-635e-4624-90c8-4728efa859c3
-      hippotranslation:locale: nl
-      /de-nieuwe-enercon-e-126-windturbine:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: ea549f94-65bd-4d34-a834-7095cfddcf4d
-        hippo:name: De nieuwe Enercon E-126 Windturbine
-        /de-nieuwe-enercon-e-126-windturbine:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 68be2b91-8d60-4fbf-872c-c7a494798b4f
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Green, Energy]
-          hippogogreen:contentstage: interest
-          hippogogreen:date: 2013-02-13T15:51:00+01:00
-          hippogogreen:summary: De grootste windturbine ter wereld is nu de Enercon
-            E-126. Deze turbine heeft een rotordiameter van 126 meter (413 voet).
-            De E-126 is een meer geavanceerde versie van de E-112, voorheen de grootste
-            windturbine ter wereld, deze produceerde 6 megawatts.
-          hippogogreen:title: The new Enercon E-126 Wind Turbine
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [Turbines]
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2010-07-12T12:28:00Z
-          hippostdpubwf:lastModificationDate: 2011-01-07T13:48:00Z
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2011-01-07T13:48:00Z
-          hippotranslation:id: 25bf4f5f-ccee-48bf-a13e-9aa69ab03392
-          hippotranslation:locale: nl
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>De nieuwe turbine wordt officieel beoordeeld op 6 megawatts, maar zal
-              waarschijnlijk meer dan 7 megawatts produceren (oftewel 20 miljoen kilowattuur
-              per jaar). Dat is genoeg energie om ongeveer 5000 Europese huishoudens van vier
-              te voorzien van stroom. Een snelle berekening voor de VS komt neer op 938 kwh
-              per huishouden per maand, oftwel 11,256 per huishouden per jaar. 1776
-              Amerikaanse huishoudens kunnen dus worden voorzien van stroom door slechts één
-              windturbine.</p>
-
-              <p> </p>
-
-              <p>De turbine wordt opgezet in Emden, Duitsland door Enercon. Zij zijn van plan
-              om verschillende opslagsystemen te testen in combinatie met de multi-megawatt
-              windturbinees.</p>
-
-              <p> </p>
-
-              <p>Deze turbines zijn uitgerust met een aantal nieuwe functies: een
-              geoptimaliseerd design van de bladen met een spoiler die doorloopt tot de spil
-              en een voorgegoten betonnen basis. Door de hogere spil en het nieuwe profiel van
-              de bladen, wordt verwacht dat de E-126 veel beter zal presteren dan de E-112.
-              </p>
-
-              </body>
-              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5acde2bc-3194-43ed-bc25-219d3618a6dc
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wind Turbine
-            hippogogreen:url: ''
-    /07:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: bfecf70c-a2c7-45f3-bbe3-ee11d385ef6f
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 0a885364-4a6a-4492-83f6-8092981d42da
-      hippotranslation:locale: nl
       /evolutie-kan-sneller-plaatsvinden-dan-verwacht:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -2697,7 +1895,7 @@
           hippo:availability: [live, preview]
           hippogogreen:categories: [Biosphere Technology]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2013-07-06T10:22:00+02:00
+          hippogogreen:date: 2019-07-06T10:22:00+02:00
           hippogogreen:summary: Twee afgestudeerde studenten van de Harvard universiteit
             beweren dat zij hebben laten zien dat evolutie veel sneller kan plaatsvinden
             dan voorheen werd gedacht. Natuurkundestudent Peter Lu en zijn voormalige
@@ -2710,10 +1908,10 @@
           hippostd:holder: boris
           hippostd:state: published
           hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2014-07-20T11:43:00Z
-          hippostdpubwf:lastModificationDate: 2014-12-17T09:29:00Z
+          hippostdpubwf:creationDate: 2019-07-20T11:43:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:29:00Z
           hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2014-12-24T17:00:00Z
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
           hippotranslation:id: 5f4dfddf-dad3-4152-91c6-d30a27df1239
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -2758,6 +1956,86 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+      /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 55f5e983-f687-48cd-8012-a2288a504f6f
+        hippo:name: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
+        /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 02d433be-3175-41c3-a5b7-490ac752873f
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Electricity, Automotive, Green]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-07-17T10:22:00+02:00
+          hippogogreen:summary: De Toyota Motor Company heeft aangekondigd dat zij
+            een overeenkomst hebben geformaliseerd om een elektrische versie van de
+            RAV4 SUV te maken samen met Tesla Motors.
+          hippogogreen:title: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostdpubwf:createdBy: katja
+          hippostdpubwf:creationDate: 2019-07-28T12:35:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:52:00Z
+          hippostdpubwf:lastModifiedBy: boris
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
+          hippotranslation:id: bd547d36-520d-452e-a41b-ce8d92c39d34
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>In mei 2014 hebben Akio Toyoda en Elon Musk, leiders van Toyota en Tesla
+              respectievelijk, aangekondigd dat zij zouden gaan samenwerken aan elektrische
+              voertuigen. De overeenkomst formaliseert deze aankondiging en zou Tesla toelaten
+              om samen te werken met Toyota in een productiefabriek in Californië.</p>
+
+              <p>De fabriek zal opengaan in 2011 als Tesla haar heropent in Fremont,
+              Californië, na de aankoop. Eerder werd de fabriek gebruikt door Toyota en
+              General Motors, maar zij werd gesloten nadat Toyota aankondigde geen auto's te
+              produceren in Californië.</p>
+
+              <p>Tesla produceert op het moment slechts 1 model, de $109,000 kostende
+              Roadster, maar het is bezig met de ontwikkeling van een nieuw model, de Model S,
+              die zal worden geproduceerd in de Fremont fabriek.</p>
+
+              <p>Analysten steunden de beslissing; John Boesel, CEO van een groene transport
+              handelgroep, zei dat “Toyota's bereidheid om samen te werken met Tesla om een
+              elektrische versie van één van haar bestaande modellen te maken aantoont dat de
+              samenwerking tussen de twee bedrijven van veel betekenis zal zijn.”</p>
+
+              <p>Na deze aankondiging steeg Tesla's aandelenprijs met $0.75, die van Toyota
+              daalde met $1.65.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Toyota, Tesla to develop electric SUV
+            hippogogreen:url: http://en.wikinews.org/wiki/Toyota,_Tesla_to_develop_electric_SUV
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: eda53e2d-e245-439d-9825-045664233920
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 4a35cad1-dbd2-408a-9342-70d4cfa238f5
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 6d81d6de-8956-48a0-8e3c-ebd3923fbd32
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /smeltende-gletsjer-in-italie-krijgt-een-thermische-deken:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -2770,7 +2048,7 @@
           hippo:availability: [live, preview]
           hippogogreen:categories: [Global Warming]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2013-07-09T17:04:00+02:00
+          hippogogreen:date: 2019-07-09T17:04:00+02:00
           hippogogreen:summary: In de hoop het tempo waarin het ijs in de bergen van
             Noord-Italië smelt te verlagen, zijn ambtenaren begonnen met het bedekken
             van één van de meest dreigende gletsjers met isolerende stof, waardoor
@@ -2784,10 +2062,10 @@
           hippostd:state: published
           hippostd:tags: [Smeltende Gletsjer, Klimaat]
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-07-12T12:34:00Z
-          hippostdpubwf:lastModificationDate: 2014-12-17T09:31:00Z
+          hippostdpubwf:creationDate: 2019-07-12T12:34:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:31:00Z
           hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2014-12-24T17:00:00Z
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
           hippotranslation:id: 9c3705dd-574d-40ef-8352-cb3d42bd7e73
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -2861,93 +2139,83 @@
             jcr:primaryType: hippogogreen:copyright
             hippogogreen:description: ''
             hippogogreen:url: ''
-      /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
+    /06:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 04fa8975-d3b8-4ff5-871f-9dc81f6f5358
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: fe87127d-1ca9-4e5d-a2d0-7ceb0f4bc7eb
+      hippotranslation:locale: nl
+      /nasa-eerste-grote-test-zonne-zeil-slaagt:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 55f5e983-f687-48cd-8012-a2288a504f6f
-        hippo:name: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
-        /toyota-en-tesla-willen-een-nieuwe-elektrische-suv-ontwikkelen:
+        jcr:uuid: 53d4662b-d158-4b33-85db-e76d692fcd32
+        hippo:name: NASA eerste grote test zonne-zeil slaagt
+        /nasa-eerste-grote-test-zonne-zeil-slaagt:
           jcr:primaryType: hippogogreen:blogitem
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 02d433be-3175-41c3-a5b7-490ac752873f
+          jcr:uuid: 8aa201af-a996-4e86-9e80-c55c460163f7
           hippo:availability: [live, preview]
-          hippogogreen:categories: [Electricity, Automotive, Green]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2013-07-17T10:22:00+02:00
-          hippogogreen:summary: De Toyota Motor Company heeft aangekondigd dat zij
-            een overeenkomst hebben geformaliseerd om een elektrische versie van de
-            RAV4 SUV te maken samen met Tesla Motors.
-          hippogogreen:title: Toyota en Tesla willen een nieuwe elektrische SUV ontwikkelen
-          hippostd:holder: boris
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-06-02T10:22:00+02:00
+          hippogogreen:summary: NASA heeft een belangrijke test van een 20-meter vierkante
+            zonne-zeil afgerond, dit markeerd een "belangrijke mijlpaal" in de ruimte
+            aandrijftechnologie. Het is niet de eerste test voor zonne-zeilen,  de
+            Japanners hebben ingezet op twee zonne zeilen in de ruimte. De Planetary
+            Society is van plan om mogelijk op 21 juni een zonne-zeil te lanceren.
+          hippogogreen:title: NASA eerste grote test zonne-zeil slaagt
+          hippostd:holder: admin
           hippostd:state: published
-          hippostdpubwf:createdBy: katja
-          hippostdpubwf:creationDate: 2014-07-28T12:35:00Z
-          hippostdpubwf:lastModificationDate: 2014-12-17T09:52:00Z
-          hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2014-12-24T17:00:00Z
-          hippotranslation:id: bd547d36-520d-452e-a41b-ce8d92c39d34
+          hippostd:tags: [technology]
+          hippostdpubwf:createdBy: Katja de Wit
+          hippostdpubwf:creationDate: 2017-07-20T16:16:00+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-23T15:08:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-05-23T15:08:00+02:00
+          hippotranslation:id: 3e6805d4-75e8-43c4-8dca-39e39e7f90f2
           hippotranslation:locale: nl
           /hippogogreen:description:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
               <html>
-              <body>
+                              <body>
 
-              <p>In mei 2014 hebben Akio Toyoda en Elon Musk, leiders van Toyota en Tesla
-              respectievelijk, aangekondigd dat zij zouden gaan samenwerken aan elektrische
-              voertuigen. De overeenkomst formaliseert deze aankondiging en zou Tesla toelaten
-              om samen te werken met Toyota in een productiefabriek in Californië.</p>
+                              <p>Shot in een baan door een geconverteerde intercontinentale ballistische raket
+                              (ICBM), zou de Cosmos 1 worden gelanceerd vanaf een Russische duikboot onder
+                              water vanuit de Barentszzee. Het ruimtevaartuig, aangedreven door het zeil, zal
+                              geen bestemming. Het doel is gewoon om te testen het aandrijfsysteem dat de druk
+                              van zonne-lichtdeeltjes om het schip naar buiten verplaatsen van een beginnende
+                              baan rond de aarde op 500 mijl gebruikt.</p>
 
-              <p>De fabriek zal opengaan in 2011 als Tesla haar heropent in Fremont,
-              Californië, na de aankoop. Eerder werd de fabriek gebruikt door Toyota en
-              General Motors, maar zij werd gesloten nadat Toyota aankondigde geen auto's te
-              produceren in Californië.</p>
+                              <p>De voortstuwing technologie wordt momenteel beschouwd als de meest efficiënte
+                              beschikbaar voor interstellaire ruimtevaart. Theoretisch een ambacht aangedreven
+                              door de druk van een constante lichtbron, zoals een speciaal gebouwde laser, kon
+                              bereiken snelheden het naderen van de snelheid van het licht. Dit komt door de
+                              efficiëntie van het ruimtevaartuig niet hoeft te zijn eigen brandstof dragen.
+                              Het naderen van de snelheid van het licht zou echter een lange periode van
+                              constante versnelling. Dergelijke hoge snelheid zal het onmogelijk zijn voor de
+                              huidige test voertuigen en gelanceerd in de nabije toekomst, omdat ze vertrouwen
+                              op het licht van de zon, die snel zwakker wordt met toenemende afstand.</p>
 
-              <p>Tesla produceert op het moment slechts 1 model, de $109,000 kostende
-              Roadster, maar het is bezig met de ontwikkeling van een nieuw model, de Model S,
-              die zal worden geproduceerd in de Fremont fabriek.</p>
+                              <p>Volgens de National Geographic News, "NASA, het Europees Ruimteagentschap,
+                              Japan, en Rusland al hebben ontwikkeld zonne zeilen, maar geen enkele heeft nog
+                              geprobeerd te bewijzen dat de zeilen kan een ruimtevaartuig drijven onder
+                              gecontroleerde vlucht."</p>
 
-              <p>Analysten steunden de beslissing; John Boesel, CEO van een groene transport
-              handelgroep, zei dat “Toyota's bereidheid om samen te werken met Tesla om een
-              elektrische versie van één van haar bestaande modellen te maken aantoont dat de
-              samenwerking tussen de twee bedrijven van veel betekenis zal zijn.”</p>
-
-              <p>Na deze aankondiging steeg Tesla's aandelenprijs met $0.75, die van Toyota
-              daalde met $1.65.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Toyota, Tesla to develop electric SUV
-            hippogogreen:url: http://en.wikinews.org/wiki/Toyota,_Tesla_to_develop_electric_SUV
+                              </body>
+                              </html>
           /relateddocs:docs:
             jcr:primaryType: relateddocs:docs
-            /relateddocs:reldoc[1]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: eda53e2d-e245-439d-9825-045664233920
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
-            /relateddocs:reldoc[2]:
-              jcr:primaryType: hippo:facetselect
-              hippo:docbase: 4a35cad1-dbd2-408a-9342-70d4cfa238f5
-              hippo:facets: []
-              hippo:modes: []
-              hippo:values: []
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test
           /hippogogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 6d81d6de-8956-48a0-8e3c-ebd3923fbd32
+            hippo:docbase: 5044a402-5412-4c76-a069-bdf2aa2d2764
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-    /06:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 4b62df51-bcf8-467b-b903-5d89e4c52b9c
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: b59e46a3-ff73-4cdc-b102-6cf5045b2548
-      hippotranslation:locale: nl
       /klimaatconferentie-in-kopenhagen:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -2960,7 +2228,7 @@
           hippo:availability: [live, preview]
           hippogogreen:categories: [Global Warming, Conference]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2013-06-22T10:22:00+02:00
+          hippogogreen:date: 2019-06-22T10:22:00+02:00
           hippogogreen:summary: Een overeenkomst is binnen ons bereik – Deense premier,
             Lars Løkke Rasmussen.
           hippogogreen:title: Klimaatconferentie opent in Kopenhagen
@@ -2968,10 +2236,10 @@
           hippostd:state: published
           hippostd:tags: [Global Warming, Copenhagen treaty]
           hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2014-07-30T13:29:00Z
-          hippostdpubwf:lastModificationDate: 2014-12-17T09:27:00Z
+          hippostdpubwf:creationDate: 2019-07-30T13:29:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:27:00Z
           hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2014-12-24T17:00:00Z
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
           hippotranslation:id: 0faa3f16-bddc-4405-ac6e-0106804872c5
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -3100,7 +2368,7 @@
           hippo:availability: [live, preview]
           hippogogreen:categories: [Global Warming]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2013-06-22T10:22:00+02:00
+          hippogogreen:date: 2019-06-22T10:22:00+02:00
           hippogogreen:summary: De onderhandelingen van de 2014 Verenigde Naties Klimaatsveranderingconferentie
             (COP 16) gaan deze week verder in Bonn, Duitsland.
           hippogogreen:title: Tweede ronde van de Bonn VN klimaatsveranderingen onderhandelingen
@@ -3109,10 +2377,10 @@
           hippostd:state: published
           hippostd:tags: [Global Warming, conference]
           hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2014-07-30T13:17:00Z
-          hippostdpubwf:lastModificationDate: 2014-12-17T09:38:00Z
+          hippostdpubwf:creationDate: 2019-07-30T13:17:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:38:00Z
           hippostdpubwf:lastModifiedBy: boris
-          hippostdpubwf:publicationDate: 2014-12-24T17:00:00Z
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
           hippotranslation:id: f1b0bcc7-7432-46a3-a0b1-e43f41f8df70
           hippotranslation:locale: nl
           /hippogogreen:description:
@@ -3195,3 +2463,713 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 2f588f4e-642a-4f42-94ae-5c634463a3e3
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: 9e3441c2-8b73-4bc2-903e-3eea2a1bf107
+      hippotranslation:locale: nl
+      /pbs-show-beweert-dat-broeikasgassen:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: fea19248-24c4-407d-97fc-540483fa256c
+        hippo:name: PBS show beweert dat broeikasgassen
+        /pbs-show-beweert-dat-broeikasgassen:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7c7bdfdc-3d9b-4dd3-8eb7-ab8853c03256
+          hippo:availability: [live, preview]
+          hippogogreen:contentstage: none
+          hippogogreen:date: 2019-04-22T10:22:00+02:00
+          hippogogreen:summary: Deze week heeft de Public Broadcasting Service een
+            programme getiteld ' Dimming the Earth' uitgezonden, dit presenteerde
+            onderzoek door toonaangevende wetenschappers over de complexe systemen
+            van ons wereldklimaat en het effect dat de mens erop heeft. Eén van de
+            grootste manieren waarop de mens de atmosfeer beïnvloedt is het steeds
+            stijgende gebruik van fossiele brandstoffen. Consumptie is jaarlijks gestegen
+            met 2% in de afgelopen tien jaar.
+          hippogogreen:title: PBS show beweert dat broeikasgassen en verontreinigende
+            stoffen in de atmosfeer voor een schemerige toekomst zorgen
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin13
+          hippostdpubwf:creationDate: 2019-07-30T12:22:00+02:00
+          hippostdpubwf:lastModificationDate: 2018-12-10T16:15:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-12-10T16:15:00+01:00
+          hippotranslation:id: e9968639-a497-4c89-972f-d51126aa7536
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Fossiele brandstoffen die in fabrieken en auto's worden verbrand sturen hun
+              afval in twee vormen de atmosfeer in. De eerste is koolstofdioxide en andere
+              broeikasgassen, deze hebben de afgelopen jaren veel aandacht gekregen vanwege
+              het feit dat ze warmte vasthouden in de atmosfeer. De tweede vorm zijn de kleine
+              deeltjes zwaveldioxide, roet en as, welke wetenschappers <em>aerosols</em>
+              (smog) noemen. Onderzoek naar het begrijpen van de negatieve effecten van
+              luchtvervuiling op de gezondheid heeft geresulteerd in de ontwikkeling van
+              katalysatoren voor auto's en ook naar machines die bepaalde vaste stoffen uit
+              industriëel afval halen voordat het de lucht bereikt.</p>
+
+              <p>Recent zijn wetenschappers gespecialiseerd op het gebied van de atmosfeer tot
+              de ontdekking gekomen van het fenomeen van de vermindering van direct zonlicht
+              dat de oppervlakte van de aarde bereikt – zij observeerden een vermindering van
+              5% tussen 1960 en 1990 met enig bewijs van herstel na die periode. Dit wordt
+              sindsdien het 'Global-dimming' effect genoemd en is waarschijnlijk het resultaat
+              van de manier waarop de aerosols zich gedragen op wolken. Het is belangrijk te
+              realiseren dat dit niet een netto verlies van zoveel zonlicht in ons
+              klimaatsysteem voorstelt – als dat het geval was, waren er grote
+              temperatuurdalingen geobserveerd. Het zonlicht wordt namelijk elders in het
+              systeem geabsorbeerd, met een veel kleiner netto-verlies.</p>
+              <a href="http://en.wikinews.org/w/index.php?title=File:Sfc.contrail.1.26.01.JPG&amp;filetimestamp=20050609163104"><img src="300px-sfc.contrail.1.26.01.jpg/{_document}/hippogallery:original"/></a><a title="Enlarge" href="http://en.wikinews.org/w/index.php?title=File:Sfc.contrail.1.26.01.JPG&amp;filetimestamp=20050609163104"><img src="magnify-clip.png/{_document}/hippogallery:original"/></a>
+              <p> </p>
+
+              <p>Een foto van NASA die vliegtuigsporen en natuurlijke wolken laat zien.
+              Genomen vanaf de I-95 in het noorden van Virginia, 26 januari, 2001, door NASA
+              wetenschapper Louis Nguyen.</p>
+
+              <p>Wolken worden gevormd wanneer vocht zich verzameld rond deeltjes in de lucht,
+              zoals pollen of stof. Wolken die gevormd worden door de aerosols deeltjes die
+              uitgestoten worden door de emissie van fossiele brandstoffen zijn gemaakt van
+              meer druppels dan 'normale' wolken. Deze door smog gemaakte wolken hebben twee
+              aparte effecten: ze schermen de aarde af van zonlicht en, door de reflectieve
+              natuur van water, de miljoenen zwevende druppels reflecteren zonlicht terug de
+              ruimte in, waardoor nog minder licht de aarde bereikt.</p>
+
+              <p>Veel wetenschappers geloven nu dat de global-dimming die veroorzaakt wordt
+              door deze deeltjes het broeikaseffect enigszins heeft verzacht. In de laatste
+              dertig jaar is de temperatuur op aarde met ongeveer 0.5 graden celsius gestegen.
+              </p>
+
+              <p>Als er geen sprake was geweest van global-dimming zou de temperatuur op aarde
+              wellicht 0.3 graden hoger zijn dan het huidige niveau, dit suggereert dat de
+              broeikasgassen en de vaste deeltjes die vrijkomen tijdens de verbranding van
+              fossiele brandstoffen een tegengesteld effect hebben. Pogingen om de schade aan
+              de gezondheid van de mens terug te dringen door smog tegen te gaan hebben
+              gezorgd voor meer hitte in onze atmosfeer en dat heeft weer gezorgd voor een
+              snellere stijging van de temperatuur.</p>
+
+              <p>Dr. James E. Hansen, leraar aan de universiteit van Columbia en het hoofd van
+              het Goddard Institute for Space Studies, gelooft dat als we ons huidige patroon
+              doorzetten, deze temperatuurstijging kan toenemen tot 5 graden in de komende
+              dertig jaar en tien tot veertien graden over de loop van een eeuw. Een
+              dergelijke temperatuurstijging zou het leven op aarde verwoesten, waarschijnlijk
+              met zich meebrengend een cascade van zichzelf versterkende opwarmingseffecten.
+              Het afsterven en branden van de bossen op aarde, een gestage ontdooiing van
+              Groenland en de Arctische ijskappen en het gevaarlijkste van allemaal; een
+              bevrijding van de methaanhydraten die nu bevroren op de oceanbodem liggen zouden
+              er allemaal voor zorgen dat de aarde hoogstwaarschijnlijk onbewoonbaar wordt
+              voor de mens. Dr. Hansen waarschuwt ervoor dat, volgens zijn onderzoek, de mens
+              slechts 10 jaar heeft om de uitstoot van broeikasgassen terug te dringen voordat
+              het broeikaseffect en andere reacties op de menselijke activiteit op aarde een
+              kritiek punt bereiken, waardoor zij niet langer te stoppen zijn.</p>
+
+              </body>
+              </html>
+            /300px-sfc.contrail.1.26.01.jpg:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 4d179546-beee-4917-8d4b-647d0552c736
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /magnify-clip.png:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 83b1a383-fbd3-49a3-a9cb-643798035434
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: WikiNews
+            hippogogreen:url: http://en.wikinews.org/wiki/Greenhouse_gases,_atmospheric_pollutants_dimming_future
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: a51a36df-6394-4fe9-9a89-06cceb835015
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: f98bcab4-6018-47bf-8417-638a3b380528
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+      /amerikaanse-huis-commissie-keurt-zomertijd-wijziging-goed:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 465f71b1-5735-4eca-8196-c8d60674e05f
+        hippo:name: Amerikaanse Huis commissie keurt zomertijd wijziging goed
+        /amerikaanse-huis-commissie-keurt-zomertijd-wijziging-goed:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4cf3fc66-99da-4375-bea4-7a74ec6eebf0
+          hippo:availability: [live, preview]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-04-07T10:22:00+02:00
+          hippogogreen:summary: Het Amerikaanse House Energy and Commerce Committee
+            heeft een amendement aangenomen op woensdag om de zomertijd te verlengen
+            met twee maanden. De tweeledige maatregel wordt gesponsord door Rep Fred
+            Upton, Republikeins van Michigan, en Rep Ed Markey, Democraat van Massachusetts.
+          hippogogreen:title: Amerikaanse Huis commissie keurt zomertijd wijziging
+            goed
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: Katja de Wit
+          hippostdpubwf:creationDate: 2017-07-20T14:39:00+02:00
+          hippostdpubwf:lastModificationDate: 2018-05-23T15:22:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-05-23T15:22:00+02:00
+          hippotranslation:id: 0e91d753-9d13-40c8-b5b1-41dbabebada8
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                              <body>
+
+                              <p>"Hoe meer daglicht we hebben, hoe minder elektriciteit die we gebruiken," Rep
+                              Ed Markey zei. Markey ook ondersteund de maatregel door te wijzen op de
+                              zakelijke voordelen. "Er is meer economische activiteit, omdat mensen denken dat
+                              ze kunnen rond veilig lopen," zei hij.</p>
+
+                              <p>"De uitbreiding zomertijd is logisch, vooral met torenhoge energiekosten,"
+                              Rep Fred Upton gezegd.</p>
+
+                              <p>Het wetsvoorstel verlengt zomertijd om te beginnen op de eerste zondag in
+                              maart en eindigen op de laatste zondag in november. De zomertijd begint op dit
+                              moment op de eerste zondag in april en eindigt op de eerste zondag in oktober.
+                              </p>
+
+                              <p>Het Amerikaanse ministerie van Transport schat dat de uitbreiding van de
+                              zomertijd zou een besparing van 10.000 vaten olie per dag. De Verenigde Staten
+                              verbruikt ongeveer 20 miljoen vaten olie per dag.</p>
+
+                              <p>Het Huis is van plan om de energierekening waarop het amendement werd
+                              bevestigd in een aantal weken goed te keuren. Diverse andere wijzigingen in het
+                              wetsvoorstel worden nog steeds gedebatteerd.</p>
+
+                              </body>
+                              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: http://en.wikinews.org/wiki/US_House_committee_approves_daylight_saving_time_amendment
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 2ac72a9e-1558-49c3-b8f5-01019e57703d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /03:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: b99e3148-c1c7-4d49-b6ab-fb585f1ba44e
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: c7f6d7fb-c7b6-4ef9-b965-5d6b64152c8d
+      hippotranslation:locale: nl
+      /betwist-eiland-verdwijnt:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b008c716-89ba-4400-9f12-1db3c7258a0c
+        hippo:name: Betwist eiland verdwijnt
+        /betwist-eiland-verdwijnt:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4bd14db3-cb06-4801-8536-be6fb4aa4fd8
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Global Warming]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2019-03-25T10:22:00+01:00
+          hippogogreen:summary: Het eiland New Moore, een onbewoond gebied dicht bij
+            de Baai van Bengal tussen India en Bangladesh, is verdwenen, volgens Indiase
+            wetenschappers.
+          hippogogreen:title: Betwist eiland verdwijnt onder de zee op de grens tussen
+            India en Bangladesh
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostd:tags: [global warming, rising sea level, islands]
+          hippostdpubwf:createdBy: admin20
+          hippostdpubwf:creationDate: 2019-07-30T13:14:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-17T09:34:00Z
+          hippostdpubwf:lastModifiedBy: boris
+          hippostdpubwf:publicationDate: 2019-12-24T17:00:00Z
+          hippotranslation:id: 0c36dece-422a-4bf7-84f8-459c9ec2faff
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Het eiland, dat zich ten zuiden van de Hariabhanga rivier bevindt, wordt al
+              bijna dertig jaar door zowel India als Bangladesh opgeëist, sinds het voor het
+              eerst tevoorschijn kwam in de jaren zeventig. De School van Oceanografische
+              Studies in Calcutta liet weten dat de verdwijning van het eiland is bevestigd
+              door satellietbeelden.</p>
+
+              <p>“Er is geen spoor meer te bekennen van het eiland. Na het bestuderen van
+              satellietbeelden heb ik dit ook bevestigd gekregen van vissers,” aldus Sugato
+              Hazra, de directeur van de school van oceanografische studies aan de
+              universiteit van Jadavpur. Volgens de Times of India, komt het eiland alleen
+              boven water tijdens extreem lage getijden. “Wat deze twee landen jarelang niet
+              konden oplossen is opgelost door het broeikaseffect.”</p>
+
+              <p>Volgens Hazra steeg het waterpeil in het gebied tot 2000 ongeveer 3
+              millimeter per jaar, maar het cijfer voor het afgelopen jaar bleek ongeveer 5
+              millimeter te zijn. De directeur zei dat tien andere eilanden in de buurt van
+              New Moore ook dreigen te verdwijnen.</p>
+
+              <p>Hazra noemt het broeikaseffect als reden voor de verdwijning van het eiland,
+              hij zei: “Erosie aan de kust en de stijgende temperatuur in de Baai van Bengal
+              tussen 2000 en 2009 hebben geleid tot de onderdompeling van het Purbasha eiland.
+              De temperatuur in de regio stijgt jaarlijks 0.4 graden celsius.”</p>
+
+              <p>In 1996, verdween een ander nabijgelegen eiland, Lohachara, onder de
+              zeespiegel, waardoor haar bewoners zich moesten verplaatsen; ondertussen heeft
+              het Ghoramara eiland ongeveer de helft van haar landoppervlak verloren, Hazra
+              zei: “Er zal een grotere groep mensen zich genoodzaakt voelen te verplaatsen
+              naarmate de Sunderbans en meer eilanden onder water belanden.”</p>
+
+              <p>Volgens ambtenaren zal achttien procent van het Bangladese kustgebied onder
+              het zeepeil komen te liggen als het peil met één meter stijgt tot 2050, twintig
+              miljoen mensen zullen dan geherlokaliseerd moeten worden.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Disputed_island_disappears_beneath_sea_on_India-Bangladesh_border
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: a51a36df-6394-4fe9-9a89-06cceb835015
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+      /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 00a31d80-2b89-41f3-b0b0-c52e8e12a367
+        hippo:name: Herstel van de ozonlaag draagt wellicht bij aan het broeikaseffect
+        /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect[1]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8e2431f5-4abc-4dfd-b016-210757d12c4c
+          hippo:availability: [live]
+          hippogogreen:categories: [Climate Change, Global Warming]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-03-22T10:22:00+01:00
+          hippogogreen:summary: Het gat in de ozonlaag was een potentiëel ernstige
+            ramp voor de planeet die alleen is afgewend door het Montreal Protocol,
+            dus daar kunnen wij niet naar terug – Professor Ken Carslaw
+          hippogogreen:title: Herstel van de ozonlaag draagt wellicht bij aan het
+            broeikaseffect
+          hippostd:holder: boris
+          hippostd:state: published
+          hippostd:tags: [ozone, global warming]
+          hippostdpubwf:createdBy: admin20
+          hippostdpubwf:creationDate: 2019-07-29T14:49:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-06T14:56:41.101+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-12-06T14:56:59.902+01:00
+          hippotranslation:id: 2fd5bdad-06d1-4cd0-bf08-ad9763c96dfc
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Wetenschappers van de universiteit van Leeds in Engeland en de universiteit
+              van Kuopio in Finland rapporteren dat het gat in de ozonlaag van de aarde boven
+              Antarctica wellicht heeft gezorgd voor een vermindering van de effecten van het
+              veranderende klimaat en dat terwijl de ozonlaag herstelt de opwarming van de
+              aarde kan versnellen. Hun verslag is vandaag gepubliceerd in <em>The Journal of
+              Geophysical Research Letters.</em></p>
+
+              <p>De groep heeft twintig jaar aan documenten bestudeerd over wereldwijde
+              weerscondities en windsnelheden. Zij stellen dat onder het ozongat de
+              windsnelheid hoger is, wat zorgt voor meer opwaaiende zeedruppels. Zout uit deze
+              druppels wordt omhoog gedragen en zorgt ervoor dat de wolken helderder zijn, dit
+              zorgt er weer voor dat er meer van de straling van de zon wordt gereflecteerd.
+              Dit houdt de Aarde koeler, hetgeen het broeikaseffect tegengaat.</p>
+
+              <p>De ozonlaag in de atmosfeer beschermt het leven tegen de schadelijke effecten
+              van ultraviolette straling en de ontdekking van haar snelle uitputting in de
+              jaren tachtig zorgde voor wijdverspreide alarmering. Het Montreal Protocol dat
+              in 1987 werd aangenomen dwong landen om hun uitstoot van
+              chloorfluorkoolstoffen(CFKs), de door mensen gemaakte chemicaliën die gedacht
+              worden verantwoordelijk te zijn voor het gat, stop te zetten.</p>
+
+              <p>Professor Ken Carslaw, van de universiteit van Leeds School of Earth and
+              Environment, was een van de auteurs van het verslag. Hij waarschuwde ervoor dat
+              naarmate het gat zich herstelt, de temperatuur in sommige gebieden van het
+              zuidelijk halfrond sneller kan gaan stijgen.</p>
+
+              <p>“Als, zoals het geval lijkt te zijn, deze winden gaan liggen kunnen stijgende
+              CO<sub>2</sub> emissies ervoor zorgen dat de temperatuur sneller gaat stijgen op
+              het zuidelijk halfrond, dit zal invloed hebben op toekomstige
+              klimaatsvoorspellingen”, zei hij.</p>
+
+              <p>De vondsten beschrijvend als “onverwachte en complexe klimaatfeedback”
+              benadrukte professor Carslaw dat dit onderzoek geen reden is om het gat open te
+              houden: “Je kan niet twee fouten op die manier oplossen. Het gat in de ozonlaag
+              was een potentiëel ernstige ramp voor de planeet die alleen is afgewend door het
+              Montreal Protocol, dus daar kunnen wij niet naar terug.”</p>
+
+              <p>In plaats daarvan stelde hij dat koolstofemissies drastisch moeten worden
+              teruggedrongen.</p>
+
+              <p>Het onderzoek was gefinanceerd door de Natural Environment Research Council
+              en de Academy of Finland Centre of Excellence Programme.</p>
+
+              <p>Judith Perlwitz, een onderzoekster bij de Nation Oceanic and Atmospheric
+              Administration, zei dat de data van de groep correct was maar dat ze het oneens
+              was met sommige conclusies in het verslag. Perlwitz beweerde dat de stijgende
+              temperaturen als gevolg van het broeikaseffect de windsnelheden sowieso zouden
+              hebben verhoogd, dit zou tot hetzelfde effect leiden als het ozongat.</p>
+
+              <p>“De vraag is of de windsnelheid echt langzamer zal worden en dat betwijfel
+              ik,” stelde zij.</p>
+
+              <p>Volgens een rapport van de World Meteorological Organization in 2006 duurt
+              het zeker nog vijftig jaar voordat het ozon boven Antarctica op hetzelfde niveau
+              is als voor de jaren tachtig.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Healing_ozone_layer_may_contribute_to_global_warming
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 89ad974c-28ff-4d5c-a505-03cb6f72a742
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 900d45c2-a263-499c-8b83-f95e67a6480d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect[2]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['hippo:skipindex', 'mix:referenceable']
+          jcr:uuid: 56047e3b-4f2d-41ca-b8cb-1d559bf54b05
+          hippogogreen:categories: [Climate Change, Global Warming]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-03-22T10:22:00+01:00
+          hippogogreen:summary: Het gat in de ozonlaag was een potentiëel ernstige
+            ramp voor de planeet die alleen is afgewend door het Montreal Protocol,
+            dus daar kunnen wij niet naar terug – Professor Ken Carslaw
+          hippogogreen:title: Herstel van de ozonlaag draagt wellicht bij aan het
+            broeikaseffect
+          hippostd:state: draft
+          hippostd:tags: [ozone, global warming]
+          hippostdpubwf:createdBy: admin20
+          hippostdpubwf:creationDate: 2019-07-29T14:49:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-06T14:56:41.101+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 2fd5bdad-06d1-4cd0-bf08-ad9763c96dfc
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Wetenschappers van de universiteit van Leeds in Engeland en de universiteit
+              van Kuopio in Finland rapporteren dat het gat in de ozonlaag van de aarde boven
+              Antarctica wellicht heeft gezorgd voor een vermindering van de effecten van het
+              veranderende klimaat en dat terwijl de ozonlaag herstelt de opwarming van de
+              aarde kan versnellen. Hun verslag is vandaag gepubliceerd in <em>The Journal of
+              Geophysical Research Letters.</em></p>
+
+              <p>De groep heeft twintig jaar aan documenten bestudeerd over wereldwijde
+              weerscondities en windsnelheden. Zij stellen dat onder het ozongat de
+              windsnelheid hoger is, wat zorgt voor meer opwaaiende zeedruppels. Zout uit deze
+              druppels wordt omhoog gedragen en zorgt ervoor dat de wolken helderder zijn, dit
+              zorgt er weer voor dat er meer van de straling van de zon wordt gereflecteerd.
+              Dit houdt de Aarde koeler, hetgeen het broeikaseffect tegengaat.</p>
+
+              <p>De ozonlaag in de atmosfeer beschermt het leven tegen de schadelijke effecten
+              van ultraviolette straling en de ontdekking van haar snelle uitputting in de
+              jaren tachtig zorgde voor wijdverspreide alarmering. Het Montreal Protocol dat
+              in 1987 werd aangenomen dwong landen om hun uitstoot van
+              chloorfluorkoolstoffen(CFKs), de door mensen gemaakte chemicaliën die gedacht
+              worden verantwoordelijk te zijn voor het gat, stop te zetten.</p>
+
+              <p>Professor Ken Carslaw, van de universiteit van Leeds School of Earth and
+              Environment, was een van de auteurs van het verslag. Hij waarschuwde ervoor dat
+              naarmate het gat zich herstelt, de temperatuur in sommige gebieden van het
+              zuidelijk halfrond sneller kan gaan stijgen.</p>
+
+              <p>“Als, zoals het geval lijkt te zijn, deze winden gaan liggen kunnen stijgende
+              CO<sub>2</sub> emissies ervoor zorgen dat de temperatuur sneller gaat stijgen op
+              het zuidelijk halfrond, dit zal invloed hebben op toekomstige
+              klimaatsvoorspellingen”, zei hij.</p>
+
+              <p>De vondsten beschrijvend als “onverwachte en complexe klimaatfeedback”
+              benadrukte professor Carslaw dat dit onderzoek geen reden is om het gat open te
+              houden: “Je kan niet twee fouten op die manier oplossen. Het gat in de ozonlaag
+              was een potentiëel ernstige ramp voor de planeet die alleen is afgewend door het
+              Montreal Protocol, dus daar kunnen wij niet naar terug.”</p>
+
+              <p>In plaats daarvan stelde hij dat koolstofemissies drastisch moeten worden
+              teruggedrongen.</p>
+
+              <p>Het onderzoek was gefinanceerd door de Natural Environment Research Council
+              en de Academy of Finland Centre of Excellence Programme.</p>
+
+              <p>Judith Perlwitz, een onderzoekster bij de Nation Oceanic and Atmospheric
+              Administration, zei dat de data van de groep correct was maar dat ze het oneens
+              was met sommige conclusies in het verslag. Perlwitz beweerde dat de stijgende
+              temperaturen als gevolg van het broeikaseffect de windsnelheden sowieso zouden
+              hebben verhoogd, dit zou tot hetzelfde effect leiden als het ozongat.</p>
+
+              <p>“De vraag is of de windsnelheid echt langzamer zal worden en dat betwijfel
+              ik,” stelde zij.</p>
+
+              <p>Volgens een rapport van de World Meteorological Organization in 2006 duurt
+              het zeker nog vijftig jaar voordat het ozon boven Antarctica op hetzelfde niveau
+              is als voor de jaren tachtig.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Healing_ozone_layer_may_contribute_to_global_warming
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 89ad974c-28ff-4d5c-a505-03cb6f72a742
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 900d45c2-a263-499c-8b83-f95e67a6480d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /herstel-van-de-ozonlaag-draagt-wellicht-bij-aan-het-broeikaseffect[3]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 8fa9a97c-3fd9-4eb2-b0f9-899c21ea555a
+          hippo:availability: [preview]
+          hippogogreen:categories: [Climate Change, Global Warming]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-03-22T10:22:00+01:00
+          hippogogreen:summary: Het gat in de ozonlaag was een potentiëel ernstige
+            ramp voor de planeet die alleen is afgewend door het Montreal Protocol,
+            dus daar kunnen wij niet naar terug – Professor Ken Carslaw
+          hippogogreen:title: Herstel van de ozonlaag draagt wellicht bij aan het
+            broeikaseffect
+          hippostd:state: unpublished
+          hippostd:tags: [ozone, global warming]
+          hippostdpubwf:createdBy: admin20
+          hippostdpubwf:creationDate: 2019-07-29T14:49:00Z
+          hippostdpubwf:lastModificationDate: 2019-12-06T14:56:41.101+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 2fd5bdad-06d1-4cd0-bf08-ad9763c96dfc
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Wetenschappers van de universiteit van Leeds in Engeland en de universiteit
+              van Kuopio in Finland rapporteren dat het gat in de ozonlaag van de aarde boven
+              Antarctica wellicht heeft gezorgd voor een vermindering van de effecten van het
+              veranderende klimaat en dat terwijl de ozonlaag herstelt de opwarming van de
+              aarde kan versnellen. Hun verslag is vandaag gepubliceerd in <em>The Journal of
+              Geophysical Research Letters.</em></p>
+
+              <p>De groep heeft twintig jaar aan documenten bestudeerd over wereldwijde
+              weerscondities en windsnelheden. Zij stellen dat onder het ozongat de
+              windsnelheid hoger is, wat zorgt voor meer opwaaiende zeedruppels. Zout uit deze
+              druppels wordt omhoog gedragen en zorgt ervoor dat de wolken helderder zijn, dit
+              zorgt er weer voor dat er meer van de straling van de zon wordt gereflecteerd.
+              Dit houdt de Aarde koeler, hetgeen het broeikaseffect tegengaat.</p>
+
+              <p>De ozonlaag in de atmosfeer beschermt het leven tegen de schadelijke effecten
+              van ultraviolette straling en de ontdekking van haar snelle uitputting in de
+              jaren tachtig zorgde voor wijdverspreide alarmering. Het Montreal Protocol dat
+              in 1987 werd aangenomen dwong landen om hun uitstoot van
+              chloorfluorkoolstoffen(CFKs), de door mensen gemaakte chemicaliën die gedacht
+              worden verantwoordelijk te zijn voor het gat, stop te zetten.</p>
+
+              <p>Professor Ken Carslaw, van de universiteit van Leeds School of Earth and
+              Environment, was een van de auteurs van het verslag. Hij waarschuwde ervoor dat
+              naarmate het gat zich herstelt, de temperatuur in sommige gebieden van het
+              zuidelijk halfrond sneller kan gaan stijgen.</p>
+
+              <p>“Als, zoals het geval lijkt te zijn, deze winden gaan liggen kunnen stijgende
+              CO<sub>2</sub> emissies ervoor zorgen dat de temperatuur sneller gaat stijgen op
+              het zuidelijk halfrond, dit zal invloed hebben op toekomstige
+              klimaatsvoorspellingen”, zei hij.</p>
+
+              <p>De vondsten beschrijvend als “onverwachte en complexe klimaatfeedback”
+              benadrukte professor Carslaw dat dit onderzoek geen reden is om het gat open te
+              houden: “Je kan niet twee fouten op die manier oplossen. Het gat in de ozonlaag
+              was een potentiëel ernstige ramp voor de planeet die alleen is afgewend door het
+              Montreal Protocol, dus daar kunnen wij niet naar terug.”</p>
+
+              <p>In plaats daarvan stelde hij dat koolstofemissies drastisch moeten worden
+              teruggedrongen.</p>
+
+              <p>Het onderzoek was gefinanceerd door de Natural Environment Research Council
+              en de Academy of Finland Centre of Excellence Programme.</p>
+
+              <p>Judith Perlwitz, een onderzoekster bij de Nation Oceanic and Atmospheric
+              Administration, zei dat de data van de groep correct was maar dat ze het oneens
+              was met sommige conclusies in het verslag. Perlwitz beweerde dat de stijgende
+              temperaturen als gevolg van het broeikaseffect de windsnelheden sowieso zouden
+              hebben verhoogd, dit zou tot hetzelfde effect leiden als het ozongat.</p>
+
+              <p>“De vraag is of de windsnelheid echt langzamer zal worden en dat betwijfel
+              ik,” stelde zij.</p>
+
+              <p>Volgens een rapport van de World Meteorological Organization in 2006 duurt
+              het zeker nog vijftig jaar voordat het ozon boven Antarctica op hetzelfde niveau
+              is als voor de jaren tachtig.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Healing_ozone_layer_may_contribute_to_global_warming
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+            /relateddocs:reldoc[1]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 89ad974c-28ff-4d5c-a505-03cb6f72a742
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /relateddocs:reldoc[2]:
+              jcr:primaryType: hippo:facetselect
+              hippo:docbase: 23113627-0a70-4dcb-b428-55218031394f
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 900d45c2-a263-499c-8b83-f95e67a6480d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /02:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 7493e668-b337-4b1f-9c58-8d45b79f6166
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: 1c06680d-635e-4624-90c8-4728efa859c3
+      hippotranslation:locale: nl
+      /de-nieuwe-enercon-e-126-windturbine:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ea549f94-65bd-4d34-a834-7095cfddcf4d
+        hippo:name: De nieuwe Enercon E-126 Windturbine
+        /de-nieuwe-enercon-e-126-windturbine:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 68be2b91-8d60-4fbf-872c-c7a494798b4f
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Green, Energy]
+          hippogogreen:contentstage: interest
+          hippogogreen:date: 2019-02-13T15:51:00+01:00
+          hippogogreen:summary: De grootste windturbine ter wereld is nu de Enercon
+            E-126. Deze turbine heeft een rotordiameter van 126 meter (413 voet).
+            De E-126 is een meer geavanceerde versie van de E-112, voorheen de grootste
+            windturbine ter wereld, deze produceerde 6 megawatts.
+          hippogogreen:title: The new Enercon E-126 Wind Turbine
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [Turbines]
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2017-07-12T12:28:00Z
+          hippostdpubwf:lastModificationDate: 2018-01-07T13:48:00Z
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-01-07T13:48:00Z
+          hippotranslation:id: 25bf4f5f-ccee-48bf-a13e-9aa69ab03392
+          hippotranslation:locale: nl
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>De nieuwe turbine wordt officieel beoordeeld op 6 megawatts, maar zal
+              waarschijnlijk meer dan 7 megawatts produceren (oftewel 20 miljoen kilowattuur
+              per jaar). Dat is genoeg energie om ongeveer 5000 Europese huishoudens van vier
+              te voorzien van stroom. Een snelle berekening voor de VS komt neer op 938 kwh
+              per huishouden per maand, oftwel 11,256 per huishouden per jaar. 1776
+              Amerikaanse huishoudens kunnen dus worden voorzien van stroom door slechts één
+              windturbine.</p>
+
+              <p> </p>
+
+              <p>De turbine wordt opgezet in Emden, Duitsland door Enercon. Zij zijn van plan
+              om verschillende opslagsystemen te testen in combinatie met de multi-megawatt
+              windturbinees.</p>
+
+              <p> </p>
+
+              <p>Deze turbines zijn uitgerust met een aantal nieuwe functies: een
+              geoptimaliseerd design van de bladen met een spoiler die doorloopt tot de spil
+              en een voorgegoten betonnen basis. Door de hogere spil en het nieuwe profiel van
+              de bladen, wordt verwacht dat de E-126 veel beter zal presteren dan de E-112.
+              </p>
+
+              </body>
+              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5acde2bc-3194-43ed-bc25-219d3618a6dc
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wind Turbine
+            hippogogreen:url: ''

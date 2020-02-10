@@ -1,6 +1,6 @@
 /content/documents/hippomiseauvert/products:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 6e450630-fef8-4186-806c-4211b4c25b46
   hippo:name: Produits
   hippostd:foldertype: [new-product-folder, new-product]
@@ -8,7 +8,6 @@
   hippotranslation:locale: fr
   /facetedproducts:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 14
     hippo:docbase: 6e450630-fef8-4186-806c-4211b4c25b46
     hippofacnav:facetnodenames: [Prix, Note, Catégorie]
     hippofacnav:facets: ['hippogogreen:price$[{name:''moins de 25 €'', resolution:''double'',
@@ -24,20 +23,20 @@
     hippofacnav:skipresultsetfacetsavailable: true
   /alimentation:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 1e1aff8c-ef7b-4686-a1e1-0830ab00f9e9
     hippo:name: Alimentation
     hippostd:foldertype: [new-product-folder, new-product]
     hippotranslation:id: 089c6505-1ab5-4ac3-ad81-0bc07ef1427a
     hippotranslation:locale: fr
-    /2010:
+    /2020:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: 459cfb89-89aa-42f6-a78d-f485a8e9159f
       hippostd:foldertype: [new-product-folder, new-product]
       hippotranslation:id: e869716a-8c24-489f-a28f-9e64c6b2f399
       hippotranslation:locale: fr
-      /07:
+      /01:
         jcr:primaryType: hippostd:folder
         jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
         jcr:uuid: ee91e9b4-9dce-47ec-98b1-19ee6ef09081
@@ -68,10 +67,10 @@
             hippostd:holder: admin
             hippostd:state: published
             hippostdpubwf:createdBy: admin
-            hippostdpubwf:creationDate: 2010-07-12T13:01:00Z
-            hippostdpubwf:lastModificationDate: 2011-01-12T14:28:00Z
+            hippostdpubwf:creationDate: 2020-01-12T13:01:00Z
+            hippostdpubwf:lastModificationDate: 2020-01-12T14:28:00Z
             hippostdpubwf:lastModifiedBy: admin
-            hippostdpubwf:publicationDate: 2011-01-12T14:28:00Z
+            hippostdpubwf:publicationDate: 2020-01-12T14:28:00Z
             hippotranslation:id: f0bf930b-3e21-469a-a39b-4c231fb93f3a
             hippotranslation:locale: fr
             /hippogogreen:description:
@@ -112,20 +111,20 @@
               hippogogreen:url: ''
   /recyclage:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 030b0e66-4efb-4920-ad19-6b5e17597316
     hippo:name: Recyclage
     hippostd:foldertype: [new-product-folder, new-product]
     hippotranslation:id: b0b52823-1f70-485b-ba72-ecb900174665
     hippotranslation:locale: fr
-    /2010:
+    /2020:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
       jcr:uuid: 570069a6-68b2-461f-9cdd-05c1c2a18cdf
       hippostd:foldertype: [new-product-folder, new-product]
       hippotranslation:id: b3859bec-26fa-4b55-a677-b7cb03d59eca
       hippotranslation:locale: fr
-      /07:
+      /01:
         jcr:primaryType: hippostd:folder
         jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
         jcr:uuid: ee41ef97-4213-4b0f-b145-987f59ee3481
@@ -157,10 +156,10 @@
             hippostd:holder: admin
             hippostd:state: published
             hippostdpubwf:createdBy: admin
-            hippostdpubwf:creationDate: 2010-07-12T13:11:00Z
-            hippostdpubwf:lastModificationDate: 2011-01-12T14:28:00Z
+            hippostdpubwf:creationDate: 2020-01-12T13:11:00Z
+            hippostdpubwf:lastModificationDate: 2020-01-12T14:28:00Z
             hippostdpubwf:lastModifiedBy: admin
-            hippostdpubwf:publicationDate: 2011-01-12T14:28:00Z
+            hippostdpubwf:publicationDate: 2020-01-12T14:28:00Z
             hippotranslation:id: 88dfba73-434b-4136-b654-5457314f51d0
             hippotranslation:locale: fr
             /hippogogreen:description:

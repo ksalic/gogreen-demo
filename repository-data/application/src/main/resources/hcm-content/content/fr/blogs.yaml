@@ -1,6 +1,6 @@
 /content/documents/hippomiseauvert/blogs:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippotranslation:translated', 'hippo:named', 'mix:referenceable']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 51e8a589-4d50-4015-a181-cc1df366a394
   hippo:name: Blogs
   hippostd:foldertype: [new-blogs-folder, new-blog]
@@ -8,7 +8,6 @@
   hippotranslation:locale: fr
   /facetedblogs:
     jcr:primaryType: hippofacnav:facetnavigation
-    hippo:count: 72
     hippo:docbase: 51e8a589-4d50-4015-a181-cc1df366a394
     hippofacnav:facetnodenames: [Catégorie, Cette année, 'Archives${sortby:''facetvalue'',
         sortorder:''descending''}']
@@ -18,7 +17,7 @@
         begin:0, end:1}]', 'hippogogreen:date$year']
     hippofacnav:limit: 200
     hippofacnav:skipresultsetfacetsavailable: true
-  /2014:
+  /2019:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
     jcr:uuid: 86e7d304-af0d-47df-bf09-186f6ca69b20
@@ -44,7 +43,7 @@
           hippo:availability: [live]
           hippogogreen:categories: []
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2013-10-22T10:22:00+02:00
+          hippogogreen:date: 2019-10-22T10:22:00+02:00
           hippogogreen:summary: Dans l'après-midi du 30 Octobre 2005, la Roumanie
             avec d'autres pays de l'Europe passera à l'heure d'hiver officiel. Ainsi,
             de 04h00 deviendra 03h00 et sera valable jusqu'au 26 Mars 2006, lorsque
@@ -53,10 +52,10 @@
           hippostd:holder: admin
           hippostd:state: published
           hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2010-07-20T14:35:00+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-27T10:55:58.841+01:00
+          hippostdpubwf:creationDate: 2017-07-20T14:35:00+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-27T10:55:58.841+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-27T10:56:00.742+01:00
+          hippostdpubwf:publicationDate: 2019-10-27T10:56:00.742+01:00
           hippotranslation:id: 0e2b21f5-1a40-434c-a2dd-becf2f45d8fb
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -118,7 +117,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: []
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2013-10-22T10:22:00+02:00
+          hippogogreen:date: 2019-10-22T10:22:00+02:00
           hippogogreen:summary: Dans l'après-midi du 30 Octobre 2005, la Roumanie
             avec d'autres pays de l'Europe passera à l'heure d'hiver officiel. Ainsi,
             de 04h00 deviendra 03h00 et sera valable jusqu'au 26 Mars 2006, lorsque
@@ -126,8 +125,8 @@
           hippogogreen:title: La Roumanie passe à l'heure d'hiver
           hippostd:state: unpublished
           hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2010-07-20T14:35:00+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-27T10:55:58.841+01:00
+          hippostdpubwf:creationDate: 2017-07-20T14:35:00+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-27T10:55:58.841+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 0e2b21f5-1a40-434c-a2dd-becf2f45d8fb
           hippotranslation:locale: fr
@@ -190,7 +189,7 @@
           hippo:availability: []
           hippogogreen:categories: []
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2013-10-22T10:22:00+02:00
+          hippogogreen:date: 2019-10-22T10:22:00+02:00
           hippogogreen:summary: Dans l'après-midi du 30 Octobre 2005, la Roumanie
             avec d'autres pays de l'Europe passera à l'heure d'hiver officiel. Ainsi,
             de 04h00 deviendra 03h00 et sera valable jusqu'au 26 Mars 2006, lorsque
@@ -198,8 +197,8 @@
           hippogogreen:title: La Roumanie passe à l'heure d'hiver
           hippostd:state: draft
           hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2010-07-20T14:35:00+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-27T10:55:55.384+01:00
+          hippostdpubwf:creationDate: 2017-07-20T14:35:00+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-27T10:55:55.384+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 0e2b21f5-1a40-434c-a2dd-becf2f45d8fb
           hippotranslation:locale: fr
@@ -267,7 +266,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Family, Home, School]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-10-02T16:34:00+02:00
+          hippogogreen:date: 2019-10-02T16:34:00+02:00
           hippogogreen:summary: "Nos maisons sont des lieux puissants pour vivre et\
             \ apprendre. Alors que nous passons à travers les rythmes quotidiens et\
             \ hebdomadaires de la maison, on découvre une panoplie de moments pour\
@@ -279,8 +278,8 @@
           hippogogreen:title: Apprendre à la maison
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:41:47.839+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-28T11:02:35.127+01:00
+          hippostdpubwf:creationDate: 2019-09-19T15:41:47.839+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-28T11:02:35.127+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: ed3fd749-3f7f-426a-9b41-b0eb3495a9df
           hippotranslation:locale: fr
@@ -517,7 +516,7 @@
           hippo:availability: []
           hippogogreen:categories: [Family, Home, School]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-10-02T16:34:00+02:00
+          hippogogreen:date: 2019-10-02T16:34:00+02:00
           hippogogreen:summary: "Nos maisons sont des lieux puissants pour vivre et\
             \ apprendre. Alors que nous passons à travers les rythmes quotidiens et\
             \ hebdomadaires de la maison, on découvre une panoplie de moments pour\
@@ -529,8 +528,8 @@
           hippogogreen:title: Apprendre à la maison
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:41:47.839+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-28T11:02:31.701+01:00
+          hippostdpubwf:creationDate: 2019-09-19T15:41:47.839+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-28T11:02:31.701+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: ed3fd749-3f7f-426a-9b41-b0eb3495a9df
           hippotranslation:locale: fr
@@ -767,7 +766,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [Family, Home, School]
           hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-10-02T16:34:00+02:00
+          hippogogreen:date: 2019-10-02T16:34:00+02:00
           hippogogreen:summary: "Nos maisons sont des lieux puissants pour vivre et\
             \ apprendre. Alors que nous passons à travers les rythmes quotidiens et\
             \ hebdomadaires de la maison, on découvre une panoplie de moments pour\
@@ -779,10 +778,10 @@
           hippogogreen:title: Apprendre à la maison
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:41:47.839+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-28T11:02:35.127+01:00
+          hippostdpubwf:creationDate: 2019-09-19T15:41:47.839+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-28T11:02:35.127+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-28T11:02:37.291+01:00
+          hippostdpubwf:publicationDate: 2019-10-28T11:02:37.291+01:00
           hippotranslation:id: ed3fd749-3f7f-426a-9b41-b0eb3495a9df
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -1011,836 +1010,6 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-    /08:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 90721094-86a1-42dc-8ccb-76c64b3b3802
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 883d38ca-b223-48ae-b37e-78ea3e276224
-      hippotranslation:locale: fr
-      /greenpeace-tente-de-dejouer-la-baie-de-chesapeake-la-flotte-de-peche:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 56c305cf-17c5-41b7-acb7-639d34772f78
-        hippo:name: Greenpeace tente de déjouer la baie de Chesapeake la flotte de
-          pêche
-        /greenpeace-tente-de-dejouer-la-baie-de-chesapeake-la-flotte-de-peche:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: fc3a1028-b7dd-48fd-b684-82a3910c8fa7
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Sea, Sustainable Business]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-08-10T10:22:00+02:00
-          hippogogreen:summary: |-
-            Des militants de Greenpeace dispersés écoles de poissons-appâts menhaden dans la baie de Chesapeake, le mardi, lorsque les navires de pêche appartenant à Omega Protein Corp étaient sur le point d'abandonner leurs filets sceine.
-                           La flotte se composait de deux Omega avions spotter et quatre bateaux de pêche, avec huit offres. Greenpeace est arrivé avec quatre se déplaçant rapidement hors-bord de bateaux à moteur, monté par des militants qui ont tenté treize pour chasser le poisson. La Garde côtière a été appelé et mis fin à la confrontation pacifique.
-          hippogogreen:title: Greenpeace tente de déjouer la baie de Chesapeake la
-            flotte de pêche
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [activism, oceans]
-          hippostdpubwf:createdBy: admin14
-          hippostdpubwf:creationDate: 2010-07-29T10:38:00+02:00
-          hippostdpubwf:lastModificationDate: 2014-05-23T14:26:00+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-05-23T14:26:00+02:00
-          hippotranslation:id: 83e1ced5-d2da-4751-84ac-00201d14decc
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Des militants de Greenpeace dispersés écoles de poissons-appâts menhaden dans
-              la baie de Chesapeake, le mardi, lorsque les navires de pêche appartenant à
-              Omega Protein Corp étaient sur le point d'abandonner leurs filets sceine.</p>
-
-              <p>La flotte se composait de deux Omega avions spotter et quatre bateaux de
-              pêche, avec huit offres. Greenpeace est arrivé avec quatre se déplaçant
-              rapidement hors-bord de bateaux à moteur, monté par des militants qui ont tenté
-              treize pour chasser le poisson. La Garde côtière a été appelé et mis fin à la
-              confrontation pacifique.</p>
-
-              <p>La Société basée à Houston protéines Omega est le plus grand transformateur
-              et distributeur de menhaden riche en protéines et de produits d'huile de poisson
-              aux États-Unis. La société représente près de 90% de la totalité des captures
-              East Coast menhaden.</p>
-
-              <p>Un porte-parole de Omega Toby Gascon dit de Greenpeace, "Ils ont maintenant
-              démontré que leur véritable ordre du jour est à mettre Omega retirer des
-              affaires, même si cela signifie risquer la sécurité des pêcheurs d'Omega." Leur
-              flotte est hors de Reedville, en Virginie, maintenant un port de pêche haut des
-              États-Unis en raison de l'usine de transformation Omega récente a ouvert là-bas.
-              </p>
-
-              <p>La baie de Chesapeake menhaden sont considérés comme une source importante de
-              nourriture pour les espèces de poissons populaires auprès des pêcheurs sportifs.
-              Ils sont également, à côté des huîtres, une desserte Premier filtre dans les
-              eaux de la baie. La population Oyster Bay a subi des déclins drastiques de la
-              maladie au cours des deux dernières décennies. Les études de populations
-              menhaden sont toujours pas concluants que les scientifiques tentent de
-              déterminer le nombre total de la baie de menhaden.</p>
-
-              <p>Greenpeace affirme que l'espèce est près de leurs creux historiques et les
-              prédateurs qui en dépendent sur le poisson comme source de nourriture, tels que
-              le bar rayé, montrent des signes de souffrance de malnutrition et de mauvaise
-              condition physique.</p>
-
-              <p>Le Chesapeake Bay Foundation, un organisme sans but lucratif, ont fait
-              l'éloge de gouverneur du Maryland Robert Ehrlich, et le Département d'État des
-              Ressources naturelles. Ils ont obtenu un engagement des États-marine de
-              l'Atlantique de la Commission des pêches (ASMFC) à chercher un plafond sur la
-              récolte commerciale de l'Atlantique Menhaden.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Greenpeace_tries_to_thwart_Chesapeake_Bay_fishing_fleet
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 39d2aa09-0a83-40e7-bd4b-2fa43013745a
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /indonesienne-panne-causee-par-un-manque-de-capacite-de-production:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: ccb4fbf9-0b87-4828-bfd9-302c4d0c1792
-        hippo:name: Indonésienne panne causée par un manque de capacité de production
-        /indonesienne-panne-causee-par-un-manque-de-capacite-de-production:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 7f293882-008e-484c-8de3-6b4afd983052
-          hippo:availability: [live, preview]
-          hippogogreen:categories: [Energy]
-          hippogogreen:contentstage: desire
-          hippogogreen:date: 2014-08-20T10:22:00+02:00
-          hippogogreen:summary: Une panne de courant en Indonésie qui a laissé environ
-            100 millions de personnes sans électricité a provoqué une crise politique.
-            Monopole d'énergie du pays appartenant à l'État, PLN, n'a pas déterminé
-            la cause immédiate, et le président du pays a ordonné à l'agence nationale
-            de renseignement et de la police d'enquêter.
-          hippogogreen:title: Indonésienne panne causée par un manque de capacité
-            de production
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [politics, energy, blackout]
-          hippostdpubwf:createdBy: admin14
-          hippostdpubwf:creationDate: 2010-07-29T10:48:00+02:00
-          hippostdpubwf:lastModificationDate: 2014-05-23T14:52:00+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-05-23T14:52:00+02:00
-          hippotranslation:id: 54d4f7e9-5645-4514-8686-c2dac845a1b3
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Une panne de courant en Indonésie qui a laissé environ 100 millions de
-              personnes sans électricité a provoqué une crise politique. Monopole d'énergie du
-              pays appartenant à l'État, PLN, n'a pas déterminé la cause immédiate, et le
-              président du pays a ordonné à l'agence nationale de renseignement et de la
-              police d'enquêter.</p>
-
-              <p>La panne semble liée à des carences dans la capacité de l'Indonésie de
-              production d'électricité.</p>
-
-              <p>La panne de courant suit les tentatives pour faire face à la crise
-              énergétique du pays de plus en plus, y compris la conservation et à essayer de
-              permettre à des entreprises privées pour fournir de l'énergie, qui a été
-              déclarée inconstitutionnelle en 2004. En Janvier, le gouvernement indonésien a
-              tenu un sommet spécial d'énergie pour attirer les investissements dans leur
-              infrastructure énergétique. Au sommet, ils fixé l'objectif d'ajouter 22.000
-              mégawatts à la capacité actuelle de l'Indonésie de 23.000 mégawatts, afin de
-              soutenir la croissance du pays.</p>
-
-              <p>La Banque mondiale et d'autres ont averti que sans davantage
-              d'investissements dans l'infrastructure énergétique du pays un déficit
-              énergétique se traduira. Toutefois, les investisseurs étrangers restent
-              réticents à investir en Indonésie. "La panne d'électricité a donné lieu à plus
-              de soucis à une crise énergétique qui pourrait nuire à la nation secteur
-              industriel», a déclaré un trader sur les marchés boursiers de l'Indonésie. [1]
-              </p>
-
-              <p>La panne a commencé à 10:23 h, heure locale, Août 18, 2005, quand le pouvoir
-              a échoué le long du circuit électrique qui relie Java, Bali, et de Madura,
-              provoquant des pannes de Java et de Bali. Près de la moitié du pays dépend du
-              réseau électrique que les échecs expérimentés. Quelques-unes des grandes lignes
-              de la grille sont plus de 20 ans, selon le président de PLN Widiono Eddie.</p>
-
-              <p>Le black-out provoqué des embouteillages à Jakarta, a forcé l'annulation de
-              plusieurs vols internationaux et domestiques à l'aéroport de Jakarta
-              Soekarno-Hatta International, arrêtez de service de Jakarta train électrique, et
-              perturbé le fonctionnement des hôpitaux. Certains grands hôpitaux ont été
-              contraints de retarder la chirurgie alors que de nombreux petits hôpitaux ne
-              pouvaient pas recevoir les patients. Environ 1.800 policiers ont été appelés à
-              l'action par la police métropolitaine de Jakarta à faire face à court terme les
-              problèmes causés par la panne de courant.</p>
-
-              <p>Bougies utilisées à la place de l'éclairage électrique a commencé six feux à
-              Jakarta seul.</p>
-
-              <p>Mulyo Aji, un fonctionnaire de PLN, a déclaré pannes de courant
-              supplémentaires sont susceptibles à l'avenir que la demande augmente l'énergie,
-              sans aucun stock de correspondants de nouvelles de l'électricité devraient
-              entrer bientôt en ligne.</p>
-
-              </body>
-              </html>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Wikinews
-            hippogogreen:url: http://en.wikinews.org/wiki/Indonesian_blackout_caused_by_lack_of_generation_capacity
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-      /10-etapes-simples-pour-votre-bureau-vert:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: eb3df9aa-fee7-4894-b37e-74f9f4b71ce1
-        hippo:name: 10 étapes simples pour votre bureau vert
-        /10-etapes-simples-pour-votre-bureau-vert[1]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 26ad7980-936e-4816-b9af-3e541a49eb21
-          hippo:availability: [preview]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2014-08-28T13:23:00+02:00
-          hippogogreen:summary: 10 étapes simples pour votre bureau vertLa liste suivante
-            pour l'écologisation de votre bureau est loin d'être exhaustive, mais
-            une façon de commencer à faire de votre lieu de travail plus respectueux
-            de l'environnement.
-          hippogogreen:title: 10 étapes simples pour votre bureau vert
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:23:49.688+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:10:43.055+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<h2>1. Utilisation judicieuse de l&#39;&eacute;lectricit&eacute;.</h2>\
-              \ \n<p>&Eacute;teignez tous les ordinateurs, imprimantes, photocopieurs\
-              \ et autres &eacute;quipements qui ne doit pas &ecirc;tre laiss&eacute;\
-              \ sur &agrave; la fin de la journ&eacute;e et de les laisser jusqu&#39;&agrave;\
-              \ ce que vous avez besoin de les utiliser &agrave; nouveau. Assurez-vous\
-              \ que tous les ordinateurs / &eacute;crans sont livr&eacute;s avec leurs\
-              \ param&egrave;tres les plus &eacute;conomes en &eacute;nergie (par\
-              \ exemple, surveiller ensemble &agrave; s&#39;arr&ecirc;ter apr&egrave;s\
-              \ 15 minutes de non utilisation). Lorsque vous quittez une pi&egrave;ce\
-              \ pendant plus de quelques minutes, &eacute;teindre les lumi&egrave;res.\
-              \ Utilisez des ampoules fluorescentes compactes au lieu de celles &agrave;\
-              \ incandescence. Profitez de la lumi&egrave;re naturelle autant que\
-              \ possible.</p> \n<h2>2. R&eacute;duire, r&eacute;utiliser, recycler.</h2>\
-              \ \n<p>&laquo;R&eacute;duire, r&eacute;utiliser, recycler&raquo; signifie\
-              \ plus que de jeter vieux papier &agrave; lettres dans le bac bleu (si\
-              \ vous n&#39;avez pas arr&ecirc;ter de faire &ccedil;a). Vraiment penser\
-              \ &agrave; tout ce que vous utilisez. Avez-vous besoin des gobelets\
-              \ jetables &agrave; la fontaine d&#39;eau? Pouvez-vous utiliser l&#39;autre\
-              \ c&ocirc;t&eacute; des feuilles de papier usag&eacute; que vous avez\
-              \ jet&eacute;s dans la corbeille? L&#39;Australie a ajout&eacute; un\
-              \ quatri&egrave;me R - refuser. Autrement dit: Ne pas acheter des choses\
-              \ que vous n&#39;avez pas besoin. Et, quand vous faites un achat, apportez\
-              \ vos propres sacs.</p> \n<h2>3. Utilisez des produits de bureau respectueux\
-              \ de l&#39;environnement.</h2> \n<p>En moyenne, ils ne co&ucirc;tent\
-              \ que 5% de plus, ce qui est un petit prix &agrave; payer pour r&eacute;duire\
-              \ le gaspillage et la pollution. Commencez petit - 100% de papier recycl&eacute;,\
-              \ cartouches d&#39;encre rechargeables, surligneurs non-toxiques, etc\
-              \ Commander Frogfile &agrave; Vancouver comme un endroit id&eacute;al\
-              \ pour s&#39;approvisionner en produits de bureau qui vont facilement\
-              \ sur l&#39;environnement.</p> \n<h2>4. Utilisez des produits de nettoyage\
-              \ non toxiques.</h2> \n<p>Il existe de nombreuses marques disponibles\
-              \ de nos jours, tels que Nature Clean, Norwex, M&eacute;thode, Ecover,\
-              \ Orange TKO, et Solution Rose. Encouragez votre entreprise de nettoyage\
-              \ &agrave; utiliser des produits de nettoyage &eacute;cologiques et\
-              \ s&#39;ils le veulent pas, passer &agrave; l&#39;une des nombreuses\
-              \ entreprises qui font maintenant utiliser des produits respectueux\
-              \ de l&#39;environnement. Etude de cas: Novex Solutions de prestation\
-              \ pass&eacute;s &agrave; une entreprise de nettoyage vert lorsque leur\
-              \ ancien fournisseur a refus&eacute; et ils ont fini par &eacute;conomiser\
-              \ de l&#39;argent!</p> \n<h2>5. Faire des choix alimentaires respectueux\
-              \ de l&#39;environnement.</h2> \n<p>Encourager l&#39;utilisation de\
-              \ l&#39;alimentation 100-mile: d&#39;abord locale; organique pour les\
-              \ aliments de grande consommation. Lors de la commande le d&eacute;jeuner\
-              \ pour une r&eacute;union de bureau, que diriez-vous d&#39;aller v&eacute;g&eacute;tarien\
-              \ (ou v&eacute;g&eacute;talien m&ecirc;me, si vous osez)? R&eacute;duire\
-              \ la viande peut avoir un impact &eacute;norme sur la sant&eacute; de\
-              \ la plan&egrave;te. (Voir La r&eacute;volution alimentaire et EarthSave\
-              \ des statistiques et de l&#39;information.)</p> \n<h2>6. T&eacute;l&eacute;travail</h2>\
-              \ \n<p>Encourager le travail &agrave; domicile, en particulier pour\
-              \ les travailleurs qui seraient normalement conduire &agrave; travailler.\
-              \ Cela permet de r&eacute;duire la pollution et d&#39;augmenter la disponibilit&eacute;\
-              \ de temps.</p> \n<h2>7. Transport</h2> \n<p>Pour ceux qui ne viennent\
-              \ au bureau sur une base r&eacute;guli&egrave;re, encourager (et aider\
-              \ &agrave; organiser) le covoiturage, l&#39;utilisation du transport\
-              \ en commun, le v&eacute;lo ou la marche.</p> \n<h2>8. But pour un bureau\
-              \ sans papier.</h2> \n<p>Bien que le bureau sans papier peut encore\
-              \ sembler irr&eacute;aliste, au moins essayer de r&eacute;duire le mat&eacute;riel\
-              \ imprim&eacute; lorsque cela est possible. Lire &agrave; l&#39;&eacute;cran\
-              \ et que les documents d&#39;impression lorsque c&#39;est absolument\
-              \ n&eacute;cessaire. Utilisez uniquement 100% de contenu recycl&eacute;\
-              \ des produits de papier au bureau et lors de l&#39;obtention des documents\
-              \ de promotion professionnelle, demandez &agrave; votre imprimante pour\
-              \ papier certifi&eacute; FSC.</p> \n<h2>9. Instaurer un code vestimentaire\
-              \ d&eacute;contract&eacute;.</h2> \n<p>Ne pas avoir &agrave; porter\
-              \ des costumes en mois chauds d&#39;&eacute;t&eacute; peut aider &agrave;\
-              \ r&eacute;duire les co&ucirc;ts de refroidissement (et faire un lieu\
-              \ de travail plus heureux).</p> \n<h2>10. Le commerce &eacute;quitable\
-              \ et biologique.</h2> \n<p>Acheter un commerce &eacute;quitable, caf&eacute;\
-              \ biologique et th&eacute;s pour le bureau. Si les employ&eacute;s pr&eacute;f&egrave;rent\
-              \ sortir pour leurs boissons chaudes, les encourager &agrave; prendre\
-              \ leurs propres tasses. La plupart des caf&eacute;s offrent un petit\
-              \ rabais aux clients qui le font. Plus important encore est la r&eacute;duction\
-              \ des d&eacute;chets de ne pas avoir &agrave; jeter en papier ou en\
-              \ styromousse.</p>"
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: nrichmedia
-            hippogogreen:url: http://www.nrichmedia.com/articles/social/green-your-office.php
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: ae367024-acb5-478d-a4c8-d946fb95f0f4
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /10-etapes-simples-pour-votre-bureau-vert[2]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: fcd4af9a-67ad-4cfc-b15d-08da0bf0ae85
-          hippo:availability: []
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2014-08-28T13:23:00+02:00
-          hippogogreen:summary: 10 étapes simples pour votre bureau vertLa liste suivante
-            pour l'écologisation de votre bureau est loin d'être exhaustive, mais
-            une façon de commencer à faire de votre lieu de travail plus respectueux
-            de l'environnement.
-          hippogogreen:title: 10 étapes simples pour votre bureau vert
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:23:49.688+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:08:44.055+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<h2>1. Utilisation judicieuse de l&#39;&eacute;lectricit&eacute;.</h2>\
-              \ \n<p>&Eacute;teignez tous les ordinateurs, imprimantes, photocopieurs\
-              \ et autres &eacute;quipements qui ne doit pas &ecirc;tre laiss&eacute;\
-              \ sur &agrave; la fin de la journ&eacute;e et de les laisser jusqu&#39;&agrave;\
-              \ ce que vous avez besoin de les utiliser &agrave; nouveau. Assurez-vous\
-              \ que tous les ordinateurs / &eacute;crans sont livr&eacute;s avec leurs\
-              \ param&egrave;tres les plus &eacute;conomes en &eacute;nergie (par\
-              \ exemple, surveiller ensemble &agrave; s&#39;arr&ecirc;ter apr&egrave;s\
-              \ 15 minutes de non utilisation). Lorsque vous quittez une pi&egrave;ce\
-              \ pendant plus de quelques minutes, &eacute;teindre les lumi&egrave;res.\
-              \ Utilisez des ampoules fluorescentes compactes au lieu de celles &agrave;\
-              \ incandescence. Profitez de la lumi&egrave;re naturelle autant que\
-              \ possible.</p> \n<h2>2. R&eacute;duire, r&eacute;utiliser, recycler.</h2>\
-              \ \n<p>&laquo;R&eacute;duire, r&eacute;utiliser, recycler&raquo; signifie\
-              \ plus que de jeter vieux papier &agrave; lettres dans le bac bleu (si\
-              \ vous n&#39;avez pas arr&ecirc;ter de faire &ccedil;a). Vraiment penser\
-              \ &agrave; tout ce que vous utilisez. Avez-vous besoin des gobelets\
-              \ jetables &agrave; la fontaine d&#39;eau? Pouvez-vous utiliser l&#39;autre\
-              \ c&ocirc;t&eacute; des feuilles de papier usag&eacute; que vous avez\
-              \ jet&eacute;s dans la corbeille? L&#39;Australie a ajout&eacute; un\
-              \ quatri&egrave;me R - refuser. Autrement dit: Ne pas acheter des choses\
-              \ que vous n&#39;avez pas besoin. Et, quand vous faites un achat, apportez\
-              \ vos propres sacs.</p> \n<h2>3. Utilisez des produits de bureau respectueux\
-              \ de l&#39;environnement.</h2> \n<p>En moyenne, ils ne co&ucirc;tent\
-              \ que 5% de plus, ce qui est un petit prix &agrave; payer pour r&eacute;duire\
-              \ le gaspillage et la pollution. Commencez petit - 100% de papier recycl&eacute;,\
-              \ cartouches d&#39;encre rechargeables, surligneurs non-toxiques, etc\
-              \ Commander Frogfile &agrave; Vancouver comme un endroit id&eacute;al\
-              \ pour s&#39;approvisionner en produits de bureau qui vont facilement\
-              \ sur l&#39;environnement.</p> \n<h2>4. Utilisez des produits de nettoyage\
-              \ non toxiques.</h2> \n<p>Il existe de nombreuses marques disponibles\
-              \ de nos jours, tels que Nature Clean, Norwex, M&eacute;thode, Ecover,\
-              \ Orange TKO, et Solution Rose. Encouragez votre entreprise de nettoyage\
-              \ &agrave; utiliser des produits de nettoyage &eacute;cologiques et\
-              \ s&#39;ils le veulent pas, passer &agrave; l&#39;une des nombreuses\
-              \ entreprises qui font maintenant utiliser des produits respectueux\
-              \ de l&#39;environnement. Etude de cas: Novex Solutions de prestation\
-              \ pass&eacute;s &agrave; une entreprise de nettoyage vert lorsque leur\
-              \ ancien fournisseur a refus&eacute; et ils ont fini par &eacute;conomiser\
-              \ de l&#39;argent!</p> \n<h2>5. Faire des choix alimentaires respectueux\
-              \ de l&#39;environnement.</h2> \n<p>Encourager l&#39;utilisation de\
-              \ l&#39;alimentation 100-mile: d&#39;abord locale; organique pour les\
-              \ aliments de grande consommation. Lors de la commande le d&eacute;jeuner\
-              \ pour une r&eacute;union de bureau, que diriez-vous d&#39;aller v&eacute;g&eacute;tarien\
-              \ (ou v&eacute;g&eacute;talien m&ecirc;me, si vous osez)? R&eacute;duire\
-              \ la viande peut avoir un impact &eacute;norme sur la sant&eacute; de\
-              \ la plan&egrave;te. (Voir La r&eacute;volution alimentaire et EarthSave\
-              \ des statistiques et de l&#39;information.)</p> \n<h2>6. T&eacute;l&eacute;travail</h2>\
-              \ \n<p>Encourager le travail &agrave; domicile, en particulier pour\
-              \ les travailleurs qui seraient normalement conduire &agrave; travailler.\
-              \ Cela permet de r&eacute;duire la pollution et d&#39;augmenter la disponibilit&eacute;\
-              \ de temps.</p> \n<h2>7. Transport</h2> \n<p>Pour ceux qui ne viennent\
-              \ au bureau sur une base r&eacute;guli&egrave;re, encourager (et aider\
-              \ &agrave; organiser) le covoiturage, l&#39;utilisation du transport\
-              \ en commun, le v&eacute;lo ou la marche.</p> \n<h2>8. But pour un bureau\
-              \ sans papier.</h2> \n<p>Bien que le bureau sans papier peut encore\
-              \ sembler irr&eacute;aliste, au moins essayer de r&eacute;duire le mat&eacute;riel\
-              \ imprim&eacute; lorsque cela est possible. Lire &agrave; l&#39;&eacute;cran\
-              \ et que les documents d&#39;impression lorsque c&#39;est absolument\
-              \ n&eacute;cessaire. Utilisez uniquement 100% de contenu recycl&eacute;\
-              \ des produits de papier au bureau et lors de l&#39;obtention des documents\
-              \ de promotion professionnelle, demandez &agrave; votre imprimante pour\
-              \ papier certifi&eacute; FSC.</p> \n<h2>9. Instaurer un code vestimentaire\
-              \ d&eacute;contract&eacute;.</h2> \n<p>Ne pas avoir &agrave; porter\
-              \ des costumes en mois chauds d&#39;&eacute;t&eacute; peut aider &agrave;\
-              \ r&eacute;duire les co&ucirc;ts de refroidissement (et faire un lieu\
-              \ de travail plus heureux).</p> \n<h2>10. Le commerce &eacute;quitable\
-              \ et biologique.</h2> \n<p>Acheter un commerce &eacute;quitable, caf&eacute;\
-              \ biologique et th&eacute;s pour le bureau. Si les employ&eacute;s pr&eacute;f&egrave;rent\
-              \ sortir pour leurs boissons chaudes, les encourager &agrave; prendre\
-              \ leurs propres tasses. La plupart des caf&eacute;s offrent un petit\
-              \ rabais aux clients qui le font. Plus important encore est la r&eacute;duction\
-              \ des d&eacute;chets de ne pas avoir &agrave; jeter en papier ou en\
-              \ styromousse.</p>"
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: nrichmedia
-            hippogogreen:url: http://www.nrichmedia.com/articles/social/green-your-office.php
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: ae367024-acb5-478d-a4c8-d946fb95f0f4
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /10-etapes-simples-pour-votre-bureau-vert[3]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 0d02378e-1445-439b-a718-fbc2df4fea01
-          hippo:availability: [live]
-          hippogogreen:categories: [Office]
-          hippogogreen:contentstage: action
-          hippogogreen:date: 2014-08-28T13:23:00+02:00
-          hippogogreen:summary: 10 étapes simples pour votre bureau vertLa liste suivante
-            pour l'écologisation de votre bureau est loin d'être exhaustive, mais
-            une façon de commencer à faire de votre lieu de travail plus respectueux
-            de l'environnement.
-          hippogogreen:title: 10 étapes simples pour votre bureau vert
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:23:49.688+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:10:43.055+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-06T17:10:44.992+02:00
-          hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: "<h2>1. Utilisation judicieuse de l&#39;&eacute;lectricit&eacute;.</h2>\
-              \ \n<p>&Eacute;teignez tous les ordinateurs, imprimantes, photocopieurs\
-              \ et autres &eacute;quipements qui ne doit pas &ecirc;tre laiss&eacute;\
-              \ sur &agrave; la fin de la journ&eacute;e et de les laisser jusqu&#39;&agrave;\
-              \ ce que vous avez besoin de les utiliser &agrave; nouveau. Assurez-vous\
-              \ que tous les ordinateurs / &eacute;crans sont livr&eacute;s avec leurs\
-              \ param&egrave;tres les plus &eacute;conomes en &eacute;nergie (par\
-              \ exemple, surveiller ensemble &agrave; s&#39;arr&ecirc;ter apr&egrave;s\
-              \ 15 minutes de non utilisation). Lorsque vous quittez une pi&egrave;ce\
-              \ pendant plus de quelques minutes, &eacute;teindre les lumi&egrave;res.\
-              \ Utilisez des ampoules fluorescentes compactes au lieu de celles &agrave;\
-              \ incandescence. Profitez de la lumi&egrave;re naturelle autant que\
-              \ possible.</p> \n<h2>2. R&eacute;duire, r&eacute;utiliser, recycler.</h2>\
-              \ \n<p>&laquo;R&eacute;duire, r&eacute;utiliser, recycler&raquo; signifie\
-              \ plus que de jeter vieux papier &agrave; lettres dans le bac bleu (si\
-              \ vous n&#39;avez pas arr&ecirc;ter de faire &ccedil;a). Vraiment penser\
-              \ &agrave; tout ce que vous utilisez. Avez-vous besoin des gobelets\
-              \ jetables &agrave; la fontaine d&#39;eau? Pouvez-vous utiliser l&#39;autre\
-              \ c&ocirc;t&eacute; des feuilles de papier usag&eacute; que vous avez\
-              \ jet&eacute;s dans la corbeille? L&#39;Australie a ajout&eacute; un\
-              \ quatri&egrave;me R - refuser. Autrement dit: Ne pas acheter des choses\
-              \ que vous n&#39;avez pas besoin. Et, quand vous faites un achat, apportez\
-              \ vos propres sacs.</p> \n<h2>3. Utilisez des produits de bureau respectueux\
-              \ de l&#39;environnement.</h2> \n<p>En moyenne, ils ne co&ucirc;tent\
-              \ que 5% de plus, ce qui est un petit prix &agrave; payer pour r&eacute;duire\
-              \ le gaspillage et la pollution. Commencez petit - 100% de papier recycl&eacute;,\
-              \ cartouches d&#39;encre rechargeables, surligneurs non-toxiques, etc\
-              \ Commander Frogfile &agrave; Vancouver comme un endroit id&eacute;al\
-              \ pour s&#39;approvisionner en produits de bureau qui vont facilement\
-              \ sur l&#39;environnement.</p> \n<h2>4. Utilisez des produits de nettoyage\
-              \ non toxiques.</h2> \n<p>Il existe de nombreuses marques disponibles\
-              \ de nos jours, tels que Nature Clean, Norwex, M&eacute;thode, Ecover,\
-              \ Orange TKO, et Solution Rose. Encouragez votre entreprise de nettoyage\
-              \ &agrave; utiliser des produits de nettoyage &eacute;cologiques et\
-              \ s&#39;ils le veulent pas, passer &agrave; l&#39;une des nombreuses\
-              \ entreprises qui font maintenant utiliser des produits respectueux\
-              \ de l&#39;environnement. Etude de cas: Novex Solutions de prestation\
-              \ pass&eacute;s &agrave; une entreprise de nettoyage vert lorsque leur\
-              \ ancien fournisseur a refus&eacute; et ils ont fini par &eacute;conomiser\
-              \ de l&#39;argent!</p> \n<h2>5. Faire des choix alimentaires respectueux\
-              \ de l&#39;environnement.</h2> \n<p>Encourager l&#39;utilisation de\
-              \ l&#39;alimentation 100-mile: d&#39;abord locale; organique pour les\
-              \ aliments de grande consommation. Lors de la commande le d&eacute;jeuner\
-              \ pour une r&eacute;union de bureau, que diriez-vous d&#39;aller v&eacute;g&eacute;tarien\
-              \ (ou v&eacute;g&eacute;talien m&ecirc;me, si vous osez)? R&eacute;duire\
-              \ la viande peut avoir un impact &eacute;norme sur la sant&eacute; de\
-              \ la plan&egrave;te. (Voir La r&eacute;volution alimentaire et EarthSave\
-              \ des statistiques et de l&#39;information.)</p> \n<h2>6. T&eacute;l&eacute;travail</h2>\
-              \ \n<p>Encourager le travail &agrave; domicile, en particulier pour\
-              \ les travailleurs qui seraient normalement conduire &agrave; travailler.\
-              \ Cela permet de r&eacute;duire la pollution et d&#39;augmenter la disponibilit&eacute;\
-              \ de temps.</p> \n<h2>7. Transport</h2> \n<p>Pour ceux qui ne viennent\
-              \ au bureau sur une base r&eacute;guli&egrave;re, encourager (et aider\
-              \ &agrave; organiser) le covoiturage, l&#39;utilisation du transport\
-              \ en commun, le v&eacute;lo ou la marche.</p> \n<h2>8. But pour un bureau\
-              \ sans papier.</h2> \n<p>Bien que le bureau sans papier peut encore\
-              \ sembler irr&eacute;aliste, au moins essayer de r&eacute;duire le mat&eacute;riel\
-              \ imprim&eacute; lorsque cela est possible. Lire &agrave; l&#39;&eacute;cran\
-              \ et que les documents d&#39;impression lorsque c&#39;est absolument\
-              \ n&eacute;cessaire. Utilisez uniquement 100% de contenu recycl&eacute;\
-              \ des produits de papier au bureau et lors de l&#39;obtention des documents\
-              \ de promotion professionnelle, demandez &agrave; votre imprimante pour\
-              \ papier certifi&eacute; FSC.</p> \n<h2>9. Instaurer un code vestimentaire\
-              \ d&eacute;contract&eacute;.</h2> \n<p>Ne pas avoir &agrave; porter\
-              \ des costumes en mois chauds d&#39;&eacute;t&eacute; peut aider &agrave;\
-              \ r&eacute;duire les co&ucirc;ts de refroidissement (et faire un lieu\
-              \ de travail plus heureux).</p> \n<h2>10. Le commerce &eacute;quitable\
-              \ et biologique.</h2> \n<p>Acheter un commerce &eacute;quitable, caf&eacute;\
-              \ biologique et th&eacute;s pour le bureau. Si les employ&eacute;s pr&eacute;f&egrave;rent\
-              \ sortir pour leurs boissons chaudes, les encourager &agrave; prendre\
-              \ leurs propres tasses. La plupart des caf&eacute;s offrent un petit\
-              \ rabais aux clients qui le font. Plus important encore est la r&eacute;duction\
-              \ des d&eacute;chets de ne pas avoir &agrave; jeter en papier ou en\
-              \ styromousse.</p>"
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: nrichmedia
-            hippogogreen:url: http://www.nrichmedia.com/articles/social/green-your-office.php
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: ae367024-acb5-478d-a4c8-d946fb95f0f4
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /conseils-pour-la-planification-de-levenement-ecologique:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 76bf4bbd-d6e1-409f-afd7-9528c7a70480
-        hippo:name: Conseils pour la planification de l'événement Écologique
-        /conseils-pour-la-planification-de-levenement-ecologique[1]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:versionable']
-          jcr:uuid: 283ae478-01ca-42f8-9211-8d62a9138dd7
-          hippo:availability: [preview]
-          hippogogreen:categories: [Family, Home]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-08-18T16:32:00+02:00
-          hippogogreen:summary: Il peut être tentant de choisir la commodité plus
-            respectueux de l'environnement lors de la planification des parties, des
-            pique-niques ou toute autre célébration avec une grande liste de clients.
-            Heureusement, grâce à ces conseils de planification d'événements éco-responsables
-            simples, vous pouvez avoir le meilleur des deux mondes.
-          hippogogreen:title: Conseils pour la planification de l'événement Écologique
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:04:38.332+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:12:32.287+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>1. Envoyer des invitations en ligne, si possible, ou utilisez des invitations en papier recycl&eacute; si le papier est un must.
-              <br /> 2. D&eacute;corer consciemment. Il utilise beaucoup d&#39;&eacute;nergie pour la fabrication de d&eacute;corations de f&ecirc;te. Au lieu de cela, choisir un lieu qui est d&eacute;j&agrave; pas mal, et ajouter de petits d&eacute;tails comme les articles de magasins de seconde main r&eacute;utilis&eacute;s, bouteilles de vin peintes comme des vases ou des jolies pierres, coquillages, morceaux de bois flott&eacute; ou des bols de fruits de saison.
-              <br /> 3. Envisagez d&#39;utiliser des plaques r&eacute;utilisables et couverts sur jetable. Toutefois, si vous devez utiliser des plaques et / ou ustensiles jetables, choisissez une option biod&eacute;gradable comme celles-ci et celles-ci.
-              <br /> 4. Le cas &eacute;ch&eacute;ant, servir des amuse-gueules donc pas les ustensiles sont n&eacute;cessaires.
-              <br /> 5. &Eacute;vitez les boissons en bouteille ou en conserve. Au lieu de faire ou acheter des boissons dans des contenants en vrac. De cette fa&ccedil;on, vous pouvez fournir des lunettes ou encourager les clients &agrave; apporter leur propre bouteille d&#39;eau r&eacute;utilisable. Si vous devez utiliser des gobelets jetables, encore une fois, choisissez ceux qui sont biod&eacute;gradables comme celles-ci.
-              <br /> 6. Utilisez des serviettes en lin et des nappes &agrave; la place de papier. Vous pourriez peut-&ecirc;tre m&ecirc;me trouver des gratuits sur freecycle.com.
-              <br /> 7. Donnez faveurs respectueux de l&#39;environnement. Si vous donnez &agrave; vos invit&eacute;s des cotillons, opter pour bocaux remplis de friandises ou des cartes d&#39;endroit, menus ou programmes imprim&eacute;s sur du papier de fleurs sauvages plantable comme &ccedil;a.
-              <br /> 8. Utiliser des plantes &agrave; fleurs en direct ou des herbes en pot comme centres au lieu de fleurs coup&eacute;es. Celles-ci pourraient doubler comme des faveurs du parti, trop.
-              <br /> 9. Planifiez votre menu avec des aliments cultiv&eacute;s et &eacute;lev&eacute;s localement. Ceci permettra de r&eacute;duire les &eacute;missions de viande exp&eacute;dition, produire, etc de loin.
-              <br /> 10. Avez bacs de recyclage facilement accessible pour tous les &eacute;l&eacute;ments qui peuvent &ecirc;tre jetable.
-              <br /> 11. Allumez votre &eacute;v&eacute;nement avec des bougies de cire d&#39;abeille.
-              <br /> 12. pratiques de nettoyage &eacute;cologique. Utilisez des produits de nettoyage respectueux de l&#39;environnement comme celles pr&eacute;sentes nettoyer apr&egrave;s votre &eacute;v&eacute;nement, et donner ou congeler les restes de nourriture pour r&eacute;duire les d&eacute;chets.
-              <br /> Avez-vous des conseils suppl&eacute;mentaires de planification de l&#39;&eacute;v&eacute;nement respectueux de l&#39;environnement? Si c&#39;est le cas, n&#39;h&eacute;sitez pas &agrave; les partager dans les commentaires!</p>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Caretactics
-            hippogogreen:url: http://caretacticsblog.com/12-tips-ecofriendly-event-planning/
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 9345aa6f-c37f-4ecb-80df-02908ad4795c
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /conseils-pour-la-planification-de-levenement-ecologique[2]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 4580be29-28e4-4999-9b6f-798d0f460cc7
-          hippo:availability: []
-          hippogogreen:categories: [Family, Home]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-08-18T16:32:00+02:00
-          hippogogreen:summary: Il peut être tentant de choisir la commodité plus
-            respectueux de l'environnement lors de la planification des parties, des
-            pique-niques ou toute autre célébration avec une grande liste de clients.
-            Heureusement, grâce à ces conseils de planification d'événements éco-responsables
-            simples, vous pouvez avoir le meilleur des deux mondes.
-          hippogogreen:title: Conseils pour la planification de l'événement Écologique
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:04:38.332+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:11:08.449+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>1. Envoyer des invitations en ligne, si possible, ou utilisez des invitations en papier recycl&eacute; si le papier est un must.
-              <br /> 2. D&eacute;corer consciemment. Il utilise beaucoup d&#39;&eacute;nergie pour la fabrication de d&eacute;corations de f&ecirc;te. Au lieu de cela, choisir un lieu qui est d&eacute;j&agrave; pas mal, et ajouter de petits d&eacute;tails comme les articles de magasins de seconde main r&eacute;utilis&eacute;s, bouteilles de vin peintes comme des vases ou des jolies pierres, coquillages, morceaux de bois flott&eacute; ou des bols de fruits de saison.
-              <br /> 3. Envisagez d&#39;utiliser des plaques r&eacute;utilisables et couverts sur jetable. Toutefois, si vous devez utiliser des plaques et / ou ustensiles jetables, choisissez une option biod&eacute;gradable comme celles-ci et celles-ci.
-              <br /> 4. Le cas &eacute;ch&eacute;ant, servir des amuse-gueules donc pas les ustensiles sont n&eacute;cessaires.
-              <br /> 5. &Eacute;vitez les boissons en bouteille ou en conserve. Au lieu de faire ou acheter des boissons dans des contenants en vrac. De cette fa&ccedil;on, vous pouvez fournir des lunettes ou encourager les clients &agrave; apporter leur propre bouteille d&#39;eau r&eacute;utilisable. Si vous devez utiliser des gobelets jetables, encore une fois, choisissez ceux qui sont biod&eacute;gradables comme celles-ci.
-              <br /> 6. Utilisez des serviettes en lin et des nappes &agrave; la place de papier. Vous pourriez peut-&ecirc;tre m&ecirc;me trouver des gratuits sur freecycle.com.
-              <br /> 7. Donnez faveurs respectueux de l&#39;environnement. Si vous donnez &agrave; vos invit&eacute;s des cotillons, opter pour bocaux remplis de friandises ou des cartes d&#39;endroit, menus ou programmes imprim&eacute;s sur du papier de fleurs sauvages plantable comme &ccedil;a.
-              <br /> 8. Utiliser des plantes &agrave; fleurs en direct ou des herbes en pot comme centres au lieu de fleurs coup&eacute;es. Celles-ci pourraient doubler comme des faveurs du parti, trop.
-              <br /> 9. Planifiez votre menu avec des aliments cultiv&eacute;s et &eacute;lev&eacute;s localement. Ceci permettra de r&eacute;duire les &eacute;missions de viande exp&eacute;dition, produire, etc de loin.
-              <br /> 10. Avez bacs de recyclage facilement accessible pour tous les &eacute;l&eacute;ments qui peuvent &ecirc;tre jetable.
-              <br /> 11. Allumez votre &eacute;v&eacute;nement avec des bougies de cire d&#39;abeille.
-              <br /> 12. pratiques de nettoyage &eacute;cologique. Utilisez des produits de nettoyage respectueux de l&#39;environnement comme celles pr&eacute;sentes nettoyer apr&egrave;s votre &eacute;v&eacute;nement, et donner ou congeler les restes de nourriture pour r&eacute;duire les d&eacute;chets.
-              <br /> Avez-vous des conseils suppl&eacute;mentaires de planification de l&#39;&eacute;v&eacute;nement respectueux de l&#39;environnement? Si c&#39;est le cas, n&#39;h&eacute;sitez pas &agrave; les partager dans les commentaires!</p>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Caretactics
-            hippogogreen:url: http://caretacticsblog.com/12-tips-ecofriendly-event-planning/
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 9345aa6f-c37f-4ecb-80df-02908ad4795c
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /conseils-pour-la-planification-de-levenement-ecologique[3]:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: c7fb41da-dac0-44e9-ae0a-41ab0297e0a2
-          hippo:availability: [live]
-          hippogogreen:categories: [Family, Home]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-08-18T16:32:00+02:00
-          hippogogreen:summary: Il peut être tentant de choisir la commodité plus
-            respectueux de l'environnement lors de la planification des parties, des
-            pique-niques ou toute autre célébration avec une grande liste de clients.
-            Heureusement, grâce à ces conseils de planification d'événements éco-responsables
-            simples, vous pouvez avoir le meilleur des deux mondes.
-          hippogogreen:title: Conseils pour la planification de l'événement Écologique
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:04:38.332+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:12:32.287+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-06T17:12:34.901+02:00
-          hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>1. Envoyer des invitations en ligne, si possible, ou utilisez des invitations en papier recycl&eacute; si le papier est un must.
-              <br /> 2. D&eacute;corer consciemment. Il utilise beaucoup d&#39;&eacute;nergie pour la fabrication de d&eacute;corations de f&ecirc;te. Au lieu de cela, choisir un lieu qui est d&eacute;j&agrave; pas mal, et ajouter de petits d&eacute;tails comme les articles de magasins de seconde main r&eacute;utilis&eacute;s, bouteilles de vin peintes comme des vases ou des jolies pierres, coquillages, morceaux de bois flott&eacute; ou des bols de fruits de saison.
-              <br /> 3. Envisagez d&#39;utiliser des plaques r&eacute;utilisables et couverts sur jetable. Toutefois, si vous devez utiliser des plaques et / ou ustensiles jetables, choisissez une option biod&eacute;gradable comme celles-ci et celles-ci.
-              <br /> 4. Le cas &eacute;ch&eacute;ant, servir des amuse-gueules donc pas les ustensiles sont n&eacute;cessaires.
-              <br /> 5. &Eacute;vitez les boissons en bouteille ou en conserve. Au lieu de faire ou acheter des boissons dans des contenants en vrac. De cette fa&ccedil;on, vous pouvez fournir des lunettes ou encourager les clients &agrave; apporter leur propre bouteille d&#39;eau r&eacute;utilisable. Si vous devez utiliser des gobelets jetables, encore une fois, choisissez ceux qui sont biod&eacute;gradables comme celles-ci.
-              <br /> 6. Utilisez des serviettes en lin et des nappes &agrave; la place de papier. Vous pourriez peut-&ecirc;tre m&ecirc;me trouver des gratuits sur freecycle.com.
-              <br /> 7. Donnez faveurs respectueux de l&#39;environnement. Si vous donnez &agrave; vos invit&eacute;s des cotillons, opter pour bocaux remplis de friandises ou des cartes d&#39;endroit, menus ou programmes imprim&eacute;s sur du papier de fleurs sauvages plantable comme &ccedil;a.
-              <br /> 8. Utiliser des plantes &agrave; fleurs en direct ou des herbes en pot comme centres au lieu de fleurs coup&eacute;es. Celles-ci pourraient doubler comme des faveurs du parti, trop.
-              <br /> 9. Planifiez votre menu avec des aliments cultiv&eacute;s et &eacute;lev&eacute;s localement. Ceci permettra de r&eacute;duire les &eacute;missions de viande exp&eacute;dition, produire, etc de loin.
-              <br /> 10. Avez bacs de recyclage facilement accessible pour tous les &eacute;l&eacute;ments qui peuvent &ecirc;tre jetable.
-              <br /> 11. Allumez votre &eacute;v&eacute;nement avec des bougies de cire d&#39;abeille.
-              <br /> 12. pratiques de nettoyage &eacute;cologique. Utilisez des produits de nettoyage respectueux de l&#39;environnement comme celles pr&eacute;sentes nettoyer apr&egrave;s votre &eacute;v&eacute;nement, et donner ou congeler les restes de nourriture pour r&eacute;duire les d&eacute;chets.
-              <br /> Avez-vous des conseils suppl&eacute;mentaires de planification de l&#39;&eacute;v&eacute;nement respectueux de l&#39;environnement? Si c&#39;est le cas, n&#39;h&eacute;sitez pas &agrave; les partager dans les commentaires!</p>
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: Caretactics
-            hippogogreen:url: http://caretacticsblog.com/12-tips-ecofriendly-event-planning/
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 9345aa6f-c37f-4ecb-80df-02908ad4795c
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-    /06:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 5c877759-a5d7-4a39-a0c9-a798fbe5179c
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: fe87127d-1ca9-4e5d-a2d0-7ceb0f4bc7eb
-      hippotranslation:locale: fr
-      /nasa-solaire-voile-passe-dabord-test-majeur:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: 2a2bcb77-4ad1-4233-94f2-b68dd7e20a5e
-        hippo:name: NASA solaire voile passe d'abord test majeur
-        /nasa-solaire-voile-passe-dabord-test-majeur:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: e0e3865d-cbe0-4c81-a859-d79b6df3ea8a
-          hippo:availability: [live, preview]
-          hippogogreen:contentstage: awareness
-          hippogogreen:date: 2014-06-02T10:22:00+02:00
-          hippogogreen:summary: La NASA a complété un test majeur d'un 20-mètres carrés
-            de voile solaire, marquant une "étape cruciale" dans la technologie de
-            la propulsion spatiale. Il n'est pas le premier à tester les voiles solaires,
-            comme les Japonais ont déployé deux voiles solaires dans l'espace. La
-            Planetary Society est la planification sur le lancement d'une voile solaire
-            peut-être par Juin 21.
-          hippogogreen:title: NASA solaire voile passe d'abord test majeur
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostd:tags: [technology]
-          hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2010-07-20T16:16:00+02:00
-          hippostdpubwf:lastModificationDate: 2014-05-23T15:10:00+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-05-23T15:10:00+02:00
-          hippotranslation:id: 3e6805d4-75e8-43c4-8dca-39e39e7f90f2
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>Tourné en orbite par un missile converti balistique intercontinental (ICBM),
-              le Cosmos 1 sera lancé à partir d'un sous-marin immergé de Russie au sein de la
-              mer de Barents. Le vaisseau spatial, alimenté par la voile, n'aura pas de
-              destination. Le but est simplement de tester le système de propulsion qui
-              utilise la pression de particules de lumière solaire pour déplacer le navire
-              vers l'extérieur à partir d'une orbite de départ autour de la terre à 500 miles.
-              </p>
-
-              <p>La technologie de propulsion est actuellement considéré comme le plus
-              efficace disponible pour voyager dans l'espace interstellaire. Théoriquement un
-              métier propulsé par la pression d'une source de lumière constante, tel qu'un
-              laser spécialement conçu, peut atteindre une vitesse approchant la vitesse de la
-              lumière. Cela est dû à l'efficacité de l'engin spatial ne pas avoir à porter son
-              propre carburant. En approchant de la vitesse de la lumière, cependant,
-              nécessitent une longue période d'accélération constante. Cette grande vitesse
-              sera impossible pour les véhicules d'essai actuels et toute lancées dans un
-              avenir prévisible, car elles reposent sur la lumière du Soleil, qui devient
-              rapidement plus faible que la distance augmente.</p>
-
-              <p>Selon les Nouvelles de National Geographic, "la NASA, l'Agence spatiale
-              européenne, le Japon et la Russie ont tous développé des voiles solaires, mais
-              aucun n'a encore essayé de prouver que les voiles peuvent propulser un engin
-              spatial en vertu de vol contrôlé."</p>
-
-              </body>
-              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 5044a402-5412-4c76-a069-bdf2aa2d2764
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-    /04:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 5c688709-2372-4aa6-ab06-3cd0b5d43dd5
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 9e3441c2-8b73-4bc2-903e-3eea2a1bf107
-      hippotranslation:locale: fr
-      /us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-        jcr:uuid: a4e55c08-6a74-493e-b8a4-6c702a4f9e90
-        hippo:name: US comité de la Chambre approuve la modification, heure avancée
-          de
-        /us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de:
-          jcr:primaryType: hippogogreen:blogitem
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 6ea94e60-3fd1-4f09-8f61-25bfd8bebe24
-          hippo:availability: [live, preview]
-          hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-04-07T10:22:00+02:00
-          hippogogreen:summary: Le US House Energy and Commerce Committee a adopté
-            un amendement, le mercredi de prolonger l'heure d'été de deux mois. La
-            mesure bipartite est parrainé par Fred Upton Rep, républicain du Michigan,
-            et le représentant Ed Markey, démocrate du Massachusetts.
-          hippogogreen:title: US comité de la Chambre approuve la modification, heure
-            avancée de
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostdpubwf:createdBy: Katja de Wit
-          hippostdpubwf:creationDate: 2010-07-20T14:39:00+02:00
-          hippostdpubwf:lastModificationDate: 2014-05-23T15:25:00+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-05-23T15:26:00+02:00
-          hippotranslation:id: 0e91d753-9d13-40c8-b5b1-41dbabebada8
-          hippotranslation:locale: fr
-          /hippogogreen:description:
-            jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <html>
-              <body>
-
-              <p>"Le plus de lumière que nous avons, le moins d'électricité que nous
-              utilisons," Rep Ed Markey a déclaré. Markey a également appuyé la mesure en
-              soulignant les avantages pour l'entreprise. "Il n'y a plus d'activité
-              économique, parce que les gens sentent qu'ils peuvent se promener en toute
-              sécurité", at-il dit.</p>
-
-              <p>«L'extension de l'heure d'été est logique, surtout de la flambée des coûts
-              énergétiques», Rép Fred Upton dit.</p>
-
-              <p>Le projet de loi étend l'heure d'été pour commencer sur le premier dimanche
-              de Mars et se termine le dernier dimanche de Novembre. L'heure d'été commence
-              actuellement le premier dimanche d'Avril et se termine le premier dimanche
-              d'Octobre.</p>
-
-              <p>Le US Department of Transportation estime que l'extension de l'heure d'été
-              permettrait d'économiser 10.000 barils de pétrole par jour. Les Etats-Unis
-              consomme environ 20 millions de barils de pétrole par jour.</p>
-
-              <p>La Chambre est d'approuver la planification de la facture énergétique à
-              laquelle l'amendement a été fixé dans quelques semaines. Plusieurs autres
-              amendements au projet de loi sont encore débattues.</p>
-
-              </body>
-              </html>
-          /relateddocs:docs:
-            jcr:primaryType: relateddocs:docs
-          /hippogogreen:copyright:
-            jcr:primaryType: hippogogreen:copyright
-            hippogogreen:description: ''
-            hippogogreen:url: http://en.wikinews.org/wiki/US_House_committee_approves_daylight_saving_time_amendment
-          /hippogogreen:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 2ac72a9e-1558-49c3-b8f5-01019e57703d
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
     /09:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -1860,7 +1029,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Home, Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-09-02T13:38:00+02:00
+          hippogogreen:date: 2019-09-02T13:38:00+02:00
           hippogogreen:summary: Dépenses de 200 $ ou plus à remplacer que les personnes
             âgées, thermostat fonctionne encore avec un nouveau whiz-bang "intelligent"
             variété peut sembler comme un gaspillage d'argent, mais il peut être l'un
@@ -1870,8 +1039,8 @@
           hippogogreen:title: Est un thermostat intelligent vaut l'investissement?
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:38:16.821+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T16:34:11.309+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:38:16.821+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T16:34:11.309+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 64b48fc4-aa1a-4512-a1d6-6e35c54f1cc8
           hippotranslation:locale: fr
@@ -1963,7 +1132,7 @@
           hippo:availability: []
           hippogogreen:categories: [Home, Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-09-02T13:38:00+02:00
+          hippogogreen:date: 2019-09-02T13:38:00+02:00
           hippogogreen:summary: Dépenses de 200 $ ou plus à remplacer que les personnes
             âgées, thermostat fonctionne encore avec un nouveau whiz-bang "intelligent"
             variété peut sembler comme un gaspillage d'argent, mais il peut être l'un
@@ -1973,8 +1142,8 @@
           hippogogreen:title: Est un thermostat intelligent vaut l'investissement?
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:38:16.821+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T16:33:47.011+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:38:16.821+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T16:33:47.011+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 64b48fc4-aa1a-4512-a1d6-6e35c54f1cc8
           hippotranslation:locale: fr
@@ -2066,7 +1235,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [Home, Office]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2014-09-02T13:38:00+02:00
+          hippogogreen:date: 2019-09-02T13:38:00+02:00
           hippogogreen:summary: Dépenses de 200 $ ou plus à remplacer que les personnes
             âgées, thermostat fonctionne encore avec un nouveau whiz-bang "intelligent"
             variété peut sembler comme un gaspillage d'argent, mais il peut être l'un
@@ -2076,10 +1245,10 @@
           hippogogreen:title: Est un thermostat intelligent vaut l'investissement?
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T13:38:16.821+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T16:34:11.309+02:00
+          hippostdpubwf:creationDate: 2019-08-28T13:38:16.821+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T16:34:11.309+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-06T16:34:18.582+02:00
+          hippostdpubwf:publicationDate: 2019-10-06T16:34:18.582+02:00
           hippotranslation:id: 64b48fc4-aa1a-4512-a1d6-6e35c54f1cc8
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -2175,7 +1344,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [School]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T14:15:00+02:00
+          hippogogreen:date: 2019-08-28T14:15:00+02:00
           hippogogreen:summary: Chaque année, les jeunes hommes et les femmes intrépides
             énoncées pour le collège. Encore plus excitant que cela, c'est que pour
             beaucoup d'entre eux, c'est leur première chance de vivre loin de la maison.
@@ -2188,8 +1357,8 @@
           hippogogreen:title: Comment vert votre chambre d'étudiant
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T14:15:19.611+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T16:58:15.964+02:00
+          hippostdpubwf:creationDate: 2019-08-28T14:15:19.611+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T16:58:15.964+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 7546c319-0eb2-496a-84e7-d77a50d7a552
           hippotranslation:locale: fr
@@ -2364,7 +1533,7 @@
           hippo:availability: []
           hippogogreen:categories: [School]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T14:15:00+02:00
+          hippogogreen:date: 2019-08-28T14:15:00+02:00
           hippogogreen:summary: Chaque année, les jeunes hommes et les femmes intrépides
             énoncées pour le collège. Encore plus excitant que cela, c'est que pour
             beaucoup d'entre eux, c'est leur première chance de vivre loin de la maison.
@@ -2377,8 +1546,8 @@
           hippogogreen:title: Comment vert votre chambre d'étudiant
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T14:15:19.611+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T16:56:29.797+02:00
+          hippostdpubwf:creationDate: 2019-08-28T14:15:19.611+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T16:56:29.797+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 7546c319-0eb2-496a-84e7-d77a50d7a552
           hippotranslation:locale: fr
@@ -2553,7 +1722,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [School]
           hippogogreen:contentstage: none
-          hippogogreen:date: 2014-08-28T14:15:00+02:00
+          hippogogreen:date: 2019-08-28T14:15:00+02:00
           hippogogreen:summary: Chaque année, les jeunes hommes et les femmes intrépides
             énoncées pour le collège. Encore plus excitant que cela, c'est que pour
             beaucoup d'entre eux, c'est leur première chance de vivre loin de la maison.
@@ -2566,10 +1735,10 @@
           hippogogreen:title: Comment vert votre chambre d'étudiant
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-08-28T14:15:19.611+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T16:58:15.964+02:00
+          hippostdpubwf:creationDate: 2019-08-28T14:15:19.611+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T16:58:15.964+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-06T16:58:32.746+02:00
+          hippostdpubwf:publicationDate: 2019-10-06T16:58:32.746+02:00
           hippotranslation:id: 7546c319-0eb2-496a-84e7-d77a50d7a552
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -2749,7 +1918,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [School]
           hippogogreen:contentstage: desire
-          hippogogreen:date: 2014-09-19T16:33:00+02:00
+          hippogogreen:date: 2019-09-19T16:33:00+02:00
           hippogogreen:summary: Dans les temps de réchauffement climatique, quand
             la Terre a vraiment «chaud» jusqu'à, la pensée que prods l'esprit de tout
             le monde est ce «plus» peut être fait pour construire une société respectueuse
@@ -2762,8 +1931,8 @@
             plus durable?
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:10:55.081+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:08:16.337+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:10:55.081+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:08:16.337+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 39d5a51e-ff2e-46d1-8293-111446f8faa4
           hippotranslation:locale: fr
@@ -2859,7 +2028,7 @@
           hippo:availability: []
           hippogogreen:categories: [School]
           hippogogreen:contentstage: desire
-          hippogogreen:date: 2014-09-19T16:33:00+02:00
+          hippogogreen:date: 2019-09-19T16:33:00+02:00
           hippogogreen:summary: Dans les temps de réchauffement climatique, quand
             la Terre a vraiment «chaud» jusqu'à, la pensée que prods l'esprit de tout
             le monde est ce «plus» peut être fait pour construire une société respectueuse
@@ -2872,8 +2041,8 @@
             plus durable?
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:10:55.081+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:00:43.979+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:10:55.081+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:00:43.979+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 39d5a51e-ff2e-46d1-8293-111446f8faa4
           hippotranslation:locale: fr
@@ -2969,7 +2138,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [School]
           hippogogreen:contentstage: desire
-          hippogogreen:date: 2014-09-19T16:33:00+02:00
+          hippogogreen:date: 2019-09-19T16:33:00+02:00
           hippogogreen:summary: Dans les temps de réchauffement climatique, quand
             la Terre a vraiment «chaud» jusqu'à, la pensée que prods l'esprit de tout
             le monde est ce «plus» peut être fait pour construire une société respectueuse
@@ -2982,10 +2151,10 @@
             plus durable?
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-09T14:10:55.081+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:08:16.337+02:00
+          hippostdpubwf:creationDate: 2019-09-09T14:10:55.081+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:08:16.337+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-06T17:08:18.068+02:00
+          hippostdpubwf:publicationDate: 2019-10-06T17:08:18.068+02:00
           hippotranslation:id: 39d5a51e-ff2e-46d1-8293-111446f8faa4
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -3073,6 +2242,679 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+    /08:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 90721094-86a1-42dc-8ccb-76c64b3b3802
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: 883d38ca-b223-48ae-b37e-78ea3e276224
+      hippotranslation:locale: fr
+      /greenpeace-tente-de-dejouer-la-baie-de-chesapeake-la-flotte-de-peche:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 56c305cf-17c5-41b7-acb7-639d34772f78
+        hippo:name: Greenpeace tente de déjouer la baie de Chesapeake la flotte de
+          pêche
+        /greenpeace-tente-de-dejouer-la-baie-de-chesapeake-la-flotte-de-peche:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: fc3a1028-b7dd-48fd-b684-82a3910c8fa7
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Sea, Sustainable Business]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-08-10T10:22:00+02:00
+          hippogogreen:summary: |-
+            Des militants de Greenpeace dispersés écoles de poissons-appâts menhaden dans la baie de Chesapeake, le mardi, lorsque les navires de pêche appartenant à Omega Protein Corp étaient sur le point d'abandonner leurs filets sceine.
+                           La flotte se composait de deux Omega avions spotter et quatre bateaux de pêche, avec huit offres. Greenpeace est arrivé avec quatre se déplaçant rapidement hors-bord de bateaux à moteur, monté par des militants qui ont tenté treize pour chasser le poisson. La Garde côtière a été appelé et mis fin à la confrontation pacifique.
+          hippogogreen:title: Greenpeace tente de déjouer la baie de Chesapeake la
+            flotte de pêche
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [activism, oceans]
+          hippostdpubwf:createdBy: admin14
+          hippostdpubwf:creationDate: 2017-07-29T10:38:00+02:00
+          hippostdpubwf:lastModificationDate: 2019-05-23T14:26:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-05-23T14:26:00+02:00
+          hippotranslation:id: 83e1ced5-d2da-4751-84ac-00201d14decc
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Des militants de Greenpeace dispersés écoles de poissons-appâts menhaden dans
+              la baie de Chesapeake, le mardi, lorsque les navires de pêche appartenant à
+              Omega Protein Corp étaient sur le point d'abandonner leurs filets sceine.</p>
+
+              <p>La flotte se composait de deux Omega avions spotter et quatre bateaux de
+              pêche, avec huit offres. Greenpeace est arrivé avec quatre se déplaçant
+              rapidement hors-bord de bateaux à moteur, monté par des militants qui ont tenté
+              treize pour chasser le poisson. La Garde côtière a été appelé et mis fin à la
+              confrontation pacifique.</p>
+
+              <p>La Société basée à Houston protéines Omega est le plus grand transformateur
+              et distributeur de menhaden riche en protéines et de produits d'huile de poisson
+              aux États-Unis. La société représente près de 90% de la totalité des captures
+              East Coast menhaden.</p>
+
+              <p>Un porte-parole de Omega Toby Gascon dit de Greenpeace, "Ils ont maintenant
+              démontré que leur véritable ordre du jour est à mettre Omega retirer des
+              affaires, même si cela signifie risquer la sécurité des pêcheurs d'Omega." Leur
+              flotte est hors de Reedville, en Virginie, maintenant un port de pêche haut des
+              États-Unis en raison de l'usine de transformation Omega récente a ouvert là-bas.
+              </p>
+
+              <p>La baie de Chesapeake menhaden sont considérés comme une source importante de
+              nourriture pour les espèces de poissons populaires auprès des pêcheurs sportifs.
+              Ils sont également, à côté des huîtres, une desserte Premier filtre dans les
+              eaux de la baie. La population Oyster Bay a subi des déclins drastiques de la
+              maladie au cours des deux dernières décennies. Les études de populations
+              menhaden sont toujours pas concluants que les scientifiques tentent de
+              déterminer le nombre total de la baie de menhaden.</p>
+
+              <p>Greenpeace affirme que l'espèce est près de leurs creux historiques et les
+              prédateurs qui en dépendent sur le poisson comme source de nourriture, tels que
+              le bar rayé, montrent des signes de souffrance de malnutrition et de mauvaise
+              condition physique.</p>
+
+              <p>Le Chesapeake Bay Foundation, un organisme sans but lucratif, ont fait
+              l'éloge de gouverneur du Maryland Robert Ehrlich, et le Département d'État des
+              Ressources naturelles. Ils ont obtenu un engagement des États-marine de
+              l'Atlantique de la Commission des pêches (ASMFC) à chercher un plafond sur la
+              récolte commerciale de l'Atlantique Menhaden.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Greenpeace_tries_to_thwart_Chesapeake_Bay_fishing_fleet
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 39d2aa09-0a83-40e7-bd4b-2fa43013745a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /indonesienne-panne-causee-par-un-manque-de-capacite-de-production:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: ccb4fbf9-0b87-4828-bfd9-302c4d0c1792
+        hippo:name: Indonésienne panne causée par un manque de capacité de production
+        /indonesienne-panne-causee-par-un-manque-de-capacite-de-production:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 7f293882-008e-484c-8de3-6b4afd983052
+          hippo:availability: [live, preview]
+          hippogogreen:categories: [Energy]
+          hippogogreen:contentstage: desire
+          hippogogreen:date: 2019-08-20T10:22:00+02:00
+          hippogogreen:summary: Une panne de courant en Indonésie qui a laissé environ
+            100 millions de personnes sans électricité a provoqué une crise politique.
+            Monopole d'énergie du pays appartenant à l'État, PLN, n'a pas déterminé
+            la cause immédiate, et le président du pays a ordonné à l'agence nationale
+            de renseignement et de la police d'enquêter.
+          hippogogreen:title: Indonésienne panne causée par un manque de capacité
+            de production
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [politics, energy, blackout]
+          hippostdpubwf:createdBy: admin14
+          hippostdpubwf:creationDate: 2017-07-29T10:48:00+02:00
+          hippostdpubwf:lastModificationDate: 2019-05-23T14:52:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-05-23T14:52:00+02:00
+          hippotranslation:id: 54d4f7e9-5645-4514-8686-c2dac845a1b3
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Une panne de courant en Indonésie qui a laissé environ 100 millions de
+              personnes sans électricité a provoqué une crise politique. Monopole d'énergie du
+              pays appartenant à l'État, PLN, n'a pas déterminé la cause immédiate, et le
+              président du pays a ordonné à l'agence nationale de renseignement et de la
+              police d'enquêter.</p>
+
+              <p>La panne semble liée à des carences dans la capacité de l'Indonésie de
+              production d'électricité.</p>
+
+              <p>La panne de courant suit les tentatives pour faire face à la crise
+              énergétique du pays de plus en plus, y compris la conservation et à essayer de
+              permettre à des entreprises privées pour fournir de l'énergie, qui a été
+              déclarée inconstitutionnelle en 2004. En Janvier, le gouvernement indonésien a
+              tenu un sommet spécial d'énergie pour attirer les investissements dans leur
+              infrastructure énergétique. Au sommet, ils fixé l'objectif d'ajouter 22.000
+              mégawatts à la capacité actuelle de l'Indonésie de 23.000 mégawatts, afin de
+              soutenir la croissance du pays.</p>
+
+              <p>La Banque mondiale et d'autres ont averti que sans davantage
+              d'investissements dans l'infrastructure énergétique du pays un déficit
+              énergétique se traduira. Toutefois, les investisseurs étrangers restent
+              réticents à investir en Indonésie. "La panne d'électricité a donné lieu à plus
+              de soucis à une crise énergétique qui pourrait nuire à la nation secteur
+              industriel», a déclaré un trader sur les marchés boursiers de l'Indonésie. [1]
+              </p>
+
+              <p>La panne a commencé à 10:23 h, heure locale, Août 18, 2005, quand le pouvoir
+              a échoué le long du circuit électrique qui relie Java, Bali, et de Madura,
+              provoquant des pannes de Java et de Bali. Près de la moitié du pays dépend du
+              réseau électrique que les échecs expérimentés. Quelques-unes des grandes lignes
+              de la grille sont plus de 20 ans, selon le président de PLN Widiono Eddie.</p>
+
+              <p>Le black-out provoqué des embouteillages à Jakarta, a forcé l'annulation de
+              plusieurs vols internationaux et domestiques à l'aéroport de Jakarta
+              Soekarno-Hatta International, arrêtez de service de Jakarta train électrique, et
+              perturbé le fonctionnement des hôpitaux. Certains grands hôpitaux ont été
+              contraints de retarder la chirurgie alors que de nombreux petits hôpitaux ne
+              pouvaient pas recevoir les patients. Environ 1.800 policiers ont été appelés à
+              l'action par la police métropolitaine de Jakarta à faire face à court terme les
+              problèmes causés par la panne de courant.</p>
+
+              <p>Bougies utilisées à la place de l'éclairage électrique a commencé six feux à
+              Jakarta seul.</p>
+
+              <p>Mulyo Aji, un fonctionnaire de PLN, a déclaré pannes de courant
+              supplémentaires sont susceptibles à l'avenir que la demande augmente l'énergie,
+              sans aucun stock de correspondants de nouvelles de l'électricité devraient
+              entrer bientôt en ligne.</p>
+
+              </body>
+              </html>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Wikinews
+            hippogogreen:url: http://en.wikinews.org/wiki/Indonesian_blackout_caused_by_lack_of_generation_capacity
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+      /10-etapes-simples-pour-votre-bureau-vert:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: eb3df9aa-fee7-4894-b37e-74f9f4b71ce1
+        hippo:name: 10 étapes simples pour votre bureau vert
+        /10-etapes-simples-pour-votre-bureau-vert[1]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 26ad7980-936e-4816-b9af-3e541a49eb21
+          hippo:availability: [preview]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-08-28T13:23:00+02:00
+          hippogogreen:summary: 10 étapes simples pour votre bureau vertLa liste suivante
+            pour l'écologisation de votre bureau est loin d'être exhaustive, mais
+            une façon de commencer à faire de votre lieu de travail plus respectueux
+            de l'environnement.
+          hippogogreen:title: 10 étapes simples pour votre bureau vert
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T13:23:49.688+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:10:43.055+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h2>1. Utilisation judicieuse de l&#39;&eacute;lectricit&eacute;.</h2>\
+              \ \n<p>&Eacute;teignez tous les ordinateurs, imprimantes, photocopieurs\
+              \ et autres &eacute;quipements qui ne doit pas &ecirc;tre laiss&eacute;\
+              \ sur &agrave; la fin de la journ&eacute;e et de les laisser jusqu&#39;&agrave;\
+              \ ce que vous avez besoin de les utiliser &agrave; nouveau. Assurez-vous\
+              \ que tous les ordinateurs / &eacute;crans sont livr&eacute;s avec leurs\
+              \ param&egrave;tres les plus &eacute;conomes en &eacute;nergie (par\
+              \ exemple, surveiller ensemble &agrave; s&#39;arr&ecirc;ter apr&egrave;s\
+              \ 15 minutes de non utilisation). Lorsque vous quittez une pi&egrave;ce\
+              \ pendant plus de quelques minutes, &eacute;teindre les lumi&egrave;res.\
+              \ Utilisez des ampoules fluorescentes compactes au lieu de celles &agrave;\
+              \ incandescence. Profitez de la lumi&egrave;re naturelle autant que\
+              \ possible.</p> \n<h2>2. R&eacute;duire, r&eacute;utiliser, recycler.</h2>\
+              \ \n<p>&laquo;R&eacute;duire, r&eacute;utiliser, recycler&raquo; signifie\
+              \ plus que de jeter vieux papier &agrave; lettres dans le bac bleu (si\
+              \ vous n&#39;avez pas arr&ecirc;ter de faire &ccedil;a). Vraiment penser\
+              \ &agrave; tout ce que vous utilisez. Avez-vous besoin des gobelets\
+              \ jetables &agrave; la fontaine d&#39;eau? Pouvez-vous utiliser l&#39;autre\
+              \ c&ocirc;t&eacute; des feuilles de papier usag&eacute; que vous avez\
+              \ jet&eacute;s dans la corbeille? L&#39;Australie a ajout&eacute; un\
+              \ quatri&egrave;me R - refuser. Autrement dit: Ne pas acheter des choses\
+              \ que vous n&#39;avez pas besoin. Et, quand vous faites un achat, apportez\
+              \ vos propres sacs.</p> \n<h2>3. Utilisez des produits de bureau respectueux\
+              \ de l&#39;environnement.</h2> \n<p>En moyenne, ils ne co&ucirc;tent\
+              \ que 5% de plus, ce qui est un petit prix &agrave; payer pour r&eacute;duire\
+              \ le gaspillage et la pollution. Commencez petit - 100% de papier recycl&eacute;,\
+              \ cartouches d&#39;encre rechargeables, surligneurs non-toxiques, etc\
+              \ Commander Frogfile &agrave; Vancouver comme un endroit id&eacute;al\
+              \ pour s&#39;approvisionner en produits de bureau qui vont facilement\
+              \ sur l&#39;environnement.</p> \n<h2>4. Utilisez des produits de nettoyage\
+              \ non toxiques.</h2> \n<p>Il existe de nombreuses marques disponibles\
+              \ de nos jours, tels que Nature Clean, Norwex, M&eacute;thode, Ecover,\
+              \ Orange TKO, et Solution Rose. Encouragez votre entreprise de nettoyage\
+              \ &agrave; utiliser des produits de nettoyage &eacute;cologiques et\
+              \ s&#39;ils le veulent pas, passer &agrave; l&#39;une des nombreuses\
+              \ entreprises qui font maintenant utiliser des produits respectueux\
+              \ de l&#39;environnement. Etude de cas: Novex Solutions de prestation\
+              \ pass&eacute;s &agrave; une entreprise de nettoyage vert lorsque leur\
+              \ ancien fournisseur a refus&eacute; et ils ont fini par &eacute;conomiser\
+              \ de l&#39;argent!</p> \n<h2>5. Faire des choix alimentaires respectueux\
+              \ de l&#39;environnement.</h2> \n<p>Encourager l&#39;utilisation de\
+              \ l&#39;alimentation 100-mile: d&#39;abord locale; organique pour les\
+              \ aliments de grande consommation. Lors de la commande le d&eacute;jeuner\
+              \ pour une r&eacute;union de bureau, que diriez-vous d&#39;aller v&eacute;g&eacute;tarien\
+              \ (ou v&eacute;g&eacute;talien m&ecirc;me, si vous osez)? R&eacute;duire\
+              \ la viande peut avoir un impact &eacute;norme sur la sant&eacute; de\
+              \ la plan&egrave;te. (Voir La r&eacute;volution alimentaire et EarthSave\
+              \ des statistiques et de l&#39;information.)</p> \n<h2>6. T&eacute;l&eacute;travail</h2>\
+              \ \n<p>Encourager le travail &agrave; domicile, en particulier pour\
+              \ les travailleurs qui seraient normalement conduire &agrave; travailler.\
+              \ Cela permet de r&eacute;duire la pollution et d&#39;augmenter la disponibilit&eacute;\
+              \ de temps.</p> \n<h2>7. Transport</h2> \n<p>Pour ceux qui ne viennent\
+              \ au bureau sur une base r&eacute;guli&egrave;re, encourager (et aider\
+              \ &agrave; organiser) le covoiturage, l&#39;utilisation du transport\
+              \ en commun, le v&eacute;lo ou la marche.</p> \n<h2>8. But pour un bureau\
+              \ sans papier.</h2> \n<p>Bien que le bureau sans papier peut encore\
+              \ sembler irr&eacute;aliste, au moins essayer de r&eacute;duire le mat&eacute;riel\
+              \ imprim&eacute; lorsque cela est possible. Lire &agrave; l&#39;&eacute;cran\
+              \ et que les documents d&#39;impression lorsque c&#39;est absolument\
+              \ n&eacute;cessaire. Utilisez uniquement 100% de contenu recycl&eacute;\
+              \ des produits de papier au bureau et lors de l&#39;obtention des documents\
+              \ de promotion professionnelle, demandez &agrave; votre imprimante pour\
+              \ papier certifi&eacute; FSC.</p> \n<h2>9. Instaurer un code vestimentaire\
+              \ d&eacute;contract&eacute;.</h2> \n<p>Ne pas avoir &agrave; porter\
+              \ des costumes en mois chauds d&#39;&eacute;t&eacute; peut aider &agrave;\
+              \ r&eacute;duire les co&ucirc;ts de refroidissement (et faire un lieu\
+              \ de travail plus heureux).</p> \n<h2>10. Le commerce &eacute;quitable\
+              \ et biologique.</h2> \n<p>Acheter un commerce &eacute;quitable, caf&eacute;\
+              \ biologique et th&eacute;s pour le bureau. Si les employ&eacute;s pr&eacute;f&egrave;rent\
+              \ sortir pour leurs boissons chaudes, les encourager &agrave; prendre\
+              \ leurs propres tasses. La plupart des caf&eacute;s offrent un petit\
+              \ rabais aux clients qui le font. Plus important encore est la r&eacute;duction\
+              \ des d&eacute;chets de ne pas avoir &agrave; jeter en papier ou en\
+              \ styromousse.</p>"
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: nrichmedia
+            hippogogreen:url: http://www.nrichmedia.com/articles/social/green-your-office.php
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: ae367024-acb5-478d-a4c8-d946fb95f0f4
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /10-etapes-simples-pour-votre-bureau-vert[2]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: fcd4af9a-67ad-4cfc-b15d-08da0bf0ae85
+          hippo:availability: []
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-08-28T13:23:00+02:00
+          hippogogreen:summary: 10 étapes simples pour votre bureau vertLa liste suivante
+            pour l'écologisation de votre bureau est loin d'être exhaustive, mais
+            une façon de commencer à faire de votre lieu de travail plus respectueux
+            de l'environnement.
+          hippogogreen:title: 10 étapes simples pour votre bureau vert
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T13:23:49.688+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:08:44.055+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h2>1. Utilisation judicieuse de l&#39;&eacute;lectricit&eacute;.</h2>\
+              \ \n<p>&Eacute;teignez tous les ordinateurs, imprimantes, photocopieurs\
+              \ et autres &eacute;quipements qui ne doit pas &ecirc;tre laiss&eacute;\
+              \ sur &agrave; la fin de la journ&eacute;e et de les laisser jusqu&#39;&agrave;\
+              \ ce que vous avez besoin de les utiliser &agrave; nouveau. Assurez-vous\
+              \ que tous les ordinateurs / &eacute;crans sont livr&eacute;s avec leurs\
+              \ param&egrave;tres les plus &eacute;conomes en &eacute;nergie (par\
+              \ exemple, surveiller ensemble &agrave; s&#39;arr&ecirc;ter apr&egrave;s\
+              \ 15 minutes de non utilisation). Lorsque vous quittez une pi&egrave;ce\
+              \ pendant plus de quelques minutes, &eacute;teindre les lumi&egrave;res.\
+              \ Utilisez des ampoules fluorescentes compactes au lieu de celles &agrave;\
+              \ incandescence. Profitez de la lumi&egrave;re naturelle autant que\
+              \ possible.</p> \n<h2>2. R&eacute;duire, r&eacute;utiliser, recycler.</h2>\
+              \ \n<p>&laquo;R&eacute;duire, r&eacute;utiliser, recycler&raquo; signifie\
+              \ plus que de jeter vieux papier &agrave; lettres dans le bac bleu (si\
+              \ vous n&#39;avez pas arr&ecirc;ter de faire &ccedil;a). Vraiment penser\
+              \ &agrave; tout ce que vous utilisez. Avez-vous besoin des gobelets\
+              \ jetables &agrave; la fontaine d&#39;eau? Pouvez-vous utiliser l&#39;autre\
+              \ c&ocirc;t&eacute; des feuilles de papier usag&eacute; que vous avez\
+              \ jet&eacute;s dans la corbeille? L&#39;Australie a ajout&eacute; un\
+              \ quatri&egrave;me R - refuser. Autrement dit: Ne pas acheter des choses\
+              \ que vous n&#39;avez pas besoin. Et, quand vous faites un achat, apportez\
+              \ vos propres sacs.</p> \n<h2>3. Utilisez des produits de bureau respectueux\
+              \ de l&#39;environnement.</h2> \n<p>En moyenne, ils ne co&ucirc;tent\
+              \ que 5% de plus, ce qui est un petit prix &agrave; payer pour r&eacute;duire\
+              \ le gaspillage et la pollution. Commencez petit - 100% de papier recycl&eacute;,\
+              \ cartouches d&#39;encre rechargeables, surligneurs non-toxiques, etc\
+              \ Commander Frogfile &agrave; Vancouver comme un endroit id&eacute;al\
+              \ pour s&#39;approvisionner en produits de bureau qui vont facilement\
+              \ sur l&#39;environnement.</p> \n<h2>4. Utilisez des produits de nettoyage\
+              \ non toxiques.</h2> \n<p>Il existe de nombreuses marques disponibles\
+              \ de nos jours, tels que Nature Clean, Norwex, M&eacute;thode, Ecover,\
+              \ Orange TKO, et Solution Rose. Encouragez votre entreprise de nettoyage\
+              \ &agrave; utiliser des produits de nettoyage &eacute;cologiques et\
+              \ s&#39;ils le veulent pas, passer &agrave; l&#39;une des nombreuses\
+              \ entreprises qui font maintenant utiliser des produits respectueux\
+              \ de l&#39;environnement. Etude de cas: Novex Solutions de prestation\
+              \ pass&eacute;s &agrave; une entreprise de nettoyage vert lorsque leur\
+              \ ancien fournisseur a refus&eacute; et ils ont fini par &eacute;conomiser\
+              \ de l&#39;argent!</p> \n<h2>5. Faire des choix alimentaires respectueux\
+              \ de l&#39;environnement.</h2> \n<p>Encourager l&#39;utilisation de\
+              \ l&#39;alimentation 100-mile: d&#39;abord locale; organique pour les\
+              \ aliments de grande consommation. Lors de la commande le d&eacute;jeuner\
+              \ pour une r&eacute;union de bureau, que diriez-vous d&#39;aller v&eacute;g&eacute;tarien\
+              \ (ou v&eacute;g&eacute;talien m&ecirc;me, si vous osez)? R&eacute;duire\
+              \ la viande peut avoir un impact &eacute;norme sur la sant&eacute; de\
+              \ la plan&egrave;te. (Voir La r&eacute;volution alimentaire et EarthSave\
+              \ des statistiques et de l&#39;information.)</p> \n<h2>6. T&eacute;l&eacute;travail</h2>\
+              \ \n<p>Encourager le travail &agrave; domicile, en particulier pour\
+              \ les travailleurs qui seraient normalement conduire &agrave; travailler.\
+              \ Cela permet de r&eacute;duire la pollution et d&#39;augmenter la disponibilit&eacute;\
+              \ de temps.</p> \n<h2>7. Transport</h2> \n<p>Pour ceux qui ne viennent\
+              \ au bureau sur une base r&eacute;guli&egrave;re, encourager (et aider\
+              \ &agrave; organiser) le covoiturage, l&#39;utilisation du transport\
+              \ en commun, le v&eacute;lo ou la marche.</p> \n<h2>8. But pour un bureau\
+              \ sans papier.</h2> \n<p>Bien que le bureau sans papier peut encore\
+              \ sembler irr&eacute;aliste, au moins essayer de r&eacute;duire le mat&eacute;riel\
+              \ imprim&eacute; lorsque cela est possible. Lire &agrave; l&#39;&eacute;cran\
+              \ et que les documents d&#39;impression lorsque c&#39;est absolument\
+              \ n&eacute;cessaire. Utilisez uniquement 100% de contenu recycl&eacute;\
+              \ des produits de papier au bureau et lors de l&#39;obtention des documents\
+              \ de promotion professionnelle, demandez &agrave; votre imprimante pour\
+              \ papier certifi&eacute; FSC.</p> \n<h2>9. Instaurer un code vestimentaire\
+              \ d&eacute;contract&eacute;.</h2> \n<p>Ne pas avoir &agrave; porter\
+              \ des costumes en mois chauds d&#39;&eacute;t&eacute; peut aider &agrave;\
+              \ r&eacute;duire les co&ucirc;ts de refroidissement (et faire un lieu\
+              \ de travail plus heureux).</p> \n<h2>10. Le commerce &eacute;quitable\
+              \ et biologique.</h2> \n<p>Acheter un commerce &eacute;quitable, caf&eacute;\
+              \ biologique et th&eacute;s pour le bureau. Si les employ&eacute;s pr&eacute;f&egrave;rent\
+              \ sortir pour leurs boissons chaudes, les encourager &agrave; prendre\
+              \ leurs propres tasses. La plupart des caf&eacute;s offrent un petit\
+              \ rabais aux clients qui le font. Plus important encore est la r&eacute;duction\
+              \ des d&eacute;chets de ne pas avoir &agrave; jeter en papier ou en\
+              \ styromousse.</p>"
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: nrichmedia
+            hippogogreen:url: http://www.nrichmedia.com/articles/social/green-your-office.php
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: ae367024-acb5-478d-a4c8-d946fb95f0f4
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /10-etapes-simples-pour-votre-bureau-vert[3]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 0d02378e-1445-439b-a718-fbc2df4fea01
+          hippo:availability: [live]
+          hippogogreen:categories: [Office]
+          hippogogreen:contentstage: action
+          hippogogreen:date: 2019-08-28T13:23:00+02:00
+          hippogogreen:summary: 10 étapes simples pour votre bureau vertLa liste suivante
+            pour l'écologisation de votre bureau est loin d'être exhaustive, mais
+            une façon de commencer à faire de votre lieu de travail plus respectueux
+            de l'environnement.
+          hippogogreen:title: 10 étapes simples pour votre bureau vert
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-08-28T13:23:49.688+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:10:43.055+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-10-06T17:10:44.992+02:00
+          hippotranslation:id: 34e5a0e2-5d0d-444b-b585-f0c2ee95301f
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: "<h2>1. Utilisation judicieuse de l&#39;&eacute;lectricit&eacute;.</h2>\
+              \ \n<p>&Eacute;teignez tous les ordinateurs, imprimantes, photocopieurs\
+              \ et autres &eacute;quipements qui ne doit pas &ecirc;tre laiss&eacute;\
+              \ sur &agrave; la fin de la journ&eacute;e et de les laisser jusqu&#39;&agrave;\
+              \ ce que vous avez besoin de les utiliser &agrave; nouveau. Assurez-vous\
+              \ que tous les ordinateurs / &eacute;crans sont livr&eacute;s avec leurs\
+              \ param&egrave;tres les plus &eacute;conomes en &eacute;nergie (par\
+              \ exemple, surveiller ensemble &agrave; s&#39;arr&ecirc;ter apr&egrave;s\
+              \ 15 minutes de non utilisation). Lorsque vous quittez une pi&egrave;ce\
+              \ pendant plus de quelques minutes, &eacute;teindre les lumi&egrave;res.\
+              \ Utilisez des ampoules fluorescentes compactes au lieu de celles &agrave;\
+              \ incandescence. Profitez de la lumi&egrave;re naturelle autant que\
+              \ possible.</p> \n<h2>2. R&eacute;duire, r&eacute;utiliser, recycler.</h2>\
+              \ \n<p>&laquo;R&eacute;duire, r&eacute;utiliser, recycler&raquo; signifie\
+              \ plus que de jeter vieux papier &agrave; lettres dans le bac bleu (si\
+              \ vous n&#39;avez pas arr&ecirc;ter de faire &ccedil;a). Vraiment penser\
+              \ &agrave; tout ce que vous utilisez. Avez-vous besoin des gobelets\
+              \ jetables &agrave; la fontaine d&#39;eau? Pouvez-vous utiliser l&#39;autre\
+              \ c&ocirc;t&eacute; des feuilles de papier usag&eacute; que vous avez\
+              \ jet&eacute;s dans la corbeille? L&#39;Australie a ajout&eacute; un\
+              \ quatri&egrave;me R - refuser. Autrement dit: Ne pas acheter des choses\
+              \ que vous n&#39;avez pas besoin. Et, quand vous faites un achat, apportez\
+              \ vos propres sacs.</p> \n<h2>3. Utilisez des produits de bureau respectueux\
+              \ de l&#39;environnement.</h2> \n<p>En moyenne, ils ne co&ucirc;tent\
+              \ que 5% de plus, ce qui est un petit prix &agrave; payer pour r&eacute;duire\
+              \ le gaspillage et la pollution. Commencez petit - 100% de papier recycl&eacute;,\
+              \ cartouches d&#39;encre rechargeables, surligneurs non-toxiques, etc\
+              \ Commander Frogfile &agrave; Vancouver comme un endroit id&eacute;al\
+              \ pour s&#39;approvisionner en produits de bureau qui vont facilement\
+              \ sur l&#39;environnement.</p> \n<h2>4. Utilisez des produits de nettoyage\
+              \ non toxiques.</h2> \n<p>Il existe de nombreuses marques disponibles\
+              \ de nos jours, tels que Nature Clean, Norwex, M&eacute;thode, Ecover,\
+              \ Orange TKO, et Solution Rose. Encouragez votre entreprise de nettoyage\
+              \ &agrave; utiliser des produits de nettoyage &eacute;cologiques et\
+              \ s&#39;ils le veulent pas, passer &agrave; l&#39;une des nombreuses\
+              \ entreprises qui font maintenant utiliser des produits respectueux\
+              \ de l&#39;environnement. Etude de cas: Novex Solutions de prestation\
+              \ pass&eacute;s &agrave; une entreprise de nettoyage vert lorsque leur\
+              \ ancien fournisseur a refus&eacute; et ils ont fini par &eacute;conomiser\
+              \ de l&#39;argent!</p> \n<h2>5. Faire des choix alimentaires respectueux\
+              \ de l&#39;environnement.</h2> \n<p>Encourager l&#39;utilisation de\
+              \ l&#39;alimentation 100-mile: d&#39;abord locale; organique pour les\
+              \ aliments de grande consommation. Lors de la commande le d&eacute;jeuner\
+              \ pour une r&eacute;union de bureau, que diriez-vous d&#39;aller v&eacute;g&eacute;tarien\
+              \ (ou v&eacute;g&eacute;talien m&ecirc;me, si vous osez)? R&eacute;duire\
+              \ la viande peut avoir un impact &eacute;norme sur la sant&eacute; de\
+              \ la plan&egrave;te. (Voir La r&eacute;volution alimentaire et EarthSave\
+              \ des statistiques et de l&#39;information.)</p> \n<h2>6. T&eacute;l&eacute;travail</h2>\
+              \ \n<p>Encourager le travail &agrave; domicile, en particulier pour\
+              \ les travailleurs qui seraient normalement conduire &agrave; travailler.\
+              \ Cela permet de r&eacute;duire la pollution et d&#39;augmenter la disponibilit&eacute;\
+              \ de temps.</p> \n<h2>7. Transport</h2> \n<p>Pour ceux qui ne viennent\
+              \ au bureau sur une base r&eacute;guli&egrave;re, encourager (et aider\
+              \ &agrave; organiser) le covoiturage, l&#39;utilisation du transport\
+              \ en commun, le v&eacute;lo ou la marche.</p> \n<h2>8. But pour un bureau\
+              \ sans papier.</h2> \n<p>Bien que le bureau sans papier peut encore\
+              \ sembler irr&eacute;aliste, au moins essayer de r&eacute;duire le mat&eacute;riel\
+              \ imprim&eacute; lorsque cela est possible. Lire &agrave; l&#39;&eacute;cran\
+              \ et que les documents d&#39;impression lorsque c&#39;est absolument\
+              \ n&eacute;cessaire. Utilisez uniquement 100% de contenu recycl&eacute;\
+              \ des produits de papier au bureau et lors de l&#39;obtention des documents\
+              \ de promotion professionnelle, demandez &agrave; votre imprimante pour\
+              \ papier certifi&eacute; FSC.</p> \n<h2>9. Instaurer un code vestimentaire\
+              \ d&eacute;contract&eacute;.</h2> \n<p>Ne pas avoir &agrave; porter\
+              \ des costumes en mois chauds d&#39;&eacute;t&eacute; peut aider &agrave;\
+              \ r&eacute;duire les co&ucirc;ts de refroidissement (et faire un lieu\
+              \ de travail plus heureux).</p> \n<h2>10. Le commerce &eacute;quitable\
+              \ et biologique.</h2> \n<p>Acheter un commerce &eacute;quitable, caf&eacute;\
+              \ biologique et th&eacute;s pour le bureau. Si les employ&eacute;s pr&eacute;f&egrave;rent\
+              \ sortir pour leurs boissons chaudes, les encourager &agrave; prendre\
+              \ leurs propres tasses. La plupart des caf&eacute;s offrent un petit\
+              \ rabais aux clients qui le font. Plus important encore est la r&eacute;duction\
+              \ des d&eacute;chets de ne pas avoir &agrave; jeter en papier ou en\
+              \ styromousse.</p>"
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: nrichmedia
+            hippogogreen:url: http://www.nrichmedia.com/articles/social/green-your-office.php
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: ae367024-acb5-478d-a4c8-d946fb95f0f4
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /conseils-pour-la-planification-de-levenement-ecologique:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 76bf4bbd-d6e1-409f-afd7-9528c7a70480
+        hippo:name: Conseils pour la planification de l'événement Écologique
+        /conseils-pour-la-planification-de-levenement-ecologique[1]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: 283ae478-01ca-42f8-9211-8d62a9138dd7
+          hippo:availability: [preview]
+          hippogogreen:categories: [Family, Home]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-08-18T16:32:00+02:00
+          hippogogreen:summary: Il peut être tentant de choisir la commodité plus
+            respectueux de l'environnement lors de la planification des parties, des
+            pique-niques ou toute autre célébration avec une grande liste de clients.
+            Heureusement, grâce à ces conseils de planification d'événements éco-responsables
+            simples, vous pouvez avoir le meilleur des deux mondes.
+          hippogogreen:title: Conseils pour la planification de l'événement Écologique
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T14:04:38.332+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:12:32.287+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>1. Envoyer des invitations en ligne, si possible, ou utilisez des invitations en papier recycl&eacute; si le papier est un must.
+              <br /> 2. D&eacute;corer consciemment. Il utilise beaucoup d&#39;&eacute;nergie pour la fabrication de d&eacute;corations de f&ecirc;te. Au lieu de cela, choisir un lieu qui est d&eacute;j&agrave; pas mal, et ajouter de petits d&eacute;tails comme les articles de magasins de seconde main r&eacute;utilis&eacute;s, bouteilles de vin peintes comme des vases ou des jolies pierres, coquillages, morceaux de bois flott&eacute; ou des bols de fruits de saison.
+              <br /> 3. Envisagez d&#39;utiliser des plaques r&eacute;utilisables et couverts sur jetable. Toutefois, si vous devez utiliser des plaques et / ou ustensiles jetables, choisissez une option biod&eacute;gradable comme celles-ci et celles-ci.
+              <br /> 4. Le cas &eacute;ch&eacute;ant, servir des amuse-gueules donc pas les ustensiles sont n&eacute;cessaires.
+              <br /> 5. &Eacute;vitez les boissons en bouteille ou en conserve. Au lieu de faire ou acheter des boissons dans des contenants en vrac. De cette fa&ccedil;on, vous pouvez fournir des lunettes ou encourager les clients &agrave; apporter leur propre bouteille d&#39;eau r&eacute;utilisable. Si vous devez utiliser des gobelets jetables, encore une fois, choisissez ceux qui sont biod&eacute;gradables comme celles-ci.
+              <br /> 6. Utilisez des serviettes en lin et des nappes &agrave; la place de papier. Vous pourriez peut-&ecirc;tre m&ecirc;me trouver des gratuits sur freecycle.com.
+              <br /> 7. Donnez faveurs respectueux de l&#39;environnement. Si vous donnez &agrave; vos invit&eacute;s des cotillons, opter pour bocaux remplis de friandises ou des cartes d&#39;endroit, menus ou programmes imprim&eacute;s sur du papier de fleurs sauvages plantable comme &ccedil;a.
+              <br /> 8. Utiliser des plantes &agrave; fleurs en direct ou des herbes en pot comme centres au lieu de fleurs coup&eacute;es. Celles-ci pourraient doubler comme des faveurs du parti, trop.
+              <br /> 9. Planifiez votre menu avec des aliments cultiv&eacute;s et &eacute;lev&eacute;s localement. Ceci permettra de r&eacute;duire les &eacute;missions de viande exp&eacute;dition, produire, etc de loin.
+              <br /> 10. Avez bacs de recyclage facilement accessible pour tous les &eacute;l&eacute;ments qui peuvent &ecirc;tre jetable.
+              <br /> 11. Allumez votre &eacute;v&eacute;nement avec des bougies de cire d&#39;abeille.
+              <br /> 12. pratiques de nettoyage &eacute;cologique. Utilisez des produits de nettoyage respectueux de l&#39;environnement comme celles pr&eacute;sentes nettoyer apr&egrave;s votre &eacute;v&eacute;nement, et donner ou congeler les restes de nourriture pour r&eacute;duire les d&eacute;chets.
+              <br /> Avez-vous des conseils suppl&eacute;mentaires de planification de l&#39;&eacute;v&eacute;nement respectueux de l&#39;environnement? Si c&#39;est le cas, n&#39;h&eacute;sitez pas &agrave; les partager dans les commentaires!</p>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Caretactics
+            hippogogreen:url: http://caretacticsblog.com/12-tips-ecofriendly-event-planning/
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 9345aa6f-c37f-4ecb-80df-02908ad4795c
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /conseils-pour-la-planification-de-levenement-ecologique[2]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 4580be29-28e4-4999-9b6f-798d0f460cc7
+          hippo:availability: []
+          hippogogreen:categories: [Family, Home]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-08-18T16:32:00+02:00
+          hippogogreen:summary: Il peut être tentant de choisir la commodité plus
+            respectueux de l'environnement lors de la planification des parties, des
+            pique-niques ou toute autre célébration avec une grande liste de clients.
+            Heureusement, grâce à ces conseils de planification d'événements éco-responsables
+            simples, vous pouvez avoir le meilleur des deux mondes.
+          hippogogreen:title: Conseils pour la planification de l'événement Écologique
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T14:04:38.332+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:11:08.449+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>1. Envoyer des invitations en ligne, si possible, ou utilisez des invitations en papier recycl&eacute; si le papier est un must.
+              <br /> 2. D&eacute;corer consciemment. Il utilise beaucoup d&#39;&eacute;nergie pour la fabrication de d&eacute;corations de f&ecirc;te. Au lieu de cela, choisir un lieu qui est d&eacute;j&agrave; pas mal, et ajouter de petits d&eacute;tails comme les articles de magasins de seconde main r&eacute;utilis&eacute;s, bouteilles de vin peintes comme des vases ou des jolies pierres, coquillages, morceaux de bois flott&eacute; ou des bols de fruits de saison.
+              <br /> 3. Envisagez d&#39;utiliser des plaques r&eacute;utilisables et couverts sur jetable. Toutefois, si vous devez utiliser des plaques et / ou ustensiles jetables, choisissez une option biod&eacute;gradable comme celles-ci et celles-ci.
+              <br /> 4. Le cas &eacute;ch&eacute;ant, servir des amuse-gueules donc pas les ustensiles sont n&eacute;cessaires.
+              <br /> 5. &Eacute;vitez les boissons en bouteille ou en conserve. Au lieu de faire ou acheter des boissons dans des contenants en vrac. De cette fa&ccedil;on, vous pouvez fournir des lunettes ou encourager les clients &agrave; apporter leur propre bouteille d&#39;eau r&eacute;utilisable. Si vous devez utiliser des gobelets jetables, encore une fois, choisissez ceux qui sont biod&eacute;gradables comme celles-ci.
+              <br /> 6. Utilisez des serviettes en lin et des nappes &agrave; la place de papier. Vous pourriez peut-&ecirc;tre m&ecirc;me trouver des gratuits sur freecycle.com.
+              <br /> 7. Donnez faveurs respectueux de l&#39;environnement. Si vous donnez &agrave; vos invit&eacute;s des cotillons, opter pour bocaux remplis de friandises ou des cartes d&#39;endroit, menus ou programmes imprim&eacute;s sur du papier de fleurs sauvages plantable comme &ccedil;a.
+              <br /> 8. Utiliser des plantes &agrave; fleurs en direct ou des herbes en pot comme centres au lieu de fleurs coup&eacute;es. Celles-ci pourraient doubler comme des faveurs du parti, trop.
+              <br /> 9. Planifiez votre menu avec des aliments cultiv&eacute;s et &eacute;lev&eacute;s localement. Ceci permettra de r&eacute;duire les &eacute;missions de viande exp&eacute;dition, produire, etc de loin.
+              <br /> 10. Avez bacs de recyclage facilement accessible pour tous les &eacute;l&eacute;ments qui peuvent &ecirc;tre jetable.
+              <br /> 11. Allumez votre &eacute;v&eacute;nement avec des bougies de cire d&#39;abeille.
+              <br /> 12. pratiques de nettoyage &eacute;cologique. Utilisez des produits de nettoyage respectueux de l&#39;environnement comme celles pr&eacute;sentes nettoyer apr&egrave;s votre &eacute;v&eacute;nement, et donner ou congeler les restes de nourriture pour r&eacute;duire les d&eacute;chets.
+              <br /> Avez-vous des conseils suppl&eacute;mentaires de planification de l&#39;&eacute;v&eacute;nement respectueux de l&#39;environnement? Si c&#39;est le cas, n&#39;h&eacute;sitez pas &agrave; les partager dans les commentaires!</p>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Caretactics
+            hippogogreen:url: http://caretacticsblog.com/12-tips-ecofriendly-event-planning/
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 9345aa6f-c37f-4ecb-80df-02908ad4795c
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /conseils-pour-la-planification-de-levenement-ecologique[3]:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c7fb41da-dac0-44e9-ae0a-41ab0297e0a2
+          hippo:availability: [live]
+          hippogogreen:categories: [Family, Home]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-08-18T16:32:00+02:00
+          hippogogreen:summary: Il peut être tentant de choisir la commodité plus
+            respectueux de l'environnement lors de la planification des parties, des
+            pique-niques ou toute autre célébration avec une grande liste de clients.
+            Heureusement, grâce à ces conseils de planification d'événements éco-responsables
+            simples, vous pouvez avoir le meilleur des deux mondes.
+          hippogogreen:title: Conseils pour la planification de l'événement Écologique
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2019-09-09T14:04:38.332+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:12:32.287+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-10-06T17:12:34.901+02:00
+          hippotranslation:id: 3684c7a0-ec11-4fb3-be93-ed417196fd0d
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>1. Envoyer des invitations en ligne, si possible, ou utilisez des invitations en papier recycl&eacute; si le papier est un must.
+              <br /> 2. D&eacute;corer consciemment. Il utilise beaucoup d&#39;&eacute;nergie pour la fabrication de d&eacute;corations de f&ecirc;te. Au lieu de cela, choisir un lieu qui est d&eacute;j&agrave; pas mal, et ajouter de petits d&eacute;tails comme les articles de magasins de seconde main r&eacute;utilis&eacute;s, bouteilles de vin peintes comme des vases ou des jolies pierres, coquillages, morceaux de bois flott&eacute; ou des bols de fruits de saison.
+              <br /> 3. Envisagez d&#39;utiliser des plaques r&eacute;utilisables et couverts sur jetable. Toutefois, si vous devez utiliser des plaques et / ou ustensiles jetables, choisissez une option biod&eacute;gradable comme celles-ci et celles-ci.
+              <br /> 4. Le cas &eacute;ch&eacute;ant, servir des amuse-gueules donc pas les ustensiles sont n&eacute;cessaires.
+              <br /> 5. &Eacute;vitez les boissons en bouteille ou en conserve. Au lieu de faire ou acheter des boissons dans des contenants en vrac. De cette fa&ccedil;on, vous pouvez fournir des lunettes ou encourager les clients &agrave; apporter leur propre bouteille d&#39;eau r&eacute;utilisable. Si vous devez utiliser des gobelets jetables, encore une fois, choisissez ceux qui sont biod&eacute;gradables comme celles-ci.
+              <br /> 6. Utilisez des serviettes en lin et des nappes &agrave; la place de papier. Vous pourriez peut-&ecirc;tre m&ecirc;me trouver des gratuits sur freecycle.com.
+              <br /> 7. Donnez faveurs respectueux de l&#39;environnement. Si vous donnez &agrave; vos invit&eacute;s des cotillons, opter pour bocaux remplis de friandises ou des cartes d&#39;endroit, menus ou programmes imprim&eacute;s sur du papier de fleurs sauvages plantable comme &ccedil;a.
+              <br /> 8. Utiliser des plantes &agrave; fleurs en direct ou des herbes en pot comme centres au lieu de fleurs coup&eacute;es. Celles-ci pourraient doubler comme des faveurs du parti, trop.
+              <br /> 9. Planifiez votre menu avec des aliments cultiv&eacute;s et &eacute;lev&eacute;s localement. Ceci permettra de r&eacute;duire les &eacute;missions de viande exp&eacute;dition, produire, etc de loin.
+              <br /> 10. Avez bacs de recyclage facilement accessible pour tous les &eacute;l&eacute;ments qui peuvent &ecirc;tre jetable.
+              <br /> 11. Allumez votre &eacute;v&eacute;nement avec des bougies de cire d&#39;abeille.
+              <br /> 12. pratiques de nettoyage &eacute;cologique. Utilisez des produits de nettoyage respectueux de l&#39;environnement comme celles pr&eacute;sentes nettoyer apr&egrave;s votre &eacute;v&eacute;nement, et donner ou congeler les restes de nourriture pour r&eacute;duire les d&eacute;chets.
+              <br /> Avez-vous des conseils suppl&eacute;mentaires de planification de l&#39;&eacute;v&eacute;nement respectueux de l&#39;environnement? Si c&#39;est le cas, n&#39;h&eacute;sitez pas &agrave; les partager dans les commentaires!</p>
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: Caretactics
+            hippogogreen:url: http://caretacticsblog.com/12-tips-ecofriendly-event-planning/
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 9345aa6f-c37f-4ecb-80df-02908ad4795c
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
     /07:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
@@ -3092,7 +2934,7 @@
           hippo:availability: [preview]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2014-07-14T16:33:00+02:00
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
           hippogogreen:summary: Semaine verte Bureau (GOW) est une semaine remplie
             d'action pleine de fun et simples idées pour rendre votre vert de bureau.
             Voir ce qui se passe chaque jour et ensuite trouver des façons que vous
@@ -3105,8 +2947,8 @@
           hippogogreen:title: Semaine verte Bureau
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:20:48.451+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:20:48.451+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
           hippotranslation:locale: fr
@@ -3256,7 +3098,7 @@
           hippo:availability: []
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2014-07-14T16:33:00+02:00
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
           hippogogreen:summary: Semaine verte Bureau (GOW) est une semaine remplie
             d'action pleine de fun et simples idées pour rendre votre vert de bureau.
             Voir ce qui se passe chaque jour et ensuite trouver des façons que vous
@@ -3269,8 +3111,8 @@
           hippogogreen:title: Semaine verte Bureau
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:19:29.961+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:19:29.961+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
           hippotranslation:locale: fr
@@ -3420,7 +3262,7 @@
           hippo:availability: [live]
           hippogogreen:categories: [Office]
           hippogogreen:contentstage: interest
-          hippogogreen:date: 2014-07-14T16:33:00+02:00
+          hippogogreen:date: 2019-07-14T16:33:00+02:00
           hippogogreen:summary: Semaine verte Bureau (GOW) est une semaine remplie
             d'action pleine de fun et simples idées pour rendre votre vert de bureau.
             Voir ce qui se passe chaque jour et ensuite trouver des façons que vous
@@ -3433,10 +3275,10 @@
           hippogogreen:title: Semaine verte Bureau
           hippostd:state: published
           hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2014-09-19T15:39:57.196+02:00
-          hippostdpubwf:lastModificationDate: 2014-10-06T17:20:48.451+02:00
+          hippostdpubwf:creationDate: 2019-09-19T15:39:57.196+02:00
+          hippostdpubwf:lastModificationDate: 2019-10-06T17:20:48.451+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2014-10-06T17:20:50.155+02:00
+          hippostdpubwf:publicationDate: 2019-10-06T17:20:50.155+02:00
           hippotranslation:id: 0e46a3dd-02e9-4b2f-9ec0-b7e3d1eb5987
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -3578,20 +3420,6 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
-  /2013:
-    jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-    jcr:uuid: 8095ed18-5b4b-4fef-b4ff-337e434f1084
-    hippostd:foldertype: [new-blogs-folder, new-blog]
-    hippotranslation:id: 09389c7d-93a5-4491-af9d-9fbb362adc1a
-    hippotranslation:locale: fr
-    /07:
-      jcr:primaryType: hippostd:folder
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: e06f5b42-c017-4b3d-80db-864c19c90932
-      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: 0a885364-4a6a-4492-83f6-8092981d42da
-      hippotranslation:locale: fr
       /toyota-placer-verre-eau-tableau-bord:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -3604,7 +3432,7 @@
           hippo:availability: [live, preview]
           hippogogreen:categories: [Économie, Énergie]
           hippogogreen:contentstage: action
-          hippogogreen:date: 2013-07-29T10:01:00+02:00
+          hippogogreen:date: 2019-07-29T10:01:00+02:00
           hippogogreen:summary: Pour une réduction de 10 % de carburant...
           hippogogreen:title: Toyota suggère de placer un verre d'eau sur votre tableau
             de bord
@@ -3612,10 +3440,10 @@
           hippostd:state: published
           hippostd:tags: [Toyota, iPhone, Carburant, Voiture, '']
           hippostdpubwf:createdBy: admin11
-          hippostdpubwf:creationDate: 2013-07-29T07:49:00Z
-          hippostdpubwf:lastModificationDate: 2011-01-12T14:38:00Z
+          hippostdpubwf:creationDate: 2019-07-29T07:49:00Z
+          hippostdpubwf:lastModificationDate: 2018-01-12T14:38:00Z
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2011-01-12T14:41:00Z
+          hippostdpubwf:publicationDate: 2018-01-12T14:41:00Z
           hippotranslation:id: 9dc1dea3-34ae-49ee-ad0f-a6e8b1e41f37
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -3650,10 +3478,83 @@
     /06:
       jcr:primaryType: hippostd:folder
       jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 8d5614f3-d0ec-4951-9f13-19e17fc2a8fc
+      jcr:uuid: 5c877759-a5d7-4a39-a0c9-a798fbe5179c
       hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
-      hippotranslation:id: b59e46a3-ff73-4cdc-b102-6cf5045b2548
+      hippotranslation:id: fe87127d-1ca9-4e5d-a2d0-7ceb0f4bc7eb
       hippotranslation:locale: fr
+      /nasa-solaire-voile-passe-dabord-test-majeur:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 2a2bcb77-4ad1-4233-94f2-b68dd7e20a5e
+        hippo:name: NASA solaire voile passe d'abord test majeur
+        /nasa-solaire-voile-passe-dabord-test-majeur:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: e0e3865d-cbe0-4c81-a859-d79b6df3ea8a
+          hippo:availability: [live, preview]
+          hippogogreen:contentstage: awareness
+          hippogogreen:date: 2019-06-02T10:22:00+02:00
+          hippogogreen:summary: La NASA a complété un test majeur d'un 20-mètres carrés
+            de voile solaire, marquant une "étape cruciale" dans la technologie de
+            la propulsion spatiale. Il n'est pas le premier à tester les voiles solaires,
+            comme les Japonais ont déployé deux voiles solaires dans l'espace. La
+            Planetary Society est la planification sur le lancement d'une voile solaire
+            peut-être par Juin 21.
+          hippogogreen:title: NASA solaire voile passe d'abord test majeur
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostd:tags: [technology]
+          hippostdpubwf:createdBy: Katja de Wit
+          hippostdpubwf:creationDate: 2017-07-20T16:16:00+02:00
+          hippostdpubwf:lastModificationDate: 2019-05-23T15:10:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-05-23T15:10:00+02:00
+          hippotranslation:id: 3e6805d4-75e8-43c4-8dca-39e39e7f90f2
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>Tourné en orbite par un missile converti balistique intercontinental (ICBM),
+              le Cosmos 1 sera lancé à partir d'un sous-marin immergé de Russie au sein de la
+              mer de Barents. Le vaisseau spatial, alimenté par la voile, n'aura pas de
+              destination. Le but est simplement de tester le système de propulsion qui
+              utilise la pression de particules de lumière solaire pour déplacer le navire
+              vers l'extérieur à partir d'une orbite de départ autour de la terre à 500 miles.
+              </p>
+
+              <p>La technologie de propulsion est actuellement considéré comme le plus
+              efficace disponible pour voyager dans l'espace interstellaire. Théoriquement un
+              métier propulsé par la pression d'une source de lumière constante, tel qu'un
+              laser spécialement conçu, peut atteindre une vitesse approchant la vitesse de la
+              lumière. Cela est dû à l'efficacité de l'engin spatial ne pas avoir à porter son
+              propre carburant. En approchant de la vitesse de la lumière, cependant,
+              nécessitent une longue période d'accélération constante. Cette grande vitesse
+              sera impossible pour les véhicules d'essai actuels et toute lancées dans un
+              avenir prévisible, car elles reposent sur la lumière du Soleil, qui devient
+              rapidement plus faible que la distance augmente.</p>
+
+              <p>Selon les Nouvelles de National Geographic, "la NASA, l'Agence spatiale
+              européenne, le Japon et la Russie ont tous développé des voiles solaires, mais
+              aucun n'a encore essayé de prouver que les voiles peuvent propulser un engin
+              spatial en vertu de vol contrôlé."</p>
+
+              </body>
+              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 5044a402-5412-4c76-a069-bdf2aa2d2764
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
       /conference-sur-le-climat-a-copenhague:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -3666,7 +3567,7 @@
           hippo:availability: [live, preview]
           hippogogreen:categories: [Réchauffement, Climat, Conférence]
           hippogogreen:contentstage: ''
-          hippogogreen:date: 2013-06-22T10:22:00+02:00
+          hippogogreen:date: 2019-06-22T10:22:00+02:00
           hippogogreen:summary: "La conférence de Copenhague a été la 15e « Confé\
             rence des parties » (COP 15) de la\n              Convention-cadre des\
             \ Nations unies sur les changements climatiques. Elle s'est tenue à Copenhague\n\
@@ -3683,10 +3584,10 @@
           hippostd:state: published
           hippostd:tags: [Réchauffement, Climat, Conférence, Copenhague]
           hippostdpubwf:createdBy: admin20
-          hippostdpubwf:creationDate: 2013-07-30T15:29:00+02:00
-          hippostdpubwf:lastModificationDate: 2011-12-13T17:15:00+01:00
+          hippostdpubwf:creationDate: 2019-07-30T15:29:00+02:00
+          hippostdpubwf:lastModificationDate: 2018-12-13T17:15:00+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2011-12-13T17:15:00+01:00
+          hippostdpubwf:publicationDate: 2018-12-13T17:15:00+01:00
           hippotranslation:id: 0faa3f16-bddc-4405-ac6e-0106804872c5
           hippotranslation:locale: fr
           /hippogogreen:description:
@@ -3726,3 +3627,80 @@
             hippogogreen:url: http://fr.wikipedia.org/wiki/Conf%C3%A9rence_de_Copenhague_de_2009_sur_le_climat
           /relateddocs:docs:
             jcr:primaryType: relateddocs:docs
+    /04:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 5c688709-2372-4aa6-ab06-3cd0b5d43dd5
+      hippostd:foldertype: [new-blogs-folder, new-blog, new-blogcb]
+      hippotranslation:id: 9e3441c2-8b73-4bc2-903e-3eea2a1bf107
+      hippotranslation:locale: fr
+      /us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: a4e55c08-6a74-493e-b8a4-6c702a4f9e90
+        hippo:name: US comité de la Chambre approuve la modification, heure avancée
+          de
+        /us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de:
+          jcr:primaryType: hippogogreen:blogitem
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6ea94e60-3fd1-4f09-8f61-25bfd8bebe24
+          hippo:availability: [live, preview]
+          hippogogreen:contentstage: ''
+          hippogogreen:date: 2019-04-07T10:22:00+02:00
+          hippogogreen:summary: Le US House Energy and Commerce Committee a adopté
+            un amendement, le mercredi de prolonger l'heure d'été de deux mois. La
+            mesure bipartite est parrainé par Fred Upton Rep, républicain du Michigan,
+            et le représentant Ed Markey, démocrate du Massachusetts.
+          hippogogreen:title: US comité de la Chambre approuve la modification, heure
+            avancée de
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: Katja de Wit
+          hippostdpubwf:creationDate: 2017-07-20T14:39:00+02:00
+          hippostdpubwf:lastModificationDate: 2019-05-23T15:25:00+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2019-05-23T15:26:00+02:00
+          hippotranslation:id: 0e91d753-9d13-40c8-b5b1-41dbabebada8
+          hippotranslation:locale: fr
+          /hippogogreen:description:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+              <body>
+
+              <p>"Le plus de lumière que nous avons, le moins d'électricité que nous
+              utilisons," Rep Ed Markey a déclaré. Markey a également appuyé la mesure en
+              soulignant les avantages pour l'entreprise. "Il n'y a plus d'activité
+              économique, parce que les gens sentent qu'ils peuvent se promener en toute
+              sécurité", at-il dit.</p>
+
+              <p>«L'extension de l'heure d'été est logique, surtout de la flambée des coûts
+              énergétiques», Rép Fred Upton dit.</p>
+
+              <p>Le projet de loi étend l'heure d'été pour commencer sur le premier dimanche
+              de Mars et se termine le dernier dimanche de Novembre. L'heure d'été commence
+              actuellement le premier dimanche d'Avril et se termine le premier dimanche
+              d'Octobre.</p>
+
+              <p>Le US Department of Transportation estime que l'extension de l'heure d'été
+              permettrait d'économiser 10.000 barils de pétrole par jour. Les Etats-Unis
+              consomme environ 20 millions de barils de pétrole par jour.</p>
+
+              <p>La Chambre est d'approuver la planification de la facture énergétique à
+              laquelle l'amendement a été fixé dans quelques semaines. Plusieurs autres
+              amendements au projet de loi sont encore débattues.</p>
+
+              </body>
+              </html>
+          /relateddocs:docs:
+            jcr:primaryType: relateddocs:docs
+          /hippogogreen:copyright:
+            jcr:primaryType: hippogogreen:copyright
+            hippogogreen:description: ''
+            hippogogreen:url: http://en.wikinews.org/wiki/US_House_committee_approves_daylight_saving_time_amendment
+          /hippogogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 2ac72a9e-1558-49c3-b8f5-01019e57703d
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
