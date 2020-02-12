@@ -108,7 +108,7 @@ definitions:
       /standard.header.ftl:
         jcr:primaryType: hst:template
         hst:containers: [topbar, logo, mainnavigation, login]
-        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2017 BloomReach B.V.\
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2020 Bloomreach B.V.\
           \ (https://www.bloomreach.com/)\r\n        \r\n        -->\r\n        \r\n \
           \       <#assign hst=JspTaglibs[\"http://www.hippoecm.org/jsp/hst/core\"\
           ]>\r\n        <@hst.include ref=\"topbar\"/>\r\n        \r\n        <!--\
@@ -123,7 +123,7 @@ definitions:
       /standard.header.topbar.ftl:
         jcr:primaryType: hst:template
         hst:containers: [search, langnavigation]
-        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2017 BloomReach B.V.\
+        hst:script: "<#--\r\n        \r\n        Copyright (C) 2010-2020 Bloomreach B.V.\
           \ (https://www.bloomreach.com/)\r\n        \r\n        -->\r\n        \r\n \
           \       <#assign hst=JspTaglibs[\"http://www.hippoecm.org/jsp/hst/core\"\
           ]>\r\n        \r\n        <div class=\"top-bar\">\r\n        <div class=\"\
