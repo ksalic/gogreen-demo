@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>14.0.0-2</version>
+    <version>14.1.0</version>
   </parent>
 
   <name>GoGreen Public Demo</name>
@@ -67,9 +67,10 @@
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
-    <essentials.version>14.0.0</essentials.version>
+    <essentials.version>14.1.0</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
+
     <junit.version>4.12</junit.version>
     <easymock.version>3.4</easymock.version>
 
@@ -87,7 +88,6 @@
     <lib.json.version>20090211</lib.json.version>
     <lib.rome.version>1.0.0</lib.rome.version>
     <lib.xercesImpl.version>2.9.1</lib.xercesImpl.version>
-    <h2.database.version>1.4.199</h2.database.version>
   </properties>
 
   <repositories>
@@ -251,33 +251,6 @@
           </exclusion>
         </exclusions>
       </dependency>
-
- <!--     <dependency>
-        <groupId>org.onehippo.forge.urlrewriter</groupId>
-        <artifactId>urlrewriter-module-cms</artifactId>
-        <version>${hippo.addon-urlrewriter.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.onehippo.forge.urlrewriter</groupId>
-        <artifactId>urlrewriter-module-repository</artifactId>
-        <version>${hippo.addon-urlrewriter.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.onehippo.forge.urlrewriter</groupId>
-        <artifactId>urlrewriter-module-hst</artifactId>
-        <version>${hippo.addon-urlrewriter.version}</version>
-      </dependency>
--->
-
-      <dependency>
-        <groupId>com.h2database</groupId>
-        <artifactId>h2</artifactId>
-        <version>${h2.database.version}</version>
-        <scope>runtime</scope>
-      </dependency>
-
      </dependencies>
   </dependencyManagement>
 
