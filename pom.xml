@@ -79,15 +79,14 @@
     <hippo.cms.locales>nl,de,fr,es,en,en-gb,zh</hippo.cms.locales>
     <buildNumber>${maven.build.timestamp}</buildNumber>
 
-    <elasticsearch.version>6.5.1</elasticsearch.version>
-    <maven.plugin.elasticsearch.version>6.9</maven.plugin.elasticsearch.version>
-
     <lib.geolite2.version>20161123</lib.geolite2.version>
     <lib.httpcore.version>4.4.6</lib.httpcore.version>
     <lib.httpclient.version>4.5.3</lib.httpclient.version>
     <lib.json.version>20090211</lib.json.version>
     <lib.rome.version>1.0.0</lib.rome.version>
     <lib.xercesImpl.version>2.9.1</lib.xercesImpl.version>
+
+    <geolite2.version>20190708</geolite2.version>
   </properties>
 
   <repositories>
@@ -251,7 +250,13 @@
           </exclusion>
         </exclusions>
       </dependency>
-     </dependencies>
+      <dependency>
+        <groupId>com.onehippo.cms7</groupId>
+        <artifactId>hippo-maxmind-geolite2</artifactId>
+        <version>${geolite2.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+    </dependencies>
   </dependencyManagement>
 
   <dependencies>
@@ -369,7 +374,7 @@
         <sql.url>jdbc:h2:${repo.path}/targeting/targeting;AUTO_SERVER=TRUE</sql.url>
         <es.httpPort>9200</es.httpPort>
         <es.tcpPort>9301</es.tcpPort>
-        <es.skip.start>false</es.skip.start>
+        <targeting.elastic.disabled>false</targeting.elastic.disabled>
       </properties>
       <build>
         <plugins>
@@ -381,10 +386,10 @@
               <clusterName>esDevCluster</clusterName>
               <httpPort>${es.httpPort}</httpPort>
               <transportPort>${es.tcpPort}</transportPort>
-              <version>${elasticsearch.version}</version>
+              <version>${maven.plugin.elasticsearch.configuration.version}</version>
               <keepExistingData>true</keepExistingData>
               <timeout>60</timeout>
-              <skip>${es.skip.start}</skip>
+              <skip>${targeting.elastic.disabled}</skip>
             </configuration>
             <executions>
               <execution>
