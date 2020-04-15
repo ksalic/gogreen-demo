@@ -5,8 +5,6 @@
 
 <@hst.setBundle basename="general.text"/>
 
-<@hst.link path="/images/staticmap.png" var="staticMap"/>
-
 <div class="map-comp">
   <div class="map-search form-wrapper">
 
@@ -25,17 +23,18 @@
 </#if>
 <#assign gApiKey>no-key</#assign>
 <#if Request.googleApiKey??>
-  <#assign gApiKey>{Request.googleApiKey}</#assign>
+  <#assign gApiKey>${Request.googleApiKey}</#assign>
 </#if>
-
-  <img class="map-image" src="${staticMap}" alt="Google Maps"/>
+  <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?key=${gApiKey?html}&center=${Request.address?html}${zoom?html}&size=237x300&maptype=roadmap&markers=color:green%7Clabel:G%7C52.3593826,4.9016225&markers=color:green%7Clabel:G%7C42.350294,-71.057129" alt="Google Maps"/>
 </div>
+<@hst.link path="/images/staticmap.png" var="staticMap"/>
 <script type="text/javascript">
 
   var gmapsUrl = "https://maps.googleapis.com/maps/api/staticmap?key=${gApiKey?html}&center=[ADDRESS]${zoom?html}&size=237x300&maptype=roadmap&markers=color:green%7Clabel:G%7C52.3593826,4.9016225&markers=color:green%7Clabel:G%7C42.350294,-71.057129";
 
   $(".map-image")
     .error(function () {
+      console.log("Showing static PNG because of error retrieving Google map from " + gmapsUrl);
       $(this).attr("src", "${staticMap}");
     });
 
