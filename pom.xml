@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>14.1.0</version>
+    <version>14.2.1</version>
   </parent>
 
   <name>GoGreen Public Demo</name>
@@ -67,7 +67,7 @@
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
-    <essentials.version>14.1.0</essentials.version>
+    <essentials.version>14.2.1</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
 
@@ -132,12 +132,24 @@
         <groupId>com.onehippo.cms7</groupId>
         <artifactId>hippo-addon-targeting-demo-data-loader</artifactId>
         <version>${hippo.addon-targeting.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>net.minidev</groupId>
+            <artifactId>json-smart</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
         <groupId>com.onehippo.cms7</groupId>
         <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
         <version>${hippo.addon-targeting.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>net.minidev</groupId>
+            <artifactId>json-smart</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
 
       <dependency>
@@ -432,17 +444,17 @@
                   <properties>
                     <context>/cms</context>
                   </properties>
-                  <location>${project.basedir}/cms/target/cms.war</location>
+                  <location>${project.basedir}/cms/target/cms</location>
                 </deployable>
                 <deployable>
-                  <location>${project.basedir}/site/target/site.war</location>
+                  <location>${project.basedir}/site/target/site</location>
                   <type>war</type>
                   <properties>
                     <context>/site</context>
                   </properties>
                 </deployable>
                 <deployable>
-                  <location>${project.basedir}/essentials/target/essentials.war</location>
+                  <location>${project.basedir}/essentials/target/essentials</location>
                   <type>war</type>
                   <properties>
                     <context>/essentials</context>
