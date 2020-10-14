@@ -22,9 +22,10 @@ definitions:
             jcr:uuid: abcdefed-cbab-cdef-edbc-babcdefedcba
             hst:alias: site
             hst:mountpoint: /hst:hst/hst:sites/hippogogreen
+            hst:nochannelinfo: false
+            hst:pagemodelapi: resourceapi
             hst:showport: true
             hst:subjectbasedsession: true
-            hst:nochannelinfo: false
             /restapi:
               .meta:residual-child-node-category: content
               jcr:primaryType: hst:mount
@@ -48,6 +49,7 @@ definitions:
               hst:mountmobile: mobile-fr
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_fr
               hst:nochannelinfo: false
+              hst:pagemodelapi: resourceapi
               /api:
                 .meta:residual-child-node-category: content
                 jcr:primaryType: hst:mount
@@ -65,6 +67,7 @@ definitions:
               hst:mountmobile: mobile-nl
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_nl
               hst:nochannelinfo: false
+              hst:pagemodelapi: resourceapi
               /api:
                 .meta:residual-child-node-category: content
                 jcr:primaryType: hst:mount
@@ -83,6 +86,7 @@ definitions:
               hst:mountsite: site
               hst:types: [mobile]
               hst:nochannelinfo: false
+              hst:pagemodelapi: resourceapi
               /api:
                 .meta:residual-child-node-category: content
                 jcr:primaryType: hst:mount
@@ -99,8 +103,9 @@ definitions:
                 hst:locale: fr_FR
                 hst:mountpoint: /hst:hst/hst:sites/mobile_fr
                 hst:mountsite: site-fr
-                hst:types: [mobile]
                 hst:nochannelinfo: false
+                hst:pagemodelapi: resourceapi
+                hst:types: [mobile]
                 /api:
                   .meta:residual-child-node-category: content
                   jcr:primaryType: hst:mount
@@ -118,8 +123,9 @@ definitions:
                 hst:locale: nl_NL
                 hst:mountpoint: /hst:hst/hst:sites/mobile_nl
                 hst:mountsite: site-nl
-                hst:types: [mobile]
                 hst:nochannelinfo: false
+                hst:pagemodelapi: resourceapi
+                hst:types: [mobile]
                 /api:
                   .meta:residual-child-node-category: content
                   jcr:primaryType: hst:mount
@@ -137,8 +143,9 @@ definitions:
                 hst:locale: de_DE
                 hst:mountpoint: /hst:hst/hst:sites/mobile_de
                 hst:mountsite: site-de
-                hst:types: [mobile]
                 hst:nochannelinfo: false
+                hst:pagemodelapi: resourceapi
+                hst:types: [mobile]
                 /api:
                   .meta:residual-child-node-category: content
                   jcr:primaryType: hst:mount
@@ -156,8 +163,9 @@ definitions:
                 hst:locale: zh_CN
                 hst:mountpoint: /hst:hst/hst:sites/mobile_zh
                 hst:mountsite: site-zh
-                hst:types: [mobile]
                 hst:nochannelinfo: false
+                hst:pagemodelapi: resourceapi
+                hst:types: [mobile]
                 /api:
                   .meta:residual-child-node-category: content
                   jcr:primaryType: hst:mount
@@ -175,8 +183,9 @@ definitions:
                 hst:locale: en_GB
                 hst:mountpoint: /hst:hst/hst:sites/mobile_uk
                 hst:mountsite: site-uk
-                hst:types: [mobile]
                 hst:nochannelinfo: false
+                hst:pagemodelapi: resourceapi
+                hst:types: [mobile]
                 /api:
                   .meta:residual-child-node-category: content
                   jcr:primaryType: hst:mount
@@ -194,6 +203,7 @@ definitions:
               hst:mountmobile: mobile-zh
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_zh
               hst:nochannelinfo: false
+              hst:pagemodelapi: resourceapi
               /api:
                 .meta:residual-child-node-category: content
                 jcr:primaryType: hst:mount
@@ -211,6 +221,7 @@ definitions:
               hst:mountmobile: mobile-de
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_de
               hst:nochannelinfo: false
+              hst:pagemodelapi: resourceapi
               /api:
                 .meta:residual-child-node-category: content
                 jcr:primaryType: hst:mount
@@ -228,6 +239,7 @@ definitions:
               hst:mountmobile: mobile-uk
               hst:mountpoint: /hst:hst/hst:sites/hippogogreen_uk
               hst:nochannelinfo: false
+              hst:pagemodelapi: resourceapi
               /api:
                 .meta:residual-child-node-category: content
                 jcr:primaryType: hst:mount
