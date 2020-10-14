@@ -87,6 +87,10 @@
     <lib.xercesImpl.version>2.9.1</lib.xercesImpl.version>
 
     <geolite2.version>20190708</geolite2.version>
+
+    <!-- downgrade version which is run by elasticsearch-maven-plugin from 7 to 6,
+         since the default bootstrapped ElasticStoreFactory configuration is on 6 -->
+    <maven.plugin.elasticsearch.configuration.version>6.8.4</maven.plugin.elasticsearch.configuration.version>
   </properties>
 
   <repositories>
