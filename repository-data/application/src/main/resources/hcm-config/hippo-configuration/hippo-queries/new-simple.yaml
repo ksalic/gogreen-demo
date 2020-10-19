@@ -1,6 +1,6 @@
 definitions:
   config:
-    /hippo:configuration/hippo:queries/hippo:templates/new-simple:
+    /hippo:configuration/hippo:queries/hippo:templates/new-simple-document:
       jcr:primaryType: hippostd:templatequery
       hippostd:icon: adddocument_ico
       hippostd:modify: [./_name, $name, './hippotranslation:locale', $inherited, './hippotranslation:id',

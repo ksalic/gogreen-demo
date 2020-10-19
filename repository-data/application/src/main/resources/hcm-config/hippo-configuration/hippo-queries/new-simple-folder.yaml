@@ -14,6 +14,6 @@ definitions:
         /hippostd:folder:
           jcr:primaryType: hippostd:folder
           jcr:mixinTypes: ['mix:referenceable', 'hippotranslation:translated']
-          hippostd:foldertype: [new-simple-folder, new-simple]
+          hippostd:foldertype: [new-simple-folder, new-simple-document]
           hippotranslation:id: generated id
           hippotranslation:locale: inherited locale
