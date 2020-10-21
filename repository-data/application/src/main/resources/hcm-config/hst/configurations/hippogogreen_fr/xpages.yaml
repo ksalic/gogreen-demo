@@ -1,0 +1,18 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippogogreen_fr/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /onecolumn-xpage:
+        jcr:primaryType: hst:xpage
+        hst:label: One Column XPage
+        hst:referencecomponent: hst:abstractpages/defaultxpage
+        /main:
+          jcr:primaryType: hst:component
+          hst:template: standard.main-onecolumn
+          /content:
+            jcr:primaryType: hst:containercomponent
+            hst:xtype: HST.vBox
+            /document:
+              jcr:primaryType: hst:containeritemcomponent
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+              hst:template: common.detail

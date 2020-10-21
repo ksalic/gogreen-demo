@@ -84,3 +84,11 @@ definitions:
             hst:parameternames: [siteMenu]
             hst:parametervalues: [sectionsmenu]
             hst:referencecomponent: hst:components/footermenu
+      /defaultxpage:
+        jcr:primaryType: hst:component
+        hst:referencecomponent: hst:abstractpages/defaultpage
+        /main:
+          jcr:primaryType: hst:component
+          /top:
+            jcr:primaryType: hst:component
+            hst:template: standard.main.top

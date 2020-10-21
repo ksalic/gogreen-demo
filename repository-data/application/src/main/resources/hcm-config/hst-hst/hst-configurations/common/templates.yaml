@@ -13,6 +13,9 @@ definitions:
         jcr:primaryType: hst:template
         hst:containers: []
         hst:renderpath: jsp/common/comments.jsp
+      /common.detail:
+        jcr:primaryType: hst:template
+        hst:renderpath: jsp/common/detail.jsp
       /common.feed:
         jcr:primaryType: hst:template
         hst:renderpath: jsp/common/feed.jsp
@@ -169,6 +172,10 @@ definitions:
         jcr:primaryType: hst:template
         hst:containers: []
         hst:renderpath: jsp/standard/main.jsp
+      /standard.main-onecolumn:
+        jcr:primaryType: hst:template
+        hst:containers: []
+        hst:renderpath: jsp/standard/main-onecolumn.jsp
       /standard.main.top:
         jcr:primaryType: hst:template
         hst:containers: []
