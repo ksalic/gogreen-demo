@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>14.4.0</version>
+    <version>14.5.0</version>
   </parent>
 
   <name>GoGreen Public Demo</name>
@@ -67,7 +67,7 @@
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
 
-    <essentials.version>14.4.0</essentials.version>
+    <essentials.version>14.5.0</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
 
@@ -76,7 +76,7 @@
 
     <development-module-deploy-dir>shared/lib</development-module-deploy-dir>
 
-    <hippo.cms.locales>nl,de,fr,es,en,en-gb,zh</hippo.cms.locales>
+    <hippo.cms.locales>nl,de,fr,es,zh</hippo.cms.locales>
     <buildNumber>${maven.build.timestamp}</buildNumber>
 
     <lib.geolite2.version>20161123</lib.geolite2.version>
