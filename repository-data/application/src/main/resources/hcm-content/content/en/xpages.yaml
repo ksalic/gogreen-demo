@@ -1,9 +1,11 @@
 /content/documents/hippogogreen/xpages:
   .meta:order-before: about
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
+    'mix:versionable']
+  jcr:uuid: 738788dd-43d2-4cb3-8000-efaaacc92217
   hippo:name: X Pages
   hippostd:channelid: hippogogreen
-  hippostd:foldertype: [new-xpage-document]
+  hippostd:foldertype: [new-xpage-document, new-xpage-folder]
   hippotranslation:id: 2c21a29c-a5d1-4e84-aec4-666666666666
   hippotranslation:locale: en
