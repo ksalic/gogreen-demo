@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2010-2020 Hippo B.V. (http://www.onehippo.com)
+  Copyright 2010-2021 Hippo B.V. (http://www.onehippo.com)
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -79,14 +79,11 @@
     <hippo.cms.locales>nl,de,fr,es,zh</hippo.cms.locales>
     <buildNumber>${maven.build.timestamp}</buildNumber>
 
-    <lib.geolite2.version>20161123</lib.geolite2.version>
+    <lib.geolite2.version>20190708</lib.geolite2.version>
     <lib.httpcore.version>4.4.6</lib.httpcore.version>
     <lib.httpclient.version>4.5.3</lib.httpclient.version>
     <lib.json.version>20090211</lib.json.version>
     <lib.rome.version>1.0.0</lib.rome.version>
-
-
-    <geolite2.version>20190708</geolite2.version>
 
     <!-- downgrade version which is run by elasticsearch-maven-plugin from 7 to 6,
          since the default bootstrapped ElasticStoreFactory configuration is on 6 -->
@@ -260,10 +257,11 @@
           </exclusion>
         </exclusions>
       </dependency>
+
       <dependency>
         <groupId>com.onehippo.cms7</groupId>
         <artifactId>hippo-maxmind-geolite2</artifactId>
-        <version>${geolite2.version}</version>
+        <version>${lib.geolite2.version}</version>
         <scope>runtime</scope>
       </dependency>
     </dependencies>
