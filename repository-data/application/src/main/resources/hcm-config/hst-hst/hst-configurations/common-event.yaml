@@ -9,18 +9,6 @@ definitions:
         /event-catalog:
           jcr:primaryType: hst:containeritempackage
           jcr:uuid: ee65b69a-12aa-4c4e-9ffe-f5294ba4787d
-          /feed:
-            jcr:primaryType: hst:containeritemcomponent
-            jcr:uuid: 152c1113-e4ae-4458-86ea-e98a94712b6c
-            hst:async: true
-            hst:componentclassname: com.onehippo.gogreen.components.Feed
-            hst:iconpath: images/catalog/ss-icon__rest-service.svg
-            hst:label: RSS Feed
-            hst:parameternames: [numberOfItems, updateInterval, title, feedURL, connectTimeout]
-            hst:parametervalues: ['3', '15', Feed, 'https://www.bloomreach.com/en/news-rss/',
-              '2000']
-            hst:template: common.feed
-            hst:xtype: HST.Item
           /map:
             jcr:primaryType: hst:containeritemcomponent
             jcr:uuid: beb6f846-d460-48ed-a448-431c1f6308d2

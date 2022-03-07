@@ -1,0 +1,44 @@
+/*
+ * Copyright 2012-2022 Hippo B.V. (http://www.onehippo.com)
+ */
+
+#infobox {
+  float: right;
+  margin-top: 40px;
+  margin-right: 60px;
+  font-size: 1.0em;
+}
+
+#info-login {
+  position: relative;
+  width: 320px;
+  color: #333333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#info-login h2 {
+  height: auto;
+  background: none;
+  color: #333333;
+  font-size: 125%;
+  border-bottom: 1px solid #666666;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: right;
+}
+
+#info-login table {
+  width: 100%;
+}
+
+#info-login th {
+  font-size: 107%;
+  color: #333333;
+  padding-bottom: 3px;
+  text-align: left;
+}
+
+#info-login td {
+  padding: 1px 0px;
+}

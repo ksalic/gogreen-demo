@@ -83,7 +83,6 @@
     <lib.httpcore.version>4.4.6</lib.httpcore.version>
     <lib.httpclient.version>4.5.3</lib.httpclient.version>
     <lib.json.version>20090211</lib.json.version>
-    <lib.rome.version>1.0.0</lib.rome.version>
 
     <!-- downgrade version which is run by elasticsearch-maven-plugin from 7 to 6,
          since the default bootstrapped ElasticStoreFactory configuration is on 6 -->
@@ -212,18 +211,6 @@
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
         <version>${lib.json.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>net.java.dev.rome</groupId>
-        <artifactId>rome-fetcher</artifactId>
-        <version>${lib.rome.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>net.java.dev.rome</groupId>
-        <artifactId>rome</artifactId>
-        <version>${lib.rome.version}</version>
       </dependency>
 
       <dependency>
