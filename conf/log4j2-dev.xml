@@ -62,6 +62,8 @@
     <Logger name="org.hippoecm.repository" level="warn"/>
     <Logger name="org.hippoecm.frontend" level="warn"/>
     <Logger name="org.apache.wicket" level="warn"/>
+    <Logger name="org.bloomreach.xm.cms" level="info"/>
+    <Logger name="com.onehippo.gogreen.security" level="info"/>
 
     <!-- DiagnosticsRequestCycleListener only logs when diagnostics are enabled in the repository at
          /hippo:configuration/hippo:modules/diagnostics. Hence can be here on level 'info' -->

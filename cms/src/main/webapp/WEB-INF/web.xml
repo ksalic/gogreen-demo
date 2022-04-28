@@ -12,6 +12,10 @@
   <display-name>Hippo ECM WAR package</display-name>
   <description>Hippo ECM WAR package</description>
 
+  <listener>
+    <listener-class>org.hippoecm.hst.platform.container.HstCmsContextLoaderListener</listener-class>
+  </listener>
+
   <context-param>
     <description>The address of the repository</description>
     <param-name>repository-address</param-name>
@@ -22,6 +26,7 @@
     <param-name>repository-directory</param-name>
     <param-value>WEB-INF/storage</param-value>
   </context-param>
+
   <context-param>
     <description>The location of the repository configuration file. Unless the location
       starts with file://, the location is retrieved from within the application package as
@@ -31,6 +36,11 @@
     <param-value>repository.xml</param-value>
   </context-param>
 
+  <filter>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
   <!--No concurrent logins-->
   <filter>
     <filter-name>ConcurrentLogin</filter-name>
@@ -38,20 +48,20 @@
   </filter>
 
   <!-- IP based access  -->
-  <filter>
-    <filter-name>AccessFilter</filter-name>
-    <filter-class>com.onehippo.gogreen.filter.AccessFilter</filter-class>
-    <init-param>
-      <param-name>allowed-ip-ranges</param-name>
-      <!-- allow localhosts and Hippo Office IPs -->
-      <param-value>127.0.0.1,0:0:0:0:0:0:0:1,
-        80.100.160.250,85.146.244.170,54.84.254.197,3.248.180.36,
-        2001:1c04:806:a000:bc90:87bd:5214:75b8,
-        2a00:18c8:9619:1::/64,2a00:18c8:9619:2::/64,2a00:18c8:9619:3::/64,
-        2001:984:9e38:1::/64,2001:984:9e38:2::/64,2001:984:9e38:3::/64,2001:984:9e38:4::/64,
-        10.10.100.0/24</param-value>
-    </init-param>
-  </filter>
+<!--  <filter>-->
+<!--    <filter-name>AccessFilter</filter-name>-->
+<!--    <filter-class>com.onehippo.gogreen.filter.AccessFilter</filter-class>-->
+<!--    <init-param>-->
+<!--      <param-name>allowed-ip-ranges</param-name>-->
+<!--      &lt;!&ndash; allow localhosts and Hippo Office IPs &ndash;&gt;-->
+<!--      <param-value>127.0.0.1,0:0:0:0:0:0:0:1,-->
+<!--        80.100.160.250,85.146.244.170,54.84.254.197,3.248.180.36,-->
+<!--        2001:1c04:806:a000:bc90:87bd:5214:75b8,-->
+<!--        2a00:18c8:9619:1::/64,2a00:18c8:9619:2::/64,2a00:18c8:9619:3::/64,-->
+<!--        2001:984:9e38:1::/64,2001:984:9e38:2::/64,2001:984:9e38:3::/64,2001:984:9e38:4::/64,-->
+<!--        10.10.100.0/24</param-value>-->
+<!--    </init-param>-->
+<!--  </filter>-->
 
   <filter>
     <filter-name>HstFilter</filter-name>
@@ -111,17 +121,23 @@
   </filter>
 
   <filter-mapping>
-    <filter-name>AccessFilter</filter-name>
-    <url-pattern>/console/*</url-pattern>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
   </filter-mapping>
-  <filter-mapping>
-    <filter-name>AccessFilter</filter-name>
-    <url-pattern>/logging/*</url-pattern>
-  </filter-mapping>
-  <filter-mapping>
-    <filter-name>AccessFilter</filter-name>
-    <url-pattern>/repository/*</url-pattern>
-  </filter-mapping>
+
+<!--  <filter-mapping>-->
+<!--    <filter-name>AccessFilter</filter-name>-->
+<!--    <url-pattern>/console/*</url-pattern>-->
+<!--  </filter-mapping>-->
+<!--  <filter-mapping>-->
+<!--    <filter-name>AccessFilter</filter-name>-->
+<!--    <url-pattern>/logging/*</url-pattern>-->
+<!--  </filter-mapping>-->
+<!--  <filter-mapping>-->
+<!--    <filter-name>AccessFilter</filter-name>-->
+<!--    <url-pattern>/repository/*</url-pattern>-->
+<!--  </filter-mapping>-->
 
   <filter-mapping>
     <filter-name>HstFilter</filter-name>
@@ -145,10 +161,6 @@
 
   <listener>
     <listener-class>org.hippoecm.frontend.plugins.login.ConcurrentLoginListener</listener-class>
-  </listener>
-
-  <listener>
-    <listener-class>org.hippoecm.hst.platform.container.HstCmsContextLoaderListener</listener-class>
   </listener>
 
   <servlet>
