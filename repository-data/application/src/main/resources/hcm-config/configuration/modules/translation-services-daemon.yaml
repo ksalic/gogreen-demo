@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/translation-services-daemon/hippo:moduleconfig/translationsaddon:connector:
+      jcr:primaryType: hipposys:moduleconfig
+      className: com.bloomreach.cms.translations.connector.tester.TesterTranslationConnector

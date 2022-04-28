@@ -2,3 +2,38 @@ definitions:
   config:
     /hippo:configuration/hippo:frontend/cms/cms-static/updater:
       .meta:delete: true
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/bynder:
+      jcr:primaryType: frontend:uiExtension
+      frontend:config: "{\"defaultDomain\":\"https://bloomreach.getbynder.com\", \"\
+            language\":\r\n    \"en_US\", \"mode\": \"SingleSelect\", \"assetTypes\":\
+            \ [\"image\"], \"clientId\":\r\n    \"8ce8d77c-2819-436c-a78d-bab330d13e44\"\
+            , \"clientSecret\":\"680d3042-971e-4e8b-99a6-12ff0a561f84\"}"
+      frontend:displayName: Bynder
+      frontend:extensionPoint: document.field
+      frontend:url: https://pacific-ui-extensions.herokuapp.com/bynder_v2/
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/categoryPicker:
+      jcr:primaryType: frontend:uiExtension
+      jcr:mixinTypes: [ 'hippostd:relaxed' ]
+      frontend:config: '{"dataMode":"single","title":"Category Picker","size":"large",
+          "application": "categoryPicker", "connectorIdField" : "brxsaas:connectorid"}'
+      frontend:displayName: External Category Picker
+      frontend:extensionPoint: document.field
+      frontend:initialHeightInPixels: 200
+      frontend:url: https://pacific-ui-extensions.herokuapp.com/category-picker
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/productPicker:
+      jcr:primaryType: frontend:uiExtension
+      jcr:mixinTypes: [ 'hippostd:relaxed' ]
+      frontend:config: '{"dataMode":"multiple","title":"Product Picker","size":"large",
+          "application": "productPicker", "query": "couch", "pageSize" :"16", "connectorIdField"
+          : "brxsaas:connectorid"}'
+      frontend:displayName: External Product Picker
+      frontend:extensionPoint: document.field
+      frontend:initialHeightInPixels: 200
+      frontend:url: https://pacific-ui-extensions.herokuapp.com/product-picker
+    /hippo:configuration/hippo:frontend/cms/ui-extensions/unsplash:
+      jcr:primaryType: frontend:uiExtension
+      frontend:config: '{"clientId":"86efc67df503eda4d10f0e620d51c4797d369a44d0b32d7783eda7b8caf53713",
+          "unsplashRandomUrl":"https://api.unsplash.com/photos/random","unsplashSearchUrl":"https://api.unsplash.com/search/photos"}'
+      frontend:displayName: Unsplash
+      frontend:extensionPoint: document.field
+      frontend:url: https://pacific-ui-extensions.herokuapp.com/unsplash/

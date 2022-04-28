@@ -2,334 +2,408 @@
 <!--
   Copyright 2010-2020 Hippo B.V. (http://www.onehippo.com)
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>com.onehippo.gogreen</groupId>
-    <artifactId>gogreen-two</artifactId>
-    <version>5.8.1-SNAPSHOT</version>
-  </parent>
+    <parent>
+        <groupId>com.onehippo.gogreen</groupId>
+        <artifactId>gogreen-two</artifactId>
+        <version>5.8.1-SNAPSHOT</version>
+    </parent>
 
-  <name>GoGreen Public Demo CMS</name>
-  <artifactId>gogreen-two-cms</artifactId>
-  <packaging>war</packaging>
+    <name>GoGreen Public Demo CMS</name>
+    <artifactId>gogreen-two-cms</artifactId>
+    <packaging>war</packaging>
 
-  <properties>
-    <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
-    <spring-security-web.version>4.2.3.RELEASE</spring-security-web.version>
-    <commons-jexl2.version>2.1.1</commons-jexl2.version>
-    <json-lib.version>2.4</json-lib.version>
+    <properties>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
+        <spring-security-web.version>4.2.3.RELEASE</spring-security-web.version>
+        <commons-jexl2.version>2.1.1</commons-jexl2.version>
+        <json-lib.version>2.4</json-lib.version>
 
-    <gogreen-two-relevance-data.version>1.0.0</gogreen-two-relevance-data.version>
-  </properties>
+        <gogreen-two-relevance-data.version>1.0.0</gogreen-two-relevance-data.version>
+    </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-package-cms-dependencies</artifactId>
-      <type>pom</type>
-    </dependency>
-    <dependency>
-      <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>gogreen-two-repository-data-application</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>gogreen-two-repository-data-webfiles</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-gallerypicker</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-resourcebundle-editor</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-selections-addon-cms</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-selections-addon-repository</artifactId>
-    </dependency>
+    <dependencies>
+        <!-- Mandatory: Translations Bill Of Materials pom -->
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-bom</artifactId>
+            <type>pom</type>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-enterprise-package-cms-dependencies</artifactId>
-      <type>pom</type>
-    </dependency>
+        <!-- Optional, recommended: settings management, plus the translations-addon extension -->
+        <dependency>
+            <groupId>org.bloomreach.forge.settingsmanagement</groupId>
+            <artifactId>bloomreach-settingsmanagement-repository</artifactId>
+            <version>${forge.settingsmanagement.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bloomreach.forge.settingsmanagement</groupId>
+            <artifactId>bloomreach-settingsmanagement-frontend-core</artifactId>
+            <version>${forge.settingsmanagement.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-edition-indicator</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-settings-frontend</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>gogreen-two-rating-plugin</artifactId>
-      <version>${project.version}</version>
-      <scope>runtime</scope>
-    </dependency>
-<!-- begin: In a default project, these 3 hcm-site modules are in the site.
-             Doing that would need splitting up repository-data/application module as well  -->
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.toolkit-resources.addon</groupId>
-      <artifactId>hst-addon-hcm-site</artifactId>
-    </dependency>
+        <!-- Optional: document editor frontend dependency -->
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-editor-frontend</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-eforms-hcm-site</artifactId>
-    </dependency>
+        <!-- Optional: Tester connector -->
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-connector-tester</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-sitemap-hcm-site</artifactId>
-    </dependency>
-<!-- end -->
+        <!-- Optional: Globallink connector -->
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-connector-globallink</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-relateddocs</artifactId>
-    </dependency>
+        <!-- Optional: Star connector -->
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-connector-star</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-taxonomy-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-taxonomy-addon-frontend</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-taxonomy-addon-repository</artifactId>
-    </dependency>
+        <!-- Optional: FTP connector -->
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-connector-ftp</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-dashboard-document-wizard</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-search-frontend</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-cms-google-analytics-frontend</artifactId>
-    </dependency>
+        <!-- Optional: translations dashboard -->
+        <dependency>
+            <groupId>com.bloomreach.cms.translations-addon</groupId>
+            <artifactId>translations-addon-dashboard</artifactId>
+            <version>${bloomreach.translations-addon.version}</version>
+        </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.cms7.hst.client-modules</groupId>
-      <artifactId>hst-google-analytics-repository</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-package-cms-dependencies</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.onehippo.gogreen</groupId>
+            <artifactId>gogreen-two-repository-data-application</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.onehippo.gogreen</groupId>
+            <artifactId>gogreen-two-repository-data-webfiles</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-gallerypicker</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-resourcebundle-editor</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-selections-addon-cms</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-selections-addon-repository</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-reporting-dashboard-frontend</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-enterprise-package-cms-dependencies</artifactId>
+            <type>pom</type>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-reporting-dashboard-repository</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-edition-indicator</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-cms-dependencies</artifactId>
-      <type>pom</type>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.gogreen</groupId>
+            <artifactId>gogreen-two-rating-plugin</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- begin: In a default project, these 3 hcm-site modules are in the site.
+                     Doing that would need splitting up repository-data/application module as well  -->
+        <dependency>
+            <groupId>org.onehippo.cms7.hst.toolkit-resources.addon</groupId>
+            <artifactId>hst-addon-hcm-site</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-demo-data-loader</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-eforms-hcm-site</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.gogreen</groupId>
-      <artifactId>gogreen-two-relevance-data</artifactId>
-      <version>${gogreen-two-relevance-data.version}</version>
-      <type>war</type>
-    </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-sitemap-hcm-site</artifactId>
+        </dependency>
+        <!-- end -->
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
-      <scope>test</scope>
-    </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-relateddocs</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-wpm-cms-dependencies</artifactId>
-      <type>pom</type>
-    </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-taxonomy-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-taxonomy-addon-frontend</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-taxonomy-addon-repository</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-advanced-search-frontend</artifactId>
-      <type>pom</type>
-    </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-dashboard-document-wizard</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-advanced-search-repository</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-cms-google-analytics-frontend</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-eforms-cms</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>org.onehippo.cms7.hst.client-modules</groupId>
+            <artifactId>hst-google-analytics-repository</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-eforms-repository</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-reporting-dashboard-frontend</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-seo-support-repository</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-reporting-dashboard-repository</artifactId>
+        </dependency>
 
-    <!-- Content Blocks plugin -->
-    <dependency>
-      <groupId>org.onehippo.cms7</groupId>
-      <artifactId>hippo-plugin-content-blocks</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-targeting-cms-dependencies</artifactId>
+            <type>pom</type>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-urlrewriter-module-cms</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-targeting-demo-data-loader</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-urlrewriter-module-repository</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.gogreen</groupId>
+            <artifactId>gogreen-two-relevance-data</artifactId>
+            <version>${gogreen-two-relevance-data.version}</version>
+            <type>war</type>
+        </dependency>
 
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-web</artifactId>
-      <version>${spring-security-web.version}</version>
-      <exclusions>
-        <exclusion>
-          <artifactId>aopalliance</artifactId>
-          <groupId>aopalliance</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>spring-security-core</artifactId>
-          <groupId>org.springframework.security</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>spring-beans</artifactId>
-          <groupId>org.springframework</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>spring-context</artifactId>
-          <groupId>org.springframework</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>spring-core</artifactId>
-          <groupId>org.springframework</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>spring-expression</artifactId>
-          <groupId>org.springframework</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>spring-web</artifactId>
-          <groupId>org.springframework</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-targeting-demo-data-generator</artifactId>
+            <scope>test</scope>
+        </dependency>
 
-    <dependency>
-      <groupId>net.sf.json-lib</groupId>
-      <artifactId>json-lib</artifactId>
-      <version>${json-lib.version}</version>
-      <classifier>jdk15</classifier>
-      <exclusions>
-        <exclusion>
-          <groupId>commons-logging</groupId>
-          <artifactId>commons-logging</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-wpm-cms-dependencies</artifactId>
+            <type>pom</type>
+        </dependency>
 
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-jexl</artifactId>
-      <version>${commons-jexl2.version}</version>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-advanced-search-frontend</artifactId>
+            <type>pom</type>
+        </dependency>
 
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-advanced-search-repository</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-lucene-export</artifactId>
-    </dependency>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-eforms-cms</artifactId>
+        </dependency>
 
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-maxmind-geolite2</artifactId>
-    </dependency>
-  </dependencies>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-eforms-repository</artifactId>
+        </dependency>
 
-  <build>
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-seo-support-repository</artifactId>
+        </dependency>
 
-    <defaultGoal>package</defaultGoal>
-    <finalName>cms</finalName>
+        <!-- Content Blocks plugin -->
+        <dependency>
+            <groupId>org.onehippo.cms7</groupId>
+            <artifactId>hippo-plugin-content-blocks</artifactId>
+        </dependency>
 
-    <resources>
-      <resource>
-        <directory>src/main/resources</directory>
-        <includes>
-          <include>**</include>
-        </includes>
-      </resource>
-      <resource>
-        <directory>src/main/java</directory>
-        <includes>
-          <include>**</include>
-        </includes>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-urlrewriter-module-cms</artifactId>
+        </dependency>
 
-    <plugins>
-      <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <configuration>
-          <archive>
-            <manifestEntries>
-              <BloomReach-Release-Version>${hippo.release.version}</BloomReach-Release-Version>
-              <Project-Version>${project.version}</Project-Version>
-              <Project-Build>${buildNumber} ${maven.build.timestamp}</Project-Build>
-            </manifestEntries>
-          </archive>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.cargo</groupId>
-        <artifactId>cargo-maven2-plugin</artifactId>
-        <configuration>
-          <configuration>
-            <type>runtime</type>
-          </configuration>
-          <container>
-            <type>remote</type>
-          </container>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.onehippo.cms.l10n</groupId>
-        <artifactId>hippo-cms-l10n-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-urlrewriter-module-repository</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>${spring-security-web.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>aopalliance</artifactId>
+                    <groupId>aopalliance</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-security-core</artifactId>
+                    <groupId>org.springframework.security</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-beans</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-context</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-core</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-expression</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-web</artifactId>
+                    <groupId>org.springframework</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>${json-lib.version}</version>
+            <classifier>jdk15</classifier>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-jexl</artifactId>
+            <version>${commons-jexl2.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-addon-lucene-export</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.onehippo.cms7</groupId>
+            <artifactId>hippo-maxmind-geolite2</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+
+        <defaultGoal>package</defaultGoal>
+        <finalName>cms</finalName>
+
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+                            <BloomReach-Release-Version>${hippo.release.version}</BloomReach-Release-Version>
+                            <Project-Version>${project.version}</Project-Version>
+                            <Project-Build>${buildNumber} ${maven.build.timestamp}</Project-Build>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.cargo</groupId>
+                <artifactId>cargo-maven2-plugin</artifactId>
+                <configuration>
+                    <configuration>
+                        <type>runtime</type>
+                    </configuration>
+                    <container>
+                        <type>remote</type>
+                    </container>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.onehippo.cms.l10n</groupId>
+                <artifactId>hippo-cms-l10n-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
