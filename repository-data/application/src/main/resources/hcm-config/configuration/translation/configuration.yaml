@@ -1,0 +1,14 @@
+definitions:
+  config:
+    /translationsaddon:configuration/enabled-doctypes:
+      jcr:primaryType: translationsaddon:configuration
+      value: '{"enabled-doctypes":[{"hippogogreen:banner":"banner"},{"hippogogreen:basedocument":"basedocument"},{"hippogogreen:blogitem":"blogitem"},{"hippogogreen:blogitemcb":"blogitemcb"},{"hippogogreen:comment":"comment"},{"hippogogreen:document":"document"},{"hippogogreen:event":"event"},{"hippogogreen:faq":"faq"},{"hippogogreen:newsitem":"newsitem"},{"hippogogreen:product":"product"},{"hippogogreen:restapi":"restapi"},{"hippogogreen:review":"review"},{"hippogogreen:richtextsnippet":"richtextsnippet"},{"hippogogreen:simpledocument":"simpledocument"}]}'
+    /translationsaddon:configuration/languages:
+      jcr:primaryType: translationsaddon:configuration
+      value: '{"languages":["zh","de","en","en-gb","fr","nl"]}'
+    /translationsaddon:configuration/namespaces:
+      jcr:primaryType: translationsaddon:configuration
+      value: '{"namespaces":["hippogogreen"]}'
+
+
+
