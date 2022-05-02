@@ -1,0 +1,597 @@
+/content/documents/common:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['mix:versionable']
+  jcr:uuid: 824dc2a5-4864-41fa-9a76-b0737ef2dd37
+  hippostd:foldertype: [new-document, new-folder]
+  /banners:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 262592ae-bcd3-4adb-b62d-deed192ae6e9
+    hippostd:foldertype: [new-document, new-folder]
+    /example-carousel:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: a8abd086-818a-43ed-b1dc-1b1c0a85cd63
+      hippo:name: example carousel
+      hippo:versionHistory: 62b657af-6357-4f2d-83b3-7231781e9422
+      /example-carousel[1]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 130c9d21-fae0-44c9-84a6-f6559bc26a8d
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-04-29T14:10:02.016+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T14:05:51.483+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: ed5ad6f6-bbe1-4127-bb92-7abe5ace4646
+        hippotranslation:locale: document-type-locale
+        myproject:columns: single
+        myproject:fullwidth: false
+        myproject:style: carousel
+        /myproject:bannerentity[1]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:staticdropdown: default
+          myproject:string: subtitle
+          myproject:string1: title
+          myproject:subtitle: subtitle
+          myproject:theme: light
+          myproject:title: title
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: button
+            myproject:text: click here
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: 1c77d631-0b1f-4683-8493-946904239e05
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[2]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: second slide
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[3]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: Third
+          myproject:theme: light
+          myproject:title: slide
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: shop now
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /example-carousel[2]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 324a2701-2d62-48a0-bdc0-e85d21f89361
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-04-29T14:10:02.016+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T14:05:51.483+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-05-02T14:57:57.437+02:00
+        hippotranslation:id: ed5ad6f6-bbe1-4127-bb92-7abe5ace4646
+        hippotranslation:locale: document-type-locale
+        myproject:columns: single
+        myproject:fullwidth: false
+        myproject:style: carousel
+        /myproject:bannerentity[1]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:staticdropdown: default
+          myproject:string: subtitle
+          myproject:string1: title
+          myproject:subtitle: subtitle
+          myproject:theme: light
+          myproject:title: title
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: button
+            myproject:text: click here
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: 1c77d631-0b1f-4683-8493-946904239e05
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[2]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: second slide
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[3]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: Third
+          myproject:theme: light
+          myproject:title: slide
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: shop now
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /example-text:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 5838aa88-423b-49cb-9bf6-2a61178b21c4
+      hippo:name: example text
+      hippo:versionHistory: 3fb5d821-37e9-4b5f-b90b-eed6f144a9db
+      /example-text[1]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: f715f493-c295-478d-bc75-fa026e905933
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-05-02T14:00:51.609+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T14:02:10.098+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9d0de421-d575-41a3-b6a8-c37763fe0a38
+        hippotranslation:locale: document-type-locale
+        myproject:columns: '2'
+        myproject:fullwidth: false
+        myproject:style: default
+        /myproject:bannerentity[1]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:theme: ''
+          myproject:title: Left
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Donec auctor purus in lobortis dapibus. Phasellus sed nisi lectus.
+              Maecenas quis facilisis mi.</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[2]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: default
+          myproject:title: Right
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Vestibulum vulputate aliquam dictum. Praesent blandit
+              metus feugiat, rutrum velit vitae, elementum erat. Suspendisse dignissim
+              tellus risus, quis volutpat velit cursus et. Nullam varius ex elementum
+              dictum scelerisque.</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /example-text[2]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 62b4abe2-f3e9-4b3d-8edc-e28766f7b620
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-05-02T14:00:51.609+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T14:02:10.098+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-05-02T14:57:55.270+02:00
+        hippotranslation:id: 9d0de421-d575-41a3-b6a8-c37763fe0a38
+        hippotranslation:locale: document-type-locale
+        myproject:columns: '2'
+        myproject:fullwidth: false
+        myproject:style: default
+        /myproject:bannerentity[1]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:theme: ''
+          myproject:title: Left
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Donec auctor purus in lobortis dapibus. Phasellus sed nisi lectus.
+              Maecenas quis facilisis mi.</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[2]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: default
+          myproject:title: Right
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Vestibulum vulputate aliquam dictum. Praesent blandit
+              metus feugiat, rutrum velit vitae, elementum erat. Suspendisse dignissim
+              tellus risus, quis volutpat velit cursus et. Nullam varius ex elementum
+              dictum scelerisque.</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /example-3-column:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 417abd3a-a824-46f4-af72-37cf3b2aafe8
+      hippo:name: example 3 column
+      hippo:versionHistory: 66eee710-fa9c-4050-b1df-4e6ec4581e45
+      /example-3-column[1]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 75be0c45-32fa-4efa-9360-a33189fbda35
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostd:transferable: false
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-05-02T14:06:13.633+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T14:59:06.860+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippotranslation:id: fcd08673-dff9-402d-95ad-882403fe84a2
+        hippotranslation:locale: document-type-locale
+        myproject:columns: '3'
+        myproject:fullwidth: false
+        myproject:style: default
+        /myproject:bannerentity[1]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '1'
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[2]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '2'
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[3]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '3'
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /example-3-column[2]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:versionable']
+        jcr:uuid: 9a1e7d8a-a35e-42f8-95be-7c0696110558
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostd:transferable: false
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-05-02T14:06:13.633+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T14:57:38.169+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippotranslation:id: fcd08673-dff9-402d-95ad-882403fe84a2
+        hippotranslation:locale: document-type-locale
+        myproject:columns: '3'
+        myproject:fullwidth: false
+        myproject:style: default
+        /myproject:bannerentity[1]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '1'
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[2]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '2'
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[3]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '3'
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /example-3-column[3]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d3ea8c10-a25d-4377-95f6-24d922a8fa4f
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostd:transferable: false
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-05-02T14:06:13.633+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T14:57:38.169+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippostdpubwf:publicationDate: 2022-05-02T14:57:53.025+02:00
+        hippotranslation:id: fcd08673-dff9-402d-95ad-882403fe84a2
+        hippotranslation:locale: document-type-locale
+        myproject:columns: '3'
+        myproject:fullwidth: false
+        myproject:style: default
+        /myproject:bannerentity[1]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '1'
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[2]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '2'
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:bannerentity[3]:
+          jcr:primaryType: myproject:bannerentity
+          myproject:subtitle: ''
+          myproject:theme: light
+          myproject:title: '3'
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 3f1a02bc-260a-4c02-bee4-0925e060991a
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []

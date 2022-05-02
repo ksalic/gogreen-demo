@@ -1,0 +1,27 @@
+/content/gallery/logo/br-logo-primary.svg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 483b678a-b927-47f6-95a9-b53e38230311
+  /br-logo-primary.svg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: br-logo-primary.svg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: br-logo-primary.svg
+      hippogallery:height: 12
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/logo/br-logo-primary.svg/br-logo-primary_thumbnail.svg
+      jcr:lastModified: 2022-05-02T11:50:19.854+02:00
+      jcr:mimeType: image/svg+xml
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 38
+      hippogallery:width: 177
+      jcr:data:
+        type: binary
+        resource: /content/gallery/logo/br-logo-primary.svg/br-logo-primary_original.svg
+      jcr:lastModified: 2022-05-02T11:50:19.854+02:00
+      jcr:mimeType: image/svg+xml

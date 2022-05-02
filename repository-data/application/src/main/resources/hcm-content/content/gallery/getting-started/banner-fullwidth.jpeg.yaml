@@ -1,0 +1,27 @@
+/content/gallery/getting-started/banner-fullwidth.jpeg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 3f1a02bc-260a-4c02-bee4-0925e060991a
+  /banner-fullwidth.jpeg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: banner-fullwidth.jpeg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: banner-fullwidth.jpeg
+      hippogallery:height: 24
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/getting-started/banner-fullwidth.jpeg/banner-fullwidth_thumbnail.jpeg
+      jcr:lastModified: 2022-04-29T15:57:58.318+02:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 470
+      hippogallery:width: 1170
+      jcr:data:
+        type: binary
+        resource: /content/gallery/getting-started/banner-fullwidth.jpeg/banner-fullwidth_original.jpeg
+      jcr:lastModified: 2022-04-29T15:57:58.318+02:00
+      jcr:mimeType: image/jpeg

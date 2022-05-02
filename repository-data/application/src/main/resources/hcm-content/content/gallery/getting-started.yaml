@@ -1,0 +1,8 @@
+/content/gallery/getting-started:
+  .meta:order-before: logo
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 342b5a3f-4275-40e5-a623-fe25693dc9ff
+  hippo:name: My Project
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

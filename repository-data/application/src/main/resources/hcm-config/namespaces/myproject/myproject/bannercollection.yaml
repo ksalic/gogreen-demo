@@ -1,0 +1,152 @@
+definitions:
+  config:
+    /hippo:namespaces/myproject/bannercollection:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: ee66740e-5e1f-4a70-93a1-51f8f1baee15
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6d83f655-e6a0-45b7-804d-27a49d6aaf54
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 37c583ed-5c9b-4428-b17e-7854c3008440
+          hipposysedit:node: true
+          hipposysedit:supertype: ['myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
+          /columns:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:columns
+            hipposysedit:primary: false
+            hipposysedit:type: StaticDropdown
+          /style:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:style
+            hipposysedit:primary: false
+            hipposysedit:type: StaticDropdown
+          /fullwidth:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:fullwidth
+            hipposysedit:primary: false
+            hipposysedit:type: Boolean
+          /bannerentity:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: myproject:bannerentity
+            hipposysedit:primary: false
+            hipposysedit:type: myproject:bannerentity
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: myproject:bannercollection
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:mixinTypes: ['mix:referenceable']
+          myproject:style: default
+          myproject:fullwidth: false
+          jcr:uuid: 9607c501-befb-472b-8feb-087614985008
+          hippostdpubwf:lastModificationDate: 2022-04-29T14:03:51.434+02:00
+          hippostdpubwf:creationDate: 2022-04-29T14:03:51.434+02:00
+          myproject:columns: single
+          /myproject:bannerentity:
+            jcr:primaryType: myproject:bannerentity
+            myproject:staticdropdown: default
+            myproject:string: ''
+            myproject:string1: ''
+            myproject:title: ''
+            myproject:subtitle: ''
+            /myproject:html:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /myproject:banneritemcta:
+              jcr:primaryType: myproject:banneritemcta
+              myproject:style: link
+              myproject:text: ''
+              /myproject:link:
+                jcr:primaryType: hippo:mirror
+                hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            /myproject:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /myproject:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right
+          /columns:
+            jcr:primaryType: frontend:plugin
+            caption: Columns
+            field: columns
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              selectable.options: single,2,3,4
+          /style:
+            jcr:primaryType: frontend:plugin
+            caption: Style
+            field: style
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              selectable.options: default,large,carousel
+          /fullwidth:
+            jcr:primaryType: frontend:plugin
+            caption: Full Width
+            field: fullwidth
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /bannerentity:
+            jcr:primaryType: frontend:plugin
+            caption: Banner(s)
+            field: bannerentity
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
