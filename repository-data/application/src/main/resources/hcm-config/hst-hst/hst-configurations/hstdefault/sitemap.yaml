@@ -19,3 +19,10 @@ definitions:
       /_any_.EOT:
         jcr:primaryType: hst:sitemapitem
         hst:containerresource: true
+      /sitemap.xml:
+        jcr:primaryType: hst:sitemapitem
+        jcr:uuid: 714782ed-ca57-4e39-84b4-4c37a0ef74fa
+        hst:cacheable: true
+        hst:componentconfigurationid: hst:components/forge-sitemapv2-simple-document-feed
+        hst:hiddeninchannelmanager: true
+
