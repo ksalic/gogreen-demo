@@ -1,12 +1,11 @@
 # Mock SAML
 Mock SAML Identity Provider (idP), which will run on:
-* Site: localhost:7000
 * CMS: localhost:7001
 
 This will work with the mentioned SSO_ENABLED="true" environment variable as 
 explained in root readme.MD.
 ```
-npm install
+npm install --global saml-idp
 node run-cms.js
 ```
 

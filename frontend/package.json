@@ -1,0 +1,64 @@
+{
+  "name": "@bloomreach/example-next",
+  "version": "0.0.9",
+  "description": "Example Next.js SPA for Bloomreach Experience",
+  "private": true,
+  "author": "Bloomreach B.V.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@bloomreach/react-sdk": "^15.4.5",
+    "@bloomreach/segmentation": "^0.0.13",
+    "@bloomreach/spa-sdk": "^15.4.5",
+    "@typeform/embed-react": "^1.9.0",
+    "@types/helmet": "^4.0.0",
+    "@types/react-helmet": "^6.1.4",
+    "@types/react-image-magnifiers": "^1.3.2",
+    "@types/react-lazy-load-image-component": "^1.5.2",
+    "@types/react-modal": "^3.13.1",
+    "@types/react-sticky-box": "^0.8.0",
+    "@types/react-tabs": "^2.3.3",
+    "apollo-boost": "^0.4.9",
+    "axios": "0.21.1",
+    "cookies": "^0.8.0",
+    "graphql": "^15.6.1",
+    "graphql-tag": "^2.12.5",
+    "next": "10.2.3",
+    "next-apollo": "^5.0.7",
+    "next-routes": "1.4.2",
+    "path-to-regexp": "^6.2.0",
+    "react": "16.14.0",
+    "react-awesome-reveal": "^3.8.1",
+    "react-cookie": "^4.1.1",
+    "react-dom": "16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-image-magnifiers": "^1.4.0",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-modal": "^3.14.3",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.2.5",
+    "react-slide-toggle": "^0.3.5",
+    "react-tabs": "^3.2.2",
+    "sass": "^1.42.1",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "@bloomreach/eslint-config-next": "1.0.1",
+    "@types/node": "14.17.3",
+    "@types/react": "16.14.0",
+    "@types/react-dom": "16.9.14",
+    "eslint": "7.32.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}",
+    "lint": "eslint --ext js,ts,tsx ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "@bloomreach/eslint-config-next"
+    ]
+  },
+  "stableVersion": "15.2.1"
+}
