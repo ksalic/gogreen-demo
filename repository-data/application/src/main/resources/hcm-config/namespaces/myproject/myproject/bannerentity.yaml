@@ -10,8 +10,8 @@ definitions:
         jcr:uuid: ff6d3dac-b263-41ac-80fe-f8f0ada7d091
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
-          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: 1492e09b-3e04-4d41-a14a-c6e829591046
+          jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
+          jcr:uuid: 7730b323-c589-4fd7-b565-da033c2b0269
           hipposysedit:node: true
           hipposysedit:supertype: ['hippo:compound', 'hippostd:relaxed']
           hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
@@ -63,17 +63,26 @@ definitions:
             hipposysedit:path: myproject:image
             hipposysedit:primary: false
             hipposysedit:type: hippogallerypicker:imagelink
+          /bynderimage:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:bynderimage
+            hipposysedit:primary: false
+            hipposysedit:type: OpenUiString
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
           jcr:primaryType: myproject:bannerentity
+          myproject:bynderimage: ''
+          myproject:subtitle: ''
           myproject:theme: default
           myproject:title: ''
-          myproject:subtitle: ''
           /myproject:banneritemcta:
             jcr:primaryType: myproject:banneritemcta
-            myproject:text: ''
             myproject:style: link
+            myproject:text: ''
             /myproject:link:
               jcr:primaryType: hippo:mirror
               hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -142,6 +151,16 @@ definitions:
             wicket.id: ${cluster.id}.right.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
+          /bynderimage:
+            jcr:primaryType: frontend:plugin
+            caption: Bynder Image
+            field: bynderimage
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              ui.extension: bynder
           /theme:
             jcr:primaryType: frontend:plugin
             caption: Theme
@@ -156,8 +175,8 @@ definitions:
             jcr:primaryType: frontend:plugin
             caption: CTA
             field: banneritemcta
+            hint: ''
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.right.item
-            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

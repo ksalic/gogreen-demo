@@ -134,3 +134,100 @@
           resource: /content/gallery/channels/facebook.png/facebook.png/smallthumbnail/smallthumbnail.png
         jcr:lastModified: 2012-04-09T22:35:00+02:00
         jcr:mimeType: image/png
+  /gs.png:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: [ 'hippo:named', 'mix:referenceable' ]
+    jcr:uuid: e9c472a4-ffcd-44ad-a762-6c3f7964f31d
+    hippo:name: gs.png
+    /gs.png:
+      jcr:primaryType: hippogogreengallery:imageset
+      hippo:availability: [ live, preview ]
+      hippogallery:filename: getting started.png
+      hippogogreengallery:alt: ''
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: getting started.png
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/thumbnail/thumbnail.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 512
+        hippogallery:width: 512
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/original/original.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:smallthumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 74
+        hippogallery:width: 74
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/smallthumbnail/smallthumbnail.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:bannercarousel:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 450
+        hippogallery:width: 450
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/bannercarousel/bannercarousel.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 380
+        hippogallery:width: 380
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/banner/banner.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilelogo:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 32
+        hippogallery:width: 32
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/mobilelogo/mobilelogo.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:largethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 300
+        hippogallery:width: 300
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/largethumbnail/largethumbnail.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:mobilethumbnail:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 45
+        hippogallery:width: 45
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/mobilethumbnail/mobilethumbnail.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:landscapeimage:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 350
+        hippogallery:width: 350
+        jcr:data:
+          type: binary
+          resource: gs.png/gs.png/landscapeimage/landscapeimage.png
+        jcr:lastModified: 2022-05-03T09:33:28.174+02:00
+        jcr:mimeType: image/png
+      /hippogogreengallery:copyright:
+        jcr:primaryType: hippogogreen:copyright
+        hippogogreen:description: ''
+        hippogogreen:url: ''
+

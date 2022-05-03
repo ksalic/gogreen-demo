@@ -1,36 +1,36 @@
 definitions:
   config:
-    /hst:hst/hst:blueprints/getting-started:
+    /hst:hst/hst:blueprints/getting-started-empty:
       jcr:primaryType: hst:blueprint
-      jcr:uuid: c15cb933-d0fa-4796-801e-6dfaa6047a6a
+      jcr:uuid: 9aa35856-c29a-4fd4-848e-96933f5f3f73
       hst:description: Getting started for frontend development
-      hst:name: Getting Started
+      hst:name: Getting Started Empty
       /hst:mount:
         jcr:primaryType: hst:mount
-        jcr:uuid: abcb5aca-2a35-411b-a70e-95ddbb731f43
+        jcr:uuid: 397c6a98-611e-4b88-b718-f7832f350578
         hst:pagemodelapi: pma
         hst:responseheaders: ['Access-Control-Allow-Origin: *']
       /hst:configuration:
         jcr:primaryType: hst:configuration
-        jcr:uuid: 0659686b-2606-4682-81f4-ec0f8e49271e
+        jcr:uuid: 8b1e75b8-600d-4340-bb2d-153087a82cdf
         /hst:abstractpages:
           jcr:primaryType: hst:pages
-          jcr:uuid: 79a12d88-b69c-4949-997e-8ca37ac08997
+          jcr:uuid: 1b528ca7-02cd-4769-ae70-3ac64dc70bc6
           /base:
             jcr:primaryType: hst:component
-            jcr:uuid: 9c4b3634-6e5d-4be3-a59e-a7231a88f571
+            jcr:uuid: 07855f66-8f75-4f2c-b822-cb7ca3a1c260
             /menu:
               jcr:primaryType: hst:component
-              jcr:uuid: a9df1a19-199d-4f91-9fe3-be77510ade0a
+              jcr:uuid: d5f537b2-4fb8-4d82-b327-9689ebf8014d
               hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
               hst:parameternames: [selectedMenu, level, menu]
               hst:parametervalues: ['on', '1', main]
         /hst:catalog:
           jcr:primaryType: hst:catalog
-          jcr:uuid: eb0b4a2a-38a9-43e2-91ed-1c7ab1f4cb97
+          jcr:uuid: 070ce677-b973-4eaa-8f50-92c9b6bbc265
           /sample:
             jcr:primaryType: hst:containeritempackage
-            jcr:uuid: d842823f-f710-4cd0-9279-6f285a4965b2
+            jcr:uuid: e97325eb-7c56-4357-905e-3a7c5ab63f40
             /dynamic-bannercollection:
               jcr:primaryType: hst:componentdefinition
               hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
@@ -47,26 +47,26 @@ definitions:
                   hst:relative: false
         /hst:pages:
           jcr:primaryType: hst:pages
-          jcr:uuid: ccc2fcec-2b60-4b4f-bb37-505d96f4b855
+          jcr:uuid: d45d9f1a-b5cc-4331-bc1f-f3c5fca69ddd
           /pagenotfound:
             jcr:primaryType: hst:component
-            jcr:uuid: 0764d994-6bf6-4ccc-8f95-2b8dfa152f10
+            jcr:uuid: 7c935f96-0747-41b7-bde1-67b395465f41
             hst:referencecomponent: hst:abstractpages/base
             /main:
               jcr:primaryType: hst:component
-              jcr:uuid: d996da7b-3fac-47d8-a4c1-f5e5354dfaa0
+              jcr:uuid: 6e0d1d0a-18b7-496e-833b-db8ac59184a5
               hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsPageNotFoundComponent
         /hst:sitemap:
           jcr:primaryType: hst:sitemap
-          jcr:uuid: 4960c03e-67be-4ece-9cb3-75e2f8acff61
+          jcr:uuid: 13906481-9fb5-42a8-abcc-e47eec90c949
           /_any_:
             jcr:primaryType: hst:sitemapitem
-            jcr:uuid: 571fcf55-fe92-48ad-b294-b1fe2e90b185
+            jcr:uuid: 092d54bd-69cf-46ea-a85b-5a73d198be69
             hst:componentconfigurationid: hst:pages/pagenotfound
             hst:relativecontentpath: pages/${1}
           /root:
             jcr:primaryType: hst:sitemapitem
-            jcr:uuid: e024f0d2-d3b2-49d4-99a4-0bbf5eadfa0c
+            jcr:uuid: 2768f6db-6da0-4c87-b6bf-c479b47e32ea
             hst:pagetitle: Home Page
             hst:refId: root
             hst:relativecontentpath: pages/home
@@ -74,24 +74,24 @@ definitions:
           jcr:primaryType: hst:workspace
           /hst:sitemenus:
             jcr:primaryType: hst:sitemenus
-            jcr:uuid: 8e6d4b71-0aee-47a5-81f6-ba6b1c649818
+            jcr:uuid: 86e3a3ba-b321-4407-b283-6ab6faba489f
             /main:
               jcr:primaryType: hst:sitemenu
-              jcr:uuid: a310fd8a-31e1-4c7f-9fb1-daa0a84b6767
+              jcr:uuid: dd540bb6-2cce-4a22-9732-186a8495606a
               hst:lastmodified: 2022-05-02T14:09:14.525+02:00
               /home:
                 jcr:primaryType: hst:sitemenuitem
-                jcr:uuid: 2bb5fefc-15ee-402d-a7cc-5ed7b96eb062
+                jcr:uuid: 097064e6-a9d3-4dd9-a0fd-9fce08b80acb
                 hst:referencesitemapitem: root
           /hst:pages:
             jcr:primaryType: hst:pages
-            jcr:uuid: 883d06c4-b72d-4648-8b34-149e7d32438e
+            jcr:uuid: 4dba6f7b-c4bb-4353-aeb8-694aff70034f
           /hst:sitemap:
             jcr:primaryType: hst:sitemap
-            jcr:uuid: ca9bebd3-aec9-4317-a4eb-c46a81bc341d
+            jcr:uuid: 14da29d9-5e44-45ce-a07a-4cfe468cebde
           /hst:channel:
             jcr:primaryType: hst:channel
-            jcr:uuid: 25c2e220-75e2-4399-9af0-51448cdc8b26
+            jcr:uuid: 2d2702ff-ce23-46bf-9657-e0ac7971b0b0
             hst:channelinfoclass: com.onehippo.gogreen.channels.GettingStarted
             hst:defaultdevice: default
             hst:devices: []
@@ -108,35 +108,40 @@ definitions:
               themeCss: ''
         /hst:xpages:
           jcr:primaryType: hst:xpages
-          jcr:uuid: a8368a16-3707-460b-934f-4e3be18c959d
+          jcr:uuid: 1aa17df6-5ca7-4c15-92fa-ca9ac52e7822
           /one-column:
             jcr:primaryType: hst:xpage
-            jcr:uuid: 8adfad8c-3b24-44d1-ad0b-e40f2e833f85
+            jcr:uuid: 5e2968b1-ae52-4437-9f4f-1481501c0c4b
             hst:label: One Column
             hst:referencecomponent: hst:abstractpages/base
             /container:
               jcr:primaryType: hst:containercomponent
-              jcr:uuid: d4ece0a5-c1d8-44f1-9b5c-170cfdef4d7f
+              jcr:uuid: b90467cc-1f89-415e-8342-2f1d3173733b
               hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
               hst:label: Container (component drop zone)
               hst:xtype: hst.nomarkup
           /two-column:
             jcr:primaryType: hst:xpage
-            jcr:uuid: 140151a2-e2f1-448b-b81e-26c7710553f7
+            jcr:uuid: df0a6d07-4b56-4ebb-a746-c83869736d9d
             hst:label: Two Column
             hst:referencecomponent: hst:abstractpages/base
             /container:
               jcr:primaryType: hst:component
-              jcr:uuid: ef041419-a011-46ad-bb27-b9957ae1bca5
+              jcr:uuid: 33806af0-f7ef-4f96-8fb5-b1a0ece67b07
               /left:
                 jcr:primaryType: hst:containercomponent
-                jcr:uuid: e394f3f1-1ead-49df-9e8c-22a15e21bdc0
+                jcr:uuid: 4918f19e-0dfa-43f1-92b3-2e917d10b0bb
                 hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
                 hst:label: Container Left (component drop zone)
                 hst:xtype: hst.nomarkup
               /right:
                 jcr:primaryType: hst:containercomponent
-                jcr:uuid: cbf004f6-69b4-4132-973e-08fc9b4ba37c
+                jcr:uuid: d02ed737-36e9-464a-b127-2502898c9f3c
                 hippo:identifier: a8536f60-22ad-4111-82c4-6f8f5a77a884
                 hst:label: Container Left (component drop zone)
                 hst:xtype: hst.nomarkup
+      /hst:site:
+        jcr:primaryType: hst:site
+        jcr:uuid: 425d86bb-43b4-4444-a1c5-7a9eca6f1495
+        hst:content: /content/documents/common
+
