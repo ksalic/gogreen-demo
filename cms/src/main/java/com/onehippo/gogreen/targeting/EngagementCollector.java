@@ -3,19 +3,18 @@
  */
 package com.onehippo.gogreen.targeting;
 
-import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
+import com.google.common.collect.ImmutableMap;
 import com.onehippo.cms7.targeting.collectors.AbstractCollector;
-import net.sf.json.JSONException;
-import net.sf.json.JSONObject;
-import net.sf.json.JSONSerializer;
-import org.apache.commons.io.IOUtils;
-import org.hippoecm.hst.util.HstRequestUtils;
 import org.hippoecm.repository.util.JcrUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
@@ -23,17 +22,11 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.Response;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.*;
-import java.nio.charset.Charset;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 @SuppressWarnings("unused")
-public class EngagementCollector extends AbstractCollector<EngagementData, List<String>> {
+public class EngagementCollector extends AbstractCollector<EngagementData, EngagementCollector.EngagementRequestData> {
 
     private static final Logger log = LoggerFactory.getLogger(EngagementCollector.class);
 
@@ -50,7 +43,7 @@ public class EngagementCollector extends AbstractCollector<EngagementData, List<
         enabled = JcrUtils.getBooleanProperty(node, "enabled", true);
         if (projectid == null) {
             final String nodePath = JcrUtils.getNodePathQuietly(node);
-            throw new IllegalArgumentException("Engagement should be configured with property 'projectid'."
+            throw new IllegalArgumentException("Engagement should be configured with property 'project.id'."
                     + ((nodePath == null) ? "" : "Set the value of this property at '"
                     + nodePath + "/@project.id'"));
 
@@ -59,46 +52,75 @@ public class EngagementCollector extends AbstractCollector<EngagementData, List<
 
     private final LoadingCache<String, List<String>> cache = CacheBuilder.newBuilder()
             .maximumSize(1000)
-            .expireAfterWrite(1, TimeUnit.MINUTES)
+            .expireAfterWrite(1, TimeUnit.SECONDS)
             .build(new CacheLoader<String, List<String>>() {
                 @Override
                 public List<String> load(final String id) {
                     //todo
-                    Client client = ClientBuilder.newBuilder().newClient();
-                    List collection = client.target("https://api-demoapp.exponea.com").path(String.format("/data/v2/projects/%s/customers/%s/exposed-segmentations", projectid, id)).request().get(List.class);
-                    return collection;
+                    RestTemplate restTemplate = new RestTemplate();
+                    Map<String, String> uriVariables = ImmutableMap.of("projectid", EngagementCollector.this.projectid, "customerid", id);
+                    ResponseEntity<String[]> forEntity = restTemplate.getForEntity("https://api-demoapp.exponea.com/data/v2/projects/{projectid}/customers/{customerid}/exposed-segmentations", String[].class, uriVariables);
+                    return Arrays.asList(forEntity.getBody());
                 }
             });
 
     @Override
-    public List<String> getTargetingRequestData(final HttpServletRequest request,
-                                                final boolean newVisitor,
-                                                final boolean newVisit,
-                                                final EngagementData targetingData) {
-        if (!newVisit) {
-            if (targetingData != null) {
-                return targetingData.getSegments();
+    public EngagementRequestData getTargetingRequestData(final HttpServletRequest request,
+                                                         final boolean newVisitor,
+                                                         final boolean newVisit,
+                                                         final EngagementData targetingData) {
+//        if (!newVisit) {
+//            if (targetingData != null) {
+//                return new EngagementRequestData(targetingData.getSegments());
+//            }
+//            log.warn("Unexpected empty ...");
+//        }
+        if (request.getCookies() != null) {
+            Optional<Cookie> engagementId = Arrays.stream(request.getCookies())
+                    .filter(cookie -> cookie.getName().equals("__exponea_etc__"))
+                    .findFirst();
+            if (enabled && engagementId.isPresent()) {
+                return new EngagementRequestData(cache.getUnchecked(engagementId.get().getValue()));
             }
-            log.warn("Unexpected empty ...");
         }
-        Optional<Cookie> engagementId = Arrays.stream(request.getCookies())
-                .filter(cookie -> cookie.getName().equals("__exponea_etc__"))
-                .findFirst();
-
-        if (enabled && engagementId.isPresent()) {
-            return cache.getUnchecked(engagementId.get().getValue());
-        }
-        return Collections.emptyList();
+        return new EngagementRequestData(new ArrayList<>());
     }
 
     @Override
-    public EngagementData updateTargetingData(EngagementData data, final List<String> segments) throws IllegalArgumentException {
+    public EngagementData updateTargetingData(EngagementData data, final EngagementRequestData segments) throws IllegalArgumentException {
         if (data == null) {
-            data = new EngagementData(getId(), segments);
+            data = new EngagementData(getId(), segments.getSegments());
         } else {
-            data.setSegments(segments);
+            data.setSegments(segments.getSegments());
         }
         return data;
+    }
+
+    public static class EngagementRequestData {
+
+        List<String> segments;
+
+        public List<String> getSegments() {
+            return segments;
+        }
+
+        public EngagementRequestData(List<String> segments) {
+            this.segments = segments;
+        }
+
+        public EngagementRequestData() {
+        }
+
+        public void setSegments(List<String> segments) {
+            this.segments = segments;
+        }
+
+        public boolean add(String s) {
+            if (segments == null) {
+                segments = new ArrayList<>();
+            }
+            return segments.add(s);
+        }
     }
 
 

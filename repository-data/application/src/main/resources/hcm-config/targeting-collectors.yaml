@@ -28,3 +28,9 @@ definitions:
       /devicetype:
         jcr:primaryType: targeting:collector
         targeting:className: com.onehippo.gogreen.targeting.DeviceTypeCollector
+      /engagement:
+        jcr:primaryType: targeting:collector
+        enabled: true
+        project.id: a023506e-b656-11ec-be7c-8e0885bb2c14
+        targeting:className: com.onehippo.gogreen.targeting.EngagementCollector
+

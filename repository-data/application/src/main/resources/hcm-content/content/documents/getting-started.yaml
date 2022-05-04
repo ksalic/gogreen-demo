@@ -1,0 +1,299 @@
+/content/documents/getting-started:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 3d0c342e-dbad-4a14-99a5-cb247651063e
+  hippo:name: Getting Started
+  hippostd:foldertype: [new-document, new-folder]
+  /pages:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippostd:cmxpagefolder', 'mix:versionable']
+    jcr:uuid: 5003ab9b-c817-4fde-ad3c-bff05f2376af
+    hippostd:channelid: getting-started
+    hippostd:foldertype: [new-page-document, new-page-folder]
+    /home:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 7df94cc6-4188-4b78-b886-073ed2afcd61
+      hippo:versionHistory: d98632f2-1897-4d0c-8600-930ce1c98b45
+      /home[1]:
+        jcr:primaryType: myproject:page
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 33bc5390-292b-4edc-92c2-e51fe4b0e342
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostd:transferable: false
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-04-29T10:13:43.352+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-02T13:59:53.869+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3e81f017-5258-4764-9128-3fd34c4e854f
+        hippotranslation:locale: document-type-locale
+        myproject:metadescription: A simple homepage
+        myproject:metarobots: all
+        myproject:ogtitle: ''
+        myproject:ogtype: website
+        myproject:title: Homepage
+        /myproject:ogimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /home[2]:
+        jcr:primaryType: myproject:page
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:versionable']
+        jcr:uuid: ca80f1fb-13b1-439e-982e-60d1ebc8c21b
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-04-29T10:13:43.352+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-04T11:41:06.627+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippotranslation:id: 3e81f017-5258-4764-9128-3fd34c4e854f
+        hippotranslation:locale: document-type-locale
+        myproject:metadescription: A simple homepage
+        myproject:metarobots: all
+        myproject:ogtitle: ''
+        myproject:ogtype: website
+        myproject:title: Homepage
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 10e6208f-56ac-4e10-9608-bfeba67f85f8
+          hst:pageref: one-column
+          /f8536f60-22ad-4111-82c4-6f8f5a77a884:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 144b3208-b58b-4ccd-a7d4-91a57ee003bc
+            hippo:identifier: ccec8b58-3828-496c-9ce0-c8e628d5bce9
+            hst:lastmodified: 2022-05-04T09:41:06.627Z
+            /dynamic-bannercollection:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: ce78e9ef-fefc-4e00-9fc2-e84b2d3778eb
+              hst:componentdefinition: hst:components/sample/dynamic-bannercollection
+              hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document]
+              hst:parametervalues: ['off', /content/documents/common/banners/example-carousel]
+            /dynamic-bannercollection1:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: bcbb04dd-f2c0-4914-af71-d2e776d8fd3f
+              hst:componentdefinition: hst:components/sample/dynamic-bannercollection
+              hst:parameternameprefixes: ['@1651656936$["and",{"engagement":"loyaltysatusplatinum-1651656618831"}]',
+                                          '@1651656936$["and",{"engagement":"loyaltysatusplatinum-1651656618831"}]',
+                                          '', '']
+              hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document]
+              hst:parametervalues: ['off', /content/documents/getting-started/banners/loyalty-platinum,
+                                    'off', /content/documents/common/banners/example-text]
+            /dynamic-bannercollection2:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: 6da59644-61b5-4219-9719-3e10ba5f548e
+              hst:componentdefinition: hst:components/sample/dynamic-bannercollection
+              hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document]
+              hst:parametervalues: ['off', /content/documents/common/banners/example-3-column]
+        /myproject:ogimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /home[3]:
+        jcr:primaryType: myproject:page
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 058c2d89-f51e-4256-8db4-31f1ca57eb67
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-04-29T10:13:43.352+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-04T11:41:06.627+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippostdpubwf:publicationDate: 2022-05-04T11:41:18.771+02:00
+        hippotranslation:id: 3e81f017-5258-4764-9128-3fd34c4e854f
+        hippotranslation:locale: document-type-locale
+        myproject:metadescription: A simple homepage
+        myproject:metarobots: all
+        myproject:ogtitle: ''
+        myproject:ogtype: website
+        myproject:title: Homepage
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 736e9777-4887-4941-b00f-9fb8cdf8ac57
+          hst:pageref: one-column
+          /f8536f60-22ad-4111-82c4-6f8f5a77a884:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: f42c077d-c519-4ae0-9fa0-a70506f00a9c
+            hippo:identifier: ccec8b58-3828-496c-9ce0-c8e628d5bce9
+            hst:lastmodified: 2022-05-04T09:41:06.627Z
+            /dynamic-bannercollection:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: 8edd4d02-6ca0-4d46-9c0f-946aa6731475
+              hst:componentdefinition: hst:components/sample/dynamic-bannercollection
+              hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document]
+              hst:parametervalues: ['off', /content/documents/common/banners/example-carousel]
+            /dynamic-bannercollection1:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: 59ea848b-c9fe-44c3-823e-9e6fdfcbb89a
+              hst:componentdefinition: hst:components/sample/dynamic-bannercollection
+              hst:parameternameprefixes: ['@1651656936$["and",{"engagement":"loyaltysatusplatinum-1651656618831"}]',
+                                          '@1651656936$["and",{"engagement":"loyaltysatusplatinum-1651656618831"}]',
+                                          '', '']
+              hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document, com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document]
+              hst:parametervalues: ['off', /content/documents/getting-started/banners/loyalty-platinum,
+                                    'off', /content/documents/common/banners/example-text]
+            /dynamic-bannercollection2:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: de266e1a-a2e0-4a43-93cd-0e21b39a0563
+              hst:componentdefinition: hst:components/sample/dynamic-bannercollection
+              hst:parameternames: [com.onehippo.cms7.targeting.TargetingParameterUtil.hide,
+                                   document]
+              hst:parametervalues: ['off', /content/documents/common/banners/example-3-column]
+        /myproject:ogimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+  /banners:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 3adb83e1-9338-4dd3-bfc1-16cb85c2a7b1
+    hippostd:foldertype: [new-bannercollection-document]
+    /loyalty-platinum:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: d4a54808-e082-4b77-a7d1-05d00719dbb8
+      hippo:name: loyalty platinum
+      hippo:versionHistory: efbd5b1e-3f94-45b0-bd24-77794f52a207
+      /loyalty-platinum[1]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 51ed328e-949d-4df2-bc0a-5842ffff6388
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: kenan.salic@gmail.com
+        hippostdpubwf:creationDate: 2022-05-04T11:40:08.994+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-04T11:40:08.994+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippotranslation:id: 3283e165-e2be-43c5-874d-2c67e8fc14b4
+        hippotranslation:locale: document-type-locale
+        myproject:columns: single
+        myproject:fullwidth: false
+        myproject:style: large
+        /myproject:bannerentity:
+          jcr:primaryType: myproject:bannerentity
+          myproject:bynderimage: ''
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:title: Hello big spender
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Welcome to this website</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /loyalty-platinum[2]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 869f8b60-a011-4611-ad81-679ee472f8a4
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: kenan.salic@gmail.com
+        hippostdpubwf:creationDate: 2022-05-04T11:40:08.994+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-04T11:40:27.991+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippotranslation:id: 3283e165-e2be-43c5-874d-2c67e8fc14b4
+        hippotranslation:locale: document-type-locale
+        myproject:columns: single
+        myproject:fullwidth: false
+        myproject:style: large
+        /myproject:bannerentity:
+          jcr:primaryType: myproject:bannerentity
+          myproject:bynderimage: ''
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:title: Hello big spender
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Welcome to this website</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /loyalty-platinum[3]:
+        jcr:primaryType: myproject:bannercollection
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e00bc38d-7a39-4255-aea7-558cd4757d9e
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: kenan.salic@gmail.com
+        hippostdpubwf:creationDate: 2022-05-04T11:40:08.994+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-04T11:40:27.991+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippostdpubwf:publicationDate: 2022-05-04T11:40:31.130+02:00
+        hippotranslation:id: 3283e165-e2be-43c5-874d-2c67e8fc14b4
+        hippotranslation:locale: document-type-locale
+        myproject:columns: single
+        myproject:fullwidth: false
+        myproject:style: large
+        /myproject:bannerentity:
+          jcr:primaryType: myproject:bannerentity
+          myproject:bynderimage: ''
+          myproject:staticdropdown: default
+          myproject:string: ''
+          myproject:string1: ''
+          myproject:subtitle: ''
+          myproject:title: Hello big spender
+          /myproject:html:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:banneritemcta:
+            jcr:primaryType: myproject:banneritemcta
+            myproject:style: link
+            myproject:text: ''
+            /myproject:link:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Welcome to this website</p>
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []

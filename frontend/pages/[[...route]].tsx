@@ -13,17 +13,29 @@ import {XPage} from "../components/types/content";
 import useScript from "../components/cms/utils/UseScript";
 import {TwoColumnLayout} from "../components/layouts/two-column-layout";
 
-export const getServerSideProps: GetServerSideProps = async ({req: request, res: response, resolvedUrl: path, query}) => {
+export const getServerSideProps: GetServerSideProps = async ({
+                                                                 req: request,
+                                                                 res: response,
+                                                                 resolvedUrl: path,
+                                                                 query
+                                                             }) => {
     relevance(request, response);
 
     const endpoint = query.endpoint
+
+    const axiosConfig = request?.headers?.cookie ? {
+        headers: {
+            cookie:
+            request?.headers?.cookie
+        }
+    } : {}
 
     const configuration = {
         path,
         endpoint: endpoint ?? process.env.BRXM_ENDPOINT,
         endpointQueryParameter: 'endpoint',
     };
-    const page = await initialize({...configuration, request, httpClient: axios});
+    const page = await initialize({...configuration, request, httpClient: axios.create(axiosConfig)});
 
     return {
         props: {

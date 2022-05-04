@@ -50,6 +50,8 @@ export function BrxFooter(): JSX.Element | null {
                         Storefront. All Rights
                         Reserved.</p>
                     <figure onClick={() => {
+                        // @ts-ignore
+                        exponea.identify('lucy.reid@bloomreach.com');
                         alert("Hello ...");
                     }} id="make-lucy" className="footer-payments">
                         <img src="/images/payments.png" alt="Payment methods" width="272" height="20"/>

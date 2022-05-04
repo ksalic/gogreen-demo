@@ -21,6 +21,7 @@
         <commons-jexl2.version>2.1.1</commons-jexl2.version>
         <json-lib.version>2.4</json-lib.version>
         <gogreen-two-relevance-data.version>1.0.0</gogreen-two-relevance-data.version>
+        <bloomreach.forge.localizationshortcut.version>2.0.0</bloomreach.forge.localizationshortcut.version>
     </properties>
 
     <repositories>
@@ -31,6 +32,17 @@
     </repositories>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.bloomreach.forge.localization-shortcut</groupId>
+            <artifactId>bloomreach-localization-shortcut-repository</artifactId>
+            <version>${bloomreach.forge.localizationshortcut.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bloomreach.forge.localization-shortcut</groupId>
+            <artifactId>bloomreach-localization-shortcut-cms</artifactId>
+            <version>${bloomreach.forge.localizationshortcut.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.bloomreach.forge.review-workflow</groupId>

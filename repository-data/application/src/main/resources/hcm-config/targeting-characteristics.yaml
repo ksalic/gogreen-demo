@@ -1,6 +1,26 @@
 definitions:
   config:
     /targeting:targeting/targeting:characteristics:
+      /engagement:
+        jcr:primaryType: targeting:characteristic
+        targeting:collector: engagement
+        targeting:scorerClassName: com.onehippo.gogreen.targeting.EngagementScorer
+        /genderfemale-1651656570464:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Gender Female
+          targeting:propertynames: [ 62500306fb65b4c0c3d95ed9 ]
+        /loyaltysatusplatinum-1651656618831:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Loyalty Satus - Platinum
+          targeting:propertynames: [ 61488bc1d66c5eb913fad690 ]
+        /loyaltystatusgold-1651656641330:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Loyalty Status - Gold
+          targeting:propertynames: [ 61488bc1d66c5eb913fad691 ]
+        /loyaltystatussilver-1651656654632:
+          jcr:primaryType: targeting:targetgroup
+          targeting:name: Loyalty Status - Silver
+          targeting:propertynames: [ 61488bc1d66c5eb913fad692 ]
       /city:
         /amsterdam:
           jcr:primaryType: targeting:targetgroup

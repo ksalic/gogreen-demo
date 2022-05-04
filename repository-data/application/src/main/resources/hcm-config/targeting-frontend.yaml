@@ -103,3 +103,9 @@ definitions:
         characteristic: devicetype
         collector: devicetype
         plugin.class: com.onehippo.gogreen.targeting.DeviceTypeCharacteristicPlugin
+      /characteristic-engagement:
+        jcr:primaryType: frontend:plugin
+        characteristic: engagement
+        collector: engagement
+        plugin.class: com.onehippo.gogreen.targeting.EngagementCharacteristicPlugin
+

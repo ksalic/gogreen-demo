@@ -256,3 +256,10 @@ definitions:
               hst:ismapped: false
               hst:namedpipeline: RestApiPipeline
               hst:types: [rest]
+            /getting-started:
+              jcr:primaryType: hst:mount
+              jcr:uuid: d24fe6e8-9bdf-46ac-b7e1-5e91b9b1f4cb
+              hst:mountpoint: /hst:hst/hst:sites/getting-started
+              hst:pagemodelapi: pma
+              hst:responseheaders: [ 'Access-Control-Allow-Origin: *' ]
+

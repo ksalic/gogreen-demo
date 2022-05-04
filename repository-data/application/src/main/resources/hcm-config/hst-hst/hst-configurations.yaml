@@ -44,3 +44,134 @@ definitions:
       /mobile_uk:
         jcr:primaryType: hst:configuration
         hst:inheritsfrom: [../common-mobile]
+      /getting-started:
+        jcr:primaryType: hst:configuration
+        jcr:uuid: e88743aa-91a5-4658-a238-a7f4dee7e9fe
+        /hst:abstractpages:
+          jcr:primaryType: hst:pages
+          jcr:uuid: c3e4e264-4b8f-4ff8-8509-401850097881
+          /base:
+            jcr:primaryType: hst:component
+            jcr:uuid: 8ea9f205-2d9a-48e1-8f4e-8cae12b4f902
+            /menu:
+              jcr:primaryType: hst:component
+              jcr:uuid: 0ea0764c-bf42-4f50-852c-b547d0b1c7c8
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+              hst:parameternames: [ selectedMenu, level, menu ]
+              hst:parametervalues: [ 'on', '1', main ]
+        /hst:catalog:
+          jcr:primaryType: hst:catalog
+          jcr:uuid: 5a20de77-321d-42eb-9eb9-d7a7e2869669
+          /sample:
+            jcr:primaryType: hst:containeritempackage
+            jcr:uuid: 3447d2ac-1e12-4c59-ae8c-7d17cf894242
+            /dynamic-bannercollection:
+              jcr:primaryType: hst:componentdefinition
+              hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+              hst:ctype: BannerCollection
+              hst:label: Banner(s)
+              /document:
+                jcr:primaryType: hst:dynamicparameter
+                hst:valuetype: text
+                /hst:fieldconfig:
+                  jcr:primaryType: hst:jcrpath
+                  hst:pickerconfiguration: cms-pickers/documents-only
+                  hst:pickerinitialpath: banners
+                  hst:pickerselectablenodetypes: [ 'myproject:bannercollection' ]
+                  hst:relative: false
+        /hst:pages:
+          jcr:primaryType: hst:pages
+          jcr:uuid: 73590203-d346-418d-bfd9-fc41c3ecfaf6
+          /pagenotfound:
+            jcr:primaryType: hst:component
+            jcr:uuid: 39820007-828f-4cae-92c9-79b32e522ce8
+            hst:referencecomponent: hst:abstractpages/base
+            /main:
+              jcr:primaryType: hst:component
+              jcr:uuid: 501b9ca4-3b9b-4f95-9c67-682fcbd74d86
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsPageNotFoundComponent
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+          jcr:uuid: 25533dcf-c56e-4925-a2bb-aec8e6379129
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 95fe3f59-a0b4-4056-b2f6-7bc24bad268b
+            hst:componentconfigurationid: hst:pages/pagenotfound
+            hst:relativecontentpath: pages/${1}
+          /root:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 045bd534-ceb0-473e-9054-c0e36e18022d
+            hst:pagetitle: Home Page
+            hst:refId: root
+            hst:relativecontentpath: pages/home
+        /hst:workspace:
+          jcr:primaryType: hst:workspace
+          /hst:sitemenus:
+            jcr:primaryType: hst:sitemenus
+            jcr:uuid: f0bd0757-466c-4ff2-90be-da8ea7fee78a
+            /main:
+              jcr:primaryType: hst:sitemenu
+              jcr:uuid: fd337687-cbb8-432d-9648-d7b61fcf2ae7
+              hst:lastmodified: 2022-05-02T14:09:14.525+02:00
+              /home:
+                jcr:primaryType: hst:sitemenuitem
+                jcr:uuid: 9d0cba9a-0971-41d6-8ff2-906ebd801f70
+                hst:referencesitemapitem: root
+          /hst:pages:
+            jcr:primaryType: hst:pages
+            jcr:uuid: 71d1305b-3deb-4ec7-b066-64385e6ea833
+          /hst:sitemap:
+            jcr:primaryType: hst:sitemap
+            jcr:uuid: aa162528-dbc6-4b9c-b2bf-f5e5d684bd29
+          /hst:channel:
+            jcr:primaryType: hst:channel
+            jcr:uuid: ac32560f-2224-49d8-930c-fd808fd03be5
+            hst:channelinfoclass: com.onehippo.gogreen.channels.GettingStarted
+            hst:defaultdevice: default
+            hst:devices: [ ]
+            hst:lastmodified: 2022-05-02T14:00:35.222+02:00
+            hst:lastmodifiedby: admin
+            hst:name: Getting Started
+            hst:type: gs
+            /hst:channelinfo:
+              jcr:primaryType: hst:channelinfo
+              additionalJs: ''
+              logo: /content/gallery/logo/br-logo-primary.svg
+              org.hippoecm.hst.configuration.channel.PreviewURLChannelInfo_url: http://localhost:3000
+              pageTitlePrefix: Bloomreach
+              themeCss: ''
+        /hst:xpages:
+          jcr:primaryType: hst:xpages
+          jcr:uuid: 9dab84f7-a0f9-44e9-8266-86941d808ddd
+          /one-column:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 1e214658-0900-4bc3-afe0-42e862b57876
+            hst:label: One Column
+            hst:referencecomponent: hst:abstractpages/base
+            /container:
+              jcr:primaryType: hst:containercomponent
+              jcr:uuid: 22fea6df-f6da-4b76-a532-13233d63b148
+              hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
+              hst:label: Container (component drop zone)
+              hst:xtype: hst.nomarkup
+          /two-column:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: a243993f-473c-4e5c-9476-0bdafa0b8d18
+            hst:label: Two Column
+            hst:referencecomponent: hst:abstractpages/base
+            /container:
+              jcr:primaryType: hst:component
+              jcr:uuid: da8a70c5-98f5-4a22-af67-52e3f329b384
+              /left:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 8fd6f481-82e6-4e9a-b4ba-fd1db8b176c2
+                hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
+                hst:label: Container Left (component drop zone)
+                hst:xtype: hst.nomarkup
+              /right:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 037cfc18-42a2-4129-a4be-8a100a8a99c4
+                hippo:identifier: a8536f60-22ad-4111-82c4-6f8f5a77a884
+                hst:label: Container Left (component drop zone)
+                hst:xtype: hst.nomarkup
+

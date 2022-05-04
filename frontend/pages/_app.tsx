@@ -17,6 +17,7 @@ export default function App({Component, pageProps}: AppProps): JSX.Element {
                 <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
                 <link rel="stylesheet" type="text/css" href="/css/fonts-molla.min.css"/>
                 <link rel="stylesheet" type="text/css" href="/vendor/line-awesome/css/line-awesome.min.css"/>
+                <script src="/js/exponea.js"></script>
             </Head>
             <Component {...pageProps} />
             <script src="/js/jquery.min.js"></script>
