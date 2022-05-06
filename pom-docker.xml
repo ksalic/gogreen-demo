@@ -56,13 +56,13 @@
 
     <inceptionYear>2010</inceptionYear>
 
-    <!--    <scm>-->
-    <!--        <connection>scm:git:https://code.bloomreach.com/marketing/br-sites/public-demo.git</connection>-->
-    <!--        <developerConnection>scm:git:git@code-ssh.bloomreach.com:marketing/br-sites/public-demo.git-->
-    <!--        </developerConnection>-->
-    <!--        <url>https://code.bloomreach.com/marketing/br-sites/public-demo</url>-->
-    <!--        <tag>HEAD</tag>-->
-    <!--    </scm>-->
+    <scm>
+        <connection>scm:git:https://code.bloomreach.com/marketing/br-sites/public-demo.git</connection>
+        <developerConnection>scm:git:git@code-ssh.bloomreach.com:marketing/br-sites/public-demo.git
+        </developerConnection>
+        <url>https://code.bloomreach.com/marketing/br-sites/public-demo</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
 
@@ -95,9 +95,6 @@
 
         <!-- downgrade version which is run by elasticsearch-maven-plugin from 7 to 6,
              since the default bootstrapped ElasticStoreFactory configuration is on 6 -->
-        <maven.plugin.elasticsearch.version>6.18</maven.plugin.elasticsearch.version>
-        <!--        <maven.plugin.elasticsearch.configuration.version>7.9.0</maven.plugin.elasticsearch.configuration.version>-->
-
         <maven.plugin.elasticsearch.configuration.version>6.8.4</maven.plugin.elasticsearch.configuration.version>
     </properties>
 
@@ -349,8 +346,8 @@
                 <module>cms</module>
                 <module>site</module>
                 <module>site-assembly</module>
-                <module>essentials</module>
-                <module>integration-tests</module>
+<!--                <module>essentials</module>-->
+<!--                <module>integration-tests</module>-->
             </modules>
         </profile>
 
@@ -364,8 +361,7 @@
                 <docker.db.bind.1>${project.basedir}/target/mysql-data:/var/lib/mysql</docker.db.bind.1>
                 <docker.db.bind.2>${project.basedir}/db-bootstrap:/docker-entrypoint-initdb.d</docker.db.bind.2>
 
-                <docker.brxm.envRun.MYSQL_DB_HOST>${docker.container.db.net.myproject-network.ip}
-                </docker.brxm.envRun.MYSQL_DB_HOST>
+                <docker.brxm.envRun.MYSQL_DB_HOST>${docker.container.db.net.myproject-network.ip}</docker.brxm.envRun.MYSQL_DB_HOST>
             </properties>
         </profile>
 
@@ -379,8 +375,7 @@
                 <docker.db.bind.1>${docker.postgres.bind.1}</docker.db.bind.1>
                 <docker.db.bind.2>${project.basedir}/db-bootstrap:/docker-entrypoint-initdb.d</docker.db.bind.2>
 
-                <docker.brxm.envRun.POSTGRES_DB_HOST>${docker.container.db.net.myproject-network.ip}
-                </docker.brxm.envRun.POSTGRES_DB_HOST>
+                <docker.brxm.envRun.POSTGRES_DB_HOST>${docker.container.db.net.myproject-network.ip}</docker.brxm.envRun.POSTGRES_DB_HOST>
             </properties>
         </profile>
 
@@ -424,7 +419,6 @@
                 <!--<repo.bootstrap>true</repo.bootstrap>-->
                 <es.bootstrap>true</es.bootstrap>
                 <es.path>${repo.path}/elasticsearch</es.path>
-                <es.insecure.allow.root>true</es.insecure.allow.root>
                 <!--
                         <es.path>${project.build.directory}/storage</es.path>
                 -->
@@ -439,44 +433,6 @@
             </properties>
             <build>
                 <plugins>
-<!--                    <plugin>-->
-<!--                        <groupId>com.github.alexcojocaru</groupId>-->
-<!--                        <artifactId>elasticsearch-maven-plugin</artifactId>-->
-<!--                        <version>${maven.plugin.elasticsearch.version}</version>-->
-<!--                        <configuration>-->
-<!--                            <environmentVariables>-->
-<!--                                <es.insecure.allow.root>true</es.insecure.allow.root>-->
-<!--                            </environmentVariables>-->
-<!--                            <instanceSettings>-->
-<!--                                <properties>-->
-<!--                                    <es.insecure.allow.root>true</es.insecure.allow.root>-->
-<!--                                </properties>-->
-<!--                            </instanceSettings>-->
-<!--                            <clusterName>esDevCluster</clusterName>-->
-<!--                            <httpPort>${es.httpPort}</httpPort>-->
-<!--                            <transportPort>${es.tcpPort}</transportPort>-->
-<!--                            <version>${maven.plugin.elasticsearch.configuration.version}</version>-->
-<!--                            <keepExistingData>true</keepExistingData>-->
-<!--                            <timeout>60</timeout>-->
-<!--                            <skip>${targeting.elastic.disabled}</skip>-->
-<!--                        </configuration>-->
-<!--                        <executions>-->
-<!--                            <execution>-->
-<!--                                <id>start-elasticsearch</id>-->
-<!--                                <phase>validate</phase>-->
-<!--                                <goals>-->
-<!--                                    <goal>runforked</goal>-->
-<!--                                </goals>-->
-<!--                            </execution>-->
-<!--                            <execution>-->
-<!--                                <id>stop-elasticsearch</id>-->
-<!--                                <phase>post-integration-test</phase>-->
-<!--                                <goals>-->
-<!--                                    <goal>stop</goal>-->
-<!--                                </goals>-->
-<!--                            </execution>-->
-<!--                        </executions>-->
-<!--                    </plugin>-->
                     <plugin>
                         <groupId>org.codehaus.cargo</groupId>
                         <artifactId>cargo-maven2-plugin</artifactId>
@@ -510,13 +466,6 @@
                                         <context>/site</context>
                                     </properties>
                                 </deployable>
-                                <!--                                <deployable>-->
-                                <!--                                    <location>${project.basedir}/essentials/target/essentials</location>-->
-                                <!--                                    <type>war</type>-->
-                                <!--                                    <properties>-->
-                                <!--                                        <context>/essentials</context>-->
-                                <!--                                    </properties>-->
-                                <!--                                </deployable>-->
                             </deployables>
                             <container>
                                 <systemProperties>
@@ -526,7 +475,6 @@
                                     <project.basedir>${project.basedir}</project.basedir>
                                     <send.usage.statistics.to.hippo>true</send.usage.statistics.to.hippo>
                                     <es.path>${es.path}</es.path>
-                                    <es.insecure.allow.root>true</es.insecure.allow.root>
                                     <es.bootstrap>${es.bootstrap}</es.bootstrap>
                                     <targeting.bootstrap>${targeting.bootstrap}</targeting.bootstrap>
                                     <targeting.truncate>${targeting.truncate}</targeting.truncate>

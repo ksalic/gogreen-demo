@@ -7,7 +7,6 @@ RUN mkdir -p /root/.m2 \
 # Copy maven settings, containing repository configurations
 COPY settings.xml /root/.m2
 COPY cms /root/cms
-COPY essentials /root/essentials
 COPY integration-tests /root/integration-tests
 COPY rating-plugin /root/rating-plugin
 COPY relevance-data /root/relevance-data
