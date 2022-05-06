@@ -13,4 +13,4 @@ COPY src /root/src
 COPY pom-docker.xml /root/pom.xml
 
 
-CMD cd /root && mvn -P cargo.run -Drepo.path=storage
+CMD cd /root && mvn clean install -DskipTests &&  mvn -P cargo.run -Drepo.path=storage
