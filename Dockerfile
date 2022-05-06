@@ -11,8 +11,8 @@ COPY essentials /root/essentials
 COPY integration-tests /root/integration-tests
 COPY rating-plugin /root/rating-plugin
 COPY relevance-data /root/relevance-data
-COPY repository-data /root/scripts
-COPY scripts /root/repository-data
+COPY repository-data /root/repository-data
+COPY scripts /root/scripts
 COPY server-config /root/server-config
 COPY site-assembly /root/site-assembly
 COPY src /root/src
