@@ -34,6 +34,6 @@
               url="jdbc:h2:${repo.path}/targeting/targeting"/>
 
     <Environment name="elasticsearch/targetingDS" type="java.lang.String"
-                 value="{'indexName':'visits', 'locations':['http://docker.for.mac.host.internal:9200/']}" />
+                 value="{'indexName':'visits', 'locations':['http://host.docker.internal:9200/']}" />
 
 </Context>
