@@ -20,4 +20,24 @@
 [myproject:page] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
   orderable
 
+[myproject:findItemsByCategory] > hippo:compound, hippostd:relaxed
+orderable
+
+[myproject:findItemsByKeyword] > hippo:compound, hippostd:relaxed
+orderable
+
+[myproject:findItemsByProductIDs] > hippo:compound, hippostd:relaxed
+orderable
+
+[myproject:findItemsMoreLikeThis] > hippo:compound, hippostd:relaxed
+orderable
+
+[myproject:productcollection] > hippo:compound, hippostd:relaxed
+orderable
+
+[myproject:contentpage] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+
+
 

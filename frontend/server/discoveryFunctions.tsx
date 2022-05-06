@@ -23,7 +23,7 @@ export interface FacetField {
     values: FacetValue[];
 }
 
-export  interface FacetResult {
+export interface FacetResult {
     fields: FacetField[];
 }
 
@@ -76,6 +76,7 @@ export interface ProductQueryResult {
     facetResult?: FacetResult
     terms?: Array<string>
     total?: number
+    errorMessage?: string
 }
 
 export interface CategoryQueryResult {
@@ -145,7 +146,7 @@ export function findItemsByKeyword(query: string = "", offset: number = 0, limit
             "sortField": sortField
         }
     });
-    return {queryResult: result, products: result?.data?.findItemsByKeyword?.items}
+    return {queryResult: result, products: result?.data?.findItemsByKeyword?.items, errorMessage: result.error?.message}
 }
 
 export function findSuggestions(query: string = "", queryHint?: QueryHintInput): ProductQueryResult {
@@ -155,7 +156,11 @@ export function findSuggestions(query: string = "", queryHint?: QueryHintInput):
             "queryHint": queryHint,
         }
     });
-    return {queryResult: result, terms: result?.data?.findSuggestions?.terms, products: result?.data?.findSuggestions?.items}
+    return {
+        queryResult: result,
+        terms: result?.data?.findSuggestions?.terms,
+        products: result?.data?.findSuggestions?.items
+    }
 }
 
 export function findItemsJustForMe(offset: number = 0, limit: number = 10, queryHint?: QueryHintInput, sortField?: string): ProductQueryResult {
@@ -184,7 +189,8 @@ export function findItemsByCategory(categoryId: string = "", offset: number = 0,
         queryResult: result,
         products: result?.data?.findItemsByCategory?.items,
         total: result?.data?.findItemsByCategory?.total,
-        facetResult: result?.data?.findItemsByCategory?.facetResult
+        facetResult: result?.data?.findItemsByCategory?.facetResult,
+        errorMessage: result.error?.message
     }
 }
 

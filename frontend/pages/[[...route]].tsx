@@ -12,6 +12,7 @@ import Head from 'next/head';
 import {XPage} from "../components/types/content";
 import useScript from "../components/cms/utils/UseScript";
 import {TwoColumnLayout} from "../components/layouts/two-column-layout";
+import {ProductCollection} from "../components/cms/ProductCollection";
 
 export const getServerSideProps: GetServerSideProps = async ({
                                                                  req: request,
@@ -50,6 +51,7 @@ export const getServerSideProps: GetServerSideProps = async ({
 
 const components = {
     BannerCollection,
+    ProductCollection
 };
 
 const layouts = {

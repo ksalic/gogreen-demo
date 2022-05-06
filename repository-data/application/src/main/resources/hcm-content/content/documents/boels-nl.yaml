@@ -1,0 +1,119 @@
+/content/documents/boels-nl:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 761e2d8e-08ec-4b14-957a-5251bc340790
+  hippo:name: Boels NL
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 680038cd-6ea7-486e-9964-785313ad30ab
+  hippotranslation:locale: nl
+  /pages:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 3a076d1c-2ae4-44cd-adbb-412bd7f98493
+    hippostd:channelid: boels-nl
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: cd569436-89ec-446c-a0ec-08921b3690f9
+    hippotranslation:locale: nl
+    /home:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: c3eb0990-9635-4336-ba5c-668c6fae4611
+      hippo:versionHistory: a3073adc-dda7-4a45-92b3-def01a12c84f
+      /home[1]:
+        jcr:primaryType: myproject:page
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: f4f0b06d-8f2f-4744-bddc-50791e20c9b6
+        hippo:availability: []
+        hippostd:state: draft
+        hippostdpubwf:createdBy: kenan.salic@gmail.com
+        hippostdpubwf:creationDate: 2022-05-05T17:46:53.506+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-05T18:04:22.667+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippotranslation:id: 5c96a0e1-35eb-4c39-8c23-afcf38158ffd
+        hippotranslation:locale: nl
+        myproject:metadescription: ''
+        myproject:ogtitle: ''
+        myproject:title: Boels NL homepage
+        translationsaddon:hastranslation: true
+        translationsaddon:translated_en-gb: 609d7837-8c87-4424-89e7-78cceab426c3
+        translationsaddon:translated_nl: c3eb0990-9635-4336-ba5c-668c6fae4611
+        /myproject:ogimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /home[2]:
+        jcr:primaryType: myproject:page
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: 600f2985-038f-424c-8f41-199556d88e31
+        hippo:availability: [preview]
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: kenan.salic@gmail.com
+        hippostdpubwf:creationDate: 2022-05-05T17:46:53.506+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-05T18:01:54.457+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippotranslation:id: 5c96a0e1-35eb-4c39-8c23-afcf38158ffd
+        hippotranslation:locale: nl
+        myproject:metadescription: ''
+        myproject:ogtitle: ''
+        myproject:title: Boels NL homepage
+        translationsaddon:hastranslation: true
+        translationsaddon:translated_en-gb: 609d7837-8c87-4424-89e7-78cceab426c3
+        translationsaddon:translated_nl: c3eb0990-9635-4336-ba5c-668c6fae4611
+        /myproject:ogimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: b9375a53-9dd3-4530-91cb-d02dd289cf5f
+          hst:pageref: one-column
+          /f8536f60-22ad-4111-82c4-6f8f5a77a884:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 00a8c8da-c131-4f76-820c-286d5e49e9ce
+            hippo:identifier: 70a25479-fa1a-4941-a696-db58d61a772b
+            hst:lastmodified: 2022-05-05T18:01:54.457+02:00
+      /home[3]:
+        jcr:primaryType: myproject:page
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 2efcea39-f20c-47d7-8abb-afad83abd193
+        hippo:availability: [live]
+        hippostd:state: published
+        hippostdpubwf:createdBy: kenan.salic@gmail.com
+        hippostdpubwf:creationDate: 2022-05-05T17:46:53.506+02:00
+        hippostdpubwf:lastModificationDate: 2022-05-05T18:01:54.457+02:00
+        hippostdpubwf:lastModifiedBy: kenan.salic@gmail.com
+        hippostdpubwf:publicationDate: 2022-05-05T18:04:15.101+02:00
+        hippotranslation:id: 5c96a0e1-35eb-4c39-8c23-afcf38158ffd
+        hippotranslation:locale: nl
+        myproject:metadescription: ''
+        myproject:ogtitle: ''
+        myproject:title: Boels NL homepage
+        translationsaddon:hastranslation: true
+        translationsaddon:translated_en-gb: 609d7837-8c87-4424-89e7-78cceab426c3
+        translationsaddon:translated_nl: c3eb0990-9635-4336-ba5c-668c6fae4611
+        /myproject:ogimage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 358e1bf9-62df-4e19-83c7-5a2522464fbb
+          hst:pageref: one-column
+          /f8536f60-22ad-4111-82c4-6f8f5a77a884:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: d84d7ab2-f00f-446a-b63e-2c5a65ac32ad
+            hippo:identifier: 70a25479-fa1a-4941-a696-db58d61a772b
+            hst:lastmodified: 2022-05-05T18:01:54.457+02:00
+  /banners:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: b774110d-a5f9-455a-be3d-a09743b74e82
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: f238d105-5c09-41e6-af80-c41763deb880
+    hippotranslation:locale: nl

@@ -2,13 +2,13 @@ definitions:
   config:
     /translationsaddon:configuration/enabled-doctypes:
       jcr:primaryType: translationsaddon:configuration
-      value: '{"enabled-doctypes":[{"hippogogreen:banner":"banner"},{"hippogogreen:basedocument":"basedocument"},{"hippogogreen:blogitem":"blogitem"},{"hippogogreen:blogitemcb":"blogitemcb"},{"hippogogreen:comment":"comment"},{"hippogogreen:document":"document"},{"hippogogreen:event":"event"},{"hippogogreen:faq":"faq"},{"hippogogreen:newsitem":"newsitem"},{"hippogogreen:product":"product"},{"hippogogreen:restapi":"restapi"},{"hippogogreen:review":"review"},{"hippogogreen:richtextsnippet":"richtextsnippet"},{"hippogogreen:simpledocument":"simpledocument"}]}'
+      value: '{"enabled-doctypes":[{"hippogogreen:banner":"banner"},{"hippogogreen:basedocument":"basedocument"},{"hippogogreen:blogitem":"blogitem"},{"hippogogreen:blogitemcb":"blogitemcb"},{"hippogogreen:comment":"comment"},{"hippogogreen:document":"document"},{"hippogogreen:event":"event"},{"hippogogreen:faq":"faq"},{"hippogogreen:newsitem":"newsitem"},{"hippogogreen:product":"product"},{"hippogogreen:restapi":"restapi"},{"hippogogreen:review":"review"},{"hippogogreen:richtextsnippet":"richtextsnippet"},{"hippogogreen:simpledocument":"simpledocument"},{"myproject:page":"page"},{"myproject:bannercollection":"bannercollection"},{"myproject:contentpage":"contentpage"}]}'
     /translationsaddon:configuration/languages:
       jcr:primaryType: translationsaddon:configuration
-      value: '{"languages":["zh","de","en","en-gb","fr","nl"]}'
+      value: '{"languages":["en-gb","nl"]}'
     /translationsaddon:configuration/namespaces:
       jcr:primaryType: translationsaddon:configuration
-      value: '{"namespaces":["hippogogreen"]}'
+      value: '{"namespaces":["hippogogreen","myproject"]}'
 
 
 

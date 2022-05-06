@@ -1,0 +1,90 @@
+definitions:
+  config:
+    /hippo:namespaces/myproject/findItemsMoreLikeThis:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: [ 'editor:editable', 'mix:referenceable' ]
+      jcr:uuid: 37904d94-58f1-4522-97e5-4058db061726
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: [ 'mix:referenceable' ]
+        jcr:uuid: 79c97950-5185-4f60-82ef-848a02b198b3
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: [ 'hipposysedit:remodel', 'mix:referenceable' ]
+          jcr:uuid: 91608e11-3cd0-41d1-a2e5-39003fc2ab43
+          hipposysedit:node: true
+          hipposysedit:supertype: [ 'hippo:compound', 'hippostd:relaxed' ]
+          hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
+          /product:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:product
+            hipposysedit:primary: false
+            hipposysedit:type: OpenUiString
+          /offset:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:offset
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+          /limit:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:limit
+            hipposysedit:primary: false
+            hipposysedit:type: Long
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: myproject:findItemsMoreLikeThis
+          myproject:limit: 6
+          myproject:offset: 0
+          myproject:product: '[]'
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [ mode ]
+          frontend:references: [ wicket.model, model.compareTo, engine, validator.id ]
+          frontend:services: [ wicket.id, validator.id ]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /product:
+            jcr:primaryType: frontend:plugin
+            caption: Product
+            field: product
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              ui.extension: productSinglePicker
+          /offset:
+            jcr:primaryType: frontend:plugin
+            caption: Offset
+            field: offset
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /limit:
+            jcr:primaryType: frontend:plugin
+            caption: Limit
+            field: limit
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+
+
+
+
+

@@ -6,7 +6,7 @@ definitions:
         jcr:uuid: cb24aca1-50c0-41d8-b870-e07b2d9fb05d
         hst:componentclassname: org.onehippo.forge.sitemapv2.components.DocumentFeed
         hst:parameternames: [ query-primaryTypes, query-customJcrExpression ]
-        hst:parametervalues: [ 'myproject:page', '@myproject:metarobots!=''none'' and @myproject:metarobots!=''noindex''' ]
+        hst:parametervalues: [ 'myproject:page', '@myproject:metarobots!=''none'' and @myproject:metarobots!=''noindex'' and @myproject:metarobots!=''nofollow''' ]
         hst:template: forge-sitemapv2-feed.ftl
 
       

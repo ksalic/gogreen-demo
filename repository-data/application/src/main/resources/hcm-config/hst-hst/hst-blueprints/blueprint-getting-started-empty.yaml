@@ -45,6 +45,21 @@ definitions:
                   hst:pickerinitialpath: banners
                   hst:pickerselectablenodetypes: ['myproject:bannercollection']
                   hst:relative: false
+            /dynamic-productcollection:
+              jcr:primaryType: hst:componentdefinition
+              hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+              hst:ctype: ProductCollection
+              hst:hiddeninchannelmanager: true
+              hst:label: Products
+              /document:
+                jcr:primaryType: hst:dynamicparameter
+                hst:valuetype: text
+                /hst:fieldconfig:
+                  jcr:primaryType: hst:jcrpath
+                  hst:pickerconfiguration: cms-pickers/documents-only
+                  hst:pickerinitialpath: products
+                  hst:pickerselectablenodetypes: [ 'myproject:productcollection' ]
+                  hst:relative: false
         /hst:pages:
           jcr:primaryType: hst:pages
           jcr:uuid: d45d9f1a-b5cc-4331-bc1f-f3c5fca69ddd

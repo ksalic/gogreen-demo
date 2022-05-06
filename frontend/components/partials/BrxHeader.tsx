@@ -1,13 +1,10 @@
 import {BrComponent, BrPageContext} from "@bloomreach/react-sdk";
 import React, {useContext, useState} from "react";
 import ALink from "../features/alink";
-import CartMenu from "./header/partials/cart-menu";
 import StickyHeader from "../features/sticky-header";
 import {MainMenu} from "../cms/MainMenu";
-import {HeaderSearch} from "./header/partials/HeaderSearch";
-import {Document} from "@bloomreach/spa-sdk";
-import {XPage} from "../types/content";
 import {BrPropertyContext} from "../provider/BrPropertyProvider";
+import CartMenu from "./header/partials/cart-menu";
 
 export function BrxHeader(): JSX.Element | null {
 
@@ -21,36 +18,43 @@ export function BrxHeader(): JSX.Element | null {
 
     return (
         <header className="header header-2 header-intro-clearance">
+            <div className="header-middle">
+                <div className={ containerClass }>
+                    <div className="header-left">
+                        <button className="mobile-menu-toggler" onClick={openMobileMenu}>
+                            <span className="sr-only">Toggle mobile menu</span>
+                            <i className="icon-bars"></i>
+                        </button>
+                        <BrPageContext.Consumer>
+                            {page => {
+                                return (
+                                    <ALink href={page?.getUrl("/")} className="logo" >
+                                        <img
+                                            src={`${binariesUrl}${page?.getChannelParameters()?.logo}`}
+                                            alt="Bloomreach Storefront"
+                                            className="bg-transparent"
+                                            width="130"
+                                            height="30"/>
+                                    </ALink>
+                                )
+                            }}
+                        </BrPageContext.Consumer>
+                    </div>
+                    <div className="header-center">
+                    </div>
+                    <div className="header-right">
+                        <CartMenu/>
+                    </div>
+                </div>
+            </div>
             <StickyHeader>
-                <div className="header-middle">
+                <div className="header-top sticky-header">
                     <div className={containerClass}>
-                        <div className="header-left">
-                            <button className="mobile-menu-toggler" onClick={openMobileMenu}>
-                                <span className="sr-only">Toggle mobile menu</span>
-                                <i className="icon-bars"></i>
-                            </button>
-                            <BrPageContext.Consumer>
-                                {page => {
-                                    return (
-                                        <ALink href={page?.getUrl("/")} className="logo" >
-                                            <img
-                                                src={`${binariesUrl}${page?.getChannelParameters()?.logo}`}
-                                                 alt="Bloomreach Storefront"
-                                                className="bg-transparent"
-                                                width="130"
-                                                height="30"/>
-                                        </ALink>
-                                    )
-                                }}
-                            </BrPageContext.Consumer>
-                        </div>
-                        <div className="header-center">
+                        {/*<div className="header-left">*/}
                             <BrComponent path="menu">
                                 <MainMenu/>
                             </BrComponent>
-                        </div>
-                        <div className="header-right">
-                        </div>
+                        {/*</div>*/}
                     </div>
                 </div>
             </StickyHeader>

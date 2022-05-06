@@ -1,19 +1,19 @@
 definitions:
   config:
-    /hippo:namespaces/myproject/page:
+    /hippo:namespaces/myproject/contentpage:
       jcr:primaryType: hipposysedit:templatetype
-      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
-      jcr:uuid: 0736a0e8-2c92-454b-b0a8-c4a4d0fed8bb
+      jcr:mixinTypes: [ 'editor:editable', 'mix:referenceable' ]
+      jcr:uuid: f9152a68-956d-4a3f-8f38-9b9e0e03966f
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 2b4e17ac-ed54-436a-8163-92530bc26c97
+        jcr:mixinTypes: [ 'mix:referenceable' ]
+        jcr:uuid: 033adb2c-9bb1-4887-9fde-297ad51b87f8
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
-          jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: bfe50038-6f6e-4fab-8e42-1db1e6bf65d1
+          jcr:mixinTypes: [ 'hipposysedit:remodel', 'mix:referenceable' ]
+          jcr:uuid: 7e6ab9b9-8113-48e0-b84d-7c4acaa275fa
           hipposysedit:node: true
-          hipposysedit:supertype: ['myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:supertype: [ 'myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated' ]
           hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
           /title:
             jcr:primaryType: hipposysedit:field
@@ -23,7 +23,7 @@ definitions:
             hipposysedit:path: myproject:title
             hipposysedit:primary: false
             hipposysedit:type: String
-            hipposysedit:validators: [required]
+            hipposysedit:validators: [ required ]
           /metadescription:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -56,7 +56,7 @@ definitions:
             hipposysedit:path: myproject:ogimage
             hipposysedit:primary: false
             hipposysedit:type: hippogallerypicker:imagelink
-          /metarobots:
+          /metarobots2:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
             hipposysedit:multiple: false
@@ -64,12 +64,28 @@ definitions:
             hipposysedit:path: myproject:metarobots
             hipposysedit:primary: false
             hipposysedit:type: StaticDropdown
+          /content:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:content
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /subtitle:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:subtitle
+            hipposysedit:primary: false
+            hipposysedit:type: String
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
-          jcr:primaryType: myproject:page
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 8166be1b-cf57-4905-a14f-20cf57f69fdb
+          jcr:primaryType: myproject:contentpage
+          jcr:mixinTypes: [ 'mix:referenceable' ]
+          jcr:uuid: f3aafdfb-04d3-42a3-88d1-e5295226b96e
           hippostd:holder: holder
           hippostd:state: draft
           hippostdpubwf:createdBy: ''
@@ -80,26 +96,30 @@ definitions:
           hippotranslation:locale: document-type-locale
           myproject:metadescription: ''
           myproject:ogtitle: ''
+          myproject:subtitle: ''
           myproject:title: ''
           /myproject:ogimage:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
+            hippo:facets: [ ]
+            hippo:modes: [ ]
+            hippo:values: [ ]
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
           jcr:primaryType: frontend:plugincluster
-          frontend:properties: [mode]
-          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
-          frontend:services: [wicket.id, validator.id]
+          frontend:properties: [ mode ]
+          frontend:references: [ wicket.model, model.compareTo, engine, validator.id ]
+          frontend:services: [ wicket.id, validator.id ]
           /root:
             jcr:primaryType: frontend:plugin
             extension.left: ${cluster.id}.left
             extension.right: ${cluster.id}.right
             plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
-            wicket.extensions: [extension.left, extension.right]
+            wicket.extensions: [ extension.left, extension.right ]
           /left:
             jcr:primaryType: frontend:plugin
             item: ${cluster.id}.left.item
@@ -125,11 +145,21 @@ definitions:
             caption: Meta Description
             field: metadescription
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
-            wicket.id: ${cluster.id}.left.item
+            wicket.id: ${cluster.id}.right.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
               maxlength: '256'
               rows: '2'
+          /metarobots:
+            jcr:primaryType: frontend:plugin
+            caption: Meta Robots
+            field: metarobots2
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              selectable.options: all,index,follow,noindex,nofollow,none
           /ogtitle:
             jcr:primaryType: frontend:plugin
             caption: OG Title
@@ -156,14 +186,20 @@ definitions:
             wicket.id: ${cluster.id}.right.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
-          /metarobots:
+          /subtitle:
             jcr:primaryType: frontend:plugin
-            caption: Meta Robots
-            field: metarobots
-            hint: ''
+            caption: Subtitle
+            field: subtitle
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.left.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
-              selectable.options: all,index,follow,noindex,nofollow,none
-
+          /content:
+            jcr:primaryType: frontend:plugin
+            caption: Content
+            field: content
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

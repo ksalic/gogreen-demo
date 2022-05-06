@@ -1,0 +1,27 @@
+/content/gallery/logo/boels-rental-logo.jpeg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 08c68309-8905-48e9-b6a3-1517bbbc7845
+  /boels-rental-logo.jpeg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: boels-rental-logo.jpeg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: boels-rental-logo.jpeg
+      hippogallery:height: 28
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/logo/boels-rental-logo.jpeg/boels-rental-logo_thumbnail.jpeg
+      jcr:lastModified: 2022-05-05T12:15:12.324+02:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 112
+      hippogallery:width: 240
+      jcr:data:
+        type: binary
+        resource: /content/gallery/logo/boels-rental-logo.jpeg/boels-rental-logo_original.jpeg
+      jcr:lastModified: 2022-05-05T12:15:12.324+02:00
+      jcr:mimeType: image/jpeg

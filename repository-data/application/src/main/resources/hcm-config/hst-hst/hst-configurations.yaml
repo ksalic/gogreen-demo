@@ -174,4 +174,268 @@ definitions:
                 hippo:identifier: a8536f60-22ad-4111-82c4-6f8f5a77a884
                 hst:label: Container Left (component drop zone)
                 hst:xtype: hst.nomarkup
+      /boels-en:
+        jcr:primaryType: hst:configuration
+        jcr:uuid: 8f655a1e-e205-4a9d-a96d-d0e51c54bb3c
+        /hst:abstractpages:
+          jcr:primaryType: hst:pages
+          jcr:uuid: ca2b9282-5537-4047-86f0-80e51d872254
+          /base:
+            jcr:primaryType: hst:component
+            jcr:uuid: b130e9d5-ed80-4965-8753-303dbb28a7be
+            /menu:
+              jcr:primaryType: hst:component
+              jcr:uuid: 3c9a19c0-26a6-41ec-8f8b-025b4f14a2e7
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+              hst:parameternames: [ selectedMenu, level, menu ]
+              hst:parametervalues: [ 'on', '1', main ]
+        /hst:catalog:
+          jcr:primaryType: hst:catalog
+          jcr:uuid: da75672e-2c2d-46ca-a5aa-3edd792dbba4
+          /sample:
+            jcr:primaryType: hst:containeritempackage
+            jcr:uuid: 3bc7a226-fd56-4f9f-9987-7f1c2cb81e53
+            /dynamic-bannercollection:
+              jcr:primaryType: hst:componentdefinition
+              hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+              hst:ctype: BannerCollection
+              hst:label: Banner(s)
+              /document:
+                jcr:primaryType: hst:dynamicparameter
+                hst:valuetype: text
+                /hst:fieldconfig:
+                  jcr:primaryType: hst:jcrpath
+                  hst:pickerconfiguration: cms-pickers/documents-only
+                  hst:pickerinitialpath: banners
+                  hst:pickerselectablenodetypes: [ 'myproject:bannercollection' ]
+                  hst:relative: false
+        /hst:pages:
+          jcr:primaryType: hst:pages
+          jcr:uuid: 05fa5415-1543-4f68-9f44-a5469e5a5523
+          /pagenotfound:
+            jcr:primaryType: hst:component
+            jcr:uuid: 98a8478a-c9b7-4bfb-b613-a81903b5edaa
+            hst:referencecomponent: hst:abstractpages/base
+            /main:
+              jcr:primaryType: hst:component
+              jcr:uuid: 303e3a0b-0471-4f87-b8d8-192aec014b0a
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsPageNotFoundComponent
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+          jcr:uuid: 102a3ec5-720d-40da-9ee8-05132a9fc105
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 0e8fca34-8a2c-4139-81ef-3cc593d109d8
+            hst:componentconfigurationid: hst:pages/pagenotfound
+            hst:relativecontentpath: pages/${1}
+          /root:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: d42b2c0c-8e53-46b8-949c-23c3777a69a9
+            hst:pagetitle: Home Page
+            hst:refId: root
+            hst:relativecontentpath: pages/home
+        /hst:workspace:
+          jcr:primaryType: hst:workspace
+          jcr:mixinTypes: [ 'dxphst:mergeable' ]
+          dxphst:treehash: 73DC49643E51728169B8508B82A1CEBD
+          /hst:sitemenus:
+            jcr:primaryType: hst:sitemenus
+            jcr:uuid: 08983963-7b56-4c4e-9244-c3283a467ac5
+            /main:
+              jcr:primaryType: hst:sitemenu
+              jcr:uuid: 0c27060b-c8ab-479b-ac9a-869c940e7504
+              hst:lastmodified: 2022-05-02T14:09:14.525+02:00
+              /home:
+                jcr:primaryType: hst:sitemenuitem
+                jcr:uuid: 6fa793b5-d0ae-4d84-bc90-2a2f9efa9e19
+                hst:referencesitemapitem: root
+          /hst:pages:
+            jcr:primaryType: hst:pages
+            jcr:uuid: be62bcd3-0a28-41ce-b45d-2ca7df30f06b
+          /hst:sitemap:
+            jcr:primaryType: hst:sitemap
+            jcr:uuid: d61a8d24-813a-4482-b23d-0849bf46fd0a
+          /hst:channel:
+            jcr:primaryType: hst:channel
+            jcr:uuid: 83bcf4f1-5dcf-451e-9c30-554738cb88f8
+            hst:channelinfoclass: com.onehippo.gogreen.channels.GettingStarted
+            hst:defaultdevice: default
+            hst:devices: [ ]
+            hst:lastmodified: 2022-05-06T11:25:46.316+02:00
+            hst:lastmodifiedby: admin
+            hst:name: Boels EN
+            hst:type: boels
+            /hst:channelinfo:
+              jcr:primaryType: hst:channelinfo
+              additionalJs: ''
+              logo: /content/gallery/logo/boels-rental-logo.jpeg
+              org.hippoecm.hst.configuration.channel.PreviewURLChannelInfo_url: http://localhost:3000
+              pageTitlePrefix: Boels
+              themeCss: /content/assets/themes/css/boels.css
+        /hst:xpages:
+          jcr:primaryType: hst:xpages
+          jcr:uuid: bc2136d1-fe91-4e57-bdb2-6a755dd7a143
+          /one-column:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: e00bfb8d-dfd2-446e-a36f-e33b6d6c99f7
+            hst:label: One Column
+            hst:referencecomponent: hst:abstractpages/base
+            /container:
+              jcr:primaryType: hst:containercomponent
+              jcr:uuid: 3ee089ed-e371-44f3-a62b-3be761e92876
+              hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
+              hst:label: Container (component drop zone)
+              hst:xtype: hst.nomarkup
+          /two-column:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 99f19fca-e245-4c46-9b5e-d634e90dca0a
+            hst:label: Two Column
+            hst:referencecomponent: hst:abstractpages/base
+            /container:
+              jcr:primaryType: hst:component
+              jcr:uuid: 797457c3-8f0a-4695-a942-fc853c8a52da
+              /left:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: c25c7e8a-b9d1-4adc-b80d-cd8e4d476348
+                hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
+                hst:label: Container Left (component drop zone)
+                hst:xtype: hst.nomarkup
+              /right:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 05891f4b-e184-4705-aecd-ac5a896f637c
+                hippo:identifier: a8536f60-22ad-4111-82c4-6f8f5a77a884
+                hst:label: Container Left (component drop zone)
+                hst:xtype: hst.nomarkup
+      /boels-nl:
+        jcr:primaryType: hst:configuration
+        jcr:uuid: a12b76ae-b2e7-4949-af6b-10b1cda808d0
+        /hst:abstractpages:
+          jcr:primaryType: hst:pages
+          jcr:uuid: 2b64bd16-d3a5-416c-be4b-f35de8c070bc
+          /base:
+            jcr:primaryType: hst:component
+            jcr:uuid: 0e8bcf64-2170-435e-8ed2-1932e00e2f87
+            /menu:
+              jcr:primaryType: hst:component
+              jcr:uuid: 3d20c2da-e78f-4a5e-a3bb-79d2b2e0ce90
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsMenuComponent
+              hst:parameternames: [ selectedMenu, level, menu ]
+              hst:parametervalues: [ 'on', '1', main ]
+        /hst:catalog:
+          jcr:primaryType: hst:catalog
+          jcr:uuid: a903f554-407d-4ea4-814b-60a2fed6e472
+          /sample:
+            jcr:primaryType: hst:containeritempackage
+            jcr:uuid: 57a85388-26ee-4479-b8a4-d5c83c0e2b03
+            /dynamic-bannercollection:
+              jcr:primaryType: hst:componentdefinition
+              hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+              hst:ctype: BannerCollection
+              hst:label: Banner(s)
+              /document:
+                jcr:primaryType: hst:dynamicparameter
+                hst:valuetype: text
+                /hst:fieldconfig:
+                  jcr:primaryType: hst:jcrpath
+                  hst:pickerconfiguration: cms-pickers/documents-only
+                  hst:pickerinitialpath: banners
+                  hst:pickerselectablenodetypes: [ 'myproject:bannercollection' ]
+                  hst:relative: false
+        /hst:pages:
+          jcr:primaryType: hst:pages
+          jcr:uuid: 022b2bba-bed0-411f-8f3a-679fbd5f845b
+          /pagenotfound:
+            jcr:primaryType: hst:component
+            jcr:uuid: 81eb07a9-a230-4833-bd65-71a584073923
+            hst:referencecomponent: hst:abstractpages/base
+            /main:
+              jcr:primaryType: hst:component
+              jcr:uuid: d4350488-2e37-448e-a778-17ac47448866
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsPageNotFoundComponent
+        /hst:sitemap:
+          jcr:primaryType: hst:sitemap
+          jcr:uuid: d2fd95dd-096d-431c-89f1-a248538e3187
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 42c2a30c-f261-4d50-ac8b-30848f41f790
+            hst:componentconfigurationid: hst:pages/pagenotfound
+            hst:relativecontentpath: pages/${1}
+          /root:
+            jcr:primaryType: hst:sitemapitem
+            jcr:uuid: 79a9311e-37c0-4b47-82e4-e83a4925e5fd
+            hst:pagetitle: Home Page
+            hst:refId: root
+            hst:relativecontentpath: pages/home
+        /hst:workspace:
+          jcr:primaryType: hst:workspace
+          jcr:mixinTypes: [ 'dxphst:mergeable' ]
+          dxphst:treehash: 0BA0C5B9CFF5DD0534AAD5BEF33B2E29
+          /hst:sitemenus:
+            jcr:primaryType: hst:sitemenus
+            jcr:uuid: 46788622-dc2e-4cf7-9cad-81f1f10c311b
+            /main:
+              jcr:primaryType: hst:sitemenu
+              jcr:uuid: 66719c43-c991-40ff-bbe5-6d4c5a5aee8d
+              hst:lastmodified: 2022-05-06T11:48:35.445+02:00
+              /home:
+                jcr:primaryType: hst:sitemenuitem
+                jcr:uuid: 0b2ba11f-3967-472c-850c-4a391d821723
+                hst:referencesitemapitem: root
+          /hst:pages:
+            jcr:primaryType: hst:pages
+            jcr:uuid: 8bffa6d8-8895-44a7-a4ac-67e306ae1c20
+          /hst:sitemap:
+            jcr:primaryType: hst:sitemap
+            jcr:uuid: 89826f88-73fb-4cf0-88c2-615daad72de6
+          /hst:channel:
+            jcr:primaryType: hst:channel
+            jcr:uuid: ad4230e2-0800-4869-b451-66ef116cbfee
+            hst:channelinfoclass: com.onehippo.gogreen.channels.GettingStarted
+            hst:defaultdevice: default
+            hst:devices: [ ]
+            hst:lastmodified: 2022-05-06T11:26:19.364+02:00
+            hst:lastmodifiedby: admin
+            hst:name: Boels NL
+            hst:type: boels
+            /hst:channelinfo:
+              jcr:primaryType: hst:channelinfo
+              additionalJs: ''
+              logo: /content/gallery/logo/boels-rental-logo.jpeg
+              org.hippoecm.hst.configuration.channel.PreviewURLChannelInfo_url: http://localhost:3000
+              pageTitlePrefix: Boels NL -
+              themeCss: /content/assets/themes/css/boels.css
+        /hst:xpages:
+          jcr:primaryType: hst:xpages
+          jcr:uuid: fc1ef9bf-9089-4a5d-ac2e-d8474e4a41e1
+          /one-column:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 87c6baba-e7de-415f-ba10-68cbae4300b8
+            hst:label: One Column
+            hst:referencecomponent: hst:abstractpages/base
+            /container:
+              jcr:primaryType: hst:containercomponent
+              jcr:uuid: b976c7b6-b38a-493e-8d1e-920d89ba90d2
+              hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
+              hst:label: Container (component drop zone)
+              hst:xtype: hst.nomarkup
+          /two-column:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 34ddc8c9-8c78-4d56-a1ac-459a18fa402a
+            hst:label: Two Column
+            hst:referencecomponent: hst:abstractpages/base
+            /container:
+              jcr:primaryType: hst:component
+              jcr:uuid: ae7740ef-d0de-4a70-a659-d01eca19d2c7
+              /left:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 041fbdc6-898f-4efb-8aea-afacd042b7e6
+                hippo:identifier: f8536f60-22ad-4111-82c4-6f8f5a77a884
+                hst:label: Container Left (component drop zone)
+                hst:xtype: hst.nomarkup
+              /right:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 172c1ca8-4efe-4b0a-a5b6-0bf8ee20545d
+                hippo:identifier: a8536f60-22ad-4111-82c4-6f8f5a77a884
+                hst:label: Container Left (component drop zone)
+                hst:xtype: hst.nomarkup
 

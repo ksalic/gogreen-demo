@@ -262,4 +262,19 @@ definitions:
               hst:mountpoint: /hst:hst/hst:sites/getting-started
               hst:pagemodelapi: pma
               hst:responseheaders: [ 'Access-Control-Allow-Origin: *' ]
+            /boels-en:
+              jcr:primaryType: hst:mount
+              jcr:uuid: 13a5117b-e199-4b84-a47b-3beb9bc23a79
+              hst:locale: en_GB
+              hst:mountpoint: /hst:hst/hst:sites/boels-en
+              hst:pagemodelapi: pma
+              hst:responseheaders: [ 'Access-Control-Allow-Origin: *' ]
+            /boels-nl:
+              jcr:primaryType: hst:mount
+              jcr:uuid: d44ec54c-b125-4da7-bd2e-0b3633cb86b1
+              hst:locale: nl_NL
+              hst:mountpoint: /hst:hst/hst:sites/boels-nl
+              hst:pagemodelapi: pma
+              hst:responseheaders: [ 'Access-Control-Allow-Origin: *' ]
+
 

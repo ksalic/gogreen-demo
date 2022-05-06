@@ -24,7 +24,7 @@ function MenuLink({item}: MenuLinkProps): JSX.Element {
 
     return (
         <a href={url}>
-            <a className="sf-with-ul">{item.getName()}</a>
+            <span className="sf-with-ul">{item.getName()}</span>
         </a>
     );
 }

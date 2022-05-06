@@ -115,58 +115,86 @@ export function BannerCollection({component, page}: BrProps<ContainerItem>): JSX
         <div className={`${containerClassName} my-4 position-relative`}>
             <BrManageContentButton content={bannerCollection}/>
             <div className="row">
-                {style === 'carousel' ?
-                    <OwlCarousel adClass={`owl-simple ${items === 1 ? 'owl-nav-inside' : ''}`} options={sliderSetting}>
-                        {bannerCollectionData?.bannerentity && bannerCollectionData.bannerentity.map(banner => {
-                            const {subtitle, title, content, banneritemcta, theme, bynderimage} = banner
-                            const repoImageLink = banner?.image && page.getContent<ImageSet>(banner.image)?.getOriginal()?.getUrl();
-                            const bynderImg = bynderimage ? JSON.parse(bynderimage)[0]?.derivatives?.webImage : undefined
-                            const imageLink = bynderImg ?? repoImageLink;
-                            const {text: ctaText, link: ctaLink, style: ctaStyle} = banneritemcta;
-                            const link = ctaLink && page.getContent<Content>(ctaLink)?.getUrl();
-                            return (
-                                <div style={{minHeight: 200}} className={`banner ${items === 1 ? 'banner-big' : ''}`}>
-                                    {imageLink && <ALink href={link ?? '#'}>
-                                        <img src={imageLink} alt={'banner'}/>
-                                    </ALink>}
-                                    <div className="banner-content">
-                                        <h4 className={`banner-subtitle ${theme === 'light' ? 'text-primary' : ''}`}>{subtitle}</h4>
-                                        <h3 className={`banner-title ${theme === 'light' ? 'text-white' : ''}`}>{title}</h3>
-                                        {content?.value.length > 0 && <div className="d-none d-lg-block"
-                                                                           dangerouslySetInnerHTML={{__html: content.value}}/>}
-                                        <ALink href={link ?? '#'}
-                                               className={`${ctaStyle === 'link' ? "banner-link" : "btn btn-primary btn-rounded"}`}>{ctaText}</ALink>
-                                    </div>
-                                </div>)
-                        })}
-                    </OwlCarousel>
-                    :
-                    bannerCollectionData?.bannerentity && bannerCollectionData.bannerentity.map(banner => {
+                {style === 'carousel' &&
+                <OwlCarousel adClass={`owl-simple ${items === 1 ? 'owl-nav-inside' : ''}`} options={sliderSetting}>
+                    {bannerCollectionData?.bannerentity && bannerCollectionData.bannerentity.map(banner => {
                         const {subtitle, title, content, banneritemcta, theme, bynderimage} = banner
                         const repoImageLink = banner?.image && page.getContent<ImageSet>(banner.image)?.getOriginal()?.getUrl();
                         const bynderImg = bynderimage ? JSON.parse(bynderimage)[0]?.derivatives?.webImage : undefined
-                        const imageLink = bynderImg ?? repoImageLink
+                        const imageLink = bynderImg ?? repoImageLink;
                         const {text: ctaText, link: ctaLink, style: ctaStyle} = banneritemcta;
                         const link = ctaLink && page.getContent<Content>(ctaLink)?.getUrl();
                         return (
-                            <div className={columnClassName}>
-                                <div style={{minHeight: 200}} className={`banner ${style === 'large' ? "banner-big" : ""}`}>
-                                    {imageLink && <ALink href={link ?? '#'}>
-                                        <img src={imageLink} alt={'banner'}/>
-                                    </ALink>}
-
-                                    <div className="banner-content">
-                                        <h4 className={`banner-subtitle ${theme === 'light' ? 'text-primary' : ''}`}>{subtitle}</h4>
-                                        <h3 className={`banner-title ${theme === 'light' ? 'text-white' : ''}`}>{title}</h3>
-                                        {content?.value.length > 0 &&
-                                        <div className={`d-none d-lg-block ${theme === 'light' ? 'content-white' : ''}`}
-                                             dangerouslySetInnerHTML={{__html: content.value}}/>}
-                                        <ALink href={link ?? '#'}
-                                               className={`${ctaStyle === 'link' ? "banner-link" : "btn btn-primary btn-rounded"}`}>{ctaText}</ALink>
-                                    </div>
+                            <div style={{minHeight: 200}} className={`banner ${items === 1 ? 'banner-big' : ''}`}>
+                                {imageLink && <ALink href={link ?? '#'}>
+                                    <img src={imageLink} alt={'banner'}/>
+                                </ALink>}
+                                <div className="banner-content">
+                                    <h4 className={`banner-subtitle ${theme === 'light' ? 'text-primary' : ''}`}>{subtitle}</h4>
+                                    <h3 className={`banner-title ${theme === 'light' ? 'text-white' : ''}`}>{title}</h3>
+                                    {content?.value.length > 0 && <div className="d-none d-lg-block"
+                                                                       dangerouslySetInnerHTML={{__html: content.value}}/>}
+                                    <ALink href={link ?? '#'}
+                                           className={`${ctaStyle === 'link' ? "banner-link" : "btn btn-primary btn-rounded"}`}>{ctaText}</ALink>
                                 </div>
                             </div>)
                     })}
+                </OwlCarousel>}
+                {(style === 'default' || style === 'large') &&
+                bannerCollectionData?.bannerentity && bannerCollectionData.bannerentity.map(banner => {
+                    const {subtitle, title, content, banneritemcta, theme, bynderimage} = banner
+                    const repoImageLink = banner?.image && page.getContent<ImageSet>(banner.image)?.getOriginal()?.getUrl();
+                    const bynderImg = bynderimage ? JSON.parse(bynderimage)[0]?.derivatives?.webImage : undefined
+                    const imageLink = bynderImg ?? repoImageLink
+                    const {text: ctaText, link: ctaLink, style: ctaStyle} = banneritemcta;
+                    const link = ctaLink && page.getContent<Content>(ctaLink)?.getUrl();
+                    return (
+                        <div className={columnClassName}>
+                            <div style={{minHeight: 200}} className={`banner ${style === 'large' ? "banner-big" : ""}`}>
+                                {imageLink && <ALink href={link ?? '#'}>
+                                    <img src={imageLink} alt={'banner'}/>
+                                </ALink>}
+
+                                <div className="banner-content">
+                                    <h4 className={`banner-subtitle ${theme === 'light' ? 'text-primary' : ''}`}>{subtitle}</h4>
+                                    <h3 className={`banner-title ${theme === 'light' ? 'text-white' : ''}`}>{title}</h3>
+                                    {content?.value.length > 0 &&
+                                    <div className={`d-none d-lg-block ${theme === 'light' ? 'content-white' : ''}`}
+                                         dangerouslySetInnerHTML={{__html: content.value}}/>}
+                                    <ALink href={link ?? '#'}
+                                           className={`${ctaStyle === 'link' ? "banner-link" : "btn btn-primary btn-rounded"}`}>{ctaText}</ALink>
+                                </div>
+                            </div>
+                        </div>)
+                })}
+                {style === 'badge' &&
+                bannerCollectionData?.bannerentity && bannerCollectionData.bannerentity.map(banner => {
+                    const {subtitle, title, content, banneritemcta, theme, bynderimage} = banner
+                    const repoImageLink = banner?.image && page.getContent<ImageSet>(banner.image)?.getOriginal()?.getUrl();
+                    const bynderImg = bynderimage ? JSON.parse(bynderimage)[0]?.derivatives?.webImage : undefined
+                    const imageLink = bynderImg ?? repoImageLink
+                    const {text: ctaText, link: ctaLink, style: ctaStyle} = banneritemcta;
+                    const link = ctaLink && page.getContent<Content>(ctaLink)?.getUrl();
+                    return (
+                        <div className={columnClassName}>
+                            <div style={{minHeight: 200}} className={`banner`}>
+                                {imageLink && <ALink href={link ?? '#'}>
+                                    <img style={{maxHeight: 180}} src={imageLink} alt={'banner'}/>
+                                </ALink>}
+
+                                <div className="banner-content banner-content-static text-center">
+                                    <h4 className={`banner-subtitle ${theme === 'light' ? 'text-primary' : ''}`}>{subtitle}</h4>
+                                    <h3 className={`banner-title ${theme === 'light' ? 'text-white' : ''}`}>{title}</h3>
+                                    {content?.value.length > 0 &&
+                                    <div
+                                        className={`banner-html d-none d-lg-block ${theme === 'light' ? 'content-white' : ''}`}
+                                        dangerouslySetInnerHTML={{__html: content.value}}/>}
+                                    <ALink href={link ?? '#'}
+                                           className={`${ctaStyle === 'link' ? "banner-link" : "btn btn-primary btn-rounded"}`}>{ctaText}</ALink>
+                                </div>
+                            </div>
+                        </div>)
+                })}
             </div>
         </div>
     )

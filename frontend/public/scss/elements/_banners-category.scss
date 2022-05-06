@@ -64,39 +64,39 @@
 	bottom: auto;
 	transform: translateY(0);
 	-ms-transform: translateY(0);
-	transition: all .3s ease;
+	//transition: all .3s ease;
 
-	.banner-subtitle {
-		transition: all .25s ease;
-		margin-bottom: .9rem;
-	}
+	//.banner-subtitle {
+	//	transition: all .25s ease;
+	//	margin-bottom: .9rem;
+	//}
 
-	.banner-link {
-		opacity: 0;
-		position: absolute;
-		bottom: 19px;
-		left: 0;
-		right: 0;
-		transition: all .3s ease;
-		transform: translateY(30px);
-		-ms-transform: translateY(30px);
-	}
+	//.banner-link {
+	//	opacity: 0;
+	//	position: absolute;
+	//	bottom: 19px;
+	//	left: 0;
+	//	right: 0;
+	//	transition: all .3s ease;
+	//	transform: translateY(30px);
+	//	-ms-transform: translateY(30px);
+	//}
 }
 
 .banner:hover {
-	.banner-content-static {
-		background-color: rgba(255, 255, 255, 1);
-
-		.banner-subtitle {
-			opacity: 0;
-		}
-
-		.banner-link {
-			opacity: 1;
-			transform: translateY(0);
-			-ms-transform: translateY(0);
-		}
-	}
+	//.banner-content-static {
+	//	background-color: rgba(255, 255, 255, 1);
+	//
+	//	.banner-subtitle {
+	//		opacity: 0;
+	//	}
+	//
+	//	.banner-link {
+	//		opacity: 1;
+	//		transform: translateY(0);
+	//		-ms-transform: translateY(0);
+	//	}
+	//}
 }
 
 .banner-content {
