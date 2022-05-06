@@ -484,7 +484,7 @@
                             <configuration>
                                 <configfiles>
                                     <configfile>
-                                        <file>${project.basedir}/conf/context.xml</file>
+                                        <file>${project.basedir}/conf/context-docker.xml</file>
                                         <todir>conf/</todir>
                                         <tofile>context.xml</tofile>
                                     </configfile>
