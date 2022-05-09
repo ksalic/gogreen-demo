@@ -10,13 +10,21 @@
 .footer {
     background-color: #3e4e58 !important;
 }
+.main-nav{
+    margin-left: 0 !important;
+}
+nav.main-nav ul.menu li{
+    margin-right: 15px;
+}
 nav.main-nav ul.menu li a{
-    background-color: #3e4e58;
     display: block;
     padding: 1.2rem;
-    color: white;
     font-weight: 600 !important;
     font-size: 1.5rem;
+}
+nav.main-nav ul.menu li.active a{
+    background-color: #3e4e58;
+    color: white;
     border-radius: 10px;
 }
 .main-nav{

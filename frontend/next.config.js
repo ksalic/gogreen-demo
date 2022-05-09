@@ -10,4 +10,18 @@ module.exports = {
         locales: ['en-nl', 'nl-nl'],
         defaultLocale: 'nl-nl',
     },
+    async rewrites() {
+        return [
+            {
+                source: '/en-nl/sitemap.xml',
+                destination: 'http://sitemap.boels.bloomreach.works/site/en-nl/sitemap.xml',
+                locale: false
+            },
+            {
+                source: '/sitemap.xml',
+                destination: 'http://sitemap.boels.bloomreach.works/site/sitemap.xml',
+            },
+
+        ]
+    },
 }

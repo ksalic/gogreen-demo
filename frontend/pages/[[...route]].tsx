@@ -13,6 +13,7 @@ import {XPage} from "../components/types/content";
 import useScript from "../components/cms/utils/UseScript";
 import {TwoColumnLayout} from "../components/layouts/two-column-layout";
 import {ProductCollection} from "../components/cms/ProductCollection";
+import {ContentLayout} from "../components/layouts/content-layout";
 
 export const getServerSideProps: GetServerSideProps = async ({
                                                                  req: request,
@@ -62,7 +63,8 @@ const components = {
 
 const layouts = {
     'one-column': OneColumnLayout,
-    'two-column': TwoColumnLayout
+    'two-column': TwoColumnLayout,
+    'content': ContentLayout
 };
 
 export default function Index({
