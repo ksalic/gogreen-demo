@@ -11,7 +11,9 @@ export function ContentLayout(): JSX.Element | null {
                 <BrComponent path={'main'}>
                     <ContentComponent/>
                 </BrComponent>
-                <BrComponent path={'container'}/>
+                <div>
+                    <BrComponent path={'container'}/>
+                </div>
             </div>
         </BaseLayout>
     );
