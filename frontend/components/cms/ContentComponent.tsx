@@ -1,4 +1,4 @@
-import {BrPageContext} from '@bloomreach/react-sdk';
+import {BrManageContentButton, BrPageContext} from '@bloomreach/react-sdk';
 import React from "react";
 import PageHeader from "../features/page-header";
 import {Content} from "@bloomreach/spa-sdk";
@@ -37,7 +37,8 @@ export function ContentComponent(): JSX.Element | null {
     return (
         <>
             <PageHeader title={title} subTitle={subtitle}/>
-            <div className="page-content my-5">
+            <div className="page-content my-5 position-relative">
+                <BrManageContentButton content={content}/>
                 <div className="container">
                     <div dangerouslySetInnerHTML={{__html: html.value}}/>
                 </div>
