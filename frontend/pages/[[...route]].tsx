@@ -18,9 +18,15 @@ export const getServerSideProps: GetServerSideProps = async ({
                                                                  req: request,
                                                                  res: response,
                                                                  resolvedUrl: path,
-                                                                 query
+                                                                 query,
+                                                                 locale,
+                                                                 locales
                                                              }) => {
     relevance(request, response);
+
+    // console.log('env', )
+    // console.log('locale', locale)
+    // console.log('locales', locales)
 
     const endpoint = query.endpoint
 
@@ -33,7 +39,7 @@ export const getServerSideProps: GetServerSideProps = async ({
 
     const configuration = {
         path,
-        endpoint: endpoint ?? process.env.BRXM_ENDPOINT,
+        endpoint: endpoint ?? process.env['BRXM_ENDPOINT_' + locale],
         endpointQueryParameter: 'endpoint',
     };
     const page = await initialize({...configuration, request, httpClient: axios.create(axiosConfig)});
