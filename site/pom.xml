@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Copyright 2010-2021 Hippo B.V. (http://www.onehippo.com)
--->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+--><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -164,6 +163,22 @@
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-addon-urlrewriter-module-hst</artifactId>
     </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-crisp-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-crisp-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-crisp-hst</artifactId>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -172,7 +187,6 @@
 
     <resources>
       <resource>
-        <filtering>false</filtering>
         <directory>src/main/java</directory>
         <includes>
           <include>**</include>
@@ -183,7 +197,6 @@
       </resource>
       <resource>
         <directory>src/main/resources</directory>
-        <filtering>false</filtering>
         <includes>
           <include>**</include>
         </includes>
